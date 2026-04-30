@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/>
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Project Proposal, Yorke Rhodes III</title>
+<style>
+:root{
+  --crimson:#A41034;
+  --navy:#1B2A4E;
+  --ink:#1a1a1a;
+  --muted:#5a5a5a;
+  --paper:#fbf9f5;
+  --line:#e3ddd2;
+  --gold:#b08a3e;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--paper);color:var(--ink);
+  font-family:"Helvetica Neue",Arial,sans-serif;line-height:1.55;font-size:15px}
+h1,h2,h3,h4{font-family:Georgia,"Times New Roman",serif;color:var(--navy);margin:0 0 .4em}
+h1{font-size:2.2rem;line-height:1.15;color:#fff}
+h2{font-size:1.45rem;border-bottom:2px solid var(--crimson);padding-bottom:.25em;margin:1.4em 0 .6em}
+h3{font-size:1.08rem;color:var(--crimson);margin:1.1em 0 .4em}
+a{color:var(--crimson);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1000px;margin:0 auto;padding:0 28px}
+header.hero{background:linear-gradient(135deg,var(--navy) 0%,#0f1a33 100%);
+  color:#fff;padding:40px 0 32px;border-bottom:6px solid var(--crimson);position:relative}
+.eyebrow{letter-spacing:.18em;text-transform:uppercase;font-size:.75rem;color:var(--gold);margin-bottom:8px}
+.tagline{color:#d8d8d8;font-size:1.02rem;margin:.2em 0 1em}
+.spine{font-family:Georgia,serif;font-style:italic;font-size:1.2rem;border-left:3px solid var(--gold);padding-left:14px;color:#fff;max-width:680px}
+.subtitle{color:#d8d8d8;font-size:1rem;margin:.2em 0 0}
+.chip{display:inline-block;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);color:#fff;font-size:.75rem;padding:3px 10px;border-radius:99px;margin-top:10px;letter-spacing:.05em}
+.contact{color:#cfd6e6;font-size:.9rem;margin-top:6px}
+.printbtn{position:absolute;top:14px;right:14px;background:var(--crimson);color:#fff;border:0;padding:7px 12px;border-radius:4px;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;cursor:pointer}
+.printbtn:hover{background:#7d0c28}
+.hero-grid{display:grid;grid-template-columns:1.4fr .9fr;gap:32px;align-items:start}
+.quickfacts{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:8px;padding:18px 20px;font-size:.92rem;color:#eaeaea}
+.quickfacts h4{color:var(--gold);margin:0 0 8px;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase}
+.quickfacts ul{margin:0;padding-left:18px}
+.quickfacts li{margin:4px 0}
+nav.sticky{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line);z-index:50}
+nav.sticky .wrap{display:flex;flex-wrap:wrap;gap:16px;padding:10px 28px;font-size:.85rem}
+nav.sticky a{color:var(--navy);font-weight:600}
+section{padding:36px 0;border-bottom:1px solid var(--line)}
+section.no-border{border-bottom:0}
+section p{max-width:820px}
+.lead{font-size:1.03rem;color:#222;max-width:820px}
+.positioning{font-style:italic;color:var(--navy);border-left:3px solid var(--gold);padding:6px 14px;margin:14px 0 4px;background:#fff;font-size:.98rem}
+.italic-note{font-style:italic;color:var(--muted);font-size:.92rem}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:14px}
+.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:14px}
+.card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:18px;transition:all .2s ease}
+.card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(27,42,78,.08)}
+.card h3{margin-top:0}
+.tag{display:inline-block;background:var(--paper);border:1px solid var(--line);color:var(--muted);font-size:.72rem;padding:2px 8px;border-radius:99px;margin:2px 4px 2px 0;text-transform:uppercase;letter-spacing:.08em}
+.tag.crimson{background:var(--crimson);color:#fff;border-color:var(--crimson)}
+.minicard{background:#fff;border:1px solid var(--line);border-radius:6px;padding:10px 12px;font-size:.92rem}
+.minicard b{color:var(--navy)}
+table{width:100%;border-collapse:collapse;margin-top:14px;background:#fff;border:1px solid var(--line)}
+th,td{padding:11px 13px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line);font-size:.94rem}
+th{background:var(--navy);color:#fff;font-family:Georgia,serif;font-weight:600;letter-spacing:.04em}
+tr:last-child td{border-bottom:0}
+tr:nth-child(even) td{background:#fcfaf6}
+sup.fn{color:var(--crimson);font-weight:700;font-size:.75em;cursor:help}
+.footnotes{font-size:.86rem;color:var(--muted);max-width:820px}
+.footnotes ol{padding-left:20px}
+ul,ol{padding-left:22px;margin:.4em 0 1em}
+li{margin:.25em 0}
+footer.foot{margin-top:30px;padding:18px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem;text-align:center}
+footer.dark{background:var(--navy);color:#cfd6e6;padding:28px 0;font-size:.9rem;text-align:center;border-top:0}
+footer.dark a{color:#fff}
+@page{size:Letter;margin:0.6in}
+@media print{
+  nav.sticky,.printbtn{display:none}
+  body{background:#fff;color:#000}
+  header.hero{background:#fff !important;color:#000 !important;border-bottom:3px solid #000;padding:14px 0 10px}
+  header.hero h1,.spine,.subtitle,.tagline,.contact,.eyebrow{color:#000 !important}
+  .quickfacts{background:#fff;color:#000;border:1px solid #888}
+  .quickfacts h4{color:#000}
+  .chip{background:#fff;color:#000;border:1px solid #000}
+  .positioning{background:#fff;border-left:3px solid #000;color:#000}
+  .card,.minicard{break-inside:avoid;border:1px solid #888}
+  section{break-inside:avoid;padding:8px 0}
+  th{background:#000;color:#fff}
+  a{color:#000;text-decoration:underline}
+  footer.dark{background:#fff;color:#000;border-top:1px solid #000}
+}
+@media (max-width:780px){
+  .hero-grid,.grid-3,.grid-2{grid-template-columns:1fr}
+  h1{font-size:1.8rem}
+}
+
+.wrap{max-width:860px}
+h1{font-size:2.0rem}
+</style>
+</head><body>
+
+<header class="hero">
+  <button class="printbtn" onclick="window.print()">Print to PDF</button>
+  <div class="wrap">
+    <div class="eyebrow">Nova Fellowship · Proposed Area of Focus &amp; Output</div>
+    <h1>Trustworthy Agentic Systems for Geopolitics</h1>
+    <div class="subtitle">Verifiable Compute · Agentic Commerce · AI-Mediated Diplomacy</div>
+    <div class="chip">~430 words</div>
+  </div>
+</header>
+
+<main class="wrap">
+<section>
+<h3>Problem.</h3>
+<p>Three families of emerging technology are converging faster than the policy frameworks meant to govern them: (1) AI agents that negotiate and transact autonomously; (2) blockchain-based payment and attestation rails, notably the x402 protocol, that settle value at machine speed and machine granularity; and (3) digital-twin systems whose simulation outputs increasingly inform high-stakes public and private decisions. ETSAGP's leadership has named the underlying gap: there is no shared T&amp;E vocabulary for systems designed to evolve in the wild, and no shared information-science framing across blockchain, encryption, and AI for the policymakers who must govern them.</p>
+
+<h3>Hypothesis.</h3>
+<p>Treating these technologies as information-science primitives, rather than as products or sectors, yields a more durable governance vocabulary, a tractable T&amp;E roadmap, and a concrete bridge to live ETSAGP initiatives (Move37, AI+X+G, the Year-2 critical-supply-chains workstream).</p>
+
+<h3>Deliverables, one arc, three artifacts.</h3>
+<ol>
+  <li><strong>Policy primer / working paper,</strong> "Information-Science Foundations for Emerging-Tech Governance." ~8,000 words; co-publishable as an ETSAGP working paper. Names blockchain, verifiable compute, and agentic-commerce rails as information-science primitives; maps each to existing T&amp;E, attestation, and disclosure regimes; identifies the highest-leverage policy interventions for the next 24 months.</li>
+  <li><strong>Move37-aligned reference architecture + working demo,</strong> "From Diplomacy Table to Doctrine." A documented reference architecture for AI-augmented multilateral negotiation integrating linguistic and non-linguistic agents, with a working demo for HKS students and Move37 collaborators, including a five-round multi-team simulation of the <strong>2026 Iran–US Strait of Hormuz crisis</strong> already run on the platform. Includes guardrails, provenance, and auditability patterns transferable to mediation, treaty drafting, and crisis communications. <em>Live demo: <a href="https://[portfolio-host]/nova/diplomacy-table">[portfolio-host]/nova/diplomacy-table</a>.</em></li>
+  <li><strong>Convening,</strong> "Critical Supply Chains in the Agentic Era." A one-day workshop co-hosted with the Year-2 supply-chain workstream and AI+X+G; ~30 participants from Microsoft, NYU, HKS, Coinbase, and US federal practitioners (UFLPA/NDAA). Output: a structured policy-recommendations memo plus a published convening summary.</li>
+</ol>
+
+<h3>Method.</h3>
+<p>I will work primarily out of my Microsoft and NYU programs of record, using the Microsoft Company-wide Traceability Program, the Supplychain Graph, DTFS, and the Diplomacy Table as live case material, and translate them into Belfer-grade artifacts in close collaboration with Move37 leads, AI+X+G fellows, the supply-chain workstream, and a designated faculty co-author where appropriate. Preliminary scoping conversations with members of the Move37 working group and AI+X+G fellows have already informed the deliverables proposed above.</p>
+
+<h3>Why Belfer, and why Nova specifically.</h3>
+<p>The Belfer Center provides three things this work needs and cannot get elsewhere: faculty proximity at the AI / negotiation / governance triple-point (Move37, AI+X+G, the SEAS faculty research awards on AI trade policy and grid-connected compute); a credible publication and convening surface for policy-relevant artifacts that need to land with both governments and operators; and a graduate student talent pool that will pressure-test reference architectures the way no industry working group can. Nova specifically, rather than the Technology &amp; Geopolitics Fellowship, is the right home for this submission because the work is led by a senior practitioner translating shipped systems into policy artifacts, the exact role Nova was designed to fill; the T&amp;G track is the right home for the early-career collaborators I would mentor on the Year-2 supply-chain convening.</p>
+
+<h3>Microsoft IP, conflicts, and disclosure.</h3>
+<p>The proposed working paper, reference architecture, and convening have been scoped to respect Microsoft's IP, public-disclosure, and conflict-of-commitment obligations. Approximately 70% of the working paper is publishable as-is from public Microsoft references, EEA / x402 Foundation materials, and existing academic literature; the remaining material that touches Microsoft Traceability Program internals will be treated synthetically or routed through CELA and Microsoft Communications review on a published timeline. The Diplomacy Table reference architecture is built on the open-source DTFS / TwinForge stack and is publishable in full. I will comply with Harvard's conflict-of-interest, conflict-of-commitment, IP, and public-disclosure policies as required by the Nova program.</p>
+
+<h3>Risks &amp; mitigations.</h3>
+<ul>
+  <li><strong>Microsoft IP review timing.</strong> Mitigation: parallel-track the publishable 70% of the working paper while CELA reviews the remaining 30%; have a synthetic-case fallback ready.</li>
+  <li><strong>Move37 first-paper authorship circle already closed.</strong> Mitigation: the Diplomacy Table deliverable is positioned as a complementary reference architecture and demo, not a competing paper, and is co-publishable as an ETSAGP working paper independently.</li>
+  <li><strong>Microsoft re-org affecting the Traceability Program mid-term.</strong> Mitigation: case-study material is already documented through completed program milestones; convening and working-paper outputs do not depend on continued day-to-day program access.</li>
+</ul>
+
+<h3>Term &amp; Cambridge presence.</h3>
+<p>Six months part-time, September 2026 – February 2027. Approximately two weeks per month on campus during October, November, and January, comfortably exceeding the 30% on-campus requirement. New York-to-Cambridge logistics are straightforward; my employer is supportive.</p>
+
+<h3>Companion materials.</h3>
+<p>A Nova Fellowship Portfolio microsite extends this submission with live demos and an alignment map; per the Belfer Fellowships FAQ it is offered as supporting context only. <a href="https://[portfolio-host]/nova">[portfolio-host]/nova</a> · Diplomacy Table: <a href="https://[portfolio-host]/nova/diplomacy-table">/diplomacy-table</a> · Ethical Tech Summit archive: <a href="https://[portfolio-host]/nova/ethical-tech-summit">/ethical-tech-summit</a> · AI for Academic Research: <a href="https://[portfolio-host]/nova/ai-for-academic-research">/ai-for-academic-research</a>.</p>
+
+<h3>Success criteria.</h3>
+<ul>
+  <li>Working paper accepted into the ETSAGP publication stream.</li>
+  <li>Diplomacy Table demo run for at least one HKS course or Move37 working session.</li>
+  <li>Convening held with ≥30 cross-sector participants and a published recommendations memo.</li>
+  <li>Clean handoff to ETSAGP staff and Tech &amp; Geopolitics Fellows so the work continues after the term.</li>
+</ul>
+</section>
+</main>
+
+<footer class="foot">Prepared for the Belfer Center Nova Fellowship · Inaugural Cohort 2026</footer>
+</body></html>

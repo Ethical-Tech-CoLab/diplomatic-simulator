@@ -71,19 +71,15 @@ footer.dark{background:var(--navy);color:#cfd6e6;padding:28px 0;font-size:.9rem;
 footer.dark a{color:#fff}
 @page{size:Letter;margin:0.6in}
 @media print{
+  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;color-adjust:exact !important}
   nav.sticky,.printbtn{display:none}
-  body{background:#fff;color:#000}
-  header.hero{background:#fff !important;color:#000 !important;border-bottom:3px solid #000;padding:14px 0 10px}
-  header.hero h1,.spine,.subtitle,.tagline,.contact,.eyebrow{color:#000 !important}
-  .quickfacts{background:#fff;color:#000;border:1px solid #888}
-  .quickfacts h4{color:#000}
-  .chip{background:#fff;color:#000;border:1px solid #000}
-  .positioning{background:#fff;border-left:3px solid #000;color:#000}
-  .card,.minicard{break-inside:avoid;border:1px solid #888}
-  section{break-inside:avoid;padding:8px 0}
-  th{background:#000;color:#fff}
-  a{color:#000;text-decoration:underline}
-  footer.dark{background:#fff;color:#000;border-top:1px solid #000}
+  body{background:#fff}
+  header.hero{padding:24px 0 20px;break-after:avoid;page-break-after:avoid}
+  header.hero h1{color:#fff !important}
+  .card,.minicard{break-inside:avoid}
+  section{padding:14px 0}
+  section>h2:first-child,section>h3:first-child,section>p:first-child{break-after:avoid;page-break-after:avoid}
+  a{color:var(--crimson);text-decoration:underline}
 }
 @media (max-width:780px){
   .hero-grid,.grid-3,.grid-2{grid-template-columns:1fr}
@@ -121,7 +117,7 @@ h1{font-size:2.0rem}
 </ol>
 
 <h3>Method.</h3>
-<p>I will work primarily out of my Microsoft and NYU programs of record, using the Microsoft Company-wide Traceability Program, the Supplychain Graph, DTFS, and the Diplomacy Table as live case material, and translate them into Belfer-grade artifacts in close collaboration with Move37 leads, AI+X+G fellows, the supply-chain workstream, and a designated faculty co-author where appropriate. Preliminary scoping conversations with members of the Move37 working group and AI+X+G fellows have already informed the deliverables proposed above.</p>
+<p>I will work primarily out of my Microsoft and NYU programs of record, using the Microsoft Company-wide Traceability Program, the Supplychain Graph, DTFS, and the Diplomacy Table as live case material, and translate them into Belfer-grade artifacts in close collaboration with Move37 leads, AI+X+G fellows, the supply-chain workstream, and a designated faculty co-author where appropriate. Preliminary scoping conversations with members of the Move37 working group and AI+X+G fellows can begin now to inform the deliverables proposed above.</p>
 
 <h3>Term &amp; Cambridge presence.</h3>
 <p>Six months part-time, September 2026 – February 2027. Approximately two weeks per month on campus during October, November, and January, comfortably exceeding the 30% on-campus requirement. New York-to-Cambridge logistics are straightforward; my employer is supportive.</p>

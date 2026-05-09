@@ -49,6 +49,14 @@ th,td{padding:11px 13px;text-align:left;vertical-align:top;border-bottom:1px sol
 th{background:var(--navy);color:#fff;font-family:Georgia,serif;font-weight:600;letter-spacing:.04em}
 tr:last-child td{border-bottom:0}
 tr:nth-child(even) td{background:#fcfaf6}
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:14px}
+.gallery a,.gallery .tile{display:block;position:relative;aspect-ratio:4/3;border-radius:6px;overflow:hidden;border:1px solid var(--line);background:#0f1a33;text-decoration:none}
+.gallery a:hover{box-shadow:0 8px 24px rgba(27,42,78,.12);transform:translateY(-2px);transition:all .2s ease}
+.gallery img,.gallery video{width:100%;height:100%;object-fit:cover;display:block}
+.gallery .ph{display:flex;align-items:center;justify-content:center;width:100%;height:100%;background:linear-gradient(135deg,#1B2A4E 0%,#0f1a33 100%);color:#cfd6e6;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;text-align:center;padding:8px;font-family:Georgia,serif}
+.gallery figcaption{position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top,rgba(0,0,0,.78),rgba(0,0,0,0));color:#fff;font-size:.72rem;padding:18px 8px 6px;letter-spacing:.04em}
+.gallery .play-badge{position:absolute;top:8px;right:8px;background:rgba(164,16,52,.92);color:#fff;font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;padding:3px 8px;border-radius:99px;font-family:"Helvetica Neue",Arial,sans-serif;font-weight:600}
+@media (max-width:780px){.gallery{grid-template-columns:repeat(2,1fr)}}
 ul,ol{padding-left:22px;margin:.4em 0 1em}
 li{margin:.25em 0}
 footer.foot{margin-top:30px;padding:18px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem;text-align:center}
@@ -86,7 +94,7 @@ footer.foot{margin-top:30px;padding:18px 0;border-top:1px solid var(--line);colo
 <section>
   <div class="wrap">
     <h2>About</h2>
-    <p class="lead">The Ethical Tech Summit is the public-facing capstone of the graduate course <em>Harnessing Emerging Technology in Ethical Sourcing</em> at the NYU SPS Center for Global Affairs. Each semester, students, technologists, and policy practitioners gather for a working day of applied research, demos, and structured dialog on the live boundary between emerging technology and global affairs.</p>
+    <p class="lead">The Ethical Tech Summit is the public-facing capstone of the graduate course <em>Harnessing Emerging Technology in Ethical Sourcing</em> at the NYU SPS Center for Global Affairs. Each semester, the Ethical Tech CoLab hosts students, technologists, and policy practitioners for a Summit and Hackathon focused on applied research, demos, and structured dialog on the live boundary between emerging technology and global affairs.</p>
     <p>Recurring threads include: agentic systems and the future of work; verifiable supply chains under UFLPA / NDAA; online grooming and platform safety; forced labor and human trafficking; and micropayment rails for vulnerable populations and creator economies.</p>
   </div>
 </section>
@@ -143,6 +151,34 @@ footer.foot{margin-top:30px;padding:18px 0;border-top:1px solid var(--line);colo
       <div class="card"><h3>Industry</h3><p>Microsoft Traceability &amp; Tech for Fundamental Rights; Coinbase &amp; x402 Foundation; standards leaders on verifiable credentials.</p></div>
       <div class="card"><h3>Academic</h3><p>NYU SPS Center for Global Affairs; visiting practitioners and faculty from policy schools working on tech &amp; geopolitics.</p></div>
     </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Media &amp; Moments</h2>
+    <p class="lead">A visual sampler from past Summits and Hackathons, panels, student demos, partner roundtables, and the convening floor. Click any thumbnail for the full-size image.</p>
+    <div class="gallery">
+      <a href="media/summit/speaker-card-amanda-lindsey%20(1).jpg" title="Speaker · Amanda Lindsey"><figure><img src="media/summit/speaker-card-amanda-lindsey%20(1).jpg" alt="Speaker card, Amanda Lindsey" loading="lazy"><figcaption>Speaker · Amanda Lindsey</figcaption></figure></a>
+      <a href="media/summit/speaker-card-deborah-berebichez%20(1).jpg" title="Speaker · Deborah Berebichez"><figure><img src="media/summit/speaker-card-deborah-berebichez%20(1).jpg" alt="Speaker card, Deborah Berebichez" loading="lazy"><figcaption>Speaker · Deborah Berebichez</figcaption></figure></a>
+      <a href="media/summit/speaker-card-ruchira-gupta%20(1).jpg" title="Speaker · Ruchira Gupta"><figure><img src="media/summit/speaker-card-ruchira-gupta%20(1).jpg" alt="Speaker card, Ruchira Gupta" loading="lazy"><figcaption>Speaker · Ruchira Gupta</figcaption></figure></a>
+      <a href="media/summit/IMG_6459.MOV" title="Summit highlight reel">
+        <figure>
+          <video src="media/summit/IMG_6459.MOV" muted playsinline preload="metadata" poster="media/summit/IMG_8467%20(1).JPG"></video>
+          <span class="play-badge">▶ Video</span>
+          <figcaption>Summit highlight reel</figcaption>
+        </figure>
+      </a>
+      <a href="media/summit/IMG_8467%20(1).JPG" title="Summit floor"><figure><img src="media/summit/IMG_8467%20(1).JPG" alt="Summit floor" loading="lazy"><figcaption>Summit floor</figcaption></figure></a>
+      <a href="media/summit/IMG_8476.JPG" title="Working session"><figure><img src="media/summit/IMG_8476.JPG" alt="Working session" loading="lazy"><figcaption>Working session</figcaption></figure></a>
+      <a href="media/summit/IMG_8625.JPG" title="Panel discussion"><figure><img src="media/summit/IMG_8625.JPG" alt="Panel discussion" loading="lazy"><figcaption>Panel discussion</figcaption></figure></a>
+      <a href="media/summit/IMG_8675.JPG" title="Student demo"><figure><img src="media/summit/IMG_8675.JPG" alt="Student demo" loading="lazy"><figcaption>Student demo</figcaption></figure></a>
+      <a href="media/summit/IMG_8777.JPG" title="Hackathon"><figure><img src="media/summit/IMG_8777.JPG" alt="Hackathon" loading="lazy"><figcaption>Hackathon</figcaption></figure></a>
+      <a href="media/summit/IMG_8827.JPG" title="Convening"><figure><img src="media/summit/IMG_8827.JPG" alt="Convening" loading="lazy"><figcaption>Convening</figcaption></figure></a>
+      <a href="media/summit/WhatsApp%20Image%202026-03-12%20at%201.10.32%20PM%20(1).jpeg" title="Summit moment"><figure><img src="media/summit/WhatsApp%20Image%202026-03-12%20at%201.10.32%20PM%20(1).jpeg" alt="Summit moment" loading="lazy"><figcaption>Summit moment</figcaption></figure></a>
+      <a href="media/summit/WhatsApp%20Image%202026-03-12%20at%202.28.37%20PM%20(1).jpeg" title="Summit moment"><figure><img src="media/summit/WhatsApp%20Image%202026-03-12%20at%202.28.37%20PM%20(1).jpeg" alt="Summit moment" loading="lazy"><figcaption>Summit moment</figcaption></figure></a>
+    </div>
+    <p class="meta" style="margin-top:14px">Captions are placeholders, easy to refine. The .MOV opens in a new tab on click; for in-page playback in all browsers, transcode to .MP4 (H.264 + AAC).</p>
   </div>
 </section>
 

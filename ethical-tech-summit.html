@@ -49,14 +49,25 @@ th,td{padding:11px 13px;text-align:left;vertical-align:top;border-bottom:1px sol
 th{background:var(--navy);color:#fff;font-family:Georgia,serif;font-weight:600;letter-spacing:.04em}
 tr:last-child td{border-bottom:0}
 tr:nth-child(even) td{background:#fcfaf6}
-.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:14px}
-.gallery a,.gallery .tile{display:block;position:relative;aspect-ratio:4/3;border-radius:6px;overflow:hidden;border:1px solid var(--line);background:#0f1a33;text-decoration:none}
-.gallery a:hover{box-shadow:0 8px 24px rgba(27,42,78,.12);transform:translateY(-2px);transition:all .2s ease}
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:14px}
+.gallery a,.gallery .tile{display:block;position:relative;aspect-ratio:4/3;border-radius:6px;overflow:hidden;border:1px solid var(--line);background:#0f1a33;text-decoration:none;cursor:zoom-in}
+.gallery a:hover{box-shadow:0 8px 24px rgba(27,42,78,.18);transform:translateY(-2px);transition:all .2s ease}
 .gallery img,.gallery video{width:100%;height:100%;object-fit:cover;display:block}
-.gallery .ph{display:flex;align-items:center;justify-content:center;width:100%;height:100%;background:linear-gradient(135deg,#1B2A4E 0%,#0f1a33 100%);color:#cfd6e6;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;text-align:center;padding:8px;font-family:Georgia,serif}
-.gallery figcaption{position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top,rgba(0,0,0,.78),rgba(0,0,0,0));color:#fff;font-size:.72rem;padding:18px 8px 6px;letter-spacing:.04em}
-.gallery .play-badge{position:absolute;top:8px;right:8px;background:rgba(164,16,52,.92);color:#fff;font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;padding:3px 8px;border-radius:99px;font-family:"Helvetica Neue",Arial,sans-serif;font-weight:600}
+.gallery .play-badge{position:absolute;top:8px;right:8px;background:rgba(164,16,52,.92);color:#fff;font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;padding:3px 8px;border-radius:99px;font-family:"Helvetica Neue",Arial,sans-serif;font-weight:600;pointer-events:none}
 @media (max-width:780px){.gallery{grid-template-columns:repeat(2,1fr)}}
+
+/* Lightbox */
+.lightbox{position:fixed;inset:0;background:rgba(10,15,30,.92);display:none;align-items:center;justify-content:center;z-index:1000;padding:24px;cursor:zoom-out}
+.lightbox.open{display:flex}
+.lightbox img,.lightbox video{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;display:block;border-radius:4px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.lightbox .lb-close{position:absolute;top:16px;right:20px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#fff;font-size:1.4rem;line-height:1;width:38px;height:38px;border-radius:99px;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.lightbox .lb-close:hover{background:rgba(255,255,255,.22)}
+.lightbox .lb-nav{position:absolute;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#fff;font-size:1.6rem;line-height:1;width:44px;height:44px;border-radius:99px;cursor:pointer;display:flex;align-items:center;justify-content:center;user-select:none}
+.lightbox .lb-nav:hover{background:rgba(255,255,255,.22)}
+.lightbox .lb-prev{left:20px}
+.lightbox .lb-next{right:20px}
+.lightbox .lb-caption{position:absolute;bottom:16px;left:50%;transform:translateX(-50%);color:#cfd6e6;font-size:.85rem;letter-spacing:.04em;background:rgba(0,0,0,.4);padding:6px 14px;border-radius:99px;max-width:80%;text-align:center}
+@media print{.lightbox{display:none !important}}
 ul,ol{padding-left:22px;margin:.4em 0 1em}
 li{margin:.25em 0}
 footer.foot{margin-top:30px;padding:18px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem;text-align:center}
@@ -158,27 +169,24 @@ footer.foot{margin-top:30px;padding:18px 0;border-top:1px solid var(--line);colo
   <div class="wrap">
     <h2>Media &amp; Moments</h2>
     <p class="lead">A visual sampler from past Summits and Hackathons, panels, student demos, partner roundtables, and the convening floor. Click any thumbnail for the full-size image.</p>
-    <div class="gallery">
-      <a href="media/summit/speaker-card-amanda-lindsey%20(1).jpg" title="Speaker · Amanda Lindsey"><figure><img src="media/summit/speaker-card-amanda-lindsey%20(1).jpg" alt="Speaker card, Amanda Lindsey" loading="lazy"><figcaption>Speaker · Amanda Lindsey</figcaption></figure></a>
-      <a href="media/summit/speaker-card-deborah-berebichez%20(1).jpg" title="Speaker · Deborah Berebichez"><figure><img src="media/summit/speaker-card-deborah-berebichez%20(1).jpg" alt="Speaker card, Deborah Berebichez" loading="lazy"><figcaption>Speaker · Deborah Berebichez</figcaption></figure></a>
-      <a href="media/summit/speaker-card-ruchira-gupta%20(1).jpg" title="Speaker · Ruchira Gupta"><figure><img src="media/summit/speaker-card-ruchira-gupta%20(1).jpg" alt="Speaker card, Ruchira Gupta" loading="lazy"><figcaption>Speaker · Ruchira Gupta</figcaption></figure></a>
-      <a href="media/summit/IMG_6459.mp4" title="Summit highlight reel">
-        <figure>
-          <video src="media/summit/IMG_6459.mp4" muted playsinline preload="metadata" poster="media/summit/IMG_8467%20(1).jpg"></video>
-          <span class="play-badge">▶ Video</span>
-          <figcaption>Summit highlight reel</figcaption>
-        </figure>
+    <div class="gallery" id="summit-gallery">
+      <a href="media/summit/speaker-card-amanda-lindsey%20(1).jpg" data-caption="Speaker · Amanda Lindsey"><img src="media/summit/speaker-card-amanda-lindsey%20(1).jpg" alt="Speaker card, Amanda Lindsey" loading="lazy"></a>
+      <a href="media/summit/speaker-card-deborah-berebichez%20(1).jpg" data-caption="Speaker · Deborah Berebichez"><img src="media/summit/speaker-card-deborah-berebichez%20(1).jpg" alt="Speaker card, Deborah Berebichez" loading="lazy"></a>
+      <a href="media/summit/speaker-card-ruchira-gupta%20(1).jpg" data-caption="Speaker · Ruchira Gupta"><img src="media/summit/speaker-card-ruchira-gupta%20(1).jpg" alt="Speaker card, Ruchira Gupta" loading="lazy"></a>
+      <a href="media/summit/IMG_6459.mp4" data-type="video" data-caption="Summit highlight reel">
+        <video src="media/summit/IMG_6459.mp4" muted playsinline preload="metadata" poster="media/summit/IMG_8467%20(1).jpg"></video>
+        <span class="play-badge">▶ Video</span>
       </a>
-      <a href="media/summit/IMG_8467%20(1).jpg" title="Summit floor"><figure><img src="media/summit/IMG_8467%20(1).jpg" alt="Summit floor" loading="lazy"><figcaption>Summit floor</figcaption></figure></a>
-      <a href="media/summit/IMG_8476.jpg" title="Working session"><figure><img src="media/summit/IMG_8476.jpg" alt="Working session" loading="lazy"><figcaption>Working session</figcaption></figure></a>
-      <a href="media/summit/IMG_8625.jpg" title="Panel discussion"><figure><img src="media/summit/IMG_8625.jpg" alt="Panel discussion" loading="lazy"><figcaption>Panel discussion</figcaption></figure></a>
-      <a href="media/summit/IMG_8675.jpg" title="Student demo"><figure><img src="media/summit/IMG_8675.jpg" alt="Student demo" loading="lazy"><figcaption>Student demo</figcaption></figure></a>
-      <a href="media/summit/IMG_8777.jpg" title="Hackathon"><figure><img src="media/summit/IMG_8777.jpg" alt="Hackathon" loading="lazy"><figcaption>Hackathon</figcaption></figure></a>
-      <a href="media/summit/IMG_8827.jpg" title="Convening"><figure><img src="media/summit/IMG_8827.jpg" alt="Convening" loading="lazy"><figcaption>Convening</figcaption></figure></a>
-      <a href="media/summit/WhatsApp%20Image%202026-03-12%20at%201.10.32%20PM%20(1).jpg" title="Summit moment"><figure><img src="media/summit/WhatsApp%20Image%202026-03-12%20at%201.10.32%20PM%20(1).jpg" alt="Summit moment" loading="lazy"><figcaption>Summit moment</figcaption></figure></a>
-      <a href="media/summit/WhatsApp%20Image%202026-03-12%20at%202.28.37%20PM%20(1).jpg" title="Summit moment"><figure><img src="media/summit/WhatsApp%20Image%202026-03-12%20at%202.28.37%20PM%20(1).jpg" alt="Summit moment" loading="lazy"><figcaption>Summit moment</figcaption></figure></a>
+      <a href="media/summit/IMG_8467%20(1).jpg" data-caption="Summit floor"><img src="media/summit/IMG_8467%20(1).jpg" alt="Summit floor" loading="lazy"></a>
+      <a href="media/summit/IMG_8476.jpg" data-caption="Working session"><img src="media/summit/IMG_8476.jpg" alt="Working session" loading="lazy"></a>
+      <a href="media/summit/IMG_8625.jpg" data-caption="Panel discussion"><img src="media/summit/IMG_8625.jpg" alt="Panel discussion" loading="lazy"></a>
+      <a href="media/summit/IMG_8675.jpg" data-caption="Student demo"><img src="media/summit/IMG_8675.jpg" alt="Student demo" loading="lazy"></a>
+      <a href="media/summit/IMG_8777.jpg" data-caption="Hackathon"><img src="media/summit/IMG_8777.jpg" alt="Hackathon" loading="lazy"></a>
+      <a href="media/summit/IMG_8827.jpg" data-caption="Convening"><img src="media/summit/IMG_8827.jpg" alt="Convening" loading="lazy"></a>
+      <a href="media/summit/WhatsApp%20Image%202026-03-12%20at%201.10.32%20PM%20(1).jpg" data-caption="Summit moment"><img src="media/summit/WhatsApp%20Image%202026-03-12%20at%201.10.32%20PM%20(1).jpg" alt="Summit moment" loading="lazy"></a>
+      <a href="media/summit/WhatsApp%20Image%202026-03-12%20at%202.28.37%20PM%20(1).jpg" data-caption="Summit moment"><img src="media/summit/WhatsApp%20Image%202026-03-12%20at%202.28.37%20PM%20(1).jpg" alt="Summit moment" loading="lazy"></a>
     </div>
-    <p class="meta" style="margin-top:14px">Captions are placeholders, easy to refine.</p>
+    <p class="meta" style="margin-top:14px">Click any thumbnail to enlarge. Use ←/→ or click outside to close.</p>
   </div>
 </section>
 
@@ -194,5 +202,52 @@ footer.foot{margin-top:30px;padding:18px 0;border-top:1px solid var(--line);colo
 <footer class="foot">
   <div class="wrap">Ethical Tech CoLab · Ethical Tech Summit Archive · Companion to the Nova Fellowship Portfolio</div>
 </footer>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+  <button class="lb-close" aria-label="Close">×</button>
+  <button class="lb-nav lb-prev" aria-label="Previous">‹</button>
+  <button class="lb-nav lb-next" aria-label="Next">›</button>
+  <div class="lb-stage" aria-live="polite"></div>
+  <div class="lb-caption"></div>
+</div>
+<script>
+(function(){
+  var gallery = document.getElementById('summit-gallery');
+  if(!gallery) return;
+  var items = Array.prototype.slice.call(gallery.querySelectorAll('a'));
+  var lb = document.getElementById('lightbox');
+  var stage = lb.querySelector('.lb-stage');
+  var capEl = lb.querySelector('.lb-caption');
+  var i = 0;
+  function render(){
+    var a = items[i];
+    var href = a.getAttribute('href');
+    var type = a.getAttribute('data-type') === 'video' ? 'video' : 'image';
+    var cap = a.getAttribute('data-caption') || '';
+    stage.innerHTML = type === 'video'
+      ? '<video src="'+href+'" controls autoplay playsinline></video>'
+      : '<img src="'+href+'" alt="'+cap.replace(/"/g,'&quot;')+'">';
+    capEl.textContent = cap;
+  }
+  function open(idx){ i = idx; render(); lb.classList.add('open'); lb.setAttribute('aria-hidden','false'); document.body.style.overflow='hidden'; }
+  function close(){ lb.classList.remove('open'); lb.setAttribute('aria-hidden','true'); stage.innerHTML=''; document.body.style.overflow=''; }
+  function next(d){ i = (i + d + items.length) % items.length; render(); }
+  items.forEach(function(a, idx){
+    a.addEventListener('click', function(e){ e.preventDefault(); open(idx); });
+  });
+  lb.addEventListener('click', function(e){
+    if(e.target === lb) close();
+  });
+  lb.querySelector('.lb-close').addEventListener('click', close);
+  lb.querySelector('.lb-prev').addEventListener('click', function(e){ e.stopPropagation(); next(-1); });
+  lb.querySelector('.lb-next').addEventListener('click', function(e){ e.stopPropagation(); next(1); });
+  document.addEventListener('keydown', function(e){
+    if(!lb.classList.contains('open')) return;
+    if(e.key === 'Escape') close();
+    else if(e.key === 'ArrowLeft') next(-1);
+    else if(e.key === 'ArrowRight') next(1);
+  });
+})();
+</script>
 
 </body></html>

@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Diplomacy Table Standalone Demo</title>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --panel: #131a2a;
+      --panel2: #1b2336;
+      --border: #2a3550;
+      --text: #e5ebff;
+      --muted: #9aa7cc;
+      --accent: #5ea1ff;
+      --left: #61a8ff;
+      --right: #ffb067;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background:
+        radial-gradient(1000px 500px at 10% -10%, #1a2b5a 0%, transparent 70%),
+        radial-gradient(900px 500px at 90% -5%, #3a224d 0%, transparent 68%),
+        var(--bg);
+      color: var(--text);
+    }
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 20px; }
+    h1 { margin: 0 0 10px; font-size: 28px; }
+    .sub { color: var(--muted); margin-bottom: 16px; font-size: 14px; }
+    .row { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+    select {
+      background: var(--panel2);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 8px 10px;
+      min-width: 460px;
+      max-width: 100%;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 12px;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      padding: 8px 10px;
+      border-radius: 8px;
+    }
+    .grid {
+      margin-top: 14px;
+      display: grid;
+      grid-template-columns: repeat(4, minmax(140px, 1fr));
+      gap: 10px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px;
+    }
+    .card .k { font-size: 11px; color: var(--muted); text-transform: uppercase; }
+    .card .v { font-size: 21px; font-weight: 700; margin-top: 4px; }
+    .layout {
+      margin-top: 14px;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 12px;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      min-height: 320px;
+    }
+    .panel h2 {
+      margin: 0;
+      padding: 10px 12px;
+      font-size: 13px;
+      border-bottom: 1px solid var(--border);
+      background: var(--panel2);
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .06em;
+    }
+    .transcript { padding: 10px; max-height: 70vh; overflow: auto; }
+    .move {
+      margin-bottom: 10px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px;
+      background: #11192c;
+    }
+    .move.left { border-left: 3px solid var(--left); }
+    .move.right { border-left: 3px solid var(--right); }
+    .mhead { font-size: 11px; color: var(--muted); margin-bottom: 6px; display: flex; gap: 8px; flex-wrap: wrap; }
+    .txt { line-height: 1.45; font-size: 13px; }
+    .chips { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+    .chip {
+      border: 1px solid #34508a;
+      color: #9bc4ff;
+      font-size: 10px;
+      border-radius: 10px;
+      padding: 2px 7px;
+      background: #102145;
+    }
+    .aside { padding: 10px; max-height: 70vh; overflow: auto; }
+    .party { padding: 8px; border: 1px solid var(--border); border-radius: 8px; margin-bottom: 8px; }
+    .party .n { font-size: 13px; font-weight: 600; }
+    .party .s { font-size: 11px; color: var(--muted); margin-top: 2px; }
+    .tactic { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px dashed var(--border); font-size: 12px; }
+    .desc { font-size: 13px; color: var(--muted); margin: 10px 0 0; line-height: 1.5; }
+    @media (max-width: 960px) {
+      .grid { grid-template-columns: repeat(2, minmax(140px, 1fr)); }
+      .layout { grid-template-columns: 1fr; }
+      select { min-width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Diplomacy Table Standalone Demo</h1>
+    <div class="sub">Portable, backend-free replay built from snapshot samples. Open this file directly in any browser.</div>
+
+    <div class="row">
+      <select id="sessionSelect"></select>
+      <div class="meta" id="sourceMeta"></div>
+    </div>
+
+    <div class="grid" id="summary"></div>
+
+    <div class="layout">
+      <div class="panel">
+        <h2>Transcript</h2>
+        <div class="transcript" id="transcript"></div>
+      </div>
+      <div class="panel">
+        <h2>Session Insights</h2>
+        <div class="aside" id="insights"></div>
+      </div>
+    </div>
+
+    <p class="desc" id="description"></p>
+  </div>
+
+  <script src="./data.js"></script>
+  <script>
+    (function () {
+      const data = window.DIPLOMACY_SNAPSHOT_DEMO || { sessions: [] };
+      const sessions = data.sessions || [];
+      const select = document.getElementById('sessionSelect');
+      const summary = document.getElementById('summary');
+      const transcript = document.getElementById('transcript');
+      const insights = document.getElementById('insights');
+      const description = document.getElementById('description');
+      const sourceMeta = document.getElementById('sourceMeta');
+
+      sourceMeta.textContent = 'Snapshot: ' + (data.sourceSnapshot || 'n/a') + ' | Sessions: ' + sessions.length + ' | Generated: ' + (data.generatedAt ? new Date(data.generatedAt).toLocaleString() : 'n/a');
+
+      sessions.forEach(function (s) {
+        const o = document.createElement('option');
+        o.value = s.id;
+        o.textContent = s.title + ' (' + s.id + ')';
+        if (s.id === 'sess-1778361924764-byifbp') o.selected = true;
+        select.appendChild(o);
+      });
+
+      function scoreFor(teamTwinName, session) {
+        const hit = (session.scoreboard || []).find(function (x) { return x.teamTwinName === teamTwinName; });
+        return hit ? hit.satisfaction : null;
+      }
+
+      function render(sessionId) {
+        const session = sessions.find(function (s) { return s.id === sessionId; }) || sessions[0];
+        if (!session) {
+          transcript.innerHTML = '<div class="desc">No sessions found in data.js. Run the build script first.</div>';
+          return;
+        }
+
+        const rounds = Math.max.apply(null, [0].concat(session.moves.map(function (m) { return m.roundNumber || 0; })));
+        const cards = [
+          ['Status', session.status || 'unknown'],
+          ['Rounds', String(session.currentRound || rounds) + '/' + String((session.rules && session.rules.maxRounds) || rounds)],
+          ['Moves', String(session.moves.length)],
+          ['Tactic Hits', String(session.tactics.length)]
+        ];
+
+        summary.innerHTML = cards.map(function (pair) {
+          return '<div class="card"><div class="k">' + pair[0] + '</div><div class="v">' + pair[1] + '</div></div>';
+        }).join('');
+
+        transcript.innerHTML = session.moves.map(function (m) {
+          const side = m.partyTwin === (session.parties && session.parties[0] && session.parties[0].teamTwinName) ? 'left' : 'right';
+          const party = (session.parties || []).find(function (p) { return p.teamTwinName === m.partyTwin; });
+          const name = party ? party.displayName : m.partyTwin;
+          const chips = (m.tacticsApplied || []).map(function (t) { return '<span class="chip">' + t + '</span>'; }).join('');
+          return '<article class="move ' + side + '">' +
+            '<div class="mhead">' +
+            '<span>Round ' + (m.roundNumber || '?') + '</span>' +
+            '<span>' + name + '</span>' +
+            '<span>' + (m.kind || 'message') + '</span>' +
+            '<span>' + new Date(m.createdAt).toLocaleTimeString() + '</span>' +
+            '</div>' +
+            '<div class="txt">' + String(m.text || '').replace(/</g, '&lt;') + '</div>' +
+            '<div class="chips">' + chips + '</div>' +
+            '</article>';
+        }).join('');
+
+        const partiesHtml = (session.parties || []).map(function (p) {
+          const sat = scoreFor(p.teamTwinName, session);
+          const satText = sat == null ? 'n/a' : sat.toFixed(2);
+          return '<div class="party"><div class="n">' + p.displayName + '</div><div class="s">' + p.teamTwinName + '</div><div class="s">Model: ' + (p.modelOverride || 'default') + ' | Satisfaction: ' + satText + '</div></div>';
+        }).join('');
+
+        const topTactics = Object.entries(session.tacticCounts || {})
+          .sort(function (a, b) { return b[1] - a[1]; })
+          .slice(0, 10)
+          .map(function (pair) { return '<div class="tactic"><span>' + pair[0] + '</span><strong>' + pair[1] + '</strong></div>'; })
+          .join('');
+
+        const debriefHeadline = (session.debriefs || [])
+          .map(function (d) { return d.headline; })
+          .filter(Boolean)
+          .slice(0, 2)
+          .map(function (h) { return '<div class="desc" style="margin-top:8px;">' + String(h).replace(/</g, '&lt;') + '</div>'; })
+          .join('');
+
+        insights.innerHTML =
+          '<div><strong>Parties</strong></div>' +
+          partiesHtml +
+          '<div style="margin-top:12px;"><strong>Top Tactics</strong></div>' +
+          (topTactics || '<div class="desc">No tactic detections.</div>') +
+          '<div style="margin-top:12px;"><strong>Debrief Highlights</strong></div>' +
+          (debriefHeadline || '<div class="desc">No debrief summaries in this sample.</div>');
+
+        description.textContent = session.description || '';
+      }
+
+      select.addEventListener('change', function (e) { render(e.target.value); });
+      render(select.value || (sessions[0] && sessions[0].id));
+    })();
+  </script>
+</body>
+</html>

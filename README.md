@@ -9,6 +9,7 @@ delegation is driven by its own confidential *privileged instructions*, and each
 produces a full transcript, tactic analysis, and a convener report.
 
 **▶ Live site:** https://ethical-tech-colab.github.io/diplomatic-simulator/
+&nbsp;·&nbsp; **[Interactive dashboard](https://ethical-tech-colab.github.io/diplomatic-simulator/dashboard.html)** (parties' thoughts, proposals, detector hits, scoreboard — pick any scenario)
 
 | Scenario | Parties | Report page | Interactive | Focus |
 |---|---|---|---|---|

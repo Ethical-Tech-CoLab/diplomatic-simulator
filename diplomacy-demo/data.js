@@ -1,5 +1,5 @@
 window.DIPLOMACY_SNAPSHOT_DEMO = {
-  "generatedAt": "2026-07-20T18:17:03.000Z",
+  "generatedAt": "2026-07-20T19:38:49.000Z",
   "sourceSnapshot": "sim/ (multi-scenario diplomatic simulator build)",
   "scenarios": [
     {
@@ -4788,7 +4788,65 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "U.S. Department of State delegation mandated to advance American Arctic security, economic, and conservation interests while countering Russian and Chinese influence.",
+            "principles": [
+              "Advance United States security interests in the Arctic.",
+              "Strengthen international cooperation to counter Russian and Chinese influence.",
+              "Protect the Arctic environment: conserve its natural resources but do not let it inhibit economic activities."
+            ],
+            "endStates": {
+              "primary": "Defend U.S. sovereignty in the Arctic and maintain a constant presence, including military, economic, and conservation interests.",
+              "alternate": "Ensure Freedom of Navigation throughout the Northern Sea Route (NSR) and Northwest Passage (NWP)."
+            },
+            "positions": {
+              "territory": "Not an UNCLOS signatory but honors its water/zone delineations; NWP is an international strait (rejecting Canada's internal-waters claim); insists Beaufort Sea boundary follow the equidistance principle, not the 141st meridian.",
+              "sea_lanes": "Freedom of navigation beyond 12nm; innocent passage in territorial waters/straits; NWP treated as an international strait even if it opens to continuous use; rejects Russian NSR military oversight and Canadian NWP transit notification.",
+              "militarization": "Alarmed by Russia's growing Arctic force and icebreaker edge and China's foothold; reactivated 2nd Fleet, relies on NATO/NORAD, and will pressure Canada to align rather than cooperate with Russia/China.",
+              "resources": "Secure competitive advantage for U.S. oil/gas firms, retain strategic reserves, pose as honest broker on disputed zones (per 1990 US-Russia agreement), pressure Denmark/Greenland to bar Chinese contracts, and sustain the multilateral commercial fishing moratorium.",
+              "environment": "Defends leaving the Paris Agreement (citing China's 'developing' status and low emissions), touts reduced U.S. CO2, and backs an integrated, science-based Arctic management framework led through the Arctic Council.",
+              "governance": "Honors UNCLOS while unbound by its regulatory bodies (accession pending); wants the Arctic Council expanded to security matters and reserved for Arctic states; opposes China's membership and the EU as permanent observer.",
+              "indigenous": "Recognizes Alaska Native tribes' rights to self-government while asserting federal authority over Indian affairs and a trust obligation to protect their property and interests."
+            },
+            "redLines": [
+              "No Russian control/military oversight of the NSR.",
+              "No Canadian transit-notification requirement for the NWP for any vessel.",
+              "No agreement that limits or denies freedom of navigation or the free flow of international trade.",
+              "No permanent Chinese military presence in the Arctic.",
+              "No extension of exploration rights or licenses within disputed Arctic areas.",
+              "No move making China a principal/member state of the Arctic Council."
+            ],
+            "batna": "Fall back on unilateral U.S. and NATO/NORAD posture and freedom-of-navigation operations, maintaining constant Arctic presence and basing in partner nations rather than accept a deal that concedes navigation rights or sovereignty.",
+            "concessions": [
+              "Act as honest broker to help resolve other states' oil/gas boundary disputes.",
+              "Support the Arctic Council and an integrated scientific Arctic management framework.",
+              "Continue the multilateral commercial fishing moratorium and joint scientific monitoring.",
+              "Signal forthcoming accession to UNCLOS."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "Canada",
+                "Denmark/Greenland",
+                "Finland",
+                "Iceland",
+                "Norway",
+                "Sweden",
+                "NATO"
+              ],
+              "adversaries": [
+                "Russia",
+                "China"
+              ]
+            },
+            "style": "Assertive, alliance-driven; projects a united Western front while pressuring allies to fall in line.",
+            "privateStrategy": [
+              "Do not negotiate bilaterally with China on Arctic governance; treat it as an illegitimate participant.",
+              "Use NORAD and security dependence as leverage to force Canada to back U.S. positions and away from China/Russia deals.",
+              "Raise disappointment that Canada trained Chinese troops in Arctic combat without U.S. knowledge.",
+              "Deviations from these instructions must be cleared with the Secretary of State before negotiating."
+            ]
+          }
         },
         {
           "teamTwinName": "diplomacy-team-russia",
@@ -4797,7 +4855,64 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "Ministry of Foreign Affairs delegation of the Russian Federation, mandated to defend Russian Arctic sovereignty and economic development while deferring major deviations to the Foreign Minister.",
+            "principles": [
+              "The Arctic is a zone of peace and stability.",
+              "Increase environmental sustainability.",
+              "Reduce the level of threats to national security in the Arctic.",
+              "Provide favorable international conditions for the socio-economic development of the Russian Arctic zone.",
+              "Develop the Northern Sea Route as a competitive national transport artery."
+            ],
+            "endStates": {
+              "primary": "Continued economic development of the Arctic (resource base expansion via hydrocarbon exploration/extraction; maintain favorable military posture).",
+              "alternate": "Economic development and economic utilization of the Northern Sea Route."
+            },
+            "positions": {
+              "territory": "Over 50% of Arctic shoreline is Russian; CLCS validates most Russian claims and Lomonosov Ridge is scientifically tied to Russian territory; Canada/Denmark claims invalid; UNCLOS straight-baseline method is legitimate; reject Norway's EEZ or Fisheries Protection Zone around Spitsbergen/Svalbard.",
+              "sea_lanes": "NSR lies within Russian territorial waters under UNCLOS and Russia legally regulates transit; rejects any 'international strait' characterization; icebreaker investment justifies control and cost recovery.",
+              "militarization": "Reopening Soviet-era bases is defensive and legitimate; Russian forces provide Arctic security; Vostok-18/Zapad-21 and joint exercises with China are normal, like NATO/NORAD/Thule; foreign buildup raises conflict risk.",
+              "resources": "Resources in Russian waters are for Russian exploitation only; foreign obstruction is illegitimate; will enlarge hydrocarbon and mineral exploration; Russian fishermen keep fishing Spitsbergen waters despite Norway's claimed zones.",
+              "environment": "Points to genuine cleanup effort (300+ contaminated sites, protected natural areas) and cooperative programs with Norway, U.S., and Sweden as proof of commitment.",
+              "governance": "Honors UNCLOS/existing treaties; opposes states revising treaty provisions; condemns suspension of its Arctic Council chairmanship as breaching the Ottawa agreement; wants China as full member, opposes EU as observer.",
+              "indigenous": "Recognizes indigenous minorities and aims to improve their quality of life, but grants NO special governance or unique political roles; they are treated as Russians with equal privileges."
+            },
+            "redLines": [
+              "Not maintaining full control of the NSR as a Russian trade route.",
+              "Any foreign fleet patrolling in Russian sovereign waters.",
+              "Any claims to extend exploration rights and licenses within disputed Arctic areas.",
+              "No recognition of Norway's EEZ or Fisheries Protection Zone around Spitsbergen/Svalbard.",
+              "No special governance or political roles for indigenous groups."
+            ],
+            "batna": "Proceed unilaterally with Arctic resource extraction, NSR regulation, and military posture backed by the China partnership, deferring contested items rather than conceding sovereignty.",
+            "concessions": [
+              "Continue and expand environmental cooperation (Barents pollution with Norway, wildlife monitoring with U.S., air pollution with Sweden).",
+              "Honor the disputed 1990 Maritime Boundary Agreement (Eastern Special Area/Bering) unless the U.S. blocks other initiatives.",
+              "Deal directly with European Arctic states and support strengthening Arctic organizations.",
+              "Frame NSR access as available for Asia-Europe trade under Russian regulation."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "China",
+                "European Arctic states (direct dealings)"
+              ],
+              "adversaries": [
+                "United States",
+                "Canada",
+                "Denmark",
+                "Norway",
+                "European Union"
+              ]
+            },
+            "style": "Assertive, legalistic, and sovereignty-first; compartmentalizes Ukraine, leverages UNCLOS selectively, refuses bilateral talks with the U.S.",
+            "privateStrategy": [
+              "Will not negotiate bilaterally with the U.S. and does not recognize U.S. standing (non-signatory of UNCLOS) to arbitrate any disputes.",
+              "May quietly contest the 1990 Maritime Boundary Agreement as leverage if the U.S. blocks other Russian initiatives.",
+              "China partnership serves a hidden dual purpose of economic production plus military security; push China as full Council member.",
+              "Deviations from these positions must be cleared with the Foreign Minister before negotiating; keep Ukraine off the table."
+            ]
+          }
         },
         {
           "teamTwinName": "diplomacy-team-canada",
@@ -4806,7 +4921,64 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "Global Affairs Canada delegation mandated to defend Canadian Arctic sovereignty and restore Canada's leadership role in the region, negotiating per Foreign Minister guidance.",
+            "principles": [
+              "Canadian Arctic claims extend to the North Pole.",
+              "The Northwest Passage traverses Canadian internal waterways and is not an international strait.",
+              "Support a rules-based international order in the Arctic prioritizing human and environmental security and meaningful engagement of Indigenous peoples.",
+              "Arctic boundaries must be more clearly defined and the rules-based order strengthened.",
+              "Work through and with Arctic Council member states as key to sustainable Arctic decisions."
+            ],
+            "endStates": {
+              "primary": "Restore Canada's place as an international Arctic leader.",
+              "alternate": "Ensure Canada and its Arctic residents are safe, secure, and well-defended."
+            },
+            "positions": {
+              "territory": "Claims extend to the North Pole; honour UNCLOS zones; Beaufort Sea dispute with U.S. resolved via the 141st meridian (rejecting U.S. equidistance); Lomonosov Ridge is part of Canada's continental shelf pending CLCS ruling.",
+              "sea_lanes": "The Northwest Passage is Canadian internal waters (Archipelagic waters), not an international strait; Canada regulates all vessel traffic even if it opens year-round; promote NWP as shortest Asia-Europe route under Canadian control.",
+              "militarization": "Increased Arctic militarization threatens peace; assert CAF sovereignty presence; push NATO combined Arctic capacity and leverage NORAD/U.S. surveillance; use Arctic Council to demilitarize and resolve disputes through dialogue.",
+              "resources": "Resources in Canadian waters/land require express Canadian permission; developed sustainably for domestic benefit with environmental and Indigenous considerations; each state manages its own territory's resources; no third-party Arctic governance.",
+              "environment": "Lead on Arctic stewardship; North warming 3x global average; balance conservation with development; enforce high-seas commercial fishing moratorium multilaterally; demand U.S. and China cut emissions under Paris; create Arctic environmental protection zones.",
+              "governance": "UNCLOS is sufficient for dispute settlement; reject any new Arctic governance structure or legal framework; support and take a robust leadership role in the Arctic Council to advance Canadian interests.",
+              "indigenous": "Champion Indigenous inclusion; cite the 2019 Arctic and Northern Policy Framework and Nunavut as models; promote self-government and equal standard of living; manage Greenland/Inuit representation on the Council carefully."
+            },
+            "redLines": [
+              "Not maintaining full control of the NWP as a Canadian trade route through Canadian internal waters.",
+              "Any foreign fleet establishing patrols in Canadian sovereign waters without permission.",
+              "Any other nation's claims to exploration rights or licenses within disputed Arctic areas.",
+              "Any attempt to make China a member state of the Arctic Council.",
+              "U.S. issuing exploration leases in the disputed Beaufort Sea region before the dispute is resolved."
+            ],
+            "batna": "Absent a deal, fall back to the alternate end-state: unilaterally defend and secure Canada and its Arctic residents, keep regulating the NWP as internal waters, and shore up bilateral agreements and NATO/NORAD ties rather than concede sovereignty.",
+            "concessions": [
+              "Resolve the Beaufort Sea dispute with the U.S. through dialogue while minimizing tensions.",
+              "Continue automatic NWP transit permission for U.S. military vessels (per 1988 Arctic Cooperation Agreement).",
+              "Grant China commercial NWP access on the condition it accepts Canadian control over the passage.",
+              "Promote beneficial trade relations with other Arctic powers and support international Arctic organizations."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "United States",
+                "NATO allies",
+                "NORAD partner (U.S.)",
+                "Arctic Council member states",
+                "Denmark/Greenland (on Indigenous inclusion)"
+              ],
+              "adversaries": [
+                "Russia",
+                "China"
+              ]
+            },
+            "style": "Cooperative, rules-based, and multilateral through the Arctic Council; firm and sovereignty-protective on core red lines while acting as intermediary between the U.S. and Russia/China.",
+            "privateStrategy": [
+              "Act as intermediary between the U.S. and China/Russia since the U.S. will not negotiate bilaterally with them, to move talks along.",
+              "Exploit the U.S. insistence on NWP freedom of navigation as leverage to extract U.S. compromises on other issues.",
+              "Quietly limit Greenland's direct Arctic Council involvement until it gains full sovereignty, to avoid Inuit-representation pressure at Senior Arctic Officials meetings.",
+              "Hold the line that the NWP stays internal waters even if opened year-round, and block the U.S. equidistance claim in the Beaufort Sea."
+            ]
+          }
         },
         {
           "teamTwinName": "diplomacy-team-china",
@@ -4815,7 +4987,61 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "PRC Ministry of Foreign Affairs delegation asserting China's status as a 'near-Arctic state' and stakeholder entitled to inclusion in Arctic governance, science, shipping, and resource development.",
+            "principles": [
+              "The Arctic situation goes beyond its original inter-Arctic State or regional nature.",
+              "China is a champion for the development of a community in Arctic affairs.",
+              "The survival and development of the Arctic has vital bearing on the international community and the shared future for mankind."
+            ],
+            "endStates": {
+              "primary": "Understand, protect, develop, and participate in the governance of the Arctic.",
+              "alternate": "Establish our role as an important stakeholder in Arctic affairs."
+            },
+            "positions": {
+              "territory": "Respects Arctic states' jurisdiction in national areas but claims high-seas rights to research, navigation, overflight, fishing, and cables; treats the disputed area beyond EEZs/unsettled CLCS shelf claims as high seas open to all, backing the EU 'global commons' framing.",
+              "sea_lanes": "Advances the Polar Silk Road (Belt and Road) to open Arctic shipping routes; demands freedom of navigation and innocent passage for Chinese vessels, especially along Russia's Northern Sea Route.",
+              "militarization": "Frames its icebreakers as economic, not military; seeks Arctic basing agreements with Russia for search-and-rescue and route security, funded via investment in Russian infrastructure, plus military training with countries like Canada.",
+              "resources": "Arctic high seas beyond EEZs are legally open to exploration/exploitation; leverage growing icebreaker fleet and oil/gas tech to establish extraction; supports binding high-seas fisheries agreement and an Arctic fisheries management organization; pressure Denmark to reopen Greenland mining.",
+              "environment": "Arctic change directly affects China's climate and economy; supports binding Arctic high-seas fisheries management; touts strengthened 2030 emissions-peak and 2060 carbon-neutrality targets and low per-capita CO2 versus Canada/Russia/US.",
+              "governance": "Views UNCLOS as inadequate for all Arctic affairs (conflicts with Spitsbergen Treaty); pushes for elevation from observer to full Arctic Council member, or enhanced roles as a fallback, playing the long game.",
+              "indigenous": "Recognizes Arctic nations' sovereignty over their Indigenous peoples but resents that observer status ranks China below Indigenous peoples' organizations in Council discussions and working groups."
+            },
+            "redLines": [
+              "No Russian (or other) restrictions on freedom of navigation and innocent passage for Chinese vessels along the NSR.",
+              "No blockage of exploration and exploitation rights within the Arctic high seas.",
+              "Do not allow the U.S. to deny China's elevation to Arctic Council member state."
+            ],
+            "batna": "If denied full Arctic Council membership, seek enhanced responsibilities/roles as observer and play the long game to erode resistance; keep exploiting the legally 'open' high seas bilaterally and via the Polar Silk Road with Russia and EU partners.",
+            "concessions": [
+              "Accept enhanced observer responsibilities instead of full membership if member states refuse elevation.",
+              "Balance Wolf Warrior assertiveness with a more measured tone; may attend multilateral talks despite bilateral preference.",
+              "Offer investment and infrastructure construction (e.g., Russian Arctic bases, Nordic economies) as inducements for cooperation.",
+              "Emphasize scientific research, environmental protection, and cooperative Arctic/non-Arctic partnerships as trade-friendly framing."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "Russia",
+                "Denmark",
+                "Finland",
+                "Iceland",
+                "Norway",
+                "EU (global commons framing)",
+                "Canada (military training)"
+              ],
+              "adversaries": [
+                "United States"
+              ]
+            },
+            "style": "Measured 'Major Country Diplomacy' with Wolf Warrior edge in reserve; strongly prefers bilateral deals over multilateral forums.",
+            "privateStrategy": [
+              "Icebreaker development is publicly economic but is tied to securing basing agreements with Russia and providing security for BRI trade routes.",
+              "Use investment in Russia's existing Arctic military infrastructure as a covert wedge to begin the basing-agreement process.",
+              "Pressure Denmark behind the scenes to force Greenland to lift mining restrictions blocking Chinese access to uranium and precious metals.",
+              "Expect the U.S. to refuse bilateral talks; play the long game to erode other nations' hesitance and ultimately win full member status."
+            ]
+          }
         },
         {
           "teamTwinName": "diplomacy-team-norway",
@@ -4824,7 +5050,65 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "Norwegian Ministry of Foreign Affairs delegation, negotiating as the sitting Arctic Council Chair to defend Norwegian territorial integrity and lead constructive Arctic cooperation.",
+            "principles": [
+              "Norwegian Arctic claims extend to the North Pole.",
+              "Peace, stability, and well-functioning cooperation with our Arctic neighbours.",
+              "Defend Norwegian interests in the Arctic including military, economic, and conservation efforts.",
+              "Strengthen the NATO alliance and its ability to respond to crises in the Arctic.",
+              "Reduction in tension between China, Russia, and the U.S. over the Arctic."
+            ],
+            "endStates": {
+              "primary": "Norwegian territorial integrity is preserved, and its resources developed by its people.",
+              "alternate": "International recognition of the Svalbard EEZ."
+            },
+            "positions": {
+              "territory": "Honour UNCLOS zones; EEZ/continental-shelf claims overlap Denmark and Russia and must be governed by international law. Svalbard is Norwegian sovereign territory under the Svalbard Treaty; accept treaty access only inside the 12nm territorial waters, but adamantly claim the surrounding EEZ.",
+              "sea_lanes": "New shipping lanes opening with melting ice raise safety/security challenges; manage via international law (UNCLOS) and Arctic Council cooperation; improve maritime transport as a national industry.",
+              "militarization": "Increased militarization threatens Arctic peace; push demilitarization and dialogue via the Arctic Council, while urging NATO to build collective Arctic response capacity. Fear an American overreaction to Chinese/Russian activity dragging the region into great-power conflict.",
+              "resources": "Resources in Norwegian waters/land only explored or extracted by express Norwegian Government permission; each Arctic state manages its own recognized territory. Right to restrict foreign use within the Svalbard EEZ. Seafood, energy, and maritime industry are essential; use expertise to expand influence with Canada and Russia.",
+              "environment": "Preserve fragile Arctic ecosystem; extraction must minimize ecological impact; retain Svalbard wilderness; uphold the Arctic high-seas commercial fishing ban with multilateral (nine-nation) monitoring; all nations must adhere to Paris, with China and U.S. cutting emissions most.",
+              "governance": "UNCLOS governs Arctic maritime disputes; the Svalbard Treaty is sufficient and must not be reformed. Keep the Arctic Council a cooperation forum that excludes hard security/governance topics. Supported China's observer status but oppose full membership.",
+              "indigenous": "Support Indigenous peoples' organisations in the Arctic Council; Sami are represented in the Norwegian Parliament and Nordic Council, and the 1988 constitutional amendment obligates the state to preserve Sami way of life, language, and culture; note Russia's exploitation of its Indigenous peoples."
+            },
+            "redLines": [
+              "No agreement or regulation limiting Norway's EEZ surrounding Svalbard.",
+              "No foreign fleet establishing patrols in Norwegian sovereign waters surrounding Svalbard.",
+              "No foreign claims on, or licenses granted for, resource exploration/exploitation within the Svalbard EEZ.",
+              "No reform of the Svalbard Treaty.",
+              "No making China a member state of the Arctic Council."
+            ],
+            "batna": "Maintain the status quo under the Svalbard Treaty and UNCLOS, keeping the Temporary Fisheries Protection Zone (TFPZ) in place unilaterally until the Svalbard EEZ is honoured, and rely on NATO and Nordic defense cooperation for security.",
+            "concessions": [
+              "Accept international/treaty access inside the 12nm Svalbard territorial waters for all signatories.",
+              "Pursue bilateral cooperation with Russia on seas, resources, climate, and coastal issues despite the Ukraine invasion.",
+              "Allow limited, balanced Chinese economic involvement in the Arctic (kept below Arctic Council membership).",
+              "Share maritime/marine-biotech/seabed-mining expertise with Canada and Russia to build joint industries.",
+              "Frame the TFPZ as temporary, convertible to full EEZ recognition."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "Denmark",
+                "Iceland",
+                "Finland",
+                "Sweden",
+                "NATO"
+              ],
+              "adversaries": [
+                "China",
+                "Russia"
+              ]
+            },
+            "style": "Cooperative, law-based, and consensus-driven as Arctic Council Chair, but firm and adamant on Svalbard sovereignty.",
+            "privateStrategy": [
+              "Fears an American overreaction to Chinese/Russian activity; wants U.S. de-escalation but avoid openly criticizing the ally.",
+              "Quietly wants to restore bilateral cooperation with Russia on Arctic issues while publicly maintaining pressure over Ukraine.",
+              "Treats the TFPZ as a lever to force eventual recognition of the full Svalbard EEZ, not a genuinely temporary measure.",
+              "Deviations from these positions require prior clearance from the Foreign Minister before negotiating."
+            ]
+          }
         },
         {
           "teamTwinName": "diplomacy-team-denmark",
@@ -4833,7 +5117,63 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "The Kingdom of Denmark's Ministry of Foreign Affairs, holding foreign-policy authority for the realm including Greenland (Grønland) and the Faroe Islands, negotiating as an Arctic coastal state through Greenland.",
+            "principles": [
+              "Through Grønland (Greenland) we are an Arctic nation.",
+              "We will resolve all boundary issues in accordance with international law.",
+              "The Kingdom and Grønland must appear as a coherent, unified entity speaking with a common voice.",
+              "The Kingdom must play a key role in future Arctic international cooperation, with care and accountability."
+            ],
+            "endStates": {
+              "primary": "Greenland's territorial integrity is preserved and its resources developed per its people's desires, with the continental-shelf determination resolved.",
+              "alternate": "Peaceful resolution of all boundary issues, with Pituffik Space Base retained as a deterrent to Russia."
+            },
+            "positions": {
+              "territory": "Uphold UNCLOS-based EEZ/continental-shelf claims; CLCS submission shows geologic linkage of the Lomonosov Ridge to Greenland, so Canadian/Russian ridge claims are invalid and Russia's CLCS validation is not final; resolve overlaps with Canada, Norway, Russia via diplomacy (Hans Ø model).",
+              "sea_lanes": "Honor UNCLOS delineation of waters and zones; require notification and proper protocols for transit through Greenland waters (Chinese/Russian vessels have violated this).",
+              "militarization": "Arctic militarization threatens peace; strengthen NATO's Arctic capacity and collective defense; retain U.S. Pituffik Space Base as mutual benefit and Russia deterrent; address Denmark's own surveillance gap around Greenland.",
+              "resources": "Greenland grants permission for extraction on land and out to 3nm; Denmark holds exclusive rights in the EEZ and continental shelf beyond; Greenland's EEZ excluded from EU Common Fisheries Policy; pursue sustainable extraction to offset Greenland subsidies; disputes settled by dialog under international law, no third-party governance.",
+              "environment": "All must uphold the Paris Agreement; press China and the U.S. (top emitters) for deeper cuts; protect Greenland ecosystems, glacial tourism, and fisheries; commercial-fishing ban must be monitored multilaterally by the nine signatories with continued scientific monitoring.",
+              "governance": "Strengthen the Arctic Council's cooperation and dispute resolution while retaining the 'Arctic 5' format for coastal-state issues; secure full inclusion of Greenland and the Faroe Islands; support EU observer status; oppose China as a full member.",
+              "indigenous": "Greenland's Self-rule (Naalakkersuisut) is a global model for indigenous peoples, granting autonomy over culture and domestic economy; support Greenland's sovereign choices (e.g. staying out of the EU)."
+            },
+            "redLines": [
+              "Any Chinese military presence on Greenland or in its surrounding waters.",
+              "Any agreements made by other states regarding licenses within the Danish EEZ.",
+              "Any attempt to make China a member state of the Arctic Council.",
+              "No third-party (non-coastal-state) governance of the Arctic Ocean; Iceland, Finland, Sweden excluded from Arctic 5 economic discussions."
+            ],
+            "batna": "Fall back from the primary goal to the alternate: a peaceful, international-law-based resolution of boundary disputes while preserving the status quo (Pituffik base, unresolved but non-adjudicated ridge claims) rather than conceding territory or license rights.",
+            "concessions": [
+              "Bilateral/diplomatic settlement of overlapping EEZ and boundary disputes with Canada, Norway, and Russia (Hans Ø precedent).",
+              "Sustainable joint resource-extraction agreements within Greenland's EEZ.",
+              "Support for EU observer status on the Arctic Council and strengthened Council dispute-resolution mechanisms.",
+              "Greenland autonomy to grant its own land/near-shore licenses (including existing Chinese uranium license) as a domestic decision."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "United States",
+                "Norway",
+                "Canada",
+                "Arctic 5 coastal states",
+                "NATO allies",
+                "European Union"
+              ],
+              "adversaries": [
+                "China",
+                "Russia"
+              ]
+            },
+            "style": "Cooperative, law-abiding, and multilateral, projecting a unified Kingdom-Greenland front while quietly guarding sovereignty and managing great-power balance.",
+            "privateStrategy": [
+              "Conceal the internal tension: Greenland has an unexercised independence-referendum right, and every decision must be weighed against triggering full independence.",
+              "The Naalakkersuisut has banned mineral extraction and holds positions that diverge from Denmark's; hide this friction and present a common voice to foreign states.",
+              "Pituffik base is valued partly because it reduces the likelihood of Greenlandic independence and proves Denmark represents Greenland internationally — do not state publicly.",
+              "Deviation from these positions requires prior clearance from the Foreign Minister; balance the U.S. relationship against Greenland's resource autonomy (e.g. the Chinese uranium license) discreetly."
+            ]
+          }
         },
         {
           "teamTwinName": "diplomacy-team-finland",
@@ -4842,7 +5182,62 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "Finland's Ministry of Foreign Affairs delegation, hosting the Arctic dialog conference as a non-coastal Arctic state, EU/NATO member, and self-styled intermediary between Russia and the West.",
+            "principles": [
+              "Finland will be an active and responsible Arctic actor.",
+              "Finland's diversified Arctic experience is set to assist in the development of the region.",
+              "Provide leadership through Finnish expertise in sustainable development, the maritime industry, and mineral extraction."
+            ],
+            "endStates": {
+              "primary": "Strengthen the delicate balance between relations with Russia and inclusion in the EU and NATO.",
+              "alternate": "International cooperation in the sustainable and peaceful development of the Arctic."
+            },
+            "positions": {
+              "territory": "Not an Arctic Ocean coastal nation, so no continental-shelf dispute; leverage this 'neutrality' to act as intermediary and broker a resolution among coastal states.",
+              "sea_lanes": "Emphasize peaceful, cooperative access as seaways open with thawing ice; growing maritime access raises stakes for security and Finnish maritime-industry interests.",
+              "militarization": "Oppose Arctic militarization and push demilitarization via the Arctic Council, while boosting own defense budget (cyber, air defense, surveillance) and offering NATO cold-climate/Arctic training; fears U.S. overreaction to China/Russia.",
+              "resources": "Pioneer in sustainable mining; wants to join Arctic energy operations and help others extract resources to build bilateral ties with Denmark, Norway, and Russia; opposes commercial-fishing restrictions that strain Finnish fishing.",
+              "environment": "Protect fragile tundra and marine ecosystems; insist all adhere to the Paris Agreement, demand deeper cuts from top emitters China and the U.S., and call out Canada's/Norway's 'green' oil hypocrisy.",
+              "governance": "Arctic Council is the main and only fully inclusive forum; allow limited security discussion, support EU full observer status, oppose China's member-state accession, and reject Arctic Five exclusion of Finland/Iceland/Sweden.",
+              "indigenous": "Protect the Sámi, the only Indigenous people in the EU, whose status is constitutionally guaranteed; ensure Indigenous organizations are represented and participate in the Arctic Council."
+            },
+            "redLines": [
+              "Any attempt to make China a member state of the Arctic Council.",
+              "Exclusion of Finland (with Iceland and Sweden) from Arctic decision-making by the Arctic Five.",
+              "Erosion of Sámi rights and constitutionally guaranteed status."
+            ],
+            "batna": "Fall back to championing broad international cooperation for sustainable, peaceful Arctic development and rely on EU/NATO security guarantees plus its own strengthened defense if no deal is reached.",
+            "concessions": [
+              "Offer cold-climate and Arctic training/exercises to NATO and international partners.",
+              "Share sustainable-mining, mine-water-management, and geotechnical expertise to help other states develop resources.",
+              "Act as neutral broker on coastal continental-shelf disputes.",
+              "Support new like-minded observers, including EU full observer status, on the Arctic Council."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "Denmark",
+                "Norway",
+                "Iceland",
+                "Sweden",
+                "EU",
+                "NATO/Scandinavian partners"
+              ],
+              "adversaries": [
+                "China (bid for Council membership)",
+                "Arctic Five (as an exclusive bloc)",
+                "Russia (threat, yet essential dialog partner)"
+              ]
+            },
+            "style": "Gracious host and pragmatic bridge-builder favoring dialog, diplomacy, and consensus over confrontation.",
+            "privateStrategy": [
+              "Secretly leverage its unique channel to Russia to draw Moscow into multilateral EU-Arctic dialog, without appearing to soften its stance on Russia as a threat.",
+              "Quietly seek new non-EU trade outlets to offset a ~75% collapse in Russia trade since NATO accession.",
+              "Coordinate with Denmark (and align with China's stance) to push an Arctic 'global commons' framing to dilute Arctic Five control.",
+              "Use resource-development assistance as a tool to build closer bilateral ties with Denmark, Norway, and Russia for economic gain."
+            ]
+          }
         }
       ],
       "rules": {
@@ -7161,7 +7556,62 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "Regional economic heavyweight and would-be honest broker, working with the UN SRSG to de-escalate the Fergana crisis while advancing Kazakh trade, resource-sovereignty, and security interests.",
+            "principles": [
+              "National sovereignty is paramount: no nation may dictate how or with whom Kazakhstan trades its oil, gas, minerals, or water.",
+              "Kazakhstan alone decides its diplomatic, economic, and military ties, including relations outside the region.",
+              "Support economic integration, lower trade barriers, and expanded export of Kazakh commodities (agriculture, minerals, oil, gas).",
+              "Kazakh security and territorial integrity are imperative; explore self-defense arrangements without binding commitments.",
+              "Reduce regional tensions, restore the status quo on border demarcation, and protect Kazakh water resources."
+            ],
+            "endStates": {
+              "primary": "Reduced regional tensions with a return to the status quo on border demarcation and enhanced protection of Kazakhstan's water resources, achieved via a de-escalation framework rather than any binding agreement at this summit.",
+              "alternate": "Non-binding areas of agreement and follow-on discussion tracks (led later by the Foreign Minister with the Central Asian states only), plus deepened bilateral economic and security dialogues with Uzbekistan, China, India, and Russia."
+            },
+            "positions": {
+              "BORDERS": "Publicly supports negotiated border alignment and de-escalation aiming at the status quo ante, but refrains from openly backing any specific party's position in multilateral talks; explores areas of agreement bilaterally, especially with Tajikistan and Kyrgyzstan, without concluding a final deal.",
+              "WATER": "Openly favors mutually respectful water-resource management and dialogue; prioritizes protecting Kazakh water resources; works bilaterally/multilaterally with Tajikistan to find agreement while staying publicly neutral on the specific Kyrgyz-Tajik dispute.",
+              "HYDROPOWER": "Engages Tajikistan on power projects; interested in partnering on additional PRC-style solar/energy investment deals (e.g., following Tajikistan's $500M solar arrangement) rather than taking a hard stance on Roghun.",
+              "ENERGY": "Pursues expanded oil, gas, mineral, and metal exports and pipeline/rail projects (repairs and new lines) in partnership with Uzbekistan, Russia, and China toward western Chinese provinces; positions itself as a transit and supply hub.",
+              "SECURITY": "Entertains arrangements supporting self-defense and territorial integrity but holds NO authority to sign binding deals; explores broad points only; declines expanding CSTO or security ties with Russia.",
+              "EXTREMISM": "Interested in countering extremism, separatism, and direct threats to Kazakh national security; will explore intelligence frameworks only bilaterally and only regarding Tajik/Kyrgyz threats.",
+              "CLIMATE": "Open to cooperation on natural-resource protection and conservation (including with Russia and India) and to Indian technical assistance for energy, agriculture, and IT sectors.",
+              "INFLUENCE": "Balances great powers to preserve strategic autonomy: deepens economic ties with China and Russia as equal partners, cultivates India as trade/energy/security partner, and quietly builds Central Asian security options independent of the CSTO."
+            },
+            "redLines": [
+              "No nation may dictate how or with whom Kazakhstan trades its natural resources, including water; sovereignty over resources is non-negotiable.",
+              "Any nation demanding Kazakhstan subordinate its diplomatic/economic/military choices triggers immediate cutoff of talks and report to the Foreign Minister.",
+              "No intelligence-sharing agreements with any summit nation, except tightly held bilateral exceptions; the potential PRC arrangement must remain secret from all other nations.",
+              "No binding security or final border/water agreements to be signed at this summit."
+            ],
+            "batna": "Walk away from any deal that compromises resource sovereignty and instead defer to follow-on Foreign-Minister-led talks with only the Central Asian states, while pursuing bilateral economic and security partnerships (Uzbekistan mutual defense, China/India arms and trade) outside the summit; when guidance is unavailable, proceed per standing instructions.",
+            "concessions": [
+              "Lower trade barriers and expand two-way trade and imports with regional free-trade partners.",
+              "Offer Kyrgyzstan and China a Middle Corridor rail/road branch with Chinese FDI, using Kyrgyz and Kazakh labor (Chinese technical supervision acceptable).",
+              "Partner with Uzbekistan, Russia, and China on pipeline repairs/new lines and enhanced rail freight networks.",
+              "Provide/receive technical cooperation on natural-resource conservation, energy, agriculture, and IT (notably with India and Russia).",
+              "Facilitate transit of Uzbek commodities through Kazakhstan to western China."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "Uzbekistan",
+                "China",
+                "India"
+              ],
+              "adversaries": [
+                "Russia"
+              ]
+            },
+            "style": "Sovereignty-first, information-gathering broker: publicly cooperative and de-escalatory, privately transactional, advancing bilateral deals while avoiding binding commitments.",
+            "privateStrategy": [
+              "Secretly explore intelligence-sharing with the PRC on Tajik/Kyrgyz/Turkmen threats and with India on PRC activity, only in head-of-delegation bilaterals, hidden from all other nations.",
+              "Quietly probe a Kyrgyz-Uzbek-Kazakh security bloc and a Uzbek mutual-defense pact, anticipating possible CSTO withdrawal after Armenia's freeze.",
+              "Covertly pursue arms-purchase deals with China and India (aircraft, armor, artillery, comms) and gather BRI/CSTO/arms intelligence, reporting to the Foreign Minister; sign nothing.",
+              "Decline Russian CSTO expansion and arms offers politely while extracting information, and use Russia to broker bilateral access to India."
+            ]
+          }
         },
         {
           "teamTwinName": "diplomacy-team-uzbekistan",
@@ -7170,7 +7620,65 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "Reduce regional tensions and return to the status quo on border demarcation while protecting Uzbekistan's borders and water resources, and gather intelligence on all other delegations' positions.",
+            "principles": [
+              "Uzbekistan's current borders are non-negotiable; altering them is a hard red line.",
+              "Fresh water is vital to the people, agriculture, and national security; Uzbekistan may acquire water from beyond its borders but will never export its own.",
+              "Support the UN SRSG's mediation and collect all available information on other nations' positions to bend outcomes toward Uzbek interests.",
+              "Openly favor collaborative use of Central Asian natural resources and economic integration / lower trade barriers.",
+              "Maintain the inherent right to self-defense and territorial integrity through exploratory (non-binding) security arrangements."
+            ],
+            "endStates": {
+              "primary": "De-escalate tensions and restore the status quo on Fergana Valley border demarcation while safeguarding Uzbek water resources; secure frameworks (not final deals) for resource trade and security cooperation.",
+              "alternate": "Absent broad agreement, lock in confidence-building measures and bilateral trade/security frameworks that preserve current borders and water rights in perpetuity, and harvest maximum intelligence for later Tashkent-led talks."
+            },
+            "positions": {
+              "BORDERS": "Current borders are fixed and must be maintained in perpetuity; only confidence-building measures authorized, no final demarcation deals except between foreign ministers.",
+              "WATER": "Open to importing water from neighbors (e.g., Kazakh water for mining/agriculture) and sharing Fergana Valley resources, but will never export Uzbek water; no final water agreements at the summit.",
+              "HYDROPOWER": "Any upstream hydropower arrangement must not compromise Uzbek downstream water security; explore only, no binding commitments.",
+              "ENERGY": "Promote export of Uzbek oil, gas, metals, and minerals via Kazakh, Russian, and Chinese routes; frameworks only, final deals reserved for foreign ministers.",
+              "SECURITY": "Explore non-binding self-defense and confidence-building arrangements; interested in Kyrgyzstan/Tajikistan withdrawing from or weakening CSTO (Uzbekistan is not a CSTO member); no binding security pacts.",
+              "EXTREMISM": "Deeply concerned by Tajik/regional militant movements; seek bilateral counterterrorism intelligence frameworks without final commitments.",
+              "CLIMATE": "Frame collaborative resource management as benefiting all regional peoples; no concessions that surrender water or border sovereignty.",
+              "INFLUENCE": "Preserve strategic autonomy; deepen economic ties with China (BRI on Uzbek terms) and cultivate India and Kazakhstan as export markets while managing declining Russian influence."
+            },
+            "redLines": [
+              "No alteration of Uzbekistan's current borders.",
+              "No export of Uzbek water resources abroad.",
+              "No intelligence-sharing agreements with any summit nation (China exception explored bilaterally only).",
+              "No acceptance of PRC export-bank loans for BRI projects; all BRI construction done by Uzbek citizens.",
+              "No binding/final agreements on security, borders, water, or trade at this summit (foreign-minister sign-off required)."
+            ],
+            "batna": "Walk away from any binding deal, hold the territorial and water status quo, and defer all substantive trade/security agreements to later Tashkent-controlled bilateral negotiations, having gathered intelligence on all parties.",
+            "concessions": [
+              "Import Kazakh (or Tajik) water and natural resources to support Uzbek mining and agriculture.",
+              "Sell old/obsolete military equipment (jets, helicopters, artillery, armored vehicles) to Kyrgyzstan and Tajikistan.",
+              "Export Uzbek oil and gas via Kazakh, Russian pipelines to the PRC; expand imports and lower trade barriers regionally.",
+              "Share mining technological expertise with Kazakhstan.",
+              "Offer confidence-building measures and trade-framework outlines to Tajikistan and Kyrgyzstan."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "Kazakhstan (oil/gas, mining, rare earths, water imports)",
+                "China (major export market and potential arms/intelligence partner)",
+                "India (emerging export market, arms, IT/cyber tech)"
+              ],
+              "adversaries": [
+                "Tajikistan (border and security friction; militant threat source)",
+                "Kyrgyzstan (border security challenge; Fergana Valley water competition)",
+                "Russia (declining but a long-term security challenge; CSTO influence)"
+              ]
+            },
+            "style": "Publicly conciliatory and integration-friendly, privately probing and intelligence-driven, playing rivals against each other while conceding nothing binding.",
+            "privateStrategy": [
+              "Play Kyrgyzstan and Tajikistan against each other to expose their border objectives and strengthen Uzbek positions; report everything to the Foreign Ministry immediately.",
+              "Explore intelligence-sharing on Tajik/Kyrgyz threats ONLY bilaterally with China; no other nation may know of this initiative.",
+              "Build rapport with Russia and probe its Ukraine-war and pipeline/defense intentions, but never openly agree with Russian positions; quietly favor Kyrgyz withdrawal from the CSTO.",
+              "Treat the summit primarily as an intelligence-collection operation: harvest each delegation's flexible areas, red lines, arms needs, and BRI/security plans and relay to Tashkent, committing to nothing binding."
+            ]
+          }
         },
         {
           "teamTwinName": "diplomacy-team-kyrgyzstan",
@@ -7179,7 +7687,64 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "Reduce regional tensions and return to the status quo on border demarcation while protecting Kyrgyz sovereign territory and water resources, gathering intelligence without concluding any binding agreement.",
+            "principles": [
+              "Never surrender any current sovereign Kyrgyz territory under any framework (Red Line).",
+              "Kyrgyz water is for the Kyrgyz people, livestock, and land; exporting water resources is a Red Line.",
+              "Support the UN SRSG's mediation while collecting all available information on other delegations' positions and flexibilities.",
+              "Preserve Kyrgyzstan's inherent right to self-defense and territorial integrity through new security arrangements.",
+              "Make no final/binding agreements at the summit; report all findings to the Foreign Minister for follow-on guidance."
+            ],
+            "endStates": {
+              "primary": "De-escalate tensions and restore the status quo on Fergana Valley border demarcation with Kyrgyz sovereign territory and water resources fully protected.",
+              "alternate": "Secure diplomatic backing (esp. Kazakhstan) for Kyrgyz border and water positions plus a framework for new regional security and economic arrangements, with everything referred back to the Foreign Ministry."
+            },
+            "positions": {
+              "BORDERS": "Return to and lock in the status quo demarcation; retain all current sovereign territory including exclaves; welcome Uzbek demarcation proposals and confidence-building measures; blame Tajikistan for border problems while extracting their proposals.",
+              "WATER": "Openly support equitable shared water dialogue and ICWC reform, but block any export/plunder of Kyrgyz water; only inbound water sent into Kyrgyz treatment/holding reservoirs (with Chinese tech) for possible later monitored re-export is acceptable.",
+              "HYDROPOWER": "Protect Kyrgyz winter power and upstream water control against downstream demands; resist arrangements that would constrain Kyrgyz use of its own water for energy.",
+              "ENERGY": "Address the Kyrgyz energy emergency and drought shortages by keeping control of domestic water/hydropower and seeking Chinese/regional economic and infrastructure support.",
+              "SECURITY": "Explore (non-binding) security arrangements safeguarding self-defense and territorial integrity; view Russia/CSTO as a weak guarantor and pursue new arrangements with Uzbekistan and Kazakhstan; reject any Russian troop deployments into Kyrgyzstan.",
+              "EXTREMISM": "Open to counterterrorism cooperation consistent with sovereignty; treat as a vehicle for broader security dialogue and information-gathering.",
+              "CLIMATE": "Frame water conservation and stewardship as protecting Kyrgyz resources against wasteful downstream users; welcome Chinese technical expertise in water management.",
+              "INFLUENCE": "Tilt away from Russia/EAEU toward China/SCO for economics; use India as a stalking horse against China; balance great powers to preserve Kyrgyz autonomy and gain FDI, BRI, and arms options."
+            },
+            "redLines": [
+              "No agreement surrendering any sovereign Kyrgyz territory.",
+              "No export of Kyrgyz water resources beyond its borders.",
+              "No intelligence-sharing agreement with any nation (China-only exception discussed strictly bilaterally and secretly).",
+              "Reject any confidence-building measure involving Russian troops deployed into Kyrgyzstan.",
+              "No final/binding agreements concluded at the summit."
+            ],
+            "batna": "Conclude nothing binding, hold the territorial and water status quo, report all findings to the Foreign Minister, and await further guidance rather than accept any deal that crosses a red line.",
+            "concessions": [
+              "Accept inbound water into Kyrgyz treatment/holding reservoirs for possible later monitored re-export.",
+              "Provide water help to Kazakhstan 'under the right conditions' in exchange for diplomatic support.",
+              "Offer diplomatic reciprocity and confidence-building measures with Uzbekistan on borders/security.",
+              "Jointly funded BRI infrastructure using predominantly Kyrgyz labor (Chinese technical supervisors acceptable).",
+              "Explore replacing the EAEU with an SCO-based economic framework."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "Kazakhstan",
+                "Uzbekistan",
+                "China"
+              ],
+              "adversaries": [
+                "Tajikistan",
+                "Russia"
+              ]
+            },
+            "style": "Outwardly cooperative and information-hungry: friendly, non-committal, extracts others' positions while quietly protecting red lines and deferring all decisions to the capital.",
+            "privateStrategy": [
+              "Secretly consider withdrawing from the CSTO and coordinate the timing/partnership with Kazakhstan (and Uzbekistan) on leaving Russia's orbit.",
+              "In head-of-delegation-only bilaterals with China, explore an intelligence-sharing arrangement targeting Tajikistan and Uzbekistan; no other nation may learn of this (Red Line).",
+              "String Tajikistan along to extract maximum intelligence while never agreeing to anything with them.",
+              "Privately explore arms purchases from Russia, China, and India (heads-of-delegation only) and accept Chinese water tech with no strings attached."
+            ]
+          }
         },
         {
           "teamTwinName": "diplomacy-team-tajikistan",
@@ -7188,7 +7753,66 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "Tajikistan seeks to de-escalate the Fergana Valley crisis and return to the status quo on border demarcation while protecting its water resources, territorial integrity, and sovereign border claims.",
+            "principles": [
+              "Preserve Tajik territorial integrity absolutely; no Tajik territory may be traded away at this summit and no final border agreements may be signed here.",
+              "Reduce regional tension and return to the status quo on border demarcation, accepting only incremental adjustments backed by verifiable, neutral-observer confidence-building measures.",
+              "Protect Tajikistan's water resources as sovereign, sharing only within a mutual Central Asian natural-resources management plan.",
+              "Treat Russia as a declining power and no longer a viable security guarantor; work toward the sundowning of the CSTO and a new Central Asian-centered security order.",
+              "Pursue economic integration, FDI, and diversified arms/security partnerships to modernize the state, reporting all substantive findings to the Foreign Minister before committing."
+            ],
+            "endStates": {
+              "primary": "Reduce tensions and return to the pre-crisis status quo on border demarcation with full protection of Tajik water resources and territorial integrity, leaving final settlements for later foreign-minister-level talks.",
+              "alternate": "A framework (non-binding) of confidence-building measures and reciprocal troop limits that freezes the disputes without conceding territory, plus expanded economic and security partnerships outside Russian control."
+            },
+            "positions": {
+              "BORDERS": "Return to status quo; no territory traded and no final agreement signed. Only incremental adjustments with Uzbekistan backed by verifiable neutral-observer CBMs; firm, unsoftened stance toward Kyrgyzstan; frameworks only, sovereignty maintained to the greatest degree possible.",
+              "WATER": "Tajik water resources remain sovereign or are shared only under a joint Central Asian natural-resources management plan; open to collaborative dialogue and outside technical assistance (e.g. Chinese) provided the price is low.",
+              "HYDROPOWER": "Approach hydropower within the broader natural-resources framework, ensuring Tajik control of its water is not compromised by any downstream allocation demands.",
+              "ENERGY": "Engage on regional energy and resource collaboration through economic integration and FDI while safeguarding Tajik water/energy sovereignty.",
+              "SECURITY": "Support Tajikistan's right to self-defense and territorial integrity; back a new Central Asian security arrangement excluding Russia (end of CSTO), possibly with non-regional observers/partners approved by the Foreign Minister. No binding agreements, frameworks only.",
+              "EXTREMISM": "Open to counterterrorism/counterinsurgency cooperation, including combined CT/COIN training exercises (notably with Uzbekistan) starting as early as next year, as frameworks for later agreement.",
+              "CLIMATE": "Address droughts and water shortage through collaborative regional resource management and outside technical assistance kept affordable.",
+              "INFLUENCE": "Deepen ties with China (BRI, top trading partner) and revive the India partnership, while diluting Russian dominance; keep India talks discreet to avoid provoking Chinese BRI curtailment."
+            },
+            "redLines": [
+              "No recognition of Uzbekistan's border claims unless Uzbekistan openly and fully backs Tajik border claims against Kyrgyzstan.",
+              "No continued economic or security partnership with India unless India openly commits to recognizing Tajik sovereignty and border claims.",
+              "No Russian military personnel as observers or peacekeepers of any kind inside Tajikistan; immediately and publicly reject any such proposal.",
+              "No Tajik territory may be ceded or traded away at this summit.",
+              "Any China intelligence-sharing initiative on Kyrgyzstan/Uzbekistan is strictly bilateral and secret; no other nation may learn of it."
+            ],
+            "batna": "Sign no binding agreement at the summit; hold the status-quo border and sovereign water position, gather intelligence and frameworks only, and refer all substantive terms back to the Foreign Minister for later bilateral talks in Dushanbe.",
+            "concessions": [
+              "Lower trade barriers, expand exports (agriculture, minerals, oil, natural gas) and imports, and welcome FDI case-by-case from all seven delegations.",
+              "More generous economic partnerships with Kyrgyzstan IF Kyrgyzstan openly supports Tajik positions.",
+              "Reciprocal, verifiable troop-limitation CBMs along the Kyrgyz-Tajik border (platoon cap at outposts; battalion cap within 25 km absent notification).",
+              "Recognize Uzbekistan's border claims in exchange for Uzbek open support against Kyrgyzstan.",
+              "Shared use of Tajik water under a mutual Central Asian natural-resources management plan.",
+              "Combined CT/COIN training and purchase of excess military equipment with Uzbekistan (frameworks only)."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "China",
+                "India",
+                "Uzbekistan",
+                "Kazakhstan"
+              ],
+              "adversaries": [
+                "Kyrgyzstan",
+                "Russia"
+              ]
+            },
+            "style": "Cautious, non-committal framework-builder: publicly conciliatory and pro-integration, privately probing for intelligence, defers all binding decisions to the Foreign Minister.",
+            "privateStrategy": [
+              "Secretly explore leaving the CSTO (like Armenia) and probe whether Kazakhstan would also exit and co-found a new Central Asian security bloc; keep any exit intention hidden.",
+              "In heads-of-delegation bilaterals only, pursue secret intelligence-sharing with China on Kyrgyzstan/Uzbekistan (and possibly India); no other nation may know this exists.",
+              "Discreetly seek discounted arms purchases from Russia, China, and India (aircraft, armor, artillery, EW gear) — information-gathering only, deals deferred to Dushanbe.",
+              "Quietly press Russia to redeploy its 201st Military Base out of Dushanbe within two years, and keep India economic talks hidden from China to protect BRI benefits."
+            ]
+          }
         },
         {
           "teamTwinName": "diplomacy-team-russia",
@@ -7197,7 +7821,69 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "Reestablish Russian influence in its Central Asian 'near abroad' by reducing tensions and setting conditions for follow-on bilateral engagement, while working with (and steering) the UN SRSG's mediation.",
+            "principles": [
+              "Central Asia is Russia's near abroad and Russia must remain the region's primary security guarantor; no arrangement may supplant that role.",
+              "The CSTO is vital to national security; any hint of Kazakh, Kyrgyz, or Tajik pausing or leaving the treaty is a critical concern.",
+              "Reject any regional coordinating organization that excludes Russia, or that installs China as primary leader.",
+              "Oppose aggressively any oil/gas/minerals/metals trade deal (bilateral or multilateral) with China that does not include Russia as resource origin or partner.",
+              "Support a peaceful, comprehensive solution to border and water disputes; reject any use of force."
+            ],
+            "endStates": {
+              "primary": "Tensions reduced under Russian-led framing, Russia affirmed as sole security guarantor and central regional power, EAEU/CSTO expanded (welcoming Tajikistan and Uzbekistan into EAEU), and conditions set for subsequent bilateral deals advancing Russian interests.",
+              "alternate": "Absent formal agreements, gather maximum intelligence on rivals' positions and Chinese/Western inroads, block adverse organizations, and preserve leverage for later bilateral engagement by foreign ministries."
+            },
+            "positions": {
+              "BORDERS": "Borders must remain exactly as they are today; oppose any demarcation change with vigor but without publicly embarrassing Russia. Not opposed to a Fergana Valley monitoring mission only if Russia is a primary leader (two of three states are CSTO members).",
+              "WATER": "Support collaborative, peaceful management of transboundary water; offer to broker a Russian-technology Caspian desalination facility serving western Kazakhstan and Uzbekistan; privately back Tajik water rights and infrastructure as quid-pro-quo.",
+              "HYDROPOWER": "Fold hydropower/water disputes into Russia-brokered collaborative resource dialogue rather than a rival-led mechanism; leverage as bargaining linkage.",
+              "ENERGY": "Expand Russian pipeline infrastructure to carry regional oil/gas to western markets (cost/revenue sharing with Uzbekistan); deepen EAEU energy integration, steering Kyrgyzstan away from PRC dependence.",
+              "SECURITY": "Russia remains the indispensable security guarantor; entertain (not finalize) bilateral/multilateral security arrangements supporting Russia's self-defense and territorial integrity; oppose any new security body excluding Russia or led by China. Delegation cannot sign binding security agreements.",
+              "EXTREMISM": "Offer counterterrorism/security assistance, especially to Tajikistan; insist (bilaterally only) Tajik authorities dismantle the group behind the Moscow attack and hand over perpetrators; explore intel-sharing cooperation with China and a framework with India on terrorism/separatism.",
+              "CLIMATE": "Engage via collaborative resource-management and desalination/water-infrastructure offers that bind partners to Russian technology and mediation.",
+              "INFLUENCE": "Reassert Russian primacy; play China and India against each other and mediate between them; contain Chinese economic/security expansion and Western inroads while preserving the Moscow-Beijing strategic partnership."
+            },
+            "redLines": [
+              "No regional coordinating or security organization that excludes Russia or makes China its primary leader.",
+              "Russia must not be supplanted as Central Asia's security guarantor; CSTO obligations will not be abrogated.",
+              "No China resource trade deal (oil/gas/minerals/metals) that excludes Russia as origin or partner.",
+              "No alteration of existing borders.",
+              "Kazakhstan, Kyrgyzstan, or Tajikistan pausing or withdrawing from the CSTO (handle delicately at top levels)."
+            ],
+            "batna": "Sign nothing binding (delegation lacks authority for binding security/economic deals); instead block adverse structures, harvest intelligence on all parties, and defer real gains to later bilateral foreign-ministry negotiations, proceeding per standing guidance if the Foreign Minister cannot respond.",
+            "concessions": [
+              "Welcome Tajikistan and Uzbekistan into the Eurasian Economic Union; expand EAEU trade and lower barriers.",
+              "Broker a Russian-technology Caspian desalination facility supplying freshwater to western Kazakhstan and Uzbekistan.",
+              "Modern Russian arms for Kazakhstan/Kyrgyzstan (e.g. credit for older equipment; identify Kyrgyz upgrade needs) — explore only, no final deals.",
+              "Security/intelligence and personnel assistance to Tajikistan inside Tajikistan; technical water-infrastructure support for Tajik borders/water.",
+              "Expanded guest-worker visas for Tajik citizens.",
+              "Pipeline cost- and revenue-sharing with Uzbekistan to reach western export markets.",
+              "Explore defense-cooperation and terrorism/separatism intel frameworks with India (no commitments)."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "Tajikistan",
+                "Kyrgyzstan",
+                "China (strategic partner, with caveats)",
+                "India (long-term friend)",
+                "Kazakhstan (CSTO member, but drifting toward PRC)"
+              ],
+              "adversaries": [
+                "Uzbekistan (contentious, non-CSTO, Western-leaning)",
+                "China as regional hegemon/rival resource buyer",
+                "Western nations and any organization excluding Russia"
+              ]
+            },
+            "style": "Patient great-power mediator: publicly cooperative and pro-peace, privately coercive and intelligence-driven, using issue-linkage, side-payments, and playing rivals against each other.",
+            "privateStrategy": [
+              "Secretly pressure the three CSTO allies with threat of sanctions if they entertain security organizations excluding Russia or led by China; privately warn Kazakhstan against its deepening PRC ties and its security partnership with Uzbekistan, and warn Uzbekistan against turning West.",
+              "Only bilaterally, offer India an intelligence-sharing arrangement on Chinese activities in Central Asia (incl. PRC political/economic/PLA topics, Head-of-Delegation to Head-of-Delegation) and encourage India to rejuvenate its Tajik air-force ties as a China counterweight — no other nation may know.",
+              "Oppose China's reported bid for a military facility in Tajikistan and any PRC hegemonic play, but never at the expense of the Moscow-Beijing partnership; explore deepened Russia-China intel-sharing.",
+              "Insist bilaterally that Tajikistan hand over the Moscow-attack planners/perpetrators; treat the summit as reconnaissance — collect all delegations' positions, flexible areas, and Chinese/Western inroads and report to the Foreign Minister for later bilateral exploitation."
+            ]
+          }
         },
         {
           "teamTwinName": "diplomacy-team-china",
@@ -7206,7 +7892,64 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "Expand PRC regional influence in Central Asia while publicly backing peace, quietly ensuring no comprehensive settlement is reached and setting conditions for later bilateral deals.",
+            "principles": [
+              "Keep Central Asian states off balance and inward-focused; block any comprehensive border/water settlement among them.",
+              "Deny India any leadership foothold in Central Asia and isolate it at every turn.",
+              "Prevent Russia from reinserting military power (especially in Kyrgyzstan/Tajikistan) and treat the CSTO as defunct.",
+              "Secure water flows for China's western provinces; oppose any water accord that excludes imports to China.",
+              "Advance Belt and Road Initiative expansion and position China for follow-on bilateral engagement."
+            ],
+            "endStates": {
+              "primary": "Enhanced Chinese regional dominance with disputes left unresolved, no India/Russia leadership role, BRI expanded, and conditions set for bilateral resource and security deals.",
+              "alternate": "A limited, non-binding framework (e.g., a Fergana monitoring mission under a China-acceptable neutral lead) that reduces tensions without a binding comprehensive settlement or water terms excluding China."
+            },
+            "positions": {
+              "BORDERS": "Publicly support peaceful resolution but insist borders stay as-is; oppose any demarcation change without embarrassing the parties. A Fergana monitoring mission is acceptable only if led by a disinterested, China-approved nation (never Russia or India), backstopped by China's UNSC role.",
+              "WATER": "Openly offer technical/construction help for shared use, but block any final water accord; oppose any deal that excludes water imports to China's western provinces.",
+              "HYDROPOWER": "Offer construction and technical assistance (Roghun, winter power) as BRI leverage while avoiding a binding downstream settlement.",
+              "ENERGY": "Address Kyrgyz energy emergency via arms/equipment-for-resources deals and BRI infrastructure to deepen dependence on China.",
+              "SECURITY": "Offer security assistance, arms sales, cyber and intelligence-sharing bilaterally; torpedo CSTO as the security mechanism; sign no final security agreement at the summit (frameworks only, passed to foreign ministries).",
+              "EXTREMISM": "Offer counterterrorism and security assistance (notably to Tajikistan) as leverage to pull states into China's orbit.",
+              "CLIMATE": "Frame water sharing and smart resource use as shared health/economic benefit to justify BRI projects and flows to China.",
+              "INFLUENCE": "Publicly back Kazakh-friendly ideas and Russia's multilateral positions; privately expand Chinese primacy, isolate India, and downplay Russia's deliverability."
+            },
+            "redLines": [
+              "Central Asian states reaching a comprehensive settlement of border and resource disputes.",
+              "Any change to existing borders among Kyrgyzstan, Tajikistan, Uzbekistan.",
+              "A water-sharing accord that excludes water imports to China's western provinces.",
+              "Russian forces deployed to Kyrgyzstan or Tajikistan to shape their internal politics.",
+              "Any enhancement or expansion of India's influence/leadership in Central Asia."
+            ],
+            "batna": "Prevent any binding agreement, keep disputes frozen, and shift to bilateral engagement with individual states (Kazakhstan, Kyrgyzstan, Tajikistan, Uzbekistan) after the summit to lock in resource, arms, and security deals.",
+            "concessions": [
+              "Water technical expertise, construction, storage and conservation projects.",
+              "BRI infrastructure investment and expansion.",
+              "Arms sales and military training at favorable prices (Uzbekistan, Kyrgyzstan).",
+              "Economic development aid, mining/agriculture assistance, and political support.",
+              "Cyber-security help and intelligence-sharing arrangements (Kazakhstan, Uzbekistan)."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "Kazakhstan",
+                "Kyrgyzstan",
+                "Russia (public support only)"
+              ],
+              "adversaries": [
+                "India",
+                "Russia (privately, as regional rival)"
+              ]
+            },
+            "style": "Publicly cooperative and incentive-driven, privately obstructive and coercive; Wolf Warrior hostility reserved for India.",
+            "privateStrategy": [
+              "Covertly ensure NO comprehensive border/water settlement is reached; obstruct while never publicly embarrassing the Central Asian states.",
+              "Support Russia openly in multilateral sessions but undercut its credibility bilaterally; remind Moscow of the unfulfilled Tumen River land transfer for Sea of Japan access.",
+              "Aggressively pull Kyrgyzstan into China's orbit and gather Kyrgyz/Uzbek security-arrangement details for the Foreign Ministry, but conclude no formal agreements and downplay this publicly.",
+              "Split India-Tajikistan and India-Russia ties; escalate coercion or direct warnings only with prior Foreign Minister approval, and no final security agreement may be signed at the summit."
+            ]
+          }
         },
         {
           "teamTwinName": "diplomacy-team-india",
@@ -7215,7 +7958,65 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "India seeks to reestablish influence in Central Asia, reduce tensions, and set conditions for follow-on bilateral engagement while blunting Chinese dominance in the region.",
+            "principles": [
+              "India deserves a leading role in Asia and refuses to acquiesce to Chinese hegemony in Central Asia.",
+              "Support Russia's initiatives publicly as a longstanding friend, but never in a way that ties India into direct alliance or lets Moscow reclaim regional primacy.",
+              "Champion peaceful, comprehensive, just settlement of border disputes and fair, equitable transboundary water agreements.",
+              "Advocate representative government and democratic reform as the largest democracy on the planet.",
+              "Secure access to Central Asian critical natural resources for India's expanding technology sector."
+            ],
+            "endStates": {
+              "primary": "Reestablish Indian influence and reduce tensions at the summit, box out Chinese dominance, and set conditions for subsequent bilateral security and economic engagement with the Central Asian states—especially reinvigorated security ties with Tajikistan.",
+              "alternate": "Prevent any outcome that crowns China as regional hegemon or expands Russian military primacy, preserving India's opening for later bilateral deals even if no multilateral agreement is reached."
+            },
+            "positions": {
+              "BORDERS": "Strongly favors peaceful, comprehensive, and just settlement of the Fergana Valley border disputes; offers partnership with PRC and Russia to assist Central Asian nations as they wish.",
+              "WATER": "Supports sustainable, fair, and equitable transboundary water agreements; willing to help mediate ICWC reform in partnership with others as the nations deem supportive.",
+              "HYDROPOWER": "Backs equitable resolution of Roghun/winter-power needs versus downstream security within a just, cooperative framework; will support Tajik and Kazakh proposals.",
+              "ENERGY": "Open to offering technical assistance for energy, infrastructure, and related needs, especially to Tajikistan and other partners, as a tool of influence.",
+              "SECURITY": "Watchful of CSTO dynamics; opposes any forced retention of Kazakhstan, Kyrgyzstan, or Tajikistan in CSTO and any significant Russian military expansion; offers bilateral security agreements and Indian arms to willing partners.",
+              "EXTREMISM": "Supportive of coordinated counterterrorism and stability; offers security assistance to partners such as Tajikistan.",
+              "CLIMATE": "Amenable to cooperative, equitable shared-resource and adaptation solutions in partnership with regional and great-power actors.",
+              "INFLUENCE": "Insists Central Asian nations retain freedom to choose their own path; works to reestablish Indian influence while subtly undermining Chinese BRI centrality and guarding against Russian primacy."
+            },
+            "redLines": [
+              "China becoming the de facto hegemon in, or deepening dominance over, Central Asia.",
+              "Russia significantly expanding its military presence in the region with CSTO partners.",
+              "Russia forcing Kazakhstan, Kyrgyzstan, or Tajikistan to remain in the CSTO against their will.",
+              "China establishing a bilateral trade or security arrangement with Kazakhstan or Uzbekistan outside a broader multilateral Asian partnership."
+            ],
+            "batna": "Fall back on bilateral, off-summit engagement with individual Central Asian states (especially Tajikistan) to secure Indian interests; if a red line is triggered, report to the Minister of External Affairs and await guidance rather than sign any adverse multilateral agreement.",
+            "concessions": [
+              "Free trade agreements and economic assistance to Tajikistan, Kazakhstan, Kyrgyzstan, and Uzbekistan.",
+              "Indian arms sales and weapons platforms to modernize Central Asian militaries.",
+              "Bilateral security agreements (e.g., with Kazakhstan or Tajikistan).",
+              "Technical assistance across economic, security, infrastructure, medical, and governance domains.",
+              "Tech-sector career and economic opportunities for young Uzbeks and others.",
+              "Public supportive statements for Russian and Tajik/Kazakh positions."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "Tajikistan",
+                "Kazakhstan",
+                "Russia (public support only)",
+                "Uzbekistan",
+                "Kyrgyzstan"
+              ],
+              "adversaries": [
+                "China"
+              ]
+            },
+            "style": "Cordial and consensus-friendly in public, subtle and transactional in private—winning influence through bilateral deals while never openly attacking rivals.",
+            "privateStrategy": [
+              "Covertly undermine and box out all Chinese initiatives (especially BRI) via private bilateral talks with the four Central Asian states—never openly argue with the PRC; if a Chinese MSS operative is identified, it is acceptable to publicly expose them as a 'spy.'",
+              "Support Russia publicly but stay vigilant against Russian efforts to reclaim primacy; do not endorse any specific Russian plan until relayed to and cleared by the Foreign Ministry.",
+              "Aggressively reinvigorate the Tajikistan relationship—pursue Indian air base privileges or at least annual joint IAF-Tajik air exercises from bases in Tajikistan, supplanting Russia if needed.",
+              "Probe Kazakhstan's and Tajikistan's intentions on CSTO/Eurasian Economic Union withdrawal and their arms needs; offer bilateral security/trade deals to pull them toward India, reporting all intelligence back to the Minister of External Affairs."
+            ]
+          }
         }
       ],
       "rules": {
@@ -9046,7 +9847,66 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "The internationally recognized government of Cyprus seeking to reintegrate the Turkish-held north into a single, existing Cypriot state through UN-mediated talks.",
+            "principles": [
+              "The Republic of Cyprus already exists and is internationally recognized; the Turkish-held north must be re-integrated into it, not merged as an equal.",
+              "Reject the 'virgin birth' idea that the current state dissolves into a new nation formed from two equal entities.",
+              "A single sovereignty, single citizenship, and single international personality with a strong, fully representative federal government.",
+              "Complete demilitarization: withdrawal of all foreign troops, abolition of the guarantee/alliance system, and removal of settlers.",
+              "Any settlement must conform to the EU acquis and guarantee the human rights and freedoms of all Cypriots."
+            ],
+            "endStates": {
+              "primary": "A reunited bicommunal, bizonal federation with a single sovereignty and a strong central government, achieved by re-integrating the Turkish Cypriot region into the existing Republic of Cyprus.",
+              "alternate": "A phased, mutually-agreed integration over time that first resolves territory, residency, and property concerns before finalizing governance, with safeguards for minorities."
+            },
+            "positions": {
+              "SOVEREIGNTY": "Single sovereignty, single citizenship, single international personality; flatly reject two-state 'sovereign equality' and any recognition of the 'TRNC'.",
+              "GOVERNANCE": "Strong federal government with a President and Vice-President elected on one popular-vote ticket; reject rotating presidency and confederal weak-center models; no duplicate federal/state institutions.",
+              "TERRITORY": "Return of Varosha/Famagusta and displaced-persons returns; no discussion of Famagusta port until Greek Cypriot owners reclaim property or are compensated; oppose ongoing northern redevelopment.",
+              "PROPERTY": "Dispossessed Greek Cypriot owners must be able to reinstate or be compensated; empty redevelopment offers conditioned on continued Turkish control are rejected.",
+              "SECURITY": "Abolish the 1960 Treaty of Guarantee and Treaty of Alliance; full withdrawal of all foreign troops; replace with a UN/Greece/Türkiye mechanism limited to unexpected attacks, with no right of intervention.",
+              "ENERGY": "Offshore gas in the Cypriot EEZ belongs to a single unified state (implied by single sovereignty and demilitarization stance).",
+              "CITIZENSHIP": "Demand a full, transparent, non-partisan census; identify Turkish settlers and soldiers as illegal transfers (Fourth Geneva Convention) for repatriation; only temporary, never permanent limits on Greek Cypriot freedoms in the north.",
+              "EU-STATUS": "Willing to lift blocks on Türkiye's EU accession and on the Direct Trade Regulation only after withdrawal of Turkish troops and genuine confidence-building; settlement must align with the acquis."
+            },
+            "redLines": [
+              "No international recognition of the 'Turkish Republic of Northern Cyprus' and no 'virgin birth' proposal.",
+              "No confederation with a weak federal government and strong state governments.",
+              "The office of President must be elected by popular vote.",
+              "No right of military intervention by any outside state.",
+              "No permanent limitations on Greek Cypriots' freedom to live, own property, do business, or vote across the island."
+            ],
+            "batna": "Maintain the status quo: the internationally recognized Republic of Cyprus continues as-is inside the EU, keeps blocking Türkiye's EU accession and the Direct Trade Regulation, and refuses to recognize Ercan Airport or northern control until conditions are met.",
+            "concessions": [
+              "Accept a Senate-elected Vice-President in exchange for a popular-vote President.",
+              "Lift blocks on Türkiye's EU accession and the Direct Trade Regulation once Turkish troops withdraw and confidence-building is shown.",
+              "Consider a Turkish Cypriot 'right of military intervention' only if strictly limited to their own constituent state's boundaries.",
+              "Agree to residency requirements for local elections (e.g., 10-year legal residence before local voting rights).",
+              "Pursue a phased, deliberate integration process addressing Turkish Cypriot concerns over territory, residency, and property.",
+              "Accept a whole-island census by a mutually agreed independent agency."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "Greece",
+                "United States",
+                "United Kingdom",
+                "European Union"
+              ],
+              "adversaries": [
+                "Turkish Republic of Northern Cyprus",
+                "Turkey"
+              ]
+            },
+            "style": "Legalistic and principle-driven, anchoring on international recognition and the EU acquis while trading EU-accession leverage for demilitarization.",
+            "privateStrategy": [
+              "Treat the census as a tool to expose and quantify Turkish settlers/soldiers for repatriation and to frame them as a Fourth Geneva Convention war crime.",
+              "Use blocks on Türkiye's EU accession and the Direct Trade Regulation as bargaining leverage, releasing them only against verified Turkish troop withdrawal.",
+              "Concede a Senate-elected Vice-President only as a trade to lock in a popular-vote President; do not offer it for free.",
+              "Route periodic reports and requests for guidance to the Foreign Minister's office; conduct in common areas is subject to intelligence collection."
+            ]
+          }
         },
         {
           "teamTwinName": "diplomacy-team-trnc",
@@ -9055,7 +9915,65 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "Represent the Turkish Cypriot community in reunification talks to secure political equality, communal self-rule, and continued security guarantees within (or short of) a new United Republic of Cyprus.",
+            "principles": [
+              "Any settlement must create a NEW 'United Republic of Cyprus' by 'virgin birth' of two founding states, with the current Greek-Cypriot-created Republic of Cyprus ceasing to exist.",
+              "The two communities are politically equal; Turkish Cypriots must never be disenfranchised or marginalized by a Greek-Cypriot-dominated government.",
+              "Preserve the same level of security enjoyed at the 1960 grant of independence via continued Guarantor Power arrangements.",
+              "Türkiye is the indispensable supporter and partner; policy is shaped in close cooperation with Ankara.",
+              "Protect the distinct character and rights of native Turkish Cypriots on the island."
+            ],
+            "endStates": {
+              "primary": "A confederation / new United Republic of Cyprus of two strong, equal founding states, with a weak central government subservient to the constituent states and communal control over most functions.",
+              "alternate": "If a new republic at 'virgin birth' cannot be achieved, secure international recognition of the TRNC as a legitimate, independent entity lawfully representing the Turkish Cypriot people."
+            },
+            "positions": {
+              "SOVEREIGNTY": "Reject annexation into the existing Republic of Cyprus; demand a new republic born of two politically equal states, with recognition of the TRNC as the rightful home of Turkish Cypriots as the first step.",
+              "GOVERNANCE": "Confederation with only a small number of national offices (banking, foreign service, investigative services) delegated by strong communal governments; Senate-elected, community-rotating President/VP every 3 years rather than a single-ticket popular vote.",
+              "TERRITORY": "Keep Varosha as part of the TRNC while offering generous Greek Cypriot resettlement/redevelopment terms; use Famagusta Port opening (under EU/UN supervision) as a bargaining chip.",
+              "PROPERTY": "Handle dispossessed-owner claims within a communal framework; tie Varosha resettlement offers to broader trade and accession blockage removal.",
+              "SECURITY": "Reject a standing national army (would be Greek-Cypriot dominated); favor two separate communal national guards; keep/replace the Guarantee and Alliance treaties with Türkiye and Greece included; take lead with the SRSG on the UN treaty proposal.",
+              "ENERGY": "Not addressed in instructions; defer to coordination with Türkiye and protect communal/equal rights over island resources.",
+              "CITIZENSHIP": "Tightly define 'settler' (15+ yrs residence, formal citizenship candidate, property owner, no criminal record); insist any census be conducted and enumerated only by the TRNC government; can quietly accept larger repatriation numbers.",
+              "EU-STATUS": "Push implementation of the Direct Trade Regulation and removal of blocks on Türkiye's EU accession; trade small steps (Famagusta opening, Ankara Protocol) via US/UK pressure to ease TRNC economic isolation and unlock the EU 'Four Freedoms'."
+            },
+            "redLines": [
+              "No system of government that disenfranchises Turkish Cypriots in favor of a Greek-Cypriot-dominated government.",
+              "No strong federal system; reject a strong central government.",
+              "No popular-vote national elections (inherently favors the Greek Cypriot majority).",
+              "No abrogation of the current Guarantee/Alliance treaties without an acceptable replacement.",
+              "No census conducted or enumerated by any outside party rather than the TRNC government.",
+              "No standing national army."
+            ],
+            "batna": "Walk away from a federal deal and fall back to seeking international recognition of the TRNC as a legitimate, independent entity, backed by Türkiye, maintaining the status quo of separation with continued Guarantor security.",
+            "concessions": [
+              "Acquiesce to larger numbers of settlers being considered for repatriation than publicly stated.",
+              "Offer generous resettlement/redevelopment terms to Greek Cypriots in Varosha (while retaining it as TRNC territory).",
+              "Open Famagusta Port for trade under EU or UN supervision in exchange for Ankara Protocol implementation and DTR/accession unblocking.",
+              "Support the UN proposal to replace the current treaties with a new Türkiye-Greece-Cyprus mechanism if security safeguards are preserved.",
+              "Accept a small set of shared national institutions (banking, foreign service, investigative services)."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "Turkey",
+                "United Kingdom",
+                "United States"
+              ],
+              "adversaries": [
+                "Republic of Cyprus",
+                "Greece"
+              ]
+            },
+            "style": "Constructive and proactive but firm on political equality; coordinated closely with Türkiye, uses issue-linkage (trade/accession for confidence-building) and takes initiative with the SRSG.",
+            "privateStrategy": [
+              "Do not align with Türkiye's position that a large mainland Turkish population is needed; privately worry that immigrants now outnumber native Turkish Cypriots and threaten Turkish Cypriot identity.",
+              "Can secretly acquiesce to larger repatriation numbers than the public stance opposing Greek Cypriot demands.",
+              "Treat recognition of the TRNC as the true underlying objective; use Ercan Airport control (passports, visas, customs) and Varosha development as de facto legitimization levers.",
+              "Coordinate all positions with Türkiye and report periodically to the Foreign Minister; use US/UK to pressure Greek Cypriots and Greece."
+            ]
+          }
         },
         {
           "teamTwinName": "diplomacy-team-greece",
@@ -9064,7 +9982,64 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "Greece acts as kin-state guarantor backing the Greek Cypriots, pressing for reunification of the occupied north into the existing Republic of Cyprus while deferring to Nicosia on internal matters.",
+            "principles": [
+              "Integrate the Turkish-held areas into the already internationally recognized Republic of Cyprus, preserving its continuous legal personality.",
+              "Restore international legality violated by the Turkish invasion and ongoing occupation of a sovereign UN/EU member state.",
+              "Require full withdrawal of Turkish occupation forces on a short, defined timeline and termination of the anachronistic 1960 guarantee system.",
+              "Build a single Cypriot nation and heritage with a strong federal government fully representative of all Cypriots.",
+              "Do not intervene in internal aspects of the Cyprus problem, which are the exclusive competence of the Cypriot government."
+            ],
+            "endStates": {
+              "primary": "A single bicommunal Cypriot nation with a strong central/federal government, integrated national armed forces, and EU-anchored freedoms (movement and settlement), with the occupation ended and outside guarantees abolished.",
+              "alternate": "A federation with a strong federal government and weaker communal states plus safeguards for Turkish Cypriots and minorities (Armenians, Latins, Maronites), reached through UN-brokered compromise mechanisms."
+            },
+            "positions": {
+              "SOVEREIGNTY": "Reject two-state 'sovereign equality' and the 'virgin birth' concept; the Republic of Cyprus already exists and must persist as a single international personality that absorbs the north.",
+              "GOVERNANCE": "Strong federal government with clearer federal/state separation and no duplicate institutions; support directly elected President on a single ticket, accept a Senate-elected Vice-President as a compromise, and reject rotating presidency as disenfranchising the electorate.",
+              "TERRITORY": "Support return of Varosha to its original Greek Cypriot owners and reject Turkish Cypriot demands to retain control of the city; back reopening Famagusta for trade under EU/UN supervision.",
+              "PROPERTY": "Protect Greek Cypriot owners' rights to reclaim/redevelop seized properties (Varosha); any limits on rights to live, own businesses, buy property, and vote can only be temporary, never permanent.",
+              "SECURITY": "Abolish the Treaty of Guarantee and remove all current foreign forces; oppose demilitarization, favor a standing national army under the Treaty of Alliance (60:40 GC:TC ratio, 1,600 troops); keep UNFICYP until the national army is built; support a new UN-brokered treaty among a united Cyprus, Greece, and Türkiye.",
+              "ENERGY": "The Republic of Cyprus's exercise of sovereign rights in its EEZ is in no way linked to and must not be conditioned on the resolution process.",
+              "CITIZENSHIP": "Demand a full, transparent island-wide census by a non-partisan agency; identify Turkish settlers/soldiers separately; residency requirements for local voting (e.g. 10-year minimum) are negotiable.",
+              "EU-STATUS": "Support Türkiye's EU accession and urge Greek Cypriots to lift the blockage as confidence building; back easing Direct Trade Regulation/Ankara Protocol restrictions and account for accurate population figures under the EU acquis."
+            },
+            "redLines": [
+              "No international recognition of the 'Turkish Republic of Northern Cyprus' and no 'virgin birth' proposal for a unified Cyprus.",
+              "No confederation with a weak federal government and strong state governments.",
+              "No right of military intervention by any outside state.",
+              "No permanent restrictions on individual EU freedoms (movement, settlement, property, business, voting)."
+            ],
+            "batna": "Fall back on continued UN-mediated bicommunal talks under the SASG Good Offices as the only accepted method; absent an acceptable deal, maintain the status quo of a recognized Republic of Cyprus (EU member) and insist that resolution must restore international legality rather than accept a settlement that legitimizes the occupation or a two-state outcome.",
+            "concessions": [
+              "Accept a Senate-elected Vice-President in exchange for a direct popular vote for President.",
+              "Negotiate residency requirements for local-election voting (e.g. a 10-year minimum before local franchise).",
+              "Support Famagusta/Varosha reopening for trade under EU or UN supervision and place Ercan Airport under UN/EU operational control with EU customs protocols.",
+              "Back easing DTR and Ankara Protocol restrictions and support Türkiye's EU accession as confidence-building.",
+              "As a last resort if it becomes a deal breaker, advise the Greek Cypriots to consider limited military-intervention rights confined strictly to constituent-state boundaries.",
+              "Provide safeguards for Turkish Cypriots and other minorities within a strong federal structure."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "Republic of Cyprus (Greek Cypriots)",
+                "United States",
+                "United Kingdom"
+              ],
+              "adversaries": [
+                "Turkey",
+                "Turkish Republic of Northern Cyprus"
+              ]
+            },
+            "style": "Legalistic and principled but pragmatic: anchors on international legality and sovereignty while offering calibrated confidence-building trades to isolate the two-state position.",
+            "privateStrategy": [
+              "Secretly favor Türkiye's EU accession because it would benefit the Greek economy and normalize Greek-Turkish relations, and quietly press Greek Cypriots to drop the blockage.",
+              "Hold a pre-set fallback on military intervention: only if it becomes an absolute deal breaker, privately advise Greek Cypriots to concede it, strictly limited to constituent-state boundaries.",
+              "Use the census demand strategically: insist on a transparent census of the Turkish north first, and only if resistance persists offer a mutually agreed independent island-wide census.",
+              "Defer publicly to the Cypriot government's exclusive competence on internal matters to avoid appearing to control the Greek Cypriot delegation, while steering outcomes behind the scenes."
+            ]
+          }
         },
         {
           "teamTwinName": "diplomacy-team-turkey",
@@ -9073,7 +10048,64 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "Guarantor Power and sole patron of the Turkish Cypriots, negotiating to secure the political equality, security, and viability of the Turkish Cypriot state while backing the TRNC delegation's lead.",
+            "principles": [
+              "A single nation only if it rests on full political equality between the Greek Cypriot and Turkish Cypriot constituent states.",
+              "The status quo unfairly favors Greek Cypriots; any settlement must correct their political and economic dominance.",
+              "Türkiye is the indispensable guarantor of Turkish Cypriot existence and speaks in close coordination with the TRNC.",
+              "Security must equal that enjoyed at the 1960 grant of independence, preserving Guarantor-Power arrangements.",
+              "The Turkish Cypriots must retain the legal ability to separate if their security or liberty is threatened."
+            ],
+            "endStates": {
+              "primary": "A confederation/bizonal single nation of two strong, politically equal communal states with a weak central government, ideally via a 'virgin birth' new republic and international recognition of the TRNC.",
+              "alternate": "Failing a unified settlement, recognition of the TRNC as a legitimate, independent entity lawfully representing the Turkish Cypriot people (two-state / sovereign equality)."
+            },
+            "positions": {
+              "SOVEREIGNTY": "Reject continuation of the Republic of Cyprus; favor a 'virgin birth' new republic of two equal states, or recognition of the TRNC and a two-state sovereign-equality outcome.",
+              "GOVERNANCE": "Confederation with minimal national offices (banking, foreign service, investigative service) delegated by the stronger communal governments; Senate-elected President and Vice-President from different communities rotating every 3 years; reject popular-vote single-ticket executive.",
+              "TERRITORY": "Varosha stays under TRNC control with generous Greek Cypriot resettlement/redevelopment offers; push to open Famagusta port for trade under EU/UN supervision; no reflexive territorial handovers.",
+              "PROPERTY": "Handled within communal control; resist Greek-Cypriot-driven mass reinstatement; frame within the redevelopment offers already extended for Varosha.",
+              "SECURITY": "Preserve the Treaty of Alliance and Treaty of Guarantee; no abrogation without an acceptable replacement; reject a standing national army; establish two separate communal national guards; keep Türkiye involved with continued military safeguards.",
+              "ENERGY": "Not a Turkish priority in the brief; offshore gas rights must not be settled to Turkish Cypriot disadvantage and require Turkish Cypriot equal stake.",
+              "CITIZENSHIP": "Recognize naturalized TRNC citizens and settlers; only the TRNC may enumerate its own population; concede repatriation only of recent (under-10-year) residents lacking marriage/citizenship ties; reject outside census and forced repatriation.",
+              "EU-STATUS": "End the unjust isolation of Turkish Cypriots; secure the Direct Trade Regulation for direct EU export; tie to lifting Greek Cypriot blocks on Turkish EU accession; coordinate all EU-status moves with the TRNC first."
+            },
+            "redLines": [
+              "No system of government that disenfranchises the Turkish Cypriots in favor of a Greek-Cypriot-dominated government.",
+              "No strong federal (strong central-government) system.",
+              "No popular-vote national elections that bias toward the Greek Cypriot majority.",
+              "No termination/abrogation of the Treaty of Guarantee without an acceptable replacement.",
+              "No census by any outside party; only the TRNC government may enumerate the Turkish Cypriot population.",
+              "No forced repatriations except for criminal offenses."
+            ],
+            "batna": "If no unified settlement with genuine political equality is reached, walk away and continue building a strong, internationally recognized independent TRNC under Turkish protection (two-state fallback with existing Guarantee treaties and Turkish forces in place).",
+            "concessions": [
+              "Support the UN proposal to replace the old guarantee treaties with a new treaty among a united Cyprus, Türkiye, and Greece, provided safeguards and Turkish involvement remain.",
+              "Repatriate settlers who lack 10-year residency, are not bound by marriage to a Turkish Cypriot, and have no pending citizenship petition.",
+              "Offer generous resettlement and redevelopment terms to Greek Cypriots in Varosha while retaining sovereignty over it.",
+              "Open Famagusta port to trade under EU or UN supervision to enable some Greek Cypriot trade.",
+              "Accept a minimal set of shared national institutions (banking, foreign service, investigative service)."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "Turkish Republic of Northern Cyprus",
+                "United Kingdom",
+                "United States"
+              ],
+              "adversaries": [
+                "Republic of Cyprus"
+              ]
+            },
+            "style": "Firm, principled-bargaining and sovereignty-assertive; lets the TRNC take the lead, uses issue-linkage and red-line signaling, and avoids direct talks with Greek Cypriots to force them to deal with the TRNC.",
+            "privateStrategy": [
+              "Ultimate goal is a strong, independent TRNC; pursue international recognition of the TRNC as the first step, not genuine unification.",
+              "Coordinate every move on Direct Trade Regulation / EU accession and other issues with the TRNC delegation before broaching them, and avoid direct engagement with Greek Cypriots to force them to deal with the TRNC.",
+              "Preserve a large Turkish population in the north as leverage to enforce the 'two equal communities' claim; only Turkish Cypriots may identify their population.",
+              "Retain military safeguards and the legal right of the Turkish Cypriots to 'divorce' from the Greek Cypriots if security or liberty concerns arise; submit periodic reports to the Foreign Minister."
+            ]
+          }
         },
         {
           "teamTwinName": "diplomacy-team-uk",
@@ -9082,7 +10114,64 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "A supportive, mediating power backing the UN SASG's efforts to broker a comprehensive settlement that produces a single, unified Republic of Cyprus.",
+            "principles": [
+              "Support the creation of a single, unified Republic of Cyprus with one sovereignty, one citizenship, and one international personality.",
+              "Reinforce and never undermine the UN Special Adviser's mediation as the primary track.",
+              "Coordinate closely with the United States and, where useful, the UN before engaging Greece and Turkiye.",
+              "Keep Greece and Turkiye from impeding talks and help both reduce bilateral tensions.",
+              "Champion Turkiye's EU accession by de-linking it from the Cyprus dispute."
+            ],
+            "endStates": {
+              "primary": "A politically stable, ethnically at-peace, bicommunal/bizonal federation with a strong central government, political equality, single sovereignty/citizenship/international personality, and integrated national armed forces.",
+              "alternate": "Incremental progress via confidence-building measures (Varosha, Famagusta, Ercan, Direct Trade Regulation) that keeps the UN process alive even absent a final comprehensive deal."
+            },
+            "positions": {
+              "SOVEREIGNTY": "Favor a single unified Republic with one international personality; lean to the Greek Cypriot view rejecting the Turkish Cypriot 'virgin birth' two-state formula, but do not let this disagreement derail talks.",
+              "GOVERNANCE": "Support a strong, stable central government fully representative of all Cypriots; seek compromise on the executive (e.g., weighted or cross-voting) so both communities feel secure.",
+              "TERRITORY": "On Varosha, broker creative middle ground: compensate Greek Cypriot property owners while not penalizing Turkish Cypriots who redeveloped the area; support returns as part of the overall settlement.",
+              "PROPERTY": "Balance dispossessed Greek Cypriot owners' right to compensation against current Turkish Cypriot users' investments; explore limits on Greek Cypriot rights in the north to ease marginalization fears.",
+              "SECURITY": "Back replacing the 1960 Treaties of Alliance and Guarantee with a new UN-proposed treaty (RoC, Greece, Turkiye), with mechanisms and possible limits on any intervention.",
+              "ENERGY": "Not directly addressed in instructions; treat as an issue to be folded into a stable, self-protecting unified state and reduced regional tensions.",
+              "CITIZENSHIP": "Support a neutral, verified census; show concern about Turkish Cypriot marginalization; explore workable settler/residency criteria rather than blanket expulsion.",
+              "EU-STATUS": "Advocate Turkiye's EU accession and removal of the Cyprus issue as a blocker; push to unblock the Direct Trade Regulation and address northern economic disparity."
+            },
+            "redLines": [
+              "Must preserve a single sovereignty, single citizenship, and single international personality for Cyprus.",
+              "Will not undercut or bypass the UN SASG-led mediation process.",
+              "No outcome that legally recognizes the TRNC as a separate sovereign state.",
+              "Any settlement must deliver a stable, secure state that protects both communities from marginalization."
+            ],
+            "batna": "If no comprehensive settlement is reached, fall back to sustaining the UN process and locking in confidence-building measures (Varosha, Famagusta port, Ercan airport, DTR) as incremental gains while preserving UK bilateral ties with the Republic of Cyprus.",
+            "concessions": [
+              "Flexibility on the executive formula, including weighted or cross-voting to reassure Turkish Cypriots.",
+              "Support EU/UN supervision or control of Famagusta port and Ercan airport to ease Greek Cypriot objections.",
+              "Compensation and redevelopment arrangements on Varosha that protect both owners and current developers.",
+              "De-linking Turkiye's EU accession from the Cyprus dispute in exchange for progress.",
+              "Represent EU positions to Turkiye to underpin needed compromises."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "United States",
+                "UN Special Adviser (SASG)",
+                "Republic of Cyprus",
+                "European Union"
+              ],
+              "adversaries": [
+                "Any party pushing a two-state 'sovereign equality' outcome (TRNC hardline position)",
+                "Spoilers among Greece or Turkiye who obstruct the talks"
+              ]
+            },
+            "style": "Facilitative, coordination-driven honest broker that works behind the UN and US, applies quiet issue-linkage, and avoids derailing talks over disagreements.",
+            "privateStrategy": [
+              "Privately lean toward the Greek Cypriot side on sovereignty/'virgin birth' but never let that preference derail the talks.",
+              "Coordinate UK positions with the United States before approaching Greece and Turkiye.",
+              "Quietly use resolution of Famagusta/Ercan recognition as leverage to remove Greek Cypriot blocks on Turkiye's EU accession and restart EU talks.",
+              "Report back to the Foreign Secretary and seek guidance rather than committing unilaterally."
+            ]
+          }
         },
         {
           "teamTwinName": "diplomacy-team-us",
@@ -9091,7 +10180,63 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "Facilitating outside power supporting the UN Special Representative to move Greek and Turkish Cypriots toward a comprehensive settlement while keeping Greece and Türkiye from impeding it.",
+            "principles": [
+              "Support creation of a single Unified Republic of Cyprus as a bizonal, bicommunal federation.",
+              "The status quo is unacceptable; back a UN-facilitated, Cypriot-led comprehensive settlement.",
+              "One island with a strong, stable, fully representative central government and a single Cypriot identity.",
+              "A fully integrated Cyprus National Armed Forces providing for the nation's security.",
+              "Coordinate positions with the UK and support EU balancing between the Republic of Cyprus and candidate Türkiye."
+            ],
+            "endStates": {
+              "primary": "A reunified, peaceful, self-protecting Republic of Cyprus under a bizonal, bicommunal federation with a strong central government and single international personality.",
+              "alternate": "Incremental confidence-building progress (Varosha, ports/airport, Direct Trade Regulation, de-linking Cyprus from Türkiye's EU accession) that eases tensions and keeps a final settlement alive."
+            },
+            "positions": {
+              "SOVEREIGNTY": "Reject the Turkish Cypriot 'virgin birth'/two-state framing; lean toward the Greek Cypriot integration view of a single state with one international personality, but do not let this derail talks.",
+              "GOVERNANCE": "Favor a strong central government (Greek Cypriot federation model over the Turkish Cypriot weak confederation); seek executive compromise such as weighted/cross-voting so both communities feel secure and represented.",
+              "TERRITORY": "Find creative common ground on Varosha: compensate Greek Cypriot property owners without penalizing Turkish Cypriot redevelopment efforts.",
+              "PROPERTY": "Balance dispossessed Greek Cypriot owners' compensation against redevelopers; explore reasonable limits on Greek Cypriots exercising residency/property/voting rights in the north to avoid marginalizing Turkish Cypriots.",
+              "SECURITY": "Push to replace the 1960 Treaties of Guarantee and Alliance with a new UN-proposed treaty among Cyprus, Greece, and Türkiye with limited/restricted intervention mechanisms.",
+              "ENERGY": "Support regional stability and shared security priorities in the Eastern Mediterranean (not detailed in instructions; keep energy disputes from derailing settlement).",
+              "CITIZENSHIP": "Support a neutral, verified census of the north; show concern about Turkish Cypriots becoming a minority, while managing settler/soldier return so it does not blow up the talks.",
+              "EU-STATUS": "Advocate Türkiye's EU accession and de-link the Cyprus issue from it; support Direct Trade Regulation for Turkish Cypriots and international recognition of Famagusta port and Ercan Airport, ideally under EU/UN supervision."
+            },
+            "redLines": [
+              "No acceptance of the two-state / 'sovereign equality' solution or recognition of the TRNC.",
+              "The status quo (permanent division) is unacceptable.",
+              "Any settlement must yield a single, unified, self-protecting Cypriot state, not a legitimized separate northern state."
+            ],
+            "batna": "If no comprehensive settlement is reached, fall back to brokering discrete confidence-building wins and keeping Greece and Türkiye from impeding future UN-led talks.",
+            "concessions": [
+              "Endorse a new tripartite security treaty replacing the 1960 Guarantee/Alliance treaties, possibly allowing limited intervention forces confined to a constituent state.",
+              "Support limits on Greek Cypriot residency/property/voting rights in the north to reassure Turkish Cypriots.",
+              "Back EU/UN-supervised opening of Famagusta port and recognition of Ercan Airport, and implementation of the Direct Trade Regulation.",
+              "Actively champion Türkiye's EU accession by de-linking it from the Cyprus dispute.",
+              "Accept executive power-sharing compromises (weighted/cross-voting) to give Turkish Cypriots a fuller voice."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "United Kingdom",
+                "Republic of Cyprus",
+                "Greece",
+                "UN SRSG/SASG",
+                "European Union"
+              ],
+              "adversaries": [
+                "Turkish Republic of Northern Cyprus (two-state push)"
+              ]
+            },
+            "style": "Even-handed facilitator: publicly neutral and pro-settlement, working sides directly and using EU accession and CBMs as leverage.",
+            "privateStrategy": [
+              "Privately lean toward the Greek Cypriot side on sovereignty/governance, but never let that lean visibly derail the talks.",
+              "Cyprus is treated as an important partner and the U.S. works closely with Greek Cypriots on Eastern Mediterranean security priorities.",
+              "Quietly coordinate positions with the United Kingdom and carry EU messaging to Türkiye to underpin needed compromises.",
+              "Use Türkiye's EU accession as leverage: press to remove the Cyprus block so accession talks can restart."
+            ]
+          }
         }
       ],
       "rules": {
@@ -10676,7 +11821,66 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "Represent the People's Republic of China to secure international recognition of Chinese sovereignty over the South China Sea while ending extra-regional interference, balancing Wolf Warrior assertiveness with Xi's measured Major Country Diplomacy.",
+            "principles": [
+              "The South China Sea is an inalienable part of Chinese territory since ancient times and securing it is a national 'core interest'.",
+              "China holds indisputable sovereignty over the SCS islands (Xisha/Paracels, Nansha/Spratly) and adjacent waters, plus historic rights along the ten-dashed line.",
+              "Disputes should be shelved for later, pursuing joint development under Chinese leadership and control.",
+              "Solutions must come bilaterally through direct one-on-one talks, not multilateral frameworks, under 'Good Neighborliness' and the Five Principles of Peaceful Coexistence."
+            ],
+            "endStates": {
+              "primary": "International recognition of China's sovereignty across the SCS ten-dashed-line claim, an end to extra-regional (US, Japan, India) interference, and cessation of all non-Chinese military stationing and naval passage through the Chinese portion of the SCS.",
+              "alternate": "Bilateral accommodation agreements with regional claimants (Philippines, Vietnam) enabling joint resource development and regulated innocent passage, preserving Chinese leadership while maintaining regional peace and stability."
+            },
+            "positions": {
+              "SOVEREIGNTY": "Indisputable and non-negotiable Chinese sovereignty over Xisha, Nansha, Zhongsha, Dongsha and adjacent waters; current disputes set aside for later resolution under Chinese leadership.",
+              "UNCLOS": "Sovereignty is defined by historic rights and 'span of influence', not UNCLOS lines; the ten-dashed line claim stands regardless of EEZ/island/continental-shelf definitions despite China being a signatory.",
+              "NAVIGATION": "Open to a multilateral agreement on passage of military vessels through the SCS, but only per UNCLOS with Chinese permission, prior notice, and China's right of refusal.",
+              "RESOURCES": "Resources within and beneath the SCS are Chinese national resources; offer joint development via a proposed 'Nansha Joint Resource Development Agency' under Chinese leadership.",
+              "FISHERIES": "Willing to entertain bilateral agreements with Philippines, Vietnam, and other claimants on joint fishing in contested areas within China's claimed maritime possessions.",
+              "MILITARIZATION": "China is upholding legitimate rights, not acting as a colonial power; demand an end to all non-Chinese military stationing and naval passage in the Chinese portion of the SCS; no rollback of Chinese features offered.",
+              "ARBITRATION": "Reject external adjudication; issues are strictly regional and resolved by regional nations through direct talks, not third-party/legal arbitration.",
+              "MULTILATERALISM": "Insist all settlements be bilateral; multilateral talks only with ASEAN states (Indonesia, Malaysia, Philippines, Vietnam) excluding Japan and the US; accommodate only sessions the UN Special Representative personally chairs."
+            },
+            "redLines": [
+              "No concession on sovereignty over Xisha, Nansha, or any part of the ten-dashed-line claim.",
+              "No acceptance of a multilateral or binding code of conduct that includes extra-regional states (US, Japan, India).",
+              "No recognition or enforcement of the 2016 arbitration award or any external legal ruling.",
+              "No unconditional freedom of navigation for foreign military vessels; passage only with Chinese permission, prior notice, and right of refusal.",
+              "No rollback of Chinese island reclamation or military presence."
+            ],
+            "batna": "Shelve the dispute indefinitely and maintain the status quo of de facto control and land reclamation, pursuing bilateral deals over time while isolating smaller claimants from external backers; walk away from any multilateral framework that dilutes the ten-dashed-line claim.",
+            "concessions": [
+              "Increased government-to-government communication at lower levels toward improved relations.",
+              "A UNCLOS-consistent agreement on military vessel passage, conditioned on Chinese permission/notice/refusal.",
+              "Bilateral joint energy exploration and fishing agreements with the Philippines and Vietnam in contested areas.",
+              "Establishment of a 'Nansha Joint Resource Development Agency' for accelerated mutual energy development.",
+              "Acknowledge existing US-SEA agreements as constructive (while opposing any new ones)."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "Malaysia",
+                "Brunei",
+                "Indonesia"
+              ],
+              "adversaries": [
+                "United States",
+                "Japan",
+                "India",
+                "Philippines",
+                "Vietnam"
+              ]
+            },
+            "style": "Blend of assertive Wolf Warrior sovereignty-assertion and measured Major Country Diplomacy, insisting on bilateralism, delay/shelving, and issue-linkage while framing China as the region's benevolent leader.",
+            "privateStrategy": [
+              "Use multilateral ASEAN talks to drive a wedge between regional states and the extra-regional powers (New Delhi, Tokyo, Washington), isolating smaller claimants from outside support.",
+              "Deny Malaysia (ASEAN Chair) any standing to speak for ASEAN, and exploit its distrust of the US to pull the Philippines and Vietnam into cooperating with China.",
+              "Privately link the SCS to Taiwan and the Diaoyu/Senkaku Islands when dealing with the US, framing all territorial issues as one comprehensive package.",
+              "Pressure Japan over WWII history (Nanking Massacre, Comfort Women, Yasukuni Shrine visits) as leverage while pushing economic cooperation."
+            ]
+          }
         },
         {
           "teamTwinName": "diplomacy-team-us",
@@ -10685,7 +11889,66 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "An extra-regional facilitator offering to mediate SCS disputes while defending international law, freedom of navigation, and its treaty allies.",
+            "principles": [
+              "Peace and tranquility in the SCS through adherence to international norms and UNCLOS.",
+              "Peaceful resolution of territorial and sovereignty claims via established agreements, conventions, and arbitration.",
+              "Freedom of Navigation and the Right of Innocent Passage are inherent rights of all nations in all international waters.",
+              "Rejection of coercion by any state against another; disputes settled by law, not force."
+            ],
+            "endStates": {
+              "primary": "An immediate reduction of tensions across the SCS, with claims resolved through peaceful negotiation or international arbitration and sea lanes secured under treaty and confidence-building measures.",
+              "alternate": "Shared, equitable multilateral exploitation of SCS resources (e.g., via the Philippine ZoPFF/C concept) with a durable ASEAN-anchored code of conduct if full claim resolution stalls."
+            },
+            "positions": {
+              "SOVEREIGNTY": "Claims must derive solely from legitimate land features under international law; reject internal-waters claims among dispersed islands and treating island groups collectively; Beijing's ten-dashed-line claims to most of the SCS are unlawful.",
+              "UNCLOS": "Adhere to UNCLOS principles (though U.S. has not ratified); features that are not islands under UNCLOS generate no maritime zones of their own; urge all signatories, especially China, to abide by UNCLOS.",
+              "NAVIGATION": "Freedom of transit through international sea lanes is fundamental; no nation may inhibit innocent passage or commerce; FONOPS are legitimate and will continue.",
+              "RESOURCES": "Support mutual, reasoned, equitable exploitation of SCS resources through multilateral agreements; endorse the Philippine ZoPFF/C as an appropriate cooperative vehicle.",
+              "FISHERIES": "Oppose coercion and coast-guard harassment; access and management should be handled cooperatively under multilateral confidence-building measures.",
+              "MILITARIZATION": "Condemn China's land reclamation and military installation on atolls/reefs as coercive consolidation; call for immediate confidence-building measures to reduce tensions long-term.",
+              "ARBITRATION": "The 2016 PCA award is final and binding; urge China to recognize it and engage Manila on its ramifications; encourage all parties to press China toward the ruling.",
+              "MULTILATERALISM": "ASEAN is the logical multilateral platform for resolving SCS conflicts, supported by UNCLOS mechanisms; back Malaysia's ASEAN chairmanship and a binding code of conduct."
+            },
+            "redLines": [
+              "No acceptance of the ten-dashed-line or any historic-rights claim exceeding UNCLOS-provided maritime zones.",
+              "No inhibition of freedom of navigation or innocent passage through international waters.",
+              "No abandonment of the 1951 Mutual Defense Treaty commitment to the Philippines.",
+              "No recognition of maritime zones generated by artificial or non-island features.",
+              "No endorsement of coercion or use of force by any state to press claims."
+            ],
+            "batna": "Maintain the status quo of forward U.S. presence, continued FONOPS, and bilateral alliance/security support to partners (Philippines, Vietnam) while pursuing claim resolution incrementally through ASEAN and UNCLOS outside this forum.",
+            "concessions": [
+              "Offer U.S. mediation and facilitation services to broker settlements.",
+              "Support any mutually agreeable tension-reduction and confidence-building measures.",
+              "Expand cooperation, high-level exchanges, trade, and dialogue with China where interests align.",
+              "Endorse joint/shared resource-development frameworks rather than insisting on strict claim adjudication first.",
+              "Frame continued U.S. presence as conditional on regional consent, allowing flexibility on posture."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "Philippines",
+                "Vietnam",
+                "Japan",
+                "India",
+                "Malaysia",
+                "Indonesia",
+                "Brunei"
+              ],
+              "adversaries": [
+                "China"
+              ]
+            },
+            "style": "Principled, law-and-norms-based facilitator that engages China cooperatively while quietly marshaling a unified allied coalition behind UNCLOS and the PCA ruling.",
+            "privateStrategy": [
+              "Overarching strategy is to nudge China into accepting international norms and prevent it from moving from competing in to controlling the SCS with a blue-water navy.",
+              "Enlist Japan and India to be more directive with China than the U.S. can openly be, aligning positions so Beijing hears 'one voice.'",
+              "Demonstrate that continued American presence is at the behest of the majority of SEA and Indo-Pacific nations, not unilateral imposition.",
+              "Do not publicize that the U.S. has not ratified UNCLOS as a leverage weakness; keep security-support offers under mutual-defense frameworks as reserved leverage."
+            ]
+          }
         },
         {
           "teamTwinName": "diplomacy-team-philippines",
@@ -10694,7 +11957,64 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "As ASEAN Chair, lead a rules-based, UNCLOS-anchored settlement of West Philippine Sea (WPS/SCS) disputes while holding ASEAN together and containing Chinese expansion peacefully.",
+            "principles": [
+              "Legal and equitable resolution of claims strictly under UNCLOS as the only accepted legal mechanism.",
+              "Strengthen ASEAN as the preeminent regional body; prevent fracturing and maintain consensus.",
+              "Sanctity of Philippine territorial integrity within the West Philippine Sea.",
+              "The 2016 Annex VII Tribunal award conclusively settled historic rights and maritime entitlements and is binding.",
+              "Freedom of navigation and right of innocent passage are unassailable rights of all nations."
+            ],
+            "endStates": {
+              "primary": "International recognition of Philippine territorial rights in the WPS, achieved through a binding UNCLOS-based settlement and a binding, enforceable WPS Code of Conduct.",
+              "alternate": "Collective cooperation on energy and fishing via the ZoPFF/C framework, enclaving disputed features while opening non-disputed areas to joint development with China and Vietnam."
+            },
+            "positions": {
+              "SOVEREIGNTY": "Philippine sovereignty and sovereign rights in the WPS are non-negotiable; disputed features (including three reclaimed atolls inside our EEZ) resolved only under UNCLOS, with disputed islands enclaved rather than conceded.",
+              "UNCLOS": "UNCLOS is the sole legal basis; reclaimed artificial 'islands' generate no territorial sea or EEZ; China's nine/ten-dashed line predates and violates UNCLOS and is illegal.",
+              "NAVIGATION": "Freedom of the High Seas, freedom of navigation, and innocent passage through the WPS are unassailable rights of all nations.",
+              "RESOURCES": "Mandate joint development of WPS resources as required by Philippine law; enclave disputed zones and immediately open cooperative energy exploration/extraction in non-disputed areas.",
+              "FISHERIES": "Shared, cooperative fisheries access among valid claimants under ZoPFF/C; end coast-guard harassment of Philippine vessels.",
+              "MILITARIZATION": "All military activity in the WPS must cease immediately; halt and roll back reclamation and militarization of atolls/reefs; institute confidence-building measures.",
+              "ARBITRATION": "The 2016 PCA/Annex VII award is valid, binding, and dispositive; demand China submit its claims through the same legal process and accept the outcome.",
+              "MULTILATERALISM": "Resolve issues in ASEAN/UN multilateral forums (ARF, ASEAN+3, APEC); resist Chinese bilateralization; conclude a binding, enforceable WPS Code of Conduct."
+            },
+            "redLines": [
+              "No recognition or legitimization of China's nine/ten-dashed line claim.",
+              "No abandonment of the binding 2016 UNCLOS arbitration award.",
+              "No surrender of Philippine sovereign rights or EEZ, including the three reclaimed atolls within our EEZ.",
+              "No acceptance of bilateral-only frameworks that bypass ASEAN/UNCLOS.",
+              "Reclaimed artificial features must not be granted territorial seas or EEZs."
+            ],
+            "batna": "If talks fail, fall back on the binding UNCLOS award plus deepened security and economic alignment with the US, Japan, India, Australia, and Vietnam to contain China; but this is framed internally as possibly the last chance to peacefully contain Chinese ambitions.",
+            "concessions": [
+              "Set aside (enclave/shelve) sovereignty over genuinely disputed features to enable joint development.",
+              "Joint cooperative activities in fishing and energy with China and Vietnam under ZoPFF/C.",
+              "Reciprocal, mutual confidence-building measures including a temporary suspension of military patrols and provocative activities.",
+              "Common operating procedures for naval and air forces in the region."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "Vietnam",
+                "United States",
+                "Japan",
+                "India",
+                "ASEAN members (Malaysia, Brunei, Indonesia)"
+              ],
+              "adversaries": [
+                "China"
+              ]
+            },
+            "style": "Principled, law-first and cooperative-framed, leveraging ASEAN Chair convening power while firmly anchoring on UNCLOS and the arbitral award.",
+            "privateStrategy": [
+              "Internally frame these talks as possibly the last opportunity to peacefully contain Chinese ambitions in the SCS/SEA region; success is a matter of national power and prestige.",
+              "Privately press the US, Japan, and India to lean on Beijing to abandon bilateral talks and abide by UNCLOS.",
+              "Quietly urge Vietnam to file its own arbitration case against China and follow the Philippine lead.",
+              "Discreetly probe Vietnam on expanded basing rights for US, Indian, Australian, and possibly Japanese forces; and voice frustration to Malaysia/Brunei/Indonesia over ASEAN's acquiescence to China."
+            ]
+          }
         },
         {
           "teamTwinName": "diplomacy-team-vietnam",
@@ -10703,7 +12023,65 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "A claimant state seeking peaceful, UNCLOS-based resolution of East Sea (SCS) disputes while managing a delicate economic dependence on China and anchoring regional security in a strong ASEAN.",
+            "principles": [
+              "Peaceful coexistence with all nations in the region.",
+              "UNCLOS is the sole and exhaustive legal basis for maritime entitlements; disputes resolved by negotiation or international arbitration.",
+              "A strong Southeast Asia built around a strong, united ASEAN.",
+              "Transformation of relations with China based on mutual respect, not coercion.",
+              "Chinese aggression in the East Sea must end and not be allowed to go unchallenged."
+            ],
+            "endStates": {
+              "primary": "Peaceful, law-based resolution of East Sea claims under UNCLOS, with China accepting negotiation or arbitration, backed by a strong ASEAN and improved US/regional-power engagement as a counterweight to Beijing.",
+              "alternate": "If talks fail to show acceptable progress, pursue UNCLOS Tribunal arbitration as the Philippines did, while deepening bilateral trade/security ties with India, Japan, US, and others to counterbalance China."
+            },
+            "positions": {
+              "SOVEREIGNTY": "Disputes China's historical narrative; claims significant parts of the Spratlys (as continental-shelf extension) and Paracels. Willing to concede the Amphitrite Group to China if Beijing returns the Crescent Group (seized in 1974) and recognizes it as Vietnamese.",
+              "UNCLOS": "UNCLOS is the sole, comprehensive legal basis for maritime entitlements; China's nine-dashed-line claims must be clarified in accordance with UNCLOS rules on islands, EEZs, and continental shelves before overlapping claims are resolved.",
+              "NAVIGATION": "Supports freedom of navigation; welcomes continued US and regional-power presence to check Chinese behavior.",
+              "RESOURCES": "Favors joint development and shared harvesting of East Sea resources to the mutual benefit of all littoral states, using ZoPFF/C as a short-term framework; seeks cooperative energy exploration/extraction with India.",
+              "FISHERIES": "Access and management addressed within confidence-building measures and a binding Code of Conduct to prevent harassment and hostile incidents.",
+              "MILITARIZATION": "Demands indefinite termination of all military activity in the East Sea and immediate confidence-building measures; advocates replacing littoral-state naval patrols and anti-piracy efforts with non-littoral Asia-Pacific nations (Australia, India, South Korea).",
+              "ARBITRATION": "Supports the Philippines' implementation of UNCLOS Tribunal arbitration and is prepared to file similar arbitration if negotiations stall.",
+              "MULTILATERALISM": "Insists on a binding ASEAN SCS Code of Conduct with agreed enforcement and checks; prefers multilateral (vice bilateral) engagement with China and a unified ASEAN-plus-partners front."
+            },
+            "redLines": [
+              "No bilateral-only settlement with China on terms favorable to Beijing; overlapping claims must go to multilateral negotiation or UNCLOS arbitration.",
+              "Chinese aggression and militarization in the East Sea must cease; military activity to be terminated indefinitely.",
+              "Any settlement must rest on UNCLOS; the nine-dashed-line claim is not an acceptable legal basis and must be clarified under UNCLOS.",
+              "China must stop blocking a binding Code of Conduct and stop coercing other ASEAN states out of discussing the East Sea."
+            ],
+            "batna": "Walk away from unsatisfactory talks and pursue UNCLOS Tribunal arbitration (as the Philippines did), while accelerating bilateral trade and defense diversification with India, Japan, US, Australia, Russia, and South Korea to reduce Chinese economic leverage.",
+            "concessions": [
+              "Recognize the Amphitrite Group of the Paracels as Chinese territory in exchange for return/recognition of the Crescent Group as Vietnamese.",
+              "Accept joint development and shared exploitation of East Sea resources rather than exclusive control.",
+              "Compartmentalize disputes and cooperate with China in select areas while protesting others (nuanced kindred-communist engagement).",
+              "Endorse non-littoral Asia-Pacific states (Australia, India, South Korea) taking over patrol/anti-piracy roles as a de-escalation trade."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "Philippines",
+                "India",
+                "Japan",
+                "United States",
+                "Malaysia",
+                "Brunei",
+                "Indonesia"
+              ],
+              "adversaries": [
+                "China"
+              ]
+            },
+            "style": "Principled and law-anchored but pragmatic and compartmentalized: firm on UNCLOS and ASEAN unity, flexible on resource-sharing and face-saving swaps, prefers multilateral leverage over bilateral exposure.",
+            "privateStrategy": [
+              "Conceal deep vulnerability: China is our largest trading partner and main import source, giving Beijing major one-sided economic leverage we privately fear.",
+              "Hold the Amphitrite-for-Crescent Paracels swap as a fallback compromise card, not an opening position.",
+              "Quietly coordinate a pre-agreed unified ASEAN-plus-partners front (with the Philippines) so all delegations except China speak with one voice; use arbitration threat as private leverage.",
+              "Privately push the US to lead in pulling Myanmar and Cambodia away from China so ASEAN can reach consensus, while being ready to oppose the US on regional issues that affect us."
+            ]
+          }
         },
         {
           "teamTwinName": "diplomacy-team-malaysia",
@@ -10712,7 +12090,66 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "ASEAN-aligned broker positioning itself as the primary trusted intermediary between the fellow claimant states and China to reach a peaceful, UNCLOS-based settlement.",
+            "principles": [
+              "Restore peace and tranquility to Southeast Asia; the threat or use of force must be avoided at all costs.",
+              "Protect sovereignty rights strictly in accordance with UNCLOS, including EEZs and verifiable island claims.",
+              "Resolve all maritime and territorial disputes by peaceful means through multilateral negotiation, never through military, economic, or political coercion.",
+              "Uphold freedom of the high seas (Art. 87), freedom of navigation, and right of innocent passage (Arts. 17-19).",
+              "Reject any claim of historic rights (e.g. the ten/nine-dashed line) that exceeds UNCLOS limits, consistent with the PCA award."
+            ],
+            "endStates": {
+              "primary": "Peaceful multilateral resolution of SCS sovereignty disputes grounded in UNCLOS, with increased cooperation and joint commercial ventures between ASEAN states and China.",
+              "alternate": "A combination of bilateral and multilateral agreements plus alliances with external powers that delivers regional security and stability beyond ASEAN's own reach, secured through short-term confidence-building measures if a comprehensive deal is unreachable."
+            },
+            "positions": {
+              "SOVEREIGNTY": "Every nation must respect the sovereignty of recognized states over coastal regions, EEZs, and verifiable island claims; only claims verifiable under UNCLOS are legitimate.",
+              "UNCLOS": "UNCLOS tenets are binding on all; claims contrary to UNCLOS that exceed geographic and substantive limits of maritime entitlement are invalid, and no state enjoys historic rights in the SCS.",
+              "NAVIGATION": "Support freedom of navigation and innocent passage, but stress overriding restraint to preserve peace over provocative assertion (including FONOPS).",
+              "RESOURCES": "Peaceful resolution is paramount to enable energy exploration/exploitation; cooperative joint energy development cannot proceed under threat of military incursion.",
+              "FISHERIES": "Seek confidence-building measures and mutual respect for EEZs; harassment and coercion at sea are unacceptable.",
+              "MILITARIZATION": "Aggressive, provocative, or coercive acts are unacceptable; pursue CBMs such as suspension of military patrols and de-escalation.",
+              "ARBITRATION": "Uphold the 2016 PCA award as binding precedent for all regional claims; the ten-dashed line it invalidated remains unacceptable.",
+              "MULTILATERALISM": "Prefer ASEAN/UN multilateralism as the primary venue and back a code of conduct; accept bilateral tracks where useful, invoking China's TAC and 2002 SCS Declaration of Conduct commitments."
+            },
+            "redLines": [
+              "No recognition of the Chinese ten/nine-dashed line or any historic-rights claim exceeding UNCLOS.",
+              "No settlement obtained through military, economic, or political coercion.",
+              "No outcome that contradicts the PCA award or UNCLOS entitlements.",
+              "Support for Brunei, Indonesia, Philippines, and Vietnam will not be traded away to any non-ASEAN external power."
+            ],
+            "batna": "If no overarching solution is reachable, fall back to interim short-term confidence-building measures (patrol suspension, EEZ respect, economic cooperation) and a mix of bilateral/multilateral alliances with external powers, while compartmentalizing differences with Beijing to protect Malaysia's commercial economy.",
+            "concessions": [
+              "Accept bilateral negotiation tracks alongside preferred multilateral ones to keep China engaged.",
+              "Minimize and set aside its own Ambalat and Straits of Malacca border disputes with Indonesia during these talks.",
+              "Offer significantly increased ASEAN trade access to India (and leverage economic ties with Japan) in exchange for support.",
+              "Endorse a phased CBM package rather than demanding an immediate comprehensive settlement.",
+              "Support external partners' negotiation strategies where they harmonize with Malaysia's."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "Indonesia",
+                "Vietnam",
+                "Philippines",
+                "Brunei",
+                "United States",
+                "Japan",
+                "India"
+              ],
+              "adversaries": [
+                "China"
+              ]
+            },
+            "style": "Consensus-building, law-anchored mediator that projects itself as the indispensable honest broker while avoiding confrontation.",
+            "privateStrategy": [
+              "Position Malaysia as the single best intermediary with China and quietly get Brunei/Philippines/Vietnam to route their key issues through Malaysia, jointly or on their behalf.",
+              "Compartmentalize existing frictions with Beijing to protect Malaysia's commercial economy, and downplay Ambalat/Malacca disputes with Indonesia to keep a united ASEAN front.",
+              "Meet the U.S. regularly to compare notes and discreetly probe what SCS actions would trigger a U.S. military response under its Philippine defense treaty; nudge partners' strategies toward Malaysia's own.",
+              "Privately view Philippine claims as failing UNCLOS land-formation definitions, and enlist Indonesia to bolster Philippine/Vietnamese claims to advance Malaysia's own positions."
+            ]
+          }
         },
         {
           "teamTwinName": "diplomacy-team-brunei",
@@ -10721,7 +12158,66 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "A small, cordial ASEAN claimant seeking to restore regional peace and to broker a UNCLOS-based, peaceful resolution to South China Sea disputes while positioning itself as a trusted lead facilitator among all parties.",
+            "principles": [
+              "Restore peace and tranquility within the Southeast Asian region.",
+              "Protect sovereignty rights in accordance with international law, especially UNCLOS.",
+              "All maritime and territorial claims must be resolved by peaceful means, never through military, economic, or political coercion.",
+              "Uphold UNCLOS Article 87 (Freedom of the High Seas) and Articles 17-19 (freedom of navigation, innocent passage).",
+              "Compartmentalize differences with Beijing to keep talks productive and protect Brunei's commercial and energy interests."
+            ],
+            "endStates": {
+              "primary": "Peaceful resolution of SCS sovereignty issues through bilateral efforts, paired with multilateral efforts to improve conduct/conditions and increased cooperation between SCS nations and China, all codified in a new ASEAN SCS dialogue system.",
+              "alternate": "Short-term confidence-building measures and increased joint commercial/energy ventures that reduce tensions, even absent an overarching sovereignty settlement."
+            },
+            "positions": {
+              "SOVEREIGNTY": "Each nation must respect recognized sovereignty and verifiable claims; sovereignty/claims disputes are best handled bilaterally; China's ten-dashed-line claim is unacceptable and fails UNCLOS definitions of land formations.",
+              "UNCLOS": "UNCLOS tenets bind all parties; China's reclaimed features do not meet UNCLOS definitions of islands and cannot generate territorial seas or EEZs.",
+              "NAVIGATION": "Firmly support freedom of navigation and right of innocent passage under UNCLOS Articles 17-19 and 87, but emphasize restraint to preserve peace.",
+              "RESOURCES": "Push increased joint commercial and energy ventures; cooperative energy exploitation cannot proceed under threat of military incursion, so peaceful resolution is prerequisite.",
+              "FISHERIES": "Advocate mutual respect for EEZs and confidence-building measures to end coast-guard harassment in contested fishing grounds.",
+              "MILITARIZATION": "Threat or use of force is counterproductive and must be avoided; seek CBMs such as suspension of military patrols and reduction of tensions.",
+              "ARBITRATION": "Brunei's position on legally verifiable claims remains consistent with the 2016 PCA award and the precedent it sets; support it without unnecessarily antagonizing China.",
+              "MULTILATERALISM": "Handle sovereignty/claims bilaterally, but use multilateral (ASEAN/UN) frameworks for conduct issues; long-run multilateralism codified via a new ASEAN SCS dialogue system is the best path."
+            },
+            "redLines": [
+              "China's ten-dashed-line boundary is unacceptable and cannot be legitimized.",
+              "No nation may impose its will on another; no acceptance of settlements achieved through military, economic, or political coercion.",
+              "Support for the Philippines and Vietnam (on UNCLOS-verifiable claims) will not be traded away for relations with non-ASEAN powers.",
+              "Any settlement must conform to UNCLOS and the principles of international law."
+            ],
+            "batna": "If no overarching settlement is reached, fall back to securing short-term confidence-building measures and joint commercial/energy ventures, keep sovereignty disputes bilateral, and preserve ASEAN cohesion and Brunei's compartmentalized commercial relationship with Beijing.",
+            "concessions": [
+              "Accept bilateral (rather than multilateral) negotiation of sovereignty/claims issues, including with China.",
+              "Compartmentalize existing differences with Beijing to keep talks and commercial ties intact.",
+              "Offer external powers (India) prospect of significantly increased ASEAN trade in exchange for support.",
+              "Not press China into multilateral talks if unrealistic; treat any multilateral movement as a bonus.",
+              "Welcome external powers as 'trusted partners' in facilitating solutions."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "Philippines",
+                "Vietnam",
+                "Malaysia",
+                "Indonesia",
+                "United States",
+                "Japan",
+                "India"
+              ],
+              "adversaries": [
+                "China"
+              ]
+            },
+            "style": "Cordial, non-confrontational, and consensus-seeking; frames itself as a trusted bridge-builder that upholds UNCLOS without unnecessarily antagonizing China.",
+            "privateStrategy": [
+              "Quietly position Brunei as the lead for the negotiations, leveraging its excellent relations with all parties, especially China, and enlist India, Japan, and the US to back that lead.",
+              "Covertly enlist Indonesia and Malaysia to bring unqualified support to the Philippines and Vietnam so as to strengthen Brunei's own positions against China.",
+              "Meet the US delegation regularly to compare notes and align/adjust strategies toward China; if unable, discreetly discover the US strategy and steer it to something Brunei can live with.",
+              "Probe what SCS actions might trigger a US military response under its Philippines defense treaty, and seek assurances the US-China tariff/trade war stays out of these talks; must maintain commercial vibrancy while diversifying away from energy dependence."
+            ]
+          }
         },
         {
           "teamTwinName": "diplomacy-team-indonesia",
@@ -10730,7 +12226,65 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "Honest-broker convener seeking to lead ASEAN toward a peaceful, UNCLOS-based multilateral settlement of the South China Sea disputes while positioning itself as China's preferred intermediary.",
+            "principles": [
+              "Restore peace and tranquility across the Southeast Asian region.",
+              "Strengthen ASEAN as the preeminent regional association within Asia and prevent it from fracturing.",
+              "Preserve ASEAN consensus and its centrality as the primary multilateral venue for regional problems.",
+              "Uphold UNCLOS, especially freedom of navigation and right of innocent passage (Arts. 17-19, 87).",
+              "Reject the threat or use of force, and any military, economic, or political coercion."
+            ],
+            "endStates": {
+              "primary": "Peaceful, multilateral (or joint) resolution of SCS sovereignty disputes grounded in UNCLOS and the 2016 PCA award, with expanded cooperation and joint commercial/energy ventures across the SCS.",
+              "alternate": "Absent full resolution, secure short-term confidence-building measures and get China into any multilateral format, while keeping ASEAN unified and energy exploitation viable."
+            },
+            "positions": {
+              "SOVEREIGNTY": "All recognized nations' sovereignty, EEZ, and verifiable island claims must be respected; disputes resolved peacefully via multilateral negotiation, never coercion.",
+              "UNCLOS": "No Spratly feature is entitled to an EEZ or continental shelf on its own; no feature generates maritime entitlements. Claims must be legally verifiable under UNCLOS.",
+              "NAVIGATION": "Freedom of navigation and innocent passage (UNCLOS Arts. 17-19, 87) must be observed by all, but exercised with restraint to preserve stability.",
+              "RESOURCES": "Peaceful resolution of claims is paramount to enable energy exploration/exploitation; push increased joint commercial and energy ventures.",
+              "FISHERIES": "Mutual respect for EEZs and coastal rights; harassment and coercion in contested grounds must cease.",
+              "MILITARIZATION": "Threat or use of force is counterproductive and must be avoided; seek confidence-building measures such as suspension of military patrols.",
+              "ARBITRATION": "Fully back the 2016 PCA award as binding precedent for all regional claims; China's ten-dashed line is illegitimate and unacceptable.",
+              "MULTILATERALISM": "Multilateral ASEAN/UN frameworks are preferred; accept bilateral tracks pragmatically with China; ASEAN remains the primary regional venue."
+            },
+            "redLines": [
+              "China's ten-dashed-line claim is illegitimate under the PCA award and unacceptable.",
+              "No use or threat of force, and no military, economic, or political coercion, will be tolerated.",
+              "No nation may impose its will on another; sovereignty and verifiable UNCLOS claims must be respected.",
+              "No Spratly feature (including reclaimed artificial 'islands') generates an EEZ, continental shelf, or maritime entitlement."
+            ],
+            "batna": "If a comprehensive settlement fails, fall back to preserving ASEAN unity and pursuing incremental short-term confidence-building measures and joint ventures; if China only accepts bilateral talks, accept them rather than force multilateralism.",
+            "concessions": [
+              "Accept bilateral (China-preferred) tracks alongside preferred multilateral ones.",
+              "Minimize/set aside Indonesia's own Ambalat and Malacca Strait border disputes with Malaysia during talks.",
+              "Offer external powers (India, Japan) expanded trade/investment access with ASEAN in exchange for support.",
+              "Prioritize interim CBMs (patrol suspension, EEZ respect, economic cooperation) short of a full solution."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "Brunei",
+                "Philippines",
+                "Vietnam",
+                "Malaysia",
+                "United States",
+                "Japan",
+                "India"
+              ],
+              "adversaries": [
+                "China"
+              ]
+            },
+            "style": "Consensus-driven honest broker: patient, principled, multilateralist, positioning as trusted intermediary while quietly leading.",
+            "privateStrategy": [
+              "Secretly maneuver to claim the lead of the negotiations and act as China's primary intermediary; get allied and external delegations to accede to Indonesia's leadership.",
+              "Assess that China plays for time and will not compromise; getting China into any multilateral format at all should be treated as an achievement.",
+              "Privately view the Philippines' claims as failing UNCLOS land-formation definitions even while publicly supporting allies against China.",
+              "Coordinate covertly with the U.S. (compare notes, align messaging to China) and probe what SCS actions would trigger a U.S. military response under its Philippine defense treaty."
+            ]
+          }
         },
         {
           "teamTwinName": "diplomacy-team-india",
@@ -10739,7 +12293,66 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "An extra-regional concerned party and honest broker seeking a peaceful, UNCLOS-based multilateral resolution to the South China Sea disputes.",
+            "principles": [
+              "Restoration of peace and tranquility within the Southeast Asian region.",
+              "Sovereignty disputes must be resolved on the basis of international law and the 1982 UNCLOS.",
+              "Freedom of passage throughout the western Pacific must be preserved.",
+              "The threat or use of force is counterproductive and must be avoided, though every nation may defend its citizens and territory against legitimate threats.",
+              "Trusted third parties should establish unified positions to maximize combined leverage toward lasting results."
+            ],
+            "endStates": {
+              "primary": "Peaceful, UNCLOS-based resolution of SCS sovereignty disputes with reduced Chinese naval presence, preserved freedom of navigation, and Chinese respect for Indian regional interests, codified through a new SCS dialogue system within ASEAN.",
+              "alternate": "Interim confidence-building measures (joint patrols, cooperative energy exploration, an SCS hotline, and a freeze on confrontational activities) short of an overarching settlement, backed by a united front that signals time is not on China's side."
+            },
+            "positions": {
+              "SOVEREIGNTY": "Every nation must respect recognized sovereignty and verifiable island claims; disputes settled only under UNCLOS regimes, not unilateral assertion.",
+              "UNCLOS": "All settlements must be fully consistent with UNCLOS; reject China's nine/ten-dashed line and 'Chinese archipelago' claim; reclaimed artificial features cannot generate territorial waters or EEZs.",
+              "NAVIGATION": "Continued freedom of passage throughout the western Pacific is non-negotiable; Indian naval presence (e.g., Malabar exercises) demonstrates resolve to keep commerce flowing.",
+              "RESOURCES": "Energy exploitation all parties seek cannot occur under constant threat of Chinese attack; favor joint cooperative energy exploration as a confidence-building measure.",
+              "FISHERIES": "Access and management must follow UNCLOS EEZ rules; coast-guard harassment and confrontational acts erode regional trust and must cease.",
+              "MILITARIZATION": "Seek reduction of Chinese naval presence and a multilateral freeze on confrontational activities (land reclamation, buoys, markers); coordinated joint patrols in disputed areas.",
+              "ARBITRATION": "Claims must be verifiable under UNCLOS and adjudicated under existing UNCLOS regimes rather than through force or unilateral maps.",
+              "MULTILATERALISM": "Strongly favor ASEAN as the primary conduit for regional problem-solving; codify any settlement in a new SCS dialogue system within ASEAN; ASEAN-China Code of Conduct must be consistent with UNCLOS and not prejudice third-party interests."
+            },
+            "redLines": [
+              "Will walk out of negotiations if the India-China border dispute (Jammu-Kashmir, common border) is raised; talks are strictly about SCS.",
+              "No settlement that legitimizes China's nine/ten-dashed line or 'Chinese archipelago' declaration.",
+              "Any support for Philippine or Vietnamese claims is limited strictly to claims verifiable under UNCLOS.",
+              "Freedom of passage throughout the western Pacific must not be compromised."
+            ],
+            "batna": "Fall back to firm insistence on a preferable multilateral solution while signaling that military action may become necessary if China continues provocation; will not scuttle the talks but will refuse any non-UNCLOS outcome.",
+            "concessions": [
+              "Act as neutral intermediary/honest broker between China, the Philippines, and Vietnam.",
+              "Accept interim confidence-building measures short of a full settlement.",
+              "Support joint cooperative energy exploration and coordinated joint patrols in disputed areas.",
+              "Offer increased commercial and economic ventures with SCS nations.",
+              "Endorse an SCS hotline and multilateral cessation of confrontational activities."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "United States",
+                "Japan",
+                "Philippines",
+                "Vietnam",
+                "Indonesia",
+                "Malaysia",
+                "Brunei"
+              ],
+              "adversaries": [
+                "China"
+              ]
+            },
+            "style": "Principled honest broker: UNCLOS-anchored and coalition-building, but firm and willing to wield the credible threat of force against Chinese intransigence.",
+            "privateStrategy": [
+              "India is at odds with China over Jammu-Kashmir and the common border; conceal this and immediately walk out if China raises the border issue.",
+              "Actively build a united front with the US, Japan, Indonesia, Philippines, and Vietnam around the premise that the threat of force will deter China rather than inflame the region.",
+              "Privately probe China for short-term measures and whether it will accept confidence-building measures; assume China plays for time and press that time is not on its side.",
+              "Covertly assess what SCS actions might trigger a US military response under its Philippine mutual-defense treaty, and leverage Malabar-series cooperation with Japan and the US."
+            ]
+          }
         },
         {
           "teamTwinName": "diplomacy-team-japan",
@@ -10748,7 +12361,65 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "participant": "twin",
           "provider": "anthropic",
           "modelOverride": "claude-opus-4-8",
-          "fallbackModel": "none"
+          "fallbackModel": "none",
+          "brief": {
+            "role": "An extra-regional trusted partner and honest broker that champions UNCLOS, freedom of navigation, and a peaceful, multilateral resolution while quietly buttressing the Philippines and Vietnam against Chinese overreach.",
+            "principles": [
+              "Restoration of peace and tranquility across the entire Southeast Asian region is an absolute necessity.",
+              "Freedom of the High Seas is a fundamental right.",
+              "Adherence to the tenets of UNCLOS is an absolute necessity.",
+              "Disputes are best resolved through peaceful multilateral negotiation and adherence to international agreements.",
+              "Verifiable, UNCLOS-compliant evidence must substantiate all claims, which must abide by the arbitral tribunal's awards."
+            ],
+            "endStates": {
+              "primary": "Universal adherence to UNCLOS freedom of navigation and innocent passage across the Western Pacific, with peaceful resolution of SCS sovereignty disputes and demilitarization of the SCS.",
+              "alternate": "Increased cooperation and joint commercial/energy ventures among all Western Pacific nations, with any settlement codified through a new ASEAN-based SCS dialogue system."
+            },
+            "positions": {
+              "SOVEREIGNTY": "Respect the sovereignty, coastal rights, and EEZs of all; only verifiable, UNCLOS-compliant claims to island entities are legitimate. The claims of China, the Philippines, and Vietnam all currently exceed what UNCLOS allows and must be adjudicated by the tribunal.",
+              "UNCLOS": "UNCLOS sets exclusive conditions for territorial-sea baselines; low-tide elevations generate no territorial sea or airspace. No party may justify baselines that fail UNCLOS conditions, and reclaimed artificial features cannot manufacture maritime entitlements.",
+              "NAVIGATION": "Freedom of navigation and overflight, and the right of innocent passage, must be guaranteed and cannot be impinged by any nation; energy supplies must be able to transit the SCS peacefully.",
+              "RESOURCES": "Energy resources of the SCS must be exploitable free of the constant threat of military action; supports joint cooperative energy exploration as a confidence-building measure.",
+              "FISHERIES": "Coastal states' EEZ rights must be respected; confrontation and harassment over routine commercial activity are unacceptable and should be de-escalated through cooperative measures.",
+              "MILITARIZATION": "Favors demilitarization of the SCS; seeks a multilateral agreement to cease confrontational activities (land reclamation, laying buoys, placing markers) and supports coordinated joint patrols in disputed areas.",
+              "ARBITRATION": "The 2016 SCS arbitration ruling is clear and binding; all parties are held to its decision and must abide by the tribunal's awards.",
+              "MULTILATERALISM": "Champions ASEAN as the natural hub for regional problem-solving; any settlement should be codified via a new SCS dialogue system within ASEAN, with Japan and other trusted partners acting as intermediaries."
+            },
+            "redLines": [
+              "No recognition or legitimization of China's nine/ten-dashed line or the 'Chinese archipelago' claim.",
+              "No impingement of freedom of navigation, overflight, or the right of innocent passage by any nation.",
+              "No acceptance of maritime baselines or entitlements that fail UNCLOS conditions, including from reclaimed artificial features.",
+              "The 2016 arbitral award is non-negotiable; all parties are bound by it.",
+              "Support for the Philippines and Vietnam extends only insofar as their claims are verifiable under UNCLOS."
+            ],
+            "batna": "If a unified position with partners is unattainable, fall back to bilaterally reassuring the Philippines and Vietnam of Japanese support (only within UNCLOS limits), pursuing incremental confidence-building measures, and keeping economic sanctions, political censure, and military action on the table as legitimate responses to illegal or aggressive acts.",
+            "concessions": [
+              "Act as a neutral intermediary/trusted-partner broker between the claimants and China.",
+              "Accept short-term/interim measures and phased confidence-building steps rather than a full immediate settlement.",
+              "Support joint cooperative energy exploration and joint commercial ventures in disputed areas.",
+              "Endorse coordinated joint patrols and an SCS hotline among all SCS nations.",
+              "Defer contested sovereignty questions to UNCLOS tribunal adjudication rather than pressing a Japanese position."
+            ],
+            "coalitions": {
+              "natural_allies": [
+                "United States",
+                "India",
+                "Philippines",
+                "Vietnam",
+                "ASEAN (Indonesia, Malaysia, Brunei)"
+              ],
+              "adversaries": [
+                "China"
+              ]
+            },
+            "style": "Principled, law-anchored honest-broker: firm on UNCLOS and freedom of navigation, conciliatory and coalition-building in method, patient but willing to signal that sanctions and military options remain on the table.",
+            "privateStrategy": [
+              "Quietly probe China for what short-term measures or compromises its delegation is actually instructed to offer, expecting Beijing to stall and play for time rather than concede.",
+              "Reassure the Philippines and Vietnam of support against China, but privately condition it strictly on UNCLOS-verifiable claims and steer their off-UNCLOS claims back into existing regimes.",
+              "Probe the US to determine what SCS actions would trigger a US military response under its mutual-defense treaty with the Philippines, and seek a unified US-Japan front.",
+              "Press Indonesia, Malaysia, and Brunei to leverage their cordial Beijing ties to broker de-escalation, while exploiting ASEAN's internal disunity narrative to push them toward backing Manila and Hanoi."
+            ]
+          }
         }
       ],
       "rules": {

@@ -113,7 +113,7 @@ footer{{border-top:1px solid var(--line);color:var(--muted);font-size:.85rem;tex
 </div></header>
 <div class="wrap">
 <section><h2>Overview</h2><p class="lead">{esc(s.get("description",""))}</p>
-<p><a href="diplomacy-demo/index.html?session={esc(sid)}">▶ Open in the interactive diplomacy table</a> &nbsp;·&nbsp; <a href="methodology.html">How this was made (methodology &amp; AI use)</a></p></section>
+<p><a href="dashboard.html?session={esc(sid)}"><strong>▶ Open the interactive dashboard</strong></a> &nbsp;·&nbsp; <a href="diplomacy-demo/index.html?session={esc(sid)}">simple replay table</a> &nbsp;·&nbsp; <a href="methodology.html">how this was made</a></p></section>
 
 <section><h2>Convener Report</h2>
 {('<p class="lead"><strong>'+esc(headline)+'</strong></p>') if headline else ''}

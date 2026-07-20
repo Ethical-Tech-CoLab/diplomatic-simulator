@@ -48,7 +48,19 @@ def main():
         parties.append({
             "teamTwinName":p["teamTwinName"],"displayName":p["displayName"],
             "side":"left" if code in left else "right","participant":"twin",
-            "provider":"anthropic","modelOverride":"claude-opus-4-8","fallbackModel":"none"
+            "provider":"anthropic","modelOverride":"claude-opus-4-8","fallbackModel":"none",
+            "brief":{
+                "role":p.get("delegationRole",""),
+                "principles":p.get("fundamentalPrinciples",[]),
+                "endStates":p.get("desiredEndStates",{}),
+                "positions":p.get("keyPositionsByIssue",{}),
+                "redLines":p.get("redLines",[]),
+                "batna":p.get("batna",""),
+                "concessions":p.get("concessionsWilling",[]),
+                "coalitions":p.get("coalitionLeanings",{}),
+                "style":p.get("negotiatingStyle",""),
+                "privateStrategy":p.get("privateInstructions",[])
+            }
         })
 
     # moves

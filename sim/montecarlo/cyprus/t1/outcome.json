@@ -1,0 +1,13 @@
+{
+ "dealType": "stalemate",
+ "parties": [
+  {"code":"CY","name":"Republic of Cyprus","satisfaction":0.35,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"TRNC","name":"Turkish Republic of Northern Cyprus","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"GR","name":"Greece","satisfaction":0.38,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"TR","name":"Turkey","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"UK","name":"United Kingdom","satisfaction":0.3,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"US","name":"United States","satisfaction":0.3,"primaryGoal":"failed","redLineHeld":true}
+ ],
+ "coalitions": ["CY-GR-UK-US federalist front (single sovereignty)", "TRNC-TR two-state/confederation bloc"],
+ "note": "Turkiye's naval drilling escalation hardened both blocs' incompatible red lines just as talks opened, and only medium mediator pressure in a neutral mood was not enough to break the deadlock, so the process froze into stalemate even as TRNC's momentum let it hold firm without conceding."
+}

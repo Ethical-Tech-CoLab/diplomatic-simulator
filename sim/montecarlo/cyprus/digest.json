@@ -1,0 +1,48 @@
+{
+ "title": "Cyprus reunification",
+ "context": "Cyprus has been divided since T\u00fcrkiye's 1974 invasion, which followed a coup against President Makarios and left Turkish forces controlling roughly 37% of the island behind the UN-monitored Green Line, with some 200,000 people displaced. In 1983 the Turkish Cypriot leadership declared the Turkish Republic of Northern Cyprus, an entity UN Security Council Resolution 541 called \"legally invalid\" and which only T\u00fcrkiye recognizes. Decades of UN-mediated efforts to build a bi-zonal, bi-communal federation have failed, ",
+ "parties": [
+  {
+   "code": "CY",
+   "name": "Republic of Cyprus",
+   "endState": "A reunited bicommunal, bizonal federation with a single sovereignty and a strong central government, achieved by re-integrating the Turkish Cypriot region into the existing Republi",
+   "redLine": "No international recognition of the 'Turkish Republic of Northern Cyprus' and no 'virgin birth' proposal.",
+   "batna": "Maintain the status quo: the internationally recognized Republic of Cyprus continues as-is inside the EU, keeps blocking T\u00fcrkiye's EU accession and the Direct T"
+  },
+  {
+   "code": "TRNC",
+   "name": "Turkish Republic of Northern Cyprus",
+   "endState": "A confederation / new United Republic of Cyprus of two strong, equal founding states, with a weak central government subservient to the constituent states and communal control over",
+   "redLine": "No system of government that disenfranchises Turkish Cypriots in favor of a Greek-Cypriot-dominated government.",
+   "batna": "Walk away from a federal deal and fall back to seeking international recognition of the TRNC as a legitimate, independent entity, backed by T\u00fcrkiye, maintaining"
+  },
+  {
+   "code": "GR",
+   "name": "Greece",
+   "endState": "A single bicommunal Cypriot nation with a strong central/federal government, integrated national armed forces, and EU-anchored freedoms (movement and settlement), with the occupati",
+   "redLine": "No international recognition of the 'Turkish Republic of Northern Cyprus' and no 'virgin birth' proposal for a unified Cyprus.",
+   "batna": "Fall back on continued UN-mediated bicommunal talks under the SASG Good Offices as the only accepted method; absent an acceptable deal, maintain the status quo "
+  },
+  {
+   "code": "TR",
+   "name": "Turkey",
+   "endState": "A confederation/bizonal single nation of two strong, politically equal communal states with a weak central government, ideally via a 'virgin birth' new republic and international r",
+   "redLine": "No system of government that disenfranchises the Turkish Cypriots in favor of a Greek-Cypriot-dominated government.",
+   "batna": "If no unified settlement with genuine political equality is reached, walk away and continue building a strong, internationally recognized independent TRNC under"
+  },
+  {
+   "code": "UK",
+   "name": "United Kingdom",
+   "endState": "A politically stable, ethnically at-peace, bicommunal/bizonal federation with a strong central government, political equality, single sovereignty/citizenship/international personal",
+   "redLine": "Must preserve a single sovereignty, single citizenship, and single international personality for Cyprus.",
+   "batna": "If no comprehensive settlement is reached, fall back to sustaining the UN process and locking in confidence-building measures (Varosha, Famagusta port, Ercan ai"
+  },
+  {
+   "code": "US",
+   "name": "United States",
+   "endState": "A reunified, peaceful, self-protecting Republic of Cyprus under a bizonal, bicommunal federation with a strong central government and single international personality.",
+   "redLine": "No acceptance of the two-state / 'sovereign equality' solution or recognition of the TRNC.",
+   "batna": "If no comprehensive settlement is reached, fall back to brokering discrete confidence-building wins and keeping Greece and T\u00fcrkiye from impeding future UN-led t"
+  }
+ ]
+}

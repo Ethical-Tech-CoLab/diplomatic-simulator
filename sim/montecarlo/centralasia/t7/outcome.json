@@ -1,0 +1,17 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {"code":"KAZ","name":"Kazakhstan","satisfaction":0.8,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"UZB","name":"Uzbekistan","satisfaction":0.65,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"KGZ","name":"Kyrgyzstan","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"TJK","name":"Tajikistan","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"RUS","name":"Russia","satisfaction":0.4,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"CHN","name":"China","satisfaction":0.7,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"IND","name":"India","satisfaction":0.45,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": [
+  "C5 Central Asian bloc (KAZ leading UZB-KGZ-TJK) converging on a non-binding de-escalation framework",
+  "China-Russia informal rivalry for regional leadership, no formal alignment"
+ ],
+ "note": "With no shock, a neutral mood, and only medium mediator pressure, KAZ's momentum steered the four Central Asian delegations toward the non-binding framework their BATNAs already favored, leaving China's minimal red line untouched and Russia unable to lock in institutional expansion."
+}

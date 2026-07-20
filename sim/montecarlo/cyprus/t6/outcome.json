@@ -1,0 +1,13 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {"code":"CY","name":"Republic of Cyprus","satisfaction":0.75,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"TRNC","name":"Turkish Republic of Northern Cyprus","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"GR","name":"Greece","satisfaction":0.7,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"TR","name":"Turkey","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"UK","name":"United Kingdom","satisfaction":0.65,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"US","name":"United States","satisfaction":0.7,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": ["CY-GR-UK-US single-sovereignty bloc", "TR-TRNC political-equality bloc softened by regional linkage"],
+ "note": "A cooperative mood and CY's momentum, amplified by US tying the talks to a broader regional bargain, produced enough goodwill for a framework on single sovereignty with guaranteed political equality, but low mediator pressure left governance and security details unresolved."
+}

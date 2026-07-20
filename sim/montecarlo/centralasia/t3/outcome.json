@@ -1,0 +1,14 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {"code":"KAZ","name":"Kazakhstan","satisfaction":0.75,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"UZB","name":"Uzbekistan","satisfaction":0.72,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"KGZ","name":"Kyrgyzstan","satisfaction":0.6,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"TJK","name":"Tajikistan","satisfaction":0.8,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"RUS","name":"Russia","satisfaction":0.32,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"CHN","name":"China","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"IND","name":"India","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": ["Central Asian Four (KAZ-UZB-KGZ-TJK) unified de-escalation front", "Informal TJK-India alignment"],
+ "note": "The cooperative mood and low mediator pressure let the four Central Asian states negotiate directly and cohere against overreaching Russian CSTO pressure (widely read as hollow given Russia's distraction elsewhere), yielding a de-escalation framework that satisfies everyone's status-quo red lines but stops short of the comprehensive settlement that would have triggered China's red line, while momentum let Tajikistan extract the most favorable terms among the regional states."
+}

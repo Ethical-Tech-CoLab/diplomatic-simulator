@@ -1,0 +1,16 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {"code":"CHN","name":"China","satisfaction":0.65,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"USA","name":"United States","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"PHL","name":"Philippines","satisfaction":0.45,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"VNM","name":"Vietnam","satisfaction":0.4,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"MYS","name":"Malaysia","satisfaction":0.8,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"BRN","name":"Brunei","satisfaction":0.65,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"IDN","name":"Indonesia","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"IND","name":"India","satisfaction":0.45,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"JPN","name":"Japan","satisfaction":0.4,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": ["ASEAN pragmatists (Malaysia-Brunei-Indonesia) broker joint resource development", "Philippines-Vietnam sovereignty hardliners accept reluctantly", "US-Japan-India external powers offer cautious, conditional support"],
+ "note": "The newly discovered oil/gas find created a shared economic incentive that Malaysia, holding momentum, leveraged into a 'without prejudice to sovereignty' joint-development framework for the contested zone, letting every delegation preserve its red line on paper while none achieved its full end-state."
+}

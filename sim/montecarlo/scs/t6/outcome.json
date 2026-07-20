@@ -1,0 +1,16 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {"code":"CHN","name":"China","satisfaction":0.55,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"USA","name":"United States","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"PHL","name":"Philippines","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"VNM","name":"Vietnam","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"MYS","name":"Malaysia","satisfaction":0.65,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"BRN","name":"Brunei","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"IDN","name":"Indonesia","satisfaction":0.7,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"IND","name":"India","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"JPN","name":"Japan","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": ["ASEAN unity bloc led by Indonesia", "US-Philippines-Japan security alignment holding in background", "China engages on CBMs while isolated on sovereignty claim"],
+ "note": "The FONOP near-miss shocked security dynamics but the cooperative mood and Indonesia's brokering momentum, unaided by mediator pressure, produced an ASEAN-driven CBM/Code-of-Conduct framework that de-escalates without any party conceding its sovereignty red line."
+}

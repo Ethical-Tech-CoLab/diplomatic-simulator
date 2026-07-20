@@ -1,0 +1,16 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {"code":"CHN","name":"China","satisfaction":0.62,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"USA","name":"United States","satisfaction":0.35,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"PHL","name":"Philippines","satisfaction":0.22,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"VNM","name":"Vietnam","satisfaction":0.40,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"MYS","name":"Malaysia","satisfaction":0.46,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"BRN","name":"Brunei","satisfaction":0.42,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"IDN","name":"Indonesia","satisfaction":0.47,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"IND","name":"India","satisfaction":0.50,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"JPN","name":"Japan","satisfaction":0.44,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": ["US-Philippines-Japan security alignment", "ASEAN claimant bloc (VNM, MYS, BRN, IDN) pushing incident-management measures"],
+ "note": "The Second Thomas Shoal ramming incident hardened all sides' sovereignty red lines and, with only weak mediator pressure to counter it, talks yielded a narrow incident-hotline/de-escalation arrangement while China's momentum let it stonewall any movement on sovereignty or a binding Code of Conduct."
+}

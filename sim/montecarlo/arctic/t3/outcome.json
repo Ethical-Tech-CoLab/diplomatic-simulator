@@ -1,0 +1,14 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {"code":"CAN","name":"Canada","satisfaction":0.78,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"CHN","name":"China","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"DNK","name":"Denmark","satisfaction":0.62,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"FIN","name":"Finland","satisfaction":0.85,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"NOR","name":"Norway","satisfaction":0.65,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"RUS","name":"Russia","satisfaction":0.8,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"USA","name":"United States","satisfaction":0.42,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": ["Nordic-Arctic coastal cooperation bloc (CAN-FIN-NOR-DNK)", "Russia-China Arctic economic partnership", "USA sidelined/disengaged"],
+ "note": "US isolationism opened a leadership vacuum that Finland's momentum filled with a cooperative framework on science, environment, and Arctic Council structure, while the hardest sovereignty and military red lines (NSR, NWP, Svalbard EEZ) were simply left as unresolved status quo rather than negotiated."
+}

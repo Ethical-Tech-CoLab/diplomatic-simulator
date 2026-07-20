@@ -1,0 +1,13 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {"code":"CY","name":"Republic of Cyprus","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"TRNC","name":"Turkish Republic of Northern Cyprus","satisfaction":0.35,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"GR","name":"Greece","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"TR","name":"Turkey","satisfaction":0.4,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"UK","name":"United Kingdom","satisfaction":0.45,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"US","name":"United States","satisfaction":0.4,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": ["CY-GR-UK-US single-sovereignty bloc", "TRNC-TR political-equality/two-state bloc"],
+ "note": "The gas discovery gave CY (already holding momentum) a stronger economic BATNA that hardened its stance on single sovereignty, while low mediator pressure let TR/TRNC hold out for equal resource rights rather than concede, producing only a narrow hydrocarbon-sharing arrangement instead of comprehensive reunification."
+}

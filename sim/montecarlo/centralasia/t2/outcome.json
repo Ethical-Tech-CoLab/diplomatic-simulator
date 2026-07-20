@@ -1,0 +1,17 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {"code":"KAZ","name":"Kazakhstan","satisfaction":0.75,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"UZB","name":"Uzbekistan","satisfaction":0.75,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"KGZ","name":"Kyrgyzstan","satisfaction":0.82,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"TJK","name":"Tajikistan","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"RUS","name":"Russia","satisfaction":0.32,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"CHN","name":"China","satisfaction":0.85,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"IND","name":"India","satisfaction":0.25,"primaryGoal":"failed","redLineHeld":true}
+ ],
+ "coalitions": [
+  "Central Asian Four regional-ownership bloc (KAZ-UZB-KGZ-TJK, steered by KGZ momentum)",
+  "China-Central Asia bilateral economic track built on the new BRI package"
+ ],
+ "note": "China's surprise BRI investment package, amplified by high mediator pressure, bought the Central Asian four a de-escalation framework and status-quo relief while conveniently keeping any comprehensive settlement off the table, leaving Russia and India sidelined amid the confrontational mood."
+}

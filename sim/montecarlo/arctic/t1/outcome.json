@@ -1,0 +1,14 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {"code":"CAN","name":"Canada","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"CHN","name":"China","satisfaction":0.65,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"DNK","name":"Denmark","satisfaction":0.45,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"FIN","name":"Finland","satisfaction":0.4,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"NOR","name":"Norway","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"RUS","name":"Russia","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"USA","name":"United States","satisfaction":0.45,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": ["NATO Arctic bloc (USA-CAN-NOR-FIN-DNK) rallies after incident", "Russia-China bilateral axis on NSR access"],
+ "note": "The NATO-Russia naval incident hardened both superpowers' NSR postures into stalemate, so talks yielded only a crisis-deconfliction/hotline framework while China used its momentum to quietly secure bilateral navigation assurances from a now more isolated Russia."
+}

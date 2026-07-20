@@ -1,0 +1,18 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {"code":"KAZ","name":"Kazakhstan","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"UZB","name":"Uzbekistan","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"KGZ","name":"Kyrgyzstan","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"TJK","name":"Tajikistan","satisfaction":0.45,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"RUS","name":"Russia","satisfaction":0.8,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"CHN","name":"China","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"IND","name":"India","satisfaction":0.35,"primaryGoal":"failed","redLineHeld":true}
+ ],
+ "coalitions": [
+  "RUS-led CSTO security coalition (KAZ, KGZ, TJK) galvanized by the ISIS-K shock",
+  "CHN-RUS tacit alignment to keep border/water disputes unresolved",
+  "UZB-IND loose alignment resisting deeper Russian security entrenchment"
+ ],
+ "note": "The ISIS-K spillover from Afghanistan reframed the summit around urgent counter-terrorism cooperation, letting Russia's momentum convert shared fear into a security framework while leaving the underlying border and water disputes frozen."
+}

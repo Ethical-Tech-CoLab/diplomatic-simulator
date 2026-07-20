@@ -1,0 +1,16 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {"code":"CHN","name":"China","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"USA","name":"United States","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"PHL","name":"Philippines","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"VNM","name":"Vietnam","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"MYS","name":"Malaysia","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"BRN","name":"Brunei","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"IDN","name":"Indonesia","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"IND","name":"India","satisfaction":0.65,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"JPN","name":"Japan","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": ["US-Japan-India-backed UNCLOS bloc with Philippines and Vietnam", "ASEAN moderates (Malaysia, Brunei, Indonesia) favoring joint economic ventures over confrontation"],
+ "note": "With no shock, a neutral mood and only medium mediator pressure, China's entrenched sovereignty red line and comfortable status-quo BATNA blocked any comprehensive settlement, while India's momentum helped the like-minded coalition extract a modest, non-binding Code of Conduct and confidence-building measures framework instead."
+}

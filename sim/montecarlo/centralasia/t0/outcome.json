@@ -1,0 +1,14 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {"code":"KAZ","name":"Kazakhstan","satisfaction":0.75,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"UZB","name":"Uzbekistan","satisfaction":0.7,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"KGZ","name":"Kyrgyzstan","satisfaction":0.65,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"TJK","name":"Tajikistan","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"RUS","name":"Russia","satisfaction":0.4,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"CHN","name":"China","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"IND","name":"India","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": ["C5 status-quo bloc (KAZ-UZB-KGZ-TJK) closing ranks around a non-binding drought/de-escalation framework", "KAZ-led drafting group with UZB and KGZ backing"],
+ "note": "The drought shock pushed the four Central Asian states into a defensive, KAZ-led framework on de-escalation and water coordination, but low mediator pressure and a merely neutral mood left everyone's sovereignty and structural red lines untouched, so no binding comprehensive settlement emerged and outside powers (RUS, CHN, IND) were left jockeying for future bilateral leverage."
+}

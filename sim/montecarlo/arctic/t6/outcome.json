@@ -1,0 +1,14 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {"code":"CAN","name":"Canada","satisfaction":0.62,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"CHN","name":"China","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"DNK","name":"Denmark","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"FIN","name":"Finland","satisfaction":0.7,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"NOR","name":"Norway","satisfaction":0.56,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"RUS","name":"Russia","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"USA","name":"United States","satisfaction":0.68,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": ["US-led joint Arctic environmental incident-response coalition", "Nordic states (Finland, Norway, Denmark) aligned on cooperative governance norms"],
+ "note": "The cooperative mood and shared urgency of the tanker spill let the US, with momentum, broker a framework for joint environmental/incident-response cooperation while all delegations quietly shelved their harder sovereignty red lines (NWP, NSR, Svalbard EEZ, shelf claims) rather than risk the low-pressure talks collapsing."
+}

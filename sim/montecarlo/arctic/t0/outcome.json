@@ -1,0 +1,18 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {"code":"CAN","name":"Canada","satisfaction":0.78,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"CHN","name":"China","satisfaction":0.35,"primaryGoal":"partial","redLineHeld":false},
+  {"code":"DNK","name":"Denmark","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"FIN","name":"Finland","satisfaction":0.58,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"NOR","name":"Norway","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"RUS","name":"Russia","satisfaction":0.65,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"USA","name":"United States","satisfaction":0.48,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": [
+  "Canada-led Arctic coastal-sovereignty bloc (CAN, DNK, NOR) resisting internationalization of straits",
+  "Russia-China economic-strategic partnership on NSR access",
+  "Nordic solidarity (FIN, NOR, DNK) blocking any Chinese Arctic Council membership bid"
+ ],
+ "note": "With low mediator pressure and a neutral mood, the record ice-free shock created urgency for shipping-safety and environmental cooperation but not enough leverage to force concessions on hard sovereignty red lines, so momentum-holder Canada anchored a framework deal on process while NWP, NSR control, and Chinese navigation rights stayed unresolved."
+}

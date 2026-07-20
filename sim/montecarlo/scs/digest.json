@@ -1,0 +1,69 @@
+{
+ "title": "South China Sea dispute",
+ "context": "An accelerating crisis over competing claims in the South China Sea (SCS) has brought the region close to armed confrontation. The waters carry roughly one-third of global maritime trade, hold about 10% of the annual global fisheries catch, and sit atop large untapped oil and gas reserves, making the disputed Spratly and Paracel islands, Scarborough Shoal, and Macclesfield Bank strategically vital. China asserts \"indisputable sovereignty\" over most of the sea based on its ten-dashed-line map and has conducted exten",
+ "parties": [
+  {
+   "code": "CHN",
+   "name": "China",
+   "endState": "International recognition of China's sovereignty across the SCS ten-dashed-line claim, an end to extra-regional (US, Japan, India) interference, and cessation of all non-Chinese mi",
+   "redLine": "No concession on sovereignty over Xisha, Nansha, or any part of the ten-dashed-line claim.",
+   "batna": "Shelve the dispute indefinitely and maintain the status quo of de facto control and land reclamation, pursuing bilateral deals over time while isolating smaller"
+  },
+  {
+   "code": "USA",
+   "name": "United States",
+   "endState": "An immediate reduction of tensions across the SCS, with claims resolved through peaceful negotiation or international arbitration and sea lanes secured under treaty and confidence-",
+   "redLine": "No acceptance of the ten-dashed-line or any historic-rights claim exceeding UNCLOS-provided maritime zones.",
+   "batna": "Maintain the status quo of forward U.S. presence, continued FONOPS, and bilateral alliance/security support to partners (Philippines, Vietnam) while pursuing cl"
+  },
+  {
+   "code": "PHL",
+   "name": "Philippines",
+   "endState": "International recognition of Philippine territorial rights in the WPS, achieved through a binding UNCLOS-based settlement and a binding, enforceable WPS Code of Conduct.",
+   "redLine": "No recognition or legitimization of China's nine/ten-dashed line claim.",
+   "batna": "If talks fail, fall back on the binding UNCLOS award plus deepened security and economic alignment with the US, Japan, India, Australia, and Vietnam to contain "
+  },
+  {
+   "code": "VNM",
+   "name": "Vietnam",
+   "endState": "Peaceful, law-based resolution of East Sea claims under UNCLOS, with China accepting negotiation or arbitration, backed by a strong ASEAN and improved US/regional-power engagement ",
+   "redLine": "No bilateral-only settlement with China on terms favorable to Beijing; overlapping claims must go to multilateral negotiation or UNCLOS arbitration.",
+   "batna": "Walk away from unsatisfactory talks and pursue UNCLOS Tribunal arbitration (as the Philippines did), while accelerating bilateral trade and defense diversificat"
+  },
+  {
+   "code": "MYS",
+   "name": "Malaysia",
+   "endState": "Peaceful multilateral resolution of SCS sovereignty disputes grounded in UNCLOS, with increased cooperation and joint commercial ventures between ASEAN states and China.",
+   "redLine": "No recognition of the Chinese ten/nine-dashed line or any historic-rights claim exceeding UNCLOS.",
+   "batna": "If no overarching solution is reachable, fall back to interim short-term confidence-building measures (patrol suspension, EEZ respect, economic cooperation) and"
+  },
+  {
+   "code": "BRN",
+   "name": "Brunei",
+   "endState": "Peaceful resolution of SCS sovereignty issues through bilateral efforts, paired with multilateral efforts to improve conduct/conditions and increased cooperation between SCS nation",
+   "redLine": "China's ten-dashed-line boundary is unacceptable and cannot be legitimized.",
+   "batna": "If no overarching settlement is reached, fall back to securing short-term confidence-building measures and joint commercial/energy ventures, keep sovereignty di"
+  },
+  {
+   "code": "IDN",
+   "name": "Indonesia",
+   "endState": "Peaceful, multilateral (or joint) resolution of SCS sovereignty disputes grounded in UNCLOS and the 2016 PCA award, with expanded cooperation and joint commercial/energy ventures a",
+   "redLine": "China's ten-dashed-line claim is illegitimate under the PCA award and unacceptable.",
+   "batna": "If a comprehensive settlement fails, fall back to preserving ASEAN unity and pursuing incremental short-term confidence-building measures and joint ventures; if"
+  },
+  {
+   "code": "IND",
+   "name": "India",
+   "endState": "Peaceful, UNCLOS-based resolution of SCS sovereignty disputes with reduced Chinese naval presence, preserved freedom of navigation, and Chinese respect for Indian regional interest",
+   "redLine": "Will walk out of negotiations if the India-China border dispute (Jammu-Kashmir, common border) is raised; talks are strictly about SCS.",
+   "batna": "Fall back to firm insistence on a preferable multilateral solution while signaling that military action may become necessary if China continues provocation; wil"
+  },
+  {
+   "code": "JPN",
+   "name": "Japan",
+   "endState": "Universal adherence to UNCLOS freedom of navigation and innocent passage across the Western Pacific, with peaceful resolution of SCS sovereignty disputes and demilitarization of th",
+   "redLine": "No recognition or legitimization of China's nine/ten-dashed line or the 'Chinese archipelago' claim.",
+   "batna": "If a unified position with partners is unattainable, fall back to bilaterally reassuring the Philippines and Vietnam of Japanese support (only within UNCLOS lim"
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "title": "Arctic sovereignty & sea-lanes",
+ "context": "Climate change has opened the Northern Sea Route (NSR, Russian coast) and Northwest Passage (NWP, Canadian archipelago) for longer seasons. Continental-shelf claims (Lomonosov Ridge: Russia, Canada, Denmark) overlap over the North Pole and are unsettled at the UN CLCS. Russia has re-militarized its Arctic and requires 45-day notice for warships on the NSR; Canada regulates NWP transit. The US (not a UNCLOS party) insists both are international straits (freedom of navigation) and defined its own extended continental",
+ "parties": [
+  {
+   "code": "CAN",
+   "name": "Canada",
+   "endState": "Restore Canada's place as an international Arctic leader.",
+   "redLine": "Not maintaining full control of the NWP as a Canadian trade route through Canadian internal waters.",
+   "batna": "Absent a deal, fall back to the alternate end-state: unilaterally defend and secure Canada and its Arctic residents, keep regulating the NWP as internal waters,"
+  },
+  {
+   "code": "CHN",
+   "name": "China",
+   "endState": "Understand, protect, develop, and participate in the governance of the Arctic.",
+   "redLine": "No Russian (or other) restrictions on freedom of navigation and innocent passage for Chinese vessels along the NSR.",
+   "batna": "If denied full Arctic Council membership, seek enhanced responsibilities/roles as observer and play the long game to erode resistance; keep exploiting the legal"
+  },
+  {
+   "code": "DNK",
+   "name": "Denmark",
+   "endState": "Greenland's territorial integrity is preserved and its resources developed per its people's desires, with the continental-shelf determination resolved.",
+   "redLine": "Any Chinese military presence on Greenland or in its surrounding waters.",
+   "batna": "Fall back from the primary goal to the alternate: a peaceful, international-law-based resolution of boundary disputes while preserving the status quo (Pituffik "
+  },
+  {
+   "code": "FIN",
+   "name": "Finland",
+   "endState": "Strengthen the delicate balance between relations with Russia and inclusion in the EU and NATO.",
+   "redLine": "Any attempt to make China a member state of the Arctic Council.",
+   "batna": "Fall back to championing broad international cooperation for sustainable, peaceful Arctic development and rely on EU/NATO security guarantees plus its own stren"
+  },
+  {
+   "code": "NOR",
+   "name": "Norway",
+   "endState": "Norwegian territorial integrity is preserved, and its resources developed by its people.",
+   "redLine": "No agreement or regulation limiting Norway's EEZ surrounding Svalbard.",
+   "batna": "Maintain the status quo under the Svalbard Treaty and UNCLOS, keeping the Temporary Fisheries Protection Zone (TFPZ) in place unilaterally until the Svalbard EE"
+  },
+  {
+   "code": "RUS",
+   "name": "Russia",
+   "endState": "Continued economic development of the Arctic (resource base expansion via hydrocarbon exploration/extraction; maintain favorable military posture).",
+   "redLine": "Not maintaining full control of the NSR as a Russian trade route.",
+   "batna": "Proceed unilaterally with Arctic resource extraction, NSR regulation, and military posture backed by the China partnership, deferring contested items rather tha"
+  },
+  {
+   "code": "USA",
+   "name": "United States",
+   "endState": "Defend U.S. sovereignty in the Arctic and maintain a constant presence, including military, economic, and conservation interests.",
+   "redLine": "No Russian control/military oversight of the NSR.",
+   "batna": "Fall back on unilateral U.S. and NATO/NORAD posture and freedom-of-navigation operations, maintaining constant Arctic presence and basing in partner nations rat"
+  }
+ ]
+}

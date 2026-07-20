@@ -1,0 +1,55 @@
+{
+ "title": "Central Asia / Fergana Valley crisis",
+ "context": "The Fergana Valley \u2014 a densely populated agricultural basin shared by Uzbekistan, Kyrgyzstan, and Tajikistan \u2014 is one of Central Asia's most volatile regions, with roughly 110 kilometers of border still in dispute. The valley depends on the Syr Darya river system, whose upstream-downstream dynamics have repeatedly triggered armed clashes, most severely the September 2022 Kyrgyz-Tajik conflict that killed dozens and displaced well over 100,000 people. Water scarcity, energy emergencies, three consecutive years of dr",
+ "parties": [
+  {
+   "code": "KAZ",
+   "name": "Kazakhstan",
+   "endState": "Reduced regional tensions with a return to the status quo on border demarcation and enhanced protection of Kazakhstan's water resources, achieved via a de-escalation framework rath",
+   "redLine": "No nation may dictate how or with whom Kazakhstan trades its natural resources, including water; sovereignty over resources is non-negotiable.",
+   "batna": "Walk away from any deal that compromises resource sovereignty and instead defer to follow-on Foreign-Minister-led talks with only the Central Asian states, whil"
+  },
+  {
+   "code": "UZB",
+   "name": "Uzbekistan",
+   "endState": "De-escalate tensions and restore the status quo on Fergana Valley border demarcation while safeguarding Uzbek water resources; secure frameworks (not final deals) for resource trad",
+   "redLine": "No alteration of Uzbekistan's current borders.",
+   "batna": "Walk away from any binding deal, hold the territorial and water status quo, and defer all substantive trade/security agreements to later Tashkent-controlled bil"
+  },
+  {
+   "code": "KGZ",
+   "name": "Kyrgyzstan",
+   "endState": "De-escalate tensions and restore the status quo on Fergana Valley border demarcation with Kyrgyz sovereign territory and water resources fully protected.",
+   "redLine": "No agreement surrendering any sovereign Kyrgyz territory.",
+   "batna": "Conclude nothing binding, hold the territorial and water status quo, report all findings to the Foreign Minister, and await further guidance rather than accept "
+  },
+  {
+   "code": "TJK",
+   "name": "Tajikistan",
+   "endState": "Reduce tensions and return to the pre-crisis status quo on border demarcation with full protection of Tajik water resources and territorial integrity, leaving final settlements for",
+   "redLine": "No recognition of Uzbekistan's border claims unless Uzbekistan openly and fully backs Tajik border claims against Kyrgyzstan.",
+   "batna": "Sign no binding agreement at the summit; hold the status-quo border and sovereign water position, gather intelligence and frameworks only, and refer all substan"
+  },
+  {
+   "code": "RUS",
+   "name": "Russia",
+   "endState": "Tensions reduced under Russian-led framing, Russia affirmed as sole security guarantor and central regional power, EAEU/CSTO expanded (welcoming Tajikistan and Uzbekistan into EAEU",
+   "redLine": "No regional coordinating or security organization that excludes Russia or makes China its primary leader.",
+   "batna": "Sign nothing binding (delegation lacks authority for binding security/economic deals); instead block adverse structures, harvest intelligence on all parties, an"
+  },
+  {
+   "code": "CHN",
+   "name": "China",
+   "endState": "Enhanced Chinese regional dominance with disputes left unresolved, no India/Russia leadership role, BRI expanded, and conditions set for bilateral resource and security deals.",
+   "redLine": "Central Asian states reaching a comprehensive settlement of border and resource disputes.",
+   "batna": "Prevent any binding agreement, keep disputes frozen, and shift to bilateral engagement with individual states (Kazakhstan, Kyrgyzstan, Tajikistan, Uzbekistan) a"
+  },
+  {
+   "code": "IND",
+   "name": "India",
+   "endState": "Reestablish Indian influence and reduce tensions at the summit, box out Chinese dominance, and set conditions for subsequent bilateral security and economic engagement with the Cen",
+   "redLine": "China becoming the de facto hegemon in, or deepening dominance over, Central Asia.",
+   "batna": "Fall back on bilateral, off-summit engagement with individual Central Asian states (especially Tajikistan) to secure Indian interests; if a red line is triggere"
+  }
+ ]
+}

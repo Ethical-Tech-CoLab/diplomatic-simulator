@@ -1,0 +1,13 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {"code":"CY","name":"Republic of Cyprus","satisfaction":0.45,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"TRNC","name":"Turkish Republic of Northern Cyprus","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"GR","name":"Greece","satisfaction":0.42,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"TR","name":"Turkey","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"UK","name":"United Kingdom","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"US","name":"United States","satisfaction":0.45,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": ["Greece-Republic of Cyprus federalist axis", "Turkey-TRNC confederalist axis", "UK-US guarantor bloc pushing process"],
+ "note": "Absent any shock and with only medium mediator pressure, the sides logged incremental confidence-building gains but the core single-sovereignty-vs-two-state gap stayed unbridged, and TRNC's momentum let it push the confederation framing further onto the table without breaking Greek Cypriot or US/UK red lines."
+}

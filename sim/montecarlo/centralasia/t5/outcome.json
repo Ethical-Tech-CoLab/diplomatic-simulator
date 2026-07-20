@@ -1,0 +1,18 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {"code":"KAZ","name":"Kazakhstan","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"UZB","name":"Uzbekistan","satisfaction":0.65,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"KGZ","name":"Kyrgyzstan","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"TJK","name":"Tajikistan","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"RUS","name":"Russia","satisfaction":0.4,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"CHN","name":"China","satisfaction":0.85,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"IND","name":"India","satisfaction":0.3,"primaryGoal":"failed","redLineHeld":false}
+ ],
+ "coalitions": [
+  "Downstream bloc (Uzbekistan-Kazakhstan) rallying around emergency water-safety protections",
+  "Upstream bloc (Kyrgyzstan-Tajikistan) resisting binding oversight of their dam infrastructure",
+  "China leveraging the dam emergency into bilateral engineering/financing offers, sidelining Russia and India"
+ ],
+ "note": "The dam-safety emergency forced a narrow technical protocol under heavy mediator pressure, but the confrontational mood and China's momentum kept the underlying border and resource disputes frozen, letting China consolidate influence while India was boxed out."
+}

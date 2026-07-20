@@ -1,0 +1,16 @@
+{
+ "dealType": "stalemate",
+ "parties": [
+  {"code":"CHN","name":"China","satisfaction":0.4,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"USA","name":"United States","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"PHL","name":"Philippines","satisfaction":0.45,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"VNM","name":"Vietnam","satisfaction":0.45,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"MYS","name":"Malaysia","satisfaction":0.4,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"BRN","name":"Brunei","satisfaction":0.4,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"IDN","name":"Indonesia","satisfaction":0.42,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"IND","name":"India","satisfaction":0.4,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"JPN","name":"Japan","satisfaction":0.42,"primaryGoal":"failed","redLineHeld":true}
+ ],
+ "coalitions": ["US-led rules-based coalition (USA, PHL, VNM, JPN, IND) condemning the ADIZ", "ASEAN unity bloc (PHL, VNM, MYS, BRN, IDN) refusing to legitimize the ten-dashed line"],
+ "note": "China's surprise ADIZ declaration mid-talks hardened every other delegation's resolve, letting the US-led coalition seize momentum but pushing the table past the point where any sovereignty compromise was possible, so talks stalled without agreement."
+}

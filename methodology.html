@@ -114,8 +114,26 @@ footer{border-top:1px solid var(--line);color:var(--muted);font-size:.85rem;text
 </section>
 
 <section>
+<h2>Monte Carlo analysis — testing outcomes under uncertainty</h2>
+<p><strong>What a Monte Carlo simulation is.</strong> A single negotiation run tells you <em>one</em> story. But the result depends on chance and on conditions no one controls — a sudden crisis, the mood in the room, who has leverage that week. A <strong>Monte Carlo simulation</strong> answers a different question: <em>if we ran this many times under many different conditions, what range of outcomes would we see, and how often?</em> The technique — named after the casino — is simple: (1) identify the uncertain inputs, (2) draw random values for them, (3) run the model once for that draw, and (4) repeat many times and look at the <strong>distribution</strong> of results rather than any single run. Where a point estimate says "the deal fails," a Monte Carlo says "the deal fails in 2 of 8 runs, usually when a hardline shock coincides with a confrontational mood" — which is far more useful for judging how <em>robust</em> or <em>fragile</em> an outcome is.</p>
+
+<h3>How this simulator applies it</h3>
+<p>For each scenario we re-simulate the negotiation many times, and each trial randomizes four exogenous conditions:</p>
+<ul>
+  <li><strong>External shock</strong> — drawn from a scenario-specific list (e.g. a Second Thomas Shoal collision, a Fergana Valley drought, a new EEZ gas discovery, or "no major shock").</li>
+  <li><strong>Mediator pressure</strong> — low / medium / high.</li>
+  <li><strong>Overall mood</strong> — cooperative / neutral / confrontational.</li>
+  <li><strong>Momentum</strong> — which delegation enters with the initiative.</li>
+</ul>
+<p>An agent simulates the negotiation's outcome under that specific draw — who concedes, which coalitions form, whose red lines hold, and whether a deal is reached — and returns a structured result (deal type, per-party satisfaction, goal status, red-line holds). Across the trials we aggregate the <strong>distribution</strong>: the mix of deal types, each delegation's satisfaction spread (mean and min–max range), how often each red line survives, and which coalitions recur. A wide spread means the outcome is condition-sensitive; a tight one means it is robust. Results are on the <a href="montecarlo.html">Monte Carlo page</a>.</p>
+<div class="callout warn">
+<p><strong>Reduced-form, and still not a forecast.</strong> To keep this affordable, each trial is a <em>single-agent outcome simulation</em> conditioned on the random draw — not a full re-run of the multi-round negotiation. So the Monte Carlo samples <strong>the model's distribution over plausible outcomes</strong>, not an empirical distribution of real events. The randomized conditions are illustrative, not calibrated probabilities. Read it as "how sensitive does the model think this outcome is to shocks and mood," never as odds on real diplomacy. This run used 8 trials per scenario (32 total).</p>
+</div>
+</section>
+
+<section>
 <h2>Model, orchestration &amp; reproducibility</h2>
-<p><strong>Model.</strong> Every agent — profile extraction, public brief, delegation role-play, and analysis — is <strong>Claude Opus 4.8</strong> (Anthropic), run through Claude Code's agent framework. There is no fine-tuning and no other provider.</p>
+<p><strong>Model.</strong> Every agent in the main negotiations — profile extraction, public brief, delegation role-play, and analysis — is <strong>Claude Opus 4.8</strong> (Anthropic), run through Claude Code's agent framework. The lighter-weight Monte Carlo trials use <strong>Claude Sonnet</strong> to keep that batch inexpensive. There is no fine-tuning and no other provider.</p>
 <p><strong>Orchestration.</strong> The Arctic scenario was run with direct parallel agent calls. The other three were run as a background <em>workflow</em> that fans out one agent per delegation per round and sequences the phases (setup → profiles → rounds → analysis). Roughly <strong>130 agent tasks</strong> produced the four simulations.</p>
 <div class="callout">
 <h3>An honest note on reliability</h3>

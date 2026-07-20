@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/>
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Diplomatic Simulator</title>
+<style>
+:root{
+  --crimson:#A41034;
+  --navy:#1B2A4E;
+  --ink:#1a1a1a;
+  --muted:#5a5a5a;
+  --paper:#fbf9f5;
+  --line:#e3ddd2;
+  --gold:#b08a3e;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--paper);color:var(--ink);
+  font-family:"Helvetica Neue",Arial,sans-serif;line-height:1.55;font-size:15px}
+h1,h2,h3,h4{font-family:Georgia,"Times New Roman",serif;color:var(--navy);margin:0 0 .4em}
+h1{font-size:2.4rem;line-height:1.12;color:#fff}
+h2{font-size:1.45rem;border-bottom:2px solid var(--crimson);padding-bottom:.25em;margin:1.4em 0 .6em}
+h3{font-size:1.12rem;color:var(--crimson);margin:0 0 .4em}
+a{color:var(--crimson);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:980px;margin:0 auto;padding:0 28px}
+header.hero{background:linear-gradient(135deg,var(--navy) 0%,#0f1a33 100%);
+  color:#fff;padding:52px 0 44px;border-bottom:6px solid var(--crimson);position:relative}
+.eyebrow{letter-spacing:.18em;text-transform:uppercase;font-size:.75rem;color:var(--gold);margin-bottom:10px}
+.subtitle{color:#d8d8d8;font-size:1.05rem;margin:.5em 0 0;max-width:720px}
+.chip{display:inline-block;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);color:#fff;font-size:.75rem;padding:3px 10px;border-radius:99px;margin-top:14px;letter-spacing:.05em}
+section{padding:40px 0;border-bottom:1px solid var(--line)}
+section.no-border{border-bottom:0}
+section p{max-width:820px}
+.lead{font-size:1.05rem;color:#222;max-width:820px}
+.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:20px}
+.card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:22px;transition:all .2s ease;display:block;color:inherit}
+.card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(27,42,78,.08);text-decoration:none}
+.card h3{margin-top:0}
+.card p{color:var(--muted);font-size:.92rem;margin:.3em 0 0}
+.meta{color:var(--muted);font-size:.85rem;margin:0 0 8px;letter-spacing:.04em;text-transform:uppercase}
+.tag{display:inline-block;background:var(--paper);border:1px solid var(--line);color:var(--muted);font-size:.72rem;padding:2px 8px;border-radius:99px;margin:10px 4px 0 0;text-transform:uppercase;letter-spacing:.08em}
+footer.foot{margin-top:0;padding:22px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem;text-align:center}
+@media (max-width:780px){
+  .grid-2{grid-template-columns:1fr}
+  h1{font-size:1.9rem}
+}
+</style>
+</head><body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Ethical Tech CoLab</div>
+    <h1>Diplomatic Simulator</h1>
+    <p class="subtitle">An interactive simulation of multi-party diplomatic negotiation. Human and AI actors role-play state parties through a live geopolitical crisis, and each session produces a structured transcript and analysis.</p>
+    <span class="chip">Working prototype</span>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>Explore</h2>
+    <div class="grid-2">
+      <a class="card" href="diplomacy-demo/index.html">
+        <div class="meta">Interactive</div>
+        <h3>Diplomacy Table Demo →</h3>
+        <p>Standalone negotiation table with live transcript and session insights.</p>
+      </a>
+      <a class="card" href="diplomacy-session-report.html">
+        <div class="meta">Example run</div>
+        <h3>Session Report →</h3>
+        <p>Iran–US Strait of Hormuz closure crisis (live, April 2026).</p>
+      </a>
+      <a class="card" href="ethical-tech-summit.html">
+        <div class="meta">Archive</div>
+        <h3>Ethical Tech Summit →</h3>
+        <p>Supporting summit materials and gallery.</p>
+      </a>
+      <a class="card" href="ip-risks-mitigations.html">
+        <div class="meta">Reference</div>
+        <h3>IP Risks &amp; Mitigations →</h3>
+        <p>Notes on intellectual-property risks and how they are addressed.</p>
+      </a>
+    </div>
+    <span class="tag">Unlisted · noindex</span>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">Diplomatic Simulator · Ethical Tech CoLab</div>
+</footer>
+
+</body></html>

@@ -95,7 +95,7 @@ footer{border-top:1px solid var(--line);color:var(--muted);font-size:.78rem;text
   var params=new URLSearchParams(location.search),want=params.get('session');
   if(want&&sessions.some(function(s){return s.id===want;}))sel.value=want; else if(sessions[0])sel.value=sessions[0].id;
 
-  var S,color,moves,idx,playing,timer,lastRound;
+  var S,color,moves=[],idx=0,playing=false,timer,lastRound;
   function nameOf(tw){var p=(S.parties||[]).find(function(x){return x.teamTwinName===tw;});return p?p.displayName:tw;}
   function sideOf(tw){var p=(S.parties||[]).find(function(x){return x.teamTwinName===tw;});return p&&p.side?p.side:'left';}
 

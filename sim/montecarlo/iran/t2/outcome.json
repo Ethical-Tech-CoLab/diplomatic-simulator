@@ -1,0 +1,9 @@
+{
+ "dealType": "breakdown",
+ "parties": [
+  {"code":"IRN","name":"Iran","satisfaction":0.35,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"US","name":"US","satisfaction":0.25,"primaryGoal":"failed","redLineHeld":false}
+ ],
+ "coalitions": ["Russia/China backing Iran", "Israel's unilateral strike splits US from E3 mediators"],
+ "note": "An Israeli strike mid-talks blew up the fragile ceasefire faster than high mediator pressure could contain, so Iran hardens behind its enrichment red line and keeps Hormuz shut while the US-Israel rift undercuts Washington's leverage."
+}

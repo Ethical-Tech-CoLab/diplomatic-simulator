@@ -103,7 +103,7 @@ footer{border-top:1px solid var(--line);color:var(--muted);font-size:.8rem;text-
   root.innerHTML=R.scenarios.map(function(s){
     var coal=(s.coalitions||[]).map(function(c){return '<span class="tag">'+esc(c.label)+' ·'+c.n+'</span>';}).join('');
     return '<div class="scard"><h2>'+esc(s.title)+'</h2>'+
-      '<div class="meta">'+s.nTrials+' Monte Carlo trials · <a href="dashboard.html?session='+esc(s.sessionId)+'">dashboard</a> · <a href="scenario-'+(s.key==='centralasia'?'central-asia':s.key==='scs'?'south-china-sea':s.key)+'.html">report</a></div>'+
+      '<div class="meta">'+s.nTrials+' Monte Carlo trials · <a href="dashboard.html?session='+esc(s.sessionId)+'">dashboard</a> · <a href="'+(s.key==='iran'?'diplomacy-session-report.html':'scenario-'+(s.key==='centralasia'?'central-asia':s.key==='scs'?'south-china-sea':s.key)+'.html')+'">report</a></div>'+
       dealBar(s.dealTypes,s.nTrials)+
       '<div class="grid2" style="margin-top:12px"><div>'+ '<h3>Satisfaction (mean, spread across trials)</h3>'+satRows(s.parties)+
       '<div class="legend" style="margin-top:6px"><span class="mean" style="display:inline-block;position:static;width:3px;height:10px;background:var(--navy);vertical-align:middle"></span> mean &nbsp; <span style="display:inline-block;width:16px;height:5px;background:#cdbf9e;border-radius:9px;vertical-align:middle"></span> min–max range</div></div>'+

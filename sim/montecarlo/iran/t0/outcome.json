@@ -1,0 +1,9 @@
+{
+ "dealType": "breakdown",
+ "parties": [
+  {"code":"IRN","name":"Iran","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"US","name":"US","satisfaction":0.15,"primaryGoal":"failed","redLineHeld":false}
+ ],
+ "coalitions": ["China/Russia backing Iran on oil purchases and diplomatic cover", "Israel/Gulf states pushing US toward renewed strikes"],
+ "note": "The IRGC's tanker-sinking, paired with weak mediator engagement and Iranian battlefield momentum, collapsed talks before any nuclear-for-sanctions trade could form, leaving the strait closed and the US naval-blockade BATNA activated."
+}

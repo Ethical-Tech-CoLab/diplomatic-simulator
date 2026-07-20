@@ -1,0 +1,9 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {"code":"IRN","name":"Iran","satisfaction":0.42,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"US","name":"US","satisfaction":0.68,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": ["IRGC hardline faction rejecting talks (internal Iranian fracture)", "China/Russia economic backstop shielding Iran from full sanctions bite"],
+ "note": "The succession fracture stripped Tehran's pragmatic negotiators of full authority, so even in a cooperative room with US momentum they could only bind the strait's reopening and phased sanctions relief to a framework, not a comprehensive settlement, since no one could credibly promise the hardliners' compliance on the nuclear file."
+}

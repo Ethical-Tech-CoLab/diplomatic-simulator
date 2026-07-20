@@ -1,0 +1,20 @@
+{
+ "title": "Iran\u2013US Strait of Hormuz",
+ "context": "April 2026: a fragile two-week US-Iran ceasefire is collapsing as the IRGC Navy closes the Strait of Hormuz to all transit after Iran's foreign minister had declared it open. Talks resume amid a contested Iranian succession (Supreme Leader reportedly incapacitated; IRGC consolidating control), reimposed EU/UN snapback sanctions, a US naval presence enforcing freedom of navigation, and post-strike uncertainty about Iran's 60%-enriched uranium stockpile.",
+ "parties": [
+  {
+   "code": "IRN",
+   "name": "Iran",
+   "endState": "A written, verifiable permanent halt to US/Israeli strikes; reversal of the Sept 2025 EU/UN snapback and de-listing of CBI/NIOC; implicit recognition of the post-Khamenei leadership.",
+   "redLine": "No full dismantlement of the nuclear program or capitulation that endangers regime survival; retain a civilian enrichment capability.",
+   "batna": "Keep the Strait of Hormuz closed and use asymmetric IRGC escalation as leverage, absorbing sanctions with Chinese/Russian help."
+  },
+  {
+   "code": "US",
+   "name": "US",
+   "endState": "Verified elimination of all 60%-enriched uranium (export/downblend), full IAEA Additional-Protocol restoration with cameras, and a demonstrated Iranian stand-down reopening Hormuz for 30 consecutive days.",
+   "redLine": "No Iranian nuclear-weapons capability and the Strait must stay open to commercial transit; preserve snapback sanctions as enforcement leverage.",
+   "batna": "Naval blockade to force the strait open, step-up of sanctions enforcement, and the credible threat of renewed military strikes alongside Israel."
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {"code":"IRN","name":"Iran","satisfaction":0.45,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"US","name":"US","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": ["Oman/Qatar mediating quietly", "China/Russia cushioning Iran's sanctions exposure", "E3 backing US verification demands"],
+ "note": "With no fresh shock to force either side's hand, only medium mediator pressure and a modest US momentum edge, the sides settled for a phased Hormuz reopening tied to partial (not full) enrichment rollback and staged sanctions relief rather than the comprehensive deal or outright collapse either side's maximal position would have required."
+}

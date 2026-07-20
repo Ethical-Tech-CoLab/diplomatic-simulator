@@ -1,0 +1,9 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {"code":"IRN","name":"Iran","satisfaction":0.38,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"US","name":"US","satisfaction":0.62,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": ["China/Russia offer rhetorical cover for Iran but decline to contest the carrier strike group", "US Navy/Israel posture backs the American red line"],
+ "note": "The arriving US carrier strike group under US momentum forced Iran to stand down and reopen Hormuz to avoid open war, but Tehran still refused verified dismantlement of its 60%-enriched stockpile, leaving a coerced partial deal rather than a comprehensive one."
+}

@@ -1,0 +1,9 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {"code":"IRN","name":"Iran","satisfaction":0.35,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"US","name":"US","satisfaction":0.72,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": ["E3/IAEA backing US verification demands", "Russia/China quietly hedging, offering only rhetorical cover for Iran"],
+ "note": "The IAEA's exposure of an undeclared 60%-enriched stockpile shattered Iran's credibility right as US momentum and heavy mediator pressure converged, forcing Tehran into a face-saving partial framework -- phased Hormuz reopening and enhanced inspections for token, conditional sanctions relief -- rather than the comprehensive deal Washington wanted or the breakdown the confrontational mood threatened."
+}

@@ -1,0 +1,9 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {"code":"IRN","name":"Iran","satisfaction":0.68,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"US","name":"US","satisfaction":0.57,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": ["Oman/Qatar back-channel mediation", "China/Russia quietly backing Iran's sanctions relief demand"],
+ "note": "The goodwill from the prisoner/aircrew exchange and cooperative mood let Iran, holding momentum, trade a phased Hormuz reopening and enrichment-cap talks for partial sanctions relief and a strike moratorium, but low mediator pressure left full verification and snapback reversal deferred to a follow-on round."
+}

@@ -1010,6 +1010,159 @@ window.MC_RESULTS = {
      "note": "With no shock, a neutral mood and only medium mediator pressure, China's entrenched sovereignty red line and comfortable status-quo BATNA blocked any comprehensive settlement, while India's momentum helped the like-minded coalition extract a modest, non-binding Code of Conduct and confidence-building measures framework instead."
     }
    ]
+  },
+  {
+   "key": "iran",
+   "title": "Iran–US — Strait of Hormuz",
+   "sessionId": "sess-1778361924764-byifbp",
+   "nTrials": 8,
+   "dealTypes": {
+    "comprehensive": 0,
+    "framework": 3,
+    "partial": 3,
+    "stalemate": 0,
+    "breakdown": 2
+   },
+   "parties": [
+    {
+     "code": "US",
+     "name": "US",
+     "n": 8,
+     "sat": {
+      "n": 8,
+      "mean": 0.506,
+      "sd": 0.192,
+      "min": 0.15,
+      "max": 0.72,
+      "p50": 0.585
+     },
+     "redLineHeldPct": 62,
+     "goals": {
+      "achieved": 0,
+      "partial": 6,
+      "failed": 2
+     }
+    },
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "n": 8,
+     "sat": {
+      "n": 8,
+      "mean": 0.47,
+      "sd": 0.117,
+      "min": 0.35,
+      "max": 0.68,
+      "p50": 0.435
+     },
+     "redLineHeldPct": 100,
+     "goals": {
+      "achieved": 0,
+      "partial": 7,
+      "failed": 1
+     }
+    }
+   ],
+   "coalitions": [
+    {
+     "label": "China/Russia backing Iran on oil purchases and diplomatic cover",
+     "n": 1
+    },
+    {
+     "label": "Israel/Gulf states pushing US toward renewed strikes",
+     "n": 1
+    },
+    {
+     "label": "China/Russia offer rhetorical cover for Iran but decline to contest the carrier strike group",
+     "n": 1
+    },
+    {
+     "label": "US Navy/Israel posture backs the American red line",
+     "n": 1
+    },
+    {
+     "label": "Russia/China backing Iran",
+     "n": 1
+    },
+    {
+     "label": "Israel's unilateral strike splits US from E3 mediators",
+     "n": 1
+    },
+    {
+     "label": "IRGC hardline faction rejecting talks (internal Iranian fracture)",
+     "n": 1
+    },
+    {
+     "label": "China/Russia economic backstop shielding Iran from full sanctions bite",
+     "n": 1
+    }
+   ],
+   "trials": [
+    {
+     "t": 0,
+     "dealType": "breakdown",
+     "shock": "The IRGC sinks a commercial tanker in the strait, spiking global oil prices",
+     "mood": "neutral",
+     "mediatorPressure": "low",
+     "note": "The IRGC's tanker-sinking, paired with weak mediator engagement and Iranian battlefield momentum, collapsed talks before any nuclear-for-sanctions trade could form, leaving the strait closed and the US naval-blockade BATNA activated."
+    },
+    {
+     "t": 1,
+     "dealType": "partial",
+     "shock": "A US carrier strike group arrives and threatens to break the blockade by force",
+     "mood": "neutral",
+     "mediatorPressure": "medium",
+     "note": "The arriving US carrier strike group under US momentum forced Iran to stand down and reopen Hormuz to avoid open war, but Tehran still refused verified dismantlement of its 60%-enriched stockpile, leaving a coerced partial deal rather than a comprehensive one."
+    },
+    {
+     "t": 2,
+     "dealType": "breakdown",
+     "shock": "Israel launches an independent strike on an Iranian nuclear site mid-talks",
+     "mood": "confrontational",
+     "mediatorPressure": "high",
+     "note": "An Israeli strike mid-talks blew up the fragile ceasefire faster than high mediator pressure could contain, so Iran hardens behind its enrichment red line and keeps Hormuz shut while the US-Israel rift undercuts Washington's leverage."
+    },
+    {
+     "t": 3,
+     "dealType": "framework",
+     "shock": "The contested Iranian succession fractures; a hardline faction rejects the talks",
+     "mood": "cooperative",
+     "mediatorPressure": "low",
+     "note": "The succession fracture stripped Tehran's pragmatic negotiators of full authority, so even in a cooperative room with US momentum they could only bind the strait's reopening and phased sanctions relief to a framework, not a comprehensive settlement, since no one could credibly promise the hardliners' compliance on the nuclear file."
+    },
+    {
+     "t": 4,
+     "dealType": "framework",
+     "shock": "China and Russia offer Iran a sanctions-workaround lifeline via a side channel",
+     "mood": "neutral",
+     "mediatorPressure": "medium",
+     "note": "The Beijing/Moscow sanctions lifeline blunted US economic leverage just as Iran held momentum, so Washington settled for a phased framework (partial Hormuz reopening, capped enrichment, staged snapback relief) instead of the full verified rollback it wanted."
+    },
+    {
+     "t": 5,
+     "dealType": "partial",
+     "shock": "An IAEA report reveals an undeclared 60%-enriched uranium stockpile",
+     "mood": "confrontational",
+     "mediatorPressure": "high",
+     "note": "The IAEA's exposure of an undeclared 60%-enriched stockpile shattered Iran's credibility right as US momentum and heavy mediator pressure converged, forcing Tehran into a face-saving partial framework -- phased Hormuz reopening and enhanced inspections for token, conditional sanctions relief -- rather than the comprehensive deal Washington wanted or the breakdown the confrontational mood threatened."
+    },
+    {
+     "t": 6,
+     "dealType": "framework",
+     "shock": "A back-channel prisoner/aircrew exchange builds unexpected goodwill",
+     "mood": "cooperative",
+     "mediatorPressure": "low",
+     "note": "The goodwill from the prisoner/aircrew exchange and cooperative mood let Iran, holding momentum, trade a phased Hormuz reopening and enrichment-cap talks for partial sanctions relief and a strike moratorium, but low mediator pressure left full verification and snapback reversal deferred to a follow-on round."
+    },
+    {
+     "t": 7,
+     "dealType": "partial",
+     "shock": "No major external shock — only the standing Hormuz-closure crisis",
+     "mood": "neutral",
+     "mediatorPressure": "medium",
+     "note": "With no fresh shock to force either side's hand, only medium mediator pressure and a modest US momentum edge, the sides settled for a phased Hormuz reopening tied to partial (not full) enrichment rollback and staged sanctions relief rather than the comprehensive deal or outright collapse either side's maximal position would have required."
+    }
+   ]
   }
  ]
 };

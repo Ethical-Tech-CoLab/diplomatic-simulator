@@ -10,6 +10,7 @@ SCEN = [
     ("centralasia", "Central Asia — Fergana Valley", "sess-centralasia-iscne-01"),
     ("cyprus", "Cyprus — Reunification", "sess-cyprus-iscne-01"),
     ("scs", "South China Sea", "sess-scs-iscne-01"),
+    ("iran", "Iran–US — Strait of Hormuz", "sess-1778361924764-byifbp"),
 ]
 DEAL_ORDER = ["comprehensive", "framework", "partial", "stalemate", "breakdown"]
 

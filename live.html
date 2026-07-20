@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/>
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Live Negotiation — Diplomatic Simulator</title>
+<style>
+:root{--crimson:#A41034;--navy:#1B2A4E;--ink:#1a1a1a;--muted:#5a5a5a;--paper:#fbf9f5;--line:#e3ddd2;--gold:#b08a3e;--stage:#0f1a33}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Arial,sans-serif;line-height:1.5;font-size:14px}
+h1{font-family:Georgia,serif;font-size:1.4rem;color:#fff;margin:0}
+a{color:var(--crimson);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:1040px;margin:0 auto;padding:0 18px}
+header.hero{background:linear-gradient(135deg,var(--navy),#0f1a33);color:#fff;padding:14px 0;border-bottom:4px solid var(--crimson)}
+.hero .top{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap}
+.eyebrow{letter-spacing:.15em;text-transform:uppercase;font-size:.62rem;color:var(--gold)}
+.backlink{color:#cfd6e6;font-size:.78rem}.backlink:hover{color:#fff}
+select{background:#0f1a33;color:#fff;border:1px solid #3a4a6a;border-radius:6px;padding:7px 9px;font-size:.82rem;max-width:100%}
+/* roster */
+.roster{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 8px}
+.pchip{font-size:.72rem;padding:4px 10px;border-radius:99px;border:1.5px solid;background:#fff;opacity:.5;transition:all .2s}
+.pchip.active{opacity:1;font-weight:700;box-shadow:0 0 0 3px rgba(164,16,52,.12);transform:translateY(-1px)}
+/* stage */
+.stage{background:var(--stage);border-radius:12px;padding:14px 16px;min-height:340px;max-height:60vh;overflow-y:auto;border:1px solid #263a63}
+.roundbanner{color:#cfd6e6;text-align:center;font-family:Georgia,serif;font-size:.92rem;letter-spacing:.04em;margin:16px 0 10px;border-top:1px solid #2c4372;border-bottom:1px solid #2c4372;padding:6px 0;animation:fade .5s}
+.msg{display:flex;margin:10px 0;animation:slide .35s ease}
+.msg.right{flex-direction:row-reverse}
+.bubble{max-width:78%;background:#fff;border-radius:12px;padding:9px 13px;border-left:4px solid #888;box-shadow:0 3px 10px rgba(0,0,0,.25)}
+.msg.right .bubble{border-left:0;border-right:4px solid #888}
+.bhead{display:flex;justify-content:space-between;gap:10px;align-items:baseline;margin-bottom:3px}
+.bwho{font-weight:700;font-size:.86rem}
+.bkind{font-size:.62rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.btext{font-size:.9rem}
+.chips{margin-top:5px}
+.chip{display:inline-block;font-size:.62rem;padding:1px 6px;border-radius:99px;margin:2px 3px 0 0;border:1px solid}
+/* typing */
+.typing{display:flex;align-items:center;gap:8px;color:#cfd6e6;font-size:.8rem;padding:6px 2px;animation:fade .3s}
+.dots{display:inline-flex;gap:3px}
+.dots i{width:6px;height:6px;border-radius:50%;background:#9fb2d6;animation:blink 1s infinite}
+.dots i:nth-child(2){animation-delay:.2s}.dots i:nth-child(3){animation-delay:.4s}
+@keyframes blink{0%,60%,100%{opacity:.3}30%{opacity:1}}
+@keyframes slide{from{opacity:0;transform:translateY(8px)}to{opacity:1}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+/* controls */
+.controls{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:12px 0}
+button{background:var(--navy);color:#fff;border:0;border-radius:7px;padding:8px 14px;font-size:.85rem;cursor:pointer}
+button:hover{background:#26375f}button.ghost{background:#fff;color:var(--navy);border:1px solid var(--line)}
+button:disabled{opacity:.4;cursor:default}
+.progress{flex:1;min-width:120px;height:7px;background:#e3ddd2;border-radius:99px;overflow:hidden}
+.progress .fill{height:100%;background:var(--crimson);width:0;transition:width .3s}
+.count{font-size:.78rem;color:var(--muted);white-space:nowrap}
+.outcome{background:#fff;border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:10px;padding:12px 15px;margin-top:12px;animation:fade .5s}
+.note{font-size:.78rem;color:var(--muted);margin:10px 0}
+footer{border-top:1px solid var(--line);color:var(--muted);font-size:.78rem;text-align:center;padding:14px 0;margin-top:16px}
+</style></head><body>
+<header class="hero"><div class="wrap"><div class="top">
+  <div><a class="backlink" href="index.html">← Diplomatic Simulator</a>
+  <div class="eyebrow">Live Negotiation</div>
+  <h1 id="title">…</h1></div>
+  <select id="sessionSelect"></select>
+</div></div></header>
+
+<div class="wrap">
+  <div class="roster" id="roster"></div>
+  <div class="controls">
+    <button id="play">▶ Play</button>
+    <button id="step" class="ghost">⏭ Step</button>
+    <button id="restart" class="ghost">↺ Restart</button>
+    <label class="count">Speed
+      <select id="speed" style="padding:4px 6px"><option value="1">1×</option><option value="1.8" selected>1.8×</option><option value="3">3×</option><option value="6">6×</option></select>
+    </label>
+    <div class="progress"><div class="fill" id="pfill"></div></div>
+    <span class="count" id="count">0 / 0</span>
+  </div>
+  <div class="stage" id="stage"></div>
+  <div id="outcome"></div>
+  <p class="note">This is a <strong>live replay</strong> of a completed simulation — statements were generated in advance by AI agents role-playing each delegation, and are streamed here to convey the pace of the talks. It is not generating a fresh negotiation in your browser. See the <a href="methodology.html">methodology</a>.</p>
+</div>
+<footer><div class="wrap">Notional exercise material · generated by AI agents (Claude) · <a href="dashboard.html">dashboard</a> · <a href="methodology.html">methodology</a> · Ethical Tech CoLab</div></footer>
+
+<script src="./diplomacy-demo/data.js"></script>
+<script>
+(function(){
+  var data=window.DIPLOMACY_SNAPSHOT_DEMO||{sessions:[]};
+  var sessions=(data.sessions||[]).slice();
+  var PREF=['sess-arctic-iscne-01','sess-centralasia-iscne-01','sess-cyprus-iscne-01','sess-scs-iscne-01','sess-1778361924764-byifbp'];
+  sessions.sort(function(a,b){var ia=PREF.indexOf(a.id),ib=PREF.indexOf(b.id);if(ia<0)ia=99;if(ib<0)ib=99;return ia-ib;});
+  var PAL=['#1B2A4E','#A41034','#2e7d32','#b08a3e','#6a1b9a','#00838f','#c62828','#455a64','#ad1457','#4527a0','#00695c'];
+  var $=function(id){return document.getElementById(id);};
+  function esc(x){return String(x==null?'':x).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  var RL={1:'Opening Plenary',2:'Positioning / Bargaining',3:'Bargaining & Coalitions',4:'Closing Plenary'};
+  function kindLabel(m){var k=m.kind||'';if(k.indexOf('opening')>=0)return 'opening statement';if(k.indexOf('closing')>=0)return 'closing statement';if(k==='offer')return 'tabled offer';if(k==='positioning')return 'positioning';return k||'statement';}
+
+  var sel=$('sessionSelect');
+  sessions.forEach(function(s){var o=document.createElement('option');o.value=s.id;o.textContent=s.title;sel.appendChild(o);});
+  var params=new URLSearchParams(location.search),want=params.get('session');
+  if(want&&sessions.some(function(s){return s.id===want;}))sel.value=want; else if(sessions[0])sel.value=sessions[0].id;
+
+  var S,color,moves,idx,playing,timer,lastRound;
+  function nameOf(tw){var p=(S.parties||[]).find(function(x){return x.teamTwinName===tw;});return p?p.displayName:tw;}
+  function sideOf(tw){var p=(S.parties||[]).find(function(x){return x.teamTwinName===tw;});return p&&p.side?p.side:'left';}
+
+  function load(id){
+    stop();
+    S=sessions.find(function(s){return s.id===id;})||sessions[0];
+    color={};(S.parties||[]).forEach(function(p,i){color[p.teamTwinName]=PAL[i%PAL.length];});
+    moves=(S.moves||[]);idx=0;lastRound=null;playing=false;
+    $('title').textContent=S.title;
+    $('roster').innerHTML=(S.parties||[]).map(function(p){var c=color[p.teamTwinName];return '<span class="pchip" data-tw="'+esc(p.teamTwinName)+'" style="border-color:'+c+';color:'+c+'">'+esc(p.displayName)+'</span>';}).join('');
+    $('stage').innerHTML='<div class="typing" style="opacity:.6">Press ▶ Play to begin the session…</div>';
+    $('outcome').innerHTML='';
+    updateProgress();setPlayBtn();
+  }
+  function updateProgress(){$('count').textContent=idx+' / '+moves.length;$('pfill').style.width=(moves.length?100*idx/moves.length:0)+'%';}
+  function setPlayBtn(){$('play').textContent=playing?'⏸ Pause':(idx>=moves.length&&moves.length?'↺ Replay':'▶ Play');}
+  function setActive(tw){[].forEach.call($('roster').children,function(ch){ch.classList.toggle('active',ch.dataset.tw===tw);});}
+  function speed(){return parseFloat($('speed').value)||1;}
+  function readTime(m){return Math.min(6000,Math.max(1600,(m.text||'').length*22));}
+
+  function reveal(i,cb){
+    var m=moves[i],c=color[m.partyTwin]||'#888',stage=$('stage');
+    if(m.roundNumber!==lastRound){lastRound=m.roundNumber;var rb=document.createElement('div');rb.className='roundbanner';rb.textContent='— Round '+m.roundNumber+' · '+(RL[m.roundNumber]||'Session')+' —';stage.appendChild(rb);}
+    setActive(m.partyTwin);
+    // typing indicator
+    var ty=document.createElement('div');ty.className='typing';ty.innerHTML='<span style="color:'+c+';font-weight:700">'+esc(nameOf(m.partyTwin))+'</span> has the floor <span class="dots"><i></i><i></i><i></i></span>';
+    stage.appendChild(ty);stage.scrollTop=stage.scrollHeight;
+    var tt=700/speed();
+    setTimeout(function(){
+      if(ty.parentNode)ty.parentNode.removeChild(ty);
+      var chips=(m.tacticsApplied||[]).map(function(t){return '<span class="chip" style="border-color:'+c+';color:'+c+'">'+esc(t)+'</span>';}).join('');
+      var d=document.createElement('div');d.className='msg '+sideOf(m.partyTwin);
+      d.innerHTML='<div class="bubble" style="border-color:'+c+'"><div class="bhead"><span class="bwho" style="color:'+c+'">'+esc(nameOf(m.partyTwin))+'</span><span class="bkind">'+esc(kindLabel(m))+'</span></div><div class="btext">'+esc(m.text||'')+'</div>'+(chips?'<div class="chips">'+chips+'</div>':'')+'</div>';
+      stage.appendChild(d);stage.scrollTop=stage.scrollHeight;
+      idx=i+1;updateProgress();
+      if(cb)cb();
+    },tt);
+  }
+  function tick(){
+    if(idx>=moves.length){finish();return;}
+    var i=idx;
+    reveal(i,function(){if(playing){timer=setTimeout(tick,readTime(moves[i])/speed());}});
+  }
+  function finish(){
+    playing=false;setPlayBtn();setActive(null);
+    var cv=S.convenerReport||{};
+    if(cv.headline)$('outcome').innerHTML='<div class="outcome"><strong>Convener’s verdict:</strong> '+esc(cv.headline)+' <span class="count">· <a href="dashboard.html?session='+esc(S.id)+'">full analysis →</a></span></div>';
+  }
+  function play(){
+    if(idx>=moves.length){restart();}
+    if(playing){stop();return;}
+    playing=true;setPlayBtn();
+    if($('stage').firstChild&&$('stage').firstChild.className==='typing'&&idx===0)$('stage').innerHTML='';
+    tick();
+  }
+  function stop(){playing=false;if(timer)clearTimeout(timer);setPlayBtn();}
+  function step(){stop();if(idx===0)$('stage').innerHTML='';if(idx<moves.length)reveal(idx,function(){if(idx>=moves.length)finish();});}
+  function restart(){stop();idx=0;lastRound=null;$('stage').innerHTML='';$('outcome').innerHTML='';updateProgress();setPlayBtn();}
+
+  $('play').onclick=play;$('step').onclick=step;$('restart').onclick=restart;
+  sel.addEventListener('change',function(e){load(e.target.value);history.replaceState(null,'','?session='+encodeURIComponent(e.target.value));});
+  load(sel.value);
+})();
+</script>
+</body></html>

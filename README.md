@@ -8,13 +8,17 @@ Each scenario is a multi-party negotiation replayed in the diplomacy table. Ever
 delegation is driven by its own confidential *privileged instructions*, and each run
 produces a full transcript, tactic analysis, and a convener report.
 
-| Scenario | Parties | Focus |
-|---|---|---|
-| [Arctic](./diplomacy-demo/index.html?session=sess-arctic-iscne-01) | 7 | Continental-shelf claims, NWP/NSR sea-lanes, Svalbard, Arctic governance |
-| [Central Asia — Fergana Valley](./diplomacy-demo/index.html?session=sess-centralasia-iscne-01) | 7 | Disputed borders, Syr Darya water, hydropower, great-power influence |
-| [Cyprus — Reunification](./diplomacy-demo/index.html?session=sess-cyprus-iscne-01) | 6 | Federation vs. two-state, territory, property, security, EEZ gas |
-| [South China Sea](./diplomacy-demo/index.html?session=sess-scs-iscne-01) | 9 | Competing claims, UNCLOS, freedom of navigation, code of conduct |
-| [Iran–US Strait of Hormuz](./diplomacy-session-report.html) | 2 | Original session report (ceasefire / Hormuz closure crisis) |
+**▶ Live site:** https://ethical-tech-colab.github.io/diplomatic-simulator/
+
+| Scenario | Parties | Report page | Interactive | Focus |
+|---|---|---|---|---|
+| **Arctic** | 7 | [report](https://ethical-tech-colab.github.io/diplomatic-simulator/scenario-arctic.html) | [table](https://ethical-tech-colab.github.io/diplomatic-simulator/diplomacy-demo/index.html?session=sess-arctic-iscne-01) | Continental-shelf claims, NWP/NSR sea-lanes, Svalbard, Arctic governance |
+| **Central Asia — Fergana Valley** | 7 | [report](https://ethical-tech-colab.github.io/diplomatic-simulator/scenario-central-asia.html) | [table](https://ethical-tech-colab.github.io/diplomatic-simulator/diplomacy-demo/index.html?session=sess-centralasia-iscne-01) | Disputed borders, Syr Darya water, hydropower, great-power influence |
+| **Cyprus — Reunification** | 6 | [report](https://ethical-tech-colab.github.io/diplomatic-simulator/scenario-cyprus.html) | [table](https://ethical-tech-colab.github.io/diplomatic-simulator/diplomacy-demo/index.html?session=sess-cyprus-iscne-01) | Federation vs. two-state, territory, property, security, EEZ gas |
+| **South China Sea** | 9 | [report](https://ethical-tech-colab.github.io/diplomatic-simulator/scenario-south-china-sea.html) | [table](https://ethical-tech-colab.github.io/diplomatic-simulator/diplomacy-demo/index.html?session=sess-scs-iscne-01) | Competing claims, UNCLOS, freedom of navigation, code of conduct |
+| **Iran–US Strait of Hormuz** | 2 | [report](https://ethical-tech-colab.github.io/diplomatic-simulator/diplomacy-session-report.html) | — | Original session report (ceasefire / Hormuz closure crisis) |
+
+Each **report page** is a standalone, readable write-up (overview, convener report, scoreboard, full transcript); the **interactive table** replays the same session with a scenario picker.
 
 ## Contents
 

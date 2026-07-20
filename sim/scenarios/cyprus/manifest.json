@@ -1,0 +1,27 @@
+{
+ "scenarioId": "scenario-cyprus-iscne",
+ "scenarioTitle": "Cyprus \u2014 Reunification Talks",
+ "sessionId": "sess-cyprus-iscne-01",
+ "title": "Cyprus Crisis \u2014 Reunification Talks (6-party)",
+ "domain": "geopolitical",
+ "shortDescription": "Six-party UN-mediated Cyprus talks (Republic of Cyprus, Turkish Republic of Northern Cyprus, Greece, Turkey, United Kingdom, United States): bi-zonal federation vs. two-state 'sovereign equality', territory (Varosha, Morphou, the Green Line), property claims, security guarantees and UNFICYP, offshore gas in the Cypriot EEZ, and EU status. Adapted from an academic crisis-negotiation exercise.",
+ "description": "A UN Special Adviser convenes six delegations to seek a Cyprus settlement after decades of failed efforts (the 2004 Annan Plan, the 2017 Crans-Montana collapse). Three plenary rounds (opening, bargaining & coalitions, closing) test whether a bi-zonal, bi-communal federation is still reachable against the TRNC/T\u00fcrkiye push for two-state sovereign equality, amid disputes over territory, property, security treaties, and EEZ gas. Each delegation negotiates from its own privileged instructions.",
+ "openerTwin": "diplomacy-team-cyprus",
+ "baseTime": "2026-03-03T09:00:00",
+ "partyOrder": [
+  "CY",
+  "TRNC",
+  "GR",
+  "TR",
+  "UK",
+  "US"
+ ],
+ "leftBloc": [
+  "CY",
+  "GR",
+  "UK",
+  "US"
+ ],
+ "simDir": "sim/scenarios/cyprus",
+ "profilesDir": "sim/scenarios/cyprus/profiles"
+}

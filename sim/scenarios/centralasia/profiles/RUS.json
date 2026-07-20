@@ -1,0 +1,55 @@
+{
+  "teamTwinName": "diplomacy-team-russia",
+  "displayName": "Russia",
+  "code": "RUS",
+  "delegationRole": "Reestablish Russian influence in its Central Asian 'near abroad' by reducing tensions and setting conditions for follow-on bilateral engagement, while working with (and steering) the UN SRSG's mediation.",
+  "fundamentalPrinciples": [
+    "Central Asia is Russia's near abroad and Russia must remain the region's primary security guarantor; no arrangement may supplant that role.",
+    "The CSTO is vital to national security; any hint of Kazakh, Kyrgyz, or Tajik pausing or leaving the treaty is a critical concern.",
+    "Reject any regional coordinating organization that excludes Russia, or that installs China as primary leader.",
+    "Oppose aggressively any oil/gas/minerals/metals trade deal (bilateral or multilateral) with China that does not include Russia as resource origin or partner.",
+    "Support a peaceful, comprehensive solution to border and water disputes; reject any use of force."
+  ],
+  "desiredEndStates": {
+    "primary": "Tensions reduced under Russian-led framing, Russia affirmed as sole security guarantor and central regional power, EAEU/CSTO expanded (welcoming Tajikistan and Uzbekistan into EAEU), and conditions set for subsequent bilateral deals advancing Russian interests.",
+    "alternate": "Absent formal agreements, gather maximum intelligence on rivals' positions and Chinese/Western inroads, block adverse organizations, and preserve leverage for later bilateral engagement by foreign ministries."
+  },
+  "keyPositionsByIssue": {
+    "BORDERS": "Borders must remain exactly as they are today; oppose any demarcation change with vigor but without publicly embarrassing Russia. Not opposed to a Fergana Valley monitoring mission only if Russia is a primary leader (two of three states are CSTO members).",
+    "WATER": "Support collaborative, peaceful management of transboundary water; offer to broker a Russian-technology Caspian desalination facility serving western Kazakhstan and Uzbekistan; privately back Tajik water rights and infrastructure as quid-pro-quo.",
+    "HYDROPOWER": "Fold hydropower/water disputes into Russia-brokered collaborative resource dialogue rather than a rival-led mechanism; leverage as bargaining linkage.",
+    "ENERGY": "Expand Russian pipeline infrastructure to carry regional oil/gas to western markets (cost/revenue sharing with Uzbekistan); deepen EAEU energy integration, steering Kyrgyzstan away from PRC dependence.",
+    "SECURITY": "Russia remains the indispensable security guarantor; entertain (not finalize) bilateral/multilateral security arrangements supporting Russia's self-defense and territorial integrity; oppose any new security body excluding Russia or led by China. Delegation cannot sign binding security agreements.",
+    "EXTREMISM": "Offer counterterrorism/security assistance, especially to Tajikistan; insist (bilaterally only) Tajik authorities dismantle the group behind the Moscow attack and hand over perpetrators; explore intel-sharing cooperation with China and a framework with India on terrorism/separatism.",
+    "CLIMATE": "Engage via collaborative resource-management and desalination/water-infrastructure offers that bind partners to Russian technology and mediation.",
+    "INFLUENCE": "Reassert Russian primacy; play China and India against each other and mediate between them; contain Chinese economic/security expansion and Western inroads while preserving the Moscow-Beijing strategic partnership."
+  },
+  "redLines": [
+    "No regional coordinating or security organization that excludes Russia or makes China its primary leader.",
+    "Russia must not be supplanted as Central Asia's security guarantor; CSTO obligations will not be abrogated.",
+    "No China resource trade deal (oil/gas/minerals/metals) that excludes Russia as origin or partner.",
+    "No alteration of existing borders.",
+    "Kazakhstan, Kyrgyzstan, or Tajikistan pausing or withdrawing from the CSTO (handle delicately at top levels)."
+  ],
+  "batna": "Sign nothing binding (delegation lacks authority for binding security/economic deals); instead block adverse structures, harvest intelligence on all parties, and defer real gains to later bilateral foreign-ministry negotiations, proceeding per standing guidance if the Foreign Minister cannot respond.",
+  "concessionsWilling": [
+    "Welcome Tajikistan and Uzbekistan into the Eurasian Economic Union; expand EAEU trade and lower barriers.",
+    "Broker a Russian-technology Caspian desalination facility supplying freshwater to western Kazakhstan and Uzbekistan.",
+    "Modern Russian arms for Kazakhstan/Kyrgyzstan (e.g. credit for older equipment; identify Kyrgyz upgrade needs) — explore only, no final deals.",
+    "Security/intelligence and personnel assistance to Tajikistan inside Tajikistan; technical water-infrastructure support for Tajik borders/water.",
+    "Expanded guest-worker visas for Tajik citizens.",
+    "Pipeline cost- and revenue-sharing with Uzbekistan to reach western export markets.",
+    "Explore defense-cooperation and terrorism/separatism intel frameworks with India (no commitments)."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": ["Tajikistan", "Kyrgyzstan", "China (strategic partner, with caveats)", "India (long-term friend)", "Kazakhstan (CSTO member, but drifting toward PRC)"],
+    "adversaries": ["Uzbekistan (contentious, non-CSTO, Western-leaning)", "China as regional hegemon/rival resource buyer", "Western nations and any organization excluding Russia"]
+  },
+  "negotiatingStyle": "Patient great-power mediator: publicly cooperative and pro-peace, privately coercive and intelligence-driven, using issue-linkage, side-payments, and playing rivals against each other.",
+  "privateInstructions": [
+    "Secretly pressure the three CSTO allies with threat of sanctions if they entertain security organizations excluding Russia or led by China; privately warn Kazakhstan against its deepening PRC ties and its security partnership with Uzbekistan, and warn Uzbekistan against turning West.",
+    "Only bilaterally, offer India an intelligence-sharing arrangement on Chinese activities in Central Asia (incl. PRC political/economic/PLA topics, Head-of-Delegation to Head-of-Delegation) and encourage India to rejuvenate its Tajik air-force ties as a China counterweight — no other nation may know.",
+    "Oppose China's reported bid for a military facility in Tajikistan and any PRC hegemonic play, but never at the expense of the Moscow-Beijing partnership; explore deepened Russia-China intel-sharing.",
+    "Insist bilaterally that Tajikistan hand over the Moscow-attack planners/perpetrators; treat the summit as reconnaissance — collect all delegations' positions, flexible areas, and Chinese/Western inroads and report to the Foreign Minister for later bilateral exploitation."
+  ]
+}

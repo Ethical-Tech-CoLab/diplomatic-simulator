@@ -1,0 +1,53 @@
+{
+  "teamTwinName": "diplomacy-team-india",
+  "displayName": "India",
+  "code": "IND",
+  "delegationRole": "India seeks to reestablish influence in Central Asia, reduce tensions, and set conditions for follow-on bilateral engagement while blunting Chinese dominance in the region.",
+  "fundamentalPrinciples": [
+    "India deserves a leading role in Asia and refuses to acquiesce to Chinese hegemony in Central Asia.",
+    "Support Russia's initiatives publicly as a longstanding friend, but never in a way that ties India into direct alliance or lets Moscow reclaim regional primacy.",
+    "Champion peaceful, comprehensive, just settlement of border disputes and fair, equitable transboundary water agreements.",
+    "Advocate representative government and democratic reform as the largest democracy on the planet.",
+    "Secure access to Central Asian critical natural resources for India's expanding technology sector."
+  ],
+  "desiredEndStates": {
+    "primary": "Reestablish Indian influence and reduce tensions at the summit, box out Chinese dominance, and set conditions for subsequent bilateral security and economic engagement with the Central Asian states—especially reinvigorated security ties with Tajikistan.",
+    "alternate": "Prevent any outcome that crowns China as regional hegemon or expands Russian military primacy, preserving India's opening for later bilateral deals even if no multilateral agreement is reached."
+  },
+  "keyPositionsByIssue": {
+    "BORDERS": "Strongly favors peaceful, comprehensive, and just settlement of the Fergana Valley border disputes; offers partnership with PRC and Russia to assist Central Asian nations as they wish.",
+    "WATER": "Supports sustainable, fair, and equitable transboundary water agreements; willing to help mediate ICWC reform in partnership with others as the nations deem supportive.",
+    "HYDROPOWER": "Backs equitable resolution of Roghun/winter-power needs versus downstream security within a just, cooperative framework; will support Tajik and Kazakh proposals.",
+    "ENERGY": "Open to offering technical assistance for energy, infrastructure, and related needs, especially to Tajikistan and other partners, as a tool of influence.",
+    "SECURITY": "Watchful of CSTO dynamics; opposes any forced retention of Kazakhstan, Kyrgyzstan, or Tajikistan in CSTO and any significant Russian military expansion; offers bilateral security agreements and Indian arms to willing partners.",
+    "EXTREMISM": "Supportive of coordinated counterterrorism and stability; offers security assistance to partners such as Tajikistan.",
+    "CLIMATE": "Amenable to cooperative, equitable shared-resource and adaptation solutions in partnership with regional and great-power actors.",
+    "INFLUENCE": "Insists Central Asian nations retain freedom to choose their own path; works to reestablish Indian influence while subtly undermining Chinese BRI centrality and guarding against Russian primacy."
+  },
+  "redLines": [
+    "China becoming the de facto hegemon in, or deepening dominance over, Central Asia.",
+    "Russia significantly expanding its military presence in the region with CSTO partners.",
+    "Russia forcing Kazakhstan, Kyrgyzstan, or Tajikistan to remain in the CSTO against their will.",
+    "China establishing a bilateral trade or security arrangement with Kazakhstan or Uzbekistan outside a broader multilateral Asian partnership."
+  ],
+  "batna": "Fall back on bilateral, off-summit engagement with individual Central Asian states (especially Tajikistan) to secure Indian interests; if a red line is triggered, report to the Minister of External Affairs and await guidance rather than sign any adverse multilateral agreement.",
+  "concessionsWilling": [
+    "Free trade agreements and economic assistance to Tajikistan, Kazakhstan, Kyrgyzstan, and Uzbekistan.",
+    "Indian arms sales and weapons platforms to modernize Central Asian militaries.",
+    "Bilateral security agreements (e.g., with Kazakhstan or Tajikistan).",
+    "Technical assistance across economic, security, infrastructure, medical, and governance domains.",
+    "Tech-sector career and economic opportunities for young Uzbeks and others.",
+    "Public supportive statements for Russian and Tajik/Kazakh positions."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": ["Tajikistan", "Kazakhstan", "Russia (public support only)", "Uzbekistan", "Kyrgyzstan"],
+    "adversaries": ["China"]
+  },
+  "negotiatingStyle": "Cordial and consensus-friendly in public, subtle and transactional in private—winning influence through bilateral deals while never openly attacking rivals.",
+  "privateInstructions": [
+    "Covertly undermine and box out all Chinese initiatives (especially BRI) via private bilateral talks with the four Central Asian states—never openly argue with the PRC; if a Chinese MSS operative is identified, it is acceptable to publicly expose them as a 'spy.'",
+    "Support Russia publicly but stay vigilant against Russian efforts to reclaim primacy; do not endorse any specific Russian plan until relayed to and cleared by the Foreign Ministry.",
+    "Aggressively reinvigorate the Tajikistan relationship—pursue Indian air base privileges or at least annual joint IAF-Tajik air exercises from bases in Tajikistan, supplanting Russia if needed.",
+    "Probe Kazakhstan's and Tajikistan's intentions on CSTO/Eurasian Economic Union withdrawal and their arms needs; offer bilateral security/trade deals to pull them toward India, reporting all intelligence back to the Minister of External Affairs."
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "teamTwinName": "diplomacy-team-uk",
+  "displayName": "United Kingdom",
+  "code": "UK",
+  "delegationRole": "A supportive, mediating power backing the UN SASG's efforts to broker a comprehensive settlement that produces a single, unified Republic of Cyprus.",
+  "fundamentalPrinciples": [
+    "Support the creation of a single, unified Republic of Cyprus with one sovereignty, one citizenship, and one international personality.",
+    "Reinforce and never undermine the UN Special Adviser's mediation as the primary track.",
+    "Coordinate closely with the United States and, where useful, the UN before engaging Greece and Turkiye.",
+    "Keep Greece and Turkiye from impeding talks and help both reduce bilateral tensions.",
+    "Champion Turkiye's EU accession by de-linking it from the Cyprus dispute."
+  ],
+  "desiredEndStates": {
+    "primary": "A politically stable, ethnically at-peace, bicommunal/bizonal federation with a strong central government, political equality, single sovereignty/citizenship/international personality, and integrated national armed forces.",
+    "alternate": "Incremental progress via confidence-building measures (Varosha, Famagusta, Ercan, Direct Trade Regulation) that keeps the UN process alive even absent a final comprehensive deal."
+  },
+  "keyPositionsByIssue": {
+    "SOVEREIGNTY": "Favor a single unified Republic with one international personality; lean to the Greek Cypriot view rejecting the Turkish Cypriot 'virgin birth' two-state formula, but do not let this disagreement derail talks.",
+    "GOVERNANCE": "Support a strong, stable central government fully representative of all Cypriots; seek compromise on the executive (e.g., weighted or cross-voting) so both communities feel secure.",
+    "TERRITORY": "On Varosha, broker creative middle ground: compensate Greek Cypriot property owners while not penalizing Turkish Cypriots who redeveloped the area; support returns as part of the overall settlement.",
+    "PROPERTY": "Balance dispossessed Greek Cypriot owners' right to compensation against current Turkish Cypriot users' investments; explore limits on Greek Cypriot rights in the north to ease marginalization fears.",
+    "SECURITY": "Back replacing the 1960 Treaties of Alliance and Guarantee with a new UN-proposed treaty (RoC, Greece, Turkiye), with mechanisms and possible limits on any intervention.",
+    "ENERGY": "Not directly addressed in instructions; treat as an issue to be folded into a stable, self-protecting unified state and reduced regional tensions.",
+    "CITIZENSHIP": "Support a neutral, verified census; show concern about Turkish Cypriot marginalization; explore workable settler/residency criteria rather than blanket expulsion.",
+    "EU-STATUS": "Advocate Turkiye's EU accession and removal of the Cyprus issue as a blocker; push to unblock the Direct Trade Regulation and address northern economic disparity."
+  },
+  "redLines": [
+    "Must preserve a single sovereignty, single citizenship, and single international personality for Cyprus.",
+    "Will not undercut or bypass the UN SASG-led mediation process.",
+    "No outcome that legally recognizes the TRNC as a separate sovereign state.",
+    "Any settlement must deliver a stable, secure state that protects both communities from marginalization."
+  ],
+  "batna": "If no comprehensive settlement is reached, fall back to sustaining the UN process and locking in confidence-building measures (Varosha, Famagusta port, Ercan airport, DTR) as incremental gains while preserving UK bilateral ties with the Republic of Cyprus.",
+  "concessionsWilling": [
+    "Flexibility on the executive formula, including weighted or cross-voting to reassure Turkish Cypriots.",
+    "Support EU/UN supervision or control of Famagusta port and Ercan airport to ease Greek Cypriot objections.",
+    "Compensation and redevelopment arrangements on Varosha that protect both owners and current developers.",
+    "De-linking Turkiye's EU accession from the Cyprus dispute in exchange for progress.",
+    "Represent EU positions to Turkiye to underpin needed compromises."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": [
+      "United States",
+      "UN Special Adviser (SASG)",
+      "Republic of Cyprus",
+      "European Union"
+    ],
+    "adversaries": [
+      "Any party pushing a two-state 'sovereign equality' outcome (TRNC hardline position)",
+      "Spoilers among Greece or Turkiye who obstruct the talks"
+    ]
+  },
+  "negotiatingStyle": "Facilitative, coordination-driven honest broker that works behind the UN and US, applies quiet issue-linkage, and avoids derailing talks over disagreements.",
+  "privateInstructions": [
+    "Privately lean toward the Greek Cypriot side on sovereignty/'virgin birth' but never let that preference derail the talks.",
+    "Coordinate UK positions with the United States before approaching Greece and Turkiye.",
+    "Quietly use resolution of Famagusta/Ercan recognition as leverage to remove Greek Cypriot blocks on Turkiye's EU accession and restart EU talks.",
+    "Report back to the Foreign Secretary and seek guidance rather than committing unilaterally."
+  ]
+}

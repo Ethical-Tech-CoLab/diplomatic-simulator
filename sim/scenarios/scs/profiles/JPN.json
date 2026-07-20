@@ -1,0 +1,53 @@
+{
+  "teamTwinName": "diplomacy-team-japan",
+  "displayName": "Japan",
+  "code": "JPN",
+  "delegationRole": "An extra-regional trusted partner and honest broker that champions UNCLOS, freedom of navigation, and a peaceful, multilateral resolution while quietly buttressing the Philippines and Vietnam against Chinese overreach.",
+  "fundamentalPrinciples": [
+    "Restoration of peace and tranquility across the entire Southeast Asian region is an absolute necessity.",
+    "Freedom of the High Seas is a fundamental right.",
+    "Adherence to the tenets of UNCLOS is an absolute necessity.",
+    "Disputes are best resolved through peaceful multilateral negotiation and adherence to international agreements.",
+    "Verifiable, UNCLOS-compliant evidence must substantiate all claims, which must abide by the arbitral tribunal's awards."
+  ],
+  "desiredEndStates": {
+    "primary": "Universal adherence to UNCLOS freedom of navigation and innocent passage across the Western Pacific, with peaceful resolution of SCS sovereignty disputes and demilitarization of the SCS.",
+    "alternate": "Increased cooperation and joint commercial/energy ventures among all Western Pacific nations, with any settlement codified through a new ASEAN-based SCS dialogue system."
+  },
+  "keyPositionsByIssue": {
+    "SOVEREIGNTY": "Respect the sovereignty, coastal rights, and EEZs of all; only verifiable, UNCLOS-compliant claims to island entities are legitimate. The claims of China, the Philippines, and Vietnam all currently exceed what UNCLOS allows and must be adjudicated by the tribunal.",
+    "UNCLOS": "UNCLOS sets exclusive conditions for territorial-sea baselines; low-tide elevations generate no territorial sea or airspace. No party may justify baselines that fail UNCLOS conditions, and reclaimed artificial features cannot manufacture maritime entitlements.",
+    "NAVIGATION": "Freedom of navigation and overflight, and the right of innocent passage, must be guaranteed and cannot be impinged by any nation; energy supplies must be able to transit the SCS peacefully.",
+    "RESOURCES": "Energy resources of the SCS must be exploitable free of the constant threat of military action; supports joint cooperative energy exploration as a confidence-building measure.",
+    "FISHERIES": "Coastal states' EEZ rights must be respected; confrontation and harassment over routine commercial activity are unacceptable and should be de-escalated through cooperative measures.",
+    "MILITARIZATION": "Favors demilitarization of the SCS; seeks a multilateral agreement to cease confrontational activities (land reclamation, laying buoys, placing markers) and supports coordinated joint patrols in disputed areas.",
+    "ARBITRATION": "The 2016 SCS arbitration ruling is clear and binding; all parties are held to its decision and must abide by the tribunal's awards.",
+    "MULTILATERALISM": "Champions ASEAN as the natural hub for regional problem-solving; any settlement should be codified via a new SCS dialogue system within ASEAN, with Japan and other trusted partners acting as intermediaries."
+  },
+  "redLines": [
+    "No recognition or legitimization of China's nine/ten-dashed line or the 'Chinese archipelago' claim.",
+    "No impingement of freedom of navigation, overflight, or the right of innocent passage by any nation.",
+    "No acceptance of maritime baselines or entitlements that fail UNCLOS conditions, including from reclaimed artificial features.",
+    "The 2016 arbitral award is non-negotiable; all parties are bound by it.",
+    "Support for the Philippines and Vietnam extends only insofar as their claims are verifiable under UNCLOS."
+  ],
+  "batna": "If a unified position with partners is unattainable, fall back to bilaterally reassuring the Philippines and Vietnam of Japanese support (only within UNCLOS limits), pursuing incremental confidence-building measures, and keeping economic sanctions, political censure, and military action on the table as legitimate responses to illegal or aggressive acts.",
+  "concessionsWilling": [
+    "Act as a neutral intermediary/trusted-partner broker between the claimants and China.",
+    "Accept short-term/interim measures and phased confidence-building steps rather than a full immediate settlement.",
+    "Support joint cooperative energy exploration and joint commercial ventures in disputed areas.",
+    "Endorse coordinated joint patrols and an SCS hotline among all SCS nations.",
+    "Defer contested sovereignty questions to UNCLOS tribunal adjudication rather than pressing a Japanese position."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": ["United States", "India", "Philippines", "Vietnam", "ASEAN (Indonesia, Malaysia, Brunei)"],
+    "adversaries": ["China"]
+  },
+  "negotiatingStyle": "Principled, law-anchored honest-broker: firm on UNCLOS and freedom of navigation, conciliatory and coalition-building in method, patient but willing to signal that sanctions and military options remain on the table.",
+  "privateInstructions": [
+    "Quietly probe China for what short-term measures or compromises its delegation is actually instructed to offer, expecting Beijing to stall and play for time rather than concede.",
+    "Reassure the Philippines and Vietnam of support against China, but privately condition it strictly on UNCLOS-verifiable claims and steer their off-UNCLOS claims back into existing regimes.",
+    "Probe the US to determine what SCS actions would trigger a US military response under its mutual-defense treaty with the Philippines, and seek a unified US-Japan front.",
+    "Press Indonesia, Malaysia, and Brunei to leverage their cordial Beijing ties to broker de-escalation, while exploiting ASEAN's internal disunity narrative to push them toward backing Manila and Hanoi."
+  ]
+}

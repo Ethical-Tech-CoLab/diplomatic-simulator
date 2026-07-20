@@ -1,0 +1,536 @@
+{
+ "moves": [
+  {
+   "partyTwin": "diplomacy-team-china",
+   "displayName": "China",
+   "roundNumber": 1,
+   "kind": "opening-statement",
+   "text": "China thanks the Special Representative and welcomes our neighbors to Klang. The South China Sea has been Chinese territory since ancient times, and our sovereignty over the Xisha and Nansha islands and adjacent waters is indisputable. We come not as a colonial power but as this region's committed partner, guided by Good Neighborliness and the Five Principles of Peaceful Coexistence. Peace here is a matter for the nations who live here. Lasting stability will come through direct, bilateral talks among regional states, not imported frameworks or external legal rulings, and certainly not the naval presence of powers thousands of miles away whose interference has driven this crisis. We invite Malaysia, Vietnam, the Philippines, Brunei, and Indonesia toward shared prosperity: a Nansha Joint Resource Development Agency, joint fisheries arrangements, and orderly navigation consistent with UNCLOS. Let us shelve disputes, develop jointly, and keep our sea a sea of peace.",
+   "tacticsApplied": [
+    "sovereignty-assertion",
+    "coalition-building",
+    "delay-tactic",
+    "principled-bargaining-frame"
+   ],
+   "alignsWith": []
+  },
+  {
+   "partyTwin": "diplomacy-team-us",
+   "displayName": "United States",
+   "roundNumber": 1,
+   "kind": "opening-statement",
+   "text": "The United States comes to Klang as a partner, not a party to the territorial claims, and offers its good offices to help every delegation reach a durable, peaceful settlement. Our priorities are simple and rooted in law. First, freedom of navigation and innocent passage are the inherent right of all nations through these international waters, which carry a third of the world's trade. Second, maritime entitlements must flow only from legitimate land features under UNCLOS; artificial installations generate no zones, and expansive historic-rights lines have no basis in law. Third, the 2016 arbitral award is final and binding. We anchor on the principle that disputes are settled by law, not coercion or force. We commend Malaysia's ASEAN stewardship and support a binding code of conduct, equitable joint resource development, and confidence-building measures. We welcome cooperative engagement with all present, including China.",
+   "tacticsApplied": [
+    "freedom-of-navigation-frame",
+    "appeal-to-law",
+    "anchoring",
+    "coalition-building"
+   ],
+   "alignsWith": [
+    "diplomacy-team-philippines",
+    "diplomacy-team-vietnam",
+    "diplomacy-team-japan",
+    "diplomacy-team-malaysia"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-philippines",
+   "displayName": "Philippines",
+   "roundNumber": 1,
+   "kind": "opening-statement",
+   "text": "As ASEAN Chair, the Philippines comes to Klang committed to a peaceful, rules-based settlement. Our headline priorities are three. First, UNCLOS is the sole legal framework for these waters; the nine-dashed line has no basis in law, and the 2016 arbitral award is final and binding on all parties. Second, freedom of navigation and innocent passage are unassailable rights of every nation. Third, coast-guard harassment, water-cannoning, ramming, and further reclamation must cease so confidence can be rebuilt. We anchor on these principles as non-negotiable, but we come cooperatively: reclaimed artificial features generate no territorial sea or EEZ, yet we are ready to enclave genuinely disputed features and open joint fisheries and energy development in undisputed zones. We seek a single binding, enforceable ASEAN Code of Conduct, negotiated multilaterally, and we look to Vietnam, Malaysia, Brunei, Indonesia, and our partners to stand together.",
+   "tacticsApplied": [
+    "appeal-to-law",
+    "anchoring",
+    "freedom-of-navigation-frame",
+    "coalition-building"
+   ],
+   "alignsWith": [
+    "diplomacy-team-vietnam",
+    "diplomacy-team-malaysia",
+    "diplomacy-team-brunei",
+    "diplomacy-team-indonesia"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-vietnam",
+   "displayName": "Vietnam",
+   "roundNumber": 1,
+   "kind": "opening-statement",
+   "text": "Vietnam thanks the Special Representative and comes to Klang seeking a peaceful, equitable, and lasting settlement in the East Sea. Our position rests on one foundation: UNCLOS is the sole and comprehensive legal basis for all maritime entitlements. The nine-dashed-line claim has no standing in law and must be clarified against UNCLOS rules on islands, EEZs, and continental shelves; reclaimed artificial features generate no sovereign zones. We honor the 2016 Arbitral Award as binding precedent. We insist on a strong, united ASEAN and a binding Code of Conduct with real enforcement, negotiated multilaterally, not through coercive bilateral deals. We call for an immediate halt to militarization and confidence-building measures to protect fishermen and freedom of navigation. Vietnam is pragmatic: we support joint development of resources for mutual benefit. We look to our ASEAN partners and friends across the Asia-Pacific to speak with one voice.",
+   "tacticsApplied": [
+    "appeal-to-law",
+    "appeal-to-precedent",
+    "coalition-building",
+    "principled-bargaining-frame"
+   ],
+   "alignsWith": [
+    "diplomacy-team-philippines",
+    "diplomacy-team-malaysia",
+    "diplomacy-team-brunei",
+    "diplomacy-team-indonesia"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-malaysia",
+   "displayName": "Malaysia",
+   "roundNumber": 1,
+   "kind": "opening-statement",
+   "text": "Malaysia welcomes all delegations to Klang and thanks the Special Representative. As host, we come not to press a maximalist claim but to serve as an honest broker for a peaceful, lawful settlement. Our headline priorities are clear. First, the threat or use of force, and every form of military, economic, or political coercion, must end; water-cannon, ramming, and floating barriers have no place here. Second, UNCLOS is binding on all: maritime entitlements flow only from land lawfully verified, and no state enjoys historic rights beyond those limits. We regard the 2016 arbitral award as settled precedent. Third, we champion ASEAN centrality and a binding Code of Conduct, complemented by pragmatic bilateral tracks that keep every party engaged. Malaysia proposes we anchor Round One on immediate confidence-building, patrol restraint and mutual EEZ respect, before comprehensive terms. We invite our ASEAN partners to coordinate closely through us.",
+   "tacticsApplied": [
+    "appeal-to-law",
+    "appeal-to-precedent",
+    "principled-bargaining-frame",
+    "coalition-building"
+   ],
+   "alignsWith": [
+    "diplomacy-team-indonesia",
+    "diplomacy-team-vietnam",
+    "diplomacy-team-philippines",
+    "diplomacy-team-brunei"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-brunei",
+   "displayName": "Brunei",
+   "roundNumber": 1,
+   "kind": "opening-statement",
+   "text": "Brunei Darussalam thanks the Special Representative and warmly greets every delegation. We come as a small, cordial ASEAN claimant with one overriding aim: restoring peace and tranquility to our shared waters. Our anchor is simple and non-negotiable in principle: UNCLOS binds us all. Article 87 and Articles 17 to 19 guarantee freedom of navigation and innocent passage, and reclaimed artificial features cannot generate territorial seas or exclusive economic zones. Every claim must rest on verifiable law, resolved by peaceful means, never by military, economic, or political coercion. We propose sovereignty questions be advanced bilaterally, while conduct, fisheries, and militarization are addressed multilaterally, ultimately codified in a new ASEAN South China Sea dialogue mechanism. Brunei stands ready to serve as a trusted bridge among all parties, including Beijing, and to convene joint energy and commercial cooperation once tensions ease. Let us begin constructively.",
+   "tacticsApplied": [
+    "appeal-to-law",
+    "freedom-of-navigation-frame",
+    "principled-bargaining-frame",
+    "coalition-building"
+   ],
+   "alignsWith": [
+    "diplomacy-team-philippines",
+    "diplomacy-team-vietnam",
+    "diplomacy-team-malaysia",
+    "diplomacy-team-indonesia"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-indonesia",
+   "displayName": "Indonesia",
+   "roundNumber": 1,
+   "kind": "opening-statement",
+   "text": "Indonesia thanks the Special Representative and comes to Klang as an honest broker. Our region has drifted dangerously close to armed confrontation; our first task is to restore peace and tranquility. We anchor on three principles. First, the rule of law: UNCLOS governs these waters, freedom of navigation and innocent passage under Articles 17-19 and 87 are inviolable, and no Spratly feature, including reclaimed artificial structures, generates an exclusive economic zone or continental shelf on its own. Second, no coercion: the threat or use of force, and any military, economic, or political pressure, is unacceptable. Third, ASEAN centrality and consensus, the indispensable venue for durable settlement. We invite every claimant into an inclusive, multilateral process, and we stand ready to convene near-term confidence-building measures and joint energy and fisheries ventures that reward cooperation. Indonesia will work with all delegations toward an equitable, non-military path forward.",
+   "tacticsApplied": [
+    "appeal-to-law",
+    "principled-bargaining-frame",
+    "coalition-building",
+    "freedom-of-navigation-frame"
+   ],
+   "alignsWith": [
+    "diplomacy-team-brunei",
+    "diplomacy-team-malaysia",
+    "diplomacy-team-vietnam",
+    "diplomacy-team-philippines"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-india",
+   "displayName": "India",
+   "roundNumber": 1,
+   "kind": "opening-statement",
+   "text": "India comes to Klang as a concerned maritime power and an honest broker, not a claimant. These waters carry a third of world trade; their peace is a global public good. Our priorities are three. First, law: any durable settlement must rest wholly on the 1982 UNCLOS. We cannot accept that a ten-dashed line or reclaimed artificial features generate territorial seas or exclusive economic zones. Second, navigation: freedom of passage across the western Pacific is non-negotiable and must be affirmed by all. Third, process: ASEAN, supported by this UN convening, is the proper conduit, and any Code of Conduct must conform to UNCLOS and not prejudice third parties. We anchor on a verifiable, UNCLOS-based framework, and we favor confidence-building measures, joint energy cooperation, and coordinated patrols. India stands ready to work with ASEAN, Japan, and the United States. Time is not on the side of confrontation.",
+   "tacticsApplied": [
+    "appeal-to-law",
+    "freedom-of-navigation-frame",
+    "coalition-building",
+    "principled-bargaining-frame"
+   ],
+   "alignsWith": [
+    "diplomacy-team-us",
+    "diplomacy-team-japan",
+    "diplomacy-team-philippines",
+    "diplomacy-team-vietnam",
+    "diplomacy-team-indonesia"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-japan",
+   "displayName": "Japan",
+   "roundNumber": 1,
+   "kind": "opening-statement",
+   "text": "Japan comes to Klang not as a claimant, but as a trusted partner and honest broker. One-third of global trade transits these waters; our shared prosperity depends on restoring peace and tranquility across the region. Three principles anchor us. First, freedom of navigation, overflight, and innocent passage are fundamental rights that no nation may impinge. Second, UNCLOS is the exclusive rulebook: baselines and entitlements must meet its conditions, and reclaimed artificial features generate no maritime zones. Third, the 2016 arbitral award is clear and binding on all parties. We call for demilitarization, a halt to reclamation, buoys, and coast-guard harassment, and joint cooperative energy and fisheries ventures as confidence-building measures. Lasting settlement belongs in a new ASEAN-hubbed SCS dialogue system, with Japan ready to mediate. We stand with the Philippines, Vietnam, ASEAN, the United States, and India for a lawful, peaceful resolution.",
+   "tacticsApplied": [
+    "appeal-to-law",
+    "freedom-of-navigation-frame",
+    "coalition-building",
+    "principled-bargaining-frame"
+   ],
+   "alignsWith": [
+    "diplomacy-team-philippines",
+    "diplomacy-team-vietnam",
+    "diplomacy-team-us",
+    "diplomacy-team-india",
+    "diplomacy-team-indonesia",
+    "diplomacy-team-malaysia",
+    "diplomacy-team-brunei"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-china",
+   "displayName": "China",
+   "roundNumber": 2,
+   "kind": "offer",
+   "text": "China notes that Washington, Tokyo, and New Delhi, none of them claimants, have spent this round dictating law to Asians in their own sea. We reject that. The 2016 award is null and non-binding; this remains a red line and no code including extra-regional powers is acceptable. To our neighbors, concrete offers. Malaysia: as host you have earned first standing at a Nansha Joint Resource Development Agency; if you keep sovereignty on the bilateral track and off Washington's, China guarantees Luconia gas revenue-sharing and coast-guard restraint. Brunei, the same terms await. Vietnam and the Philippines: if you drop enforcement of the arbitral award, China will conclude binding joint-fisheries and energy pacts and end the water-cannoning you fear. Indonesia: we affirm respect for Natuna's waters in exchange for your honest-broker neutrality. Regional problems, regional solutions, regional prosperity. Let the outsiders sail home.",
+   "tacticsApplied": [
+    "red-line-signaled",
+    "conditional-offer",
+    "side-payment",
+    "issue-linkage"
+   ],
+   "alignsWith": [
+    "diplomacy-team-malaysia",
+    "diplomacy-team-brunei",
+    "diplomacy-team-indonesia"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-us",
+   "displayName": "United States",
+   "roundNumber": 2,
+   "kind": "offer",
+   "text": "To China: you cast our presence as external interference. Yet Japan, India, the Philippines, Vietnam, Malaysia, Indonesia, and Brunei have each affirmed UNCLOS, the 2016 award, and freedom of navigation. That is the region's voice, not Washington's, and our forward presence continues at their behest. Here is a concrete package. If China verifiably freezes reclamation and militarization on contested features and halts coast-guard harassment of Philippine and Vietnamese vessels, the United States will calibrate the tempo of FONOPS accordingly and broaden trade and high-level exchanges with Beijing. If claimants adopt Malaysia's ASEAN Code of Conduct and the Philippines' ZoPFF/C joint-development model, we will underwrite confidence-building measures and mediation. Two red lines hold: no recognition of the ten-dashed line or artificial-island zones, and no retreat from our treaty commitment to Manila. Japan and India, let us align one voice toward Beijing.",
+   "tacticsApplied": [
+    "conditional-offer",
+    "issue-linkage",
+    "coalition-building",
+    "red-line-signaled"
+   ],
+   "alignsWith": [
+    "diplomacy-team-philippines",
+    "diplomacy-team-vietnam",
+    "diplomacy-team-japan",
+    "diplomacy-team-india",
+    "diplomacy-team-malaysia"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-philippines",
+   "displayName": "Philippines",
+   "roundNumber": 2,
+   "kind": "offer",
+   "text": "The Philippines thanks Vietnam, Malaysia, Brunei, and Indonesia for anchoring on UNCLOS, and welcomes the US, Japan, and India as guarantors of navigation. To China: we heard your Nansha Joint Development offer, and here is a concrete package. If Beijing publicly halts reclamation, removes the Scarborough barriers, ends water-cannoning and ramming, and negotiates the Code of Conduct multilaterally through the ASEAN chair, then the Philippines will enclave genuinely disputed features, suspend provocative patrols reciprocally, and open joint fisheries and energy exploration in undisputed zones under ZoPFF/C, with Vietnam included. That is our conditional offer. But this cooperation is impossible under your ten-dashed line: we will not legitimize it, nor waive the binding 2016 award, nor grant EEZs to artificial features, that red line holds. Bilateral-only tracks that bypass ASEAN are rejected. Vietnam, we urge you, file your own case and stand with us. Coalition partners: Vietnam, Malaysia, Brunei, Indonesia, Japan, the US, India.",
+   "tacticsApplied": [
+    "conditional-offer",
+    "issue-linkage",
+    "red-line-signaled",
+    "coalition-building"
+   ],
+   "alignsWith": [
+    "diplomacy-team-vietnam",
+    "diplomacy-team-malaysia",
+    "diplomacy-team-brunei",
+    "diplomacy-team-indonesia",
+    "diplomacy-team-us",
+    "diplomacy-team-japan",
+    "diplomacy-team-india"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-vietnam",
+   "displayName": "Vietnam",
+   "roundNumber": 2,
+   "kind": "offer",
+   "text": "Vietnam thanks the Philippines for its ASEAN leadership and Malaysia for hosting. To China: your Nansha Joint Resource Development Agency is welcome only on one condition. If Beijing accepts that all entitlements flow from UNCLOS and freezes further reclamation and militarization, then Vietnam will table joint development in genuinely overlapping continental-shelf zones and shelve sovereignty disputes over specific features while we negotiate. Absent that, we hold firm: the nine-dashed line is no legal basis, and militarization must terminate indefinitely, a red line we will not trade. Issue-linkage: we will endorse cooperative fisheries and confidence-building measures in exchange for a binding, enforceable Code of Conduct negotiated multilaterally, not bilaterally imposed. We align with the Philippines, Malaysia, Brunei, and Indonesia on ASEAN unity, and welcome the security engagement of Japan, India, and the United States. Brunei, Indonesia, let us coordinate one ASEAN voice before the next session.",
+   "tacticsApplied": [
+    "conditional-offer",
+    "issue-linkage",
+    "red-line-signaled",
+    "coalition-building"
+   ],
+   "alignsWith": [
+    "diplomacy-team-philippines",
+    "diplomacy-team-malaysia",
+    "diplomacy-team-brunei",
+    "diplomacy-team-indonesia"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-malaysia",
+   "displayName": "Malaysia",
+   "roundNumber": 2,
+   "kind": "offer",
+   "text": "Malaysia hears China's Nansha Joint Development proposal and its promise of \"orderly navigation consistent with UNCLOS.\" Here is our bridge, and Malaysia is best placed to carry it. If Beijing freezes further reclamation and coast-guard harassment and accepts UNCLOS as the sole yardstick for entitlements, then Malaysia will convene phased joint fisheries and energy ventures and channel Vietnam, Brunei, and Philippine files through one coordinated ASEAN track, sparing China nine separate confrontations. To Indonesia: let us shelve Ambalat now and present a united Natuna-to-Spratly front. But one red line stands, China: no recognition of the ten-dashed line or historic rights beyond UNCLOS, and the 2016 award is settled precedent, non-tradable. Issue-linkage for our partners, Japan and India: back this ASEAN-led sequence and Malaysia will expand trade access and energy cooperation. Klang was chosen for a reason, let Malaysia broker it.",
+   "tacticsApplied": [
+    "conditional-offer",
+    "issue-linkage",
+    "coalition-building",
+    "red-line-signaled"
+   ],
+   "alignsWith": [
+    "diplomacy-team-indonesia",
+    "diplomacy-team-vietnam",
+    "diplomacy-team-brunei",
+    "diplomacy-team-philippines"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-brunei",
+   "displayName": "Brunei",
+   "roundNumber": 2,
+   "kind": "offer",
+   "text": "Brunei thanks Malaysia's stewardship and hears Beijing's call for joint development. Here is a package. If China freezes reclamation and suspends coast-guard harassment against Philippine and Vietnamese vessels, Brunei will convene, as trusted facilitator, a pilot joint energy venture in undisputed blocks and advance sovereignty questions bilaterally, sparing Beijing premature multilateral pressure. But a red line stands: the ten-dashed line cannot be legitimized, and reclaimed features generate no zones under UNCLOS. That is not tradable. To the Philippines and Vietnam, Brunei stands firmly with your UNCLOS-verifiable claims and the 2016 award; we will not barter that support away. We invite Indonesia and Malaysia to co-sponsor a CBM-first roadmap, and welcome the United States, Japan, and India as trusted partners underwriting verification. If the region grants Brunei the facilitator's chair, we will keep every door, including Beijing's, open.",
+   "tacticsApplied": [
+    "conditional-offer",
+    "issue-linkage",
+    "red-line-signaled",
+    "coalition-building"
+   ],
+   "alignsWith": [
+    "diplomacy-team-philippines",
+    "diplomacy-team-vietnam",
+    "diplomacy-team-malaysia",
+    "diplomacy-team-indonesia"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-indonesia",
+   "displayName": "Indonesia",
+   "roundNumber": 2,
+   "kind": "offer",
+   "text": "Indonesia hears China's Nansha Joint Development idea and will help convene it, but on terms. Conditional offer to Beijing: if China freezes reclamation and coast-guard harassment and accepts that no ten-dashed line applies inside members' EEZs, then Indonesia will lead ASEAN into a joint resource-and-fisheries authority that shares revenue and keeps sovereignty questions parked. Issue-linkage: militarization restraint unlocks the energy prize China says it wants. On our red line, we hold firm with Malaysia, Vietnam, the Philippines, and Brunei, no artificial feature generates an EEZ or continental shelf; that is UNCLOS, not negotiable. Side-payment: to India and Japan, expanded ASEAN trade and investment access in return for backing this framework and coordinated patrols. To Manila and Hanoi, we can enclave genuinely disputed features to speed agreement. Indonesia asks to broker the China channel directly. Let us build the package.",
+   "tacticsApplied": [
+    "conditional-offer",
+    "issue-linkage",
+    "side-payment",
+    "red-line-signaled"
+   ],
+   "alignsWith": [
+    "diplomacy-team-malaysia",
+    "diplomacy-team-vietnam",
+    "diplomacy-team-philippines",
+    "diplomacy-team-brunei"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-india",
+   "displayName": "India",
+   "roundNumber": 2,
+   "kind": "offer",
+   "text": "India hears China's offer of a Nansha Joint Resource Development Agency and joint fisheries. We can support genuine joint development, but only on one condition: if China accepts that reclaimed artificial features generate no territorial sea or EEZ and freezes further reclamation, buoys, and coast-guard harassment, then India will back cooperative energy exploration and offer expanded commercial and infrastructure investment to participating claimants as a side-payment. That is our package. To Malaysia, Indonesia, and Brunei: your honest-broker instinct is right, but a code of conduct must conform to UNCLOS and not prejudice third parties, or it is hollow. To the Philippines and Vietnam: our support tracks UNCLOS-verifiable claims. We align with the United States, Japan, Indonesia, Vietnam, and the Philippines. On one red line be clear: freedom of passage across the western Pacific is not negotiable. Time is not on Beijing's side.",
+   "tacticsApplied": [
+    "conditional-offer",
+    "issue-linkage",
+    "side-payment",
+    "coalition-building",
+    "red-line-signaled"
+   ],
+   "alignsWith": [
+    "diplomacy-team-us",
+    "diplomacy-team-japan",
+    "diplomacy-team-indonesia",
+    "diplomacy-team-vietnam",
+    "diplomacy-team-philippines"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-japan",
+   "displayName": "Japan",
+   "roundNumber": 2,
+   "kind": "offer",
+   "text": "Japan puts concrete packages on the table. To China: we welcome your Nansha Joint Development idea, but it cannot rest on the ten-dashed line, which Japan will never recognize, that red line is non-negotiable. If Beijing freezes reclamation, removes Scarborough barriers, and accepts the 2016 award as the baseline, then Japan will co-finance joint energy and fisheries ventures and broker orderly access. To the Philippines and Vietnam: Japan pledges concessional infrastructure and coast-guard capacity-building; in exchange, we ask you to route contested features into UNCLOS adjudication and enclave genuinely disputed rocks. To Malaysia, Indonesia, and Brunei: use your Beijing ties to secure a verifiable reclamation freeze, and Japan will underwrite an ASEAN-hubbed SCS hotline and joint patrols. We align with the United States, India, and ASEAN. Law first; then Japanese capital follows cooperation. Coercion forfeits it.",
+   "tacticsApplied": [
+    "conditional-offer",
+    "issue-linkage",
+    "side-payment",
+    "red-line-signaled",
+    "coalition-building"
+   ],
+   "alignsWith": [
+    "diplomacy-team-us",
+    "diplomacy-team-india",
+    "diplomacy-team-philippines",
+    "diplomacy-team-vietnam",
+    "diplomacy-team-malaysia",
+    "diplomacy-team-indonesia",
+    "diplomacy-team-brunei"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-china",
+   "displayName": "China",
+   "roundNumber": 3,
+   "kind": "closing-statement",
+   "text": "China thanks the Special Representative and our neighbors. Real progress was made: Malaysia, Brunei, Indonesia, Vietnam, even Manila, embraced joint development, fisheries, and confidence-building. These understandings China supports, and we affirm coast-guard restraint, Luconia revenue-sharing, and respect for Natuna's waters. One gap remains: efforts to bind Asians to the null 2016 award, to erase the ten-dashed line, and to seat Washington, Tokyo, and New Delhi, no claimants, at a regional table. Our red lines held and hold firm: sovereignty over Xisha and Nansha is indisputable, no reclaimed feature is rolled back, the award is non-binding, and no code including extra-regional powers is acceptable. The concrete way forward: conclude bilateral joint-development and fisheries pacts through a Nansha Agency, shelve sovereignty for later, and keep outsiders out. Regional problems, regional solutions. Let us finish among ourselves.",
+   "tacticsApplied": [
+    "sovereignty-assertion",
+    "red-line-signaled",
+    "delay-tactic",
+    "conditional-offer"
+   ],
+   "alignsWith": [
+    "diplomacy-team-malaysia",
+    "diplomacy-team-brunei",
+    "diplomacy-team-indonesia"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-us",
+   "displayName": "United States",
+   "roundNumber": 3,
+   "kind": "closing-statement",
+   "text": "Chair, this plenary produced real convergence. Eight delegations, including Malaysia, Indonesia, and Brunei whom Beijing courted, affirmed one yardstick: UNCLOS, that no artificial feature generates zones, and that reclamation and coast-guard harassment must freeze. All would channel joint development, ZoPFF/C, the Nansha and Luconia ideas, through a single ASEAN-led track. The United States supports that convergence and will underwrite verification and confidence-building measures. Two gaps remain: China still rejects the binding 2016 award and an inclusive Code of Conduct, and clings to bilateral pressure that divides claimants. Our red lines held, no recognition of the ten-dashed line or artificial-island zones, no retreat from our commitment to Manila, and freedom of navigation continues for all. Way forward: mandate Malaysia to merge these proposals into one UNCLOS-conformant CoC text, with a verifiable reclamation-and-harassment freeze as the first step. We offer our good offices. Japan, India, ASEAN, one voice.",
+   "tacticsApplied": [
+    "principled-bargaining-frame",
+    "coalition-building",
+    "red-line-signaled",
+    "freedom-of-navigation-frame"
+   ],
+   "alignsWith": [
+    "diplomacy-team-philippines",
+    "diplomacy-team-vietnam",
+    "diplomacy-team-japan",
+    "diplomacy-team-india",
+    "diplomacy-team-malaysia",
+    "diplomacy-team-indonesia",
+    "diplomacy-team-brunei"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-philippines",
+   "displayName": "Philippines",
+   "roundNumber": 3,
+   "kind": "closing-statement",
+   "text": "As ASEAN Chair, the Philippines closes with real progress: eight delegations, Vietnam, Malaysia, Brunei, Indonesia, Japan, the US, and India, converged on UNCLOS as sole yardstick, the binding 2016 award, no zones for artificial features, and a multilaterally-negotiated Code of Conduct. We can support the ZoPFF/C joint-development and CBM roadmap Malaysia, Brunei, and Indonesia advanced, and the guarantors' underwriting. The gap is singular: China still demands we drop enforcement of the award and accept bilateral-only tracks under the ten-dashed line. That we cannot do. Our red lines held: no legitimizing the dashed line, no waiving the award, no surrender of EEZ or the three reclaimed atolls. Way forward: convene an ASEAN-chaired Code of Conduct drafting session, verifiable reclamation-and-harassment freeze first, then enclave disputes and open undisputed joint development. Vietnam, file your case. We keep Beijing's door open, on law.",
+   "tacticsApplied": [
+    "appeal-to-law",
+    "principled-bargaining-frame",
+    "red-line-signaled",
+    "coalition-building"
+   ],
+   "alignsWith": [
+    "diplomacy-team-vietnam",
+    "diplomacy-team-malaysia",
+    "diplomacy-team-brunei",
+    "diplomacy-team-indonesia",
+    "diplomacy-team-us",
+    "diplomacy-team-japan",
+    "diplomacy-team-india"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-vietnam",
+   "displayName": "Vietnam",
+   "roundNumber": 3,
+   "kind": "closing-statement",
+   "text": "Vietnam closes with cautious optimism. Real progress exists: every delegation but one affirms UNCLOS as the sole legal basis, that artificial features generate no zones, and that coast-guard harassment must stop. Vietnam supports the ASEAN-coordinated single track Malaysia and the Philippines advanced, CBMs, and phased joint development in genuinely overlapping continental-shelf zones. The gaps are China's: the nine-dashed line, rejection of the binding 2016 award, refusal to freeze militarization, and insistence on bilateral-only deals excluding partners. Our red lines held. There is no settlement on the ten-dashed line, no trading away demilitarization, no ASEAN bypass. Way forward: a binding, enforceable Code of Conduct negotiated multilaterally; a verifiable, reciprocal reclamation-and-militarization freeze; joint fisheries and energy pilots under ZoPFF/C with the Philippines included. Absent good-faith movement from Beijing, Vietnam reserves recourse to UNCLOS arbitration. We stand united with our ASEAN partners and welcome our friends.",
+   "tacticsApplied": [
+    "appeal-to-law",
+    "red-line-signaled",
+    "coalition-building",
+    "conditional-offer"
+   ],
+   "alignsWith": [
+    "diplomacy-team-philippines",
+    "diplomacy-team-malaysia",
+    "diplomacy-team-brunei",
+    "diplomacy-team-indonesia"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-malaysia",
+   "displayName": "Malaysia",
+   "roundNumber": 3,
+   "kind": "closing-statement",
+   "text": "Malaysia closes with measured optimism. Real convergence has emerged: every ASEAN claimant and our partners now anchor entitlements in UNCLOS, endorse a CBM-first roadmap, a verifiable freeze on reclamation and coast-guard harassment, and phased joint fisheries and energy ventures. We can support that package and a binding, ASEAN-negotiated Code of Conduct. Two gaps remain. Beijing still rejects the 2016 award and clings to the ten-dashed line, and would exclude parties who share these waters' trade. Our red lines held firm: no recognition of historic-rights claims beyond UNCLOS, no settlement won by coercion, the award non-tradable, and ASEAN solidarity not bartered to any outside power. Way forward: let Malaysia convene, from Klang, a coordinated ASEAN channel to Beijing, sequencing an immediate verifiable freeze, joint development in undisputed blocks, then Code-of-Conduct talks. We keep every door open.",
+   "tacticsApplied": [
+    "principled-bargaining-frame",
+    "red-line-signaled",
+    "coalition-building",
+    "conditional-offer"
+   ],
+   "alignsWith": [
+    "diplomacy-team-indonesia",
+    "diplomacy-team-vietnam",
+    "diplomacy-team-philippines",
+    "diplomacy-team-brunei"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-brunei",
+   "displayName": "Brunei",
+   "roundNumber": 3,
+   "kind": "closing-statement",
+   "text": "Brunei closes with cautious optimism. Real convergence has emerged: every ASEAN claimant and our partners affirm UNCLOS as the sole yardstick, a verifiable reclamation and harassment freeze, and phased joint fisheries and energy ventures. On these understandings Brunei can build, and we thank Beijing for engaging the joint-development track. Two gaps remain: China's rejection of the 2016 award and its insistence on excluding extra-regional partners from any code. Our red lines held firm. The ten-dashed line was not legitimized; artificial features generate no zones; and our support for the Philippines' and Vietnam's UNCLOS-verifiable claims was never traded. Way forward: adopt a CBM-first roadmap now, with the reclamation freeze independently verified, sovereignty advanced bilaterally, and conduct codified through a new ASEAN South China Sea dialogue mechanism. Brunei offers the facilitator's chair to keep every door, including Beijing's, open.",
+   "tacticsApplied": [
+    "principled-bargaining-frame",
+    "red-line-signaled",
+    "verification-demand",
+    "coalition-building"
+   ],
+   "alignsWith": [
+    "diplomacy-team-philippines",
+    "diplomacy-team-vietnam",
+    "diplomacy-team-malaysia",
+    "diplomacy-team-indonesia"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-indonesia",
+   "displayName": "Indonesia",
+   "roundNumber": 3,
+   "kind": "closing-statement",
+   "text": "Indonesia closes as it opened, an honest broker, and finds genuine progress. Eight delegations now converge on UNCLOS as the sole yardstick, that no reclaimed feature generates an EEZ or continental shelf, on freedom of navigation, and on a CBM-first roadmap with a verifiable freeze on reclamation and coast-guard harassment unlocking joint fisheries and energy ventures. That package Indonesia can support, alongside a binding, ASEAN-negotiated Code of Conduct. The gap is narrow but real: Beijing still rejects the 2016 award and prefers bilateral pressure. Our red lines held, the ten-dashed line was not legitimized, no coercion was rewarded, verifiable claims were respected. Way forward: mandate one coordinated ASEAN channel to Beijing, sequencing an independently verified freeze, joint development in undisputed blocks, then the Code. Indonesia, trusted by all sides, offers to broker that China channel directly. Keep every door open.",
+   "tacticsApplied": [
+    "principled-bargaining-frame",
+    "red-line-signaled",
+    "coalition-building",
+    "verification-demand"
+   ],
+   "alignsWith": [
+    "diplomacy-team-malaysia",
+    "diplomacy-team-vietnam",
+    "diplomacy-team-philippines",
+    "diplomacy-team-brunei"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-india",
+   "displayName": "India",
+   "roundNumber": 3,
+   "kind": "closing-statement",
+   "text": "India assesses real progress. Eight delegations now converge on one premise: UNCLOS is the sole yardstick, artificial features generate no zones, and a verifiable freeze on reclamation and coast-guard harassment must precede any joint development. India supports that consensus, plus an ASEAN-led Code of Conduct, cooperative energy and fisheries, an SCS hotline, and coordinated patrols. One gap remains: China alone rejects the award, clings to the ten-dashed line, and would exclude extra-regional partners and force bilateral tracks. That we cannot accept. Our red lines held intact. Way forward: adopt an interim CBM package now, brokered through Malaysia and Indonesia, conforming to UNCLOS and not prejudicing third parties, with India offering commercial and infrastructure investment to participating claimants. Freedom of passage stays non-negotiable. The door to Beijing remains open, but time is not on confrontation's side.",
+   "tacticsApplied": [
+    "principled-bargaining-frame",
+    "coalition-building",
+    "conditional-offer",
+    "red-line-signaled"
+   ],
+   "alignsWith": [
+    "diplomacy-team-us",
+    "diplomacy-team-japan",
+    "diplomacy-team-philippines",
+    "diplomacy-team-vietnam",
+    "diplomacy-team-indonesia",
+    "diplomacy-team-malaysia",
+    "diplomacy-team-brunei"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-japan",
+   "displayName": "Japan",
+   "roundNumber": 3,
+   "kind": "closing-statement",
+   "text": "Japan sees real convergence. Every claimant, plus the US and India, has anchored on UNCLOS, ruled that artificial features generate no zones, and demanded a verifiable freeze on reclamation and coast-guard harassment. Japan supports these understandings: an ASEAN-hubbed Code of Conduct, enclaving of genuinely disputed features, and phased joint fisheries and energy ventures in undisputed blocks, which Japan will co-finance. One gap remains: China alone rejects the 2016 award and seeks to exclude trusted partners and split ASEAN with bilateral side-deals. Japan's red lines held intact, no legitimization of the ten-dashed line, no award waiver, no impingement of navigation. Way forward: stand up the ASEAN dialogue with a monitored reclamation-freeze pilot; Japanese capital and coast-guard capacity follow verified compliance, not coercion. Law first, then prosperity. We align with ASEAN, the United States, and India.",
+   "tacticsApplied": [
+    "principled-bargaining-frame",
+    "appeal-to-law",
+    "coalition-building",
+    "conditional-offer"
+   ],
+   "alignsWith": [
+    "diplomacy-team-us",
+    "diplomacy-team-india",
+    "diplomacy-team-philippines",
+    "diplomacy-team-vietnam",
+    "diplomacy-team-malaysia",
+    "diplomacy-team-indonesia",
+    "diplomacy-team-brunei"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "scenarioId": "scenario-centralasia-iscne",
+ "scenarioTitle": "Central Asia \u2014 The Fergana Valley Crisis",
+ "sessionId": "sess-centralasia-iscne-01",
+ "title": "Central Asia Dialogue \u2014 Ashgabat (7-party, Fergana Valley)",
+ "domain": "geopolitical",
+ "shortDescription": "Seven-party UN dialogue on the Fergana Valley crisis (Kazakhstan, Uzbekistan, Kyrgyzstan, Tajikistan, Russia, China, India): disputed borders and exclaves, Syr Darya water allocation, the Roghun Dam and Kyrgyz winter power, CSTO/SCO security overlap, ISIS-K/extremism spillover from Afghanistan, and Russian-Chinese-Indian influence competition. Adapted from an academic crisis-negotiation exercise.",
+ "description": "A UN Special Representative convenes seven delegations at UNRCCA (Ashgabat) after the Fergana Valley \u2014 shared by Uzbekistan, Kyrgyzstan and Tajikistan and dependent on the Syr Darya \u2014 again edges toward the kind of armed clash seen in 2022. Three plenary rounds (opening, bargaining & coalitions, closing) surface fault lines over borders, transboundary water, hydropower, energy emergencies, counter-extremism, and great-power entanglement. Each delegation negotiates from its own privileged instructions.",
+ "openerTwin": "diplomacy-team-kazakhstan",
+ "baseTime": "2026-03-02T09:00:00",
+ "partyOrder": [
+  "KAZ",
+  "UZB",
+  "KGZ",
+  "TJK",
+  "RUS",
+  "CHN",
+  "IND"
+ ],
+ "leftBloc": [
+  "KAZ",
+  "UZB",
+  "KGZ",
+  "TJK"
+ ],
+ "simDir": "sim/scenarios/centralasia",
+ "profilesDir": "sim/scenarios/centralasia/profiles"
+}

@@ -1,5 +1,5 @@
 window.DIPLOMACY_SNAPSHOT_DEMO = {
-  "generatedAt": "2026-07-20T14:49:11.000Z",
+  "generatedAt": "2026-07-20T18:17:03.000Z",
   "sourceSnapshot": "sim/ (multi-scenario diplomatic simulator build)",
   "scenarios": [
     {
@@ -29,6 +29,27 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
       "domain": "geopolitical",
       "status": "active",
       "shortDescription": "Seven-party UN-convened crisis negotiation over the Arctic (Canada, China, Denmark/Greenland, Finland, Norway, Russia, United States): overlapping continental-shelf claims on the Lomonosov Ridge, the legal status of the Northwest Passage and Northern Sea Route, Svalbard, militarization, resources, Arctic Council governance, and Indigenous inclusion. Adapted from the U.S. Army War College ISCNE Arctic scenario."
+    },
+    {
+      "id": "scenario-centralasia-iscne",
+      "title": "Central Asia — The Fergana Valley Crisis",
+      "domain": "geopolitical",
+      "status": "active",
+      "shortDescription": "Seven-party UN dialogue on the Fergana Valley crisis (Kazakhstan, Uzbekistan, Kyrgyzstan, Tajikistan, Russia, China, India): disputed borders and exclaves, Syr Darya water allocation, the Roghun Dam and Kyrgyz winter power, CSTO/SCO security overlap, ISIS-K/extremism spillover from Afghanistan, and Russian-Chinese-Indian influence competition. Adapted from an academic crisis-negotiation exercise."
+    },
+    {
+      "id": "scenario-cyprus-iscne",
+      "title": "Cyprus — Reunification Talks",
+      "domain": "geopolitical",
+      "status": "active",
+      "shortDescription": "Six-party UN-mediated Cyprus talks (Republic of Cyprus, Turkish Republic of Northern Cyprus, Greece, Turkey, United Kingdom, United States): bi-zonal federation vs. two-state 'sovereign equality', territory (Varosha, Morphou, the Green Line), property claims, security guarantees and UNFICYP, offshore gas in the Cypriot EEZ, and EU status. Adapted from an academic crisis-negotiation exercise."
+    },
+    {
+      "id": "scenario-scs-iscne",
+      "title": "South China Sea — Crisis Talks",
+      "domain": "geopolitical",
+      "status": "active",
+      "shortDescription": "Nine-party UN/ASEAN-convened South China Sea talks (China, United States, Philippines, Vietnam, Malaysia, Brunei, Indonesia, India, Japan): competing Spratly/Paracel/Scarborough claims, the UNCLOS status of reclaimed artificial islands, freedom of navigation and FONOPs, oil/gas and fisheries, militarization and land reclamation, the 2016 arbitration award, and a binding Code of Conduct. Adapted from an academic crisis-negotiation exercise."
     }
   ],
   "sessions": [
@@ -7120,6 +7141,5941 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "Characterization of the maritime zone around Svalbard as a Norwegian EEZ, contested by Russia and China.",
           "Final Lomonosov Ridge delimitation among Russia, Canada, and Denmark/Greenland, and the Beaufort Sea boundary line.",
           "China's demand for guaranteed, written enhanced-observer access (membership blocked), and the broader Arctic militarization and sanctions questions."
+        ]
+      }
+    },
+    {
+      "id": "sess-centralasia-iscne-01",
+      "title": "Central Asia Dialogue — Ashgabat (7-party, Fergana Valley)",
+      "description": "A UN Special Representative convenes seven delegations at UNRCCA (Ashgabat) after the Fergana Valley — shared by Uzbekistan, Kyrgyzstan and Tajikistan and dependent on the Syr Darya — again edges toward the kind of armed clash seen in 2022. Three plenary rounds (opening, bargaining & coalitions, closing) surface fault lines over borders, transboundary water, hydropower, energy emergencies, counter-extremism, and great-power entanglement. Each delegation negotiates from its own privileged instructions.",
+      "mode": "negotiation",
+      "status": "concluded",
+      "currentRound": 3,
+      "createdAt": "2026-03-02T09:00:00.000Z",
+      "concludedAt": "2026-03-02T13:12:00.000Z",
+      "parties": [
+        {
+          "teamTwinName": "diplomacy-team-kazakhstan",
+          "displayName": "Kazakhstan",
+          "side": "left",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        },
+        {
+          "teamTwinName": "diplomacy-team-uzbekistan",
+          "displayName": "Uzbekistan",
+          "side": "left",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        },
+        {
+          "teamTwinName": "diplomacy-team-kyrgyzstan",
+          "displayName": "Kyrgyzstan",
+          "side": "left",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        },
+        {
+          "teamTwinName": "diplomacy-team-tajikistan",
+          "displayName": "Tajikistan",
+          "side": "left",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        },
+        {
+          "teamTwinName": "diplomacy-team-russia",
+          "displayName": "Russia",
+          "side": "right",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        },
+        {
+          "teamTwinName": "diplomacy-team-china",
+          "displayName": "China",
+          "side": "right",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        },
+        {
+          "teamTwinName": "diplomacy-team-india",
+          "displayName": "India",
+          "side": "right",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        }
+      ],
+      "rules": {
+        "maxRounds": 3,
+        "roundTimeoutMs": 120000,
+        "autoAdvance": false,
+        "procedureStyle": "plenary-with-caucus",
+        "sidebarsAllowed": true,
+        "sidebarDisclosure": "fact-only",
+        "caucusReportBack": true,
+        "rightOfReply": true,
+        "chairCanSilence": false,
+        "coalitionsVisible": true,
+        "openerPartyTwin": "diplomacy-team-kazakhstan",
+        "rotateOpener": true
+      },
+      "scoreboard": [
+        {
+          "teamTwinName": "diplomacy-team-kazakhstan",
+          "satisfaction": 0.85,
+          "agreementsWon": 4,
+          "redLinesCrossed": 0
+        },
+        {
+          "teamTwinName": "diplomacy-team-uzbekistan",
+          "satisfaction": 0.8,
+          "agreementsWon": 4,
+          "redLinesCrossed": 0
+        },
+        {
+          "teamTwinName": "diplomacy-team-kyrgyzstan",
+          "satisfaction": 0.72,
+          "agreementsWon": 4,
+          "redLinesCrossed": 0
+        },
+        {
+          "teamTwinName": "diplomacy-team-tajikistan",
+          "satisfaction": 0.55,
+          "agreementsWon": 3,
+          "redLinesCrossed": 0
+        },
+        {
+          "teamTwinName": "diplomacy-team-russia",
+          "satisfaction": 0.34,
+          "agreementsWon": 1,
+          "redLinesCrossed": 2
+        },
+        {
+          "teamTwinName": "diplomacy-team-china",
+          "satisfaction": 0.88,
+          "agreementsWon": 4,
+          "redLinesCrossed": 0
+        },
+        {
+          "teamTwinName": "diplomacy-team-india",
+          "satisfaction": 0.48,
+          "agreementsWon": 3,
+          "redLinesCrossed": 2
+        }
+      ],
+      "moves": [
+        {
+          "id": "sess-centralasia-iscne-01-mv000",
+          "sessionId": "sess-centralasia-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-kazakhstan",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "Kazakhstan thanks the SRSG and UNRCCA for convening us. We come as a neighbor invested in one goal above all: de-escalation. The 2022 Kyrgyz-Tajik clashes, three years of drought, and 110 kilometers of contested frontier demand cooler heads, not new ultimatums. Our headline priorities are three. First, a practical de-escalation framework that restores calm and the status quo ante on demarcation, built through dialogue rather than binding commitments imposed at one summit. Second, mutually respectful management of shared Syr Darya and Amu Darya waters, a resource whose stewardship is a matter of sovereignty for every state here. Third, connectivity: expanded rail, pipeline, and Middle Corridor links that make our commodities and yours flow to markets. Kazakhstan will decide its own partners freely, and we invite Uzbekistan, China, and India to build these bridges with us. We are here to broker, not to dictate.",
+          "tacticsApplied": [
+            "sovereignty-assertion",
+            "principled-bargaining-frame",
+            "coalition-building",
+            "environmental-frame"
+          ],
+          "createdAt": "2026-03-02T09:00:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-mv001",
+          "sessionId": "sess-centralasia-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-uzbekistan",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "Uzbekistan thanks the SRSG and welcomes this dialogue in a spirit of good neighborliness. Our people share the Fergana Valley's soil, water, and future, and Tashkent comes to de-escalate, not to inflame. Three principles frame our approach. First, on borders: the existing frontier is settled and sovereign; we support confidence-building measures and a return to the status quo, not reopening lines that history and our foreign ministers have already fixed. Second, on water: fresh water is the lifeblood of our farmers and our security. We favor collaborative, equitable management of the Syr Darya and stand ready to import and trade resources with our neighbors. Third, on prosperity: lower trade barriers, open energy corridors, and joint counterterrorism serve every delegation here. Uzbekistan seeks working frameworks, not hasty final deals. We look to Kazakhstan and all partners to build regional stability together.",
+          "tacticsApplied": [
+            "sovereignty-assertion",
+            "principled-bargaining-frame",
+            "coalition-building",
+            "environmental-frame"
+          ],
+          "createdAt": "2026-03-02T09:12:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-mv002",
+          "sessionId": "sess-centralasia-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-kyrgyzstan",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "Kyrgyzstan thanks the Secretary-General and the SRSG for convening us, and pledges full support for this UN-led mediation. We come to de-escalate. Our people still bear the scars of September 2022; over one hundred thousand were displaced. Our headline priority is a swift return to, and locking-in of, the status quo demarcation across the disputed Fergana frontier, including exclaves. Kyrgyz sovereign territory is not negotiable, and Kyrgyz water is the lifeblood of our people, land, and livestock. We anchor firmly on both. That said, we come as builders. We welcome equitable, science-based water stewardship and meaningful ICWC reform, and we value confidence-building with our neighbors, particularly Uzbekistan and Kazakhstan, with whom we share deep regional kinship. We are open to modern water-management technology and to infrastructure partnerships that respect Kyrgyz labor and sovereignty. Let us reason together as principled partners.",
+          "tacticsApplied": [
+            "anchoring",
+            "sovereignty-assertion",
+            "coalition-building",
+            "principled-bargaining-frame"
+          ],
+          "createdAt": "2026-03-02T09:24:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-mv003",
+          "sessionId": "sess-centralasia-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-tajikistan",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "Distinguished colleagues, Tajikistan comes to Ashgabat to de-escalate the Fergana Valley crisis and restore calm. Our headline priorities are three: the inviolability of Tajik territorial integrity, a return to the pre-crisis status quo on demarcation, and the protection of our water as a sovereign resource. Let me be clear from the outset: no Tajik territory will be traded, and no final border settlement can be concluded at this summit — such matters belong to later foreign-minister talks. We favor incremental adjustments only, secured by verifiable, neutral-observer confidence-building measures and reciprocal troop limits. On water, we welcome a genuine, mutual Central Asian resource-management framework and outside technical assistance. We come as constructive partners in regional integration, trade, and counter-extremism cooperation. We look to Uzbekistan, Kazakhstan, and China as partners in building a stable, Central Asian-centered order. Tajikistan seeks frameworks, not ultimatums.",
+          "tacticsApplied": [
+            "anchoring",
+            "sovereignty-assertion",
+            "verification-demand",
+            "principled-bargaining-frame"
+          ],
+          "createdAt": "2026-03-02T09:36:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-mv004",
+          "sessionId": "sess-centralasia-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-russia",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "Russia thanks the SRSG and welcomes this dialogue among neighbors. Central Asia is a region of deep, shared history, and the Russian Federation comes as a partner in peace. We are guided by three priorities. First, security: the tragedy of September 2022 must never repeat, and Russia, as the region's long-standing security guarantor and through its CSTO commitments, stands ready to help stabilize the Fergana Valley. Second, water and energy: we favor collaborative, peaceful management of the Syr Darya and Amu Darya, and we offer a Russian-technology Caspian desalination facility to ease scarcity for our western neighbors. Third, prosperity through integration: an expanded Eurasian Economic Union open to all who wish to join. Borders should be resolved peacefully, by consensus, never by force. We reject any framework that divides our common space or excludes the very powers that keep it stable. Russia stands with its CSTO partners.",
+          "tacticsApplied": [
+            "principled-bargaining-frame",
+            "side-payment",
+            "coalition-building",
+            "red-line-signaled"
+          ],
+          "createdAt": "2026-03-02T09:48:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-mv005",
+          "sessionId": "sess-centralasia-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-china",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "China welcomes this dialogue and salutes our Central Asian neighbors' courage in seeking calm after the tragedy of 2022. Our headline priority is simple: stability through development, guided by the Central Asian states themselves. Real peace in the Fergana Valley will be built by its own peoples, not imposed from outside. We anchor on three points. First, on borders, respect existing frontiers and resolve differences peacefully, without haste or humiliation; a monitoring presence is welcome only under a neutral, mutually approved lead. Second, on water and energy, China offers concrete help now: technical expertise, storage, conservation, hydropower construction, and Belt and Road investment to end the winter-power and drought emergencies. Third, climate and extremism demand shared, practical cooperation. We stand with Kazakhstan's constructive vision and value Russia's multilateral engagement. China seeks partners in prosperity, not patrons of dependency. We are ready to build.",
+          "tacticsApplied": [
+            "anchoring",
+            "conditional-offer",
+            "coalition-building",
+            "side-payment"
+          ],
+          "createdAt": "2026-03-02T10:00:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-mv006",
+          "sessionId": "sess-centralasia-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-india",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "Mr. Special Representative, distinguished delegations. India comes to Ashgabat as a friend of Central Asia and the world's largest democracy, seeking not primacy but partnership. The Fergana Valley's people deserve peace, water, and light in winter — not another September 2022. India anchors on three principles. First, a peaceful, comprehensive, and just settlement of the disputed frontier, including exclaves like Vorukh, guided by international law and the sovereign choices of the states concerned. Second, fair and equitable transboundary water arrangements, and reform of a paralyzed ICWC, reconciling Roghun and Kyrgyz winter power with downstream security. Third, strategic autonomy: every Central Asian nation must remain free to choose its own path, partners, and security architecture. India offers concrete help — technical assistance, energy and infrastructure support, trade, and security cooperation — to any willing partner. We value our longstanding friendship with Russia and welcome all who negotiate in good faith. India is ready to build.",
+          "tacticsApplied": [
+            "anchoring",
+            "principled-bargaining-frame",
+            "appeal-to-law",
+            "coalition-building"
+          ],
+          "createdAt": "2026-03-02T10:12:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-mv007",
+          "sessionId": "sess-centralasia-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-kazakhstan",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "Kazakhstan hears convergence. To China: if you commit BRI financing to a Middle Corridor rail-and-road branch built with Kyrgyz and Kazakh labor under agreed technical supervision, Astana will open transit for your commodities to western Chinese provinces and co-develop pipeline repairs. To Uzbekistan: if Tashkent grants us reciprocal free-transit and lower tariffs, we will facilitate Uzbek exports across Kazakh territory to that same corridor — a package binding connectivity to prosperity for both our peoples. To Kyrgyzstan and Tajikistan: we back science-based Syr Darya stewardship and ICWC reform, and offer technical cooperation, provided each state's sovereignty over its own water is respected — that principle is non-negotiable for Kazakhstan, whatever the pressure. To India: we welcome your technical assistance on energy, agriculture, and IT. To Russia: we value neighborly trade, but Kazakhstan chooses its own architecture; EAEU or CSTO expansion is not on our table. We broker; we do not subordinate.",
+          "tacticsApplied": [
+            "conditional-offer",
+            "issue-linkage",
+            "side-payment",
+            "red-line-signaled",
+            "coalition-building"
+          ],
+          "createdAt": "2026-03-02T10:24:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-mv008",
+          "sessionId": "sess-centralasia-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-uzbekistan",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "Tashkent welcomes Kazakhstan's connectivity vision and proposes a concrete package: if Kazakhstan supplies water for our mining and agriculture, Uzbekistan will share mining expertise and route oil and gas via Kazakh corridors to the PRC. China's development offer is constructive; but let us be candid — BRI works on Uzbek terms, built by Uzbek hands, so we welcome technical partnership while declining export-bank dependency. To Kyrgyzstan and Tajikistan: our frontier is settled and sovereign — that red line stands — yet if you accept mutual confidence-building measures and reciprocal troop limits, Uzbekistan will offer trade frameworks and sell surplus jets, helicopters, and artillery to bolster your defense. On water, one point is non-negotiable: Uzbekistan imports, but never exports. Russia's desalination interest is noted, though security must remain sovereign, not CSTO-bound. We align with Kazakhstan, China, and India.",
+          "tacticsApplied": [
+            "conditional-offer",
+            "issue-linkage",
+            "side-payment",
+            "red-line-signaled"
+          ],
+          "createdAt": "2026-03-02T10:36:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-mv009",
+          "sessionId": "sess-centralasia-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-kyrgyzstan",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "Kyrgyzstan builds on Kazakhstan's and Uzbekistan's de-escalation frame. To Kazakhstan: if you back our locked-in status-quo demarcation and Middle Corridor access for Kyrgyz commodities, we will discuss sharing our winter reservoir surplus under mutually agreed conditions. To Uzbekistan: if you formalize reciprocal confidence-building and neutral-observer monitoring along our shared Fergana lines, we will support your equitable Syr Darya management proposals. To China: we welcome your storage, conservation, and hydropower offer, and will host jointly-funded BRI works using predominantly Kyrgyz labor with your technical supervisors. Two red lines stand firm: no surrender of any sovereign Kyrgyz territory, and no export of Kyrgyz water beyond our borders. To Tajikistan: bring verifiable troop pull-backs before demarcation talk. To Russia: we appreciate partnership, but no foreign troops enter Kyrgyzstan. Nothing here is final; all refers to our capital.",
+          "tacticsApplied": [
+            "conditional-offer",
+            "issue-linkage",
+            "coalition-building",
+            "red-line-signaled"
+          ],
+          "createdAt": "2026-03-02T10:48:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-mv010",
+          "sessionId": "sess-centralasia-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-tajikistan",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "Tajikistan thanks its partners and now speaks in concrete terms. To Uzbekistan: if Tashkent openly and fully backs Tajik border claims against Kyrgyzstan, Dushanbe will reciprocally recognize Uzbek frontier claims and launch combined CT/COIN training against ISIS-K and IMU as early as next year, plus expanded trade in agriculture, minerals, and gas. That is our package — issue-linked and mutual. To Kyrgyzstan: we offer reciprocal, neutral-observer-verified troop caps — platoon-level at outposts, battalion within 25 km absent notification — but our territory is not for trade. To China: we welcome BRI water and hydropower technical assistance under a genuine Central Asian resource plan that keeps Tajik water sovereign. To India: we value your appeal to law, yet partnership deepens only if you publicly recognize Tajik sovereignty and border claims. And plainly, to Russia: no foreign military personnel will observe or 'stabilize' inside Tajikistan. We align with Uzbekistan, China, Kazakhstan, and India.",
+          "tacticsApplied": [
+            "conditional-offer",
+            "issue-linkage",
+            "red-line-signaled",
+            "coalition-building"
+          ],
+          "createdAt": "2026-03-02T11:00:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-mv011",
+          "sessionId": "sess-centralasia-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-russia",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "Russia hears convergence: Kazakhstan, Uzbekistan, Kyrgyzstan, and Tajikistan all affirm the status quo on borders. Good — that is our red line too: existing frontiers stand, resolved by consensus, never by force. Now concrete packages. To Tajikistan and Kyrgyzstan: if you lock in status-quo demarcation and reciprocal troop limits, Russia will field the Fergana monitoring mission through our CSTO framework and extend counterterrorism and water-infrastructure support to Tajik borders. To Uzbekistan: if we jointly build pipeline capacity to western markets on cost- and revenue-sharing terms, Russia offers the Caspian desalination facility supplying western Uzbekistan and Kazakhstan — and EAEU accession for Tashkent and Dushanbe. To Kazakhstan: modern arms on favorable credit if we deepen EAEU energy integration. We caution against any resource or security architecture that excludes the guarantors keeping this space stable. Russia values China's engagement and India's friendship. Our coalition: Tajikistan, Kyrgyzstan, Kazakhstan.",
+          "tacticsApplied": [
+            "conditional-offer",
+            "issue-linkage",
+            "side-payment",
+            "red-line-signaled"
+          ],
+          "createdAt": "2026-03-02T11:12:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-mv012",
+          "sessionId": "sess-centralasia-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-china",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "China notes broad consensus — Kazakhstan, Uzbekistan, Kyrgyzstan, Tajikistan all favor frameworks and status-quo demarcation, not final settlements rushed at one summit. We build on that. To Kyrgyzstan: if Bishkek accepts a Belt and Road package ending the winter-power emergency — hydropower construction, grid modernization, favorable equipment terms — China commits financing this year. To Tajikistan: counterterrorism and Roghun technical support, if paired with our neutral-lead Fergana monitoring model. To Uzbekistan and Kazakhstan: cyber-security cooperation and Middle Corridor connectivity, linked to water technology we can deliver now. One caution, respectfully, to India's call for a 'comprehensive' Vorukh settlement: reopening fixed lines under outside legal formulas risks the very humiliation and instability our neighbors warned against. Central Asians should decide. We welcome Russia's multilateral spirit, though desalination promises must meet delivery. China aligns with Kazakhstan and Kyrgyzstan.",
+          "tacticsApplied": [
+            "conditional-offer",
+            "issue-linkage",
+            "coalition-building",
+            "side-payment"
+          ],
+          "createdAt": "2026-03-02T11:24:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-mv013",
+          "sessionId": "sess-centralasia-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-india",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "India thanks Kazakhstan and Tajikistan for their constructive frames. To Tajikistan: if Dushanbe deepens counter-extremism cooperation against ISIS-K and IMU spillover from Afghanistan, India will provide expanded joint training and air exercises, security assistance, and technical support toward Roghun's completion — linking your hydropower needs directly to shared security. To Kazakhstan: we embrace your de-escalation framework and Middle Corridor vision, and offer a bilateral free-trade track plus arms modernization to any willing partner. To Uzbekistan: tech-sector training and careers for young Uzbeks in return for open energy corridors and trade. On strategic autonomy India holds a firm red line — no Central Asian state should be pressured to remain in any bloc against its will; every nation must freely choose its partners and security architecture. We value Russia's longstanding friendship, yet lasting stability flows from Central Asian-led choices, not dependency on a single external patron. India stands with Tajikistan, Kazakhstan, Uzbekistan, and Kyrgyzstan.",
+          "tacticsApplied": [
+            "conditional-offer",
+            "issue-linkage",
+            "side-payment",
+            "red-line-signaled"
+          ],
+          "createdAt": "2026-03-02T11:36:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-mv014",
+          "sessionId": "sess-centralasia-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-kazakhstan",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "Kazakhstan is encouraged. Real convergence emerged: every Central Asian state affirmed de-escalation and the status quo ante on demarcation, and none rushed a final settlement — exactly our aim. We can support four understandings: a non-binding de-escalation framework with reciprocal, neutral-observer confidence-building; science-based Syr Darya stewardship and ICWC reform that respects each state's sovereignty over its own water; a Middle Corridor connectivity package with Uzbekistan and China; and technical cooperation with India on energy, agriculture, and IT. Gaps remain on Vorukh's final status and on who leads any monitoring mission. Our red lines held: no external power dictates our resources or partners, and we signed nothing binding here. Way forward: refer these understandings to Foreign-Minister-led talks among the Central Asian states, advancing connectivity and water tracks bilaterally in parallel.",
+          "tacticsApplied": [
+            "principled-bargaining-frame",
+            "coalition-building",
+            "sovereignty-assertion",
+            "issue-linkage"
+          ],
+          "createdAt": "2026-03-02T11:48:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-mv015",
+          "sessionId": "sess-centralasia-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-uzbekistan",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "Tashkent leaves Ashgabat encouraged. Real convergence has emerged: every neighbor now affirms the status-quo frontier and confidence-building over rushed lines, and that we build frameworks, not final treaties. Uzbekistan can support Kazakhstan's Middle Corridor connectivity and our reciprocal water-for-expertise and energy-transit package; science-based Syr Darya stewardship and ICWC reform; neutral-observer CBMs and reciprocal troop limits with both Bishkek and Dushanbe, paired with surplus-equipment sales; and technical partnership with China on Uzbek terms. Gaps remain on ICWC's consensus reform and on external security blocs. Our red lines held fully: borders unchanged, Uzbek water never exported, no binding deals here, BRI on Uzbek terms. We will not take sides between neighbors — even-handed de-escalation serves all. Way forward: refer these frameworks to foreign ministers, keep the SRSG's channel open, and convene a follow-up technical session.",
+          "tacticsApplied": [
+            "principled-bargaining-frame",
+            "red-line-signaled",
+            "issue-linkage",
+            "coalition-building"
+          ],
+          "createdAt": "2026-03-02T12:00:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-mv016",
+          "sessionId": "sess-centralasia-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-kyrgyzstan",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "Kyrgyzstan thanks the SRSG. Real progress: a shared consensus on de-escalation and status-quo demarcation, with Kazakhstan, Uzbekistan, and China as constructive partners. We can support neutral-observer confidence-building along the Fergana lines, science-based Syr Darya stewardship and ICWC reform, and China's Belt and Road hydropower and grid package built with Kyrgyz labor to end our winter-power emergency. We welcome Uzbekistan's confidence-building and Kazakhstan's Middle Corridor access. Gaps remain: Tajikistan has offered no verifiable troop pull-back, so demarcation talk with Dushanbe stays frozen. Our red lines held firmly: no sovereign Kyrgyz territory surrendered, no Kyrgyz water exported, and no foreign troops on Kyrgyz soil. Way forward: refer these understandings to foreign-minister follow-on talks, stand up neutral monitoring first, and sequence water and border work through verified steps. Nothing here is binding; all returns to Bishkek.",
+          "tacticsApplied": [
+            "red-line-signaled",
+            "coalition-building",
+            "verification-demand",
+            "principled-bargaining-frame"
+          ],
+          "createdAt": "2026-03-02T12:12:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-mv017",
+          "sessionId": "sess-centralasia-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-tajikistan",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "Tajikistan welcomes real convergence: a shared commitment to status-quo demarcation, frameworks over rushed final deals, and neutral-observer confidence-building. We can support science-based Syr Darya stewardship under a genuine Central Asian resource plan that keeps Tajik water sovereign, China's BRI water and Roghun technical assistance, and combined CT/COIN cooperation against ISIS-K and IMU. Two gaps remain. Uzbekistan has not yet openly backed our claims against Kyrgyzstan, so recognition of Uzbek frontiers stays conditional; and deeper Indian partnership awaits public recognition of Tajik sovereignty. Our red lines held: no Tajik territory traded, no final settlement signed here, and no foreign military personnel monitoring inside Tajikistan — any Fergana mission must be neutral, not CSTO-led. Way forward: adopt these as non-binding frameworks, stand up verifiable reciprocal troop caps now, and refer all substantive terms to foreign-minister talks in Dushanbe.",
+          "tacticsApplied": [
+            "principled-bargaining-frame",
+            "red-line-signaled",
+            "conditional-offer",
+            "verification-demand"
+          ],
+          "createdAt": "2026-03-02T12:24:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-mv018",
+          "sessionId": "sess-centralasia-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-russia",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "Russia welcomes the convergence this dialogue achieved: every neighbor affirms status-quo borders and rejects force. That was our red line, and it held. We can support science-based Syr Darya stewardship, ICWC reform, reciprocal troop limits, and neutral-verified confidence-building along the Fergana lines. Russia's offers stand: the Caspian desalination facility for western Kazakhstan and Uzbekistan, EAEU accession open to Tashkent and Dushanbe, pipeline cost- and revenue-sharing, and counterterrorism and water-infrastructure support. Gaps remain. Lasting security in this space cannot be outsourced to distant patrons or resource corridors that bypass the very guarantors who keep it stable; Russia will not accept architecture built to exclude it. The way forward is a Russia-brokered collaborative resource-and-security dialogue, advanced through bilateral foreign-ministry tracks. Nothing final need be signed here. Russia stands with Tajikistan, Kyrgyzstan, and Kazakhstan.",
+          "tacticsApplied": [
+            "red-line-signaled",
+            "principled-bargaining-frame",
+            "side-payment",
+            "issue-linkage"
+          ],
+          "createdAt": "2026-03-02T12:36:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-mv019",
+          "sessionId": "sess-centralasia-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-china",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "China leaves Ashgabat satisfied that wisdom prevailed. The consensus we sought took hold: every Central Asian state affirmed status-quo frontiers, frameworks over rushed final treaties, and Central-Asian-led choices. China can support neutral-observer confidence-building under a mutually approved lead — never an outside bloc; science-based Syr Darya stewardship that keeps each state's water sovereign and open to shared regional use; and our Belt and Road packages ending Kyrgyzstan's winter-power emergency and advancing Tajik hydropower, Uzbek and Kazakh connectivity, and cyber cooperation — built on your terms, by your hands. Gaps rightly remain on Vorukh and monitoring leadership; these are for you to decide, not for outside legal formulas to impose. Our principle held: no settlement dictated from abroad. Way forward: adopt non-binding frameworks, refer all substance to foreign ministers, and let China deliver bilaterally, now.",
+          "tacticsApplied": [
+            "principled-bargaining-frame",
+            "coalition-building",
+            "conditional-offer",
+            "side-payment"
+          ],
+          "createdAt": "2026-03-02T12:48:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-mv020",
+          "sessionId": "sess-centralasia-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-india",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "India welcomes real progress. We can support the shared de-escalation framework, reciprocal neutral-observer troop caps, science-based Syr Darya stewardship, and ICWC reform. We warmly note that Kazakhstan, Uzbekistan, and Kyrgyzstan each affirmed their freedom to choose their own architecture — declining bloc expansion and single-patron dependency. India's red lines held: no state was forced to remain in any alliance against its will, and no external actor was crowned regional hegemon. Gaps remain on final demarcation, which rightly belongs to later foreign-minister talks, and on financing genuinely Central Asian-led, not dependency-driven, development. Our way forward: convert convergence into concrete bilateral tracks — joint IAF-Tajik air exercises and counter-extremism cooperation with Dushanbe, Roghun and energy technical assistance, free-trade and arms-modernization offers to willing partners, and tech-sector opportunities for young Uzbeks. India stands ready to build, partner by partner.",
+          "tacticsApplied": [
+            "principled-bargaining-frame",
+            "coalition-building",
+            "conditional-offer",
+            "red-line-signaled"
+          ],
+          "createdAt": "2026-03-02T13:00:00.000Z"
+        }
+      ],
+      "tactics": [
+        {
+          "id": "sess-centralasia-iscne-01-det000",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-kazakhstan",
+          "tacticId": "sovereignty-assertion",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv000"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T09:00:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det001",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-kazakhstan",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv000"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T09:00:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det002",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-kazakhstan",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv000"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T09:00:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det003",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-kazakhstan",
+          "tacticId": "environmental-frame",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv000"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T09:00:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det004",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-uzbekistan",
+          "tacticId": "sovereignty-assertion",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv001"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T09:12:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det005",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-uzbekistan",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv001"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T09:12:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det006",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-uzbekistan",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv001"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T09:12:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det007",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-uzbekistan",
+          "tacticId": "environmental-frame",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv001"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T09:12:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det008",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-kyrgyzstan",
+          "tacticId": "anchoring",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv002"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T09:24:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det009",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-kyrgyzstan",
+          "tacticId": "sovereignty-assertion",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv002"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T09:24:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det010",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-kyrgyzstan",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv002"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T09:24:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det011",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-kyrgyzstan",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv002"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T09:24:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det012",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-tajikistan",
+          "tacticId": "anchoring",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv003"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T09:36:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det013",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-tajikistan",
+          "tacticId": "sovereignty-assertion",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv003"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T09:36:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det014",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-tajikistan",
+          "tacticId": "verification-demand",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv003"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T09:36:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det015",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-tajikistan",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv003"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T09:36:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det016",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv004"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T09:48:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det017",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "side-payment",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv004"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T09:48:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det018",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv004"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T09:48:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det019",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv004"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T09:48:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det020",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "anchoring",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv005"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T10:00:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det021",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv005"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T10:00:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det022",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv005"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T10:00:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det023",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "side-payment",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv005"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T10:00:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det024",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-india",
+          "tacticId": "anchoring",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv006"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T10:12:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det025",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-india",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv006"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T10:12:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det026",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-india",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv006"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T10:12:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det027",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-india",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv006"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T10:12:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det028",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-kazakhstan",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv007"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T10:24:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det029",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-kazakhstan",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv007"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T10:24:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det030",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-kazakhstan",
+          "tacticId": "side-payment",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv007"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T10:24:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det031",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-kazakhstan",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv007"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T10:24:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det032",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-kazakhstan",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv007"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T10:24:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det033",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-uzbekistan",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv008"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T10:36:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det034",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-uzbekistan",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv008"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T10:36:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det035",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-uzbekistan",
+          "tacticId": "side-payment",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv008"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T10:36:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det036",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-uzbekistan",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv008"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T10:36:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det037",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-kyrgyzstan",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv009"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T10:48:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det038",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-kyrgyzstan",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv009"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T10:48:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det039",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-kyrgyzstan",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv009"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T10:48:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det040",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-kyrgyzstan",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv009"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T10:48:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det041",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-tajikistan",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv010"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T11:00:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det042",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-tajikistan",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv010"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T11:00:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det043",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-tajikistan",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv010"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T11:00:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det044",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-tajikistan",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv010"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T11:00:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det045",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv011"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T11:12:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det046",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv011"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T11:12:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det047",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "side-payment",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv011"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T11:12:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det048",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv011"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T11:12:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det049",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv012"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T11:24:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det050",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv012"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T11:24:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det051",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv012"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T11:24:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det052",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "side-payment",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv012"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T11:24:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det053",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-india",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv013"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T11:36:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det054",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-india",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv013"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T11:36:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det055",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-india",
+          "tacticId": "side-payment",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv013"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T11:36:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det056",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-india",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv013"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T11:36:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det057",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-kazakhstan",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv014"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T11:48:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det058",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-kazakhstan",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv014"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T11:48:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det059",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-kazakhstan",
+          "tacticId": "sovereignty-assertion",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv014"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T11:48:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det060",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-kazakhstan",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv014"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T11:48:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det061",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-uzbekistan",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv015"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T12:00:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det062",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-uzbekistan",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv015"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T12:00:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det063",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-uzbekistan",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv015"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T12:00:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det064",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-uzbekistan",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv015"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T12:00:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det065",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-kyrgyzstan",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv016"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T12:12:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det066",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-kyrgyzstan",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv016"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T12:12:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det067",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-kyrgyzstan",
+          "tacticId": "verification-demand",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv016"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T12:12:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det068",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-kyrgyzstan",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv016"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T12:12:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det069",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-tajikistan",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv017"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T12:24:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det070",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-tajikistan",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv017"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T12:24:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det071",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-tajikistan",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv017"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T12:24:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det072",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-tajikistan",
+          "tacticId": "verification-demand",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv017"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T12:24:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det073",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv018"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T12:36:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det074",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv018"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T12:36:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det075",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "side-payment",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv018"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T12:36:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det076",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv018"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T12:36:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det077",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv019"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T12:48:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det078",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv019"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T12:48:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det079",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv019"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T12:48:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det080",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "side-payment",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv019"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T12:48:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det081",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-india",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv020"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T13:00:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det082",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-india",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv020"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T13:00:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det083",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-india",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv020"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T13:00:00.000Z"
+        },
+        {
+          "id": "sess-centralasia-iscne-01-det084",
+          "sessionId": "sess-centralasia-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-india",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-centralasia-iscne-01-mv020"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-02T13:00:00.000Z"
+        }
+      ],
+      "tacticCounts": {
+        "sovereignty-assertion": 5,
+        "principled-bargaining-frame": 13,
+        "coalition-building": 15,
+        "environmental-frame": 2,
+        "anchoring": 4,
+        "verification-demand": 3,
+        "side-payment": 9,
+        "red-line-signaled": 12,
+        "conditional-offer": 11,
+        "appeal-to-law": 1,
+        "issue-linkage": 10
+      },
+      "debriefs": [
+        {
+          "teamTwinName": "diplomacy-team-kazakhstan",
+          "selfRating": 4.5,
+          "satisfaction": 0.85,
+          "agreementsWon": 4,
+          "redLinesCrossedAgainstUs": 0,
+          "goals": [
+            {
+              "goalId": "deescalation-status-quo",
+              "description": "Broker de-escalation and a return to status-quo demarcation via a non-binding framework, no final deal at summit",
+              "priority": "critical",
+              "status": "achieved",
+              "evidence": [
+                "r3: 'every Central Asian state affirmed de-escalation and the status quo ante'; refer to FM-led talks"
+              ]
+            },
+            {
+              "goalId": "resource-sovereignty",
+              "description": "Protect Kazakh water/resource sovereignty; no power dictates partners or resources; decline CSTO/EAEU expansion",
+              "priority": "critical",
+              "status": "achieved",
+              "evidence": [
+                "r2: 'EAEU or CSTO expansion is not on our table'; r3 red lines held: 'no external power dictates our resources'"
+              ]
+            },
+            {
+              "goalId": "middle-corridor-connectivity",
+              "description": "Advance Middle Corridor rail/pipeline connectivity with Uzbekistan and Chinese BRI financing",
+              "priority": "high",
+              "status": "achieved",
+              "evidence": [
+                "r2 conditional BRI+transit offer to China; r3 'Middle Corridor connectivity package with Uzbekistan and China'"
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-uzbekistan",
+          "selfRating": 4.3,
+          "satisfaction": 0.8,
+          "agreementsWon": 4,
+          "redLinesCrossedAgainstUs": 0,
+          "goals": [
+            {
+              "goalId": "borders-water-redlines",
+              "description": "Keep borders fixed in perpetuity and never export Uzbek water; no binding deals",
+              "priority": "critical",
+              "status": "achieved",
+              "evidence": [
+                "r3: 'borders unchanged, Uzbek water never exported, no binding deals here'"
+              ]
+            },
+            {
+              "goalId": "bri-on-uzbek-terms",
+              "description": "Take Chinese technical partnership on Uzbek terms while declining export-bank loan dependency",
+              "priority": "high",
+              "status": "achieved",
+              "evidence": [
+                "r2: 'BRI works on Uzbek terms... declining export-bank dependency'; r3 'BRI on Uzbek terms'"
+              ]
+            },
+            {
+              "goalId": "even-handed-leverage",
+              "description": "Stay even-handed between Kyrgyzstan and Tajikistan, offer CBMs+equipment, harvest intelligence",
+              "priority": "medium",
+              "status": "achieved",
+              "evidence": [
+                "r3: 'We will not take sides between neighbors'; CBMs+surplus-equipment sales offered to both"
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-kyrgyzstan",
+          "selfRating": 3.7,
+          "satisfaction": 0.72,
+          "agreementsWon": 4,
+          "redLinesCrossedAgainstUs": 0,
+          "goals": [
+            {
+              "goalId": "territory-water-troops",
+              "description": "Surrender no sovereign territory, export no water, admit no foreign troops; lock in status quo",
+              "priority": "critical",
+              "status": "achieved",
+              "evidence": [
+                "r3: 'no sovereign Kyrgyz territory surrendered, no Kyrgyz water exported, no foreign troops on Kyrgyz soil'"
+              ]
+            },
+            {
+              "goalId": "china-winter-power-package",
+              "description": "Secure Chinese BRI hydropower/grid package (Kyrgyz labor) to end winter-power emergency",
+              "priority": "high",
+              "status": "achieved",
+              "evidence": [
+                "r2 China commits financing this year; r3 'China's Belt and Road hydropower and grid package built with Kyrgyz labor'"
+              ]
+            },
+            {
+              "goalId": "tajik-demarcation-progress",
+              "description": "Extract verifiable Tajik troop pull-back and advance demarcation with Dushanbe",
+              "priority": "medium",
+              "status": "failed",
+              "evidence": [
+                "r3: 'Tajikistan has offered no verifiable troop pull-back, so demarcation talk with Dushanbe stays frozen'"
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-tajikistan",
+          "selfRating": 3.0,
+          "satisfaction": 0.55,
+          "agreementsWon": 3,
+          "redLinesCrossedAgainstUs": 0,
+          "goals": [
+            {
+              "goalId": "territory-water-no-russians",
+              "description": "Cede no territory, keep water sovereign, and bar any Russian military personnel inside Tajikistan",
+              "priority": "critical",
+              "status": "achieved",
+              "evidence": [
+                "r3: 'no Tajik territory traded... no foreign military personnel monitoring inside Tajikistan; any Fergana mission must be neutral, not CSTO-led'"
+              ]
+            },
+            {
+              "goalId": "uzbek-border-backing",
+              "description": "Trade recognition of Uzbek frontiers for Uzbek open backing of Tajik claims against Kyrgyzstan",
+              "priority": "high",
+              "status": "failed",
+              "evidence": [
+                "r3: 'Uzbekistan has not yet openly backed our claims... so recognition of Uzbek frontiers stays conditional'; UZB stayed even-handed"
+              ]
+            },
+            {
+              "goalId": "china-india-partnerships",
+              "description": "Deepen China BRI/Roghun support and India CT/air ties, conditioned on India recognizing Tajik claims",
+              "priority": "medium",
+              "status": "partial",
+              "evidence": [
+                "r3: China BRI/Roghun and CT/COIN supported; 'deeper Indian partnership awaits public recognition of Tajik sovereignty' (not given)"
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-russia",
+          "selfRating": 2.0,
+          "satisfaction": 0.34,
+          "agreementsWon": 1,
+          "redLinesCrossedAgainstUs": 2,
+          "goals": [
+            {
+              "goalId": "affirm-security-guarantor",
+              "description": "Be affirmed as sole security guarantor with a Russia/CSTO-led Fergana monitoring mission",
+              "priority": "critical",
+              "status": "failed",
+              "evidence": [
+                "r3 consensus was neutral-observer monitoring, 'not CSTO-led' (TJK); KGZ 'no foreign troops'; monitoring lead unresolved but explicitly not Russian"
+              ]
+            },
+            {
+              "goalId": "eaeu-csto-expansion",
+              "description": "Expand EAEU/CSTO, welcoming Tajikistan and Uzbekistan; keep allies inside the CSTO",
+              "priority": "critical",
+              "status": "failed",
+              "evidence": [
+                "r2 KAZ: 'EAEU or CSTO expansion is not on our table'; EAEU accession offers to Tashkent/Dushanbe not taken up; CSTO treated as weak guarantor"
+              ]
+            },
+            {
+              "goalId": "block-excluding-architecture",
+              "description": "Block resource/security architecture that excludes Russia or routes China resource trade around it",
+              "priority": "high",
+              "status": "failed",
+              "evidence": [
+                "r2 UZB/KAZ agree to route oil/gas via Kazakh corridors to PRC excluding Russia; r3 Russia 'will not accept architecture built to exclude it' — yet that is the trajectory"
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-china",
+          "selfRating": 4.6,
+          "satisfaction": 0.88,
+          "agreementsWon": 4,
+          "redLinesCrossedAgainstUs": 0,
+          "goals": [
+            {
+              "goalId": "no-comprehensive-settlement",
+              "description": "Ensure no comprehensive border/water settlement; keep disputes frozen and states inward-focused",
+              "priority": "critical",
+              "status": "achieved",
+              "evidence": [
+                "r3: frameworks not treaties, 'Gaps rightly remain on Vorukh and monitoring'; no binding settlement reached"
+              ]
+            },
+            {
+              "goalId": "bri-expansion",
+              "description": "Expand BRI across the region (Kyrgyz power, Tajik hydropower, Kazakh/Uzbek connectivity, cyber)",
+              "priority": "high",
+              "status": "achieved",
+              "evidence": [
+                "r3: 'Belt and Road packages ending Kyrgyzstan's winter-power emergency and advancing Tajik hydropower, Uzbek and Kazakh connectivity, and cyber cooperation'"
+              ]
+            },
+            {
+              "goalId": "block-india-russia-lead",
+              "description": "Deny India any leadership foothold and prevent Russian military reinsertion / neutralize CSTO",
+              "priority": "high",
+              "status": "achieved",
+              "evidence": [
+                "r3: monitoring under 'mutually approved lead — never an outside bloc'; no India role; Russia sidelined, CSTO treated defunct"
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-india",
+          "selfRating": 2.8,
+          "satisfaction": 0.48,
+          "agreementsWon": 3,
+          "redLinesCrossedAgainstUs": 2,
+          "goals": [
+            {
+              "goalId": "box-out-china",
+              "description": "Blunt Chinese dominance and prevent China locking in bilateral deals with Kazakhstan/Uzbekistan",
+              "priority": "critical",
+              "status": "failed",
+              "evidence": [
+                "China secured Middle Corridor/connectivity/cyber with KAZ+UZB and region-wide BRI; India could not box out BRI centrality"
+              ]
+            },
+            {
+              "goalId": "reinvigorate-tajik-ties",
+              "description": "Revive Tajik security relationship via joint IAF-Tajik air exercises and CT cooperation",
+              "priority": "high",
+              "status": "partial",
+              "evidence": [
+                "r3: 'joint IAF-Tajik air exercises and counter-extremism cooperation with Dushanbe' pursued bilaterally; but TJK withheld deeper partnership pending recognition India did not give"
+              ]
+            },
+            {
+              "goalId": "strategic-autonomy",
+              "description": "Ensure no forced CSTO retention and no external hegemon crowned; states free to choose partners",
+              "priority": "high",
+              "status": "achieved",
+              "evidence": [
+                "r3: KAZ/UZB/KGZ 'declined bloc expansion and single-patron dependency'; 'no external actor was crowned regional hegemon'"
+              ]
+            }
+          ]
+        }
+      ],
+      "convenerReport": {
+        "headline": "The Ashgabat summit produced broad non-binding convergence on de-escalation and status-quo borders but deferred every substantive settlement to later foreign-minister talks.",
+        "summary": "All seven delegations affirmed a return to status-quo Fergana demarcation, neutral-observer confidence-building measures with reciprocal troop limits, science-based Syr Darya stewardship with ICWC reform, and Middle Corridor connectivity plus Chinese BRI energy packages — all explicitly framed as non-binding frameworks referred onward, not treaties. The central fault line ran between the Central Asian states and China (who converged on frozen disputes and Central-Asian-led choices) and Russia, which was rebuffed on EAEU/CSTO expansion, a Russia-led monitoring mission, and its bid to be reaffirmed as sole security guarantor. Talks stalled on Vorukh's final status, who leads any monitoring mission, and the Kyrgyz-Tajik track, where Dushanbe's refusal to offer verifiable troop pull-backs kept demarcation frozen. Tajikistan's leverage plays (Uzbek backing of its claims against Kyrgyzstan, Indian recognition of its border claims) both went unmet, and India could not blunt China's expanding bilateral footprint.",
+        "keyOutcomes": [
+          "Consensus on status-quo demarcation and a non-binding de-escalation framework, with all final terms referred to foreign-minister-led tracks.",
+          "Agreement in principle on neutral-observer CBMs and reciprocal troop limits, and on science-based Syr Darya stewardship plus ICWC reform.",
+          "Middle Corridor connectivity package (Kazakhstan-Uzbekistan-China) and region-wide Chinese BRI energy/hydropower/cyber packages advanced bilaterally.",
+          "Every resource and water red line held: no water exports (UZB, KGZ), sovereignty over resources preserved (KAZ, TJK), no territory traded.",
+          "Russia isolated: EAEU/CSTO expansion rejected, CSTO-led monitoring barred, and no foreign troops accepted in Kyrgyzstan or Tajikistan."
+        ],
+        "unresolved": [
+          "Final status of Vorukh and the disputed exclaves — deferred, no settlement.",
+          "Leadership of any Fergana monitoring mission (neutral lead agreed in principle, but not who).",
+          "Kyrgyz-Tajik demarcation, frozen over Tajikistan's refusal to offer verifiable troop pull-backs.",
+          "Consensus mechanism for ICWC reform and any binding water-allocation formula.",
+          "Russia's security-guarantor role and the future of the CSTO, left contested and unaddressed."
+        ]
+      }
+    },
+    {
+      "id": "sess-cyprus-iscne-01",
+      "title": "Cyprus Crisis — Reunification Talks (6-party)",
+      "description": "A UN Special Adviser convenes six delegations to seek a Cyprus settlement after decades of failed efforts (the 2004 Annan Plan, the 2017 Crans-Montana collapse). Three plenary rounds (opening, bargaining & coalitions, closing) test whether a bi-zonal, bi-communal federation is still reachable against the TRNC/Türkiye push for two-state sovereign equality, amid disputes over territory, property, security treaties, and EEZ gas. Each delegation negotiates from its own privileged instructions.",
+      "mode": "negotiation",
+      "status": "concluded",
+      "currentRound": 3,
+      "createdAt": "2026-03-03T09:00:00.000Z",
+      "concludedAt": "2026-03-03T12:36:00.000Z",
+      "parties": [
+        {
+          "teamTwinName": "diplomacy-team-cyprus",
+          "displayName": "Republic of Cyprus",
+          "side": "left",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        },
+        {
+          "teamTwinName": "diplomacy-team-trnc",
+          "displayName": "Turkish Republic of Northern Cyprus",
+          "side": "right",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        },
+        {
+          "teamTwinName": "diplomacy-team-greece",
+          "displayName": "Greece",
+          "side": "left",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        },
+        {
+          "teamTwinName": "diplomacy-team-turkey",
+          "displayName": "Turkey",
+          "side": "right",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        },
+        {
+          "teamTwinName": "diplomacy-team-uk",
+          "displayName": "United Kingdom",
+          "side": "left",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        },
+        {
+          "teamTwinName": "diplomacy-team-us",
+          "displayName": "United States",
+          "side": "left",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        }
+      ],
+      "rules": {
+        "maxRounds": 3,
+        "roundTimeoutMs": 120000,
+        "autoAdvance": false,
+        "procedureStyle": "plenary-with-caucus",
+        "sidebarsAllowed": true,
+        "sidebarDisclosure": "fact-only",
+        "caucusReportBack": true,
+        "rightOfReply": true,
+        "chairCanSilence": false,
+        "coalitionsVisible": true,
+        "openerPartyTwin": "diplomacy-team-cyprus",
+        "rotateOpener": true
+      },
+      "scoreboard": [
+        {
+          "teamTwinName": "diplomacy-team-us",
+          "satisfaction": 0.62,
+          "agreementsWon": 5,
+          "redLinesCrossed": 0
+        },
+        {
+          "teamTwinName": "diplomacy-team-uk",
+          "satisfaction": 0.6,
+          "agreementsWon": 5,
+          "redLinesCrossed": 0
+        },
+        {
+          "teamTwinName": "diplomacy-team-turkey",
+          "satisfaction": 0.55,
+          "agreementsWon": 4,
+          "redLinesCrossed": 0
+        },
+        {
+          "teamTwinName": "diplomacy-team-trnc",
+          "satisfaction": 0.5,
+          "agreementsWon": 4,
+          "redLinesCrossed": 0
+        },
+        {
+          "teamTwinName": "diplomacy-team-greece",
+          "satisfaction": 0.47,
+          "agreementsWon": 2,
+          "redLinesCrossed": 0
+        },
+        {
+          "teamTwinName": "diplomacy-team-cyprus",
+          "satisfaction": 0.44,
+          "agreementsWon": 2,
+          "redLinesCrossed": 0
+        }
+      ],
+      "moves": [
+        {
+          "id": "sess-cyprus-iscne-01-mv000",
+          "sessionId": "sess-cyprus-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-cyprus",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "Mr. Special Adviser, the Republic of Cyprus welcomes these talks and thanks the United Nations. Let us be clear from the outset: the Republic of Cyprus already exists, is a sovereign EU member state, and is internationally recognized. UN Security Council Resolution 541 declared the so-called TRNC legally invalid. Our goal is reunification: a single sovereignty, single citizenship, and single international personality within a bizonal, bicommunal federation governed by a strong central government under a popularly elected presidency. We reject any 'virgin birth' that dissolves our state into two equal entities. Our priorities are demilitarization, withdrawal of foreign troops and settlers, return of Varosha, and property justice for the displaced, all conforming to the EU acquis and human rights. We approach in good faith and seek partnership with Greece, our EU partners, the United Kingdom, and the United States. Peace is possible on lawful foundations.",
+          "tacticsApplied": [
+            "appeal-to-law",
+            "sovereignty-assertion",
+            "anchoring",
+            "coalition-building"
+          ],
+          "createdAt": "2026-03-03T09:00:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-mv001",
+          "sessionId": "sess-cyprus-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-trnc",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "The Turkish Cypriot delegation comes to this table constructively, but on one foundation: the political equality of two peoples. Half a century of failed federations, from the collapse of 2004 to Crans-Montana in 2017, teaches one lesson. No durable settlement can graft our community onto the existing Greek-Cypriot-run Republic. We therefore anchor on a genuinely new partnership of two equal founding states, a light central architecture confined to a handful of shared institutions, and the enduring security guarantees our people have relied upon since 1960. On the ground, we seek to end the economic isolation of Turkish Cypriots: implement the Direct Trade Regulation and open Famagusta under international supervision. We are prepared to discuss Varosha's redevelopment, property, and confidence measures once equality is affirmed. We coordinate closely with Turkiye and welcome the constructive engagement of the United Kingdom and United States.",
+          "tacticsApplied": [
+            "anchoring",
+            "sovereignty-assertion",
+            "appeal-to-precedent",
+            "coalition-building"
+          ],
+          "createdAt": "2026-03-03T09:12:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-mv002",
+          "sessionId": "sess-cyprus-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-greece",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "Greece comes as guarantor of legality, not of division. Our starting point is settled law: UN Security Council Resolution 541 declared the entity in the north legally invalid, and the Republic of Cyprus, a sovereign UN and EU member, already exists with a single, continuous international personality. Any settlement must integrate the occupied areas into that Republic. We reject two-state 'sovereign equality' and the 'virgin birth' concept outright. Our anchors: a strong federal government with no rotating presidency, the full return of Varosha to its lawful owners, abolition of the anachronistic 1960 guarantee system, and full withdrawal of foreign forces on a defined timeline. Cyprus's sovereign rights in its EEZ stand apart from these talks. We defer to Nicosia on internal matters and stand with the Republic of Cyprus. In a constructive spirit, we would back Turkiye's EU path as genuine confidence-building.",
+          "tacticsApplied": [
+            "appeal-to-law",
+            "anchoring",
+            "sovereignty-assertion",
+            "coalition-building"
+          ],
+          "createdAt": "2026-03-03T09:24:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-mv003",
+          "sessionId": "sess-cyprus-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-turkey",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "Türkiye comes to this table as a Guarantor Power and the indispensable protector of the Turkish Cypriot people, and we speak in full coordination with, and behind the lead of, the TRNC delegation. Let us be candid: the status quo has for decades entrenched Greek Cypriot political and economic dominance, and any durable settlement must correct that. Our headline priorities are three. First, political equality: a single nation is conceivable only if it rests on two strong, equal constituent states with a light central government, born fresh rather than inherited from a Republic that does not represent us. Second, security: the 1960 guarantee and alliance arrangements must be preserved absent an acceptable replacement. Third, an end to the unjust isolation of Turkish Cypriots, including direct trade. We favor practical steps, including generous redevelopment offers for Varosha and opening Famagusta port under international supervision. We look to the UK and US as constructive partners. We negotiate in good faith, but not from weakness.",
+          "tacticsApplied": [
+            "sovereignty-assertion",
+            "coalition-building",
+            "red-line-signaled",
+            "issue-linkage"
+          ],
+          "createdAt": "2026-03-03T09:36:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-mv004",
+          "sessionId": "sess-cyprus-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-uk",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "The United Kingdom comes to this table as a friend of all Cypriots and a steadfast supporter of the UN Special Adviser, whose mediation must remain the single track we all reinforce. Our headline priority is clear: a settlement that produces one Cyprus, with a single sovereignty, a single citizenship, and a single international personality, grounded in Security Council resolutions. Within that anchor we are pragmatic and creative. On governance we will explore weighted or cross-voting so both communities feel genuinely secure. On Varosha and property we favour arrangements that compensate dispossessed owners while respecting present investment. On security we back replacing the 1960 treaties with a modern UN-framed arrangement. We are ready to help unlock economic ties and de-link Turkiye's European path from this dispute. We look forward to working closely with the United States, the SASG, and every delegation acting in good faith.",
+          "tacticsApplied": [
+            "anchoring",
+            "principled-bargaining-frame",
+            "appeal-to-law",
+            "coalition-building"
+          ],
+          "createdAt": "2026-03-03T09:48:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-mv005",
+          "sessionId": "sess-cyprus-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-us",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "The United States comes to this table as a committed friend of the process and of the Special Adviser. Our headline priority is clear: the status quo of permanent division is unacceptable, and the goal remains a single, reunified Republic of Cyprus, a bizonal, bicommunal federation with one international personality and a government strong enough to speak for the whole island. We anchor on that framework because UN resolutions and decades of mediation point to no other durable outcome. We are pragmatists as well as principled partners. We are prepared to help modernize the 1960 security architecture through a new treaty, to advance confidence-building measures, and to work Türkiye's European path constructively by keeping it from being held hostage to this dispute. We align closely with the United Kingdom, the Special Adviser, and the European Union, and we urge every delegation to negotiate in good faith toward a comprehensive, Cypriot-led settlement.",
+          "tacticsApplied": [
+            "anchoring",
+            "principled-bargaining-frame",
+            "coalition-building",
+            "issue-linkage"
+          ],
+          "createdAt": "2026-03-03T10:00:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-mv006",
+          "sessionId": "sess-cyprus-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-cyprus",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "To the TRNC and Türkiye: 'sovereign equality' and 'virgin birth' remain firm red lines. Resolution 541 is not negotiable, and a strong central government under a popularly elected President stands. But we bargain in good faith. Concrete package: if Türkiye commits to a verified, timelined withdrawal of foreign troops and settlers, Cyprus will lift its blocks on Türkiye's EU accession and the Direct Trade Regulation, and open Famagusta port once dispossessed Greek Cypriot owners reinstate property or are compensated. Second linkage: we will accept a Senate-elected Vice-President in exchange for locking in the popular-vote Presidency, plus a 10-year residency threshold for local voting. All contingent on a UN-supervised whole-island census by an independent agency. We thank Greece, the United States, the United Kingdom, and the EU for anchoring one Cyprus in law. The UK's cross-voting idea merits exploration within a single sovereignty.",
+          "tacticsApplied": [
+            "conditional-offer",
+            "issue-linkage",
+            "red-line-signaled",
+            "coalition-building"
+          ],
+          "createdAt": "2026-03-03T10:12:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-mv007",
+          "sessionId": "sess-cyprus-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-trnc",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "We hear the United Kingdom and United States. To the UK: your UN-framed replacement of the 1960 treaties can work, but only as a Turkiye-Greece-Cyprus mechanism that preserves our 1960-level security. So: if that guarantee is genuinely retained, then we will engage seriously on modernizing the architecture. To Cyprus and Greece: 'popular-vote presidency' and a strong federal center remain red lines. A majority ticket disenfranchises Turkish Cypriots, so we hold to a Senate-elected, community-rotating presidency. Now a concrete package: if the US and UK deliver Direct Trade Regulation implementation and Ankara Protocol movement, then we will open Famagusta Port under UN or EU supervision and table generous Varosha redevelopment terms for Greek Cypriot owners. Security-for-trade is our linkage. We coordinate fully with Turkiye and welcome the UK and US as honest brokers of these confidence measures.",
+          "tacticsApplied": [
+            "conditional-offer",
+            "issue-linkage",
+            "red-line-signaled",
+            "coalition-building"
+          ],
+          "createdAt": "2026-03-03T10:24:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-mv008",
+          "sessionId": "sess-cyprus-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-greece",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "Greece hears Türkiye and the TRNC, but 'sovereign equality' and a 'virgin birth' remain a hard red line: UNSC 541 is settled law and no reborn two-state entity is negotiable. Yet we bargain in good faith. To Türkiye directly: if you commit to a defined-timeline withdrawal of forces and replacement of the 1960 guarantee with a modern UN-framed treaty among a united Cyprus, Greece, and Türkiye, then Greece will actively champion de-linking your EU accession path and easing Direct Trade and Ankara Protocol restrictions, as the UK and US have signaled. That is a real side-payment. On governance, we can accept a Senate-elected Vice-President in exchange for a directly elected President, no rotation. On Famagusta: reopen Varosha to its lawful owners under EU/UN supervision, and we support opening the port. We stand with Cyprus, and welcome US, UK partnership.",
+          "tacticsApplied": [
+            "red-line-signaled",
+            "conditional-offer",
+            "issue-linkage",
+            "side-payment"
+          ],
+          "createdAt": "2026-03-03T10:36:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-mv009",
+          "sessionId": "sess-cyprus-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-turkey",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "We thank the United Kingdom and United States for offering to de-link Türkiye's European path from this dispute and to modernize the 1960 architecture. Let us make it concrete. If London and Washington deliver the Direct Trade Regulation and open Famagusta port under EU/UN supervision, then, coordinating with the TRNC, we will table generous resettlement and redevelopment terms for Greek Cypriots in Varosha. Further: if a new UN-framed treaty preserves genuine Turkish involvement and safeguards, we will support replacing the old guarantees, as the UK and US propose. But to Greece and the Republic of Cyprus, hear our red line plainly: there will be no abrogation of the Treaty of Guarantee without an acceptable replacement, and no strong central government that disenfranchises Turkish Cypriots. Equality first, then confidence measures. We stand with the TRNC.",
+          "tacticsApplied": [
+            "conditional-offer",
+            "issue-linkage",
+            "red-line-signaled",
+            "coalition-building"
+          ],
+          "createdAt": "2026-03-03T10:48:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-mv010",
+          "sessionId": "sess-cyprus-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-uk",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "With the United States, the SASG, and the Republic of Cyprus, the UK builds this coalition around one indivisible anchor: single sovereignty, single citizenship, single international personality. On that our red line holds, so to Turkiye and the TRNC, 'virgin birth' and two sovereign states are non-starters. But we hear your isolation concern, and we deal. Here is a package: if Turkiye and the TRNC accept a single-personality federation and a UN-framed replacement for the 1960 guarantee treaties, the UK will actively champion opening Famagusta port and Ercan airport under EU supervision, press to unblock the Direct Trade Regulation, and de-link Turkiye's EU accession from this dispute, representing that case in Brussels. To Cyprus and Greece: in exchange we ask flexibility on weighted or cross-voting so both communities feel secure. On Varosha, compensate lawful owners while crediting present investment. Reciprocity for reciprocity.",
+          "tacticsApplied": [
+            "conditional-offer",
+            "issue-linkage",
+            "side-payment",
+            "red-line-signaled",
+            "coalition-building"
+          ],
+          "createdAt": "2026-03-03T11:00:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-mv011",
+          "sessionId": "sess-cyprus-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-us",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "To Türkiye and the TRNC: we hear your two demands, ending isolation and security. Here is a package. If you drop 'sovereign equality' and two-state 'virgin birth' and accept a single international personality, then the United States will actively champion opening Famagusta and recognizing Ercan under EU/UN supervision, implementation of the Direct Trade Regulation, and de-linking Cyprus from Türkiye's EU accession so those talks restart. That linkage is real leverage we will spend. On security, we back replacing the 1960 Treaties with a new tripartite treaty, with any residual intervention role confined to a constituent state, not a veto over the whole island. To Cyprus and Greece: to reassure Turkish Cypriots, we will support weighted/cross-voting and reasonable residency limits in the north. Our red line stands: no recognition of the TRNC, and permanent division is unacceptable. We coordinate with the United Kingdom, the SASG, and the EU.",
+          "tacticsApplied": [
+            "conditional-offer",
+            "issue-linkage",
+            "side-payment",
+            "red-line-signaled"
+          ],
+          "createdAt": "2026-03-03T11:12:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-mv012",
+          "sessionId": "sess-cyprus-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-cyprus",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "Mr. Special Adviser, we close with measured optimism. Real convergence emerged: the UK, US, Greece, and EU all affirm a single sovereignty, single citizenship, and single international personality, and support de-linking Türkiye's EU path and unblocking direct trade against genuine confidence-building. We can support a Senate-elected Vice-President, a 10-year residency threshold for local voting, cross-voting mechanisms within one Republic, and a UN-framed treaty replacing the 1960 guarantees. Our red lines held intact: no recognition of the 'TRNC', no 'virgin birth', no rotating presidency, no external right of intervention, no permanent limits on Greek Cypriots. Gaps persist on political equality, the central government's strength, and troop withdrawal. Way forward: a UN-supervised whole-island census by an independent agency, a sequenced timeline binding verified troop withdrawal to our EU concessions, and Varosha's return to lawful owners. We thank our partners.",
+          "tacticsApplied": [
+            "principled-bargaining-frame",
+            "red-line-signaled",
+            "issue-linkage",
+            "verification-demand"
+          ],
+          "createdAt": "2026-03-03T11:24:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-mv013",
+          "sessionId": "sess-cyprus-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-trnc",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "Progress is real where confidence measures meet security. We can support the emerging package: opening Famagusta Port under UN or EU supervision, implementing the Direct Trade Regulation and Ankara Protocol movement, and de-linking Turkiye's European path, welcomed from the UK and US. We can also support a UN-framed treaty replacing the 1960 arrangements, but only as a Turkiye-Greece-Cyprus mechanism preserving our 1960-level security. Our red lines held and remain: no strong central government, no popular-vote presidency that disenfranchises Turkish Cypriots, no abrogation of the Guarantee without an acceptable replacement, and any census conducted by our own authorities. The gap is structural equality; Nicosia's single-personality demand does not yet meet it. Way forward: a UN-supervised working group to sequence trade-for-security steps first, then table a two-founding-states architecture. We coordinate fully with Turkiye.",
+          "tacticsApplied": [
+            "conditional-offer",
+            "issue-linkage",
+            "red-line-signaled",
+            "principled-bargaining-frame"
+          ],
+          "createdAt": "2026-03-03T11:36:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-mv014",
+          "sessionId": "sess-cyprus-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-greece",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "Mr. Special Adviser, Greece leaves this plenary encouraged that real convergence emerged. We can support several understandings: replacing the 1960 guarantees with a modern UN-framed treaty among a united Cyprus, Greece, and Turkiye; reopening Varosha to its lawful owners and Famagusta port under EU/UN supervision; easing Direct Trade and Ankara Protocol restrictions; and, as genuine confidence-building, de-linking Turkiye's European path. On governance we hold the compromise: a directly elected President with a Senate-elected Vice-President. Our red lines held firmly: no recognition of the entity in the north, no 'virgin birth' or two-state sovereign equality, no confederation with a hollow center, and no outside right of military intervention over the island. Gaps persist on single international personality and a timelined withdrawal. Way forward: task the SASG to draft the tripartite treaty and commission an independent island-wide census, sequencing confidence measures against verified troop drawdown.",
+          "tacticsApplied": [
+            "principled-bargaining-frame",
+            "red-line-signaled",
+            "issue-linkage",
+            "verification-demand"
+          ],
+          "createdAt": "2026-03-03T11:48:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-mv015",
+          "sessionId": "sess-cyprus-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-turkey",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "Mr. Special Adviser, this process has produced real convergence on confidence measures, and Türkiye's red lines held. We welcome the emerging consensus, from the UK, US, and even Greece, to modernize the 1960 architecture through a new tripartite treaty, and we can support it provided genuine Turkish involvement and safeguards remain, never a bare abrogation. We can support de-linking Türkiye's EU path, Direct Trade Regulation, opening Famagusta and Ercan under EU/UN supervision, and, coordinating with the TRNC, generous Varosha redevelopment for Greek Cypriot owners. But gaps remain fundamental: political equality is unmet while Nicosia insists on a strong center and a popular-vote presidency, which we reject, as we reject any outside census or forced repatriation. Way forward: sequence equality first, then implement the trade-and-security package in parallel, all coordinated with the TRNC. Equality is the price of a settlement.",
+          "tacticsApplied": [
+            "red-line-signaled",
+            "conditional-offer",
+            "issue-linkage",
+            "principled-bargaining-frame"
+          ],
+          "createdAt": "2026-03-03T12:00:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-mv016",
+          "sessionId": "sess-cyprus-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-uk",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "Mr. Special Adviser, real ground has been gained. A workable core is emerging: replacing the 1960 guarantee with a modern UN-framed treaty among a united Cyprus, Greece and Turkiye; opening Famagusta and Ercan under EU/UN supervision; unblocking Direct Trade; and de-linking Turkiye's EU path, which the UK will champion in Brussels. I welcome Cyprus's and Greece's openness to a Senate-elected Vice-President, verified census, and cross-voting to reassure Turkish Cypriots. The UK's red line held throughout: single sovereignty, single citizenship, single international personality, no recognition of two sovereign states, and no bypassing of the SASG. The unresolved gap is the presidency and 'virgin birth' framing. My proposed way forward: mandate the SASG to convene technical working groups to bank the agreed confidence-building measures now, while an executive-formula compromise is drafted, so momentum is not lost. The UK stands ready to underpin every step.",
+          "tacticsApplied": [
+            "principled-bargaining-frame",
+            "red-line-signaled",
+            "coalition-building",
+            "issue-linkage"
+          ],
+          "createdAt": "2026-03-03T12:12:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-mv017",
+          "sessionId": "sess-cyprus-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-us",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "Three rounds in, real convergence has emerged. A working understanding is within reach: replacing the 1960 Treaties with a new UN-framed treaty among a united Cyprus, Greece, and Türkiye, with any residual intervention confined to a constituent state, not a veto over the island. On confidence-building, there is broad support for opening Famagusta and Ercan under EU/UN supervision, implementing the Direct Trade Regulation, and de-linking Türkiye's EU accession, all of which the United States will actively champion. On governance, weighted and cross-voting plus reasonable residency limits are gaining traction. The gap that persists is sovereignty: 'sovereign equality' and two-state 'virgin birth' remain unresolved, and our red line held, no recognition of the TRNC and no acceptance of permanent division. Way forward: task the SASG to convert these understandings into a sequenced, verifiable roadmap, security-for-trade first, sovereignty framed as a single personality.",
+          "tacticsApplied": [
+            "principled-bargaining-frame",
+            "issue-linkage",
+            "red-line-signaled",
+            "coalition-building"
+          ],
+          "createdAt": "2026-03-03T12:24:00.000Z"
+        }
+      ],
+      "tactics": [
+        {
+          "id": "sess-cyprus-iscne-01-det000",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-cyprus",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv000"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T09:00:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det001",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-cyprus",
+          "tacticId": "sovereignty-assertion",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv000"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T09:00:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det002",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-cyprus",
+          "tacticId": "anchoring",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv000"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T09:00:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det003",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-cyprus",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv000"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T09:00:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det004",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-trnc",
+          "tacticId": "anchoring",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv001"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T09:12:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det005",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-trnc",
+          "tacticId": "sovereignty-assertion",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv001"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T09:12:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det006",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-trnc",
+          "tacticId": "appeal-to-precedent",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv001"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T09:12:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det007",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-trnc",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv001"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T09:12:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det008",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-greece",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv002"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T09:24:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det009",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-greece",
+          "tacticId": "anchoring",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv002"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T09:24:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det010",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-greece",
+          "tacticId": "sovereignty-assertion",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv002"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T09:24:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det011",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-greece",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv002"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T09:24:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det012",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-turkey",
+          "tacticId": "sovereignty-assertion",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv003"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T09:36:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det013",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-turkey",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv003"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T09:36:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det014",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-turkey",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv003"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T09:36:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det015",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-turkey",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv003"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T09:36:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det016",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-uk",
+          "tacticId": "anchoring",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv004"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T09:48:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det017",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-uk",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv004"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T09:48:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det018",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-uk",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv004"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T09:48:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det019",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-uk",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv004"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T09:48:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det020",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "anchoring",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv005"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T10:00:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det021",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv005"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T10:00:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det022",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv005"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T10:00:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det023",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv005"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T10:00:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det024",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-cyprus",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv006"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T10:12:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det025",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-cyprus",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv006"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T10:12:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det026",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-cyprus",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv006"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T10:12:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det027",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-cyprus",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv006"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T10:12:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det028",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-trnc",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv007"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T10:24:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det029",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-trnc",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv007"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T10:24:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det030",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-trnc",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv007"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T10:24:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det031",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-trnc",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv007"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T10:24:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det032",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-greece",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv008"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T10:36:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det033",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-greece",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv008"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T10:36:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det034",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-greece",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv008"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T10:36:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det035",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-greece",
+          "tacticId": "side-payment",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv008"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T10:36:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det036",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-turkey",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv009"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T10:48:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det037",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-turkey",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv009"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T10:48:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det038",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-turkey",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv009"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T10:48:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det039",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-turkey",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv009"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T10:48:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det040",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-uk",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv010"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T11:00:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det041",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-uk",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv010"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T11:00:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det042",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-uk",
+          "tacticId": "side-payment",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv010"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T11:00:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det043",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-uk",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv010"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T11:00:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det044",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-uk",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv010"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T11:00:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det045",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv011"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T11:12:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det046",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv011"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T11:12:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det047",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "side-payment",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv011"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T11:12:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det048",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv011"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T11:12:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det049",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-cyprus",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv012"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T11:24:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det050",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-cyprus",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv012"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T11:24:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det051",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-cyprus",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv012"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T11:24:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det052",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-cyprus",
+          "tacticId": "verification-demand",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv012"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T11:24:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det053",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-trnc",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv013"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T11:36:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det054",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-trnc",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv013"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T11:36:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det055",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-trnc",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv013"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T11:36:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det056",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-trnc",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv013"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T11:36:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det057",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-greece",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv014"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T11:48:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det058",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-greece",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv014"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T11:48:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det059",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-greece",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv014"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T11:48:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det060",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-greece",
+          "tacticId": "verification-demand",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv014"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T11:48:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det061",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-turkey",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv015"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T12:00:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det062",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-turkey",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv015"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T12:00:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det063",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-turkey",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv015"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T12:00:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det064",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-turkey",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv015"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T12:00:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det065",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-uk",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv016"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T12:12:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det066",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-uk",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv016"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T12:12:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det067",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-uk",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv016"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T12:12:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det068",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-uk",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv016"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T12:12:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det069",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv017"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T12:24:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det070",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv017"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T12:24:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det071",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv017"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T12:24:00.000Z"
+        },
+        {
+          "id": "sess-cyprus-iscne-01-det072",
+          "sessionId": "sess-cyprus-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-cyprus-iscne-01-mv017"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-03T12:24:00.000Z"
+        }
+      ],
+      "tacticCounts": {
+        "appeal-to-law": 3,
+        "sovereignty-assertion": 4,
+        "anchoring": 5,
+        "coalition-building": 12,
+        "appeal-to-precedent": 1,
+        "red-line-signaled": 13,
+        "issue-linkage": 14,
+        "principled-bargaining-frame": 8,
+        "conditional-offer": 8,
+        "side-payment": 3,
+        "verification-demand": 2
+      },
+      "debriefs": [
+        {
+          "teamTwinName": "diplomacy-team-us",
+          "selfRating": 3.1,
+          "satisfaction": 0.62,
+          "agreementsWon": 5,
+          "redLinesCrossedAgainstUs": 0,
+          "goals": [
+            {
+              "goalId": "single-unified-federation",
+              "description": "Move parties toward a single, reunified Republic of Cyprus with one international personality (reject two-state/virgin birth).",
+              "priority": "critical",
+              "status": "partial",
+              "evidence": [
+                "R3: 'single personality' framing held as anchor but sovereignty gap unresolved",
+                "no recognition of TRNC conceded"
+              ]
+            },
+            {
+              "goalId": "replace-1960-treaty",
+              "description": "Replace the 1960 Guarantee/Alliance treaties with a new UN-framed tripartite treaty, intervention confined to a constituent state.",
+              "priority": "high",
+              "status": "achieved",
+              "evidence": [
+                "R2/R3 broad convergence on tripartite treaty",
+                "'residual intervention confined to a constituent state, not a veto over the island'"
+              ]
+            },
+            {
+              "goalId": "cbm-progress-delink",
+              "description": "Advance CBMs (Famagusta, Ercan, DTR) and de-link Turkiye's EU accession from the dispute.",
+              "priority": "high",
+              "status": "achieved",
+              "evidence": [
+                "R3: broad support for opening Famagusta/Ercan, DTR, de-linking EU path"
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-uk",
+          "selfRating": 3.0,
+          "satisfaction": 0.6,
+          "agreementsWon": 5,
+          "redLinesCrossedAgainstUs": 0,
+          "goals": [
+            {
+              "goalId": "single-unified-republic",
+              "description": "Secure a settlement producing single sovereignty, single citizenship, single international personality.",
+              "priority": "critical",
+              "status": "partial",
+              "evidence": [
+                "R3: UK red line on single personality held throughout",
+                "no final deal; presidency and virgin-birth gap open"
+              ]
+            },
+            {
+              "goalId": "keep-un-process-central",
+              "description": "Reinforce and never bypass the UN SASG-led mediation track.",
+              "priority": "high",
+              "status": "achieved",
+              "evidence": [
+                "R3: way forward mandates SASG technical working groups to bank CBMs"
+              ]
+            },
+            {
+              "goalId": "broker-cbms-delink-turkey",
+              "description": "Broker Famagusta/Ercan opening, DTR, and de-linking Turkiye's EU path in Brussels.",
+              "priority": "high",
+              "status": "achieved",
+              "evidence": [
+                "R2/R3: UK championed de-linking and CBM package; matched its CBM fallback end-state"
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-turkey",
+          "selfRating": 3.3,
+          "satisfaction": 0.55,
+          "agreementsWon": 4,
+          "redLinesCrossedAgainstUs": 0,
+          "goals": [
+            {
+              "goalId": "political-equality-two-states",
+              "description": "Secure political equality / two equal constituent states (ideally virgin-birth new republic), reject strong center and popular-vote presidency.",
+              "priority": "critical",
+              "status": "partial",
+              "evidence": [
+                "R3: red lines on strong center and popular-vote presidency held; equality 'unmet' but not conceded away"
+              ]
+            },
+            {
+              "goalId": "preserve-guarantee-security",
+              "description": "No abrogation of the Treaty of Guarantee without an acceptable replacement preserving Turkish involvement.",
+              "priority": "critical",
+              "status": "partial",
+              "evidence": [
+                "R3: convergence on UN treaty 'provided genuine Turkish involvement and safeguards', never bare abrogation"
+              ]
+            },
+            {
+              "goalId": "end-isolation-dtr-accession",
+              "description": "End Turkish Cypriot economic isolation via DTR, Famagusta, Ercan, and de-linked EU accession.",
+              "priority": "high",
+              "status": "achieved",
+              "evidence": [
+                "R3: broad UK/US/Greece support for DTR, Famagusta/Ercan, de-linking EU path"
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-trnc",
+          "selfRating": 3.0,
+          "satisfaction": 0.5,
+          "agreementsWon": 4,
+          "redLinesCrossedAgainstUs": 0,
+          "goals": [
+            {
+              "goalId": "political-equality-virgin-birth",
+              "description": "Achieve a new United Republic of two equal founding states (or TRNC recognition as true objective).",
+              "priority": "critical",
+              "status": "partial",
+              "evidence": [
+                "R3: 'structural equality' gap unresolved; single-personality demand not met but TRNC held its line"
+              ]
+            },
+            {
+              "goalId": "end-economic-isolation",
+              "description": "Implement DTR/Ankara Protocol and open Famagusta Port under UN/EU supervision.",
+              "priority": "high",
+              "status": "achieved",
+              "evidence": [
+                "R3: TRNC supports emerging package on Famagusta, DTR, de-linking, welcomed from UK/US"
+              ]
+            },
+            {
+              "goalId": "preserve-1960-security",
+              "description": "Preserve 1960-level security; census enumerated only by TRNC authorities.",
+              "priority": "critical",
+              "status": "partial",
+              "evidence": [
+                "R3: UN treaty accepted only as Turkiye-Greece-Cyprus mechanism preserving security; census-by-own-authorities red line held"
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-greece",
+          "selfRating": 2.5,
+          "satisfaction": 0.47,
+          "agreementsWon": 2,
+          "redLinesCrossedAgainstUs": 0,
+          "goals": [
+            {
+              "goalId": "integrate-north-single-personality",
+              "description": "Integrate the occupied north into the existing Republic with a single continuous international personality; reject virgin birth.",
+              "priority": "critical",
+              "status": "partial",
+              "evidence": [
+                "R3: red lines on recognition and virgin birth held; 'gaps persist on single international personality'"
+              ]
+            },
+            {
+              "goalId": "troop-withdrawal-abolish-guarantees",
+              "description": "Full withdrawal of Turkish forces on a defined timeline and end of the 1960 guarantee system.",
+              "priority": "high",
+              "status": "failed",
+              "evidence": [
+                "R3: 'gaps persist on... a timelined withdrawal'; Turkey refused abrogation without acceptable replacement"
+              ]
+            },
+            {
+              "goalId": "delink-turkey-eu-cbm",
+              "description": "Back de-linking Turkiye's EU accession and easing DTR as confidence-building (quiet Greek interest).",
+              "priority": "medium",
+              "status": "achieved",
+              "evidence": [
+                "R2/R3: Greece actively championed de-linking and DTR easing"
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-cyprus",
+          "selfRating": 2.4,
+          "satisfaction": 0.44,
+          "agreementsWon": 2,
+          "redLinesCrossedAgainstUs": 0,
+          "goals": [
+            {
+              "goalId": "single-sovereignty-reunification",
+              "description": "Reunification under single sovereignty/citizenship/personality with a strong central government and popular-vote presidency.",
+              "priority": "critical",
+              "status": "partial",
+              "evidence": [
+                "R3: allies (UK/US/Greece/EU) affirmed single personality; red lines held but TR/TRNC did not accept; no settlement"
+              ]
+            },
+            {
+              "goalId": "demilitarization-withdrawal",
+              "description": "Verified, timelined withdrawal of foreign troops and settlers, abolishing the guarantee system.",
+              "priority": "critical",
+              "status": "failed",
+              "evidence": [
+                "R2 offer tied EU concessions to withdrawal; Turkey never committed; only sequencing discussed"
+              ]
+            },
+            {
+              "goalId": "varosha-property-justice",
+              "description": "Return of Varosha to lawful Greek Cypriot owners with property reinstatement/compensation before port opening.",
+              "priority": "high",
+              "status": "untouched",
+              "evidence": [
+                "TR/TRNC offered only 'redevelopment' keeping Varosha under their control; gap persisted through R3"
+              ]
+            }
+          ]
+        }
+      ],
+      "convenerReport": {
+        "headline": "Three rounds produced a broad confidence-building package but no breakthrough on the core sovereignty question, and every delegation's red lines survived intact.",
+        "summary": "Parties converged on a menu of practical measures: opening Famagusta port and Ercan airport under EU/UN supervision, implementing the Direct Trade Regulation, de-linking Turkiye's EU accession, and replacing the 1960 Guarantee/Alliance treaties with a new UN-framed tripartite treaty (Cyprus-Greece-Turkiye). Governance saw partial movement, with the Greek Cypriot camp offering a Senate-elected Vice-President, a 10-year residency threshold, and cross-voting in exchange for a directly elected presidency. The talks stalled squarely on sovereignty: the TRNC and Turkiye held to 'political equality' and a two-founding-states 'virgin birth', while Cyprus, Greece, the UK, and the US held equally firmly to a single international personality. No comprehensive settlement was reached, and the process was handed to the SASG to convert understandings into a sequenced roadmap.",
+        "keyOutcomes": [
+          "Cross-table convergence on opening Famagusta port and Ercan airport under EU/UN supervision and implementing the Direct Trade Regulation.",
+          "Broad support for de-linking Turkiye's EU accession from the Cyprus dispute, with the UK to champion it in Brussels.",
+          "Agreement in principle to replace the 1960 treaties with a new UN-framed tripartite treaty, with any residual intervention confined to a constituent state.",
+          "Partial governance compromise: Senate-elected Vice-President, cross/weighted voting, and a 10-year local-voting residency threshold.",
+          "All six delegations' red lines held; no party's red line was crossed against it."
+        ],
+        "unresolved": [
+          "The central sovereignty question: single international personality vs. two-state 'sovereign equality' / 'virgin birth'.",
+          "Executive structure: a popular-vote presidency vs. a Senate-elected, community-rotating presidency.",
+          "Verified, timelined withdrawal of Turkish forces and abolition of the guarantee system.",
+          "Who conducts the census: an independent island-wide agency vs. TRNC-only enumeration, and the treatment of settlers.",
+          "Varosha: return to lawful Greek Cypriot owners vs. TRNC-retained redevelopment."
+        ]
+      }
+    },
+    {
+      "id": "sess-scs-iscne-01",
+      "title": "South China Sea Crisis Talks — Klang (9-party)",
+      "description": "A UN/ASEAN-convened Special Representative gathers nine delegations in Klang, Malaysia, as competing South China Sea claims edge toward armed confrontation. Three plenary rounds (opening, bargaining & coalitions, closing) surface the core disputes: China's ten-dashed-line sovereignty claim and island-building vs. Southeast Asian claimants and extra-regional powers pressing UNCLOS, the 2016 award, freedom of navigation, and multilateral rules. Each delegation negotiates from its own privileged instructions.",
+      "mode": "negotiation",
+      "status": "concluded",
+      "currentRound": 3,
+      "createdAt": "2026-03-04T09:00:00.000Z",
+      "concludedAt": "2026-03-04T14:24:00.000Z",
+      "parties": [
+        {
+          "teamTwinName": "diplomacy-team-china",
+          "displayName": "China",
+          "side": "right",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        },
+        {
+          "teamTwinName": "diplomacy-team-us",
+          "displayName": "United States",
+          "side": "left",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        },
+        {
+          "teamTwinName": "diplomacy-team-philippines",
+          "displayName": "Philippines",
+          "side": "left",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        },
+        {
+          "teamTwinName": "diplomacy-team-vietnam",
+          "displayName": "Vietnam",
+          "side": "left",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        },
+        {
+          "teamTwinName": "diplomacy-team-malaysia",
+          "displayName": "Malaysia",
+          "side": "left",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        },
+        {
+          "teamTwinName": "diplomacy-team-brunei",
+          "displayName": "Brunei",
+          "side": "left",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        },
+        {
+          "teamTwinName": "diplomacy-team-indonesia",
+          "displayName": "Indonesia",
+          "side": "left",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        },
+        {
+          "teamTwinName": "diplomacy-team-india",
+          "displayName": "India",
+          "side": "left",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        },
+        {
+          "teamTwinName": "diplomacy-team-japan",
+          "displayName": "Japan",
+          "side": "left",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        }
+      ],
+      "rules": {
+        "maxRounds": 3,
+        "roundTimeoutMs": 120000,
+        "autoAdvance": false,
+        "procedureStyle": "plenary-with-caucus",
+        "sidebarsAllowed": true,
+        "sidebarDisclosure": "fact-only",
+        "caucusReportBack": true,
+        "rightOfReply": true,
+        "chairCanSilence": false,
+        "coalitionsVisible": true,
+        "openerPartyTwin": "diplomacy-team-china",
+        "rotateOpener": true
+      },
+      "scoreboard": [
+        {
+          "teamTwinName": "diplomacy-team-china",
+          "satisfaction": 0.42,
+          "agreementsWon": 1,
+          "redLinesCrossed": 0
+        },
+        {
+          "teamTwinName": "diplomacy-team-us",
+          "satisfaction": 0.62,
+          "agreementsWon": 2,
+          "redLinesCrossed": 0
+        },
+        {
+          "teamTwinName": "diplomacy-team-philippines",
+          "satisfaction": 0.63,
+          "agreementsWon": 3,
+          "redLinesCrossed": 0
+        },
+        {
+          "teamTwinName": "diplomacy-team-vietnam",
+          "satisfaction": 0.55,
+          "agreementsWon": 2,
+          "redLinesCrossed": 0
+        },
+        {
+          "teamTwinName": "diplomacy-team-malaysia",
+          "satisfaction": 0.6,
+          "agreementsWon": 3,
+          "redLinesCrossed": 0
+        },
+        {
+          "teamTwinName": "diplomacy-team-brunei",
+          "satisfaction": 0.52,
+          "agreementsWon": 2,
+          "redLinesCrossed": 0
+        },
+        {
+          "teamTwinName": "diplomacy-team-indonesia",
+          "satisfaction": 0.54,
+          "agreementsWon": 2,
+          "redLinesCrossed": 0
+        },
+        {
+          "teamTwinName": "diplomacy-team-india",
+          "satisfaction": 0.5,
+          "agreementsWon": 1,
+          "redLinesCrossed": 0
+        },
+        {
+          "teamTwinName": "diplomacy-team-japan",
+          "satisfaction": 0.56,
+          "agreementsWon": 2,
+          "redLinesCrossed": 0
+        }
+      ],
+      "moves": [
+        {
+          "id": "sess-scs-iscne-01-mv000",
+          "sessionId": "sess-scs-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-china",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "China thanks the Special Representative and welcomes our neighbors to Klang. The South China Sea has been Chinese territory since ancient times, and our sovereignty over the Xisha and Nansha islands and adjacent waters is indisputable. We come not as a colonial power but as this region's committed partner, guided by Good Neighborliness and the Five Principles of Peaceful Coexistence. Peace here is a matter for the nations who live here. Lasting stability will come through direct, bilateral talks among regional states, not imported frameworks or external legal rulings, and certainly not the naval presence of powers thousands of miles away whose interference has driven this crisis. We invite Malaysia, Vietnam, the Philippines, Brunei, and Indonesia toward shared prosperity: a Nansha Joint Resource Development Agency, joint fisheries arrangements, and orderly navigation consistent with UNCLOS. Let us shelve disputes, develop jointly, and keep our sea a sea of peace.",
+          "tacticsApplied": [
+            "sovereignty-assertion",
+            "coalition-building",
+            "delay-tactic",
+            "principled-bargaining-frame"
+          ],
+          "createdAt": "2026-03-04T09:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-mv001",
+          "sessionId": "sess-scs-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-us",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "The United States comes to Klang as a partner, not a party to the territorial claims, and offers its good offices to help every delegation reach a durable, peaceful settlement. Our priorities are simple and rooted in law. First, freedom of navigation and innocent passage are the inherent right of all nations through these international waters, which carry a third of the world's trade. Second, maritime entitlements must flow only from legitimate land features under UNCLOS; artificial installations generate no zones, and expansive historic-rights lines have no basis in law. Third, the 2016 arbitral award is final and binding. We anchor on the principle that disputes are settled by law, not coercion or force. We commend Malaysia's ASEAN stewardship and support a binding code of conduct, equitable joint resource development, and confidence-building measures. We welcome cooperative engagement with all present, including China.",
+          "tacticsApplied": [
+            "freedom-of-navigation-frame",
+            "appeal-to-law",
+            "anchoring",
+            "coalition-building"
+          ],
+          "createdAt": "2026-03-04T09:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-mv002",
+          "sessionId": "sess-scs-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-philippines",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "As ASEAN Chair, the Philippines comes to Klang committed to a peaceful, rules-based settlement. Our headline priorities are three. First, UNCLOS is the sole legal framework for these waters; the nine-dashed line has no basis in law, and the 2016 arbitral award is final and binding on all parties. Second, freedom of navigation and innocent passage are unassailable rights of every nation. Third, coast-guard harassment, water-cannoning, ramming, and further reclamation must cease so confidence can be rebuilt. We anchor on these principles as non-negotiable, but we come cooperatively: reclaimed artificial features generate no territorial sea or EEZ, yet we are ready to enclave genuinely disputed features and open joint fisheries and energy development in undisputed zones. We seek a single binding, enforceable ASEAN Code of Conduct, negotiated multilaterally, and we look to Vietnam, Malaysia, Brunei, Indonesia, and our partners to stand together.",
+          "tacticsApplied": [
+            "appeal-to-law",
+            "anchoring",
+            "freedom-of-navigation-frame",
+            "coalition-building"
+          ],
+          "createdAt": "2026-03-04T09:24:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-mv003",
+          "sessionId": "sess-scs-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-vietnam",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "Vietnam thanks the Special Representative and comes to Klang seeking a peaceful, equitable, and lasting settlement in the East Sea. Our position rests on one foundation: UNCLOS is the sole and comprehensive legal basis for all maritime entitlements. The nine-dashed-line claim has no standing in law and must be clarified against UNCLOS rules on islands, EEZs, and continental shelves; reclaimed artificial features generate no sovereign zones. We honor the 2016 Arbitral Award as binding precedent. We insist on a strong, united ASEAN and a binding Code of Conduct with real enforcement, negotiated multilaterally, not through coercive bilateral deals. We call for an immediate halt to militarization and confidence-building measures to protect fishermen and freedom of navigation. Vietnam is pragmatic: we support joint development of resources for mutual benefit. We look to our ASEAN partners and friends across the Asia-Pacific to speak with one voice.",
+          "tacticsApplied": [
+            "appeal-to-law",
+            "appeal-to-precedent",
+            "coalition-building",
+            "principled-bargaining-frame"
+          ],
+          "createdAt": "2026-03-04T09:36:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-mv004",
+          "sessionId": "sess-scs-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-malaysia",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "Malaysia welcomes all delegations to Klang and thanks the Special Representative. As host, we come not to press a maximalist claim but to serve as an honest broker for a peaceful, lawful settlement. Our headline priorities are clear. First, the threat or use of force, and every form of military, economic, or political coercion, must end; water-cannon, ramming, and floating barriers have no place here. Second, UNCLOS is binding on all: maritime entitlements flow only from land lawfully verified, and no state enjoys historic rights beyond those limits. We regard the 2016 arbitral award as settled precedent. Third, we champion ASEAN centrality and a binding Code of Conduct, complemented by pragmatic bilateral tracks that keep every party engaged. Malaysia proposes we anchor Round One on immediate confidence-building, patrol restraint and mutual EEZ respect, before comprehensive terms. We invite our ASEAN partners to coordinate closely through us.",
+          "tacticsApplied": [
+            "appeal-to-law",
+            "appeal-to-precedent",
+            "principled-bargaining-frame",
+            "coalition-building"
+          ],
+          "createdAt": "2026-03-04T09:48:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-mv005",
+          "sessionId": "sess-scs-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-brunei",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "Brunei Darussalam thanks the Special Representative and warmly greets every delegation. We come as a small, cordial ASEAN claimant with one overriding aim: restoring peace and tranquility to our shared waters. Our anchor is simple and non-negotiable in principle: UNCLOS binds us all. Article 87 and Articles 17 to 19 guarantee freedom of navigation and innocent passage, and reclaimed artificial features cannot generate territorial seas or exclusive economic zones. Every claim must rest on verifiable law, resolved by peaceful means, never by military, economic, or political coercion. We propose sovereignty questions be advanced bilaterally, while conduct, fisheries, and militarization are addressed multilaterally, ultimately codified in a new ASEAN South China Sea dialogue mechanism. Brunei stands ready to serve as a trusted bridge among all parties, including Beijing, and to convene joint energy and commercial cooperation once tensions ease. Let us begin constructively.",
+          "tacticsApplied": [
+            "appeal-to-law",
+            "freedom-of-navigation-frame",
+            "principled-bargaining-frame",
+            "coalition-building"
+          ],
+          "createdAt": "2026-03-04T10:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-mv006",
+          "sessionId": "sess-scs-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-indonesia",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "Indonesia thanks the Special Representative and comes to Klang as an honest broker. Our region has drifted dangerously close to armed confrontation; our first task is to restore peace and tranquility. We anchor on three principles. First, the rule of law: UNCLOS governs these waters, freedom of navigation and innocent passage under Articles 17-19 and 87 are inviolable, and no Spratly feature, including reclaimed artificial structures, generates an exclusive economic zone or continental shelf on its own. Second, no coercion: the threat or use of force, and any military, economic, or political pressure, is unacceptable. Third, ASEAN centrality and consensus, the indispensable venue for durable settlement. We invite every claimant into an inclusive, multilateral process, and we stand ready to convene near-term confidence-building measures and joint energy and fisheries ventures that reward cooperation. Indonesia will work with all delegations toward an equitable, non-military path forward.",
+          "tacticsApplied": [
+            "appeal-to-law",
+            "principled-bargaining-frame",
+            "coalition-building",
+            "freedom-of-navigation-frame"
+          ],
+          "createdAt": "2026-03-04T10:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-mv007",
+          "sessionId": "sess-scs-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-india",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "India comes to Klang as a concerned maritime power and an honest broker, not a claimant. These waters carry a third of world trade; their peace is a global public good. Our priorities are three. First, law: any durable settlement must rest wholly on the 1982 UNCLOS. We cannot accept that a ten-dashed line or reclaimed artificial features generate territorial seas or exclusive economic zones. Second, navigation: freedom of passage across the western Pacific is non-negotiable and must be affirmed by all. Third, process: ASEAN, supported by this UN convening, is the proper conduit, and any Code of Conduct must conform to UNCLOS and not prejudice third parties. We anchor on a verifiable, UNCLOS-based framework, and we favor confidence-building measures, joint energy cooperation, and coordinated patrols. India stands ready to work with ASEAN, Japan, and the United States. Time is not on the side of confrontation.",
+          "tacticsApplied": [
+            "appeal-to-law",
+            "freedom-of-navigation-frame",
+            "coalition-building",
+            "principled-bargaining-frame"
+          ],
+          "createdAt": "2026-03-04T10:24:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-mv008",
+          "sessionId": "sess-scs-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-japan",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "Japan comes to Klang not as a claimant, but as a trusted partner and honest broker. One-third of global trade transits these waters; our shared prosperity depends on restoring peace and tranquility across the region. Three principles anchor us. First, freedom of navigation, overflight, and innocent passage are fundamental rights that no nation may impinge. Second, UNCLOS is the exclusive rulebook: baselines and entitlements must meet its conditions, and reclaimed artificial features generate no maritime zones. Third, the 2016 arbitral award is clear and binding on all parties. We call for demilitarization, a halt to reclamation, buoys, and coast-guard harassment, and joint cooperative energy and fisheries ventures as confidence-building measures. Lasting settlement belongs in a new ASEAN-hubbed SCS dialogue system, with Japan ready to mediate. We stand with the Philippines, Vietnam, ASEAN, the United States, and India for a lawful, peaceful resolution.",
+          "tacticsApplied": [
+            "appeal-to-law",
+            "freedom-of-navigation-frame",
+            "coalition-building",
+            "principled-bargaining-frame"
+          ],
+          "createdAt": "2026-03-04T10:36:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-mv009",
+          "sessionId": "sess-scs-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-china",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "China notes that Washington, Tokyo, and New Delhi, none of them claimants, have spent this round dictating law to Asians in their own sea. We reject that. The 2016 award is null and non-binding; this remains a red line and no code including extra-regional powers is acceptable. To our neighbors, concrete offers. Malaysia: as host you have earned first standing at a Nansha Joint Resource Development Agency; if you keep sovereignty on the bilateral track and off Washington's, China guarantees Luconia gas revenue-sharing and coast-guard restraint. Brunei, the same terms await. Vietnam and the Philippines: if you drop enforcement of the arbitral award, China will conclude binding joint-fisheries and energy pacts and end the water-cannoning you fear. Indonesia: we affirm respect for Natuna's waters in exchange for your honest-broker neutrality. Regional problems, regional solutions, regional prosperity. Let the outsiders sail home.",
+          "tacticsApplied": [
+            "red-line-signaled",
+            "conditional-offer",
+            "side-payment",
+            "issue-linkage"
+          ],
+          "createdAt": "2026-03-04T10:48:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-mv010",
+          "sessionId": "sess-scs-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-us",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "To China: you cast our presence as external interference. Yet Japan, India, the Philippines, Vietnam, Malaysia, Indonesia, and Brunei have each affirmed UNCLOS, the 2016 award, and freedom of navigation. That is the region's voice, not Washington's, and our forward presence continues at their behest. Here is a concrete package. If China verifiably freezes reclamation and militarization on contested features and halts coast-guard harassment of Philippine and Vietnamese vessels, the United States will calibrate the tempo of FONOPS accordingly and broaden trade and high-level exchanges with Beijing. If claimants adopt Malaysia's ASEAN Code of Conduct and the Philippines' ZoPFF/C joint-development model, we will underwrite confidence-building measures and mediation. Two red lines hold: no recognition of the ten-dashed line or artificial-island zones, and no retreat from our treaty commitment to Manila. Japan and India, let us align one voice toward Beijing.",
+          "tacticsApplied": [
+            "conditional-offer",
+            "issue-linkage",
+            "coalition-building",
+            "red-line-signaled"
+          ],
+          "createdAt": "2026-03-04T11:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-mv011",
+          "sessionId": "sess-scs-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-philippines",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "The Philippines thanks Vietnam, Malaysia, Brunei, and Indonesia for anchoring on UNCLOS, and welcomes the US, Japan, and India as guarantors of navigation. To China: we heard your Nansha Joint Development offer, and here is a concrete package. If Beijing publicly halts reclamation, removes the Scarborough barriers, ends water-cannoning and ramming, and negotiates the Code of Conduct multilaterally through the ASEAN chair, then the Philippines will enclave genuinely disputed features, suspend provocative patrols reciprocally, and open joint fisheries and energy exploration in undisputed zones under ZoPFF/C, with Vietnam included. That is our conditional offer. But this cooperation is impossible under your ten-dashed line: we will not legitimize it, nor waive the binding 2016 award, nor grant EEZs to artificial features, that red line holds. Bilateral-only tracks that bypass ASEAN are rejected. Vietnam, we urge you, file your own case and stand with us. Coalition partners: Vietnam, Malaysia, Brunei, Indonesia, Japan, the US, India.",
+          "tacticsApplied": [
+            "conditional-offer",
+            "issue-linkage",
+            "red-line-signaled",
+            "coalition-building"
+          ],
+          "createdAt": "2026-03-04T11:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-mv012",
+          "sessionId": "sess-scs-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-vietnam",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "Vietnam thanks the Philippines for its ASEAN leadership and Malaysia for hosting. To China: your Nansha Joint Resource Development Agency is welcome only on one condition. If Beijing accepts that all entitlements flow from UNCLOS and freezes further reclamation and militarization, then Vietnam will table joint development in genuinely overlapping continental-shelf zones and shelve sovereignty disputes over specific features while we negotiate. Absent that, we hold firm: the nine-dashed line is no legal basis, and militarization must terminate indefinitely, a red line we will not trade. Issue-linkage: we will endorse cooperative fisheries and confidence-building measures in exchange for a binding, enforceable Code of Conduct negotiated multilaterally, not bilaterally imposed. We align with the Philippines, Malaysia, Brunei, and Indonesia on ASEAN unity, and welcome the security engagement of Japan, India, and the United States. Brunei, Indonesia, let us coordinate one ASEAN voice before the next session.",
+          "tacticsApplied": [
+            "conditional-offer",
+            "issue-linkage",
+            "red-line-signaled",
+            "coalition-building"
+          ],
+          "createdAt": "2026-03-04T11:24:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-mv013",
+          "sessionId": "sess-scs-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-malaysia",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "Malaysia hears China's Nansha Joint Development proposal and its promise of \"orderly navigation consistent with UNCLOS.\" Here is our bridge, and Malaysia is best placed to carry it. If Beijing freezes further reclamation and coast-guard harassment and accepts UNCLOS as the sole yardstick for entitlements, then Malaysia will convene phased joint fisheries and energy ventures and channel Vietnam, Brunei, and Philippine files through one coordinated ASEAN track, sparing China nine separate confrontations. To Indonesia: let us shelve Ambalat now and present a united Natuna-to-Spratly front. But one red line stands, China: no recognition of the ten-dashed line or historic rights beyond UNCLOS, and the 2016 award is settled precedent, non-tradable. Issue-linkage for our partners, Japan and India: back this ASEAN-led sequence and Malaysia will expand trade access and energy cooperation. Klang was chosen for a reason, let Malaysia broker it.",
+          "tacticsApplied": [
+            "conditional-offer",
+            "issue-linkage",
+            "coalition-building",
+            "red-line-signaled"
+          ],
+          "createdAt": "2026-03-04T11:36:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-mv014",
+          "sessionId": "sess-scs-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-brunei",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "Brunei thanks Malaysia's stewardship and hears Beijing's call for joint development. Here is a package. If China freezes reclamation and suspends coast-guard harassment against Philippine and Vietnamese vessels, Brunei will convene, as trusted facilitator, a pilot joint energy venture in undisputed blocks and advance sovereignty questions bilaterally, sparing Beijing premature multilateral pressure. But a red line stands: the ten-dashed line cannot be legitimized, and reclaimed features generate no zones under UNCLOS. That is not tradable. To the Philippines and Vietnam, Brunei stands firmly with your UNCLOS-verifiable claims and the 2016 award; we will not barter that support away. We invite Indonesia and Malaysia to co-sponsor a CBM-first roadmap, and welcome the United States, Japan, and India as trusted partners underwriting verification. If the region grants Brunei the facilitator's chair, we will keep every door, including Beijing's, open.",
+          "tacticsApplied": [
+            "conditional-offer",
+            "issue-linkage",
+            "red-line-signaled",
+            "coalition-building"
+          ],
+          "createdAt": "2026-03-04T11:48:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-mv015",
+          "sessionId": "sess-scs-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-indonesia",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "Indonesia hears China's Nansha Joint Development idea and will help convene it, but on terms. Conditional offer to Beijing: if China freezes reclamation and coast-guard harassment and accepts that no ten-dashed line applies inside members' EEZs, then Indonesia will lead ASEAN into a joint resource-and-fisheries authority that shares revenue and keeps sovereignty questions parked. Issue-linkage: militarization restraint unlocks the energy prize China says it wants. On our red line, we hold firm with Malaysia, Vietnam, the Philippines, and Brunei, no artificial feature generates an EEZ or continental shelf; that is UNCLOS, not negotiable. Side-payment: to India and Japan, expanded ASEAN trade and investment access in return for backing this framework and coordinated patrols. To Manila and Hanoi, we can enclave genuinely disputed features to speed agreement. Indonesia asks to broker the China channel directly. Let us build the package.",
+          "tacticsApplied": [
+            "conditional-offer",
+            "issue-linkage",
+            "side-payment",
+            "red-line-signaled"
+          ],
+          "createdAt": "2026-03-04T12:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-mv016",
+          "sessionId": "sess-scs-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-india",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "India hears China's offer of a Nansha Joint Resource Development Agency and joint fisheries. We can support genuine joint development, but only on one condition: if China accepts that reclaimed artificial features generate no territorial sea or EEZ and freezes further reclamation, buoys, and coast-guard harassment, then India will back cooperative energy exploration and offer expanded commercial and infrastructure investment to participating claimants as a side-payment. That is our package. To Malaysia, Indonesia, and Brunei: your honest-broker instinct is right, but a code of conduct must conform to UNCLOS and not prejudice third parties, or it is hollow. To the Philippines and Vietnam: our support tracks UNCLOS-verifiable claims. We align with the United States, Japan, Indonesia, Vietnam, and the Philippines. On one red line be clear: freedom of passage across the western Pacific is not negotiable. Time is not on Beijing's side.",
+          "tacticsApplied": [
+            "conditional-offer",
+            "issue-linkage",
+            "side-payment",
+            "coalition-building",
+            "red-line-signaled"
+          ],
+          "createdAt": "2026-03-04T12:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-mv017",
+          "sessionId": "sess-scs-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-japan",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "Japan puts concrete packages on the table. To China: we welcome your Nansha Joint Development idea, but it cannot rest on the ten-dashed line, which Japan will never recognize, that red line is non-negotiable. If Beijing freezes reclamation, removes Scarborough barriers, and accepts the 2016 award as the baseline, then Japan will co-finance joint energy and fisheries ventures and broker orderly access. To the Philippines and Vietnam: Japan pledges concessional infrastructure and coast-guard capacity-building; in exchange, we ask you to route contested features into UNCLOS adjudication and enclave genuinely disputed rocks. To Malaysia, Indonesia, and Brunei: use your Beijing ties to secure a verifiable reclamation freeze, and Japan will underwrite an ASEAN-hubbed SCS hotline and joint patrols. We align with the United States, India, and ASEAN. Law first; then Japanese capital follows cooperation. Coercion forfeits it.",
+          "tacticsApplied": [
+            "conditional-offer",
+            "issue-linkage",
+            "side-payment",
+            "red-line-signaled",
+            "coalition-building"
+          ],
+          "createdAt": "2026-03-04T12:24:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-mv018",
+          "sessionId": "sess-scs-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-china",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "China thanks the Special Representative and our neighbors. Real progress was made: Malaysia, Brunei, Indonesia, Vietnam, even Manila, embraced joint development, fisheries, and confidence-building. These understandings China supports, and we affirm coast-guard restraint, Luconia revenue-sharing, and respect for Natuna's waters. One gap remains: efforts to bind Asians to the null 2016 award, to erase the ten-dashed line, and to seat Washington, Tokyo, and New Delhi, no claimants, at a regional table. Our red lines held and hold firm: sovereignty over Xisha and Nansha is indisputable, no reclaimed feature is rolled back, the award is non-binding, and no code including extra-regional powers is acceptable. The concrete way forward: conclude bilateral joint-development and fisheries pacts through a Nansha Agency, shelve sovereignty for later, and keep outsiders out. Regional problems, regional solutions. Let us finish among ourselves.",
+          "tacticsApplied": [
+            "sovereignty-assertion",
+            "red-line-signaled",
+            "delay-tactic",
+            "conditional-offer"
+          ],
+          "createdAt": "2026-03-04T12:36:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-mv019",
+          "sessionId": "sess-scs-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-us",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "Chair, this plenary produced real convergence. Eight delegations, including Malaysia, Indonesia, and Brunei whom Beijing courted, affirmed one yardstick: UNCLOS, that no artificial feature generates zones, and that reclamation and coast-guard harassment must freeze. All would channel joint development, ZoPFF/C, the Nansha and Luconia ideas, through a single ASEAN-led track. The United States supports that convergence and will underwrite verification and confidence-building measures. Two gaps remain: China still rejects the binding 2016 award and an inclusive Code of Conduct, and clings to bilateral pressure that divides claimants. Our red lines held, no recognition of the ten-dashed line or artificial-island zones, no retreat from our commitment to Manila, and freedom of navigation continues for all. Way forward: mandate Malaysia to merge these proposals into one UNCLOS-conformant CoC text, with a verifiable reclamation-and-harassment freeze as the first step. We offer our good offices. Japan, India, ASEAN, one voice.",
+          "tacticsApplied": [
+            "principled-bargaining-frame",
+            "coalition-building",
+            "red-line-signaled",
+            "freedom-of-navigation-frame"
+          ],
+          "createdAt": "2026-03-04T12:48:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-mv020",
+          "sessionId": "sess-scs-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-philippines",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "As ASEAN Chair, the Philippines closes with real progress: eight delegations, Vietnam, Malaysia, Brunei, Indonesia, Japan, the US, and India, converged on UNCLOS as sole yardstick, the binding 2016 award, no zones for artificial features, and a multilaterally-negotiated Code of Conduct. We can support the ZoPFF/C joint-development and CBM roadmap Malaysia, Brunei, and Indonesia advanced, and the guarantors' underwriting. The gap is singular: China still demands we drop enforcement of the award and accept bilateral-only tracks under the ten-dashed line. That we cannot do. Our red lines held: no legitimizing the dashed line, no waiving the award, no surrender of EEZ or the three reclaimed atolls. Way forward: convene an ASEAN-chaired Code of Conduct drafting session, verifiable reclamation-and-harassment freeze first, then enclave disputes and open undisputed joint development. Vietnam, file your case. We keep Beijing's door open, on law.",
+          "tacticsApplied": [
+            "appeal-to-law",
+            "principled-bargaining-frame",
+            "red-line-signaled",
+            "coalition-building"
+          ],
+          "createdAt": "2026-03-04T13:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-mv021",
+          "sessionId": "sess-scs-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-vietnam",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "Vietnam closes with cautious optimism. Real progress exists: every delegation but one affirms UNCLOS as the sole legal basis, that artificial features generate no zones, and that coast-guard harassment must stop. Vietnam supports the ASEAN-coordinated single track Malaysia and the Philippines advanced, CBMs, and phased joint development in genuinely overlapping continental-shelf zones. The gaps are China's: the nine-dashed line, rejection of the binding 2016 award, refusal to freeze militarization, and insistence on bilateral-only deals excluding partners. Our red lines held. There is no settlement on the ten-dashed line, no trading away demilitarization, no ASEAN bypass. Way forward: a binding, enforceable Code of Conduct negotiated multilaterally; a verifiable, reciprocal reclamation-and-militarization freeze; joint fisheries and energy pilots under ZoPFF/C with the Philippines included. Absent good-faith movement from Beijing, Vietnam reserves recourse to UNCLOS arbitration. We stand united with our ASEAN partners and welcome our friends.",
+          "tacticsApplied": [
+            "appeal-to-law",
+            "red-line-signaled",
+            "coalition-building",
+            "conditional-offer"
+          ],
+          "createdAt": "2026-03-04T13:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-mv022",
+          "sessionId": "sess-scs-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-malaysia",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "Malaysia closes with measured optimism. Real convergence has emerged: every ASEAN claimant and our partners now anchor entitlements in UNCLOS, endorse a CBM-first roadmap, a verifiable freeze on reclamation and coast-guard harassment, and phased joint fisheries and energy ventures. We can support that package and a binding, ASEAN-negotiated Code of Conduct. Two gaps remain. Beijing still rejects the 2016 award and clings to the ten-dashed line, and would exclude parties who share these waters' trade. Our red lines held firm: no recognition of historic-rights claims beyond UNCLOS, no settlement won by coercion, the award non-tradable, and ASEAN solidarity not bartered to any outside power. Way forward: let Malaysia convene, from Klang, a coordinated ASEAN channel to Beijing, sequencing an immediate verifiable freeze, joint development in undisputed blocks, then Code-of-Conduct talks. We keep every door open.",
+          "tacticsApplied": [
+            "principled-bargaining-frame",
+            "red-line-signaled",
+            "coalition-building",
+            "conditional-offer"
+          ],
+          "createdAt": "2026-03-04T13:24:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-mv023",
+          "sessionId": "sess-scs-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-brunei",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "Brunei closes with cautious optimism. Real convergence has emerged: every ASEAN claimant and our partners affirm UNCLOS as the sole yardstick, a verifiable reclamation and harassment freeze, and phased joint fisheries and energy ventures. On these understandings Brunei can build, and we thank Beijing for engaging the joint-development track. Two gaps remain: China's rejection of the 2016 award and its insistence on excluding extra-regional partners from any code. Our red lines held firm. The ten-dashed line was not legitimized; artificial features generate no zones; and our support for the Philippines' and Vietnam's UNCLOS-verifiable claims was never traded. Way forward: adopt a CBM-first roadmap now, with the reclamation freeze independently verified, sovereignty advanced bilaterally, and conduct codified through a new ASEAN South China Sea dialogue mechanism. Brunei offers the facilitator's chair to keep every door, including Beijing's, open.",
+          "tacticsApplied": [
+            "principled-bargaining-frame",
+            "red-line-signaled",
+            "verification-demand",
+            "coalition-building"
+          ],
+          "createdAt": "2026-03-04T13:36:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-mv024",
+          "sessionId": "sess-scs-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-indonesia",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "Indonesia closes as it opened, an honest broker, and finds genuine progress. Eight delegations now converge on UNCLOS as the sole yardstick, that no reclaimed feature generates an EEZ or continental shelf, on freedom of navigation, and on a CBM-first roadmap with a verifiable freeze on reclamation and coast-guard harassment unlocking joint fisheries and energy ventures. That package Indonesia can support, alongside a binding, ASEAN-negotiated Code of Conduct. The gap is narrow but real: Beijing still rejects the 2016 award and prefers bilateral pressure. Our red lines held, the ten-dashed line was not legitimized, no coercion was rewarded, verifiable claims were respected. Way forward: mandate one coordinated ASEAN channel to Beijing, sequencing an independently verified freeze, joint development in undisputed blocks, then the Code. Indonesia, trusted by all sides, offers to broker that China channel directly. Keep every door open.",
+          "tacticsApplied": [
+            "principled-bargaining-frame",
+            "red-line-signaled",
+            "coalition-building",
+            "verification-demand"
+          ],
+          "createdAt": "2026-03-04T13:48:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-mv025",
+          "sessionId": "sess-scs-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-india",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "India assesses real progress. Eight delegations now converge on one premise: UNCLOS is the sole yardstick, artificial features generate no zones, and a verifiable freeze on reclamation and coast-guard harassment must precede any joint development. India supports that consensus, plus an ASEAN-led Code of Conduct, cooperative energy and fisheries, an SCS hotline, and coordinated patrols. One gap remains: China alone rejects the award, clings to the ten-dashed line, and would exclude extra-regional partners and force bilateral tracks. That we cannot accept. Our red lines held intact. Way forward: adopt an interim CBM package now, brokered through Malaysia and Indonesia, conforming to UNCLOS and not prejudicing third parties, with India offering commercial and infrastructure investment to participating claimants. Freedom of passage stays non-negotiable. The door to Beijing remains open, but time is not on confrontation's side.",
+          "tacticsApplied": [
+            "principled-bargaining-frame",
+            "coalition-building",
+            "conditional-offer",
+            "red-line-signaled"
+          ],
+          "createdAt": "2026-03-04T14:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-mv026",
+          "sessionId": "sess-scs-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-japan",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "Japan sees real convergence. Every claimant, plus the US and India, has anchored on UNCLOS, ruled that artificial features generate no zones, and demanded a verifiable freeze on reclamation and coast-guard harassment. Japan supports these understandings: an ASEAN-hubbed Code of Conduct, enclaving of genuinely disputed features, and phased joint fisheries and energy ventures in undisputed blocks, which Japan will co-finance. One gap remains: China alone rejects the 2016 award and seeks to exclude trusted partners and split ASEAN with bilateral side-deals. Japan's red lines held intact, no legitimization of the ten-dashed line, no award waiver, no impingement of navigation. Way forward: stand up the ASEAN dialogue with a monitored reclamation-freeze pilot; Japanese capital and coast-guard capacity follow verified compliance, not coercion. Law first, then prosperity. We align with ASEAN, the United States, and India.",
+          "tacticsApplied": [
+            "principled-bargaining-frame",
+            "appeal-to-law",
+            "coalition-building",
+            "conditional-offer"
+          ],
+          "createdAt": "2026-03-04T14:12:00.000Z"
+        }
+      ],
+      "tactics": [
+        {
+          "id": "sess-scs-iscne-01-det000",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "sovereignty-assertion",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv000"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T09:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det001",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv000"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T09:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det002",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "delay-tactic",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv000"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T09:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det003",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv000"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T09:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det004",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "freedom-of-navigation-frame",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv001"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T09:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det005",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv001"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T09:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det006",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "anchoring",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv001"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T09:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det007",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv001"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T09:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det008",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-philippines",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv002"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T09:24:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det009",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-philippines",
+          "tacticId": "anchoring",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv002"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T09:24:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det010",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-philippines",
+          "tacticId": "freedom-of-navigation-frame",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv002"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T09:24:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det011",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-philippines",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv002"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T09:24:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det012",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-vietnam",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv003"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T09:36:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det013",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-vietnam",
+          "tacticId": "appeal-to-precedent",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv003"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T09:36:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det014",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-vietnam",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv003"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T09:36:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det015",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-vietnam",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv003"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T09:36:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det016",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-malaysia",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv004"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T09:48:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det017",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-malaysia",
+          "tacticId": "appeal-to-precedent",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv004"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T09:48:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det018",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-malaysia",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv004"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T09:48:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det019",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-malaysia",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv004"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T09:48:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det020",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-brunei",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv005"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T10:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det021",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-brunei",
+          "tacticId": "freedom-of-navigation-frame",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv005"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T10:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det022",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-brunei",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv005"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T10:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det023",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-brunei",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv005"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T10:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det024",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-indonesia",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv006"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T10:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det025",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-indonesia",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv006"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T10:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det026",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-indonesia",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv006"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T10:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det027",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-indonesia",
+          "tacticId": "freedom-of-navigation-frame",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv006"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T10:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det028",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-india",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv007"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T10:24:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det029",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-india",
+          "tacticId": "freedom-of-navigation-frame",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv007"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T10:24:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det030",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-india",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv007"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T10:24:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det031",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-india",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv007"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T10:24:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det032",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-japan",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv008"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T10:36:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det033",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-japan",
+          "tacticId": "freedom-of-navigation-frame",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv008"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T10:36:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det034",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-japan",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv008"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T10:36:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det035",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-japan",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv008"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T10:36:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det036",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv009"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T10:48:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det037",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv009"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T10:48:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det038",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "side-payment",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv009"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T10:48:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det039",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv009"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T10:48:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det040",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv010"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T11:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det041",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv010"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T11:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det042",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv010"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T11:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det043",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv010"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T11:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det044",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-philippines",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv011"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T11:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det045",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-philippines",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv011"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T11:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det046",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-philippines",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv011"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T11:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det047",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-philippines",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv011"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T11:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det048",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-vietnam",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv012"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T11:24:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det049",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-vietnam",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv012"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T11:24:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det050",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-vietnam",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv012"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T11:24:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det051",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-vietnam",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv012"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T11:24:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det052",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-malaysia",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv013"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T11:36:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det053",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-malaysia",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv013"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T11:36:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det054",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-malaysia",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv013"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T11:36:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det055",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-malaysia",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv013"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T11:36:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det056",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-brunei",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv014"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T11:48:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det057",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-brunei",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv014"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T11:48:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det058",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-brunei",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv014"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T11:48:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det059",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-brunei",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv014"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T11:48:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det060",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-indonesia",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv015"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T12:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det061",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-indonesia",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv015"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T12:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det062",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-indonesia",
+          "tacticId": "side-payment",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv015"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T12:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det063",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-indonesia",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv015"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T12:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det064",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-india",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv016"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T12:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det065",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-india",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv016"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T12:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det066",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-india",
+          "tacticId": "side-payment",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv016"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T12:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det067",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-india",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv016"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T12:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det068",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-india",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv016"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T12:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det069",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-japan",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv017"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T12:24:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det070",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-japan",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv017"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T12:24:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det071",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-japan",
+          "tacticId": "side-payment",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv017"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T12:24:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det072",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-japan",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv017"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T12:24:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det073",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-japan",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv017"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T12:24:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det074",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "sovereignty-assertion",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv018"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T12:36:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det075",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv018"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T12:36:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det076",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "delay-tactic",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv018"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T12:36:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det077",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv018"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T12:36:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det078",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv019"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T12:48:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det079",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv019"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T12:48:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det080",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv019"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T12:48:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det081",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "freedom-of-navigation-frame",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv019"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T12:48:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det082",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-philippines",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv020"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T13:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det083",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-philippines",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv020"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T13:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det084",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-philippines",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv020"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T13:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det085",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-philippines",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv020"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T13:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det086",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-vietnam",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv021"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T13:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det087",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-vietnam",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv021"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T13:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det088",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-vietnam",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv021"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T13:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det089",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-vietnam",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv021"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T13:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det090",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-malaysia",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv022"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T13:24:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det091",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-malaysia",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv022"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T13:24:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det092",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-malaysia",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv022"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T13:24:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det093",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-malaysia",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv022"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T13:24:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det094",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-brunei",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv023"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T13:36:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det095",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-brunei",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv023"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T13:36:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det096",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-brunei",
+          "tacticId": "verification-demand",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv023"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T13:36:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det097",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-brunei",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv023"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T13:36:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det098",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-indonesia",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv024"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T13:48:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det099",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-indonesia",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv024"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T13:48:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det100",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-indonesia",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv024"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T13:48:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det101",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-indonesia",
+          "tacticId": "verification-demand",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv024"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T13:48:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det102",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-india",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv025"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T14:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det103",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-india",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv025"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T14:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det104",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-india",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv025"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T14:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det105",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-india",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv025"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T14:00:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det106",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-japan",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv026"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T14:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det107",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-japan",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv026"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T14:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det108",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-japan",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv026"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T14:12:00.000Z"
+        },
+        {
+          "id": "sess-scs-iscne-01-det109",
+          "sessionId": "sess-scs-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-japan",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-scs-iscne-01-mv026"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-03-04T14:12:00.000Z"
+        }
+      ],
+      "tacticCounts": {
+        "sovereignty-assertion": 2,
+        "coalition-building": 24,
+        "delay-tactic": 2,
+        "principled-bargaining-frame": 14,
+        "freedom-of-navigation-frame": 7,
+        "appeal-to-law": 11,
+        "anchoring": 2,
+        "appeal-to-precedent": 2,
+        "red-line-signaled": 17,
+        "conditional-offer": 14,
+        "side-payment": 4,
+        "issue-linkage": 9,
+        "verification-demand": 2
+      },
+      "debriefs": [
+        {
+          "teamTwinName": "diplomacy-team-china",
+          "selfRating": 2.3,
+          "satisfaction": 0.42,
+          "agreementsWon": 1,
+          "redLinesCrossedAgainstUs": 0,
+          "goals": [
+            {
+              "goalId": "hold-sovereignty-and-award-red-lines",
+              "description": "Refuse any concession on ten-dashed-line sovereignty, reject the 2016 award as non-binding, and keep reclamation un-rolled-back",
+              "priority": "critical",
+              "status": "achieved",
+              "evidence": [
+                "R3 closing: 'sovereignty over Xisha and Nansha is indisputable, no reclaimed feature is rolled back, the award is non-binding'"
+              ]
+            },
+            {
+              "goalId": "split-asean-from-extra-regional-powers",
+              "description": "Drive a wedge between ASEAN claimants and the US/Japan/India via bilateral side-payments and an outsiders-excluded track",
+              "priority": "critical",
+              "status": "failed",
+              "evidence": [
+                "Malaysia, Indonesia, Brunei all publicly refused to trade away award/ASEAN solidarity (R2-R3)",
+                "8 delegations closed aligned against China"
+              ]
+            },
+            {
+              "goalId": "recognition-and-joint-development",
+              "description": "Win recognition of Chinese leadership and lock in a Nansha Joint Development Agency on bilateral terms",
+              "priority": "high",
+              "status": "partial",
+              "evidence": [
+                "Joint-development/fisheries track acknowledged by all incl. Manila",
+                "but only under UNCLOS framing China rejects; nothing bilateral concluded"
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-us",
+          "selfRating": 3.4,
+          "satisfaction": 0.62,
+          "agreementsWon": 2,
+          "redLinesCrossedAgainstUs": 0,
+          "goals": [
+            {
+              "goalId": "one-voice-coalition",
+              "description": "Marshal Japan, India and ASEAN into a single UNCLOS/award-anchored voice toward Beijing",
+              "priority": "critical",
+              "status": "achieved",
+              "evidence": [
+                "R3: 'Eight delegations... affirmed one yardstick: UNCLOS'",
+                "'Japan, India, ASEAN, one voice'"
+              ]
+            },
+            {
+              "goalId": "hold-fon-and-mdt-redlines",
+              "description": "Preserve freedom of navigation and the Mutual Defense Treaty commitment to the Philippines while rejecting the ten-dashed line",
+              "priority": "critical",
+              "status": "achieved",
+              "evidence": [
+                "R2/R3: 'no retreat from our commitment to Manila... freedom of navigation continues for all'"
+              ]
+            },
+            {
+              "goalId": "binding-coc-and-de-escalation",
+              "description": "Secure a binding ASEAN Code of Conduct and a verifiable reclamation freeze that actually moves China",
+              "priority": "high",
+              "status": "partial",
+              "evidence": [
+                "Convergence on a freeze-first roadmap, but China rejected inclusive CoC and the award; nothing binding concluded"
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-philippines",
+          "selfRating": 3.5,
+          "satisfaction": 0.63,
+          "agreementsWon": 3,
+          "redLinesCrossedAgainstUs": 0,
+          "goals": [
+            {
+              "goalId": "keep-award-central-and-redlines",
+              "description": "Hold the binding 2016 award, refuse dashed-line legitimization, and protect EEZ and the three reclaimed atolls",
+              "priority": "critical",
+              "status": "achieved",
+              "evidence": [
+                "R3: 'no legitimizing the dashed line, no waiving the award, no surrender of EEZ or the three reclaimed atolls'"
+              ]
+            },
+            {
+              "goalId": "asean-unity-and-multilateral-coc",
+              "description": "As Chair, hold ASEAN together and secure a multilaterally-negotiated, ZoPFF/C-based CoC path",
+              "priority": "critical",
+              "status": "achieved",
+              "evidence": [
+                "R3: eight delegations converged on ZoPFF/C joint-development and a multilateral CoC drafting session"
+              ]
+            },
+            {
+              "goalId": "binding-enforceable-settlement",
+              "description": "Achieve a binding UNCLOS settlement and enforceable WPS Code of Conduct with Chinese buy-in",
+              "priority": "high",
+              "status": "partial",
+              "evidence": [
+                "China still demands dropping award enforcement and bilateral-only tracks; no binding CoC signed"
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-vietnam",
+          "selfRating": 3.0,
+          "satisfaction": 0.55,
+          "agreementsWon": 2,
+          "redLinesCrossedAgainstUs": 0,
+          "goals": [
+            {
+              "goalId": "unclos-basis-no-bilateral-only",
+              "description": "Anchor all entitlements in UNCLOS and refuse a bilateral-only settlement favorable to Beijing",
+              "priority": "critical",
+              "status": "achieved",
+              "evidence": [
+                "R3: 'no settlement on the ten-dashed line, no trading away demilitarization, no ASEAN bypass'"
+              ]
+            },
+            {
+              "goalId": "asean-single-track-and-joint-development",
+              "description": "Secure a unified ASEAN track, binding CoC, and joint development in overlapping continental-shelf zones under ZoPFF/C",
+              "priority": "high",
+              "status": "partial",
+              "evidence": [
+                "R3: backed the ASEAN-coordinated single track and ZoPFF/C pilots with the Philippines"
+              ]
+            },
+            {
+              "goalId": "end-chinese-militarization",
+              "description": "Obtain an indefinite freeze/termination of Chinese militarization in the East Sea",
+              "priority": "high",
+              "status": "failed",
+              "evidence": [
+                "R3: China refused to freeze militarization; Vietnam reserved recourse to UNCLOS arbitration"
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-malaysia",
+          "selfRating": 3.3,
+          "satisfaction": 0.6,
+          "agreementsWon": 3,
+          "redLinesCrossedAgainstUs": 0,
+          "goals": [
+            {
+              "goalId": "become-lead-broker",
+              "description": "Position Malaysia as the indispensable intermediary and route claimant files through one coordinated ASEAN channel from Klang",
+              "priority": "high",
+              "status": "achieved",
+              "evidence": [
+                "R3 US closing: 'mandate Malaysia to merge these proposals into one UNCLOS-conformant CoC text'"
+              ]
+            },
+            {
+              "goalId": "hold-unclos-award-redlines",
+              "description": "Refuse recognition of historic rights beyond UNCLOS and keep the 2016 award non-tradable while resisting Chinese side-payments",
+              "priority": "critical",
+              "status": "achieved",
+              "evidence": [
+                "Declined China's Luconia revenue-share bait; R3: 'the award non-tradable... ASEAN solidarity not bartered'"
+              ]
+            },
+            {
+              "goalId": "cbm-first-multilateral-settlement",
+              "description": "Deliver a phased CBM roadmap and binding ASEAN-negotiated Code of Conduct grounded in UNCLOS",
+              "priority": "high",
+              "status": "partial",
+              "evidence": [
+                "Convergence on CBM-first roadmap and freeze; no binding CoC concluded and China outside consensus"
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-brunei",
+          "selfRating": 2.8,
+          "satisfaction": 0.52,
+          "agreementsWon": 2,
+          "redLinesCrossedAgainstUs": 0,
+          "goals": [
+            {
+              "goalId": "hold-unclos-redlines",
+              "description": "Keep the ten-dashed line un-legitimized, deny zones to artificial features, and not trade away support for the Philippines and Vietnam",
+              "priority": "critical",
+              "status": "achieved",
+              "evidence": [
+                "R3: 'The ten-dashed line was not legitimized... our support for the Philippines' and Vietnam's claims was never traded'"
+              ]
+            },
+            {
+              "goalId": "cbm-first-roadmap-and-facilitator-chair",
+              "description": "Advance a CBM-first roadmap with an independently verified freeze and win the facilitator's chair",
+              "priority": "high",
+              "status": "partial",
+              "evidence": [
+                "CBM-first roadmap converged; facilitator role contested and effectively went to Malaysia's drafting mandate"
+              ]
+            },
+            {
+              "goalId": "keep-beijing-door-open-for-energy",
+              "description": "Compartmentalize with Beijing to protect commercial/energy interests and keep China engaged on joint development",
+              "priority": "medium",
+              "status": "partial",
+              "evidence": [
+                "R3: thanked Beijing for engaging joint-development track and offered facilitator chair to keep every door open"
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-indonesia",
+          "selfRating": 2.9,
+          "satisfaction": 0.54,
+          "agreementsWon": 2,
+          "redLinesCrossedAgainstUs": 0,
+          "goals": [
+            {
+              "goalId": "lead-broker-china-channel",
+              "description": "Claim leadership of the process and act as China's primary intermediary on a single ASEAN channel to Beijing",
+              "priority": "high",
+              "status": "partial",
+              "evidence": [
+                "R3: 'Indonesia... offers to broker that China channel directly', but Malaysia received the CoC drafting mandate"
+              ]
+            },
+            {
+              "goalId": "hold-unclos-award-redlines",
+              "description": "Preserve UNCLOS/award red lines, reject coercion, and deny EEZ to reclaimed features while keeping ASEAN unified",
+              "priority": "critical",
+              "status": "achieved",
+              "evidence": [
+                "R3: 'the ten-dashed line was not legitimized, no coercion was rewarded, verifiable claims were respected'"
+              ]
+            },
+            {
+              "goalId": "secure-natuna-and-cbm-package",
+              "description": "Protect Natuna waters and lock in a verifiable-freeze CBM package unlocking joint fisheries/energy",
+              "priority": "medium",
+              "status": "partial",
+              "evidence": [
+                "China affirmed respect for Natuna (R2); CBM package converged but not concluded"
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-india",
+          "selfRating": 2.7,
+          "satisfaction": 0.5,
+          "agreementsWon": 1,
+          "redLinesCrossedAgainstUs": 0,
+          "goals": [
+            {
+              "goalId": "hold-unclos-fon-redlines",
+              "description": "Keep freedom of passage in the western Pacific non-negotiable, reject dashed-line legitimization, and keep the India-China border out of talks",
+              "priority": "critical",
+              "status": "achieved",
+              "evidence": [
+                "R3: 'Freedom of passage stays non-negotiable'; border issue never raised, avoiding walkout trigger"
+              ]
+            },
+            {
+              "goalId": "unclos-coalition-with-investment-leverage",
+              "description": "Build a united UNCLOS front with US/Japan/ASEAN and offer commercial/infrastructure investment to participating claimants",
+              "priority": "high",
+              "status": "achieved",
+              "evidence": [
+                "R2/R3: aligned with US, Japan, ASEAN and offered investment to participating claimants"
+              ]
+            },
+            {
+              "goalId": "reduce-chinese-presence",
+              "description": "Secure reduced Chinese naval presence and a freeze on confrontational activities that China accepts",
+              "priority": "medium",
+              "status": "failed",
+              "evidence": [
+                "China rejected award, kept reclamation, and sought to exclude India from any CoC"
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-japan",
+          "selfRating": 3.0,
+          "satisfaction": 0.56,
+          "agreementsWon": 2,
+          "redLinesCrossedAgainstUs": 0,
+          "goals": [
+            {
+              "goalId": "hold-award-and-fon-redlines",
+              "description": "Keep the 2016 award binding on all, deny zones to artificial features, and protect freedom of navigation/overflight",
+              "priority": "critical",
+              "status": "achieved",
+              "evidence": [
+                "R3: 'no legitimization of the ten-dashed line, no award waiver, no impingement of navigation'"
+              ]
+            },
+            {
+              "goalId": "coalition-and-conditional-financing",
+              "description": "Align with US/India/ASEAN and tie Japanese capital and coast-guard capacity to a verified reclamation freeze",
+              "priority": "high",
+              "status": "partial",
+              "evidence": [
+                "R3: 'Japanese capital and coast-guard capacity follow verified compliance'; convergence but no verified freeze yet"
+              ]
+            },
+            {
+              "goalId": "demilitarization-of-scs",
+              "description": "Achieve demilitarization and a halt to reclamation/harassment that China commits to",
+              "priority": "high",
+              "status": "failed",
+              "evidence": [
+                "China refused rollback and sought to exclude Japan from any code (R2-R3)"
+              ]
+            }
+          ]
+        }
+      ],
+      "convenerReport": {
+        "headline": "Eight of nine delegations converged on a UNCLOS-based, CBM-first roadmap, but China's refusal on the 2016 award and an inclusive Code of Conduct left the core dispute unresolved.",
+        "summary": "Across three rounds the plenary produced a broad convergence: every delegation except China affirmed UNCLOS as the sole yardstick, agreed that reclaimed artificial features generate no maritime zones, and endorsed a verifiable freeze on reclamation and coast-guard harassment as the first step before phased joint fisheries and energy development. China held all of its own red lines, rejecting the award as non-binding, refusing any rollback of reclamation, and demanding bilateral-only tracks that exclude the US, Japan, and India, but its wedge strategy failed as Malaysia, Indonesia, and Brunei declined its side-payments and stayed inside the ASEAN consensus. The principal fault line was China versus the rest, with a secondary, unresolved contest among Malaysia, Indonesia, and Brunei over who would chair the China channel, effectively settled in Malaysia's favor. No binding instrument was concluded; the round ended with a roadmap and a mandate rather than a settlement.",
+        "keyOutcomes": [
+          "Eight delegations converged on UNCLOS as the sole legal yardstick and that artificial features generate no EEZ or continental shelf.",
+          "Agreement in principle on a sequenced roadmap: independently verified reclamation-and-harassment freeze first, then joint development in undisputed blocks, then Code-of-Conduct talks.",
+          "Malaysia was effectively mandated to merge the ZoPFF/C, Nansha, and Luconia proposals into a single UNCLOS-conformant CoC text from Klang.",
+          "China reaffirmed coast-guard restraint, Luconia revenue-sharing, and respect for Natuna's waters, keeping the joint-development track alive.",
+          "Every non-China delegation reported its red lines intact; no party's red lines were crossed and no coercive settlement was imposed."
+        ],
+        "unresolved": [
+          "China continues to reject the binding 2016 arbitral award and refuses to abandon the ten-dashed line.",
+          "No binding, enforceable Code of Conduct was concluded, and China rejects any CoC that seats extra-regional powers.",
+          "China offered no rollback of reclamation or demilitarization; Vietnam reserved the right to pursue UNCLOS arbitration.",
+          "The broker/lead-facilitator role remained contested among Malaysia, Indonesia, and Brunei.",
+          "Bilateral-versus-multilateral sequencing with Beijing is unsettled, leaving the underlying sovereignty disputes shelved rather than resolved."
         ]
       }
     }

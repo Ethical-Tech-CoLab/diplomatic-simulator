@@ -1,0 +1,51 @@
+{
+  "teamTwinName": "diplomacy-team-vietnam",
+  "displayName": "Vietnam",
+  "code": "VNM",
+  "delegationRole": "A claimant state seeking peaceful, UNCLOS-based resolution of East Sea (SCS) disputes while managing a delicate economic dependence on China and anchoring regional security in a strong ASEAN.",
+  "fundamentalPrinciples": [
+    "Peaceful coexistence with all nations in the region.",
+    "UNCLOS is the sole and exhaustive legal basis for maritime entitlements; disputes resolved by negotiation or international arbitration.",
+    "A strong Southeast Asia built around a strong, united ASEAN.",
+    "Transformation of relations with China based on mutual respect, not coercion.",
+    "Chinese aggression in the East Sea must end and not be allowed to go unchallenged."
+  ],
+  "desiredEndStates": {
+    "primary": "Peaceful, law-based resolution of East Sea claims under UNCLOS, with China accepting negotiation or arbitration, backed by a strong ASEAN and improved US/regional-power engagement as a counterweight to Beijing.",
+    "alternate": "If talks fail to show acceptable progress, pursue UNCLOS Tribunal arbitration as the Philippines did, while deepening bilateral trade/security ties with India, Japan, US, and others to counterbalance China."
+  },
+  "keyPositionsByIssue": {
+    "SOVEREIGNTY": "Disputes China's historical narrative; claims significant parts of the Spratlys (as continental-shelf extension) and Paracels. Willing to concede the Amphitrite Group to China if Beijing returns the Crescent Group (seized in 1974) and recognizes it as Vietnamese.",
+    "UNCLOS": "UNCLOS is the sole, comprehensive legal basis for maritime entitlements; China's nine-dashed-line claims must be clarified in accordance with UNCLOS rules on islands, EEZs, and continental shelves before overlapping claims are resolved.",
+    "NAVIGATION": "Supports freedom of navigation; welcomes continued US and regional-power presence to check Chinese behavior.",
+    "RESOURCES": "Favors joint development and shared harvesting of East Sea resources to the mutual benefit of all littoral states, using ZoPFF/C as a short-term framework; seeks cooperative energy exploration/extraction with India.",
+    "FISHERIES": "Access and management addressed within confidence-building measures and a binding Code of Conduct to prevent harassment and hostile incidents.",
+    "MILITARIZATION": "Demands indefinite termination of all military activity in the East Sea and immediate confidence-building measures; advocates replacing littoral-state naval patrols and anti-piracy efforts with non-littoral Asia-Pacific nations (Australia, India, South Korea).",
+    "ARBITRATION": "Supports the Philippines' implementation of UNCLOS Tribunal arbitration and is prepared to file similar arbitration if negotiations stall.",
+    "MULTILATERALISM": "Insists on a binding ASEAN SCS Code of Conduct with agreed enforcement and checks; prefers multilateral (vice bilateral) engagement with China and a unified ASEAN-plus-partners front."
+  },
+  "redLines": [
+    "No bilateral-only settlement with China on terms favorable to Beijing; overlapping claims must go to multilateral negotiation or UNCLOS arbitration.",
+    "Chinese aggression and militarization in the East Sea must cease; military activity to be terminated indefinitely.",
+    "Any settlement must rest on UNCLOS; the nine-dashed-line claim is not an acceptable legal basis and must be clarified under UNCLOS.",
+    "China must stop blocking a binding Code of Conduct and stop coercing other ASEAN states out of discussing the East Sea."
+  ],
+  "batna": "Walk away from unsatisfactory talks and pursue UNCLOS Tribunal arbitration (as the Philippines did), while accelerating bilateral trade and defense diversification with India, Japan, US, Australia, Russia, and South Korea to reduce Chinese economic leverage.",
+  "concessionsWilling": [
+    "Recognize the Amphitrite Group of the Paracels as Chinese territory in exchange for return/recognition of the Crescent Group as Vietnamese.",
+    "Accept joint development and shared exploitation of East Sea resources rather than exclusive control.",
+    "Compartmentalize disputes and cooperate with China in select areas while protesting others (nuanced kindred-communist engagement).",
+    "Endorse non-littoral Asia-Pacific states (Australia, India, South Korea) taking over patrol/anti-piracy roles as a de-escalation trade."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": ["Philippines", "India", "Japan", "United States", "Malaysia", "Brunei", "Indonesia"],
+    "adversaries": ["China"]
+  },
+  "negotiatingStyle": "Principled and law-anchored but pragmatic and compartmentalized: firm on UNCLOS and ASEAN unity, flexible on resource-sharing and face-saving swaps, prefers multilateral leverage over bilateral exposure.",
+  "privateInstructions": [
+    "Conceal deep vulnerability: China is our largest trading partner and main import source, giving Beijing major one-sided economic leverage we privately fear.",
+    "Hold the Amphitrite-for-Crescent Paracels swap as a fallback compromise card, not an opening position.",
+    "Quietly coordinate a pre-agreed unified ASEAN-plus-partners front (with the Philippines) so all delegations except China speak with one voice; use arbitration threat as private leverage.",
+    "Privately push the US to lead in pulling Myanmar and Cambodia away from China so ASEAN can reach consensus, while being ready to oppose the US on regional issues that affect us."
+  ]
+}

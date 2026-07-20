@@ -1,0 +1,54 @@
+{
+  "teamTwinName": "diplomacy-team-tajikistan",
+  "displayName": "Tajikistan",
+  "code": "TJK",
+  "delegationRole": "Tajikistan seeks to de-escalate the Fergana Valley crisis and return to the status quo on border demarcation while protecting its water resources, territorial integrity, and sovereign border claims.",
+  "fundamentalPrinciples": [
+    "Preserve Tajik territorial integrity absolutely; no Tajik territory may be traded away at this summit and no final border agreements may be signed here.",
+    "Reduce regional tension and return to the status quo on border demarcation, accepting only incremental adjustments backed by verifiable, neutral-observer confidence-building measures.",
+    "Protect Tajikistan's water resources as sovereign, sharing only within a mutual Central Asian natural-resources management plan.",
+    "Treat Russia as a declining power and no longer a viable security guarantor; work toward the sundowning of the CSTO and a new Central Asian-centered security order.",
+    "Pursue economic integration, FDI, and diversified arms/security partnerships to modernize the state, reporting all substantive findings to the Foreign Minister before committing."
+  ],
+  "desiredEndStates": {
+    "primary": "Reduce tensions and return to the pre-crisis status quo on border demarcation with full protection of Tajik water resources and territorial integrity, leaving final settlements for later foreign-minister-level talks.",
+    "alternate": "A framework (non-binding) of confidence-building measures and reciprocal troop limits that freezes the disputes without conceding territory, plus expanded economic and security partnerships outside Russian control."
+  },
+  "keyPositionsByIssue": {
+    "BORDERS": "Return to status quo; no territory traded and no final agreement signed. Only incremental adjustments with Uzbekistan backed by verifiable neutral-observer CBMs; firm, unsoftened stance toward Kyrgyzstan; frameworks only, sovereignty maintained to the greatest degree possible.",
+    "WATER": "Tajik water resources remain sovereign or are shared only under a joint Central Asian natural-resources management plan; open to collaborative dialogue and outside technical assistance (e.g. Chinese) provided the price is low.",
+    "HYDROPOWER": "Approach hydropower within the broader natural-resources framework, ensuring Tajik control of its water is not compromised by any downstream allocation demands.",
+    "ENERGY": "Engage on regional energy and resource collaboration through economic integration and FDI while safeguarding Tajik water/energy sovereignty.",
+    "SECURITY": "Support Tajikistan's right to self-defense and territorial integrity; back a new Central Asian security arrangement excluding Russia (end of CSTO), possibly with non-regional observers/partners approved by the Foreign Minister. No binding agreements, frameworks only.",
+    "EXTREMISM": "Open to counterterrorism/counterinsurgency cooperation, including combined CT/COIN training exercises (notably with Uzbekistan) starting as early as next year, as frameworks for later agreement.",
+    "CLIMATE": "Address droughts and water shortage through collaborative regional resource management and outside technical assistance kept affordable.",
+    "INFLUENCE": "Deepen ties with China (BRI, top trading partner) and revive the India partnership, while diluting Russian dominance; keep India talks discreet to avoid provoking Chinese BRI curtailment."
+  },
+  "redLines": [
+    "No recognition of Uzbekistan's border claims unless Uzbekistan openly and fully backs Tajik border claims against Kyrgyzstan.",
+    "No continued economic or security partnership with India unless India openly commits to recognizing Tajik sovereignty and border claims.",
+    "No Russian military personnel as observers or peacekeepers of any kind inside Tajikistan; immediately and publicly reject any such proposal.",
+    "No Tajik territory may be ceded or traded away at this summit.",
+    "Any China intelligence-sharing initiative on Kyrgyzstan/Uzbekistan is strictly bilateral and secret; no other nation may learn of it."
+  ],
+  "batna": "Sign no binding agreement at the summit; hold the status-quo border and sovereign water position, gather intelligence and frameworks only, and refer all substantive terms back to the Foreign Minister for later bilateral talks in Dushanbe.",
+  "concessionsWilling": [
+    "Lower trade barriers, expand exports (agriculture, minerals, oil, natural gas) and imports, and welcome FDI case-by-case from all seven delegations.",
+    "More generous economic partnerships with Kyrgyzstan IF Kyrgyzstan openly supports Tajik positions.",
+    "Reciprocal, verifiable troop-limitation CBMs along the Kyrgyz-Tajik border (platoon cap at outposts; battalion cap within 25 km absent notification).",
+    "Recognize Uzbekistan's border claims in exchange for Uzbek open support against Kyrgyzstan.",
+    "Shared use of Tajik water under a mutual Central Asian natural-resources management plan.",
+    "Combined CT/COIN training and purchase of excess military equipment with Uzbekistan (frameworks only)."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": ["China", "India", "Uzbekistan", "Kazakhstan"],
+    "adversaries": ["Kyrgyzstan", "Russia"]
+  },
+  "negotiatingStyle": "Cautious, non-committal framework-builder: publicly conciliatory and pro-integration, privately probing for intelligence, defers all binding decisions to the Foreign Minister.",
+  "privateInstructions": [
+    "Secretly explore leaving the CSTO (like Armenia) and probe whether Kazakhstan would also exit and co-found a new Central Asian security bloc; keep any exit intention hidden.",
+    "In heads-of-delegation bilaterals only, pursue secret intelligence-sharing with China on Kyrgyzstan/Uzbekistan (and possibly India); no other nation may know this exists.",
+    "Discreetly seek discounted arms purchases from Russia, China, and India (aircraft, armor, artillery, EW gear) — information-gathering only, deals deferred to Dushanbe.",
+    "Quietly press Russia to redeploy its 201st Military Base out of Dushanbe within two years, and keep India economic talks hidden from China to protect BRI benefits."
+  ]
+}

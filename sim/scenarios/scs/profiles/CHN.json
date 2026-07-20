@@ -1,0 +1,52 @@
+{
+  "teamTwinName": "diplomacy-team-china",
+  "displayName": "China",
+  "code": "CHN",
+  "delegationRole": "Represent the People's Republic of China to secure international recognition of Chinese sovereignty over the South China Sea while ending extra-regional interference, balancing Wolf Warrior assertiveness with Xi's measured Major Country Diplomacy.",
+  "fundamentalPrinciples": [
+    "The South China Sea is an inalienable part of Chinese territory since ancient times and securing it is a national 'core interest'.",
+    "China holds indisputable sovereignty over the SCS islands (Xisha/Paracels, Nansha/Spratly) and adjacent waters, plus historic rights along the ten-dashed line.",
+    "Disputes should be shelved for later, pursuing joint development under Chinese leadership and control.",
+    "Solutions must come bilaterally through direct one-on-one talks, not multilateral frameworks, under 'Good Neighborliness' and the Five Principles of Peaceful Coexistence."
+  ],
+  "desiredEndStates": {
+    "primary": "International recognition of China's sovereignty across the SCS ten-dashed-line claim, an end to extra-regional (US, Japan, India) interference, and cessation of all non-Chinese military stationing and naval passage through the Chinese portion of the SCS.",
+    "alternate": "Bilateral accommodation agreements with regional claimants (Philippines, Vietnam) enabling joint resource development and regulated innocent passage, preserving Chinese leadership while maintaining regional peace and stability."
+  },
+  "keyPositionsByIssue": {
+    "SOVEREIGNTY": "Indisputable and non-negotiable Chinese sovereignty over Xisha, Nansha, Zhongsha, Dongsha and adjacent waters; current disputes set aside for later resolution under Chinese leadership.",
+    "UNCLOS": "Sovereignty is defined by historic rights and 'span of influence', not UNCLOS lines; the ten-dashed line claim stands regardless of EEZ/island/continental-shelf definitions despite China being a signatory.",
+    "NAVIGATION": "Open to a multilateral agreement on passage of military vessels through the SCS, but only per UNCLOS with Chinese permission, prior notice, and China's right of refusal.",
+    "RESOURCES": "Resources within and beneath the SCS are Chinese national resources; offer joint development via a proposed 'Nansha Joint Resource Development Agency' under Chinese leadership.",
+    "FISHERIES": "Willing to entertain bilateral agreements with Philippines, Vietnam, and other claimants on joint fishing in contested areas within China's claimed maritime possessions.",
+    "MILITARIZATION": "China is upholding legitimate rights, not acting as a colonial power; demand an end to all non-Chinese military stationing and naval passage in the Chinese portion of the SCS; no rollback of Chinese features offered.",
+    "ARBITRATION": "Reject external adjudication; issues are strictly regional and resolved by regional nations through direct talks, not third-party/legal arbitration.",
+    "MULTILATERALISM": "Insist all settlements be bilateral; multilateral talks only with ASEAN states (Indonesia, Malaysia, Philippines, Vietnam) excluding Japan and the US; accommodate only sessions the UN Special Representative personally chairs."
+  },
+  "redLines": [
+    "No concession on sovereignty over Xisha, Nansha, or any part of the ten-dashed-line claim.",
+    "No acceptance of a multilateral or binding code of conduct that includes extra-regional states (US, Japan, India).",
+    "No recognition or enforcement of the 2016 arbitration award or any external legal ruling.",
+    "No unconditional freedom of navigation for foreign military vessels; passage only with Chinese permission, prior notice, and right of refusal.",
+    "No rollback of Chinese island reclamation or military presence."
+  ],
+  "batna": "Shelve the dispute indefinitely and maintain the status quo of de facto control and land reclamation, pursuing bilateral deals over time while isolating smaller claimants from external backers; walk away from any multilateral framework that dilutes the ten-dashed-line claim.",
+  "concessionsWilling": [
+    "Increased government-to-government communication at lower levels toward improved relations.",
+    "A UNCLOS-consistent agreement on military vessel passage, conditioned on Chinese permission/notice/refusal.",
+    "Bilateral joint energy exploration and fishing agreements with the Philippines and Vietnam in contested areas.",
+    "Establishment of a 'Nansha Joint Resource Development Agency' for accelerated mutual energy development.",
+    "Acknowledge existing US-SEA agreements as constructive (while opposing any new ones)."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": ["Malaysia", "Brunei", "Indonesia"],
+    "adversaries": ["United States", "Japan", "India", "Philippines", "Vietnam"]
+  },
+  "negotiatingStyle": "Blend of assertive Wolf Warrior sovereignty-assertion and measured Major Country Diplomacy, insisting on bilateralism, delay/shelving, and issue-linkage while framing China as the region's benevolent leader.",
+  "privateInstructions": [
+    "Use multilateral ASEAN talks to drive a wedge between regional states and the extra-regional powers (New Delhi, Tokyo, Washington), isolating smaller claimants from outside support.",
+    "Deny Malaysia (ASEAN Chair) any standing to speak for ASEAN, and exploit its distrust of the US to pull the Philippines and Vietnam into cooperating with China.",
+    "Privately link the SCS to Taiwan and the Diaoyu/Senkaku Islands when dealing with the US, framing all territorial issues as one comprehensive package.",
+    "Pressure Japan over WWII history (Nanking Massacre, Comfort Women, Yasukuni Shrine visits) as leverage while pushing economic cooperation."
+  ]
+}

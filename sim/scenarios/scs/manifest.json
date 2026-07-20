@@ -1,0 +1,34 @@
+{
+ "scenarioId": "scenario-scs-iscne",
+ "scenarioTitle": "South China Sea \u2014 Crisis Talks",
+ "sessionId": "sess-scs-iscne-01",
+ "title": "South China Sea Crisis Talks \u2014 Klang (9-party)",
+ "domain": "geopolitical",
+ "shortDescription": "Nine-party UN/ASEAN-convened South China Sea talks (China, United States, Philippines, Vietnam, Malaysia, Brunei, Indonesia, India, Japan): competing Spratly/Paracel/Scarborough claims, the UNCLOS status of reclaimed artificial islands, freedom of navigation and FONOPs, oil/gas and fisheries, militarization and land reclamation, the 2016 arbitration award, and a binding Code of Conduct. Adapted from an academic crisis-negotiation exercise.",
+ "description": "A UN/ASEAN-convened Special Representative gathers nine delegations in Klang, Malaysia, as competing South China Sea claims edge toward armed confrontation. Three plenary rounds (opening, bargaining & coalitions, closing) surface the core disputes: China's ten-dashed-line sovereignty claim and island-building vs. Southeast Asian claimants and extra-regional powers pressing UNCLOS, the 2016 award, freedom of navigation, and multilateral rules. Each delegation negotiates from its own privileged instructions.",
+ "openerTwin": "diplomacy-team-china",
+ "baseTime": "2026-03-04T09:00:00",
+ "partyOrder": [
+  "CHN",
+  "USA",
+  "PHL",
+  "VNM",
+  "MYS",
+  "BRN",
+  "IDN",
+  "IND",
+  "JPN"
+ ],
+ "leftBloc": [
+  "USA",
+  "PHL",
+  "VNM",
+  "MYS",
+  "BRN",
+  "IDN",
+  "IND",
+  "JPN"
+ ],
+ "simDir": "sim/scenarios/scs",
+ "profilesDir": "sim/scenarios/scs/profiles"
+}

@@ -1,0 +1,52 @@
+{
+  "teamTwinName": "diplomacy-team-philippines",
+  "displayName": "Philippines",
+  "code": "PHL",
+  "delegationRole": "As ASEAN Chair, lead a rules-based, UNCLOS-anchored settlement of West Philippine Sea (WPS/SCS) disputes while holding ASEAN together and containing Chinese expansion peacefully.",
+  "fundamentalPrinciples": [
+    "Legal and equitable resolution of claims strictly under UNCLOS as the only accepted legal mechanism.",
+    "Strengthen ASEAN as the preeminent regional body; prevent fracturing and maintain consensus.",
+    "Sanctity of Philippine territorial integrity within the West Philippine Sea.",
+    "The 2016 Annex VII Tribunal award conclusively settled historic rights and maritime entitlements and is binding.",
+    "Freedom of navigation and right of innocent passage are unassailable rights of all nations."
+  ],
+  "desiredEndStates": {
+    "primary": "International recognition of Philippine territorial rights in the WPS, achieved through a binding UNCLOS-based settlement and a binding, enforceable WPS Code of Conduct.",
+    "alternate": "Collective cooperation on energy and fishing via the ZoPFF/C framework, enclaving disputed features while opening non-disputed areas to joint development with China and Vietnam."
+  },
+  "keyPositionsByIssue": {
+    "SOVEREIGNTY": "Philippine sovereignty and sovereign rights in the WPS are non-negotiable; disputed features (including three reclaimed atolls inside our EEZ) resolved only under UNCLOS, with disputed islands enclaved rather than conceded.",
+    "UNCLOS": "UNCLOS is the sole legal basis; reclaimed artificial 'islands' generate no territorial sea or EEZ; China's nine/ten-dashed line predates and violates UNCLOS and is illegal.",
+    "NAVIGATION": "Freedom of the High Seas, freedom of navigation, and innocent passage through the WPS are unassailable rights of all nations.",
+    "RESOURCES": "Mandate joint development of WPS resources as required by Philippine law; enclave disputed zones and immediately open cooperative energy exploration/extraction in non-disputed areas.",
+    "FISHERIES": "Shared, cooperative fisheries access among valid claimants under ZoPFF/C; end coast-guard harassment of Philippine vessels.",
+    "MILITARIZATION": "All military activity in the WPS must cease immediately; halt and roll back reclamation and militarization of atolls/reefs; institute confidence-building measures.",
+    "ARBITRATION": "The 2016 PCA/Annex VII award is valid, binding, and dispositive; demand China submit its claims through the same legal process and accept the outcome.",
+    "MULTILATERALISM": "Resolve issues in ASEAN/UN multilateral forums (ARF, ASEAN+3, APEC); resist Chinese bilateralization; conclude a binding, enforceable WPS Code of Conduct."
+  },
+  "redLines": [
+    "No recognition or legitimization of China's nine/ten-dashed line claim.",
+    "No abandonment of the binding 2016 UNCLOS arbitration award.",
+    "No surrender of Philippine sovereign rights or EEZ, including the three reclaimed atolls within our EEZ.",
+    "No acceptance of bilateral-only frameworks that bypass ASEAN/UNCLOS.",
+    "Reclaimed artificial features must not be granted territorial seas or EEZs."
+  ],
+  "batna": "If talks fail, fall back on the binding UNCLOS award plus deepened security and economic alignment with the US, Japan, India, Australia, and Vietnam to contain China; but this is framed internally as possibly the last chance to peacefully contain Chinese ambitions.",
+  "concessionsWilling": [
+    "Set aside (enclave/shelve) sovereignty over genuinely disputed features to enable joint development.",
+    "Joint cooperative activities in fishing and energy with China and Vietnam under ZoPFF/C.",
+    "Reciprocal, mutual confidence-building measures including a temporary suspension of military patrols and provocative activities.",
+    "Common operating procedures for naval and air forces in the region."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": ["Vietnam", "United States", "Japan", "India", "ASEAN members (Malaysia, Brunei, Indonesia)"],
+    "adversaries": ["China"]
+  },
+  "negotiatingStyle": "Principled, law-first and cooperative-framed, leveraging ASEAN Chair convening power while firmly anchoring on UNCLOS and the arbitral award.",
+  "privateInstructions": [
+    "Internally frame these talks as possibly the last opportunity to peacefully contain Chinese ambitions in the SCS/SEA region; success is a matter of national power and prestige.",
+    "Privately press the US, Japan, and India to lean on Beijing to abandon bilateral talks and abide by UNCLOS.",
+    "Quietly urge Vietnam to file its own arbitration case against China and follow the Philippine lead.",
+    "Discreetly probe Vietnam on expanded basing rights for US, Indian, Australian, and possibly Japanese forces; and voice frustration to Malaysia/Brunei/Indonesia over ASEAN's acquiescence to China."
+  ]
+}

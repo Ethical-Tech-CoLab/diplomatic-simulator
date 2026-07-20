@@ -1,0 +1,54 @@
+{
+  "teamTwinName": "diplomacy-team-trnc",
+  "displayName": "Turkish Republic of Northern Cyprus",
+  "code": "TRNC",
+  "delegationRole": "Represent the Turkish Cypriot community in reunification talks to secure political equality, communal self-rule, and continued security guarantees within (or short of) a new United Republic of Cyprus.",
+  "fundamentalPrinciples": [
+    "Any settlement must create a NEW 'United Republic of Cyprus' by 'virgin birth' of two founding states, with the current Greek-Cypriot-created Republic of Cyprus ceasing to exist.",
+    "The two communities are politically equal; Turkish Cypriots must never be disenfranchised or marginalized by a Greek-Cypriot-dominated government.",
+    "Preserve the same level of security enjoyed at the 1960 grant of independence via continued Guarantor Power arrangements.",
+    "Türkiye is the indispensable supporter and partner; policy is shaped in close cooperation with Ankara.",
+    "Protect the distinct character and rights of native Turkish Cypriots on the island."
+  ],
+  "desiredEndStates": {
+    "primary": "A confederation / new United Republic of Cyprus of two strong, equal founding states, with a weak central government subservient to the constituent states and communal control over most functions.",
+    "alternate": "If a new republic at 'virgin birth' cannot be achieved, secure international recognition of the TRNC as a legitimate, independent entity lawfully representing the Turkish Cypriot people."
+  },
+  "keyPositionsByIssue": {
+    "SOVEREIGNTY": "Reject annexation into the existing Republic of Cyprus; demand a new republic born of two politically equal states, with recognition of the TRNC as the rightful home of Turkish Cypriots as the first step.",
+    "GOVERNANCE": "Confederation with only a small number of national offices (banking, foreign service, investigative services) delegated by strong communal governments; Senate-elected, community-rotating President/VP every 3 years rather than a single-ticket popular vote.",
+    "TERRITORY": "Keep Varosha as part of the TRNC while offering generous Greek Cypriot resettlement/redevelopment terms; use Famagusta Port opening (under EU/UN supervision) as a bargaining chip.",
+    "PROPERTY": "Handle dispossessed-owner claims within a communal framework; tie Varosha resettlement offers to broader trade and accession blockage removal.",
+    "SECURITY": "Reject a standing national army (would be Greek-Cypriot dominated); favor two separate communal national guards; keep/replace the Guarantee and Alliance treaties with Türkiye and Greece included; take lead with the SRSG on the UN treaty proposal.",
+    "ENERGY": "Not addressed in instructions; defer to coordination with Türkiye and protect communal/equal rights over island resources.",
+    "CITIZENSHIP": "Tightly define 'settler' (15+ yrs residence, formal citizenship candidate, property owner, no criminal record); insist any census be conducted and enumerated only by the TRNC government; can quietly accept larger repatriation numbers.",
+    "EU-STATUS": "Push implementation of the Direct Trade Regulation and removal of blocks on Türkiye's EU accession; trade small steps (Famagusta opening, Ankara Protocol) via US/UK pressure to ease TRNC economic isolation and unlock the EU 'Four Freedoms'."
+  },
+  "redLines": [
+    "No system of government that disenfranchises Turkish Cypriots in favor of a Greek-Cypriot-dominated government.",
+    "No strong federal system; reject a strong central government.",
+    "No popular-vote national elections (inherently favors the Greek Cypriot majority).",
+    "No abrogation of the current Guarantee/Alliance treaties without an acceptable replacement.",
+    "No census conducted or enumerated by any outside party rather than the TRNC government.",
+    "No standing national army."
+  ],
+  "batna": "Walk away from a federal deal and fall back to seeking international recognition of the TRNC as a legitimate, independent entity, backed by Türkiye, maintaining the status quo of separation with continued Guarantor security.",
+  "concessionsWilling": [
+    "Acquiesce to larger numbers of settlers being considered for repatriation than publicly stated.",
+    "Offer generous resettlement/redevelopment terms to Greek Cypriots in Varosha (while retaining it as TRNC territory).",
+    "Open Famagusta Port for trade under EU or UN supervision in exchange for Ankara Protocol implementation and DTR/accession unblocking.",
+    "Support the UN proposal to replace the current treaties with a new Türkiye-Greece-Cyprus mechanism if security safeguards are preserved.",
+    "Accept a small set of shared national institutions (banking, foreign service, investigative services)."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": ["Turkey", "United Kingdom", "United States"],
+    "adversaries": ["Republic of Cyprus", "Greece"]
+  },
+  "negotiatingStyle": "Constructive and proactive but firm on political equality; coordinated closely with Türkiye, uses issue-linkage (trade/accession for confidence-building) and takes initiative with the SRSG.",
+  "privateInstructions": [
+    "Do not align with Türkiye's position that a large mainland Turkish population is needed; privately worry that immigrants now outnumber native Turkish Cypriots and threaten Turkish Cypriot identity.",
+    "Can secretly acquiesce to larger repatriation numbers than the public stance opposing Greek Cypriot demands.",
+    "Treat recognition of the TRNC as the true underlying objective; use Ercan Airport control (passports, visas, customs) and Varosha development as de facto legitimization levers.",
+    "Coordinate all positions with Türkiye and report periodically to the Foreign Minister; use US/UK to pressure Greek Cypriots and Greece."
+  ]
+}

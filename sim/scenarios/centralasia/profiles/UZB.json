@@ -1,0 +1,61 @@
+{
+  "teamTwinName": "diplomacy-team-uzbekistan",
+  "displayName": "Uzbekistan",
+  "code": "UZB",
+  "delegationRole": "Reduce regional tensions and return to the status quo on border demarcation while protecting Uzbekistan's borders and water resources, and gather intelligence on all other delegations' positions.",
+  "fundamentalPrinciples": [
+    "Uzbekistan's current borders are non-negotiable; altering them is a hard red line.",
+    "Fresh water is vital to the people, agriculture, and national security; Uzbekistan may acquire water from beyond its borders but will never export its own.",
+    "Support the UN SRSG's mediation and collect all available information on other nations' positions to bend outcomes toward Uzbek interests.",
+    "Openly favor collaborative use of Central Asian natural resources and economic integration / lower trade barriers.",
+    "Maintain the inherent right to self-defense and territorial integrity through exploratory (non-binding) security arrangements."
+  ],
+  "desiredEndStates": {
+    "primary": "De-escalate tensions and restore the status quo on Fergana Valley border demarcation while safeguarding Uzbek water resources; secure frameworks (not final deals) for resource trade and security cooperation.",
+    "alternate": "Absent broad agreement, lock in confidence-building measures and bilateral trade/security frameworks that preserve current borders and water rights in perpetuity, and harvest maximum intelligence for later Tashkent-led talks."
+  },
+  "keyPositionsByIssue": {
+    "BORDERS": "Current borders are fixed and must be maintained in perpetuity; only confidence-building measures authorized, no final demarcation deals except between foreign ministers.",
+    "WATER": "Open to importing water from neighbors (e.g., Kazakh water for mining/agriculture) and sharing Fergana Valley resources, but will never export Uzbek water; no final water agreements at the summit.",
+    "HYDROPOWER": "Any upstream hydropower arrangement must not compromise Uzbek downstream water security; explore only, no binding commitments.",
+    "ENERGY": "Promote export of Uzbek oil, gas, metals, and minerals via Kazakh, Russian, and Chinese routes; frameworks only, final deals reserved for foreign ministers.",
+    "SECURITY": "Explore non-binding self-defense and confidence-building arrangements; interested in Kyrgyzstan/Tajikistan withdrawing from or weakening CSTO (Uzbekistan is not a CSTO member); no binding security pacts.",
+    "EXTREMISM": "Deeply concerned by Tajik/regional militant movements; seek bilateral counterterrorism intelligence frameworks without final commitments.",
+    "CLIMATE": "Frame collaborative resource management as benefiting all regional peoples; no concessions that surrender water or border sovereignty.",
+    "INFLUENCE": "Preserve strategic autonomy; deepen economic ties with China (BRI on Uzbek terms) and cultivate India and Kazakhstan as export markets while managing declining Russian influence."
+  },
+  "redLines": [
+    "No alteration of Uzbekistan's current borders.",
+    "No export of Uzbek water resources abroad.",
+    "No intelligence-sharing agreements with any summit nation (China exception explored bilaterally only).",
+    "No acceptance of PRC export-bank loans for BRI projects; all BRI construction done by Uzbek citizens.",
+    "No binding/final agreements on security, borders, water, or trade at this summit (foreign-minister sign-off required)."
+  ],
+  "batna": "Walk away from any binding deal, hold the territorial and water status quo, and defer all substantive trade/security agreements to later Tashkent-controlled bilateral negotiations, having gathered intelligence on all parties.",
+  "concessionsWilling": [
+    "Import Kazakh (or Tajik) water and natural resources to support Uzbek mining and agriculture.",
+    "Sell old/obsolete military equipment (jets, helicopters, artillery, armored vehicles) to Kyrgyzstan and Tajikistan.",
+    "Export Uzbek oil and gas via Kazakh, Russian pipelines to the PRC; expand imports and lower trade barriers regionally.",
+    "Share mining technological expertise with Kazakhstan.",
+    "Offer confidence-building measures and trade-framework outlines to Tajikistan and Kyrgyzstan."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": [
+      "Kazakhstan (oil/gas, mining, rare earths, water imports)",
+      "China (major export market and potential arms/intelligence partner)",
+      "India (emerging export market, arms, IT/cyber tech)"
+    ],
+    "adversaries": [
+      "Tajikistan (border and security friction; militant threat source)",
+      "Kyrgyzstan (border security challenge; Fergana Valley water competition)",
+      "Russia (declining but a long-term security challenge; CSTO influence)"
+    ]
+  },
+  "negotiatingStyle": "Publicly conciliatory and integration-friendly, privately probing and intelligence-driven, playing rivals against each other while conceding nothing binding.",
+  "privateInstructions": [
+    "Play Kyrgyzstan and Tajikistan against each other to expose their border objectives and strengthen Uzbek positions; report everything to the Foreign Ministry immediately.",
+    "Explore intelligence-sharing on Tajik/Kyrgyz threats ONLY bilaterally with China; no other nation may know of this initiative.",
+    "Build rapport with Russia and probe its Ukraine-war and pipeline/defense intentions, but never openly agree with Russian positions; quietly favor Kyrgyz withdrawal from the CSTO.",
+    "Treat the summit primarily as an intelligence-collection operation: harvest each delegation's flexible areas, red lines, arms needs, and BRI/security plans and relay to Tashkent, committing to nothing binding."
+  ]
+}

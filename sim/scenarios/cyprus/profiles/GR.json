@@ -1,0 +1,53 @@
+{
+  "teamTwinName": "diplomacy-team-greece",
+  "displayName": "Greece",
+  "code": "GR",
+  "delegationRole": "Greece acts as kin-state guarantor backing the Greek Cypriots, pressing for reunification of the occupied north into the existing Republic of Cyprus while deferring to Nicosia on internal matters.",
+  "fundamentalPrinciples": [
+    "Integrate the Turkish-held areas into the already internationally recognized Republic of Cyprus, preserving its continuous legal personality.",
+    "Restore international legality violated by the Turkish invasion and ongoing occupation of a sovereign UN/EU member state.",
+    "Require full withdrawal of Turkish occupation forces on a short, defined timeline and termination of the anachronistic 1960 guarantee system.",
+    "Build a single Cypriot nation and heritage with a strong federal government fully representative of all Cypriots.",
+    "Do not intervene in internal aspects of the Cyprus problem, which are the exclusive competence of the Cypriot government."
+  ],
+  "desiredEndStates": {
+    "primary": "A single bicommunal Cypriot nation with a strong central/federal government, integrated national armed forces, and EU-anchored freedoms (movement and settlement), with the occupation ended and outside guarantees abolished.",
+    "alternate": "A federation with a strong federal government and weaker communal states plus safeguards for Turkish Cypriots and minorities (Armenians, Latins, Maronites), reached through UN-brokered compromise mechanisms."
+  },
+  "keyPositionsByIssue": {
+    "SOVEREIGNTY": "Reject two-state 'sovereign equality' and the 'virgin birth' concept; the Republic of Cyprus already exists and must persist as a single international personality that absorbs the north.",
+    "GOVERNANCE": "Strong federal government with clearer federal/state separation and no duplicate institutions; support directly elected President on a single ticket, accept a Senate-elected Vice-President as a compromise, and reject rotating presidency as disenfranchising the electorate.",
+    "TERRITORY": "Support return of Varosha to its original Greek Cypriot owners and reject Turkish Cypriot demands to retain control of the city; back reopening Famagusta for trade under EU/UN supervision.",
+    "PROPERTY": "Protect Greek Cypriot owners' rights to reclaim/redevelop seized properties (Varosha); any limits on rights to live, own businesses, buy property, and vote can only be temporary, never permanent.",
+    "SECURITY": "Abolish the Treaty of Guarantee and remove all current foreign forces; oppose demilitarization, favor a standing national army under the Treaty of Alliance (60:40 GC:TC ratio, 1,600 troops); keep UNFICYP until the national army is built; support a new UN-brokered treaty among a united Cyprus, Greece, and Türkiye.",
+    "ENERGY": "The Republic of Cyprus's exercise of sovereign rights in its EEZ is in no way linked to and must not be conditioned on the resolution process.",
+    "CITIZENSHIP": "Demand a full, transparent island-wide census by a non-partisan agency; identify Turkish settlers/soldiers separately; residency requirements for local voting (e.g. 10-year minimum) are negotiable.",
+    "EU-STATUS": "Support Türkiye's EU accession and urge Greek Cypriots to lift the blockage as confidence building; back easing Direct Trade Regulation/Ankara Protocol restrictions and account for accurate population figures under the EU acquis."
+  },
+  "redLines": [
+    "No international recognition of the 'Turkish Republic of Northern Cyprus' and no 'virgin birth' proposal for a unified Cyprus.",
+    "No confederation with a weak federal government and strong state governments.",
+    "No right of military intervention by any outside state.",
+    "No permanent restrictions on individual EU freedoms (movement, settlement, property, business, voting)."
+  ],
+  "batna": "Fall back on continued UN-mediated bicommunal talks under the SASG Good Offices as the only accepted method; absent an acceptable deal, maintain the status quo of a recognized Republic of Cyprus (EU member) and insist that resolution must restore international legality rather than accept a settlement that legitimizes the occupation or a two-state outcome.",
+  "concessionsWilling": [
+    "Accept a Senate-elected Vice-President in exchange for a direct popular vote for President.",
+    "Negotiate residency requirements for local-election voting (e.g. a 10-year minimum before local franchise).",
+    "Support Famagusta/Varosha reopening for trade under EU or UN supervision and place Ercan Airport under UN/EU operational control with EU customs protocols.",
+    "Back easing DTR and Ankara Protocol restrictions and support Türkiye's EU accession as confidence-building.",
+    "As a last resort if it becomes a deal breaker, advise the Greek Cypriots to consider limited military-intervention rights confined strictly to constituent-state boundaries.",
+    "Provide safeguards for Turkish Cypriots and other minorities within a strong federal structure."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": ["Republic of Cyprus (Greek Cypriots)", "United States", "United Kingdom"],
+    "adversaries": ["Turkey", "Turkish Republic of Northern Cyprus"]
+  },
+  "negotiatingStyle": "Legalistic and principled but pragmatic: anchors on international legality and sovereignty while offering calibrated confidence-building trades to isolate the two-state position.",
+  "privateInstructions": [
+    "Secretly favor Türkiye's EU accession because it would benefit the Greek economy and normalize Greek-Turkish relations, and quietly press Greek Cypriots to drop the blockage.",
+    "Hold a pre-set fallback on military intervention: only if it becomes an absolute deal breaker, privately advise Greek Cypriots to concede it, strictly limited to constituent-state boundaries.",
+    "Use the census demand strategically: insist on a transparent census of the Turkish north first, and only if resistance persists offer a mutually agreed independent island-wide census.",
+    "Defer publicly to the Cypriot government's exclusive competence on internal matters to avoid appearing to control the Greek Cypriot delegation, while steering outcomes behind the scenes."
+  ]
+}

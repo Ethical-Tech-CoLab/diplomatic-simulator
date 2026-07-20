@@ -1,0 +1,141 @@
+{
+  "scoreboard": [
+    {"teamTwinName": "diplomacy-team-china", "satisfaction": 0.42, "agreementsWon": 1, "redLinesCrossed": 0},
+    {"teamTwinName": "diplomacy-team-us", "satisfaction": 0.62, "agreementsWon": 2, "redLinesCrossed": 0},
+    {"teamTwinName": "diplomacy-team-philippines", "satisfaction": 0.63, "agreementsWon": 3, "redLinesCrossed": 0},
+    {"teamTwinName": "diplomacy-team-vietnam", "satisfaction": 0.55, "agreementsWon": 2, "redLinesCrossed": 0},
+    {"teamTwinName": "diplomacy-team-malaysia", "satisfaction": 0.60, "agreementsWon": 3, "redLinesCrossed": 0},
+    {"teamTwinName": "diplomacy-team-brunei", "satisfaction": 0.52, "agreementsWon": 2, "redLinesCrossed": 0},
+    {"teamTwinName": "diplomacy-team-indonesia", "satisfaction": 0.54, "agreementsWon": 2, "redLinesCrossed": 0},
+    {"teamTwinName": "diplomacy-team-india", "satisfaction": 0.50, "agreementsWon": 1, "redLinesCrossed": 0},
+    {"teamTwinName": "diplomacy-team-japan", "satisfaction": 0.56, "agreementsWon": 2, "redLinesCrossed": 0}
+  ],
+  "debriefs": [
+    {
+      "teamTwinName": "diplomacy-team-china",
+      "selfRating": 2.3,
+      "satisfaction": 0.42,
+      "agreementsWon": 1,
+      "redLinesCrossedAgainstUs": 0,
+      "goals": [
+        {"goalId": "hold-sovereignty-and-award-red-lines", "description": "Refuse any concession on ten-dashed-line sovereignty, reject the 2016 award as non-binding, and keep reclamation un-rolled-back", "priority": "critical", "status": "achieved", "evidence": ["R3 closing: 'sovereignty over Xisha and Nansha is indisputable, no reclaimed feature is rolled back, the award is non-binding'"]},
+        {"goalId": "split-asean-from-extra-regional-powers", "description": "Drive a wedge between ASEAN claimants and the US/Japan/India via bilateral side-payments and an outsiders-excluded track", "priority": "critical", "status": "failed", "evidence": ["Malaysia, Indonesia, Brunei all publicly refused to trade away award/ASEAN solidarity (R2-R3)", "8 delegations closed aligned against China"]},
+        {"goalId": "recognition-and-joint-development", "description": "Win recognition of Chinese leadership and lock in a Nansha Joint Development Agency on bilateral terms", "priority": "high", "status": "partial", "evidence": ["Joint-development/fisheries track acknowledged by all incl. Manila", "but only under UNCLOS framing China rejects; nothing bilateral concluded"]}
+      ]
+    },
+    {
+      "teamTwinName": "diplomacy-team-us",
+      "selfRating": 3.4,
+      "satisfaction": 0.62,
+      "agreementsWon": 2,
+      "redLinesCrossedAgainstUs": 0,
+      "goals": [
+        {"goalId": "one-voice-coalition", "description": "Marshal Japan, India and ASEAN into a single UNCLOS/award-anchored voice toward Beijing", "priority": "critical", "status": "achieved", "evidence": ["R3: 'Eight delegations... affirmed one yardstick: UNCLOS'", "'Japan, India, ASEAN, one voice'"]},
+        {"goalId": "hold-fon-and-mdt-redlines", "description": "Preserve freedom of navigation and the Mutual Defense Treaty commitment to the Philippines while rejecting the ten-dashed line", "priority": "critical", "status": "achieved", "evidence": ["R2/R3: 'no retreat from our commitment to Manila... freedom of navigation continues for all'"]},
+        {"goalId": "binding-coc-and-de-escalation", "description": "Secure a binding ASEAN Code of Conduct and a verifiable reclamation freeze that actually moves China", "priority": "high", "status": "partial", "evidence": ["Convergence on a freeze-first roadmap, but China rejected inclusive CoC and the award; nothing binding concluded"]}
+      ]
+    },
+    {
+      "teamTwinName": "diplomacy-team-philippines",
+      "selfRating": 3.5,
+      "satisfaction": 0.63,
+      "agreementsWon": 3,
+      "redLinesCrossedAgainstUs": 0,
+      "goals": [
+        {"goalId": "keep-award-central-and-redlines", "description": "Hold the binding 2016 award, refuse dashed-line legitimization, and protect EEZ and the three reclaimed atolls", "priority": "critical", "status": "achieved", "evidence": ["R3: 'no legitimizing the dashed line, no waiving the award, no surrender of EEZ or the three reclaimed atolls'"]},
+        {"goalId": "asean-unity-and-multilateral-coc", "description": "As Chair, hold ASEAN together and secure a multilaterally-negotiated, ZoPFF/C-based CoC path", "priority": "critical", "status": "achieved", "evidence": ["R3: eight delegations converged on ZoPFF/C joint-development and a multilateral CoC drafting session"]},
+        {"goalId": "binding-enforceable-settlement", "description": "Achieve a binding UNCLOS settlement and enforceable WPS Code of Conduct with Chinese buy-in", "priority": "high", "status": "partial", "evidence": ["China still demands dropping award enforcement and bilateral-only tracks; no binding CoC signed"]}
+      ]
+    },
+    {
+      "teamTwinName": "diplomacy-team-vietnam",
+      "selfRating": 3.0,
+      "satisfaction": 0.55,
+      "agreementsWon": 2,
+      "redLinesCrossedAgainstUs": 0,
+      "goals": [
+        {"goalId": "unclos-basis-no-bilateral-only", "description": "Anchor all entitlements in UNCLOS and refuse a bilateral-only settlement favorable to Beijing", "priority": "critical", "status": "achieved", "evidence": ["R3: 'no settlement on the ten-dashed line, no trading away demilitarization, no ASEAN bypass'"]},
+        {"goalId": "asean-single-track-and-joint-development", "description": "Secure a unified ASEAN track, binding CoC, and joint development in overlapping continental-shelf zones under ZoPFF/C", "priority": "high", "status": "partial", "evidence": ["R3: backed the ASEAN-coordinated single track and ZoPFF/C pilots with the Philippines"]},
+        {"goalId": "end-chinese-militarization", "description": "Obtain an indefinite freeze/termination of Chinese militarization in the East Sea", "priority": "high", "status": "failed", "evidence": ["R3: China refused to freeze militarization; Vietnam reserved recourse to UNCLOS arbitration"]}
+      ]
+    },
+    {
+      "teamTwinName": "diplomacy-team-malaysia",
+      "selfRating": 3.3,
+      "satisfaction": 0.60,
+      "agreementsWon": 3,
+      "redLinesCrossedAgainstUs": 0,
+      "goals": [
+        {"goalId": "become-lead-broker", "description": "Position Malaysia as the indispensable intermediary and route claimant files through one coordinated ASEAN channel from Klang", "priority": "high", "status": "achieved", "evidence": ["R3 US closing: 'mandate Malaysia to merge these proposals into one UNCLOS-conformant CoC text'"]},
+        {"goalId": "hold-unclos-award-redlines", "description": "Refuse recognition of historic rights beyond UNCLOS and keep the 2016 award non-tradable while resisting Chinese side-payments", "priority": "critical", "status": "achieved", "evidence": ["Declined China's Luconia revenue-share bait; R3: 'the award non-tradable... ASEAN solidarity not bartered'"]},
+        {"goalId": "cbm-first-multilateral-settlement", "description": "Deliver a phased CBM roadmap and binding ASEAN-negotiated Code of Conduct grounded in UNCLOS", "priority": "high", "status": "partial", "evidence": ["Convergence on CBM-first roadmap and freeze; no binding CoC concluded and China outside consensus"]}
+      ]
+    },
+    {
+      "teamTwinName": "diplomacy-team-brunei",
+      "selfRating": 2.8,
+      "satisfaction": 0.52,
+      "agreementsWon": 2,
+      "redLinesCrossedAgainstUs": 0,
+      "goals": [
+        {"goalId": "hold-unclos-redlines", "description": "Keep the ten-dashed line un-legitimized, deny zones to artificial features, and not trade away support for the Philippines and Vietnam", "priority": "critical", "status": "achieved", "evidence": ["R3: 'The ten-dashed line was not legitimized... our support for the Philippines' and Vietnam's claims was never traded'"]},
+        {"goalId": "cbm-first-roadmap-and-facilitator-chair", "description": "Advance a CBM-first roadmap with an independently verified freeze and win the facilitator's chair", "priority": "high", "status": "partial", "evidence": ["CBM-first roadmap converged; facilitator role contested and effectively went to Malaysia's drafting mandate"]},
+        {"goalId": "keep-beijing-door-open-for-energy", "description": "Compartmentalize with Beijing to protect commercial/energy interests and keep China engaged on joint development", "priority": "medium", "status": "partial", "evidence": ["R3: thanked Beijing for engaging joint-development track and offered facilitator chair to keep every door open"]}
+      ]
+    },
+    {
+      "teamTwinName": "diplomacy-team-indonesia",
+      "selfRating": 2.9,
+      "satisfaction": 0.54,
+      "agreementsWon": 2,
+      "redLinesCrossedAgainstUs": 0,
+      "goals": [
+        {"goalId": "lead-broker-china-channel", "description": "Claim leadership of the process and act as China's primary intermediary on a single ASEAN channel to Beijing", "priority": "high", "status": "partial", "evidence": ["R3: 'Indonesia... offers to broker that China channel directly', but Malaysia received the CoC drafting mandate"]},
+        {"goalId": "hold-unclos-award-redlines", "description": "Preserve UNCLOS/award red lines, reject coercion, and deny EEZ to reclaimed features while keeping ASEAN unified", "priority": "critical", "status": "achieved", "evidence": ["R3: 'the ten-dashed line was not legitimized, no coercion was rewarded, verifiable claims were respected'"]},
+        {"goalId": "secure-natuna-and-cbm-package", "description": "Protect Natuna waters and lock in a verifiable-freeze CBM package unlocking joint fisheries/energy", "priority": "medium", "status": "partial", "evidence": ["China affirmed respect for Natuna (R2); CBM package converged but not concluded"]}
+      ]
+    },
+    {
+      "teamTwinName": "diplomacy-team-india",
+      "selfRating": 2.7,
+      "satisfaction": 0.50,
+      "agreementsWon": 1,
+      "redLinesCrossedAgainstUs": 0,
+      "goals": [
+        {"goalId": "hold-unclos-fon-redlines", "description": "Keep freedom of passage in the western Pacific non-negotiable, reject dashed-line legitimization, and keep the India-China border out of talks", "priority": "critical", "status": "achieved", "evidence": ["R3: 'Freedom of passage stays non-negotiable'; border issue never raised, avoiding walkout trigger"]},
+        {"goalId": "unclos-coalition-with-investment-leverage", "description": "Build a united UNCLOS front with US/Japan/ASEAN and offer commercial/infrastructure investment to participating claimants", "priority": "high", "status": "achieved", "evidence": ["R2/R3: aligned with US, Japan, ASEAN and offered investment to participating claimants"]},
+        {"goalId": "reduce-chinese-presence", "description": "Secure reduced Chinese naval presence and a freeze on confrontational activities that China accepts", "priority": "medium", "status": "failed", "evidence": ["China rejected award, kept reclamation, and sought to exclude India from any CoC"]}
+      ]
+    },
+    {
+      "teamTwinName": "diplomacy-team-japan",
+      "selfRating": 3.0,
+      "satisfaction": 0.56,
+      "agreementsWon": 2,
+      "redLinesCrossedAgainstUs": 0,
+      "goals": [
+        {"goalId": "hold-award-and-fon-redlines", "description": "Keep the 2016 award binding on all, deny zones to artificial features, and protect freedom of navigation/overflight", "priority": "critical", "status": "achieved", "evidence": ["R3: 'no legitimization of the ten-dashed line, no award waiver, no impingement of navigation'"]},
+        {"goalId": "coalition-and-conditional-financing", "description": "Align with US/India/ASEAN and tie Japanese capital and coast-guard capacity to a verified reclamation freeze", "priority": "high", "status": "partial", "evidence": ["R3: 'Japanese capital and coast-guard capacity follow verified compliance'; convergence but no verified freeze yet"]},
+        {"goalId": "demilitarization-of-scs", "description": "Achieve demilitarization and a halt to reclamation/harassment that China commits to", "priority": "high", "status": "failed", "evidence": ["China refused rollback and sought to exclude Japan from any code (R2-R3)"]}
+      ]
+    }
+  ],
+  "convenerReport": {
+    "headline": "Eight of nine delegations converged on a UNCLOS-based, CBM-first roadmap, but China's refusal on the 2016 award and an inclusive Code of Conduct left the core dispute unresolved.",
+    "summary": "Across three rounds the plenary produced a broad convergence: every delegation except China affirmed UNCLOS as the sole yardstick, agreed that reclaimed artificial features generate no maritime zones, and endorsed a verifiable freeze on reclamation and coast-guard harassment as the first step before phased joint fisheries and energy development. China held all of its own red lines, rejecting the award as non-binding, refusing any rollback of reclamation, and demanding bilateral-only tracks that exclude the US, Japan, and India, but its wedge strategy failed as Malaysia, Indonesia, and Brunei declined its side-payments and stayed inside the ASEAN consensus. The principal fault line was China versus the rest, with a secondary, unresolved contest among Malaysia, Indonesia, and Brunei over who would chair the China channel, effectively settled in Malaysia's favor. No binding instrument was concluded; the round ended with a roadmap and a mandate rather than a settlement.",
+    "keyOutcomes": [
+      "Eight delegations converged on UNCLOS as the sole legal yardstick and that artificial features generate no EEZ or continental shelf.",
+      "Agreement in principle on a sequenced roadmap: independently verified reclamation-and-harassment freeze first, then joint development in undisputed blocks, then Code-of-Conduct talks.",
+      "Malaysia was effectively mandated to merge the ZoPFF/C, Nansha, and Luconia proposals into a single UNCLOS-conformant CoC text from Klang.",
+      "China reaffirmed coast-guard restraint, Luconia revenue-sharing, and respect for Natuna's waters, keeping the joint-development track alive.",
+      "Every non-China delegation reported its red lines intact; no party's red lines were crossed and no coercive settlement was imposed."
+    ],
+    "unresolved": [
+      "China continues to reject the binding 2016 arbitral award and refuses to abandon the ten-dashed line.",
+      "No binding, enforceable Code of Conduct was concluded, and China rejects any CoC that seats extra-regional powers.",
+      "China offered no rollback of reclamation or demilitarization; Vietnam reserved the right to pursue UNCLOS arbitration.",
+      "The broker/lead-facilitator role remained contested among Malaysia, Indonesia, and Brunei.",
+      "Bilateral-versus-multilateral sequencing with Beijing is unsettled, leaving the underlying sovereignty disputes shelved rather than resolved."
+    ]
+  }
+}

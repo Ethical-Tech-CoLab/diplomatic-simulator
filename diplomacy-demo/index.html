@@ -158,13 +158,21 @@
 
       sourceMeta.textContent = 'Snapshot: ' + (data.sourceSnapshot || 'n/a') + ' | Sessions: ' + sessions.length + ' | Generated: ' + (data.generatedAt ? new Date(data.generatedAt).toLocaleString() : 'n/a');
 
+      const params = new URLSearchParams(window.location.search);
+      const wanted = params.get('session');
       sessions.forEach(function (s) {
         const o = document.createElement('option');
         o.value = s.id;
         o.textContent = s.title + ' (' + s.id + ')';
-        if (s.id === 'sess-1778361924764-byifbp') o.selected = true;
         select.appendChild(o);
       });
+      if (wanted && sessions.some(function (s) { return s.id === wanted; })) {
+        select.value = wanted;
+      } else if (sessions.some(function (s) { return s.id === 'sess-arctic-iscne-01'; })) {
+        select.value = 'sess-arctic-iscne-01';
+      } else if (sessions[0]) {
+        select.value = sessions[0].id;
+      }
 
       function scoreFor(teamTwinName, session) {
         const hit = (session.scoreboard || []).find(function (x) { return x.teamTwinName === teamTwinName; });
@@ -191,8 +199,8 @@
         }).join('');
 
         transcript.innerHTML = session.moves.map(function (m) {
-          const side = m.partyTwin === (session.parties && session.parties[0] && session.parties[0].teamTwinName) ? 'left' : 'right';
           const party = (session.parties || []).find(function (p) { return p.teamTwinName === m.partyTwin; });
+          const side = party && party.side ? party.side : (m.partyTwin === (session.parties && session.parties[0] && session.parties[0].teamTwinName) ? 'left' : 'right');
           const name = party ? party.displayName : m.partyTwin;
           const chips = (m.tacticsApplied || []).map(function (t) { return '<span class="chip">' + t + '</span>'; }).join('');
           return '<article class="move ' + side + '">' +
@@ -219,11 +227,24 @@
           .map(function (pair) { return '<div class="tactic"><span>' + pair[0] + '</span><strong>' + pair[1] + '</strong></div>'; })
           .join('');
 
+        const esc = function (x) { return String(x == null ? '' : x).replace(/</g, '&lt;'); };
+        const conv = session.convenerReport;
+        let convHtml = '';
+        if (conv) {
+          const bullets = function (arr) {
+            return (arr || []).map(function (b) { return '<li>' + esc(b) + '</li>'; }).join('');
+          };
+          convHtml =
+            (conv.headline ? '<div class="desc" style="margin-top:8px;"><strong>' + esc(conv.headline) + '</strong></div>' : '') +
+            (conv.summary ? '<div class="desc" style="margin-top:6px;">' + esc(conv.summary) + '</div>' : '') +
+            (conv.keyOutcomes && conv.keyOutcomes.length ? '<div class="desc" style="margin-top:8px;"><strong>Key outcomes</strong></div><ul class="desc" style="margin:4px 0 0 16px;">' + bullets(conv.keyOutcomes) + '</ul>' : '') +
+            (conv.unresolved && conv.unresolved.length ? '<div class="desc" style="margin-top:8px;"><strong>Unresolved</strong></div><ul class="desc" style="margin:4px 0 0 16px;">' + bullets(conv.unresolved) + '</ul>' : '');
+        }
         const debriefHeadline = (session.debriefs || [])
           .map(function (d) { return d.headline; })
           .filter(Boolean)
           .slice(0, 2)
-          .map(function (h) { return '<div class="desc" style="margin-top:8px;">' + String(h).replace(/</g, '&lt;') + '</div>'; })
+          .map(function (h) { return '<div class="desc" style="margin-top:8px;">' + esc(h) + '</div>'; })
           .join('');
 
         insights.innerHTML =
@@ -231,8 +252,8 @@
           partiesHtml +
           '<div style="margin-top:12px;"><strong>Top Tactics</strong></div>' +
           (topTactics || '<div class="desc">No tactic detections.</div>') +
-          '<div style="margin-top:12px;"><strong>Debrief Highlights</strong></div>' +
-          (debriefHeadline || '<div class="desc">No debrief summaries in this sample.</div>');
+          '<div style="margin-top:12px;"><strong>Convener Report</strong></div>' +
+          (convHtml || debriefHeadline || '<div class="desc">No convener summary in this sample.</div>');
 
         description.textContent = session.description || '';
       }

@@ -1,0 +1,115 @@
+{
+  "scoreboard": [
+    {"teamTwinName": "diplomacy-team-kazakhstan", "satisfaction": 0.85, "agreementsWon": 4, "redLinesCrossed": 0},
+    {"teamTwinName": "diplomacy-team-uzbekistan", "satisfaction": 0.80, "agreementsWon": 4, "redLinesCrossed": 0},
+    {"teamTwinName": "diplomacy-team-kyrgyzstan", "satisfaction": 0.72, "agreementsWon": 4, "redLinesCrossed": 0},
+    {"teamTwinName": "diplomacy-team-tajikistan", "satisfaction": 0.55, "agreementsWon": 3, "redLinesCrossed": 0},
+    {"teamTwinName": "diplomacy-team-russia", "satisfaction": 0.34, "agreementsWon": 1, "redLinesCrossed": 2},
+    {"teamTwinName": "diplomacy-team-china", "satisfaction": 0.88, "agreementsWon": 4, "redLinesCrossed": 0},
+    {"teamTwinName": "diplomacy-team-india", "satisfaction": 0.48, "agreementsWon": 3, "redLinesCrossed": 2}
+  ],
+  "debriefs": [
+    {
+      "teamTwinName": "diplomacy-team-kazakhstan",
+      "selfRating": 4.5,
+      "satisfaction": 0.85,
+      "agreementsWon": 4,
+      "redLinesCrossedAgainstUs": 0,
+      "goals": [
+        {"goalId": "deescalation-status-quo", "description": "Broker de-escalation and a return to status-quo demarcation via a non-binding framework, no final deal at summit", "priority": "critical", "status": "achieved", "evidence": ["r3: 'every Central Asian state affirmed de-escalation and the status quo ante'; refer to FM-led talks"]},
+        {"goalId": "resource-sovereignty", "description": "Protect Kazakh water/resource sovereignty; no power dictates partners or resources; decline CSTO/EAEU expansion", "priority": "critical", "status": "achieved", "evidence": ["r2: 'EAEU or CSTO expansion is not on our table'; r3 red lines held: 'no external power dictates our resources'"]},
+        {"goalId": "middle-corridor-connectivity", "description": "Advance Middle Corridor rail/pipeline connectivity with Uzbekistan and Chinese BRI financing", "priority": "high", "status": "achieved", "evidence": ["r2 conditional BRI+transit offer to China; r3 'Middle Corridor connectivity package with Uzbekistan and China'"]}
+      ]
+    },
+    {
+      "teamTwinName": "diplomacy-team-uzbekistan",
+      "selfRating": 4.3,
+      "satisfaction": 0.80,
+      "agreementsWon": 4,
+      "redLinesCrossedAgainstUs": 0,
+      "goals": [
+        {"goalId": "borders-water-redlines", "description": "Keep borders fixed in perpetuity and never export Uzbek water; no binding deals", "priority": "critical", "status": "achieved", "evidence": ["r3: 'borders unchanged, Uzbek water never exported, no binding deals here'"]},
+        {"goalId": "bri-on-uzbek-terms", "description": "Take Chinese technical partnership on Uzbek terms while declining export-bank loan dependency", "priority": "high", "status": "achieved", "evidence": ["r2: 'BRI works on Uzbek terms... declining export-bank dependency'; r3 'BRI on Uzbek terms'"]},
+        {"goalId": "even-handed-leverage", "description": "Stay even-handed between Kyrgyzstan and Tajikistan, offer CBMs+equipment, harvest intelligence", "priority": "medium", "status": "achieved", "evidence": ["r3: 'We will not take sides between neighbors'; CBMs+surplus-equipment sales offered to both"]}
+      ]
+    },
+    {
+      "teamTwinName": "diplomacy-team-kyrgyzstan",
+      "selfRating": 3.7,
+      "satisfaction": 0.72,
+      "agreementsWon": 4,
+      "redLinesCrossedAgainstUs": 0,
+      "goals": [
+        {"goalId": "territory-water-troops", "description": "Surrender no sovereign territory, export no water, admit no foreign troops; lock in status quo", "priority": "critical", "status": "achieved", "evidence": ["r3: 'no sovereign Kyrgyz territory surrendered, no Kyrgyz water exported, no foreign troops on Kyrgyz soil'"]},
+        {"goalId": "china-winter-power-package", "description": "Secure Chinese BRI hydropower/grid package (Kyrgyz labor) to end winter-power emergency", "priority": "high", "status": "achieved", "evidence": ["r2 China commits financing this year; r3 'China's Belt and Road hydropower and grid package built with Kyrgyz labor'"]},
+        {"goalId": "tajik-demarcation-progress", "description": "Extract verifiable Tajik troop pull-back and advance demarcation with Dushanbe", "priority": "medium", "status": "failed", "evidence": ["r3: 'Tajikistan has offered no verifiable troop pull-back, so demarcation talk with Dushanbe stays frozen'"]}
+      ]
+    },
+    {
+      "teamTwinName": "diplomacy-team-tajikistan",
+      "selfRating": 3.0,
+      "satisfaction": 0.55,
+      "agreementsWon": 3,
+      "redLinesCrossedAgainstUs": 0,
+      "goals": [
+        {"goalId": "territory-water-no-russians", "description": "Cede no territory, keep water sovereign, and bar any Russian military personnel inside Tajikistan", "priority": "critical", "status": "achieved", "evidence": ["r3: 'no Tajik territory traded... no foreign military personnel monitoring inside Tajikistan; any Fergana mission must be neutral, not CSTO-led'"]},
+        {"goalId": "uzbek-border-backing", "description": "Trade recognition of Uzbek frontiers for Uzbek open backing of Tajik claims against Kyrgyzstan", "priority": "high", "status": "failed", "evidence": ["r3: 'Uzbekistan has not yet openly backed our claims... so recognition of Uzbek frontiers stays conditional'; UZB stayed even-handed"]},
+        {"goalId": "china-india-partnerships", "description": "Deepen China BRI/Roghun support and India CT/air ties, conditioned on India recognizing Tajik claims", "priority": "medium", "status": "partial", "evidence": ["r3: China BRI/Roghun and CT/COIN supported; 'deeper Indian partnership awaits public recognition of Tajik sovereignty' (not given)"]}
+      ]
+    },
+    {
+      "teamTwinName": "diplomacy-team-russia",
+      "selfRating": 2.0,
+      "satisfaction": 0.34,
+      "agreementsWon": 1,
+      "redLinesCrossedAgainstUs": 2,
+      "goals": [
+        {"goalId": "affirm-security-guarantor", "description": "Be affirmed as sole security guarantor with a Russia/CSTO-led Fergana monitoring mission", "priority": "critical", "status": "failed", "evidence": ["r3 consensus was neutral-observer monitoring, 'not CSTO-led' (TJK); KGZ 'no foreign troops'; monitoring lead unresolved but explicitly not Russian"]},
+        {"goalId": "eaeu-csto-expansion", "description": "Expand EAEU/CSTO, welcoming Tajikistan and Uzbekistan; keep allies inside the CSTO", "priority": "critical", "status": "failed", "evidence": ["r2 KAZ: 'EAEU or CSTO expansion is not on our table'; EAEU accession offers to Tashkent/Dushanbe not taken up; CSTO treated as weak guarantor"]},
+        {"goalId": "block-excluding-architecture", "description": "Block resource/security architecture that excludes Russia or routes China resource trade around it", "priority": "high", "status": "failed", "evidence": ["r2 UZB/KAZ agree to route oil/gas via Kazakh corridors to PRC excluding Russia; r3 Russia 'will not accept architecture built to exclude it' — yet that is the trajectory"]}
+      ]
+    },
+    {
+      "teamTwinName": "diplomacy-team-china",
+      "selfRating": 4.6,
+      "satisfaction": 0.88,
+      "agreementsWon": 4,
+      "redLinesCrossedAgainstUs": 0,
+      "goals": [
+        {"goalId": "no-comprehensive-settlement", "description": "Ensure no comprehensive border/water settlement; keep disputes frozen and states inward-focused", "priority": "critical", "status": "achieved", "evidence": ["r3: frameworks not treaties, 'Gaps rightly remain on Vorukh and monitoring'; no binding settlement reached"]},
+        {"goalId": "bri-expansion", "description": "Expand BRI across the region (Kyrgyz power, Tajik hydropower, Kazakh/Uzbek connectivity, cyber)", "priority": "high", "status": "achieved", "evidence": ["r3: 'Belt and Road packages ending Kyrgyzstan's winter-power emergency and advancing Tajik hydropower, Uzbek and Kazakh connectivity, and cyber cooperation'"]},
+        {"goalId": "block-india-russia-lead", "description": "Deny India any leadership foothold and prevent Russian military reinsertion / neutralize CSTO", "priority": "high", "status": "achieved", "evidence": ["r3: monitoring under 'mutually approved lead — never an outside bloc'; no India role; Russia sidelined, CSTO treated defunct"]}
+      ]
+    },
+    {
+      "teamTwinName": "diplomacy-team-india",
+      "selfRating": 2.8,
+      "satisfaction": 0.48,
+      "agreementsWon": 3,
+      "redLinesCrossedAgainstUs": 2,
+      "goals": [
+        {"goalId": "box-out-china", "description": "Blunt Chinese dominance and prevent China locking in bilateral deals with Kazakhstan/Uzbekistan", "priority": "critical", "status": "failed", "evidence": ["China secured Middle Corridor/connectivity/cyber with KAZ+UZB and region-wide BRI; India could not box out BRI centrality"]},
+        {"goalId": "reinvigorate-tajik-ties", "description": "Revive Tajik security relationship via joint IAF-Tajik air exercises and CT cooperation", "priority": "high", "status": "partial", "evidence": ["r3: 'joint IAF-Tajik air exercises and counter-extremism cooperation with Dushanbe' pursued bilaterally; but TJK withheld deeper partnership pending recognition India did not give"]},
+        {"goalId": "strategic-autonomy", "description": "Ensure no forced CSTO retention and no external hegemon crowned; states free to choose partners", "priority": "high", "status": "achieved", "evidence": ["r3: KAZ/UZB/KGZ 'declined bloc expansion and single-patron dependency'; 'no external actor was crowned regional hegemon'"]}
+      ]
+    }
+  ],
+  "convenerReport": {
+    "headline": "The Ashgabat summit produced broad non-binding convergence on de-escalation and status-quo borders but deferred every substantive settlement to later foreign-minister talks.",
+    "summary": "All seven delegations affirmed a return to status-quo Fergana demarcation, neutral-observer confidence-building measures with reciprocal troop limits, science-based Syr Darya stewardship with ICWC reform, and Middle Corridor connectivity plus Chinese BRI energy packages — all explicitly framed as non-binding frameworks referred onward, not treaties. The central fault line ran between the Central Asian states and China (who converged on frozen disputes and Central-Asian-led choices) and Russia, which was rebuffed on EAEU/CSTO expansion, a Russia-led monitoring mission, and its bid to be reaffirmed as sole security guarantor. Talks stalled on Vorukh's final status, who leads any monitoring mission, and the Kyrgyz-Tajik track, where Dushanbe's refusal to offer verifiable troop pull-backs kept demarcation frozen. Tajikistan's leverage plays (Uzbek backing of its claims against Kyrgyzstan, Indian recognition of its border claims) both went unmet, and India could not blunt China's expanding bilateral footprint.",
+    "keyOutcomes": [
+      "Consensus on status-quo demarcation and a non-binding de-escalation framework, with all final terms referred to foreign-minister-led tracks.",
+      "Agreement in principle on neutral-observer CBMs and reciprocal troop limits, and on science-based Syr Darya stewardship plus ICWC reform.",
+      "Middle Corridor connectivity package (Kazakhstan-Uzbekistan-China) and region-wide Chinese BRI energy/hydropower/cyber packages advanced bilaterally.",
+      "Every resource and water red line held: no water exports (UZB, KGZ), sovereignty over resources preserved (KAZ, TJK), no territory traded.",
+      "Russia isolated: EAEU/CSTO expansion rejected, CSTO-led monitoring barred, and no foreign troops accepted in Kyrgyzstan or Tajikistan."
+    ],
+    "unresolved": [
+      "Final status of Vorukh and the disputed exclaves — deferred, no settlement.",
+      "Leadership of any Fergana monitoring mission (neutral lead agreed in principle, but not who).",
+      "Kyrgyz-Tajik demarcation, frozen over Tajikistan's refusal to offer verifiable troop pull-backs.",
+      "Consensus mechanism for ICWC reform and any binding water-allocation formula.",
+      "Russia's security-guarantor role and the future of the CSTO, left contested and unaddressed."
+    ]
+  }
+}

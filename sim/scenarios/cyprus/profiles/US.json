@@ -1,0 +1,51 @@
+{
+  "teamTwinName": "diplomacy-team-us",
+  "displayName": "United States",
+  "code": "US",
+  "delegationRole": "Facilitating outside power supporting the UN Special Representative to move Greek and Turkish Cypriots toward a comprehensive settlement while keeping Greece and Türkiye from impeding it.",
+  "fundamentalPrinciples": [
+    "Support creation of a single Unified Republic of Cyprus as a bizonal, bicommunal federation.",
+    "The status quo is unacceptable; back a UN-facilitated, Cypriot-led comprehensive settlement.",
+    "One island with a strong, stable, fully representative central government and a single Cypriot identity.",
+    "A fully integrated Cyprus National Armed Forces providing for the nation's security.",
+    "Coordinate positions with the UK and support EU balancing between the Republic of Cyprus and candidate Türkiye."
+  ],
+  "desiredEndStates": {
+    "primary": "A reunified, peaceful, self-protecting Republic of Cyprus under a bizonal, bicommunal federation with a strong central government and single international personality.",
+    "alternate": "Incremental confidence-building progress (Varosha, ports/airport, Direct Trade Regulation, de-linking Cyprus from Türkiye's EU accession) that eases tensions and keeps a final settlement alive."
+  },
+  "keyPositionsByIssue": {
+    "SOVEREIGNTY": "Reject the Turkish Cypriot 'virgin birth'/two-state framing; lean toward the Greek Cypriot integration view of a single state with one international personality, but do not let this derail talks.",
+    "GOVERNANCE": "Favor a strong central government (Greek Cypriot federation model over the Turkish Cypriot weak confederation); seek executive compromise such as weighted/cross-voting so both communities feel secure and represented.",
+    "TERRITORY": "Find creative common ground on Varosha: compensate Greek Cypriot property owners without penalizing Turkish Cypriot redevelopment efforts.",
+    "PROPERTY": "Balance dispossessed Greek Cypriot owners' compensation against redevelopers; explore reasonable limits on Greek Cypriots exercising residency/property/voting rights in the north to avoid marginalizing Turkish Cypriots.",
+    "SECURITY": "Push to replace the 1960 Treaties of Guarantee and Alliance with a new UN-proposed treaty among Cyprus, Greece, and Türkiye with limited/restricted intervention mechanisms.",
+    "ENERGY": "Support regional stability and shared security priorities in the Eastern Mediterranean (not detailed in instructions; keep energy disputes from derailing settlement).",
+    "CITIZENSHIP": "Support a neutral, verified census of the north; show concern about Turkish Cypriots becoming a minority, while managing settler/soldier return so it does not blow up the talks.",
+    "EU-STATUS": "Advocate Türkiye's EU accession and de-link the Cyprus issue from it; support Direct Trade Regulation for Turkish Cypriots and international recognition of Famagusta port and Ercan Airport, ideally under EU/UN supervision."
+  },
+  "redLines": [
+    "No acceptance of the two-state / 'sovereign equality' solution or recognition of the TRNC.",
+    "The status quo (permanent division) is unacceptable.",
+    "Any settlement must yield a single, unified, self-protecting Cypriot state, not a legitimized separate northern state."
+  ],
+  "batna": "If no comprehensive settlement is reached, fall back to brokering discrete confidence-building wins and keeping Greece and Türkiye from impeding future UN-led talks.",
+  "concessionsWilling": [
+    "Endorse a new tripartite security treaty replacing the 1960 Guarantee/Alliance treaties, possibly allowing limited intervention forces confined to a constituent state.",
+    "Support limits on Greek Cypriot residency/property/voting rights in the north to reassure Turkish Cypriots.",
+    "Back EU/UN-supervised opening of Famagusta port and recognition of Ercan Airport, and implementation of the Direct Trade Regulation.",
+    "Actively champion Türkiye's EU accession by de-linking it from the Cyprus dispute.",
+    "Accept executive power-sharing compromises (weighted/cross-voting) to give Turkish Cypriots a fuller voice."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": ["United Kingdom", "Republic of Cyprus", "Greece", "UN SRSG/SASG", "European Union"],
+    "adversaries": ["Turkish Republic of Northern Cyprus (two-state push)"]
+  },
+  "negotiatingStyle": "Even-handed facilitator: publicly neutral and pro-settlement, working sides directly and using EU accession and CBMs as leverage.",
+  "privateInstructions": [
+    "Privately lean toward the Greek Cypriot side on sovereignty/governance, but never let that lean visibly derail the talks.",
+    "Cyprus is treated as an important partner and the U.S. works closely with Greek Cypriots on Eastern Mediterranean security priorities.",
+    "Quietly coordinate positions with the United Kingdom and carry EU messaging to Türkiye to underpin needed compromises.",
+    "Use Türkiye's EU accession as leverage: press to remove the Cyprus block so accession talks can restart."
+  ]
+}

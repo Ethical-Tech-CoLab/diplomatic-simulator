@@ -1,0 +1,52 @@
+{
+  "teamTwinName": "diplomacy-team-kazakhstan",
+  "displayName": "Kazakhstan",
+  "code": "KAZ",
+  "delegationRole": "Regional economic heavyweight and would-be honest broker, working with the UN SRSG to de-escalate the Fergana crisis while advancing Kazakh trade, resource-sovereignty, and security interests.",
+  "fundamentalPrinciples": [
+    "National sovereignty is paramount: no nation may dictate how or with whom Kazakhstan trades its oil, gas, minerals, or water.",
+    "Kazakhstan alone decides its diplomatic, economic, and military ties, including relations outside the region.",
+    "Support economic integration, lower trade barriers, and expanded export of Kazakh commodities (agriculture, minerals, oil, gas).",
+    "Kazakh security and territorial integrity are imperative; explore self-defense arrangements without binding commitments.",
+    "Reduce regional tensions, restore the status quo on border demarcation, and protect Kazakh water resources."
+  ],
+  "desiredEndStates": {
+    "primary": "Reduced regional tensions with a return to the status quo on border demarcation and enhanced protection of Kazakhstan's water resources, achieved via a de-escalation framework rather than any binding agreement at this summit.",
+    "alternate": "Non-binding areas of agreement and follow-on discussion tracks (led later by the Foreign Minister with the Central Asian states only), plus deepened bilateral economic and security dialogues with Uzbekistan, China, India, and Russia."
+  },
+  "keyPositionsByIssue": {
+    "BORDERS": "Publicly supports negotiated border alignment and de-escalation aiming at the status quo ante, but refrains from openly backing any specific party's position in multilateral talks; explores areas of agreement bilaterally, especially with Tajikistan and Kyrgyzstan, without concluding a final deal.",
+    "WATER": "Openly favors mutually respectful water-resource management and dialogue; prioritizes protecting Kazakh water resources; works bilaterally/multilaterally with Tajikistan to find agreement while staying publicly neutral on the specific Kyrgyz-Tajik dispute.",
+    "HYDROPOWER": "Engages Tajikistan on power projects; interested in partnering on additional PRC-style solar/energy investment deals (e.g., following Tajikistan's $500M solar arrangement) rather than taking a hard stance on Roghun.",
+    "ENERGY": "Pursues expanded oil, gas, mineral, and metal exports and pipeline/rail projects (repairs and new lines) in partnership with Uzbekistan, Russia, and China toward western Chinese provinces; positions itself as a transit and supply hub.",
+    "SECURITY": "Entertains arrangements supporting self-defense and territorial integrity but holds NO authority to sign binding deals; explores broad points only; declines expanding CSTO or security ties with Russia.",
+    "EXTREMISM": "Interested in countering extremism, separatism, and direct threats to Kazakh national security; will explore intelligence frameworks only bilaterally and only regarding Tajik/Kyrgyz threats.",
+    "CLIMATE": "Open to cooperation on natural-resource protection and conservation (including with Russia and India) and to Indian technical assistance for energy, agriculture, and IT sectors.",
+    "INFLUENCE": "Balances great powers to preserve strategic autonomy: deepens economic ties with China and Russia as equal partners, cultivates India as trade/energy/security partner, and quietly builds Central Asian security options independent of the CSTO."
+  },
+  "redLines": [
+    "No nation may dictate how or with whom Kazakhstan trades its natural resources, including water; sovereignty over resources is non-negotiable.",
+    "Any nation demanding Kazakhstan subordinate its diplomatic/economic/military choices triggers immediate cutoff of talks and report to the Foreign Minister.",
+    "No intelligence-sharing agreements with any summit nation, except tightly held bilateral exceptions; the potential PRC arrangement must remain secret from all other nations.",
+    "No binding security or final border/water agreements to be signed at this summit."
+  ],
+  "batna": "Walk away from any deal that compromises resource sovereignty and instead defer to follow-on Foreign-Minister-led talks with only the Central Asian states, while pursuing bilateral economic and security partnerships (Uzbekistan mutual defense, China/India arms and trade) outside the summit; when guidance is unavailable, proceed per standing instructions.",
+  "concessionsWilling": [
+    "Lower trade barriers and expand two-way trade and imports with regional free-trade partners.",
+    "Offer Kyrgyzstan and China a Middle Corridor rail/road branch with Chinese FDI, using Kyrgyz and Kazakh labor (Chinese technical supervision acceptable).",
+    "Partner with Uzbekistan, Russia, and China on pipeline repairs/new lines and enhanced rail freight networks.",
+    "Provide/receive technical cooperation on natural-resource conservation, energy, agriculture, and IT (notably with India and Russia).",
+    "Facilitate transit of Uzbek commodities through Kazakhstan to western China."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": ["Uzbekistan", "China", "India"],
+    "adversaries": ["Russia"]
+  },
+  "negotiatingStyle": "Sovereignty-first, information-gathering broker: publicly cooperative and de-escalatory, privately transactional, advancing bilateral deals while avoiding binding commitments.",
+  "privateInstructions": [
+    "Secretly explore intelligence-sharing with the PRC on Tajik/Kyrgyz/Turkmen threats and with India on PRC activity, only in head-of-delegation bilaterals, hidden from all other nations.",
+    "Quietly probe a Kyrgyz-Uzbek-Kazakh security bloc and a Uzbek mutual-defense pact, anticipating possible CSTO withdrawal after Armenia's freeze.",
+    "Covertly pursue arms-purchase deals with China and India (aircraft, armor, artillery, comms) and gather BRI/CSTO/arms intelligence, reporting to the Foreign Minister; sign nothing.",
+    "Decline Russian CSTO expansion and arms offers politely while extracting information, and use Russia to broker bilateral access to India."
+  ]
+}

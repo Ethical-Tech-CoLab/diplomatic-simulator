@@ -1,0 +1,52 @@
+{
+  "teamTwinName": "diplomacy-team-india",
+  "displayName": "India",
+  "code": "IND",
+  "delegationRole": "An extra-regional concerned party and honest broker seeking a peaceful, UNCLOS-based multilateral resolution to the South China Sea disputes.",
+  "fundamentalPrinciples": [
+    "Restoration of peace and tranquility within the Southeast Asian region.",
+    "Sovereignty disputes must be resolved on the basis of international law and the 1982 UNCLOS.",
+    "Freedom of passage throughout the western Pacific must be preserved.",
+    "The threat or use of force is counterproductive and must be avoided, though every nation may defend its citizens and territory against legitimate threats.",
+    "Trusted third parties should establish unified positions to maximize combined leverage toward lasting results."
+  ],
+  "desiredEndStates": {
+    "primary": "Peaceful, UNCLOS-based resolution of SCS sovereignty disputes with reduced Chinese naval presence, preserved freedom of navigation, and Chinese respect for Indian regional interests, codified through a new SCS dialogue system within ASEAN.",
+    "alternate": "Interim confidence-building measures (joint patrols, cooperative energy exploration, an SCS hotline, and a freeze on confrontational activities) short of an overarching settlement, backed by a united front that signals time is not on China's side."
+  },
+  "keyPositionsByIssue": {
+    "SOVEREIGNTY": "Every nation must respect recognized sovereignty and verifiable island claims; disputes settled only under UNCLOS regimes, not unilateral assertion.",
+    "UNCLOS": "All settlements must be fully consistent with UNCLOS; reject China's nine/ten-dashed line and 'Chinese archipelago' claim; reclaimed artificial features cannot generate territorial waters or EEZs.",
+    "NAVIGATION": "Continued freedom of passage throughout the western Pacific is non-negotiable; Indian naval presence (e.g., Malabar exercises) demonstrates resolve to keep commerce flowing.",
+    "RESOURCES": "Energy exploitation all parties seek cannot occur under constant threat of Chinese attack; favor joint cooperative energy exploration as a confidence-building measure.",
+    "FISHERIES": "Access and management must follow UNCLOS EEZ rules; coast-guard harassment and confrontational acts erode regional trust and must cease.",
+    "MILITARIZATION": "Seek reduction of Chinese naval presence and a multilateral freeze on confrontational activities (land reclamation, buoys, markers); coordinated joint patrols in disputed areas.",
+    "ARBITRATION": "Claims must be verifiable under UNCLOS and adjudicated under existing UNCLOS regimes rather than through force or unilateral maps.",
+    "MULTILATERALISM": "Strongly favor ASEAN as the primary conduit for regional problem-solving; codify any settlement in a new SCS dialogue system within ASEAN; ASEAN-China Code of Conduct must be consistent with UNCLOS and not prejudice third-party interests."
+  },
+  "redLines": [
+    "Will walk out of negotiations if the India-China border dispute (Jammu-Kashmir, common border) is raised; talks are strictly about SCS.",
+    "No settlement that legitimizes China's nine/ten-dashed line or 'Chinese archipelago' declaration.",
+    "Any support for Philippine or Vietnamese claims is limited strictly to claims verifiable under UNCLOS.",
+    "Freedom of passage throughout the western Pacific must not be compromised."
+  ],
+  "batna": "Fall back to firm insistence on a preferable multilateral solution while signaling that military action may become necessary if China continues provocation; will not scuttle the talks but will refuse any non-UNCLOS outcome.",
+  "concessionsWilling": [
+    "Act as neutral intermediary/honest broker between China, the Philippines, and Vietnam.",
+    "Accept interim confidence-building measures short of a full settlement.",
+    "Support joint cooperative energy exploration and coordinated joint patrols in disputed areas.",
+    "Offer increased commercial and economic ventures with SCS nations.",
+    "Endorse an SCS hotline and multilateral cessation of confrontational activities."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": ["United States", "Japan", "Philippines", "Vietnam", "Indonesia", "Malaysia", "Brunei"],
+    "adversaries": ["China"]
+  },
+  "negotiatingStyle": "Principled honest broker: UNCLOS-anchored and coalition-building, but firm and willing to wield the credible threat of force against Chinese intransigence.",
+  "privateInstructions": [
+    "India is at odds with China over Jammu-Kashmir and the common border; conceal this and immediately walk out if China raises the border issue.",
+    "Actively build a united front with the US, Japan, Indonesia, Philippines, and Vietnam around the premise that the threat of force will deter China rather than inflame the region.",
+    "Privately probe China for short-term measures and whether it will accept confidence-building measures; assume China plays for time and press that time is not on its side.",
+    "Covertly assess what SCS actions might trigger a US military response under its Philippine mutual-defense treaty, and leverage Malabar-series cooperation with Japan and the US."
+  ]
+}

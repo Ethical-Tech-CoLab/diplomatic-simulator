@@ -1,0 +1,53 @@
+{
+  "teamTwinName": "diplomacy-team-china",
+  "displayName": "China",
+  "code": "CHN",
+  "delegationRole": "Expand PRC regional influence in Central Asia while publicly backing peace, quietly ensuring no comprehensive settlement is reached and setting conditions for later bilateral deals.",
+  "fundamentalPrinciples": [
+    "Keep Central Asian states off balance and inward-focused; block any comprehensive border/water settlement among them.",
+    "Deny India any leadership foothold in Central Asia and isolate it at every turn.",
+    "Prevent Russia from reinserting military power (especially in Kyrgyzstan/Tajikistan) and treat the CSTO as defunct.",
+    "Secure water flows for China's western provinces; oppose any water accord that excludes imports to China.",
+    "Advance Belt and Road Initiative expansion and position China for follow-on bilateral engagement."
+  ],
+  "desiredEndStates": {
+    "primary": "Enhanced Chinese regional dominance with disputes left unresolved, no India/Russia leadership role, BRI expanded, and conditions set for bilateral resource and security deals.",
+    "alternate": "A limited, non-binding framework (e.g., a Fergana monitoring mission under a China-acceptable neutral lead) that reduces tensions without a binding comprehensive settlement or water terms excluding China."
+  },
+  "keyPositionsByIssue": {
+    "BORDERS": "Publicly support peaceful resolution but insist borders stay as-is; oppose any demarcation change without embarrassing the parties. A Fergana monitoring mission is acceptable only if led by a disinterested, China-approved nation (never Russia or India), backstopped by China's UNSC role.",
+    "WATER": "Openly offer technical/construction help for shared use, but block any final water accord; oppose any deal that excludes water imports to China's western provinces.",
+    "HYDROPOWER": "Offer construction and technical assistance (Roghun, winter power) as BRI leverage while avoiding a binding downstream settlement.",
+    "ENERGY": "Address Kyrgyz energy emergency via arms/equipment-for-resources deals and BRI infrastructure to deepen dependence on China.",
+    "SECURITY": "Offer security assistance, arms sales, cyber and intelligence-sharing bilaterally; torpedo CSTO as the security mechanism; sign no final security agreement at the summit (frameworks only, passed to foreign ministries).",
+    "EXTREMISM": "Offer counterterrorism and security assistance (notably to Tajikistan) as leverage to pull states into China's orbit.",
+    "CLIMATE": "Frame water sharing and smart resource use as shared health/economic benefit to justify BRI projects and flows to China.",
+    "INFLUENCE": "Publicly back Kazakh-friendly ideas and Russia's multilateral positions; privately expand Chinese primacy, isolate India, and downplay Russia's deliverability."
+  },
+  "redLines": [
+    "Central Asian states reaching a comprehensive settlement of border and resource disputes.",
+    "Any change to existing borders among Kyrgyzstan, Tajikistan, Uzbekistan.",
+    "A water-sharing accord that excludes water imports to China's western provinces.",
+    "Russian forces deployed to Kyrgyzstan or Tajikistan to shape their internal politics.",
+    "Any enhancement or expansion of India's influence/leadership in Central Asia."
+  ],
+  "batna": "Prevent any binding agreement, keep disputes frozen, and shift to bilateral engagement with individual states (Kazakhstan, Kyrgyzstan, Tajikistan, Uzbekistan) after the summit to lock in resource, arms, and security deals.",
+  "concessionsWilling": [
+    "Water technical expertise, construction, storage and conservation projects.",
+    "BRI infrastructure investment and expansion.",
+    "Arms sales and military training at favorable prices (Uzbekistan, Kyrgyzstan).",
+    "Economic development aid, mining/agriculture assistance, and political support.",
+    "Cyber-security help and intelligence-sharing arrangements (Kazakhstan, Uzbekistan)."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": ["Kazakhstan", "Kyrgyzstan", "Russia (public support only)"],
+    "adversaries": ["India", "Russia (privately, as regional rival)"]
+  },
+  "negotiatingStyle": "Publicly cooperative and incentive-driven, privately obstructive and coercive; Wolf Warrior hostility reserved for India.",
+  "privateInstructions": [
+    "Covertly ensure NO comprehensive border/water settlement is reached; obstruct while never publicly embarrassing the Central Asian states.",
+    "Support Russia openly in multilateral sessions but undercut its credibility bilaterally; remind Moscow of the unfulfilled Tumen River land transfer for Sea of Japan access.",
+    "Aggressively pull Kyrgyzstan into China's orbit and gather Kyrgyz/Uzbek security-arrangement details for the Foreign Ministry, but conclude no formal agreements and downplay this publicly.",
+    "Split India-Tajikistan and India-Russia ties; escalate coercion or direct warnings only with prior Foreign Minister approval, and no final security agreement may be signed at the summit."
+  ]
+}

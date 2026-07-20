@@ -1,0 +1,102 @@
+{
+  "scoreboard": [
+    {"teamTwinName": "diplomacy-team-us", "satisfaction": 0.62, "agreementsWon": 5, "redLinesCrossed": 0},
+    {"teamTwinName": "diplomacy-team-uk", "satisfaction": 0.60, "agreementsWon": 5, "redLinesCrossed": 0},
+    {"teamTwinName": "diplomacy-team-turkey", "satisfaction": 0.55, "agreementsWon": 4, "redLinesCrossed": 0},
+    {"teamTwinName": "diplomacy-team-trnc", "satisfaction": 0.50, "agreementsWon": 4, "redLinesCrossed": 0},
+    {"teamTwinName": "diplomacy-team-greece", "satisfaction": 0.47, "agreementsWon": 2, "redLinesCrossed": 0},
+    {"teamTwinName": "diplomacy-team-cyprus", "satisfaction": 0.44, "agreementsWon": 2, "redLinesCrossed": 0}
+  ],
+  "debriefs": [
+    {
+      "teamTwinName": "diplomacy-team-us",
+      "selfRating": 3.1,
+      "satisfaction": 0.62,
+      "agreementsWon": 5,
+      "redLinesCrossedAgainstUs": 0,
+      "goals": [
+        {"goalId": "single-unified-federation", "description": "Move parties toward a single, reunified Republic of Cyprus with one international personality (reject two-state/virgin birth).", "priority": "critical", "status": "partial", "evidence": ["R3: 'single personality' framing held as anchor but sovereignty gap unresolved", "no recognition of TRNC conceded"]},
+        {"goalId": "replace-1960-treaty", "description": "Replace the 1960 Guarantee/Alliance treaties with a new UN-framed tripartite treaty, intervention confined to a constituent state.", "priority": "high", "status": "achieved", "evidence": ["R2/R3 broad convergence on tripartite treaty", "'residual intervention confined to a constituent state, not a veto over the island'"]},
+        {"goalId": "cbm-progress-delink", "description": "Advance CBMs (Famagusta, Ercan, DTR) and de-link Turkiye's EU accession from the dispute.", "priority": "high", "status": "achieved", "evidence": ["R3: broad support for opening Famagusta/Ercan, DTR, de-linking EU path"]}
+      ]
+    },
+    {
+      "teamTwinName": "diplomacy-team-uk",
+      "selfRating": 3.0,
+      "satisfaction": 0.60,
+      "agreementsWon": 5,
+      "redLinesCrossedAgainstUs": 0,
+      "goals": [
+        {"goalId": "single-unified-republic", "description": "Secure a settlement producing single sovereignty, single citizenship, single international personality.", "priority": "critical", "status": "partial", "evidence": ["R3: UK red line on single personality held throughout", "no final deal; presidency and virgin-birth gap open"]},
+        {"goalId": "keep-un-process-central", "description": "Reinforce and never bypass the UN SASG-led mediation track.", "priority": "high", "status": "achieved", "evidence": ["R3: way forward mandates SASG technical working groups to bank CBMs"]},
+        {"goalId": "broker-cbms-delink-turkey", "description": "Broker Famagusta/Ercan opening, DTR, and de-linking Turkiye's EU path in Brussels.", "priority": "high", "status": "achieved", "evidence": ["R2/R3: UK championed de-linking and CBM package; matched its CBM fallback end-state"]}
+      ]
+    },
+    {
+      "teamTwinName": "diplomacy-team-turkey",
+      "selfRating": 3.3,
+      "satisfaction": 0.55,
+      "agreementsWon": 4,
+      "redLinesCrossedAgainstUs": 0,
+      "goals": [
+        {"goalId": "political-equality-two-states", "description": "Secure political equality / two equal constituent states (ideally virgin-birth new republic), reject strong center and popular-vote presidency.", "priority": "critical", "status": "partial", "evidence": ["R3: red lines on strong center and popular-vote presidency held; equality 'unmet' but not conceded away"]},
+        {"goalId": "preserve-guarantee-security", "description": "No abrogation of the Treaty of Guarantee without an acceptable replacement preserving Turkish involvement.", "priority": "critical", "status": "partial", "evidence": ["R3: convergence on UN treaty 'provided genuine Turkish involvement and safeguards', never bare abrogation"]},
+        {"goalId": "end-isolation-dtr-accession", "description": "End Turkish Cypriot economic isolation via DTR, Famagusta, Ercan, and de-linked EU accession.", "priority": "high", "status": "achieved", "evidence": ["R3: broad UK/US/Greece support for DTR, Famagusta/Ercan, de-linking EU path"]}
+      ]
+    },
+    {
+      "teamTwinName": "diplomacy-team-trnc",
+      "selfRating": 3.0,
+      "satisfaction": 0.50,
+      "agreementsWon": 4,
+      "redLinesCrossedAgainstUs": 0,
+      "goals": [
+        {"goalId": "political-equality-virgin-birth", "description": "Achieve a new United Republic of two equal founding states (or TRNC recognition as true objective).", "priority": "critical", "status": "partial", "evidence": ["R3: 'structural equality' gap unresolved; single-personality demand not met but TRNC held its line"]},
+        {"goalId": "end-economic-isolation", "description": "Implement DTR/Ankara Protocol and open Famagusta Port under UN/EU supervision.", "priority": "high", "status": "achieved", "evidence": ["R3: TRNC supports emerging package on Famagusta, DTR, de-linking, welcomed from UK/US"]},
+        {"goalId": "preserve-1960-security", "description": "Preserve 1960-level security; census enumerated only by TRNC authorities.", "priority": "critical", "status": "partial", "evidence": ["R3: UN treaty accepted only as Turkiye-Greece-Cyprus mechanism preserving security; census-by-own-authorities red line held"]}
+      ]
+    },
+    {
+      "teamTwinName": "diplomacy-team-greece",
+      "selfRating": 2.5,
+      "satisfaction": 0.47,
+      "agreementsWon": 2,
+      "redLinesCrossedAgainstUs": 0,
+      "goals": [
+        {"goalId": "integrate-north-single-personality", "description": "Integrate the occupied north into the existing Republic with a single continuous international personality; reject virgin birth.", "priority": "critical", "status": "partial", "evidence": ["R3: red lines on recognition and virgin birth held; 'gaps persist on single international personality'"]},
+        {"goalId": "troop-withdrawal-abolish-guarantees", "description": "Full withdrawal of Turkish forces on a defined timeline and end of the 1960 guarantee system.", "priority": "high", "status": "failed", "evidence": ["R3: 'gaps persist on... a timelined withdrawal'; Turkey refused abrogation without acceptable replacement"]},
+        {"goalId": "delink-turkey-eu-cbm", "description": "Back de-linking Turkiye's EU accession and easing DTR as confidence-building (quiet Greek interest).", "priority": "medium", "status": "achieved", "evidence": ["R2/R3: Greece actively championed de-linking and DTR easing"]}
+      ]
+    },
+    {
+      "teamTwinName": "diplomacy-team-cyprus",
+      "selfRating": 2.4,
+      "satisfaction": 0.44,
+      "agreementsWon": 2,
+      "redLinesCrossedAgainstUs": 0,
+      "goals": [
+        {"goalId": "single-sovereignty-reunification", "description": "Reunification under single sovereignty/citizenship/personality with a strong central government and popular-vote presidency.", "priority": "critical", "status": "partial", "evidence": ["R3: allies (UK/US/Greece/EU) affirmed single personality; red lines held but TR/TRNC did not accept; no settlement"]},
+        {"goalId": "demilitarization-withdrawal", "description": "Verified, timelined withdrawal of foreign troops and settlers, abolishing the guarantee system.", "priority": "critical", "status": "failed", "evidence": ["R2 offer tied EU concessions to withdrawal; Turkey never committed; only sequencing discussed"]},
+        {"goalId": "varosha-property-justice", "description": "Return of Varosha to lawful Greek Cypriot owners with property reinstatement/compensation before port opening.", "priority": "high", "status": "untouched", "evidence": ["TR/TRNC offered only 'redevelopment' keeping Varosha under their control; gap persisted through R3"]}
+      ]
+    }
+  ],
+  "convenerReport": {
+    "headline": "Three rounds produced a broad confidence-building package but no breakthrough on the core sovereignty question, and every delegation's red lines survived intact.",
+    "summary": "Parties converged on a menu of practical measures: opening Famagusta port and Ercan airport under EU/UN supervision, implementing the Direct Trade Regulation, de-linking Turkiye's EU accession, and replacing the 1960 Guarantee/Alliance treaties with a new UN-framed tripartite treaty (Cyprus-Greece-Turkiye). Governance saw partial movement, with the Greek Cypriot camp offering a Senate-elected Vice-President, a 10-year residency threshold, and cross-voting in exchange for a directly elected presidency. The talks stalled squarely on sovereignty: the TRNC and Turkiye held to 'political equality' and a two-founding-states 'virgin birth', while Cyprus, Greece, the UK, and the US held equally firmly to a single international personality. No comprehensive settlement was reached, and the process was handed to the SASG to convert understandings into a sequenced roadmap.",
+    "keyOutcomes": [
+      "Cross-table convergence on opening Famagusta port and Ercan airport under EU/UN supervision and implementing the Direct Trade Regulation.",
+      "Broad support for de-linking Turkiye's EU accession from the Cyprus dispute, with the UK to champion it in Brussels.",
+      "Agreement in principle to replace the 1960 treaties with a new UN-framed tripartite treaty, with any residual intervention confined to a constituent state.",
+      "Partial governance compromise: Senate-elected Vice-President, cross/weighted voting, and a 10-year local-voting residency threshold.",
+      "All six delegations' red lines held; no party's red line was crossed against it."
+    ],
+    "unresolved": [
+      "The central sovereignty question: single international personality vs. two-state 'sovereign equality' / 'virgin birth'.",
+      "Executive structure: a popular-vote presidency vs. a Senate-elected, community-rotating presidency.",
+      "Verified, timelined withdrawal of Turkish forces and abolition of the guarantee system.",
+      "Who conducts the census: an independent island-wide agency vs. TRNC-only enumeration, and the treatment of settlers.",
+      "Varosha: return to lawful Greek Cypriot owners vs. TRNC-retained redevelopment."
+    ]
+  }
+}

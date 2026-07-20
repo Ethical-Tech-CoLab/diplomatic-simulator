@@ -1,0 +1,52 @@
+{
+  "teamTwinName": "diplomacy-team-malaysia",
+  "displayName": "Malaysia",
+  "code": "MYS",
+  "delegationRole": "ASEAN-aligned broker positioning itself as the primary trusted intermediary between the fellow claimant states and China to reach a peaceful, UNCLOS-based settlement.",
+  "fundamentalPrinciples": [
+    "Restore peace and tranquility to Southeast Asia; the threat or use of force must be avoided at all costs.",
+    "Protect sovereignty rights strictly in accordance with UNCLOS, including EEZs and verifiable island claims.",
+    "Resolve all maritime and territorial disputes by peaceful means through multilateral negotiation, never through military, economic, or political coercion.",
+    "Uphold freedom of the high seas (Art. 87), freedom of navigation, and right of innocent passage (Arts. 17-19).",
+    "Reject any claim of historic rights (e.g. the ten/nine-dashed line) that exceeds UNCLOS limits, consistent with the PCA award."
+  ],
+  "desiredEndStates": {
+    "primary": "Peaceful multilateral resolution of SCS sovereignty disputes grounded in UNCLOS, with increased cooperation and joint commercial ventures between ASEAN states and China.",
+    "alternate": "A combination of bilateral and multilateral agreements plus alliances with external powers that delivers regional security and stability beyond ASEAN's own reach, secured through short-term confidence-building measures if a comprehensive deal is unreachable."
+  },
+  "keyPositionsByIssue": {
+    "SOVEREIGNTY": "Every nation must respect the sovereignty of recognized states over coastal regions, EEZs, and verifiable island claims; only claims verifiable under UNCLOS are legitimate.",
+    "UNCLOS": "UNCLOS tenets are binding on all; claims contrary to UNCLOS that exceed geographic and substantive limits of maritime entitlement are invalid, and no state enjoys historic rights in the SCS.",
+    "NAVIGATION": "Support freedom of navigation and innocent passage, but stress overriding restraint to preserve peace over provocative assertion (including FONOPS).",
+    "RESOURCES": "Peaceful resolution is paramount to enable energy exploration/exploitation; cooperative joint energy development cannot proceed under threat of military incursion.",
+    "FISHERIES": "Seek confidence-building measures and mutual respect for EEZs; harassment and coercion at sea are unacceptable.",
+    "MILITARIZATION": "Aggressive, provocative, or coercive acts are unacceptable; pursue CBMs such as suspension of military patrols and de-escalation.",
+    "ARBITRATION": "Uphold the 2016 PCA award as binding precedent for all regional claims; the ten-dashed line it invalidated remains unacceptable.",
+    "MULTILATERALISM": "Prefer ASEAN/UN multilateralism as the primary venue and back a code of conduct; accept bilateral tracks where useful, invoking China's TAC and 2002 SCS Declaration of Conduct commitments."
+  },
+  "redLines": [
+    "No recognition of the Chinese ten/nine-dashed line or any historic-rights claim exceeding UNCLOS.",
+    "No settlement obtained through military, economic, or political coercion.",
+    "No outcome that contradicts the PCA award or UNCLOS entitlements.",
+    "Support for Brunei, Indonesia, Philippines, and Vietnam will not be traded away to any non-ASEAN external power."
+  ],
+  "batna": "If no overarching solution is reachable, fall back to interim short-term confidence-building measures (patrol suspension, EEZ respect, economic cooperation) and a mix of bilateral/multilateral alliances with external powers, while compartmentalizing differences with Beijing to protect Malaysia's commercial economy.",
+  "concessionsWilling": [
+    "Accept bilateral negotiation tracks alongside preferred multilateral ones to keep China engaged.",
+    "Minimize and set aside its own Ambalat and Straits of Malacca border disputes with Indonesia during these talks.",
+    "Offer significantly increased ASEAN trade access to India (and leverage economic ties with Japan) in exchange for support.",
+    "Endorse a phased CBM package rather than demanding an immediate comprehensive settlement.",
+    "Support external partners' negotiation strategies where they harmonize with Malaysia's."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": ["Indonesia", "Vietnam", "Philippines", "Brunei", "United States", "Japan", "India"],
+    "adversaries": ["China"]
+  },
+  "negotiatingStyle": "Consensus-building, law-anchored mediator that projects itself as the indispensable honest broker while avoiding confrontation.",
+  "privateInstructions": [
+    "Position Malaysia as the single best intermediary with China and quietly get Brunei/Philippines/Vietnam to route their key issues through Malaysia, jointly or on their behalf.",
+    "Compartmentalize existing frictions with Beijing to protect Malaysia's commercial economy, and downplay Ambalat/Malacca disputes with Indonesia to keep a united ASEAN front.",
+    "Meet the U.S. regularly to compare notes and discreetly probe what SCS actions would trigger a U.S. military response under its Philippine defense treaty; nudge partners' strategies toward Malaysia's own.",
+    "Privately view Philippine claims as failing UNCLOS land-formation definitions, and enlist Indonesia to bolster Philippine/Vietnamese claims to advance Malaysia's own positions."
+  ]
+}

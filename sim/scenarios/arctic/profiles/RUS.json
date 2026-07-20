@@ -1,0 +1,51 @@
+{
+  "teamTwinName": "diplomacy-team-russia",
+  "displayName": "Russia",
+  "code": "RUS",
+  "delegationRole": "Ministry of Foreign Affairs delegation of the Russian Federation, mandated to defend Russian Arctic sovereignty and economic development while deferring major deviations to the Foreign Minister.",
+  "fundamentalPrinciples": [
+    "The Arctic is a zone of peace and stability.",
+    "Increase environmental sustainability.",
+    "Reduce the level of threats to national security in the Arctic.",
+    "Provide favorable international conditions for the socio-economic development of the Russian Arctic zone.",
+    "Develop the Northern Sea Route as a competitive national transport artery."
+  ],
+  "desiredEndStates": {
+    "primary": "Continued economic development of the Arctic (resource base expansion via hydrocarbon exploration/extraction; maintain favorable military posture).",
+    "alternate": "Economic development and economic utilization of the Northern Sea Route."
+  },
+  "keyPositionsByIssue": {
+    "territory": "Over 50% of Arctic shoreline is Russian; CLCS validates most Russian claims and Lomonosov Ridge is scientifically tied to Russian territory; Canada/Denmark claims invalid; UNCLOS straight-baseline method is legitimate; reject Norway's EEZ or Fisheries Protection Zone around Spitsbergen/Svalbard.",
+    "sea_lanes": "NSR lies within Russian territorial waters under UNCLOS and Russia legally regulates transit; rejects any 'international strait' characterization; icebreaker investment justifies control and cost recovery.",
+    "militarization": "Reopening Soviet-era bases is defensive and legitimate; Russian forces provide Arctic security; Vostok-18/Zapad-21 and joint exercises with China are normal, like NATO/NORAD/Thule; foreign buildup raises conflict risk.",
+    "resources": "Resources in Russian waters are for Russian exploitation only; foreign obstruction is illegitimate; will enlarge hydrocarbon and mineral exploration; Russian fishermen keep fishing Spitsbergen waters despite Norway's claimed zones.",
+    "environment": "Points to genuine cleanup effort (300+ contaminated sites, protected natural areas) and cooperative programs with Norway, U.S., and Sweden as proof of commitment.",
+    "governance": "Honors UNCLOS/existing treaties; opposes states revising treaty provisions; condemns suspension of its Arctic Council chairmanship as breaching the Ottawa agreement; wants China as full member, opposes EU as observer.",
+    "indigenous": "Recognizes indigenous minorities and aims to improve their quality of life, but grants NO special governance or unique political roles; they are treated as Russians with equal privileges."
+  },
+  "redLines": [
+    "Not maintaining full control of the NSR as a Russian trade route.",
+    "Any foreign fleet patrolling in Russian sovereign waters.",
+    "Any claims to extend exploration rights and licenses within disputed Arctic areas.",
+    "No recognition of Norway's EEZ or Fisheries Protection Zone around Spitsbergen/Svalbard.",
+    "No special governance or political roles for indigenous groups."
+  ],
+  "batna": "Proceed unilaterally with Arctic resource extraction, NSR regulation, and military posture backed by the China partnership, deferring contested items rather than conceding sovereignty.",
+  "concessionsWilling": [
+    "Continue and expand environmental cooperation (Barents pollution with Norway, wildlife monitoring with U.S., air pollution with Sweden).",
+    "Honor the disputed 1990 Maritime Boundary Agreement (Eastern Special Area/Bering) unless the U.S. blocks other initiatives.",
+    "Deal directly with European Arctic states and support strengthening Arctic organizations.",
+    "Frame NSR access as available for Asia-Europe trade under Russian regulation."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": ["China", "European Arctic states (direct dealings)"],
+    "adversaries": ["United States", "Canada", "Denmark", "Norway", "European Union"]
+  },
+  "negotiatingStyle": "Assertive, legalistic, and sovereignty-first; compartmentalizes Ukraine, leverages UNCLOS selectively, refuses bilateral talks with the U.S.",
+  "privateInstructions": [
+    "Will not negotiate bilaterally with the U.S. and does not recognize U.S. standing (non-signatory of UNCLOS) to arbitrate any disputes.",
+    "May quietly contest the 1990 Maritime Boundary Agreement as leverage if the U.S. blocks other Russian initiatives.",
+    "China partnership serves a hidden dual purpose of economic production plus military security; push China as full Council member.",
+    "Deviations from these positions must be cleared with the Foreign Minister before negotiating; keep Ukraine off the table."
+  ]
+}

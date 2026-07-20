@@ -1,0 +1,29 @@
+{
+ "scenarioId": "scenario-arctic-iscne",
+ "scenarioTitle": "Arctic \u2014 Sovereignty, Sea-Lanes & Governance (ISCNE)",
+ "sessionId": "sess-arctic-iscne-01",
+ "title": "Arctic Dialogue Conference \u2014 Trondheim (7-party, ISCNE)",
+ "domain": "geopolitical",
+ "shortDescription": "Seven-party UN-convened crisis negotiation over the Arctic (Canada, China, Denmark/Greenland, Finland, Norway, Russia, United States): overlapping continental-shelf claims on the Lomonosov Ridge, the legal status of the Northwest Passage and Northern Sea Route, Svalbard, militarization, resources, Arctic Council governance, and Indigenous inclusion. Adapted from the U.S. Army War College ISCNE Arctic scenario.",
+ "description": "A UN Special Representative (SRSG) convenes seven delegations in Trondheim to defuse rising Arctic tensions. Four plenary rounds \u2014 opening statements, positioning, bargaining & coalitions, and closing \u2014 surface the core fault lines: the NATO-aligned Arctic states vs. a Sino-Russian partnership, US freedom-of-navigation claims vs. Canadian (NWP) and Russian (NSR) sovereignty over sea-lanes, the Svalbard EEZ dispute, and Lomonosov Ridge shelf overlaps. Each delegation negotiates from its own privileged instructions. Adapted from the U.S. Army War College International Strategic Crisis Negotiation Exercise (Arctic).",
+ "openerTwin": "diplomacy-team-us",
+ "baseTime": "2026-02-20T09:00:00",
+ "partyOrder": [
+  "USA",
+  "RUS",
+  "CAN",
+  "CHN",
+  "NOR",
+  "DNK",
+  "FIN"
+ ],
+ "leftBloc": [
+  "USA",
+  "CAN",
+  "NOR",
+  "DNK",
+  "FIN"
+ ],
+ "simDir": "sim/scenarios/arctic",
+ "profilesDir": "sim/scenarios/arctic/profiles"
+}

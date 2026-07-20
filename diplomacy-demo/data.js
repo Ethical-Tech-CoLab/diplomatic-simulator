@@ -1,6 +1,6 @@
 window.DIPLOMACY_SNAPSHOT_DEMO = {
-  "generatedAt": "2026-05-27T13:19:36.667Z",
-  "sourceSnapshot": "evidence/sessions/2026-05-27T13-08-12-256Z/diplomacy-table.json",
+  "generatedAt": "2026-07-20T14:49:11.000Z",
+  "sourceSnapshot": "sim/ (multi-scenario diplomatic simulator build)",
   "scenarios": [
     {
       "id": "scenario-aurora-borealis-supply",
@@ -22,6 +22,13 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
       "domain": "geopolitical",
       "status": "active",
       "shortDescription": "LIVE scenario: the fragile April 8, 2026 two-week US-Iran ceasefire is collapsing into Strait of Hormuz closure chaos. Foreign Minister Araghchi declared the strait 'completely open' on April 17; the IRGC Navy under Maj. Gen. Vahidi reversed it on April 18, attacking commercial vessels and declaring no transit for 'any type or nationality'. Negotiations resume against the backdrop of contested Iranian leadership (Supreme Leader Mojtaba Khamenei reportedly incapacitated; effective head of government Ali Larijani; IRGC consolidating control), reimposed UN/EU snapback sanctions (Sept 29, 2025), and a US Navy blockade enforcing freedom of navigation."
+    },
+    {
+      "id": "scenario-arctic-iscne",
+      "title": "Arctic — Sovereignty, Sea-Lanes & Governance (ISCNE)",
+      "domain": "geopolitical",
+      "status": "active",
+      "shortDescription": "Seven-party UN-convened crisis negotiation over the Arctic (Canada, China, Denmark/Greenland, Finland, Norway, Russia, United States): overlapping continental-shelf claims on the Lomonosov Ridge, the legal status of the Northwest Passage and Northern Sea Route, Svalbard, militarization, resources, Arctic Council governance, and Indigenous inclusion. Adapted from the U.S. Army War College ISCNE Arctic scenario."
     }
   ],
   "sessions": [
@@ -4742,6 +4749,2379 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
       "tacticCounts": {},
       "debriefs": [],
       "convenerReport": null
+    },
+    {
+      "id": "sess-arctic-iscne-01",
+      "title": "Arctic Dialogue Conference — Trondheim (7-party, ISCNE)",
+      "description": "A UN Special Representative (SRSG) convenes seven delegations in Trondheim to defuse rising Arctic tensions. Four plenary rounds — opening statements, positioning, bargaining & coalitions, and closing — surface the core fault lines: the NATO-aligned Arctic states vs. a Sino-Russian partnership, US freedom-of-navigation claims vs. Canadian (NWP) and Russian (NSR) sovereignty over sea-lanes, the Svalbard EEZ dispute, and Lomonosov Ridge shelf overlaps. Each delegation negotiates from its own privileged instructions. Adapted from the U.S. Army War College International Strategic Crisis Negotiation Exercise (Arctic).",
+      "mode": "negotiation",
+      "status": "concluded",
+      "currentRound": 4,
+      "createdAt": "2026-02-20T09:00:00.000Z",
+      "concludedAt": "2026-02-20T14:36:00.000Z",
+      "parties": [
+        {
+          "teamTwinName": "diplomacy-team-us",
+          "displayName": "United States",
+          "side": "left",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        },
+        {
+          "teamTwinName": "diplomacy-team-russia",
+          "displayName": "Russia",
+          "side": "right",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        },
+        {
+          "teamTwinName": "diplomacy-team-canada",
+          "displayName": "Canada",
+          "side": "left",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        },
+        {
+          "teamTwinName": "diplomacy-team-china",
+          "displayName": "China",
+          "side": "right",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        },
+        {
+          "teamTwinName": "diplomacy-team-norway",
+          "displayName": "Norway",
+          "side": "left",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        },
+        {
+          "teamTwinName": "diplomacy-team-denmark",
+          "displayName": "Denmark",
+          "side": "left",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        },
+        {
+          "teamTwinName": "diplomacy-team-finland",
+          "displayName": "Finland",
+          "side": "left",
+          "participant": "twin",
+          "provider": "anthropic",
+          "modelOverride": "claude-opus-4-8",
+          "fallbackModel": "none"
+        }
+      ],
+      "rules": {
+        "maxRounds": 4,
+        "roundTimeoutMs": 120000,
+        "autoAdvance": false,
+        "procedureStyle": "plenary-with-caucus",
+        "sidebarsAllowed": true,
+        "sidebarDisclosure": "fact-only",
+        "caucusReportBack": true,
+        "rightOfReply": true,
+        "chairCanSilence": false,
+        "coalitionsVisible": true,
+        "openerPartyTwin": "diplomacy-team-us",
+        "rotateOpener": true
+      },
+      "scoreboard": [
+        {
+          "teamTwinName": "diplomacy-team-denmark",
+          "satisfaction": 0.75,
+          "agreementsWon": 5,
+          "redLinesCrossed": 0
+        },
+        {
+          "teamTwinName": "diplomacy-team-finland",
+          "satisfaction": 0.72,
+          "agreementsWon": 5,
+          "redLinesCrossed": 1
+        },
+        {
+          "teamTwinName": "diplomacy-team-norway",
+          "satisfaction": 0.68,
+          "agreementsWon": 5,
+          "redLinesCrossed": 1
+        },
+        {
+          "teamTwinName": "diplomacy-team-canada",
+          "satisfaction": 0.66,
+          "agreementsWon": 6,
+          "redLinesCrossed": 1
+        },
+        {
+          "teamTwinName": "diplomacy-team-us",
+          "satisfaction": 0.6,
+          "agreementsWon": 4,
+          "redLinesCrossed": 1
+        },
+        {
+          "teamTwinName": "diplomacy-team-china",
+          "satisfaction": 0.44,
+          "agreementsWon": 2,
+          "redLinesCrossed": 1
+        },
+        {
+          "teamTwinName": "diplomacy-team-russia",
+          "satisfaction": 0.38,
+          "agreementsWon": 3,
+          "redLinesCrossed": 3
+        }
+      ],
+      "moves": [
+        {
+          "id": "sess-arctic-iscne-01-mv000",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-us",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "The United States comes to Trondheim committed to a stable, rules-based, and secure Arctic. Let me be direct. The Northwest Passage and the Northern Sea Route are international straits. Freedom of navigation and transit passage through them are guaranteed under customary international law, and no state may condition, notify, or gatekeep the lawful passage of vessels. Although the United States is not yet party to UNCLOS, we honor its navigational and maritime-zone provisions and expect the same of others. We are equally clear-eyed about security. Growing militarization and the deepening Sino-Russian partnership in this region concern us, and we will defend our homeland, our Alaskan sovereignty, and our allies accordingly. We stand shoulder to shoulder with our NATO and NORAD partners, Canada, Denmark and Greenland, Norway, Finland, and Iceland. The Arctic remains a region for Arctic states. On environment, science, fisheries, and search-and-rescue, America is ready to lead cooperatively.",
+          "tacticsApplied": [
+            "freedom-of-navigation-frame",
+            "anchoring",
+            "coalition-building",
+            "appeal-to-law"
+          ],
+          "createdAt": "2026-02-20T09:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-mv001",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-russia",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "The Russian Federation welcomes this dialogue in the spirit of an Arctic that must remain a zone of peace. More than half of the Arctic coastline is Russian, and with that geography comes responsibility. The Northern Sea Route lies within our territorial waters; under UNCLOS Article 234 Russia regulates transit lawfully, and our decades of icebreaker investment justify orderly, cost-based passage. We reject any recharacterization of the NSR as an 'international strait.' Our Arctic 2035 program will expand hydrocarbon, mineral, and shipping development within Russian jurisdiction. Our military presence is defensive and no different in kind from NATO or NORAD activity; foreign buildup, not ours, raises the risk of conflict. We note with concern the selective invocation of UNCLOS by a non-party, and the use of sanctions that harm cooperation and the environment alike. Russia honors its treaties, values environmental partnership with our neighbors, and is prepared to deepen cooperation with China and to deal directly with European Arctic states.",
+          "tacticsApplied": [
+            "sovereignty-assertion",
+            "anchoring",
+            "appeal-to-law",
+            "coalition-building"
+          ],
+          "createdAt": "2026-02-20T09:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-mv002",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-canada",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "Canada comes to Trondheim to restore what this region has lost: a functioning, rules-based Arctic order anchored in UNCLOS and the Arctic Council. Let me be plain on three points. First, sovereignty: the waters of our Archipelago, including the Northwest Passage, are Canadian internal waters. That status does not change if the ice retreats, and Canada will continue to regulate all transit responsibly and safely. Second, stewardship: our North is warming three to four times faster than the planet. We will lead on environmental protection zones, the high-seas fisheries moratorium, and search-and-rescue capacity. Third, people: no Arctic decision is legitimate without meaningful Inuit and Sami inclusion. On militarization, escalation serves no one; we favour transparency, notification, and dialogue. Canada does not seek a new legal architecture, we already have one, we seek to strengthen it. We extend our hand to Arctic Council partners and stand ready to help bridge divides where others will not talk.",
+          "tacticsApplied": [
+            "sovereignty-assertion",
+            "appeal-to-law",
+            "environmental-frame",
+            "indigenous-inclusion-frame"
+          ],
+          "createdAt": "2026-02-20T09:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-mv003",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-china",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "Distinguished Special Representative, esteemed colleagues. China comes to Trondheim as a near-Arctic state and a responsible stakeholder in a region whose fate now shapes the shared future of all mankind. The Arctic's transformation is no longer a purely regional matter; its warming reaches our coasts and its sea lanes touch the global economy. We anchor our position in three principles. First, the rule of law: UNCLOS, the Svalbard Treaty, and the freedom of navigation, overflight, scientific research, and lawful use of Arctic high seas that belong to the international community. Second, sustainable development through cooperation, including our Polar Silk Road, open to all willing partners. Third, robust environmental stewardship, underpinned by China's strengthened 2030 peaking and 2060 neutrality commitments. We seek a governance architecture that welcomes constructive non-Arctic contributors as full participants, not spectators. China stands ready to build coalitions with Russia, the Nordic states, and the European Union toward common, win-win outcomes.",
+          "tacticsApplied": [
+            "freedom-of-navigation-frame",
+            "appeal-to-law",
+            "coalition-building",
+            "environmental-frame"
+          ],
+          "createdAt": "2026-02-20T09:36:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-mv004",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-norway",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "Norway welcomes you to Trondheim. As a founding NATO member on the Alliance's northern flank, and as Europe's largest gas supplier keeping the continent's lights on, we speak for a High North that must remain low-tension. Our compass is simple: UNCLOS governs every maritime dispute here, and the law of the sea is not negotiable. Let me be plain on Svalbard. Norwegian sovereignty over the archipelago is absolute and the 1920 Treaty is settled law requiring no reform; treaty access rights apply within our territorial waters, while the surrounding maritime zones are Norway's to manage. We will continue responsible, science-based fisheries stewardship and uphold the central Arctic Ocean high-seas fishing moratorium. Norway's Sami people sit in our Parliament, and Indigenous voices belong at this table. We look to our Nordic and NATO partners to build a common Arctic framework rooted in law, cooperation, and restraint. Norway stands ready to lead.",
+          "tacticsApplied": [
+            "sovereignty-assertion",
+            "anchoring",
+            "appeal-to-law",
+            "coalition-building"
+          ],
+          "createdAt": "2026-02-20T09:48:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-mv005",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-denmark",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "The Kingdom of Denmark speaks as an Arctic coastal state through Greenland, and we speak with one voice. Let us be clear: nothing about the Arctic, and nothing about Greenland, without the peoples of the Arctic. Greenland's Self-Rule is a global model of indigenous autonomy, and it will lead on every question touching its lands, waters, and future. Denmark approaches these talks in good faith and under law. Our scientific CLCS submission establishes the geologic linkage of the Lomonosov Ridge to Greenland; overlaps with our neighbors will be resolved peacefully, bilaterally, in the spirit of the Hans Island settlement, never by unilateral assertion. We reaffirm our commitment to a revitalized Arctic Council, to the Arctic Five format for coastal-state matters, and to our NATO and European partners. We welcome the EU as observer. Freedom and security in this region rest on the rule of law, transit protocols honored, and the Paris Agreement upheld. Denmark stands ready to build that consensus with willing partners.",
+          "tacticsApplied": [
+            "anchoring",
+            "appeal-to-law",
+            "indigenous-inclusion-frame",
+            "coalition-building"
+          ],
+          "createdAt": "2026-02-20T10:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-mv006",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-finland",
+          "authoredBy": "twin",
+          "kind": "opening-statement",
+          "text": "Finland welcomes you to this dialogue and speaks plainly: we share the longest border with Russia of any NATO ally, and stability in the High North is not an abstraction for us but a daily security reality. Our accession to NATO changed the map; it did not change our commitment to keeping the Arctic a region of low tension. We come as a non-coastal state with no shelf claim to press, and we offer that neutrality in service of resolving disputes among coastal nations. Finland champions sustainable development: our mining and mine-water expertise can supply Europe's critical minerals responsibly, strengthening the EU's strategic autonomy. Any durable outcome must fully include the Sámi, the European Union's only Indigenous people, whose rights are constitutionally guaranteed. We look to our Nordic and EU partners to anchor an inclusive Arctic Council. Militarization serves no one; let us build transparency, respect the law of the sea, and keep the North peaceful.",
+          "tacticsApplied": [
+            "anchoring",
+            "coalition-building",
+            "indigenous-inclusion-frame",
+            "appeal-to-law"
+          ],
+          "createdAt": "2026-02-20T10:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-mv007",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-us",
+          "authoredBy": "twin",
+          "kind": "positioning",
+          "text": "The United States heard two claims yesterday that cannot stand. To Russia: the NSR is not your territorial water, and no Article 234 gloss converts an international strait into a tollbooth requiring 45-day warship notice. We reject NSR sovereignty and any Russian military oversight of passage. To China: there is no such thing as a 'near-Arctic state' in law. Warming coasts do not confer a seat; the Arctic remains for Arctic states, and a Polar Silk Road tethered to Moscow is a strategic partnership, not stewardship. To our friend Canada: we share your defense of the rules-based order and your Inuit-inclusion leadership, but candidly, we cannot accept the Passage as internal waters or transit notification for any vessel. Let us settle this among allies, not hand adversaries a precedent. Denmark, Norway, Finland: let us anchor one Western framework in law.",
+          "tacticsApplied": [
+            "freedom-of-navigation-frame",
+            "coalition-building",
+            "appeal-to-law",
+            "red-line-signaled"
+          ],
+          "createdAt": "2026-02-20T10:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-mv008",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-russia",
+          "authoredBy": "twin",
+          "kind": "positioning",
+          "text": "To the United States: you cannot invoke UNCLOS as a non-party and then rewrite it. The Northern Sea Route is not an 'international strait' — it lies in Russian waters, and Article 234 grants the coastal state ice-covered regulation. This is a red line, not a bargaining chip. To Canada and Denmark: the CLCS has already partially validated Russia's submission, and the science ties the Lomonosov Ridge to our shelf — competing Greenland and Archipelago geologies do not displace ours. We welcome Denmark's stated preference for peaceful, bilateral resolution, and we hold Russia to the same. To China: we value the Polar Silk Road and support your full participation, while Russia alone regulates its route. To Norway: treaty access does not create a Norwegian EEZ around Svalbard. And let us be honest — sanctions harm environmental cooperation and search-and-rescue we all depend on.",
+          "tacticsApplied": [
+            "sovereignty-assertion",
+            "red-line-signaled",
+            "appeal-to-law",
+            "coalition-building"
+          ],
+          "createdAt": "2026-02-20T10:36:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-mv009",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-canada",
+          "authoredBy": "twin",
+          "kind": "positioning",
+          "text": "To Washington: we hear you on security and stand with you in NATO and NORAD, but Canada firmly rejects the claim that the Northwest Passage is an international strait. These are historic internal waters of our Archipelago, and their status does not turn on ice cover. Our 1988 Arctic Cooperation Agreement already gives U.S. vessels smooth passage by consent, and that cooperation is the model, not a legal recharacterization we will never accept. Resolve Beaufort with us on the 141st meridian and we can move quickly. To Russia: we differ on the NSR, yet we note Article 234 cuts both ways, and Canada is willing to talk risk-reduction and notification frameworks. To Denmark and Norway: on Lomonosov and Svalbard, UNCLOS and the CLCS decide, not unilateral acts. To China: welcome as a stakeholder, but Arctic Council membership belongs to Arctic states.",
+          "tacticsApplied": [
+            "sovereignty-assertion",
+            "red-line-signaled",
+            "issue-linkage",
+            "appeal-to-law"
+          ],
+          "createdAt": "2026-02-20T10:48:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-mv010",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-china",
+          "authoredBy": "twin",
+          "kind": "positioning",
+          "text": "We thank the Special Representative. To the United States: China's presence here is scientific and commercial, not a threat to anyone's homeland; treating a near-Arctic partner as a rival only isolates those who need Arctic investment most. We stand with Russia on orderly, cost-based NSR passage and welcome deeper Polar Silk Road cooperation. To Norway and Finland: we heard your call for a low-tension High North, and China is precisely the partner for that, offering research funding, infrastructure, and a stable market for your gas and critical minerals. Finland, your mine-water expertise and our capital are natural complements. To Denmark and Greenland: China respects your self-rule and stands ready to invest in Greenlandic mining and science on terms you set. On environment, our 2030 and 2060 commitments are real. We ask only what the law grants: to participate, not spectate.",
+          "tacticsApplied": [
+            "coalition-building",
+            "side-payment",
+            "environmental-frame",
+            "appeal-to-law"
+          ],
+          "createdAt": "2026-02-20T11:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-mv011",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-norway",
+          "authoredBy": "twin",
+          "kind": "positioning",
+          "text": "Norway thanks the Chair. To Russia and China: we heard your invocations of the Svalbard Treaty. Let us be exact. Treaty equal-access lives inside the 12-nautical-mile territorial sea; the surrounding maritime zone is a Norwegian EEZ, managed by Norway under UNCLOS. That is not a bargaining chip; it is settled law, and no foreign fleet will patrol or license resources in those waters. Full stop. That said, Norway does not seek walls. To Russia: our joint fisheries commission has worked for fifty years across worse winters than this, and we are ready to keep that channel and coastal cooperation open. To Europe and our partners, Denmark, Finland, and the United States: as your largest gas supplier we will keep the lights on, and we align with the Nordic and NATO framework Canada and Finland described, rooted in law, restraint, and Sami inclusion.",
+          "tacticsApplied": [
+            "red-line-signaled",
+            "appeal-to-law",
+            "conditional-offer",
+            "coalition-building"
+          ],
+          "createdAt": "2026-02-20T11:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-mv012",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-denmark",
+          "authoredBy": "twin",
+          "kind": "positioning",
+          "text": "Denmark thanks the Special Representative. To Norway and Canada: we hear you, and the law is our common ground. On the Lomonosov Ridge, our CLCS submission demonstrates geologic linkage to Greenland; Canada's and Russia's overlaps are real but resolvable, and no CLCS validation is final while claims overlap. Let us settle these bilaterally, in the Hans Island spirit, never by unilateral assertion. To Russia: transit through Greenland's waters requires notification and honored protocols; that is UNCLOS, not obstruction. To China: legitimate, transparent investment welcome by Greenland's own choice, but let us be unambiguous, there is no place for military presence on or around Greenland, and near-Arctic status is not membership. To the United States, Norway, Finland: we stand with our NATO partners for a low-tension North. And above all, Greenland speaks for Greenland here.",
+          "tacticsApplied": [
+            "appeal-to-law",
+            "red-line-signaled",
+            "appeal-to-precedent",
+            "coalition-building"
+          ],
+          "createdAt": "2026-02-20T11:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-mv013",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-finland",
+          "authoredBy": "twin",
+          "kind": "positioning",
+          "text": "Finland thanks Norway and Denmark for grounding us in UNCLOS and the Arctic Council; that is the architecture we strengthen, not replace. To Denmark: we warmly echo 'nothing about the Arctic without its peoples' and extend that principle to the Sámi, the EU's only Indigenous people. We back EU observer status alongside you. To China: we respect your environmental commitments and welcome constructive contributors, but let us be candid, the Council's member states are Arctic states. Observers, yes; membership, no. That line will hold. To the United States and Russia both: escalatory framing helps no one on the border we actually live on. Finland offers a bridge, transparency, notification, cold-climate expertise, and responsible mining for Europe's critical minerals. And to Norway and Denmark, the Council must seat all eight, not an exclusive Arctic Five that sidelines Finland, Sweden, and Iceland.",
+          "tacticsApplied": [
+            "coalition-building",
+            "red-line-signaled",
+            "indigenous-inclusion-frame",
+            "principled-bargaining-frame"
+          ],
+          "createdAt": "2026-02-20T11:36:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-mv014",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-us",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "The United States now tables concrete moves. To our allies — Canada, Norway, Denmark and Greenland, Finland: we offer a Western Arctic Security and SAR Package. Read together as one deal: pooled search-and-rescue and spill-response assets, shared icebreaker access and cold-weather logistics, joint domain-awareness, and NORAD/NATO coverage for the northern flank — linked to a common navigation framework rooted in law. To Canada specifically: we propose a bilateral cooperative-transit arrangement, building on our 1988 Arctic Cooperation Agreement — advance operational coordination for U.S. and allied vessels, ice-pilotage and safety cooperation, and Beaufort risk-reduction talks — with neither side conceding its legal position on the Passage's status. You keep your face; we keep the principle. That security-plus-navigation linkage is the price of the package. What it cannot bridge: freedom of navigation and free flow of trade remain non-negotiable for the United States — that is a red line. And it will not extend to the Sino-Russian NSR model, where a 45-day warship-notice tollbooth and 'near-Arctic' entitlements have no basis in law. Nordic partners: let us seal one framework and isolate that outlier position together.",
+          "tacticsApplied": [
+            "conditional-offer",
+            "issue-linkage",
+            "coalition-building",
+            "red-line-signaled"
+          ],
+          "createdAt": "2026-02-20T11:48:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-mv015",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-russia",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "Russia comes to bargain concretely. To all users of the NSR: recognize Russian NSR governance under Article 234 and in return we will publish streamlined, transparent transit and pilotage tariffs, guaranteed icebreaker escort, and binding SAR and spill-response coverage across our entire coast. That is a genuine side-payment; NSR sovereignty itself remains a red line. As a good-faith gesture on militarization, we will ease warship notice from 45 to 30 days on the NSR and pre-notify major exercises, conditional on reciprocal Western transparency. To Canada and Denmark: let us open a trilateral Lomonosov Ridge delimitation track, bilateral and CLCS-based in the Hans Island spirit, insulated from the wider dispute. To China: we deepen the Polar Silk Road, joint energy and infrastructure investment, and back your full Council participation. To Norway: keep the fisheries commission running. Partners at this table: China, Canada and Denmark on delimitation, and European Arctic states directly.",
+          "tacticsApplied": [
+            "conditional-offer",
+            "issue-linkage",
+            "side-payment",
+            "coalition-building"
+          ],
+          "createdAt": "2026-02-20T12:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-mv016",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-canada",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "Canada moves from principle to packages. To Washington: here is a face-saving formula. If the United States accepts a bilateral 'Arctic Cooperation Agreement 2.0' under which all U.S.-flagged vessels transit the Northwest Passage by standing consent, and jointly resolves Beaufort on the 141st meridian, then Canada will co-lead one Western legal framework and expand NORAD Arctic surveillance sharing. Neither side surrenders its legal characterization; we simply operationalize passage. That protects your navigation and our internal-waters status. Side-payment: I offer to broker the messages you will not deliver directly to Moscow and Beijing. To Denmark and Norway: I propose a Nordic-Canadian caucus to settle Lomonosov and Svalbard strictly via CLCS and UNCLOS, and to hold Arctic Council membership to Arctic states, observers only for others. To Russia: I will table a reciprocal NSR/NWP risk-reduction and warship-notification protocol. Environmental frame binds all: high-seas fisheries moratorium and shared SAR capacity.",
+          "tacticsApplied": [
+            "conditional-offer",
+            "issue-linkage",
+            "coalition-building",
+            "side-payment"
+          ],
+          "createdAt": "2026-02-20T12:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-mv017",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-china",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "China moves from principle to concrete terms. To Russia: we will co-finance NSR icebreaker capacity, port dredging, and search-and-rescue stations along your coast, and accept orderly, cost-based passage protocols, in exchange for guaranteed, non-discriminatory transit for Chinese-flagged commercial vessels. Our Polar Silk Road partnership deepens. To Norway, a direct offer: a Chinese-funded joint High-North research and marine-science center at a Norwegian port, plus a long-term LNG and critical-minerals purchase commitment, in return for your support for enhanced observer roles and continued Svalbard-area fisheries science cooperation. To Finland: capital for your mine-water and critical-mineral projects, tied to a joint Arctic climate-monitoring program. Symbolic concession: China will formally reaffirm that Arctic Council membership rests with Arctic states, seeking instead enhanced observer standing with guaranteed working-group access, science berths, and SAR participation. We ask only that access, once granted, be guaranteed in writing. Investment follows cooperation.",
+          "tacticsApplied": [
+            "conditional-offer",
+            "side-payment",
+            "issue-linkage",
+            "coalition-building"
+          ],
+          "createdAt": "2026-02-20T12:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-mv018",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-norway",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "Norway comes to bargain concretely. We table a package. First, we will formalize the Svalbard Fisheries Protection Zone into a transparent, science-based management arrangement: published quotas, non-discriminatory access for historic-fishing signatories, and joint stock assessments open to Russia through our fifty-year Joint Fisheries Commission, which we commit to continue uninterrupted. That grants everyone practical harvesting certainty. Second, as Europe's largest gas supplier, Norway offers multi-year supply assurances underpinning European and allied energy security. In exchange, one thing: no party challenges, patrols, licenses, or seeks to regulate the Svalbard maritime zone as anything but a Norwegian EEZ. Management we share; sovereignty we do not. That is our line, and it is firm. We build this with Denmark, Finland, Iceland, Sweden, and our NATO partners, and we keep the door open to Russia on fisheries and coastal cooperation. Practical quotas for legal recognition, colleagues, is a fair trade.",
+          "tacticsApplied": [
+            "conditional-offer",
+            "issue-linkage",
+            "red-line-signaled",
+            "coalition-building"
+          ],
+          "createdAt": "2026-02-20T12:36:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-mv019",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-denmark",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "Denmark tables a concrete package. First, we propose a trilateral Lomonosov Ridge process with Canada and Russia, conducted strictly through the CLCS and settled bilaterally in the Hans Island spirit, in exchange for mutual recognition that Greenland's shelf rights remain live and no overlapping claim is final until we three resolve them. Second, Greenland offers to lead a circumpolar SAR and science framework, sharing survey data and rescue coordination across our waters, open to all seven delegations. To sweeten this: we will move flexibly on strengthening Arctic Council dispute mechanisms and EU observer status, and we support risk-reduction notification frameworks Canada raised. But one line does not move: no Chinese military presence on or around Greenland, and near-Arctic status is never membership. We build this with Canada, Norway, the United States, and our NATO and EU partners. Recognize Greenland's shelf, and Denmark delivers cooperation.",
+          "tacticsApplied": [
+            "conditional-offer",
+            "issue-linkage",
+            "coalition-building",
+            "red-line-signaled"
+          ],
+          "createdAt": "2026-02-20T12:48:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-mv020",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-finland",
+          "authoredBy": "twin",
+          "kind": "offer",
+          "text": "Finland tables a concrete package to move us from statements to structure. First: revive the Arctic Eight, all eight members seated, no Arctic Five side-table, restarting with the two files where trust is cheapest and stakes are shared, a standing SAR and spill-response mechanism and a de-conflicted joint science program on ice, methane, and fisheries. Finland will convene and host it. Second, a binding Sami-and-Inuit inclusion protocol giving Permanent Participants a formal seat on any decision touching their lands and waters, a line Denmark, Canada, and Norway already share. On the hardest gap: Finland will quietly broker between this table and Moscow on these low-politics tracks, SAR and science save lives regardless of sanctions, while Russia alone regulates its route. Our red line stands, observers welcome, Chinese Arctic Council membership no. Partners: Sweden, Iceland, Denmark, Norway, and the EU. Who joins the SAR working group?",
+          "tacticsApplied": [
+            "coalition-building",
+            "issue-linkage",
+            "indigenous-inclusion-frame",
+            "red-line-signaled"
+          ],
+          "createdAt": "2026-02-20T13:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-mv021",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-us",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "The United States closes with clarity and confidence. We leave Trondheim with a Western Arctic Security and SAR Package on the table: pooled search-and-rescue and spill-response, shared icebreaker access and cold-weather logistics, joint domain awareness, and NORAD/NATO coverage for the northern flank, all linked to one navigation framework rooted in law. With Canada, we have a workable path: a cooperative-transit formula operationalizing passage for U.S. and allied vessels, building on our 1988 Agreement, with neither side conceding its legal position. Canada keeps its face; we keep the principle that the Passage is an international strait. Let us be unambiguous on our red line: freedom of navigation and the free flow of trade are non-negotiable, held firm against both Russia's NSR tollbooth and any transit-notification claim. The Sino-Russian NSR model remains the decisive gap. The way forward is an allied framework now, and the outlier isolated. America stands ready.",
+          "tacticsApplied": [
+            "anchoring",
+            "issue-linkage",
+            "coalition-building",
+            "red-line-signaled"
+          ],
+          "createdAt": "2026-02-20T13:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-mv022",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-russia",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "Russia leaves Trondheim having bargained in good faith. Our offer stands: recognize Russian NSR governance under Article 234, and in return we deliver transparent published tariffs, guaranteed icebreaker escort, and binding SAR and spill-response across our entire coast. As a genuine concession we ease warship notice from forty-five to thirty days and pre-notify major exercises, conditional on reciprocal Western transparency. With Canada and Denmark we keep the Lomonosov delimitation track alive, CLCS-based and bilateral in the Hans Island spirit. With China we deepen the Polar Silk Road. Yet let no one mistake us: NSR sovereignty is a red line, and it holds. Washington cannot rewrite a treaty it never joined, nor convert our waters into an 'international strait.' The way forward is practical cooperation over confrontation, sanctions lifted, the Arctic Council restored, and each state respecting the law where it actually runs.",
+          "tacticsApplied": [
+            "anchoring",
+            "issue-linkage",
+            "red-line-signaled",
+            "conditional-offer"
+          ],
+          "createdAt": "2026-02-20T13:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-mv023",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-canada",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "Canada leaves Trondheim encouraged. We came to strengthen a rules-based Arctic, and this table moved from statements to structure. Canada can support the U.S. cooperative-transit formula: an Arctic Cooperation Agreement 2.0 operationalizing passage by standing consent, paired with Beaufort risk-reduction, with neither side conceding its legal characterization. We embrace the Nordic-Canadian CLCS caucus with Denmark and Norway to settle Lomonosov and Svalbard strictly through UNCLOS, and Finland's Arctic Eight SAR and Sami-Inuit inclusion mechanisms. Our red lines held: the Northwest Passage remains Canadian internal waters, membership stays with Arctic states, and no unresolved Beaufort leases. Gaps persist on the NSR's status and observer terms; Canada will keep brokering messages others will not carry. Way forward: convene the caucus within ninety days, table a reciprocal NWP-NSR notification protocol, and bind all in the high-seas fisheries moratorium and shared SAR capacity.",
+          "tacticsApplied": [
+            "issue-linkage",
+            "principled-bargaining-frame",
+            "coalition-building",
+            "issue-linkage"
+          ],
+          "createdAt": "2026-02-20T13:36:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-mv024",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-china",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "China leaves Trondheim clear-eyed. We advanced real cooperation: co-financing NSR icebreakers, ports, and search-and-rescue with Russia, whose partnership on non-discriminatory transit held firm and deepened. Our red lines held. Freedom of navigation for Chinese vessels stands, and the Arctic high seas remain open under UNCLOS and the Svalbard Treaty to all lawful research, shipping, and use. Yet we note with disappointment a persistent bloc reflex. Finland and Denmark drew a line at membership; we conceded that gracefully, seeking only written, guaranteed observer access to working groups, science berths, and SAR. That access was not yet granted, and treating a near-Arctic investor as a rival serves no one. Our Norwegian research center and Finnish critical-mineral offers remain on the table. The Arctic is a shared future for mankind. China plays the long game, and our hand stays open.",
+          "tacticsApplied": [
+            "anchoring",
+            "issue-linkage",
+            "coalition-building",
+            "red-line-signaled"
+          ],
+          "createdAt": "2026-02-20T13:48:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-mv025",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-norway",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "Norway closes Trondheim encouraged. We leave with a working understanding on the Svalbard Fisheries Protection Zone: transparent, science-based management, published quotas, and non-discriminatory access for historic signatories, with our fifty-year Joint Fisheries Commission with Russia continuing uninterrupted. Our gas-supply assurances to Europe and allies stand as a pillar of Arctic energy security. And our red line held: the maritime zone surrounding Svalbard is a Norwegian EEZ, unchallenged, unpatrolled, unlicensed by any foreign fleet. We acknowledge the legal disagreements that persist over the zone's characterization; those we did not resolve, and we did not paper over them. The way forward is practical: management we share, sovereignty we keep. Let the Nordic-NATO framework, the Arctic Council, and UNCLOS carry this work onward. Norway will keep the door open to Russia on fisheries, and lead a High North that stays low-tension.",
+          "tacticsApplied": [
+            "anchoring",
+            "issue-linkage",
+            "red-line-signaled",
+            "coalition-building"
+          ],
+          "createdAt": "2026-02-20T14:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-mv026",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-denmark",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "The Kingdom of Denmark closes Trondheim encouraged. The trilateral Lomonosov track with Canada and Russia is real progress: CLCS-based, bilateral in the Hans Island spirit, with Greenland's shelf rights recognized as live until we three resolve them. We thank both partners and will move to convene it. Greenland's offer to lead a circumpolar SAR and science framework stands open to all seven delegations, and we welcome Finland's and Washington's SAR initiatives as complementary. Let me be plain on two enduring truths. Nothing about the Arctic, and nothing about Greenland, without the peoples of the Arctic. And our one red line held throughout: no Chinese military presence on or around Greenland, and near-Arctic status is never membership. The way forward is law, notification honored, and Greenland speaking for Greenland. Denmark stands ready to build it with willing partners.",
+          "tacticsApplied": [
+            "anchoring",
+            "coalition-building",
+            "red-line-signaled",
+            "issue-linkage"
+          ],
+          "createdAt": "2026-02-20T14:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-mv027",
+          "sessionId": "sess-arctic-iscne-01",
+          "channelId": "plenary",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-finland",
+          "authoredBy": "twin",
+          "kind": "closing-statement",
+          "text": "Finland closes as we opened: a bridge, not a wall. We leave Trondheim with real gains. Where trust was cheapest, we built: a standing all-eight SAR and spill-response mechanism and a de-conflicted joint science program on ice, methane, and fisheries now command broad support, and a Sami-and-Inuit inclusion protocol is taking shape with Denmark, Canada, and Norway. On the hardest question, the line held: observers welcome, Chinese Arctic Council membership no, and no return to an exclusive Arctic Five that sidelines Finland, Sweden, and Iceland. Gaps remain, on the NSR and Northwest Passage, on Svalbard and Lomonosov, on militarization. So Finland proposes a concrete next step: reconvene an Arctic-Eight track within six months, hosted in Rovaniemi, chaired to keep low-politics cooperation moving whatever the wider climate. SAR and science save lives regardless of sanctions. The North stays peaceful only if we keep talking.",
+          "tacticsApplied": [
+            "coalition-building",
+            "principled-bargaining-frame",
+            "red-line-signaled",
+            "conditional-offer"
+          ],
+          "createdAt": "2026-02-20T14:24:00.000Z"
+        }
+      ],
+      "tactics": [
+        {
+          "id": "sess-arctic-iscne-01-det000",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "freedom-of-navigation-frame",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv000"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T09:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det001",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "anchoring",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv000"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T09:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det002",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv000"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T09:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det003",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv000"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T09:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det004",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "sovereignty-assertion",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv001"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T09:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det005",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "anchoring",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv001"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T09:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det006",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv001"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T09:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det007",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv001"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T09:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det008",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-canada",
+          "tacticId": "sovereignty-assertion",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv002"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T09:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det009",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-canada",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv002"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T09:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det010",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-canada",
+          "tacticId": "environmental-frame",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv002"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T09:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det011",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-canada",
+          "tacticId": "indigenous-inclusion-frame",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv002"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T09:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det012",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "freedom-of-navigation-frame",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv003"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T09:36:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det013",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv003"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T09:36:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det014",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv003"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T09:36:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det015",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "environmental-frame",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv003"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T09:36:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det016",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-norway",
+          "tacticId": "sovereignty-assertion",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv004"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T09:48:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det017",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-norway",
+          "tacticId": "anchoring",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv004"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T09:48:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det018",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-norway",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv004"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T09:48:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det019",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-norway",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv004"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T09:48:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det020",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-denmark",
+          "tacticId": "anchoring",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv005"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T10:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det021",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-denmark",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv005"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T10:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det022",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-denmark",
+          "tacticId": "indigenous-inclusion-frame",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv005"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T10:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det023",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-denmark",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv005"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T10:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det024",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-finland",
+          "tacticId": "anchoring",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv006"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T10:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det025",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-finland",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv006"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T10:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det026",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-finland",
+          "tacticId": "indigenous-inclusion-frame",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv006"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T10:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det027",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 1,
+          "partyTwin": "diplomacy-team-finland",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv006"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T10:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det028",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "freedom-of-navigation-frame",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv007"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T10:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det029",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv007"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T10:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det030",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv007"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T10:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det031",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv007"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T10:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det032",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "sovereignty-assertion",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv008"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T10:36:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det033",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv008"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T10:36:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det034",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv008"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T10:36:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det035",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv008"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T10:36:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det036",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-canada",
+          "tacticId": "sovereignty-assertion",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv009"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T10:48:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det037",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-canada",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv009"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T10:48:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det038",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-canada",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv009"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T10:48:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det039",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-canada",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv009"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T10:48:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det040",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv010"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T11:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det041",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "side-payment",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv010"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T11:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det042",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "environmental-frame",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv010"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T11:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det043",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv010"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T11:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det044",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-norway",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv011"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T11:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det045",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-norway",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv011"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T11:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det046",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-norway",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv011"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T11:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det047",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-norway",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv011"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T11:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det048",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-denmark",
+          "tacticId": "appeal-to-law",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv012"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T11:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det049",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-denmark",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv012"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T11:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det050",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-denmark",
+          "tacticId": "appeal-to-precedent",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv012"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T11:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det051",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-denmark",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv012"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T11:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det052",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-finland",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv013"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T11:36:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det053",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-finland",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv013"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T11:36:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det054",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-finland",
+          "tacticId": "indigenous-inclusion-frame",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv013"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T11:36:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det055",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 2,
+          "partyTwin": "diplomacy-team-finland",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv013"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T11:36:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det056",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv014"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T11:48:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det057",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv014"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T11:48:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det058",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv014"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T11:48:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det059",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv014"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T11:48:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det060",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv015"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T12:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det061",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv015"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T12:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det062",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "side-payment",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv015"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T12:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det063",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv015"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T12:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det064",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-canada",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv016"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T12:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det065",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-canada",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv016"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T12:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det066",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-canada",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv016"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T12:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det067",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-canada",
+          "tacticId": "side-payment",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv016"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T12:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det068",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv017"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T12:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det069",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "side-payment",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv017"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T12:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det070",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv017"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T12:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det071",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv017"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T12:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det072",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-norway",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv018"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T12:36:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det073",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-norway",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv018"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T12:36:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det074",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-norway",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv018"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T12:36:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det075",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-norway",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv018"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T12:36:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det076",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-denmark",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv019"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T12:48:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det077",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-denmark",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv019"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T12:48:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det078",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-denmark",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv019"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T12:48:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det079",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-denmark",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv019"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T12:48:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det080",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-finland",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv020"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T13:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det081",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-finland",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv020"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T13:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det082",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-finland",
+          "tacticId": "indigenous-inclusion-frame",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv020"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T13:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det083",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 3,
+          "partyTwin": "diplomacy-team-finland",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv020"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T13:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det084",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "anchoring",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv021"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T13:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det085",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv021"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T13:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det086",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv021"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T13:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det087",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-us",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv021"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T13:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det088",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "anchoring",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv022"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T13:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det089",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv022"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T13:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det090",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv022"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T13:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det091",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-russia",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv022"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T13:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det092",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-canada",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv023"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T13:36:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det093",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-canada",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv023"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T13:36:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det094",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-canada",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv023"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T13:36:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det095",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-canada",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv023"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T13:36:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det096",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "anchoring",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv024"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T13:48:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det097",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv024"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T13:48:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det098",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv024"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T13:48:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det099",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-china",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv024"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T13:48:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det100",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-norway",
+          "tacticId": "anchoring",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv025"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T14:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det101",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-norway",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv025"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T14:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det102",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-norway",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv025"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T14:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det103",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-norway",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv025"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T14:00:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det104",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-denmark",
+          "tacticId": "anchoring",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv026"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T14:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det105",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-denmark",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv026"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T14:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det106",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-denmark",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv026"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T14:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det107",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-denmark",
+          "tacticId": "issue-linkage",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv026"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T14:12:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det108",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-finland",
+          "tacticId": "coalition-building",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv027"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T14:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det109",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-finland",
+          "tacticId": "principled-bargaining-frame",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv027"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T14:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det110",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-finland",
+          "tacticId": "red-line-signaled",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv027"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T14:24:00.000Z"
+        },
+        {
+          "id": "sess-arctic-iscne-01-det111",
+          "sessionId": "sess-arctic-iscne-01",
+          "roundNumber": 4,
+          "partyTwin": "diplomacy-team-finland",
+          "tacticId": "conditional-offer",
+          "evidenceMoveIds": [
+            "sess-arctic-iscne-01-mv027"
+          ],
+          "confidence": 0.8,
+          "detector": "twin-self-tag",
+          "createdAt": "2026-02-20T14:24:00.000Z"
+        }
+      ],
+      "tacticCounts": {
+        "freedom-of-navigation-frame": 3,
+        "anchoring": 10,
+        "coalition-building": 25,
+        "appeal-to-law": 13,
+        "sovereignty-assertion": 5,
+        "environmental-frame": 3,
+        "indigenous-inclusion-frame": 5,
+        "red-line-signaled": 16,
+        "issue-linkage": 15,
+        "side-payment": 4,
+        "conditional-offer": 9,
+        "appeal-to-precedent": 1,
+        "principled-bargaining-frame": 3
+      },
+      "debriefs": [
+        {
+          "teamTwinName": "diplomacy-team-us",
+          "selfRating": 3.3,
+          "satisfaction": 0.6,
+          "agreementsWon": 4,
+          "redLinesCrossedAgainstUs": 1,
+          "goals": [
+            {
+              "goalId": "block-china-council-membership",
+              "description": "Prevent any move making China a principal/member state of the Arctic Council.",
+              "priority": "critical",
+              "status": "achieved",
+              "evidence": [
+                "R2 US: no such thing as a near-Arctic state in law",
+                "R3-R4 China conceded membership; Finland/Denmark/Canada held the line with US"
+              ]
+            },
+            {
+              "goalId": "freedom-of-navigation-nsr-nwp",
+              "description": "Ensure freedom of navigation and free flow of trade through the NWP and NSR; reject Russian NSR oversight and Canadian transit-notification.",
+              "priority": "critical",
+              "status": "partial",
+              "evidence": [
+                "R3-R4 Canada cooperative-transit formula operationalizes NWP by standing consent, no notification, US keeps international-strait principle",
+                "R2/R4 Russia held NSR sovereignty; FoN through NSR left unresolved"
+              ]
+            },
+            {
+              "goalId": "western-security-sar-bloc",
+              "description": "Anchor a united Western/NATO Arctic security framework to counter Sino-Russian influence.",
+              "priority": "high",
+              "status": "partial",
+              "evidence": [
+                "R3 US tables Western Arctic Security & SAR Package (pooled SAR, icebreaker access, NORAD/NATO coverage)",
+                "R4 package remained on the table, not a binding deal; Sino-Russian bloc deepened rather than fractured"
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-russia",
+          "selfRating": 2.2,
+          "satisfaction": 0.38,
+          "agreementsWon": 3,
+          "redLinesCrossedAgainstUs": 3,
+          "goals": [
+            {
+              "goalId": "nsr-sovereignty-control",
+              "description": "Maintain full control of the NSR as a Russian trade route under Article 234; reject international-strait characterization.",
+              "priority": "critical",
+              "status": "partial",
+              "evidence": [
+                "R3-R4 Russia tabled tariff/icebreaker/SAR side-payment and eased warship notice 45 to 30 days",
+                "R2/R4 US and Canada rejected NSR sovereignty; recognition denied and Russia framed as the isolated outlier"
+              ]
+            },
+            {
+              "goalId": "lomonosov-shelf-claim",
+              "description": "Secure Lomonosov Ridge as tied to the Russian shelf; treat Canadian/Danish claims as invalid.",
+              "priority": "high",
+              "status": "partial",
+              "evidence": [
+                "R3-R4 trilateral Lomonosov delimitation track with Canada and Denmark kept alive, CLCS-based, Hans Island spirit",
+                "No validation of Russian primacy; Denmark's shelf recognized as live"
+              ]
+            },
+            {
+              "goalId": "china-full-council-member",
+              "description": "Push China as a full Arctic Council member state.",
+              "priority": "medium",
+              "status": "failed",
+              "evidence": [
+                "R2-R4 entire Western/Nordic bloc denied China membership; China itself conceded the point"
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-canada",
+          "selfRating": 3.6,
+          "satisfaction": 0.66,
+          "agreementsWon": 6,
+          "redLinesCrossedAgainstUs": 1,
+          "goals": [
+            {
+              "goalId": "nwp-internal-waters",
+              "description": "Preserve the Northwest Passage as Canadian internal waters, retaining regulatory control even if ice-free.",
+              "priority": "critical",
+              "status": "achieved",
+              "evidence": [
+                "R3 Canada ACA 2.0 face-saving formula: transit by standing consent, neither side concedes legal characterization",
+                "R4 Canada closing: NWP remains Canadian internal waters, red line held"
+              ]
+            },
+            {
+              "goalId": "restore-arctic-leadership",
+              "description": "Restore Canada's place as an international Arctic leader and broker.",
+              "priority": "high",
+              "status": "achieved",
+              "evidence": [
+                "R3-R4 Canada positioned as message-broker to Moscow/Beijing and co-lead of the Nordic-Canadian CLCS caucus",
+                "R4 moved the table from statements to structure"
+              ]
+            },
+            {
+              "goalId": "beaufort-141-meridian",
+              "description": "Resolve the Beaufort Sea boundary on the 141st meridian, blocking US equidistance and pre-resolution leases.",
+              "priority": "medium",
+              "status": "partial",
+              "evidence": [
+                "R3-R4 agreement on Beaufort risk-reduction talks; no final line drawn, no US leases issued"
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-china",
+          "selfRating": 2.5,
+          "satisfaction": 0.44,
+          "agreementsWon": 2,
+          "redLinesCrossedAgainstUs": 1,
+          "goals": [
+            {
+              "goalId": "council-membership-or-enhanced-observer",
+              "description": "Elevate from observer to full Arctic Council member, or secure guaranteed enhanced observer access as fallback.",
+              "priority": "critical",
+              "status": "failed",
+              "evidence": [
+                "R2-R4 membership denied by US, Finland, Denmark, Canada, Norway",
+                "R4 China conceded membership and sought written observer access to working groups; that access was not granted"
+              ]
+            },
+            {
+              "goalId": "fon-chinese-vessels-nsr",
+              "description": "Guarantee freedom of navigation and non-discriminatory passage for Chinese vessels along the NSR.",
+              "priority": "high",
+              "status": "achieved",
+              "evidence": [
+                "R3 China co-finances NSR icebreakers/ports for guaranteed non-discriminatory transit",
+                "R4 Russia partnership on non-discriminatory transit held firm and deepened"
+              ]
+            },
+            {
+              "goalId": "polar-silk-road-investment-access",
+              "description": "Advance the Polar Silk Road and secure investment/resource access in Nordic economies and Greenland.",
+              "priority": "high",
+              "status": "partial",
+              "evidence": [
+                "R3 Norwegian research center, LNG/minerals, Finnish mine-water offers tabled",
+                "R4 offers remained on the table, none accepted; Silk Road firm only with Russia"
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-norway",
+          "selfRating": 3.7,
+          "satisfaction": 0.68,
+          "agreementsWon": 5,
+          "redLinesCrossedAgainstUs": 1,
+          "goals": [
+            {
+              "goalId": "svalbard-eez-recognition",
+              "description": "Secure recognition that the maritime zone around Svalbard is a Norwegian EEZ; block any foreign patrol, license, or regulation of it.",
+              "priority": "critical",
+              "status": "partial",
+              "evidence": [
+                "R2-R4 Norway held the EEZ firm, unpatrolled and unlicensed by any foreign fleet",
+                "R4 Norway acknowledged the legal characterization dispute persisted and was not resolved; Russia/China contested it"
+              ]
+            },
+            {
+              "goalId": "svalbard-fisheries-management",
+              "description": "Formalize science-based Svalbard fisheries management with published quotas while keeping the Joint Fisheries Commission with Russia running.",
+              "priority": "high",
+              "status": "achieved",
+              "evidence": [
+                "R3 Norway tables Svalbard Fisheries Protection Zone management arrangement",
+                "R4 working understanding reached; 50-year Joint Fisheries Commission continues uninterrupted"
+              ]
+            },
+            {
+              "goalId": "low-tension-nato-framework",
+              "description": "Keep the High North low-tension via a Nordic-NATO framework and de-escalate US-Russia-China friction.",
+              "priority": "medium",
+              "status": "partial",
+              "evidence": [
+                "R2-R4 Norway aligned Nordic/NATO bloc and kept a Russia fisheries channel open",
+                "Great-power NSR and militarization gaps remained"
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-denmark",
+          "selfRating": 4.0,
+          "satisfaction": 0.75,
+          "agreementsWon": 5,
+          "redLinesCrossedAgainstUs": 0,
+          "goals": [
+            {
+              "goalId": "lomonosov-shelf-resolution",
+              "description": "Advance Greenland's Lomonosov Ridge continental-shelf claim toward peaceful, CLCS-based resolution.",
+              "priority": "critical",
+              "status": "partial",
+              "evidence": [
+                "R3-R4 trilateral Lomonosov track with Canada and Russia launched, CLCS-based, Hans Island spirit",
+                "Greenland's shelf rights recognized as live until the three resolve them; not yet delimited"
+              ]
+            },
+            {
+              "goalId": "no-chinese-military-greenland",
+              "description": "Bar any Chinese military presence on or around Greenland; keep near-Arctic status distinct from membership.",
+              "priority": "critical",
+              "status": "achieved",
+              "evidence": [
+                "R2-R4 Denmark reaffirmed the line each round; China sought only civilian investment and conceded membership; red line held throughout"
+              ]
+            },
+            {
+              "goalId": "unified-voice-indigenous-inclusion",
+              "description": "Present a unified Kingdom-Greenland voice and secure meaningful indigenous inclusion in Arctic decisions.",
+              "priority": "high",
+              "status": "achieved",
+              "evidence": [
+                "R3-R4 Sami-and-Inuit inclusion protocol takes shape with Canada, Norway, Finland",
+                "R4 'Greenland speaks for Greenland' echoed across the table"
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-finland",
+          "selfRating": 3.9,
+          "satisfaction": 0.72,
+          "agreementsWon": 5,
+          "redLinesCrossedAgainstUs": 1,
+          "goals": [
+            {
+              "goalId": "inclusive-council-block-china",
+              "description": "Anchor an inclusive all-eight Arctic Council, block Chinese membership, and reject an exclusive Arctic Five.",
+              "priority": "critical",
+              "status": "achieved",
+              "evidence": [
+                "R3 Finland revives the Arctic Eight with a standing SAR/spill and joint science track",
+                "R4 observers welcome but Chinese membership blocked; no Arctic Five that sidelines Finland/Sweden/Iceland"
+              ]
+            },
+            {
+              "goalId": "sami-indigenous-inclusion",
+              "description": "Protect Sami rights and secure a binding indigenous-inclusion protocol.",
+              "priority": "high",
+              "status": "achieved",
+              "evidence": [
+                "R3-R4 Sami-and-Inuit inclusion protocol advanced with Denmark, Canada, Norway"
+              ]
+            },
+            {
+              "goalId": "russia-bridge-broker",
+              "description": "Use Finland's channel to bridge Russia into low-politics Arctic dialogue while holding the security line.",
+              "priority": "medium",
+              "status": "partial",
+              "evidence": [
+                "R3-R4 Finland offers to broker SAR/science with Moscow and proposes reconvening the Arctic Eight in Rovaniemi within six months",
+                "Bridge limited to low-politics; wider NSR/militarization gaps unresolved"
+              ]
+            }
+          ]
+        }
+      ],
+      "convenerReport": {
+        "headline": "Trondheim produced a scaffolding of Western and pan-Arctic cooperation tracks but no binding settlement, leaving the Sino-Russian bloc isolated and the core sovereignty disputes unresolved.",
+        "summary": "The conference converted opening positions into concrete near-agreements on search-and-rescue, science, fisheries management, indigenous inclusion, and delimitation processes, but sealed none of them as binding text. A cohesive NATO/Nordic bloc formed around law, restraint, and blocking Chinese Council membership, while Russia and China held firm on the NSR and Polar Silk Road and left as the self-described outliers. The sharpest fault lines held to the end: the US-Canada Northwest Passage status (finessed by a face-saving cooperative-transit formula rather than resolved), Russia's NSR sovereignty versus Western freedom of navigation, the Svalbard EEZ characterization, the Lomonosov Ridge overlaps, and China's demand for guaranteed Arctic access. What broke through was the low-politics agenda, where trust was cheapest; what stalled was every question touching sovereignty, jurisdiction, and membership.",
+        "keyOutcomes": [
+          "US-Canada cooperative-transit formula (Arctic Cooperation Agreement 2.0): NWP passage by standing consent plus Beaufort risk-reduction talks, with neither side conceding its legal characterization.",
+          "Finland's all-eight Arctic Council revival with a standing SAR and spill-response mechanism and a de-conflicted joint science program, to reconvene in Rovaniemi within six months.",
+          "Trilateral Lomonosov Ridge delimitation track (Denmark-Canada-Russia), CLCS-based and bilateral in the Hans Island spirit, with Greenland's shelf rights recognized as live.",
+          "Norway's Svalbard Fisheries Protection Zone management arrangement with published quotas, alongside continuity of the 50-year Joint Fisheries Commission with Russia.",
+          "A Sami-and-Inuit indigenous-inclusion protocol taking shape among Denmark, Canada, Norway, and Finland, plus a Greenland-led circumpolar SAR/science framework open to all delegations."
+        ],
+        "unresolved": [
+          "Legal status of the Northern Sea Route: Russia's Article 234 sovereignty claim versus the US/Western international-strait and freedom-of-navigation position.",
+          "Legal status of the Northwest Passage as Canadian internal waters versus an international strait (operationalized but not resolved).",
+          "Characterization of the maritime zone around Svalbard as a Norwegian EEZ, contested by Russia and China.",
+          "Final Lomonosov Ridge delimitation among Russia, Canada, and Denmark/Greenland, and the Beaufort Sea boundary line.",
+          "China's demand for guaranteed, written enhanced-observer access (membership blocked), and the broader Arctic militarization and sanctions questions."
+        ]
+      }
     }
   ]
 };

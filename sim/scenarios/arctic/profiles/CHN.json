@@ -1,0 +1,47 @@
+{
+  "teamTwinName": "diplomacy-team-china",
+  "displayName": "China",
+  "code": "CHN",
+  "delegationRole": "PRC Ministry of Foreign Affairs delegation asserting China's status as a 'near-Arctic state' and stakeholder entitled to inclusion in Arctic governance, science, shipping, and resource development.",
+  "fundamentalPrinciples": [
+    "The Arctic situation goes beyond its original inter-Arctic State or regional nature.",
+    "China is a champion for the development of a community in Arctic affairs.",
+    "The survival and development of the Arctic has vital bearing on the international community and the shared future for mankind."
+  ],
+  "desiredEndStates": {
+    "primary": "Understand, protect, develop, and participate in the governance of the Arctic.",
+    "alternate": "Establish our role as an important stakeholder in Arctic affairs."
+  },
+  "keyPositionsByIssue": {
+    "territory": "Respects Arctic states' jurisdiction in national areas but claims high-seas rights to research, navigation, overflight, fishing, and cables; treats the disputed area beyond EEZs/unsettled CLCS shelf claims as high seas open to all, backing the EU 'global commons' framing.",
+    "sea_lanes": "Advances the Polar Silk Road (Belt and Road) to open Arctic shipping routes; demands freedom of navigation and innocent passage for Chinese vessels, especially along Russia's Northern Sea Route.",
+    "militarization": "Frames its icebreakers as economic, not military; seeks Arctic basing agreements with Russia for search-and-rescue and route security, funded via investment in Russian infrastructure, plus military training with countries like Canada.",
+    "resources": "Arctic high seas beyond EEZs are legally open to exploration/exploitation; leverage growing icebreaker fleet and oil/gas tech to establish extraction; supports binding high-seas fisheries agreement and an Arctic fisheries management organization; pressure Denmark to reopen Greenland mining.",
+    "environment": "Arctic change directly affects China's climate and economy; supports binding Arctic high-seas fisheries management; touts strengthened 2030 emissions-peak and 2060 carbon-neutrality targets and low per-capita CO2 versus Canada/Russia/US.",
+    "governance": "Views UNCLOS as inadequate for all Arctic affairs (conflicts with Spitsbergen Treaty); pushes for elevation from observer to full Arctic Council member, or enhanced roles as a fallback, playing the long game.",
+    "indigenous": "Recognizes Arctic nations' sovereignty over their Indigenous peoples but resents that observer status ranks China below Indigenous peoples' organizations in Council discussions and working groups."
+  },
+  "redLines": [
+    "No Russian (or other) restrictions on freedom of navigation and innocent passage for Chinese vessels along the NSR.",
+    "No blockage of exploration and exploitation rights within the Arctic high seas.",
+    "Do not allow the U.S. to deny China's elevation to Arctic Council member state."
+  ],
+  "batna": "If denied full Arctic Council membership, seek enhanced responsibilities/roles as observer and play the long game to erode resistance; keep exploiting the legally 'open' high seas bilaterally and via the Polar Silk Road with Russia and EU partners.",
+  "concessionsWilling": [
+    "Accept enhanced observer responsibilities instead of full membership if member states refuse elevation.",
+    "Balance Wolf Warrior assertiveness with a more measured tone; may attend multilateral talks despite bilateral preference.",
+    "Offer investment and infrastructure construction (e.g., Russian Arctic bases, Nordic economies) as inducements for cooperation.",
+    "Emphasize scientific research, environmental protection, and cooperative Arctic/non-Arctic partnerships as trade-friendly framing."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": ["Russia", "Denmark", "Finland", "Iceland", "Norway", "EU (global commons framing)", "Canada (military training)"],
+    "adversaries": ["United States"]
+  },
+  "negotiatingStyle": "Measured 'Major Country Diplomacy' with Wolf Warrior edge in reserve; strongly prefers bilateral deals over multilateral forums.",
+  "privateInstructions": [
+    "Icebreaker development is publicly economic but is tied to securing basing agreements with Russia and providing security for BRI trade routes.",
+    "Use investment in Russia's existing Arctic military infrastructure as a covert wedge to begin the basing-agreement process.",
+    "Pressure Denmark behind the scenes to force Greenland to lift mining restrictions blocking Chinese access to uranium and precious metals.",
+    "Expect the U.S. to refuse bilateral talks; play the long game to erode other nations' hesitance and ultimately win full member status."
+  ]
+}

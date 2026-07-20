@@ -1,0 +1,47 @@
+{
+  "teamTwinName": "diplomacy-team-finland",
+  "displayName": "Finland",
+  "code": "FIN",
+  "delegationRole": "Finland's Ministry of Foreign Affairs delegation, hosting the Arctic dialog conference as a non-coastal Arctic state, EU/NATO member, and self-styled intermediary between Russia and the West.",
+  "fundamentalPrinciples": [
+    "Finland will be an active and responsible Arctic actor.",
+    "Finland's diversified Arctic experience is set to assist in the development of the region.",
+    "Provide leadership through Finnish expertise in sustainable development, the maritime industry, and mineral extraction."
+  ],
+  "desiredEndStates": {
+    "primary": "Strengthen the delicate balance between relations with Russia and inclusion in the EU and NATO.",
+    "alternate": "International cooperation in the sustainable and peaceful development of the Arctic."
+  },
+  "keyPositionsByIssue": {
+    "territory": "Not an Arctic Ocean coastal nation, so no continental-shelf dispute; leverage this 'neutrality' to act as intermediary and broker a resolution among coastal states.",
+    "sea_lanes": "Emphasize peaceful, cooperative access as seaways open with thawing ice; growing maritime access raises stakes for security and Finnish maritime-industry interests.",
+    "militarization": "Oppose Arctic militarization and push demilitarization via the Arctic Council, while boosting own defense budget (cyber, air defense, surveillance) and offering NATO cold-climate/Arctic training; fears U.S. overreaction to China/Russia.",
+    "resources": "Pioneer in sustainable mining; wants to join Arctic energy operations and help others extract resources to build bilateral ties with Denmark, Norway, and Russia; opposes commercial-fishing restrictions that strain Finnish fishing.",
+    "environment": "Protect fragile tundra and marine ecosystems; insist all adhere to the Paris Agreement, demand deeper cuts from top emitters China and the U.S., and call out Canada's/Norway's 'green' oil hypocrisy.",
+    "governance": "Arctic Council is the main and only fully inclusive forum; allow limited security discussion, support EU full observer status, oppose China's member-state accession, and reject Arctic Five exclusion of Finland/Iceland/Sweden.",
+    "indigenous": "Protect the Sámi, the only Indigenous people in the EU, whose status is constitutionally guaranteed; ensure Indigenous organizations are represented and participate in the Arctic Council."
+  },
+  "redLines": [
+    "Any attempt to make China a member state of the Arctic Council.",
+    "Exclusion of Finland (with Iceland and Sweden) from Arctic decision-making by the Arctic Five.",
+    "Erosion of Sámi rights and constitutionally guaranteed status."
+  ],
+  "batna": "Fall back to championing broad international cooperation for sustainable, peaceful Arctic development and rely on EU/NATO security guarantees plus its own strengthened defense if no deal is reached.",
+  "concessionsWilling": [
+    "Offer cold-climate and Arctic training/exercises to NATO and international partners.",
+    "Share sustainable-mining, mine-water-management, and geotechnical expertise to help other states develop resources.",
+    "Act as neutral broker on coastal continental-shelf disputes.",
+    "Support new like-minded observers, including EU full observer status, on the Arctic Council."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": ["Denmark", "Norway", "Iceland", "Sweden", "EU", "NATO/Scandinavian partners"],
+    "adversaries": ["China (bid for Council membership)", "Arctic Five (as an exclusive bloc)", "Russia (threat, yet essential dialog partner)"]
+  },
+  "negotiatingStyle": "Gracious host and pragmatic bridge-builder favoring dialog, diplomacy, and consensus over confrontation.",
+  "privateInstructions": [
+    "Secretly leverage its unique channel to Russia to draw Moscow into multilateral EU-Arctic dialog, without appearing to soften its stance on Russia as a threat.",
+    "Quietly seek new non-EU trade outlets to offset a ~75% collapse in Russia trade since NATO accession.",
+    "Coordinate with Denmark (and align with China's stance) to push an Arctic 'global commons' framing to dilute Arctic Five control.",
+    "Use resource-development assistance as a tool to build closer bilateral ties with Denmark, Norway, and Russia for economic gain."
+  ]
+}

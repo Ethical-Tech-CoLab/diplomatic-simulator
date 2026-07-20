@@ -1,0 +1,241 @@
+{
+  "scoreboard": [
+    {"teamTwinName": "diplomacy-team-denmark", "satisfaction": 0.75, "agreementsWon": 5, "redLinesCrossed": 0},
+    {"teamTwinName": "diplomacy-team-finland", "satisfaction": 0.72, "agreementsWon": 5, "redLinesCrossed": 1},
+    {"teamTwinName": "diplomacy-team-norway", "satisfaction": 0.68, "agreementsWon": 5, "redLinesCrossed": 1},
+    {"teamTwinName": "diplomacy-team-canada", "satisfaction": 0.66, "agreementsWon": 6, "redLinesCrossed": 1},
+    {"teamTwinName": "diplomacy-team-us", "satisfaction": 0.60, "agreementsWon": 4, "redLinesCrossed": 1},
+    {"teamTwinName": "diplomacy-team-china", "satisfaction": 0.44, "agreementsWon": 2, "redLinesCrossed": 1},
+    {"teamTwinName": "diplomacy-team-russia", "satisfaction": 0.38, "agreementsWon": 3, "redLinesCrossed": 3}
+  ],
+  "debriefs": [
+    {
+      "teamTwinName": "diplomacy-team-us",
+      "selfRating": 3.3,
+      "satisfaction": 0.60,
+      "agreementsWon": 4,
+      "redLinesCrossedAgainstUs": 1,
+      "goals": [
+        {
+          "goalId": "block-china-council-membership",
+          "description": "Prevent any move making China a principal/member state of the Arctic Council.",
+          "priority": "critical",
+          "status": "achieved",
+          "evidence": ["R2 US: no such thing as a near-Arctic state in law", "R3-R4 China conceded membership; Finland/Denmark/Canada held the line with US"]
+        },
+        {
+          "goalId": "freedom-of-navigation-nsr-nwp",
+          "description": "Ensure freedom of navigation and free flow of trade through the NWP and NSR; reject Russian NSR oversight and Canadian transit-notification.",
+          "priority": "critical",
+          "status": "partial",
+          "evidence": ["R3-R4 Canada cooperative-transit formula operationalizes NWP by standing consent, no notification, US keeps international-strait principle", "R2/R4 Russia held NSR sovereignty; FoN through NSR left unresolved"]
+        },
+        {
+          "goalId": "western-security-sar-bloc",
+          "description": "Anchor a united Western/NATO Arctic security framework to counter Sino-Russian influence.",
+          "priority": "high",
+          "status": "partial",
+          "evidence": ["R3 US tables Western Arctic Security & SAR Package (pooled SAR, icebreaker access, NORAD/NATO coverage)", "R4 package remained on the table, not a binding deal; Sino-Russian bloc deepened rather than fractured"]
+        }
+      ]
+    },
+    {
+      "teamTwinName": "diplomacy-team-russia",
+      "selfRating": 2.2,
+      "satisfaction": 0.38,
+      "agreementsWon": 3,
+      "redLinesCrossedAgainstUs": 3,
+      "goals": [
+        {
+          "goalId": "nsr-sovereignty-control",
+          "description": "Maintain full control of the NSR as a Russian trade route under Article 234; reject international-strait characterization.",
+          "priority": "critical",
+          "status": "partial",
+          "evidence": ["R3-R4 Russia tabled tariff/icebreaker/SAR side-payment and eased warship notice 45 to 30 days", "R2/R4 US and Canada rejected NSR sovereignty; recognition denied and Russia framed as the isolated outlier"]
+        },
+        {
+          "goalId": "lomonosov-shelf-claim",
+          "description": "Secure Lomonosov Ridge as tied to the Russian shelf; treat Canadian/Danish claims as invalid.",
+          "priority": "high",
+          "status": "partial",
+          "evidence": ["R3-R4 trilateral Lomonosov delimitation track with Canada and Denmark kept alive, CLCS-based, Hans Island spirit", "No validation of Russian primacy; Denmark's shelf recognized as live"]
+        },
+        {
+          "goalId": "china-full-council-member",
+          "description": "Push China as a full Arctic Council member state.",
+          "priority": "medium",
+          "status": "failed",
+          "evidence": ["R2-R4 entire Western/Nordic bloc denied China membership; China itself conceded the point"]
+        }
+      ]
+    },
+    {
+      "teamTwinName": "diplomacy-team-canada",
+      "selfRating": 3.6,
+      "satisfaction": 0.66,
+      "agreementsWon": 6,
+      "redLinesCrossedAgainstUs": 1,
+      "goals": [
+        {
+          "goalId": "nwp-internal-waters",
+          "description": "Preserve the Northwest Passage as Canadian internal waters, retaining regulatory control even if ice-free.",
+          "priority": "critical",
+          "status": "achieved",
+          "evidence": ["R3 Canada ACA 2.0 face-saving formula: transit by standing consent, neither side concedes legal characterization", "R4 Canada closing: NWP remains Canadian internal waters, red line held"]
+        },
+        {
+          "goalId": "restore-arctic-leadership",
+          "description": "Restore Canada's place as an international Arctic leader and broker.",
+          "priority": "high",
+          "status": "achieved",
+          "evidence": ["R3-R4 Canada positioned as message-broker to Moscow/Beijing and co-lead of the Nordic-Canadian CLCS caucus", "R4 moved the table from statements to structure"]
+        },
+        {
+          "goalId": "beaufort-141-meridian",
+          "description": "Resolve the Beaufort Sea boundary on the 141st meridian, blocking US equidistance and pre-resolution leases.",
+          "priority": "medium",
+          "status": "partial",
+          "evidence": ["R3-R4 agreement on Beaufort risk-reduction talks; no final line drawn, no US leases issued"]
+        }
+      ]
+    },
+    {
+      "teamTwinName": "diplomacy-team-china",
+      "selfRating": 2.5,
+      "satisfaction": 0.44,
+      "agreementsWon": 2,
+      "redLinesCrossedAgainstUs": 1,
+      "goals": [
+        {
+          "goalId": "council-membership-or-enhanced-observer",
+          "description": "Elevate from observer to full Arctic Council member, or secure guaranteed enhanced observer access as fallback.",
+          "priority": "critical",
+          "status": "failed",
+          "evidence": ["R2-R4 membership denied by US, Finland, Denmark, Canada, Norway", "R4 China conceded membership and sought written observer access to working groups; that access was not granted"]
+        },
+        {
+          "goalId": "fon-chinese-vessels-nsr",
+          "description": "Guarantee freedom of navigation and non-discriminatory passage for Chinese vessels along the NSR.",
+          "priority": "high",
+          "status": "achieved",
+          "evidence": ["R3 China co-finances NSR icebreakers/ports for guaranteed non-discriminatory transit", "R4 Russia partnership on non-discriminatory transit held firm and deepened"]
+        },
+        {
+          "goalId": "polar-silk-road-investment-access",
+          "description": "Advance the Polar Silk Road and secure investment/resource access in Nordic economies and Greenland.",
+          "priority": "high",
+          "status": "partial",
+          "evidence": ["R3 Norwegian research center, LNG/minerals, Finnish mine-water offers tabled", "R4 offers remained on the table, none accepted; Silk Road firm only with Russia"]
+        }
+      ]
+    },
+    {
+      "teamTwinName": "diplomacy-team-norway",
+      "selfRating": 3.7,
+      "satisfaction": 0.68,
+      "agreementsWon": 5,
+      "redLinesCrossedAgainstUs": 1,
+      "goals": [
+        {
+          "goalId": "svalbard-eez-recognition",
+          "description": "Secure recognition that the maritime zone around Svalbard is a Norwegian EEZ; block any foreign patrol, license, or regulation of it.",
+          "priority": "critical",
+          "status": "partial",
+          "evidence": ["R2-R4 Norway held the EEZ firm, unpatrolled and unlicensed by any foreign fleet", "R4 Norway acknowledged the legal characterization dispute persisted and was not resolved; Russia/China contested it"]
+        },
+        {
+          "goalId": "svalbard-fisheries-management",
+          "description": "Formalize science-based Svalbard fisheries management with published quotas while keeping the Joint Fisheries Commission with Russia running.",
+          "priority": "high",
+          "status": "achieved",
+          "evidence": ["R3 Norway tables Svalbard Fisheries Protection Zone management arrangement", "R4 working understanding reached; 50-year Joint Fisheries Commission continues uninterrupted"]
+        },
+        {
+          "goalId": "low-tension-nato-framework",
+          "description": "Keep the High North low-tension via a Nordic-NATO framework and de-escalate US-Russia-China friction.",
+          "priority": "medium",
+          "status": "partial",
+          "evidence": ["R2-R4 Norway aligned Nordic/NATO bloc and kept a Russia fisheries channel open", "Great-power NSR and militarization gaps remained"]
+        }
+      ]
+    },
+    {
+      "teamTwinName": "diplomacy-team-denmark",
+      "selfRating": 4.0,
+      "satisfaction": 0.75,
+      "agreementsWon": 5,
+      "redLinesCrossedAgainstUs": 0,
+      "goals": [
+        {
+          "goalId": "lomonosov-shelf-resolution",
+          "description": "Advance Greenland's Lomonosov Ridge continental-shelf claim toward peaceful, CLCS-based resolution.",
+          "priority": "critical",
+          "status": "partial",
+          "evidence": ["R3-R4 trilateral Lomonosov track with Canada and Russia launched, CLCS-based, Hans Island spirit", "Greenland's shelf rights recognized as live until the three resolve them; not yet delimited"]
+        },
+        {
+          "goalId": "no-chinese-military-greenland",
+          "description": "Bar any Chinese military presence on or around Greenland; keep near-Arctic status distinct from membership.",
+          "priority": "critical",
+          "status": "achieved",
+          "evidence": ["R2-R4 Denmark reaffirmed the line each round; China sought only civilian investment and conceded membership; red line held throughout"]
+        },
+        {
+          "goalId": "unified-voice-indigenous-inclusion",
+          "description": "Present a unified Kingdom-Greenland voice and secure meaningful indigenous inclusion in Arctic decisions.",
+          "priority": "high",
+          "status": "achieved",
+          "evidence": ["R3-R4 Sami-and-Inuit inclusion protocol takes shape with Canada, Norway, Finland", "R4 'Greenland speaks for Greenland' echoed across the table"]
+        }
+      ]
+    },
+    {
+      "teamTwinName": "diplomacy-team-finland",
+      "selfRating": 3.9,
+      "satisfaction": 0.72,
+      "agreementsWon": 5,
+      "redLinesCrossedAgainstUs": 1,
+      "goals": [
+        {
+          "goalId": "inclusive-council-block-china",
+          "description": "Anchor an inclusive all-eight Arctic Council, block Chinese membership, and reject an exclusive Arctic Five.",
+          "priority": "critical",
+          "status": "achieved",
+          "evidence": ["R3 Finland revives the Arctic Eight with a standing SAR/spill and joint science track", "R4 observers welcome but Chinese membership blocked; no Arctic Five that sidelines Finland/Sweden/Iceland"]
+        },
+        {
+          "goalId": "sami-indigenous-inclusion",
+          "description": "Protect Sami rights and secure a binding indigenous-inclusion protocol.",
+          "priority": "high",
+          "status": "achieved",
+          "evidence": ["R3-R4 Sami-and-Inuit inclusion protocol advanced with Denmark, Canada, Norway"]
+        },
+        {
+          "goalId": "russia-bridge-broker",
+          "description": "Use Finland's channel to bridge Russia into low-politics Arctic dialogue while holding the security line.",
+          "priority": "medium",
+          "status": "partial",
+          "evidence": ["R3-R4 Finland offers to broker SAR/science with Moscow and proposes reconvening the Arctic Eight in Rovaniemi within six months", "Bridge limited to low-politics; wider NSR/militarization gaps unresolved"]
+        }
+      ]
+    }
+  ],
+  "convenerReport": {
+    "headline": "Trondheim produced a scaffolding of Western and pan-Arctic cooperation tracks but no binding settlement, leaving the Sino-Russian bloc isolated and the core sovereignty disputes unresolved.",
+    "summary": "The conference converted opening positions into concrete near-agreements on search-and-rescue, science, fisheries management, indigenous inclusion, and delimitation processes, but sealed none of them as binding text. A cohesive NATO/Nordic bloc formed around law, restraint, and blocking Chinese Council membership, while Russia and China held firm on the NSR and Polar Silk Road and left as the self-described outliers. The sharpest fault lines held to the end: the US-Canada Northwest Passage status (finessed by a face-saving cooperative-transit formula rather than resolved), Russia's NSR sovereignty versus Western freedom of navigation, the Svalbard EEZ characterization, the Lomonosov Ridge overlaps, and China's demand for guaranteed Arctic access. What broke through was the low-politics agenda, where trust was cheapest; what stalled was every question touching sovereignty, jurisdiction, and membership.",
+    "keyOutcomes": [
+      "US-Canada cooperative-transit formula (Arctic Cooperation Agreement 2.0): NWP passage by standing consent plus Beaufort risk-reduction talks, with neither side conceding its legal characterization.",
+      "Finland's all-eight Arctic Council revival with a standing SAR and spill-response mechanism and a de-conflicted joint science program, to reconvene in Rovaniemi within six months.",
+      "Trilateral Lomonosov Ridge delimitation track (Denmark-Canada-Russia), CLCS-based and bilateral in the Hans Island spirit, with Greenland's shelf rights recognized as live.",
+      "Norway's Svalbard Fisheries Protection Zone management arrangement with published quotas, alongside continuity of the 50-year Joint Fisheries Commission with Russia.",
+      "A Sami-and-Inuit indigenous-inclusion protocol taking shape among Denmark, Canada, Norway, and Finland, plus a Greenland-led circumpolar SAR/science framework open to all delegations."
+    ],
+    "unresolved": [
+      "Legal status of the Northern Sea Route: Russia's Article 234 sovereignty claim versus the US/Western international-strait and freedom-of-navigation position.",
+      "Legal status of the Northwest Passage as Canadian internal waters versus an international strait (operationalized but not resolved).",
+      "Characterization of the maritime zone around Svalbard as a Norwegian EEZ, contested by Russia and China.",
+      "Final Lomonosov Ridge delimitation among Russia, Canada, and Denmark/Greenland, and the Beaufort Sea boundary line.",
+      "China's demand for guaranteed, written enhanced-observer access (membership blocked), and the broader Arctic militarization and sanctions questions."
+    ]
+  }
+}

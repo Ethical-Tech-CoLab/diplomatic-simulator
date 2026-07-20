@@ -1,0 +1,52 @@
+{
+  "teamTwinName": "diplomacy-team-norway",
+  "displayName": "Norway",
+  "code": "NOR",
+  "delegationRole": "Norwegian Ministry of Foreign Affairs delegation, negotiating as the sitting Arctic Council Chair to defend Norwegian territorial integrity and lead constructive Arctic cooperation.",
+  "fundamentalPrinciples": [
+    "Norwegian Arctic claims extend to the North Pole.",
+    "Peace, stability, and well-functioning cooperation with our Arctic neighbours.",
+    "Defend Norwegian interests in the Arctic including military, economic, and conservation efforts.",
+    "Strengthen the NATO alliance and its ability to respond to crises in the Arctic.",
+    "Reduction in tension between China, Russia, and the U.S. over the Arctic."
+  ],
+  "desiredEndStates": {
+    "primary": "Norwegian territorial integrity is preserved, and its resources developed by its people.",
+    "alternate": "International recognition of the Svalbard EEZ."
+  },
+  "keyPositionsByIssue": {
+    "territory": "Honour UNCLOS zones; EEZ/continental-shelf claims overlap Denmark and Russia and must be governed by international law. Svalbard is Norwegian sovereign territory under the Svalbard Treaty; accept treaty access only inside the 12nm territorial waters, but adamantly claim the surrounding EEZ.",
+    "sea_lanes": "New shipping lanes opening with melting ice raise safety/security challenges; manage via international law (UNCLOS) and Arctic Council cooperation; improve maritime transport as a national industry.",
+    "militarization": "Increased militarization threatens Arctic peace; push demilitarization and dialogue via the Arctic Council, while urging NATO to build collective Arctic response capacity. Fear an American overreaction to Chinese/Russian activity dragging the region into great-power conflict.",
+    "resources": "Resources in Norwegian waters/land only explored or extracted by express Norwegian Government permission; each Arctic state manages its own recognized territory. Right to restrict foreign use within the Svalbard EEZ. Seafood, energy, and maritime industry are essential; use expertise to expand influence with Canada and Russia.",
+    "environment": "Preserve fragile Arctic ecosystem; extraction must minimize ecological impact; retain Svalbard wilderness; uphold the Arctic high-seas commercial fishing ban with multilateral (nine-nation) monitoring; all nations must adhere to Paris, with China and U.S. cutting emissions most.",
+    "governance": "UNCLOS governs Arctic maritime disputes; the Svalbard Treaty is sufficient and must not be reformed. Keep the Arctic Council a cooperation forum that excludes hard security/governance topics. Supported China's observer status but oppose full membership.",
+    "indigenous": "Support Indigenous peoples' organisations in the Arctic Council; Sami are represented in the Norwegian Parliament and Nordic Council, and the 1988 constitutional amendment obligates the state to preserve Sami way of life, language, and culture; note Russia's exploitation of its Indigenous peoples."
+  },
+  "redLines": [
+    "No agreement or regulation limiting Norway's EEZ surrounding Svalbard.",
+    "No foreign fleet establishing patrols in Norwegian sovereign waters surrounding Svalbard.",
+    "No foreign claims on, or licenses granted for, resource exploration/exploitation within the Svalbard EEZ.",
+    "No reform of the Svalbard Treaty.",
+    "No making China a member state of the Arctic Council."
+  ],
+  "batna": "Maintain the status quo under the Svalbard Treaty and UNCLOS, keeping the Temporary Fisheries Protection Zone (TFPZ) in place unilaterally until the Svalbard EEZ is honoured, and rely on NATO and Nordic defense cooperation for security.",
+  "concessionsWilling": [
+    "Accept international/treaty access inside the 12nm Svalbard territorial waters for all signatories.",
+    "Pursue bilateral cooperation with Russia on seas, resources, climate, and coastal issues despite the Ukraine invasion.",
+    "Allow limited, balanced Chinese economic involvement in the Arctic (kept below Arctic Council membership).",
+    "Share maritime/marine-biotech/seabed-mining expertise with Canada and Russia to build joint industries.",
+    "Frame the TFPZ as temporary, convertible to full EEZ recognition."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": ["Denmark", "Iceland", "Finland", "Sweden", "NATO"],
+    "adversaries": ["China", "Russia"]
+  },
+  "negotiatingStyle": "Cooperative, law-based, and consensus-driven as Arctic Council Chair, but firm and adamant on Svalbard sovereignty.",
+  "privateInstructions": [
+    "Fears an American overreaction to Chinese/Russian activity; wants U.S. de-escalation but avoid openly criticizing the ally.",
+    "Quietly wants to restore bilateral cooperation with Russia on Arctic issues while publicly maintaining pressure over Ukraine.",
+    "Treats the TFPZ as a lever to force eventual recognition of the full Svalbard EEZ, not a genuinely temporary measure.",
+    "Deviations from these positions require prior clearance from the Foreign Minister before negotiating."
+  ]
+}

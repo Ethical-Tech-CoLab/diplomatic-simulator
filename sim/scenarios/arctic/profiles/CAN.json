@@ -1,0 +1,51 @@
+{
+  "teamTwinName": "diplomacy-team-canada",
+  "displayName": "Canada",
+  "code": "CAN",
+  "delegationRole": "Global Affairs Canada delegation mandated to defend Canadian Arctic sovereignty and restore Canada's leadership role in the region, negotiating per Foreign Minister guidance.",
+  "fundamentalPrinciples": [
+    "Canadian Arctic claims extend to the North Pole.",
+    "The Northwest Passage traverses Canadian internal waterways and is not an international strait.",
+    "Support a rules-based international order in the Arctic prioritizing human and environmental security and meaningful engagement of Indigenous peoples.",
+    "Arctic boundaries must be more clearly defined and the rules-based order strengthened.",
+    "Work through and with Arctic Council member states as key to sustainable Arctic decisions."
+  ],
+  "desiredEndStates": {
+    "primary": "Restore Canada's place as an international Arctic leader.",
+    "alternate": "Ensure Canada and its Arctic residents are safe, secure, and well-defended."
+  },
+  "keyPositionsByIssue": {
+    "territory": "Claims extend to the North Pole; honour UNCLOS zones; Beaufort Sea dispute with U.S. resolved via the 141st meridian (rejecting U.S. equidistance); Lomonosov Ridge is part of Canada's continental shelf pending CLCS ruling.",
+    "sea_lanes": "The Northwest Passage is Canadian internal waters (Archipelagic waters), not an international strait; Canada regulates all vessel traffic even if it opens year-round; promote NWP as shortest Asia-Europe route under Canadian control.",
+    "militarization": "Increased Arctic militarization threatens peace; assert CAF sovereignty presence; push NATO combined Arctic capacity and leverage NORAD/U.S. surveillance; use Arctic Council to demilitarize and resolve disputes through dialogue.",
+    "resources": "Resources in Canadian waters/land require express Canadian permission; developed sustainably for domestic benefit with environmental and Indigenous considerations; each state manages its own territory's resources; no third-party Arctic governance.",
+    "environment": "Lead on Arctic stewardship; North warming 3x global average; balance conservation with development; enforce high-seas commercial fishing moratorium multilaterally; demand U.S. and China cut emissions under Paris; create Arctic environmental protection zones.",
+    "governance": "UNCLOS is sufficient for dispute settlement; reject any new Arctic governance structure or legal framework; support and take a robust leadership role in the Arctic Council to advance Canadian interests.",
+    "indigenous": "Champion Indigenous inclusion; cite the 2019 Arctic and Northern Policy Framework and Nunavut as models; promote self-government and equal standard of living; manage Greenland/Inuit representation on the Council carefully."
+  },
+  "redLines": [
+    "Not maintaining full control of the NWP as a Canadian trade route through Canadian internal waters.",
+    "Any foreign fleet establishing patrols in Canadian sovereign waters without permission.",
+    "Any other nation's claims to exploration rights or licenses within disputed Arctic areas.",
+    "Any attempt to make China a member state of the Arctic Council.",
+    "U.S. issuing exploration leases in the disputed Beaufort Sea region before the dispute is resolved."
+  ],
+  "batna": "Absent a deal, fall back to the alternate end-state: unilaterally defend and secure Canada and its Arctic residents, keep regulating the NWP as internal waters, and shore up bilateral agreements and NATO/NORAD ties rather than concede sovereignty.",
+  "concessionsWilling": [
+    "Resolve the Beaufort Sea dispute with the U.S. through dialogue while minimizing tensions.",
+    "Continue automatic NWP transit permission for U.S. military vessels (per 1988 Arctic Cooperation Agreement).",
+    "Grant China commercial NWP access on the condition it accepts Canadian control over the passage.",
+    "Promote beneficial trade relations with other Arctic powers and support international Arctic organizations."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": ["United States", "NATO allies", "NORAD partner (U.S.)", "Arctic Council member states", "Denmark/Greenland (on Indigenous inclusion)"],
+    "adversaries": ["Russia", "China"]
+  },
+  "negotiatingStyle": "Cooperative, rules-based, and multilateral through the Arctic Council; firm and sovereignty-protective on core red lines while acting as intermediary between the U.S. and Russia/China.",
+  "privateInstructions": [
+    "Act as intermediary between the U.S. and China/Russia since the U.S. will not negotiate bilaterally with them, to move talks along.",
+    "Exploit the U.S. insistence on NWP freedom of navigation as leverage to extract U.S. compromises on other issues.",
+    "Quietly limit Greenland's direct Arctic Council involvement until it gains full sovereignty, to avoid Inuit-representation pressure at Senior Arctic Officials meetings.",
+    "Hold the line that the NWP stays internal waters even if opened year-round, and block the U.S. equidistance claim in the Beaufort Sea."
+  ]
+}

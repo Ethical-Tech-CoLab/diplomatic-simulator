@@ -32,7 +32,6 @@ Each **report page** is a standalone, readable write-up (overview, convener repo
 
 - [Diplomacy Table Demo](./diplomacy-demo/index.html) — standalone interactive negotiation table (pick a scenario from the dropdown)
 - [`sim/`](./sim/) — the simulation toolchain and per-scenario run artifacts (profiles, transcripts, analyses)
-- [Ethical Tech Summit](./ethical-tech-summit.html) · [IP Risks & Mitigations](./ip-risks-mitigations.html)
 
 ## Status
 

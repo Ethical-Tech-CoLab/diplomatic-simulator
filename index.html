@@ -5,13 +5,13 @@
 <title>Diplomatic Simulator</title>
 <style>
 :root{
-  --crimson:#A41034;
-  --navy:#1B2A4E;
-  --ink:#1a1a1a;
-  --muted:#5a5a5a;
-  --paper:#fbf9f5;
-  --line:#e3ddd2;
-  --gold:#b08a3e;
+  --crimson:#6d28d9;
+  --navy:#241539;
+  --ink:#1a1020;
+  --muted:#6b6478;
+  --paper:#f5f2f9;
+  --line:#e4dcf3;
+  --gold:#7b5cff;
 }
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;background:var(--paper);color:var(--ink);
@@ -23,7 +23,7 @@ h3{font-size:1.12rem;color:var(--crimson);margin:0 0 .4em}
 a{color:var(--crimson);text-decoration:none}
 a:hover{text-decoration:underline}
 .wrap{max-width:980px;margin:0 auto;padding:0 28px}
-header.hero{background:linear-gradient(135deg,var(--navy) 0%,#0f1a33 100%);
+header.hero{background:linear-gradient(135deg,var(--navy) 0%,#120c1a 100%);
   color:#fff;padding:52px 0 44px;border-bottom:6px solid var(--crimson);position:relative}
 .eyebrow{letter-spacing:.18em;text-transform:uppercase;font-size:.75rem;color:var(--gold);margin-bottom:10px}
 .subtitle{color:#d8d8d8;font-size:1.05rem;margin:.5em 0 0;max-width:720px}
@@ -58,36 +58,7 @@ footer.foot{margin-top:0;padding:22px 0;border-top:1px solid var(--line);color:v
 
 <section>
   <div class="wrap">
-    <h2>Explore</h2>
-    <div class="grid-2">
-      <a class="card" href="diplomacy-demo/index.html">
-        <div class="meta">Interactive</div>
-        <h3>Diplomacy Table Demo →</h3>
-        <p>Standalone negotiation table with live transcript and session insights.</p>
-      </a>
-      <a class="card" href="diplomacy-session-report.html">
-        <div class="meta">Example run</div>
-        <h3>Session Report →</h3>
-        <p>Iran–US Strait of Hormuz closure crisis (live, April 2026).</p>
-      </a>
-      <a class="card" href="ethical-tech-summit.html">
-        <div class="meta">Archive</div>
-        <h3>Ethical Tech Summit →</h3>
-        <p>Supporting summit materials and gallery.</p>
-      </a>
-      <a class="card" href="ip-risks-mitigations.html">
-        <div class="meta">Reference</div>
-        <h3>IP Risks &amp; Mitigations →</h3>
-        <p>Notes on intellectual-property risks and how they are addressed.</p>
-      </a>
-    </div>
-    <span class="tag">Unlisted · noindex</span>
-  </div>
-</section>
-
-<section>
-  <div class="wrap">
-    <h2>Scenario Library</h2>
+    <h2>Choose a scenario</h2>
     <p class="lead">Multi-party negotiation simulations, each replayed in the diplomacy table. Every delegation is driven by its own confidential "privileged instructions"; each run produces a full transcript, tactic analysis, and a convener report.</p>
     <p class="lead"><a href="live.html"><strong>▶ Watch a live negotiation →</strong></a> &nbsp;·&nbsp; <a href="dashboard.html">Interactive dashboard</a> &nbsp;·&nbsp; <a href="montecarlo.html">Monte Carlo analysis</a> &nbsp;·&nbsp; <a href="methodology.html">Methodology</a> &nbsp;·&nbsp; <a href="analysis.html">Model &amp; bleeding analysis</a></p>
     <div class="grid-2">
@@ -111,8 +82,13 @@ footer.foot{margin-top:0;padding:22px 0;border-top:1px solid var(--line);color:v
         <h3>South China Sea — Crisis Talks →</h3>
         <p>China, US, Philippines, Vietnam, Malaysia, Brunei, Indonesia, India, Japan on competing claims, UNCLOS, freedom of navigation, and a code of conduct.</p>
       </a>
+      <a class="card" href="diplomacy-session-report.html">
+        <div class="meta">2 parties · geopolitical</div>
+        <h3>Iran–US Strait of Hormuz →</h3>
+        <p>Iran and the United States negotiate a collapsing ceasefire, closure of the Strait of Hormuz, sanctions, and the nuclear file (April 2026). Includes the full session report and the interactive diplomacy table.</p>
+      </a>
     </div>
-    <p class="desc" style="margin-top:14px;">Also on the table: the original <a href="diplomacy-session-report.html">Iran–US Strait of Hormuz</a> session report. Source scenario packs adapted from U.S. Army War College ISCNE / academic crisis-negotiation exercises.</p>
+    <p class="desc" style="margin-top:14px;">Source scenario packs adapted from U.S. Army War College ISCNE / academic crisis-negotiation exercises.</p>
   </div>
 </section>
 

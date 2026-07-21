@@ -1,0 +1,21 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {
+   "code": "IRN",
+   "name": "Iran",
+   "satisfaction": 0.63,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "US",
+   "name": "US",
+   "satisfaction": 0.56,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": ["Gulf-mediator-brokered framework (Oman/Qatar channel)"],
+ "note": "The tanker-sinking shock spiked oil prices and briefly threatened collapse, but with mediator pressure high, a cooperative mood, and Iran holding momentum from its succession-consolidated IRGC leverage, both sides framed the attack as a rogue spoiler action and used the crisis urgency to lock in a phased framework: Iran commits to reopening Hormuz and accepting downblending/IAEA monitoring while retaining civilian enrichment and securing tacit recognition plus staged sanctions relief, short of the full snapback reversal or full stockpile elimination either side originally sought."
+}

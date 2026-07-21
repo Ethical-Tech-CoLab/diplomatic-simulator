@@ -1,0 +1,21 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {
+   "code": "IRN",
+   "name": "Iran",
+   "satisfaction": 0.32,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "US",
+   "name": "US",
+   "satisfaction": 0.6,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [],
+ "note": "Facing the arriving carrier strike group and no mediator cover, a leadership-vacuum Tehran opts to quietly reopen Hormuz to avoid a shooting war, but the IRGC refuses any written dismantlement of enrichment, leaving the strait reopened yet the underlying nuclear and sanctions dispute unresolved."
+}

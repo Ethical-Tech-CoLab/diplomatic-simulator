@@ -1,0 +1,14 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {"code":"CAN","name":"Canada","satisfaction":0.75,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"CHN","name":"China","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"DNK","name":"Denmark","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"FIN","name":"Finland","satisfaction":0.85,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"NOR","name":"Norway","satisfaction":0.65,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"RUS","name":"Russia","satisfaction":0.8,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"USA","name":"United States","satisfaction":0.4,"primaryGoal":"partial","redLineHeld":false}
+ ],
+ "coalitions": ["Nordic mediation bloc (FIN/NOR/DNK)", "RUS-CHN Arctic economic partnership", "CAN-RUS-DNK Lomonosov Ridge joint development consortium"],
+ "note": "High mediator pressure, a cooperative mood, and Finland's brokering momentum turned the new oil/gas discovery into a joint-development framework that defers hard sovereignty claims, satisfying everyone except the US, whose no-Russian-oversight-of-the-NSR red line was traded away for the deal."
+}

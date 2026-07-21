@@ -1,0 +1,21 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {
+   "code": "IRN",
+   "name": "Iran",
+   "satisfaction": 0.52,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "US",
+   "name": "US",
+   "satisfaction": 0.66,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": ["Mediator (Oman/Qatar-backed) + cooperative US-Iran negotiating teams vs. rejectionist IRGC/hardline succession faction"],
+ "note": "High mediator pressure and a cooperative room let the negotiating teams sketch a Hormuz-reopening-for-phased-sanctions-relief framework with IAEA monitoring of the 60% stockpile, but the fracturing succession fight denies Iran's delegation full authority to bind Tehran, so it lands as a fragile framework rather than a comprehensive deal, with US momentum securing the stronger immediate terms while both sides' red lines (no dismantlement; no weapons capability/closed strait) technically hold on paper."
+}

@@ -1,0 +1,9 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {"code":"US","name":"US","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"IRN","name":"Iran","satisfaction":0.45,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": ["Omani/Qatari mediators pressing both sides toward phased de-escalation", "China-Russia quietly backstopping Iran's refusal to dismantle"],
+ "note": "With no shock to force a breakthrough, US momentum and only medium mediator pressure yielded a confrontational-mood compromise: a phased Hormuz reopening and enhanced IAEA access in exchange for partial sanctions relief, while Iran's enrichment red line and the US's open-strait red line both held, leaving the core nuclear dispute unresolved."
+}

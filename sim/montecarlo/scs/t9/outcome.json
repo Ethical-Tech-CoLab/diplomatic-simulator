@@ -1,0 +1,16 @@
+{
+ "dealType": "breakdown",
+ "parties": [
+  {"code":"CHN","name":"China","satisfaction":0.45,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"USA","name":"United States","satisfaction":0.25,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"PHL","name":"Philippines","satisfaction":0.2,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"VNM","name":"Vietnam","satisfaction":0.25,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"MYS","name":"Malaysia","satisfaction":0.3,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"BRN","name":"Brunei","satisfaction":0.3,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"IDN","name":"Indonesia","satisfaction":0.3,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"IND","name":"India","satisfaction":0.25,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"JPN","name":"Japan","satisfaction":0.25,"primaryGoal":"failed","redLineHeld":true}
+ ],
+ "coalitions": ["US-Japan-Philippines-Vietnam-India containment bloc", "ASEAN conciliation bloc (Malaysia/Brunei/Indonesia)"],
+ "note": "China's mid-talks ADIZ declaration, under confrontational mood and Chinese momentum, was read by every other delegation as a unilateral fait accompli that made further bargaining pointless, collapsing the talks without a deal while all red lines held."
+}

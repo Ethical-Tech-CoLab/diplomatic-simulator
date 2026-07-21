@@ -1,0 +1,16 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {"code":"CHN","name":"China","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"USA","name":"United States","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"PHL","name":"Philippines","satisfaction":0.35,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"VNM","name":"Vietnam","satisfaction":0.4,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"MYS","name":"Malaysia","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"BRN","name":"Brunei","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"IDN","name":"Indonesia","satisfaction":0.65,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"IND","name":"India","satisfaction":0.4,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"JPN","name":"Japan","satisfaction":0.35,"primaryGoal":"failed","redLineHeld":true}
+ ],
+ "coalitions": ["ASEAN claimant bloc (PHL-VNM-MYS-BRN-IDN) pushing UNCLOS-based COC under Indonesian chairmanship", "US-Japan-India external balancing coalition backing ASEAN's line"],
+ "note": "The confrontational mood froze the sovereignty track entirely, but medium mediator pressure and Indonesia's convening momentum salvaged a narrow confidence-building/functional-cooperation agreement while every delegation's red line held."
+}

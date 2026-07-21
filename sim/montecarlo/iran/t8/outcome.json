@@ -1,0 +1,21 @@
+{
+ "dealType": "breakdown",
+ "parties": [
+  {
+   "code": "IRN",
+   "name": "Iran",
+   "satisfaction": 0.32,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "US",
+   "name": "US",
+   "satisfaction": 0.22,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": ["Iran leans on China/Russia economic backstop as talks collapse"],
+ "note": "The IRGC's tanker sinking handed Iran short-term escalatory momentum but, with mediator pressure too weak to contain the crisis, hardened the US toward its naval/military BATNA and shattered trust before either side's red line could be tested at the table."
+}

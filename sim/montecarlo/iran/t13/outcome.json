@@ -1,0 +1,21 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {
+   "code": "IRN",
+   "name": "Iran",
+   "satisfaction": 0.37,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "US",
+   "name": "US",
+   "satisfaction": 0.71,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": ["US-IAEA/mediator verification bloc"],
+ "note": "The IAEA's exposure of the undeclared 60%-enriched stockpile, landing amid high mediator pressure and a cooperative mood, wrecked Iran's leverage and let a momentum-charged US extract a framework where Iran agrees to export/downblend the exposed material and phase in Hormuz reopening in exchange for a informal strike moratorium, while Iran preserves a residual civilian enrichment capability and the US defers full Additional Protocol restoration and snapback reversal to a follow-on phase."
+}

@@ -4,146 +4,146 @@ window.MC_RESULTS = {
    "key": "arctic",
    "title": "Arctic — Sovereignty & Sea-Lanes",
    "sessionId": "sess-arctic-iscne-01",
-   "nTrials": 18,
+   "nTrials": 20,
    "dealTypes": {
     "comprehensive": 0,
-    "framework": 8,
+    "framework": 9,
     "partial": 10,
-    "stalemate": 0,
+    "stalemate": 1,
     "breakdown": 0
    },
    "parties": [
     {
      "code": "CAN",
      "name": "Canada",
-     "n": 18,
+     "n": 20,
      "sat": {
-      "n": 18,
-      "mean": 0.645,
-      "sd": 0.101,
+      "n": 20,
+      "mean": 0.643,
+      "sd": 0.104,
       "min": 0.5,
       "max": 0.8,
       "p50": 0.61
      },
      "redLineHeldPct": 100,
      "goals": {
-      "achieved": 5,
-      "partial": 13,
-      "failed": 0
-     }
-    },
-    {
-     "code": "NOR",
-     "name": "Norway",
-     "n": 18,
-     "sat": {
-      "n": 18,
-      "mean": 0.622,
-      "sd": 0.095,
-      "min": 0.45,
-      "max": 0.8,
-      "p50": 0.6
-     },
-     "redLineHeldPct": 100,
-     "goals": {
-      "achieved": 7,
-      "partial": 11,
+      "achieved": 6,
+      "partial": 14,
       "failed": 0
      }
     },
     {
      "code": "RUS",
      "name": "Russia",
-     "n": 18,
+     "n": 20,
      "sat": {
-      "n": 18,
-      "mean": 0.621,
-      "sd": 0.11,
+      "n": 20,
+      "mean": 0.637,
+      "sd": 0.114,
       "min": 0.42,
       "max": 0.8,
-      "p50": 0.625
+      "p50": 0.65
      },
      "redLineHeldPct": 100,
      "goals": {
-      "achieved": 4,
+      "achieved": 6,
       "partial": 14,
+      "failed": 0
+     }
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "n": 20,
+     "sat": {
+      "n": 20,
+      "mean": 0.622,
+      "sd": 0.091,
+      "min": 0.45,
+      "max": 0.8,
+      "p50": 0.6
+     },
+     "redLineHeldPct": 100,
+     "goals": {
+      "achieved": 8,
+      "partial": 12,
       "failed": 0
      }
     },
     {
      "code": "FIN",
      "name": "Finland",
-     "n": 18,
+     "n": 20,
      "sat": {
-      "n": 18,
-      "mean": 0.617,
-      "sd": 0.098,
+      "n": 20,
+      "mean": 0.621,
+      "sd": 0.113,
       "min": 0.4,
       "max": 0.85,
       "p50": 0.6
      },
      "redLineHeldPct": 100,
      "goals": {
-      "achieved": 5,
-      "partial": 13,
+      "achieved": 6,
+      "partial": 14,
       "failed": 0
      }
     },
     {
      "code": "DNK",
      "name": "Denmark",
-     "n": 18,
+     "n": 20,
      "sat": {
-      "n": 18,
-      "mean": 0.594,
-      "sd": 0.094,
-      "min": 0.45,
+      "n": 20,
+      "mean": 0.585,
+      "sd": 0.098,
+      "min": 0.4,
       "max": 0.8,
       "p50": 0.55
      },
      "redLineHeldPct": 100,
      "goals": {
       "achieved": 1,
-      "partial": 17,
+      "partial": 19,
       "failed": 0
-     }
-    },
-    {
-     "code": "USA",
-     "name": "United States",
-     "n": 18,
-     "sat": {
-      "n": 18,
-      "mean": 0.465,
-      "sd": 0.102,
-      "min": 0.3,
-      "max": 0.7,
-      "p50": 0.45
-     },
-     "redLineHeldPct": 83,
-     "goals": {
-      "achieved": 0,
-      "partial": 15,
-      "failed": 3
      }
     },
     {
      "code": "CHN",
      "name": "China",
-     "n": 18,
+     "n": 20,
      "sat": {
-      "n": 18,
-      "mean": 0.443,
-      "sd": 0.138,
+      "n": 20,
+      "mean": 0.454,
+      "sd": 0.134,
       "min": 0.25,
       "max": 0.7,
-      "p50": 0.425
+      "p50": 0.45
      },
-     "redLineHeldPct": 39,
+     "redLineHeldPct": 45,
      "goals": {
       "achieved": 0,
-      "partial": 13,
+      "partial": 15,
       "failed": 5
+     }
+    },
+    {
+     "code": "USA",
+     "name": "United States",
+     "n": 20,
+     "sat": {
+      "n": 20,
+      "mean": 0.454,
+      "sd": 0.104,
+      "min": 0.3,
+      "max": 0.7,
+      "p50": 0.45
+     },
+     "redLineHeldPct": 75,
+     "goals": {
+      "achieved": 0,
+      "partial": 16,
+      "failed": 4
      }
     }
    ],
@@ -263,12 +263,28 @@ window.MC_RESULTS = {
      "note": "The NATO naval incident near the NSR poisoned the confrontational session, pushing the Western allies into a tight Danish-led coalition that secured narrow side agreements (Greenland assurances, Svalbard status quo, SAR coordination) while the core NSR/CLCS sovereignty dispute between Russia and the US was shelved unresolved, and China's navigation rights were collateral damage of Russia's post-incident security tightening."
     },
     {
+     "t": 10,
+     "dealType": "framework",
+     "shock": "A major new oil/gas discovery in contested Arctic waters",
+     "mood": "cooperative",
+     "mediatorPressure": "high",
+     "note": "High mediator pressure, a cooperative mood, and Finland's brokering momentum turned the new oil/gas discovery into a joint-development framework that defers hard sovereignty claims, satisfying everyone except the US, whose no-Russian-oversight-of-the-NSR red line was traded away for the deal."
+    },
+    {
      "t": 11,
      "dealType": "partial",
      "shock": "A US administration shift toward Arctic isolationism",
      "mood": "neutral",
      "mediatorPressure": "low",
      "note": "A US pivot to Arctic isolationism removed the main counterweight to Russian NSR control and deepened Sino-Russian cooperation, letting Russia and Norway (this round's momentum party) lock in favorable status-quo terms bilaterally while low mediator pressure left a comprehensive governance framework out of reach."
+    },
+    {
+     "t": 12,
+     "dealType": "stalemate",
+     "shock": "China announces a large icebreaker fleet and research-base expansion",
+     "mood": "confrontational",
+     "mediatorPressure": "medium",
+     "note": "China's icebreaker/research-base announcement landed in a confrontational session where Russia's momentum let it hold the NSR line unchallenged, hardening every other delegation's red lines and leaving no deal on the table."
     },
     {
      "t": 13,
@@ -676,11 +692,11 @@ window.MC_RESULTS = {
    "key": "cyprus",
    "title": "Cyprus — Reunification",
    "sessionId": "sess-cyprus-iscne-01",
-   "nTrials": 19,
+   "nTrials": 20,
    "dealTypes": {
     "comprehensive": 0,
     "framework": 8,
-    "partial": 3,
+    "partial": 4,
     "stalemate": 6,
     "breakdown": 2
    },
@@ -688,49 +704,49 @@ window.MC_RESULTS = {
     {
      "code": "CY",
      "name": "Republic of Cyprus",
-     "n": 19,
+     "n": 20,
      "sat": {
-      "n": 19,
-      "mean": 0.499,
-      "sd": 0.159,
+      "n": 20,
+      "mean": 0.503,
+      "sd": 0.156,
       "min": 0.15,
       "max": 0.76,
-      "p50": 0.52
+      "p50": 0.535
      },
      "redLineHeldPct": 100,
      "goals": {
       "achieved": 1,
-      "partial": 11,
+      "partial": 12,
       "failed": 7
      }
     },
     {
      "code": "UK",
      "name": "United Kingdom",
-     "n": 19,
+     "n": 20,
      "sat": {
-      "n": 19,
-      "mean": 0.493,
-      "sd": 0.191,
+      "n": 20,
+      "mean": 0.491,
+      "sd": 0.186,
       "min": 0.25,
       "max": 0.86,
-      "p50": 0.5
+      "p50": 0.485
      },
      "redLineHeldPct": 100,
      "goals": {
       "achieved": 2,
-      "partial": 9,
+      "partial": 10,
       "failed": 8
      }
     },
     {
      "code": "GR",
      "name": "Greece",
-     "n": 19,
+     "n": 20,
      "sat": {
-      "n": 19,
-      "mean": 0.481,
-      "sd": 0.154,
+      "n": 20,
+      "mean": 0.483,
+      "sd": 0.15,
       "min": 0.15,
       "max": 0.72,
       "p50": 0.5
@@ -738,37 +754,37 @@ window.MC_RESULTS = {
      "redLineHeldPct": 100,
      "goals": {
       "achieved": 2,
-      "partial": 11,
+      "partial": 12,
       "failed": 6
      }
     },
     {
      "code": "US",
      "name": "United States",
-     "n": 19,
+     "n": 20,
      "sat": {
-      "n": 19,
-      "mean": 0.481,
-      "sd": 0.18,
+      "n": 20,
+      "mean": 0.48,
+      "sd": 0.175,
       "min": 0.22,
       "max": 0.8,
-      "p50": 0.45
+      "p50": 0.455
      },
      "redLineHeldPct": 100,
      "goals": {
       "achieved": 2,
-      "partial": 9,
+      "partial": 10,
       "failed": 8
      }
     },
     {
      "code": "TRNC",
      "name": "Turkish Republic of Northern Cyprus",
-     "n": 19,
+     "n": 20,
      "sat": {
-      "n": 19,
-      "mean": 0.472,
-      "sd": 0.113,
+      "n": 20,
+      "mean": 0.465,
+      "sd": 0.115,
       "min": 0.28,
       "max": 0.66,
       "p50": 0.45
@@ -777,17 +793,17 @@ window.MC_RESULTS = {
      "goals": {
       "achieved": 0,
       "partial": 12,
-      "failed": 7
+      "failed": 8
      }
     },
     {
      "code": "TR",
      "name": "Turkey",
-     "n": 19,
+     "n": 20,
      "sat": {
-      "n": 19,
-      "mean": 0.467,
-      "sd": 0.12,
+      "n": 20,
+      "mean": 0.459,
+      "sd": 0.122,
       "min": 0.22,
       "max": 0.65,
       "p50": 0.5
@@ -796,7 +812,7 @@ window.MC_RESULTS = {
      "goals": {
       "achieved": 0,
       "partial": 13,
-      "failed": 6
+      "failed": 7
      }
     }
    ],
@@ -980,6 +996,14 @@ window.MC_RESULTS = {
      "note": "Turkiye's naval drilling escalation poisoned trust just as talks convened, and with mediator pressure low even a US-led push for momentum couldn't overcome it, so all sides retreated to their red lines and the round ended in stalemate rather than collapse or progress."
     },
     {
+     "t": 18,
+     "dealType": "partial",
+     "shock": "An EU accession/sanctions ultimatum lands mid-talks",
+     "mood": "confrontational",
+     "mediatorPressure": "medium",
+     "note": "The mid-talks EU accession/sanctions ultimatum, paired with CY's momentum, squeezed Turkey into accepting confidence-building steps (Varosha, movement, EU-track commitments) but the confrontational mood froze the core sovereignty/political-equality impasse, yielding only a partial interim deal rather than a comprehensive settlement."
+    },
+    {
      "t": 19,
      "dealType": "framework",
      "shock": "A UNFICYP mandate-renewal crisis hits the Security Council",
@@ -993,42 +1017,42 @@ window.MC_RESULTS = {
    "key": "scs",
    "title": "South China Sea",
    "sessionId": "sess-scs-iscne-01",
-   "nTrials": 9,
+   "nTrials": 19,
    "dealTypes": {
     "comprehensive": 0,
-    "framework": 4,
-    "partial": 4,
-    "stalemate": 1,
-    "breakdown": 0
+    "framework": 7,
+    "partial": 8,
+    "stalemate": 2,
+    "breakdown": 2
    },
    "parties": [
     {
      "code": "MYS",
      "name": "Malaysia",
-     "n": 9,
+     "n": 19,
      "sat": {
-      "n": 9,
-      "mean": 0.529,
-      "sd": 0.143,
-      "min": 0.35,
+      "n": 19,
+      "mean": 0.52,
+      "sd": 0.144,
+      "min": 0.2,
       "max": 0.8,
       "p50": 0.55
      },
      "redLineHeldPct": 100,
      "goals": {
       "achieved": 1,
-      "partial": 7,
-      "failed": 1
+      "partial": 15,
+      "failed": 3
      }
     },
     {
      "code": "CHN",
      "name": "China",
-     "n": 9,
+     "n": 19,
      "sat": {
-      "n": 9,
-      "mean": 0.517,
-      "sd": 0.135,
+      "n": 19,
+      "mean": 0.518,
+      "sd": 0.101,
       "min": 0.28,
       "max": 0.68,
       "p50": 0.55
@@ -1036,141 +1060,141 @@ window.MC_RESULTS = {
      "redLineHeldPct": 100,
      "goals": {
       "achieved": 0,
-      "partial": 4,
-      "failed": 5
+      "partial": 8,
+      "failed": 11
      }
     },
     {
-     "code": "USA",
-     "name": "United States",
-     "n": 9,
+     "code": "BRN",
+     "name": "Brunei",
+     "n": 19,
      "sat": {
-      "n": 9,
-      "mean": 0.511,
-      "sd": 0.072,
-      "min": 0.35,
-      "max": 0.58,
+      "n": 19,
+      "mean": 0.507,
+      "sd": 0.132,
+      "min": 0.25,
+      "max": 0.72,
       "p50": 0.55
      },
      "redLineHeldPct": 100,
      "goals": {
       "achieved": 0,
-      "partial": 9,
-      "failed": 0
+      "partial": 16,
+      "failed": 3
+     }
+    },
+    {
+     "code": "USA",
+     "name": "United States",
+     "n": 19,
+     "sat": {
+      "n": 19,
+      "mean": 0.502,
+      "sd": 0.121,
+      "min": 0.25,
+      "max": 0.72,
+      "p50": 0.55
+     },
+     "redLineHeldPct": 100,
+     "goals": {
+      "achieved": 0,
+      "partial": 17,
+      "failed": 2
      }
     },
     {
      "code": "IDN",
      "name": "Indonesia",
-     "n": 9,
+     "n": 19,
      "sat": {
-      "n": 9,
-      "mean": 0.509,
-      "sd": 0.097,
-      "min": 0.4,
+      "n": 19,
+      "mean": 0.493,
+      "sd": 0.127,
+      "min": 0.2,
       "max": 0.7,
       "p50": 0.48
      },
      "redLineHeldPct": 100,
      "goals": {
       "achieved": 0,
-      "partial": 8,
-      "failed": 1
-     }
-    },
-    {
-     "code": "BRN",
-     "name": "Brunei",
-     "n": 9,
-     "sat": {
-      "n": 9,
-      "mean": 0.499,
-      "sd": 0.119,
-      "min": 0.32,
-      "max": 0.65,
-      "p50": 0.55
-     },
-     "redLineHeldPct": 100,
-     "goals": {
-      "achieved": 0,
-      "partial": 8,
-      "failed": 1
+      "partial": 15,
+      "failed": 4
      }
     },
     {
      "code": "IND",
      "name": "India",
-     "n": 9,
+     "n": 19,
      "sat": {
-      "n": 9,
-      "mean": 0.487,
-      "sd": 0.077,
-      "min": 0.4,
+      "n": 19,
+      "mean": 0.467,
+      "sd": 0.112,
+      "min": 0.2,
       "max": 0.65,
       "p50": 0.45
      },
      "redLineHeldPct": 100,
      "goals": {
       "achieved": 0,
-      "partial": 8,
-      "failed": 1
+      "partial": 14,
+      "failed": 5
      }
     },
     {
      "code": "JPN",
      "name": "Japan",
-     "n": 9,
+     "n": 19,
      "sat": {
-      "n": 9,
-      "mean": 0.473,
-      "sd": 0.064,
-      "min": 0.38,
-      "max": 0.55,
-      "p50": 0.47
+      "n": 19,
+      "mean": 0.458,
+      "sd": 0.093,
+      "min": 0.25,
+      "max": 0.6,
+      "p50": 0.44
      },
      "redLineHeldPct": 100,
      "goals": {
       "achieved": 0,
-      "partial": 8,
-      "failed": 1
+      "partial": 14,
+      "failed": 5
      }
     },
     {
      "code": "VNM",
      "name": "Vietnam",
-     "n": 9,
+     "n": 19,
      "sat": {
-      "n": 9,
-      "mean": 0.467,
-      "sd": 0.103,
-      "min": 0.3,
+      "n": 19,
+      "mean": 0.454,
+      "sd": 0.117,
+      "min": 0.2,
       "max": 0.69,
       "p50": 0.45
      },
      "redLineHeldPct": 100,
      "goals": {
       "achieved": 0,
-      "partial": 7,
-      "failed": 2
+      "partial": 13,
+      "failed": 6
      }
     },
     {
      "code": "PHL",
      "name": "Philippines",
-     "n": 9,
+     "n": 19,
      "sat": {
-      "n": 9,
-      "mean": 0.458,
-      "sd": 0.127,
-      "min": 0.22,
+      "n": 19,
+      "mean": 0.443,
+      "sd": 0.147,
+      "min": 0.15,
       "max": 0.66,
-      "p50": 0.5
+      "p50": 0.45
      },
      "redLineHeldPct": 100,
      "goals": {
       "achieved": 0,
-      "partial": 6,
-      "failed": 3
+      "partial": 11,
+      "failed": 8
      }
     }
    ],
@@ -1280,6 +1304,86 @@ window.MC_RESULTS = {
      "mood": "neutral",
      "mediatorPressure": "low",
      "note": "The Second Thomas Shoal ramming hardened every claimant's red line and pushed Japan to broker an emergency incident-deconfliction/hotline framework, but low mediator pressure meant sovereignty questions stayed unresolved and China refused any recognition concession."
+    },
+    {
+     "t": 9,
+     "dealType": "breakdown",
+     "shock": "China declares an air-defense identification zone over the SCS",
+     "mood": "confrontational",
+     "mediatorPressure": "medium",
+     "note": "China's mid-talks ADIZ declaration, under confrontational mood and Chinese momentum, was read by every other delegation as a unilateral fait accompli that made further bargaining pointless, collapsing the talks without a deal while all red lines held."
+    },
+    {
+     "t": 10,
+     "dealType": "framework",
+     "shock": "A US-Philippines mutual-defense-treaty invocation scare",
+     "mood": "cooperative",
+     "mediatorPressure": "high",
+     "note": "The mutual-defense-treaty scare, met with high mediator pressure and a cooperative mood, pushed all sides toward a face-saving crisis-management/CBM framework rather than resolving sovereignty, with China absorbing the momentum loss but keeping its red line intact."
+    },
+    {
+     "t": 11,
+     "dealType": "partial",
+     "shock": "A major typhoon forces emergency maritime cooperation",
+     "mood": "neutral",
+     "mediatorPressure": "low",
+     "note": "The typhoon forced emergency SAR/maritime cooperation and hotlines, and with Philippine momentum but low mediator pressure this yielded confidence-building measures rather than any sovereignty breakthrough, so every red line held and only a partial humanitarian-cooperation arrangement resulted."
+    },
+    {
+     "t": 12,
+     "dealType": "partial",
+     "shock": "A large new oil/gas find in overlapping claims",
+     "mood": "confrontational",
+     "mediatorPressure": "medium",
+     "note": "The new overlapping oil/gas find raised the economic stakes enough to produce a narrow joint-development framework for that field, but confrontational rhetoric and only medium mediator leverage kept every party's sovereignty red line intact, blocking any comprehensive settlement."
+    },
+    {
+     "t": 14,
+     "dealType": "partial",
+     "shock": "A US FONOP triggers a near-miss with the PLA Navy",
+     "mood": "neutral",
+     "mediatorPressure": "low",
+     "note": "The FONOP near-miss scared everyone into a modest incident-prevention/hotline framework rather than a sovereignty settlement, with low mediator pressure letting Brunei's quiet-diplomacy approach set the achievable ceiling while every party's sovereignty red line held firm."
+    },
+    {
+     "t": 15,
+     "dealType": "partial",
+     "shock": "No major external shock — only standing structural pressures",
+     "mood": "confrontational",
+     "mediatorPressure": "medium",
+     "note": "The confrontational mood froze the sovereignty track entirely, but medium mediator pressure and Indonesia's convening momentum salvaged a narrow confidence-building/functional-cooperation agreement while every delegation's red line held."
+    },
+    {
+     "t": 16,
+     "dealType": "framework",
+     "shock": "A ramming/collision incident at Second Thomas Shoal",
+     "mood": "cooperative",
+     "mediatorPressure": "high",
+     "note": "The Second Thomas Shoal ramming created urgent leverage that a cooperative mood and high mediator pressure channeled, via India's momentum, into a binding crisis-hotline/incident-avoidance framework, while every delegation's sovereignty red line held firm and the ten-dashed-line dispute itself stayed unresolved."
+    },
+    {
+     "t": 17,
+     "dealType": "breakdown",
+     "shock": "China declares an air-defense identification zone over the SCS",
+     "mood": "neutral",
+     "mediatorPressure": "low",
+     "note": "China's surprise ADIZ declaration, met with only weak mediator engagement, hardened every opposing delegation's red line and collapsed the talks before any framework could be drafted."
+    },
+    {
+     "t": 18,
+     "dealType": "stalemate",
+     "shock": "A US-Philippines mutual-defense-treaty invocation scare",
+     "mood": "confrontational",
+     "mediatorPressure": "medium",
+     "note": "The mutual-defense-treaty invocation scare froze every delegation into its red line just as China's momentum let Beijing stonewall, so talks lapsed into confrontation-driven stalemate while Malaysia and Brunei quietly hedged toward bilateral deals with Beijing."
+    },
+    {
+     "t": 19,
+     "dealType": "framework",
+     "shock": "A major typhoon forces emergency maritime cooperation",
+     "mood": "cooperative",
+     "mediatorPressure": "high",
+     "note": "The typhoon forced China and the claimants into real emergency maritime coordination, and high mediator pressure plus a cooperative mood converted that ad hoc cooperation into a non-binding framework on hotlines, search-and-rescue protocols, and freedom-of-navigation reaffirmation, while every delegation's sovereignty red line held and the underlying dispute remained unresolved."
     }
    ]
   },
@@ -1287,51 +1391,51 @@ window.MC_RESULTS = {
    "key": "iran",
    "title": "Iran–US — Strait of Hormuz",
    "sessionId": "sess-1778361924764-byifbp",
-   "nTrials": 8,
+   "nTrials": 20,
    "dealTypes": {
     "comprehensive": 0,
-    "framework": 3,
-    "partial": 3,
-    "stalemate": 0,
-    "breakdown": 2
+    "framework": 9,
+    "partial": 6,
+    "stalemate": 1,
+    "breakdown": 4
    },
    "parties": [
     {
      "code": "US",
      "name": "US",
-     "n": 8,
+     "n": 20,
      "sat": {
-      "n": 8,
-      "mean": 0.506,
-      "sd": 0.192,
+      "n": 20,
+      "mean": 0.511,
+      "sd": 0.166,
       "min": 0.15,
       "max": 0.72,
-      "p50": 0.585
+      "p50": 0.565
      },
-     "redLineHeldPct": 62,
+     "redLineHeldPct": 85,
      "goals": {
       "achieved": 0,
-      "partial": 6,
-      "failed": 2
+      "partial": 15,
+      "failed": 5
      }
     },
     {
      "code": "IRN",
      "name": "Iran",
-     "n": 8,
+     "n": 20,
      "sat": {
-      "n": 8,
-      "mean": 0.47,
-      "sd": 0.117,
-      "min": 0.35,
+      "n": 20,
+      "mean": 0.46,
+      "sd": 0.121,
+      "min": 0.28,
       "max": 0.68,
       "p50": 0.435
      },
      "redLineHeldPct": 100,
      "goals": {
       "achieved": 0,
-      "partial": 7,
-      "failed": 1
+      "partial": 15,
+      "failed": 5
      }
     }
    ],
@@ -1433,6 +1537,102 @@ window.MC_RESULTS = {
      "mood": "neutral",
      "mediatorPressure": "medium",
      "note": "With no fresh shock to force either side's hand, only medium mediator pressure and a modest US momentum edge, the sides settled for a phased Hormuz reopening tied to partial (not full) enrichment rollback and staged sanctions relief rather than the comprehensive deal or outright collapse either side's maximal position would have required."
+    },
+    {
+     "t": 8,
+     "dealType": "breakdown",
+     "shock": "The IRGC sinks a commercial tanker in the strait, spiking global oil prices",
+     "mood": "neutral",
+     "mediatorPressure": "low",
+     "note": "The IRGC's tanker sinking handed Iran short-term escalatory momentum but, with mediator pressure too weak to contain the crisis, hardened the US toward its naval/military BATNA and shattered trust before either side's red line could be tested at the table."
+    },
+    {
+     "t": 9,
+     "dealType": "partial",
+     "shock": "A US carrier strike group arrives and threatens to break the blockade by force",
+     "mood": "confrontational",
+     "mediatorPressure": "medium",
+     "note": "Facing the arriving carrier strike group and no mediator cover, a leadership-vacuum Tehran opts to quietly reopen Hormuz to avoid a shooting war, but the IRGC refuses any written dismantlement of enrichment, leaving the strait reopened yet the underlying nuclear and sanctions dispute unresolved."
+    },
+    {
+     "t": 10,
+     "dealType": "framework",
+     "shock": "Israel launches an independent strike on an Iranian nuclear site mid-talks",
+     "mood": "cooperative",
+     "mediatorPressure": "high",
+     "note": "Israel's mid-talks strike nearly torched the ceasefire, but intense mediator pressure and Iran's sympathy-driven leverage forced both sides into a rushed interim framework rather than full collapse or a comprehensive deal."
+    },
+    {
+     "t": 11,
+     "dealType": "partial",
+     "shock": "The contested Iranian succession fractures; a hardline faction rejects the talks",
+     "mood": "neutral",
+     "mediatorPressure": "low",
+     "note": "The hardline fracture stripped Iran's delegation of authority to trade nuclear concessions for sanctions relief, so with low mediator pressure the sides could only lock in a trial Hormuz reopening while the core stockpile and snapback disputes went unresolved."
+    },
+    {
+     "t": 12,
+     "dealType": "stalemate",
+     "shock": "China and Russia offer Iran a sanctions-workaround lifeline via a side channel",
+     "mood": "confrontational",
+     "mediatorPressure": "medium",
+     "note": "The China/Russia lifeline handed Iran a stronger BATNA just as it held negotiating momentum, so under a confrontational mood Tehran refused nuclear rollback and Washington refused to trade away snapback leverage, leaving Hormuz transit unresolved and talks deadlocked rather than broken off outright."
+    },
+    {
+     "t": 13,
+     "dealType": "framework",
+     "shock": "An IAEA report reveals an undeclared 60%-enriched uranium stockpile",
+     "mood": "cooperative",
+     "mediatorPressure": "high",
+     "note": "The IAEA's exposure of the undeclared 60%-enriched stockpile, landing amid high mediator pressure and a cooperative mood, wrecked Iran's leverage and let a momentum-charged US extract a framework where Iran agrees to export/downblend the exposed material and phase in Hormuz reopening in exchange for a informal strike moratorium, while Iran preserves a residual civilian enrichment capability and the US defers full Additional Protocol restoration and snapback reversal to a follow-on phase."
+    },
+    {
+     "t": 14,
+     "dealType": "framework",
+     "shock": "A back-channel prisoner/aircrew exchange builds unexpected goodwill",
+     "mood": "neutral",
+     "mediatorPressure": "low",
+     "note": "Low mediator pressure and Iranian momentum, boosted by the prisoner-exchange goodwill, produced only a phased framework (trial Hormuz reopening and expanded IAEA access for calibrated sanctions relief) rather than the comprehensive verification and snapback reversal either side originally sought, with the hardest issues on the enriched stockpile and succession recognition deferred."
+    },
+    {
+     "t": 15,
+     "dealType": "framework",
+     "shock": "No major external shock — only the standing Hormuz-closure crisis",
+     "mood": "confrontational",
+     "mediatorPressure": "medium",
+     "note": "With no shock to force a breakthrough, US momentum and only medium mediator pressure yielded a confrontational-mood compromise: a phased Hormuz reopening and enhanced IAEA access in exchange for partial sanctions relief, while Iran's enrichment red line and the US's open-strait red line both held, leaving the core nuclear dispute unresolved."
+    },
+    {
+     "t": 16,
+     "dealType": "framework",
+     "shock": "The IRGC sinks a commercial tanker in the strait, spiking global oil prices",
+     "mood": "cooperative",
+     "mediatorPressure": "high",
+     "note": "The tanker-sinking shock spiked oil prices and briefly threatened collapse, but with mediator pressure high, a cooperative mood, and Iran holding momentum from its succession-consolidated IRGC leverage, both sides framed the attack as a rogue spoiler action and used the crisis urgency to lock in a phased framework: Iran commits to reopening Hormuz and accepting downblending/IAEA monitoring while retaining civilian enrichment and securing tacit recognition plus staged sanctions relief, short of the full snapback reversal or full stockpile elimination either side originally sought."
+    },
+    {
+     "t": 17,
+     "dealType": "partial",
+     "shock": "A US carrier strike group arrives and threatens to break the blockade by force",
+     "mood": "neutral",
+     "mediatorPressure": "low",
+     "note": "With mediator pressure low, the arriving US carrier strike group forced a succession-weakened Iran to reopen the Strait to avert war, but neither side's core nuclear/sanctions demand was resolved, leaving a narrow strait-for-restraint arrangement instead of a real settlement."
+    },
+    {
+     "t": 18,
+     "dealType": "breakdown",
+     "shock": "Israel launches an independent strike on an Iranian nuclear site mid-talks",
+     "mood": "confrontational",
+     "mediatorPressure": "medium",
+     "note": "Israel's independent strike mid-talks, landing in an already confrontational mood, gave Iran's delegation (holding momentum) no room to be seen conceding and let the US disclaim responsibility while losing its own leverage as guarantor, so medium mediator pressure couldn't stop both sides walking away with red lines intact but no deal."
+    },
+    {
+     "t": 19,
+     "dealType": "framework",
+     "shock": "The contested Iranian succession fractures; a hardline faction rejects the talks",
+     "mood": "cooperative",
+     "mediatorPressure": "high",
+     "note": "High mediator pressure and a cooperative room let the negotiating teams sketch a Hormuz-reopening-for-phased-sanctions-relief framework with IAEA monitoring of the 60% stockpile, but the fracturing succession fight denies Iran's delegation full authority to bind Tehran, so it lands as a fragile framework rather than a comprehensive deal, with US momentum securing the stronger immediate terms while both sides' red lines (no dismantlement; no weapons capability/closed strait) technically hold on paper."
     }
    ]
   }

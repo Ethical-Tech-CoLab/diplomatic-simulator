@@ -1,0 +1,21 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {
+   "code": "IRN",
+   "name": "Iran",
+   "satisfaction": 0.42,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "US",
+   "name": "US",
+   "satisfaction": 0.6,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": ["Iran leans on quiet Chinese/Russian backing rather than a formal bloc"],
+ "note": "With mediator pressure low, the arriving US carrier strike group forced a succession-weakened Iran to reopen the Strait to avert war, but neither side's core nuclear/sanctions demand was resolved, leaving a narrow strait-for-restraint arrangement instead of a real settlement."
+}

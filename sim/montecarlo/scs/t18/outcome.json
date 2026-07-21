@@ -1,0 +1,16 @@
+{
+ "dealType": "stalemate",
+ "parties": [
+  {"code":"CHN","name":"China","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"USA","name":"United States","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"PHL","name":"Philippines","satisfaction":0.4,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"VNM","name":"Vietnam","satisfaction":0.4,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"MYS","name":"Malaysia","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"BRN","name":"Brunei","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"IDN","name":"Indonesia","satisfaction":0.35,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"IND","name":"India","satisfaction":0.4,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"JPN","name":"Japan","satisfaction":0.4,"primaryGoal":"failed","redLineHeld":true}
+ ],
+ "coalitions": ["US-Philippines-Japan-Vietnam security bloc hardens after treaty scare", "Malaysia-Brunei quiet bilateral/economic hedge track with China"],
+ "note": "The mutual-defense-treaty invocation scare froze every delegation into its red line just as China's momentum let Beijing stonewall, so talks lapsed into confrontation-driven stalemate while Malaysia and Brunei quietly hedged toward bilateral deals with Beijing."
+}

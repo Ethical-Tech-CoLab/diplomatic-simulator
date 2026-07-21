@@ -1,0 +1,14 @@
+{
+ "dealType": "stalemate",
+ "parties": [
+  {"code":"CAN","name":"Canada","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"CHN","name":"China","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"DNK","name":"Denmark","satisfaction":0.4,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"FIN","name":"Finland","satisfaction":0.45,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"NOR","name":"Norway","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"RUS","name":"Russia","satisfaction":0.75,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"USA","name":"United States","satisfaction":0.3,"primaryGoal":"failed","redLineHeld":false}
+ ],
+ "coalitions": ["Western Arctic bloc (CAN-DNK-NOR-USA-FIN) reacting defensively", "RUS-CHN Arctic partnership holds despite friction"],
+ "note": "China's icebreaker/research-base announcement landed in a confrontational session where Russia's momentum let it hold the NSR line unchallenged, hardening every other delegation's red lines and leaving no deal on the table."
+}

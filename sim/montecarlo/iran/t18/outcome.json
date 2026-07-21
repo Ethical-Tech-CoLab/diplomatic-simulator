@@ -1,0 +1,21 @@
+{
+ "dealType": "breakdown",
+ "parties": [
+  {
+   "code": "IRN",
+   "name": "Iran",
+   "satisfaction": 0.28,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "US",
+   "name": "US",
+   "satisfaction": 0.32,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": ["US-Israel (strained alignment, unilateral strike)", "Iran-China/Russia (sanctions-cushioning backers)"],
+ "note": "Israel's independent strike mid-talks, landing in an already confrontational mood, gave Iran's delegation (holding momentum) no room to be seen conceding and let the US disclaim responsibility while losing its own leverage as guarantor, so medium mediator pressure couldn't stop both sides walking away with red lines intact but no deal."
+}

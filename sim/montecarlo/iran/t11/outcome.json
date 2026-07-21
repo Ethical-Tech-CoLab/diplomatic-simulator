@@ -1,0 +1,21 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {
+   "code": "IRN",
+   "name": "Iran",
+   "satisfaction": 0.35,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "US",
+   "name": "US",
+   "satisfaction": 0.55,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [],
+ "note": "The hardline fracture stripped Iran's delegation of authority to trade nuclear concessions for sanctions relief, so with low mediator pressure the sides could only lock in a trial Hormuz reopening while the core stockpile and snapback disputes went unresolved."
+}

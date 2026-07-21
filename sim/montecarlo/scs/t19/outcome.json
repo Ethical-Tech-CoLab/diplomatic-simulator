@@ -1,0 +1,16 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {"code":"CHN","name":"China","satisfaction":0.6,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"USA","name":"United States","satisfaction":0.68,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"PHL","name":"Philippines","satisfaction":0.52,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"VNM","name":"Vietnam","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"MYS","name":"Malaysia","satisfaction":0.7,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"BRN","name":"Brunei","satisfaction":0.72,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"IDN","name":"Indonesia","satisfaction":0.68,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"IND","name":"India","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"JPN","name":"Japan","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": ["US-Japan-Philippines-Vietnam-India maritime coalition pressing for multilateral framework", "ASEAN claimants (PHL, VNM, MYS, BRN, IDN) bloc on CBMs and joint ventures"],
+ "note": "The typhoon forced China and the claimants into real emergency maritime coordination, and high mediator pressure plus a cooperative mood converted that ad hoc cooperation into a non-binding framework on hotlines, search-and-rescue protocols, and freedom-of-navigation reaffirmation, while every delegation's sovereignty red line held and the underlying dispute remained unresolved."
+}

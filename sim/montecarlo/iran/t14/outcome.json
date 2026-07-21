@@ -1,0 +1,21 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {
+   "code": "IRN",
+   "name": "Iran",
+   "satisfaction": 0.63,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "US",
+   "name": "US",
+   "satisfaction": 0.52,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [],
+ "note": "Low mediator pressure and Iranian momentum, boosted by the prisoner-exchange goodwill, produced only a phased framework (trial Hormuz reopening and expanded IAEA access for calibrated sanctions relief) rather than the comprehensive verification and snapback reversal either side originally sought, with the hardest issues on the enriched stockpile and succession recognition deferred."
+}

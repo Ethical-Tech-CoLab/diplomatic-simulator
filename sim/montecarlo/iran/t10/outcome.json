@@ -1,0 +1,21 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {
+   "code": "IRN",
+   "name": "Iran",
+   "satisfaction": 0.6,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "US",
+   "name": "US",
+   "satisfaction": 0.52,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": ["Oman/Qatar-mediator emergency framework push", "US publicly distances from unilateral Israeli strike"],
+ "note": "Israel's mid-talks strike nearly torched the ceasefire, but intense mediator pressure and Iran's sympathy-driven leverage forced both sides into a rushed interim framework rather than full collapse or a comprehensive deal."
+}

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/>
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Model comparison & bleeding audit — Diplomatic Simulator</title>
+<style>
+:root{--crimson:#A41034;--navy:#1B2A4E;--ink:#1a1a1a;--muted:#5a5a5a;--paper:#fbf9f5;--line:#e3ddd2;--gold:#b08a3e}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Arial,sans-serif;line-height:1.6;font-size:14.5px}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;color:var(--navy);margin:0 0 .4em}
+h1{font-size:1.95rem;color:#fff;line-height:1.15}
+h2{font-size:1.4rem;border-bottom:2px solid var(--crimson);padding-bottom:.2em;margin:1.8em 0 .5em}
+h3{font-size:1.05rem;color:var(--crimson);margin:1.3em 0 .3em}
+a{color:var(--crimson);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:900px;margin:0 auto;padding:0 22px}
+header.hero{background:linear-gradient(135deg,var(--navy),#0f1a33);color:#fff;padding:38px 0 28px;border-bottom:5px solid var(--crimson)}
+.eyebrow{letter-spacing:.16em;text-transform:uppercase;font-size:.68rem;color:var(--gold)}
+.backlink{color:#cfd6e6;font-size:.82rem}.backlink:hover{color:#fff}
+.subtitle{color:#d8d8d8;margin:.4em 0 0;max-width:740px}
+.callout{background:#fff;border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:8px;padding:12px 16px;margin:16px 0;font-size:.92rem}
+.callout.warn{border-left-color:var(--crimson)}
+.callout.key{border-left-color:var(--navy);background:#f4f6fb}
+table{width:100%;border-collapse:collapse;margin:10px 0;background:#fff;border:1px solid var(--line);font-size:.86rem}
+th,td{padding:7px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--navy);color:#fff;font-family:Georgia,serif;font-weight:500}
+tr:last-child td{border-bottom:0}tr:nth-child(even) td{background:#fcfaf6}
+td.n{text-align:center;font-variant-numeric:tabular-nums}
+.win{font-weight:700;color:#2e7d32}.bad{color:#c62828;font-weight:600}
+.pill{display:inline-block;font-size:.68rem;padding:1px 8px;border-radius:99px;color:#fff}
+.low{background:#2e7d32}.mod{background:#b08a3e}.high{background:#c62828}
+ul{padding-left:20px}li{margin:.3em 0}
+.muted{color:var(--muted)}.small{font-size:.85rem}
+footer{border-top:1px solid var(--line);color:var(--muted);font-size:.8rem;text-align:center;padding:16px 0;margin-top:22px}
+</style></head><body>
+<header class="hero"><div class="wrap">
+  <a class="backlink" href="methodology.html">← Methodology</a>
+  <div class="eyebrow">Analysis · Models & Fidelity</div>
+  <h1>Which model, and do the agents bleed into each other?</h1>
+  <p class="subtitle">Two controlled experiments: a model bake-off (Opus 4.8 vs Sonnet vs Haiku 4.5) across scenarios of increasing difficulty, and a cross-party contamination audit of every negotiation.</p>
+</div></header>
+<div class="wrap">
+
+<div class="callout warn"><strong>Read as exploratory.</strong> Small samples (one task per scenario), single-shot latencies, and the judge is itself an AI (Opus). Directional, not a benchmark. The main negotiations ran on Opus 4.8; the Monte Carlo on Sonnet.</div>
+
+<h2>1 · Model comparison across scenarios</h2>
+<p>Same task in each scenario — a Round-3 bargaining statement for one pivotal delegation, given the real Rounds 1–2 transcript and that delegation's confidential profile. It must engage specific rivals by name, table a concrete conditional offer, and defend a red line. Each run scored 0–10 by an independent judge on <strong>context-fidelity</strong> (correctly building on what others actually said), <strong>accuracy</strong> (fidelity to its own objectives/red lines, no fabrication), and <strong>conciseness</strong>.</p>
+
+<table>
+<thead><tr><th>Scenario</th><th class="n">Parties</th><th>Model</th><th class="n">Context</th><th class="n">Accuracy</th><th class="n">Concise</th><th class="n">Words</th><th>Best</th></tr></thead>
+<tbody>
+<tr><td rowspan="3">Cyprus <span class="muted">(consensus-ish)</span></td><td class="n" rowspan="3">6</td><td>Opus 4.8</td><td class="n">9</td><td class="n">10</td><td class="n">9</td><td class="n">128</td><td rowspan="3" class="win">Opus<br><span class="small muted">gap: slight</span></td></tr>
+<tr><td>Sonnet</td><td class="n">8</td><td class="n">9</td><td class="n">9</td><td class="n">116</td></tr>
+<tr><td>Haiku 4.5</td><td class="n">6</td><td class="n">8</td><td class="n">7</td><td class="n">132</td></tr>
+<tr><td rowspan="3">Central Asia <span class="muted">(consensus-ish)</span></td><td class="n" rowspan="3">7</td><td>Opus 4.8</td><td class="n">10</td><td class="n">10</td><td class="n">9</td><td class="n">131</td><td rowspan="3" class="win">Opus<br><span class="small muted">gap: slight</span></td></tr>
+<tr><td>Sonnet</td><td class="n">9</td><td class="n">9</td><td class="n">9</td><td class="n">123</td></tr>
+<tr><td>Haiku 4.5</td><td class="n">8</td><td class="n">8</td><td class="n">7</td><td class="n">133</td></tr>
+<tr><td rowspan="3">Arctic <span class="muted">(adversarial)</span></td><td class="n" rowspan="3">7</td><td>Opus 4.8</td><td class="n">10</td><td class="n">10</td><td class="n">9</td><td class="n">134</td><td rowspan="3" class="win">Opus<br><span class="small bad">gap: clear</span></td></tr>
+<tr><td>Sonnet</td><td class="n">9</td><td class="n">10</td><td class="n">9</td><td class="n">122</td></tr>
+<tr><td>Haiku 4.5</td><td class="n bad">7</td><td class="n bad">6</td><td class="n bad">6</td><td class="n">147</td></tr>
+<tr><td rowspan="3">South China Sea <span class="muted">(adversarial)</span></td><td class="n" rowspan="3">9</td><td>Opus 4.8</td><td class="n">10</td><td class="n">10</td><td class="n">9</td><td class="n">128</td><td rowspan="3" class="win">Opus<br><span class="small bad">gap: clear</span></td></tr>
+<tr><td>Sonnet</td><td class="n">9</td><td class="n">9</td><td class="n">9</td><td class="n">132</td></tr>
+<tr><td>Haiku 4.5</td><td class="n bad">7</td><td class="n bad">6</td><td class="n">7</td><td class="n">124</td></tr>
+</tbody></table>
+
+<div class="callout key"><strong>The key finding.</strong> The model gap widens with difficulty — but it tracks <strong>red-line sharpness / adversarial density, not raw party count.</strong> Haiku holds up on the consensus-heavy tables (Cyprus 6p, Central Asia 7p, ~2-point spread) and degrades on the adversarial ones (Arctic 7p, SCS 9p, ~4-point spread) — even though Central Asia has the same party count as Arctic. Opus and Sonnet hold accuracy and specific-attribution steady all the way to the 9-party table.</div>
+
+<p><strong>Haiku's two failure modes under adversarial load:</strong></p>
+<ul>
+<li><strong>Red-line self-breach</strong> — playing the US in Arctic, it proposed a transit <em>notification framework</em>, the very thing the US's freedom-of-navigation red line rejects; playing China in SCS, it conceded removing the Scarborough Shoal barrier against China's no-rollback line.</li>
+<li><strong>Fabrication</strong> — its SCS offer invented concrete terms (a "40% / 10-year" split) not supported by its brief. Opus and Sonnet made neither error in any scenario.</li>
+</ul>
+
+<h3>Speed & conciseness</h3>
+<p>On a separate single-shot latency probe (2-party Iran), Opus and Sonnet answered in ~5–6 s; Haiku was noisier (one 15 s run) — single-shot latency is unreliable, so treat speed as roughly comparable at this tier. On words, <strong>Sonnet was consistently the leanest</strong> (116–132 w) with Opus close behind; Haiku ran longest when it padded (147 w on Arctic). In token terms Sonnet spends more on internal reasoning than Opus for similar output.</p>
+
+<div class="callout"><strong>Recommendation.</strong> <strong>Opus 4.8</strong> is the clear pick for the negotiation rounds and analysis, and it does not lose its lead as the table grows. <strong>Sonnet</strong> is a strong, near-equal second at lower verbosity — a good default for bulk work like the Monte Carlo. <strong>Haiku 4.5</strong> is fine for low-party, consensus-oriented rounds and cheap high-volume structured output, but should not be trusted to defend hard red lines at dense adversarial tables.</div>
+
+<h2>2 · Cross-party "bleeding" audit</h2>
+<p>Each delegation is a <em>separate</em> instance of the <em>same</em> model, given only its own secret instructions plus the public brief and public transcript. Does private information or coordination nonetheless leak across parties? An independent auditor read every party's confidential profile and the full transcript for each scenario.</p>
+
+<table>
+<thead><tr><th>Scenario</th><th class="n">Parties</th><th>Info leakage</th><th>Convergence</th><th>Stylistic sameness</th><th>Overall</th></tr></thead>
+<tbody>
+<tr><td>Cyprus</td><td class="n">6</td><td><span class="pill low">LOW</span></td><td>frictional</td><td><span class="pill high">HIGH</span></td><td><span class="pill low">LOW</span></td></tr>
+<tr><td>Central Asia</td><td class="n">7</td><td><span class="pill low">LOW</span></td><td>frictional</td><td><span class="pill high">HIGH</span></td><td><span class="pill low">LOW</span></td></tr>
+<tr><td>Arctic</td><td class="n">7</td><td><span class="pill low">LOW</span></td><td>frictional</td><td><span class="pill high">HIGH</span></td><td><span class="pill low">LOW</span></td></tr>
+<tr><td>South China Sea</td><td class="n">9</td><td><span class="pill low">NONE/LOW</span></td><td>frictional</td><td><span class="pill high">HIGH</span></td><td><span class="pill mod">MODERATE</span></td></tr>
+</tbody></table>
+
+<h3>Information leakage — consistently none</h3>
+<p>Across all four scenarios, no delegation acted on another's <em>secret</em> bottom line. The most tempting cross-linked secrets stayed dark:</p>
+<ul>
+<li><strong>Arctic</strong> — a secret that Canada had trained Chinese troops in Arctic combat sits in the US, China <em>and</em> Canada files, and the US was privately told to raise it. It never surfaced publicly.</li>
+<li><strong>Central Asia</strong> — Russia's coercive playbook (threaten CSTO allies, demand Tajikistan hand over Moscow-attack planners, block a Chinese base in Tajikistan) never appeared; Russia only took a legitimate public posture.</li>
+<li><strong>Cyprus</strong> — Turkey's true goal ("a strong, independent TRNC; recognition first, not genuine unification") was never named. One borderline echo (a "constituent-state-limited intervention" framing) is standard federal-compromise language, not confirmed leakage.</li>
+</ul>
+<p>What looks like mind-reading is parties acting on <em>their own</em> instructions and inferring rivals' positions from <em>public</em> statements — realistic diplomacy, not contamination. Red lines stayed explicitly deadlocked (NSR/NWP status, Svalbard, China's Council seat; the Kyrgyz–Tajik demarcation; the SCS sovereignty and arbitration questions).</p>
+
+<h3>Stylistic homogenization — the real single-model tell</h3>
+<p>Uniformly HIGH. All delegations move in rhetorical lockstep by round — e.g. in Round 3 nearly everyone "tables concrete packages / moves from principle to terms," and shares tics ("Let me be plain," "red line held," the "To&nbsp;X:… To&nbsp;Y:…" address format). One model preserved every distinct agenda and red line while imposing <strong>one voice and one turn-by-turn rhythm</strong>. At the largest table (SCS) this choreography is pronounced enough to lift the overall verdict to MODERATE.</p>
+
+<div class="callout key"><strong>What to trust vs. discount.</strong> Trust the <em>substantive</em> record — positions, who conceded what, what stayed unresolved, and the fact that secret bottom lines did not leak. Discount the uniform cadence and the synchronized "everyone pivots at once" rhythm: those are single-author artifacts, not evidence that the delegations coordinated.</div>
+
+<div class="callout"><strong>Mitigation.</strong> To get more genuinely independent adversaries, assign <em>different</em> models to different delegations (e.g. Opus for some, Sonnet/Haiku for others) and vary persona/temperature. That breaks the shared cadence and the correlated rhythm — though, per Section 1, any delegation that must hold a hard red line at an adversarial table should stay on Opus or Sonnet.</div>
+
+<p class="small"><a href="methodology.html">← Back to methodology</a> · <a href="index.html">Diplomatic Simulator</a></p>
+</div>
+<footer><div class="wrap">Notional exercise material · analysis generated by AI agents (Claude) · Ethical Tech CoLab</div></footer>
+</body></html>

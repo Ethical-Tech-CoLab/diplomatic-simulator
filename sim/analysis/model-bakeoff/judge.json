@@ -1,0 +1,159 @@
+{
+  "scores": [
+    {
+      "scenario": "cyprus",
+      "parties": 6,
+      "model": "opus",
+      "context_fidelity": 9,
+      "accuracy": 10,
+      "conciseness": 9,
+      "context_errors": "none",
+      "note": "Precisely quotes US R2 ('residual intervention role confined to a constituent state, not a whole-island veto') and TRNC/Turkiye's 'disenfranchisement' framing; offer (UK cross-voting + Senate-VP for popular-vote President, troop/settler withdrawal to unblock EU accession/Direct Trade/Famagusta) maps exactly to CY concessions and red lines."
+    },
+    {
+      "scenario": "cyprus",
+      "parties": 6,
+      "model": "sonnet",
+      "context_fidelity": 8,
+      "accuracy": 9,
+      "conciseness": 9,
+      "context_errors": "none",
+      "note": "Correctly engages TRNC's Senate-elected rotating presidency and Turkiye's 'no abrogation of Guarantee without replacement.' Crispest of the three (116w); census-verified withdrawal traded for Direct Trade + EU restart is sound, though slightly less specific naming than opus."
+    },
+    {
+      "scenario": "cyprus",
+      "parties": 6,
+      "model": "haiku",
+      "context_fidelity": 6,
+      "accuracy": 8,
+      "conciseness": 7,
+      "context_errors": "none",
+      "note": "Red lines (541, virgin birth, popular-vote President) and concession package (Senate-VP, 10-yr residency, census) are accurate, but engagement of others is generic ('pragmatism of US and UK') with no specific quoted prior position; offer is one-sided, extracting no troop withdrawal in exchange."
+    },
+    {
+      "scenario": "centralasia",
+      "parties": 7,
+      "model": "opus",
+      "context_fidelity": 10,
+      "accuracy": 10,
+      "conciseness": 9,
+      "context_errors": "none",
+      "note": "Verbatim engagement of Russia's 'arms on favorable credit if we deepen EAEU energy integration' and Uzbek water-for-mining package; resource-sovereignty red line and no-binding-signatures stance are exact to KAZ profile; China cyber/water-tech reference matches China R2."
+    },
+    {
+      "scenario": "centralasia",
+      "parties": 7,
+      "model": "sonnet",
+      "context_fidelity": 9,
+      "accuracy": 9,
+      "conciseness": 9,
+      "context_errors": "none",
+      "note": "Declines Russia's EAEU-for-arms 'again,' reframes Uzbek 'supply water' into transit+irrigation-tech with no water export, confirms China rail-branch financing/labor. Accurate and tight; 'no water export' leans slightly on Uzbekistan's framing but stays consistent with KAZ sovereignty."
+    },
+    {
+      "scenario": "centralasia",
+      "parties": 7,
+      "model": "haiku",
+      "context_fidelity": 8,
+      "accuracy": 8,
+      "conciseness": 7,
+      "context_errors": "none",
+      "note": "Correctly cites Uzbek package, Russia's arms/EAEU offer, and China Middle Corridor/BRI terms; 'EAEU expansion outside our mandate' and water red line are on-profile. Slightly padded and 'water-for-trade arrangements' mildly muddies KAZ's water-sovereignty line; offer to 'immediately open' transit sits in tension with KAZ's no-binding posture."
+    },
+    {
+      "scenario": "arctic",
+      "parties": 7,
+      "model": "opus",
+      "context_fidelity": 10,
+      "accuracy": 10,
+      "conciseness": 9,
+      "context_errors": "none",
+      "note": "Turns Russia's Article-234 'red line' and 'non-party' jab, and Canada's own 1988 Arctic Cooperation Agreement, against them; offer (Beaufort equidistance + drop transit-notification for UNCLOS-accession signal + broker + Western framework) and China rebuttal (no near-Arctic status, no Council membership, no permanent military presence) match USA profile exactly."
+    },
+    {
+      "scenario": "arctic",
+      "parties": 7,
+      "model": "sonnet",
+      "context_fidelity": 9,
+      "accuracy": 10,
+      "conciseness": 9,
+      "context_errors": "none",
+      "note": "Correctly inverts Canada's 1988-Agreement argument, holds equidistance-vs-141st-meridian and no-notification red lines, backs Canada's Inuit-inclusion agenda (which US R2 praised). Drops China at 7 parties but everything present is accurate and crisp."
+    },
+    {
+      "scenario": "arctic",
+      "parties": 7,
+      "model": "haiku",
+      "context_fidelity": 7,
+      "accuracy": 6,
+      "conciseness": 6,
+      "context_errors": "Loosely credits Canada with 'Article 234 expertise' (Article 234 is Russia's ice-covered-waters basis; Canada only noted it 'cuts both ways') - borderline mischaracterization.",
+      "note": "Longest output (147w) and most padded. Critically, its central offer proposes a 'binding notification and transparency framework' - the US red line is NO notification regime and no limit on freedom of navigation, so the offer partly undercuts the position it is defending; also a diffuse 'to all partners' pitch rather than a sharp conditional to a named party."
+    },
+    {
+      "scenario": "scs",
+      "parties": 9,
+      "model": "opus",
+      "context_fidelity": 10,
+      "accuracy": 10,
+      "conciseness": 9,
+      "context_errors": "none",
+      "note": "Accepts Indonesia's explicit R2 bid to 'broker the China channel directly,' conditions it on ASEAN-only exclusion of US/Japan/India, reaffirms Natuna respect (answering Indonesia's EEZ red line); denies Malaysia standing to speak for ASEAN (matches China private instruction), quotes Philippines' 'waive'/2016-award language. Flawless multi-party control at 9 parties."
+    },
+    {
+      "scenario": "scs",
+      "parties": 9,
+      "model": "sonnet",
+      "context_fidelity": 9,
+      "accuracy": 9,
+      "conciseness": 9,
+      "context_errors": "none",
+      "note": "Engages Malaysia's 'bridge' offer and Philippines' ZoPFF/C-plus-2016-award package accurately; ten-dashed-line/award red line and Luconia bilateral offer are on-profile. Treats Malaysia as broker somewhat more warmly than China's 'deny Malaysia ASEAN standing' instruction, though the bilateral/anti-COC conditioning preserves the wedge intent."
+    },
+    {
+      "scenario": "scs",
+      "parties": 9,
+      "model": "haiku",
+      "context_fidelity": 7,
+      "accuracy": 6,
+      "conciseness": 7,
+      "context_errors": "No misattribution of others, but fabricates concrete terms not in the record: a '40-percent Manila revenue share over ten years' and a guarantee of 'Scarborough barrier removal.'",
+      "note": "Ten-dashed-line red line and bilateral-track insistence are on-profile, but guaranteeing Scarborough barrier removal cuts against China's 'no rollback of features' red line, and the invented 40%/10-yr figure over-commits China; engages real positions but with the weakest fidelity of the scenario."
+    }
+  ],
+  "byScenario": [
+    {
+      "scenario": "cyprus",
+      "parties": 6,
+      "bestModel": "opus",
+      "gapWidens": "slight",
+      "comment": "All three are competent and on-profile; opus and sonnet cite specific R2 positions while haiku stays generic and one-sided, but no model commits an outright error at the smallest party count."
+    },
+    {
+      "scenario": "centralasia",
+      "parties": 7,
+      "bestModel": "opus",
+      "gapWidens": "slight",
+      "comment": "Tight cluster: opus nails the verbatim Russia/Uzbek references, sonnet and haiku are both accurate with only minor water-framing slippage. Gap is modest."
+    },
+    {
+      "scenario": "arctic",
+      "parties": 7,
+      "bestModel": "opus",
+      "gapWidens": "clear",
+      "comment": "Opus and sonnet are excellent, but haiku's offer of a notification/transparency framework actively undercuts the US freedom-of-navigation/no-notification red line and it loosely attributes Article 234 to Canada - a real spread opens up where red lines are sharp and adversarial."
+    },
+    {
+      "scenario": "scs",
+      "parties": 9,
+      "bestModel": "opus",
+      "gapWidens": "clear",
+      "comment": "At the largest table opus and sonnet track the 8-9 delegations cleanly, while haiku fabricates offer terms (40%/10yr) and concedes Scarborough barrier removal against China's no-rollback red line. Widest opus-to-haiku gap of the four scenarios."
+    }
+  ],
+  "overall": {
+    "bestOverall": "opus",
+    "contextEffect": "The model gap does widen with complexity, but it tracks red-line sharpness and adversarial density more than raw party count: opus and sonnet hold accuracy and specific-attribution steady from 6-party Cyprus through 9-party SCS, whereas haiku is fine on the simpler consensus-heavy scenarios (Cyprus, Central Asia) and degrades on Arctic and SCS, where defending a hard red line requires not offering the very thing the delegation opposes. Haiku's failures are of two kinds that surface under load - padding/generic engagement, and self-concessions that breach its own red line (notification framework for the US, Scarborough rollback for China) - so the opus-to-haiku spread grows from ~2 points at Cyprus to ~4 at Arctic/SCS.",
+    "recommendation": "Opus is the clear pick and does not lose its lead as context grows; sonnet is a strong, near-equal second at meaningfully lower verbosity, while haiku is acceptable only for low-party, consensus-oriented rounds and should not be trusted to defend hard red lines in dense adversarial tables."
+  }
+}

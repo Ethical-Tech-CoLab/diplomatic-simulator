@@ -1,0 +1,14 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {"code":"CAN","name":"Canada","satisfaction":0.8,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"CHN","name":"China","satisfaction":0.45,"primaryGoal":"partial","redLineHeld":false},
+  {"code":"DNK","name":"Denmark","satisfaction":0.65,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"FIN","name":"Finland","satisfaction":0.72,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"NOR","name":"Norway","satisfaction":0.7,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"RUS","name":"Russia","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"USA","name":"United States","satisfaction":0.7,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": ["US-led Western Arctic coalition (USA, CAN, DNK, FIN, NOR) on navigation & Indigenous-consultation norms", "Russia-China Arctic partnership resisting NSR access rollback"],
+ "note": "The global-backing Indigenous drilling challenge, amplified by high mediator pressure and a cooperative mood, gave Western states enough leverage to lock in a procedural framework on navigation and environmental review while Russia and Finland successfully protected their hardest sovereignty and Arctic Council red lines."
+}

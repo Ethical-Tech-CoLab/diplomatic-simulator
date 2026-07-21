@@ -1,0 +1,13 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {"code":"CY","name":"Republic of Cyprus","satisfaction":0.62,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"TRNC","name":"Turkish Republic of Northern Cyprus","satisfaction":0.45,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"GR","name":"Greece","satisfaction":0.68,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"TR","name":"Turkey","satisfaction":0.42,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"UK","name":"United Kingdom","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"US","name":"United States","satisfaction":0.65,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": ["CY-GR-UK-US strong-central-government bloc", "TR-TRNC political-equality bloc"],
+ "note": "US linkage of Cyprus to a broader regional bargain gave Greece's momentum-driven push for a strong central government just enough traction to produce a framework on governance principles, but low mediator pressure and Turkey's unyielding political-equality red line kept the deal from becoming comprehensive."
+}

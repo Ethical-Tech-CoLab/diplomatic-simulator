@@ -1,0 +1,13 @@
+{
+ "dealType": "stalemate",
+ "parties": [
+  {"code":"CY","name":"Republic of Cyprus","satisfaction":0.25,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"TRNC","name":"Turkish Republic of Northern Cyprus","satisfaction":0.42,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"GR","name":"Greece","satisfaction":0.2,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"TR","name":"Turkey","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"UK","name":"United Kingdom","satisfaction":0.28,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"US","name":"United States","satisfaction":0.22,"primaryGoal":"failed","redLineHeld":true}
+ ],
+ "coalitions": ["CY-GR-UK-US front defending single-sovereignty federation and rejecting two-state recognition", "TR-TRNC bloc pressing confederal equal-states model"],
+ "note": "Turkiye's naval drilling escalation in a confrontational mood froze the table: TR/TRNC gained tactical leverage and momentum without conceding on political equality, while CY/GR/UK/US hardened around rejecting any TRNC recognition, so talks stalled with all red lines intact but no settlement reached."
+}

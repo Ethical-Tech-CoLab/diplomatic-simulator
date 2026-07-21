@@ -1,0 +1,14 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {"code":"CAN","name":"Canada","satisfaction":0.68,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"CHN","name":"China","satisfaction":0.62,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"DNK","name":"Denmark","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"FIN","name":"Finland","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"NOR","name":"Norway","satisfaction":0.78,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"RUS","name":"Russia","satisfaction":0.8,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"USA","name":"United States","satisfaction":0.35,"primaryGoal":"failed","redLineHeld":false}
+ ],
+ "coalitions": ["Russia-China Arctic partnership", "Nordic status-quo bloc (Norway-Finland-Denmark)", "Isolated/disengaged USA"],
+ "note": "A US pivot to Arctic isolationism removed the main counterweight to Russian NSR control and deepened Sino-Russian cooperation, letting Russia and Norway (this round's momentum party) lock in favorable status-quo terms bilaterally while low mediator pressure left a comprehensive governance framework out of reach."
+}

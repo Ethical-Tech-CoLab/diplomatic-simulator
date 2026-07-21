@@ -1,0 +1,17 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {"code":"CAN","name":"Canada","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"CHN","name":"China","satisfaction":0.25,"primaryGoal":"failed","redLineHeld":false},
+  {"code":"DNK","name":"Denmark","satisfaction":0.75,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"FIN","name":"Finland","satisfaction":0.65,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"NOR","name":"Norway","satisfaction":0.6,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"RUS","name":"Russia","satisfaction":0.45,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"USA","name":"United States","satisfaction":0.4,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": [
+  "NATO Arctic bloc (USA-CAN-DNK-NOR-FIN) hardens against Russia post-incident",
+  "Russia-China strategic partnership holds but strains under NSR security clampdown"
+ ],
+ "note": "The NATO naval incident near the NSR poisoned the confrontational session, pushing the Western allies into a tight Danish-led coalition that secured narrow side agreements (Greenland assurances, Svalbard status quo, SAR coordination) while the core NSR/CLCS sovereignty dispute between Russia and the US was shelved unresolved, and China's navigation rights were collateral damage of Russia's post-incident security tightening."
+}

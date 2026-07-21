@@ -1,0 +1,17 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {"code":"CAN","name":"Canada","satisfaction":0.78,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"CHN","name":"China","satisfaction":0.35,"primaryGoal":"failed","redLineHeld":false},
+  {"code":"DNK","name":"Denmark","satisfaction":0.62,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"FIN","name":"Finland","satisfaction":0.66,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"NOR","name":"Norway","satisfaction":0.65,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"RUS","name":"Russia","satisfaction":0.68,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"USA","name":"United States","satisfaction":0.52,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": [
+  "CAN-led Arctic environmental-response coalition (CAN, DNK, NOR, FIN)",
+  "RUS-CHN Arctic economic partnership, strained by the spill"
+ ],
+ "note": "The tanker spill handed Canada crisis-leadership momentum to entrench NWP control under an environmental-safety rationale, and Russia mirrored the logic to tighten NSR practice against China's freedom-of-navigation red line, while low mediator pressure confined the session to a narrow spill-response protocol rather than resolving underlying sovereignty disputes."
+}

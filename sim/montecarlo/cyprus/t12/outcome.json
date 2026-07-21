@@ -1,0 +1,13 @@
+{
+ "dealType": "stalemate",
+ "parties": [
+  {"code":"CY","name":"Republic of Cyprus","satisfaction":0.48,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"TRNC","name":"Turkish Republic of Northern Cyprus","satisfaction":0.35,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"GR","name":"Greece","satisfaction":0.45,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"TR","name":"Turkey","satisfaction":0.33,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"UK","name":"United Kingdom","satisfaction":0.28,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"US","name":"United States","satisfaction":0.30,"primaryGoal":"failed","redLineHeld":true}
+ ],
+ "coalitions": ["CY-GR-UK-US bloc favoring strong federal government", "TRNC-TR bloc favoring confederation/political equality"],
+ "note": "A snap election hardens TRNC's leadership toward TR's confederation demand just as CY presses its momentary momentum for a strong central government, and in the confrontational mood neither bloc will cross its red line, so medium mediator pressure can't force more than a stalemate."
+}

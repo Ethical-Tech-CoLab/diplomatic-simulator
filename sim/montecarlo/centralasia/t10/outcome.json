@@ -1,0 +1,14 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {"code":"KAZ","name":"Kazakhstan","satisfaction":0.72,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"UZB","name":"Uzbekistan","satisfaction":0.68,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"KGZ","name":"Kyrgyzstan","satisfaction":0.65,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"TJK","name":"Tajikistan","satisfaction":0.79,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"RUS","name":"Russia","satisfaction":0.42,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"CHN","name":"China","satisfaction":0.85,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"IND","name":"India","satisfaction":0.28,"primaryGoal":"failed","redLineHeld":false}
+ ],
+ "coalitions": ["C5-style Central Asian de-escalation bloc (KAZ-UZB-KGZ-TJK) around a status-quo framework", "China-Central Asia economic alignment sidelining Russia and India"],
+ "note": "China's surprise BRI package, combined with high mediator pressure and a cooperative mood, bought Central Asian buy-in for a de-escalation framework that deliberately stopped short of a comprehensive settlement, letting China expand influence and dodge its own red line while Tajikistan's momentum secured it favorable framing, Russia was economically outflanked but not formally excluded, and India's bid to box out China collapsed."
+}

@@ -1,0 +1,14 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {"code":"CAN","name":"Canada","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"CHN","name":"China","satisfaction":0.7,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"DNK","name":"Denmark","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"FIN","name":"Finland","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"NOR","name":"Norway","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"RUS","name":"Russia","satisfaction":0.75,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"USA","name":"United States","satisfaction":0.45,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": ["Russia-China informal NSR access/economic partnership", "Western Arctic bloc (Canada/USA/Denmark/Norway/Finland) blocking Chinese Council membership"],
+ "note": "The early ice-free shock spiked commercial urgency and let Russia and China strike an informal NSR access arrangement, while low mediator pressure left the deeper sovereignty and continental-shelf disputes unresolved, yielding only a partial deal on stewardship, notification, and environmental cooperation."
+}

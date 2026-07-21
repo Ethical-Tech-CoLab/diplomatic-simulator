@@ -1,0 +1,17 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {"code":"CAN","name":"Canada","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"CHN","name":"China","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"DNK","name":"Denmark","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"FIN","name":"Finland","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"NOR","name":"Norway","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"RUS","name":"Russia","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"USA","name":"United States","satisfaction":0.45,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": [
+  "Arctic Five pushback bloc (CAN, DNK, FIN, NOR, USA) vs. China's Council-membership push",
+  "Russia-China partnership strained over NSR freedom-of-navigation demands"
+ ],
+ "note": "Confrontational mood with no external shock and only medium mediator pressure caused every delegation to entrench on its red line, so talks yielded technical/framework agreements (SAR coordination, environmental protocols) while sovereignty disputes over the NSR, NWP, Svalbard EEZ, and CLCS claims stayed unresolved, with China's momentum buying it rhetorical and observer-status gains but no crack in Russia's NSR control."
+}

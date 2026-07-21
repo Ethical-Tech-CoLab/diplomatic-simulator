@@ -1,0 +1,19 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {"code":"CHN","name":"China","satisfaction":0.35,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"USA","name":"United States","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"PHL","name":"Philippines","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"VNM","name":"Vietnam","satisfaction":0.45,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"MYS","name":"Malaysia","satisfaction":0.35,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"BRN","name":"Brunei","satisfaction":0.35,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"IDN","name":"Indonesia","satisfaction":0.4,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"IND","name":"India","satisfaction":0.45,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"JPN","name":"Japan","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": [
+  "US-Philippines-Japan-Vietnam maritime solidarity bloc formed after the ramming incident",
+  "ASEAN claimant states (Vietnam, Malaysia, Brunei, Indonesia) close ranks around UNCLOS language"
+ ],
+ "note": "The Second Thomas Shoal ramming hardened every claimant's red line and pushed Japan to broker an emergency incident-deconfliction/hotline framework, but low mediator pressure meant sovereignty questions stayed unresolved and China refused any recognition concession."
+}

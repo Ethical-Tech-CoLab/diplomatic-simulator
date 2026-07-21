@@ -1,0 +1,14 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {"code":"KAZ","name":"Kazakhstan","satisfaction":0.78,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"UZB","name":"Uzbekistan","satisfaction":0.8,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"KGZ","name":"Kyrgyzstan","satisfaction":0.74,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"TJK","name":"Tajikistan","satisfaction":0.71,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"RUS","name":"Russia","satisfaction":0.34,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"CHN","name":"China","satisfaction":0.83,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"IND","name":"India","satisfaction":0.33,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": ["Central Asian Four (KAZ-UZB-KGZ-TJK) status-quo bloc", "tacit RUS-IND alignment against Chinese primacy"],
+ "note": "China's momentum in a cooperative, mediator-pressured room steered the summit into a non-binding de-escalation framework that let the Central Asian four restore the status quo on their own terms, while Russia's CSTO saber-rattling rang hollow given its distraction elsewhere and India failed to meaningfully check Chinese primacy."
+}

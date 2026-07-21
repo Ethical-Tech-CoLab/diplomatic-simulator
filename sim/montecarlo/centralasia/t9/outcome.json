@@ -1,0 +1,14 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {"code":"KAZ","name":"Kazakhstan","satisfaction":0.42,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"UZB","name":"Uzbekistan","satisfaction":0.4,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"KGZ","name":"Kyrgyzstan","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"TJK","name":"Tajikistan","satisfaction":0.3,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"RUS","name":"Russia","satisfaction":0.68,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"CHN","name":"China","satisfaction":0.62,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"IND","name":"India","satisfaction":0.35,"primaryGoal":"failed","redLineHeld":true}
+ ],
+ "coalitions": ["Russia-brokered CSTO crisis-response track (RUS+KGZ+TJK)", "KAZ-UZB core-four push to salvage a minimal framework", "China-India sidelined into bilateral fallback engagement"],
+ "note": "A deadly Kyrgyz-Tajik clash erupting mid-summit, amplified by an already confrontational mood, shattered any chance of a comprehensive settlement and forced the talks down to a narrow emergency ceasefire/hotline arrangement while Russia used the crisis to reassert itself as indispensable security guarantor."
+}

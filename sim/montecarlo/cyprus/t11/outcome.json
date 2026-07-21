@@ -1,0 +1,13 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {"code":"CY","name":"Republic of Cyprus","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"TRNC","name":"Turkish Republic of Northern Cyprus","satisfaction":0.35,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"GR","name":"Greece","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"TR","name":"Turkey","satisfaction":0.3,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"UK","name":"United Kingdom","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"US","name":"United States","satisfaction":0.65,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": ["US-UK-GR-CY status-quo bloc backing the internationally recognized RoC", "TR-TRNC bloc resisting concessions"],
+ "note": "With low mediator pressure and a neutral mood, US momentum was enough to broker a narrow UNFICYP mandate-renewal fix with modest confidence-building measures, averting a Security Council breakdown but leaving the core sovereignty/governance red lines on both sides untouched and comprehensive reunification out of reach."
+}

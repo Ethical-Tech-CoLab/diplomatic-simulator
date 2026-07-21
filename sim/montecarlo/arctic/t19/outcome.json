@@ -1,0 +1,14 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {"code":"CAN","name":"Canada","satisfaction":0.72,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"CHN","name":"China","satisfaction":0.32,"primaryGoal":"partial","redLineHeld":false},
+  {"code":"DNK","name":"Denmark","satisfaction":0.65,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"FIN","name":"Finland","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"NOR","name":"Norway","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"RUS","name":"Russia","satisfaction":0.78,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"USA","name":"United States","satisfaction":0.3,"primaryGoal":"failed","redLineHeld":true}
+ ],
+ "coalitions": ["Russia-Canada tacit alignment on internal-waters sovereignty", "Nordic bloc (Finland-Norway-Denmark) protecting Arctic Council structure"],
+ "note": "US isolationist retreat handed Russia (holding momentum) and Canada uncontested leverage to lock in sovereign control of their passages under a cooperative, mediator-brokered framework, while China's navigation red line was the main casualty."
+}

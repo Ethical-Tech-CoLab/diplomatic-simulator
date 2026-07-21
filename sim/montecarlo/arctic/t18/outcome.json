@@ -1,0 +1,14 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {"code":"CAN","name":"Canada","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"CHN","name":"China","satisfaction":0.3,"primaryGoal":"failed","redLineHeld":false},
+  {"code":"DNK","name":"Denmark","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"FIN","name":"Finland","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"NOR","name":"Norway","satisfaction":0.8,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"RUS","name":"Russia","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"USA","name":"United States","satisfaction":0.45,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": ["US-Canada-Nordic freedom-of-navigation & anti-China-membership bloc", "Russia-China resource/security partnership"],
+ "note": "The new contested-waters discovery hardened resource nationalism under an already confrontational mood, so parties locked in a narrow environmental/notification framework while Norway used its momentum to cement its EEZ position and the core NSR/NWP/Svalbard sovereignty disputes stayed frozen."
+}

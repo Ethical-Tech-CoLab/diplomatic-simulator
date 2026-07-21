@@ -1,0 +1,13 @@
+{
+ "dealType": "stalemate",
+ "parties": [
+  {"code":"CY","name":"Republic of Cyprus","satisfaction":0.52,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"TRNC","name":"Turkish Republic of Northern Cyprus","satisfaction":0.28,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"GR","name":"Greece","satisfaction":0.60,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"TR","name":"Turkey","satisfaction":0.25,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"UK","name":"United Kingdom","satisfaction":0.35,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"US","name":"United States","satisfaction":0.35,"primaryGoal":"failed","redLineHeld":true}
+ ],
+ "coalitions": ["CY-GR-UK-US bloc leveraging gas find to reject TRNC recognition", "TR-TRNC resource-exclusion pushback"],
+ "note": "With mediator pressure low, the gas discovery hardened rather than bridged positions: CY/GR used it to reinforce sole-sovereignty leverage while TR/TRNC read their exclusion as proof of marginalization and shifted toward contesting the EEZ, so momentum favored Greece rhetorically but talks stalled without a deal."
+}

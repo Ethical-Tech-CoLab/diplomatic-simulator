@@ -1,0 +1,13 @@
+{
+ "dealType": "stalemate",
+ "parties": [
+  {"code":"CY","name":"Republic of Cyprus","satisfaction":0.35,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"TRNC","name":"Turkish Republic of Northern Cyprus","satisfaction":0.45,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"GR","name":"Greece","satisfaction":0.38,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"TR","name":"Turkey","satisfaction":0.52,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"UK","name":"United Kingdom","satisfaction":0.28,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"US","name":"United States","satisfaction":0.3,"primaryGoal":"failed","redLineHeld":true}
+ ],
+ "coalitions": ["Turkey-TRNC confederation axis", "Cyprus-Greece-UK-US status-quo/anti-recognition bloc"],
+ "note": "With no external shock to force movement, only medium mediator leverage, and a confrontational mood, Turkey used its momentum to harden the TRNC's confederation demands rather than compromise, while Cyprus, Greece, the UK, and the US closed ranks on their shared red line against any recognition of the TRNC, leaving both blocs' bottom lines intact and the talks deadlocked without a deal."
+}

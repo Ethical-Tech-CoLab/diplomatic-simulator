@@ -1,0 +1,14 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {"code":"KAZ","name":"Kazakhstan","satisfaction":0.70,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"UZB","name":"Uzbekistan","satisfaction":0.68,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"KGZ","name":"Kyrgyzstan","satisfaction":0.62,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"TJK","name":"Tajikistan","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"RUS","name":"Russia","satisfaction":0.48,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"CHN","name":"China","satisfaction":0.65,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"IND","name":"India","satisfaction":0.42,"primaryGoal":"partial","redLineHeld":true}
+ ],
+ "coalitions": ["Central Asian Four (KAZ-UZB-KGZ-TJK) closing ranks to resist Russian CSTO/EAEU overreach", "China benefiting passively from the stalemate without needing to act"],
+ "note": "Russia's momentum push for CSTO/EAEU expansion, weakened by its distraction elsewhere and unbacked by real mediator pressure, drove the four Central Asian states into a defensive bloc that held the status quo and blocked any binding security architecture, leaving only a thin de-escalation framework while China's frozen-dispute goal was satisfied by default and India's influence bid gained little traction."
+}

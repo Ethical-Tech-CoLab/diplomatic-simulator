@@ -1,0 +1,18 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {"code":"KAZ","name":"Kazakhstan","satisfaction":0.62,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"UZB","name":"Uzbekistan","satisfaction":0.58,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"KGZ","name":"Kyrgyzstan","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"TJK","name":"Tajikistan","satisfaction":0.48,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"RUS","name":"Russia","satisfaction":0.35,"primaryGoal":"failed","redLineHeld":true},
+  {"code":"CHN","name":"China","satisfaction":0.80,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"IND","name":"India","satisfaction":0.28,"primaryGoal":"failed","redLineHeld":false}
+ ],
+ "coalitions": [
+  "Central Asian Four status-quo bloc (KAZ/UZB/KGZ/TJK deferring border-water disputes)",
+  "China-led counterterrorism/BRI security push",
+  "India-Tajikistan bilateral security track"
+ ],
+ "note": "The ISIS-K spillover redirected the summit onto emergency counterterrorism cooperation, letting momentum-holder China block any comprehensive border/water settlement while contesting Russia's guarantor role, so the CA-4 states quietly reverted to their status-quo BATNAs and only a narrow security-response arrangement emerged."
+}

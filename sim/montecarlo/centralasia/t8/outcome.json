@@ -1,0 +1,18 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {"code":"KAZ","name":"Kazakhstan","satisfaction":0.65,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"UZB","name":"Uzbekistan","satisfaction":0.75,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"KGZ","name":"Kyrgyzstan","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"TJK","name":"Tajikistan","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"RUS","name":"Russia","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"CHN","name":"China","satisfaction":0.7,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"IND","name":"India","satisfaction":0.35,"primaryGoal":"failed","redLineHeld":true}
+ ],
+ "coalitions": [
+  "Central Asian Four (KAZ-UZB-KGZ-TJK) informal front deferring all binding deals to bilateral/FM tracks",
+  "China-Russia tacit convergence against a comprehensive settlement",
+  "India left isolated outside the main bargaining track"
+ ],
+ "note": "Low mediator pressure let the Central Asian states' shared BATNA of a non-binding framework prevail, with the drought forcing only a face-saving emergency-coordination clause while Uzbekistan's momentum shaped the de-escalation language and China quietly benefited from the disputes staying unresolved."
+}

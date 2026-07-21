@@ -4,11 +4,11 @@ window.MC_RESULTS = {
    "key": "arctic",
    "title": "Arctic — Sovereignty & Sea-Lanes",
    "sessionId": "sess-arctic-iscne-01",
-   "nTrials": 8,
+   "nTrials": 18,
    "dealTypes": {
     "comprehensive": 0,
-    "framework": 5,
-    "partial": 3,
+    "framework": 8,
+    "partial": 10,
     "stalemate": 0,
     "breakdown": 0
    },
@@ -16,134 +16,134 @@ window.MC_RESULTS = {
     {
      "code": "CAN",
      "name": "Canada",
-     "n": 8,
+     "n": 18,
      "sat": {
-      "n": 8,
-      "mean": 0.654,
-      "sd": 0.106,
-      "min": 0.5,
-      "max": 0.78,
-      "p50": 0.66
-     },
-     "redLineHeldPct": 100,
-     "goals": {
-      "achieved": 3,
-      "partial": 5,
-      "failed": 0
-     }
-    },
-    {
-     "code": "RUS",
-     "name": "Russia",
-     "n": 8,
-     "sat": {
-      "n": 8,
-      "mean": 0.631,
-      "sd": 0.083,
+      "n": 18,
+      "mean": 0.645,
+      "sd": 0.101,
       "min": 0.5,
       "max": 0.8,
-      "p50": 0.65
+      "p50": 0.61
      },
      "redLineHeldPct": 100,
      "goals": {
-      "achieved": 1,
-      "partial": 7,
-      "failed": 0
-     }
-    },
-    {
-     "code": "FIN",
-     "name": "Finland",
-     "n": 8,
-     "sat": {
-      "n": 8,
-      "mean": 0.604,
-      "sd": 0.124,
-      "min": 0.4,
-      "max": 0.85,
-      "p50": 0.6
-     },
-     "redLineHeldPct": 100,
-     "goals": {
-      "achieved": 3,
-      "partial": 5,
+      "achieved": 5,
+      "partial": 13,
       "failed": 0
      }
     },
     {
      "code": "NOR",
      "name": "Norway",
-     "n": 8,
+     "n": 18,
      "sat": {
-      "n": 8,
-      "mean": 0.589,
-      "sd": 0.099,
+      "n": 18,
+      "mean": 0.622,
+      "sd": 0.095,
       "min": 0.45,
       "max": 0.8,
-      "p50": 0.58
+      "p50": 0.6
      },
      "redLineHeldPct": 100,
      "goals": {
-      "achieved": 1,
-      "partial": 7,
+      "achieved": 7,
+      "partial": 11,
+      "failed": 0
+     }
+    },
+    {
+     "code": "RUS",
+     "name": "Russia",
+     "n": 18,
+     "sat": {
+      "n": 18,
+      "mean": 0.621,
+      "sd": 0.11,
+      "min": 0.42,
+      "max": 0.8,
+      "p50": 0.625
+     },
+     "redLineHeldPct": 100,
+     "goals": {
+      "achieved": 4,
+      "partial": 14,
+      "failed": 0
+     }
+    },
+    {
+     "code": "FIN",
+     "name": "Finland",
+     "n": 18,
+     "sat": {
+      "n": 18,
+      "mean": 0.617,
+      "sd": 0.098,
+      "min": 0.4,
+      "max": 0.85,
+      "p50": 0.6
+     },
+     "redLineHeldPct": 100,
+     "goals": {
+      "achieved": 5,
+      "partial": 13,
       "failed": 0
      }
     },
     {
      "code": "DNK",
      "name": "Denmark",
-     "n": 8,
+     "n": 18,
      "sat": {
-      "n": 8,
-      "mean": 0.571,
-      "sd": 0.084,
+      "n": 18,
+      "mean": 0.594,
+      "sd": 0.094,
       "min": 0.45,
-      "max": 0.75,
+      "max": 0.8,
       "p50": 0.55
      },
      "redLineHeldPct": 100,
      "goals": {
-      "achieved": 0,
-      "partial": 8,
+      "achieved": 1,
+      "partial": 17,
       "failed": 0
      }
     },
     {
      "code": "USA",
      "name": "United States",
-     "n": 8,
+     "n": 18,
      "sat": {
-      "n": 8,
-      "mean": 0.466,
-      "sd": 0.098,
+      "n": 18,
+      "mean": 0.465,
+      "sd": 0.102,
       "min": 0.3,
-      "max": 0.68,
+      "max": 0.7,
       "p50": 0.45
      },
-     "redLineHeldPct": 88,
+     "redLineHeldPct": 83,
      "goals": {
       "achieved": 0,
-      "partial": 7,
-      "failed": 1
+      "partial": 15,
+      "failed": 3
      }
     },
     {
      "code": "CHN",
      "name": "China",
-     "n": 8,
+     "n": 18,
      "sat": {
-      "n": 8,
-      "mean": 0.431,
-      "sd": 0.13,
+      "n": 18,
+      "mean": 0.443,
+      "sd": 0.138,
       "min": 0.25,
-      "max": 0.65,
-      "p50": 0.4
+      "max": 0.7,
+      "p50": 0.425
      },
-     "redLineHeldPct": 38,
+     "redLineHeldPct": 39,
      "goals": {
       "achieved": 0,
-      "partial": 6,
-      "failed": 2
+      "partial": 13,
+      "failed": 5
      }
     }
    ],
@@ -245,6 +245,86 @@ window.MC_RESULTS = {
      "mood": "neutral",
      "mediatorPressure": "medium",
      "note": "With no shock and only medium mediator pressure, the parties settled for a thin governance framework on environment/search-and-rescue while shelving the incompatible NSR/NWP sovereignty claims, letting Canada's momentum win narrative ground without forcing Russia or the US off their red lines."
+    },
+    {
+     "t": 8,
+     "dealType": "partial",
+     "shock": "A record ice-free Arctic summer opens routes months early",
+     "mood": "neutral",
+     "mediatorPressure": "low",
+     "note": "The early ice-free shock spiked commercial urgency and let Russia and China strike an informal NSR access arrangement, while low mediator pressure left the deeper sovereignty and continental-shelf disputes unresolved, yielding only a partial deal on stewardship, notification, and environmental cooperation."
+    },
+    {
+     "t": 9,
+     "dealType": "partial",
+     "shock": "A Russian naval incident with a NATO vessel near the NSR",
+     "mood": "confrontational",
+     "mediatorPressure": "medium",
+     "note": "The NATO naval incident near the NSR poisoned the confrontational session, pushing the Western allies into a tight Danish-led coalition that secured narrow side agreements (Greenland assurances, Svalbard status quo, SAR coordination) while the core NSR/CLCS sovereignty dispute between Russia and the US was shelved unresolved, and China's navigation rights were collateral damage of Russia's post-incident security tightening."
+    },
+    {
+     "t": 11,
+     "dealType": "partial",
+     "shock": "A US administration shift toward Arctic isolationism",
+     "mood": "neutral",
+     "mediatorPressure": "low",
+     "note": "A US pivot to Arctic isolationism removed the main counterweight to Russian NSR control and deepened Sino-Russian cooperation, letting Russia and Norway (this round's momentum party) lock in favorable status-quo terms bilaterally while low mediator pressure left a comprehensive governance framework out of reach."
+    },
+    {
+     "t": 13,
+     "dealType": "framework",
+     "shock": "An Indigenous-led legal challenge to Arctic drilling gains global backing",
+     "mood": "cooperative",
+     "mediatorPressure": "high",
+     "note": "The global-backing Indigenous drilling challenge, amplified by high mediator pressure and a cooperative mood, gave Western states enough leverage to lock in a procedural framework on navigation and environmental review while Russia and Finland successfully protected their hardest sovereignty and Arctic Council red lines."
+    },
+    {
+     "t": 14,
+     "dealType": "partial",
+     "shock": "A tanker oil spill triggers an Arctic environmental emergency",
+     "mood": "neutral",
+     "mediatorPressure": "low",
+     "note": "The tanker spill handed Canada crisis-leadership momentum to entrench NWP control under an environmental-safety rationale, and Russia mirrored the logic to tighten NSR practice against China's freedom-of-navigation red line, while low mediator pressure confined the session to a narrow spill-response protocol rather than resolving underlying sovereignty disputes."
+    },
+    {
+     "t": 15,
+     "dealType": "partial",
+     "shock": "No major external shock — only standing structural pressures",
+     "mood": "confrontational",
+     "mediatorPressure": "medium",
+     "note": "Confrontational mood with no external shock and only medium mediator pressure caused every delegation to entrench on its red line, so talks yielded technical/framework agreements (SAR coordination, environmental protocols) while sovereignty disputes over the NSR, NWP, Svalbard EEZ, and CLCS claims stayed unresolved, with China's momentum buying it rhetorical and observer-status gains but no crack in Russia's NSR control."
+    },
+    {
+     "t": 16,
+     "dealType": "framework",
+     "shock": "A record ice-free Arctic summer opens routes months early",
+     "mood": "cooperative",
+     "mediatorPressure": "high",
+     "note": "The ice-free shock forced urgency and, combined with high mediator pressure and a cooperative mood, pushed parties to a search-and-rescue/environmental/notification framework brokered around Danish continental-shelf proposals, while the hardest sovereignty fights over the NWP and NSR were deferred rather than resolved."
+    },
+    {
+     "t": 17,
+     "dealType": "partial",
+     "shock": "A Russian naval incident with a NATO vessel near the NSR",
+     "mood": "neutral",
+     "mediatorPressure": "low",
+     "note": "The NATO-Russia naval incident hardened every delegation's sovereignty red lines, so with low mediator pressure the talks yielded only a thin cooperation framework (search-and-rescue, environmental protocols) while Finland used its momentum to block Chinese Arctic Council membership and rally the NATO bloc, leaving NSR/NWP/EEZ sovereignty questions unresolved."
+    },
+    {
+     "t": 18,
+     "dealType": "partial",
+     "shock": "A major new oil/gas discovery in contested Arctic waters",
+     "mood": "confrontational",
+     "mediatorPressure": "medium",
+     "note": "The new contested-waters discovery hardened resource nationalism under an already confrontational mood, so parties locked in a narrow environmental/notification framework while Norway used its momentum to cement its EEZ position and the core NSR/NWP/Svalbard sovereignty disputes stayed frozen."
+    },
+    {
+     "t": 19,
+     "dealType": "framework",
+     "shock": "A US administration shift toward Arctic isolationism",
+     "mood": "cooperative",
+     "mediatorPressure": "high",
+     "note": "US isolationist retreat handed Russia (holding momentum) and Canada uncontested leverage to lock in sovereign control of their passages under a cooperative, mediator-brokered framework, while China's navigation red line was the main casualty."
     }
    ]
   },
@@ -252,11 +332,11 @@ window.MC_RESULTS = {
    "key": "centralasia",
    "title": "Central Asia — Fergana Valley",
    "sessionId": "sess-centralasia-iscne-01",
-   "nTrials": 8,
+   "nTrials": 20,
    "dealTypes": {
     "comprehensive": 0,
-    "framework": 6,
-    "partial": 2,
+    "framework": 14,
+    "partial": 6,
     "stalemate": 0,
     "breakdown": 0
    },
@@ -264,134 +344,134 @@ window.MC_RESULTS = {
     {
      "code": "KAZ",
      "name": "Kazakhstan",
-     "n": 8,
+     "n": 20,
      "sat": {
-      "n": 8,
-      "mean": 0.696,
-      "sd": 0.077,
-      "min": 0.6,
-      "max": 0.8,
-      "p50": 0.735
+      "n": 20,
+      "mean": 0.682,
+      "sd": 0.099,
+      "min": 0.42,
+      "max": 0.85,
+      "p50": 0.72
      },
      "redLineHeldPct": 100,
      "goals": {
-      "achieved": 4,
-      "partial": 4,
+      "achieved": 12,
+      "partial": 8,
       "failed": 0
      }
     },
     {
      "code": "UZB",
      "name": "Uzbekistan",
-     "n": 8,
+     "n": 20,
      "sat": {
-      "n": 8,
-      "mean": 0.684,
-      "sd": 0.062,
-      "min": 0.55,
-      "max": 0.75,
+      "n": 20,
+      "mean": 0.681,
+      "sd": 0.095,
+      "min": 0.4,
+      "max": 0.8,
       "p50": 0.7
      },
      "redLineHeldPct": 100,
      "goals": {
-      "achieved": 4,
-      "partial": 4,
+      "achieved": 12,
+      "partial": 8,
       "failed": 0
      }
     },
     {
      "code": "CHN",
      "name": "China",
-     "n": 8,
+     "n": 20,
      "sat": {
-      "n": 8,
-      "mean": 0.644,
-      "sd": 0.157,
+      "n": 20,
+      "mean": 0.66,
+      "sd": 0.154,
       "min": 0.35,
       "max": 0.85,
-      "p50": 0.65
+      "p50": 0.7
      },
      "redLineHeldPct": 100,
      "goals": {
-      "achieved": 4,
-      "partial": 3,
+      "achieved": 11,
+      "partial": 8,
       "failed": 1
      }
     },
     {
      "code": "KGZ",
      "name": "Kyrgyzstan",
-     "n": 8,
+     "n": 20,
      "sat": {
-      "n": 8,
-      "mean": 0.588,
-      "sd": 0.154,
+      "n": 20,
+      "mean": 0.603,
+      "sd": 0.135,
       "min": 0.25,
-      "max": 0.82,
+      "max": 0.85,
       "p50": 0.6
      },
      "redLineHeldPct": 100,
      "goals": {
-      "achieved": 3,
-      "partial": 4,
-      "failed": 1
+      "achieved": 6,
+      "partial": 12,
+      "failed": 2
      }
     },
     {
      "code": "TJK",
      "name": "Tajikistan",
-     "n": 8,
+     "n": 20,
      "sat": {
-      "n": 8,
-      "mean": 0.569,
-      "sd": 0.158,
+      "n": 20,
+      "mean": 0.578,
+      "sd": 0.141,
       "min": 0.3,
       "max": 0.8,
       "p50": 0.55
      },
      "redLineHeldPct": 100,
      "goals": {
-      "achieved": 2,
-      "partial": 5,
-      "failed": 1
+      "achieved": 4,
+      "partial": 14,
+      "failed": 2
      }
     },
     {
      "code": "RUS",
      "name": "Russia",
-     "n": 8,
+     "n": 20,
      "sat": {
-      "n": 8,
-      "mean": 0.449,
-      "sd": 0.148,
+      "n": 20,
+      "mean": 0.477,
+      "sd": 0.131,
       "min": 0.32,
       "max": 0.8,
-      "p50": 0.4
+      "p50": 0.42
      },
      "redLineHeldPct": 100,
      "goals": {
       "achieved": 0,
-      "partial": 4,
-      "failed": 4
+      "partial": 13,
+      "failed": 7
      }
     },
     {
      "code": "IND",
      "name": "India",
-     "n": 8,
+     "n": 20,
      "sat": {
-      "n": 8,
-      "mean": 0.444,
-      "sd": 0.183,
+      "n": 20,
+      "mean": 0.432,
+      "sd": 0.171,
       "min": 0.25,
       "max": 0.85,
-      "p50": 0.4
+      "p50": 0.35
      },
-     "redLineHeldPct": 88,
+     "redLineHeldPct": 85,
      "goals": {
-      "achieved": 1,
-      "partial": 3,
-      "failed": 4
+      "achieved": 3,
+      "partial": 6,
+      "failed": 11
      }
     }
    ],
@@ -493,6 +573,102 @@ window.MC_RESULTS = {
      "mood": "neutral",
      "mediatorPressure": "medium",
      "note": "With no shock, a neutral mood, and only medium mediator pressure, KAZ's momentum steered the four Central Asian delegations toward the non-binding framework their BATNAs already favored, leaving China's minimal red line untouched and Russia unable to lock in institutional expansion."
+    },
+    {
+     "t": 8,
+     "dealType": "framework",
+     "shock": "A severe drought collapses the Syr Darya harvest",
+     "mood": "neutral",
+     "mediatorPressure": "low",
+     "note": "Low mediator pressure let the Central Asian states' shared BATNA of a non-binding framework prevail, with the drought forcing only a face-saving emergency-coordination clause while Uzbekistan's momentum shaped the de-escalation language and China quietly benefited from the disputes staying unresolved."
+    },
+    {
+     "t": 9,
+     "dealType": "partial",
+     "shock": "A deadly Kyrgyz-Tajik border clash erupts during the talks",
+     "mood": "confrontational",
+     "mediatorPressure": "medium",
+     "note": "A deadly Kyrgyz-Tajik clash erupting mid-summit, amplified by an already confrontational mood, shattered any chance of a comprehensive settlement and forced the talks down to a narrow emergency ceasefire/hotline arrangement while Russia used the crisis to reassert itself as indispensable security guarantor."
+    },
+    {
+     "t": 10,
+     "dealType": "framework",
+     "shock": "China tables a massive new BRI investment package",
+     "mood": "cooperative",
+     "mediatorPressure": "high",
+     "note": "China's surprise BRI package, combined with high mediator pressure and a cooperative mood, bought Central Asian buy-in for a de-escalation framework that deliberately stopped short of a comprehensive settlement, letting China expand influence and dodge its own red line while Tajikistan's momentum secured it favorable framing, Russia was economically outflanked but not formally excluded, and India's bid to box out China collapsed."
+    },
+    {
+     "t": 11,
+     "dealType": "partial",
+     "shock": "Russia escalates CSTO pressure while distracted elsewhere",
+     "mood": "neutral",
+     "mediatorPressure": "low",
+     "note": "Russia's momentum push for CSTO/EAEU expansion, weakened by its distraction elsewhere and unbacked by real mediator pressure, drove the four Central Asian states into a defensive bloc that held the status quo and blocked any binding security architecture, leaving only a thin de-escalation framework while China's frozen-dispute goal was satisfied by default and India's influence bid gained little traction."
+    },
+    {
+     "t": 12,
+     "dealType": "partial",
+     "shock": "An ISIS-K attack spills over from Afghanistan",
+     "mood": "confrontational",
+     "mediatorPressure": "medium",
+     "note": "The ISIS-K spillover redirected the summit onto emergency counterterrorism cooperation, letting momentum-holder China block any comprehensive border/water settlement while contesting Russia's guarantor role, so the CA-4 states quietly reverted to their status-quo BATNAs and only a narrow security-response arrangement emerged."
+    },
+    {
+     "t": 13,
+     "dealType": "framework",
+     "shock": "A dam-safety emergency threatens downstream states",
+     "mood": "cooperative",
+     "mediatorPressure": "high",
+     "note": "The dam-safety emergency gave all four Central Asian states a shared, apolitical crisis to cooperate on under high mediator pressure and a cooperative mood, yielding a water/de-escalation framework that deferred hard border and sovereignty questions, while India's momentum let it edge into the process and blunt China's bid for unchecked dominance."
+    },
+    {
+     "t": 14,
+     "dealType": "framework",
+     "shock": "India deepens its security pact with Tajikistan",
+     "mood": "neutral",
+     "mediatorPressure": "low",
+     "note": "With low mediator pressure and every regional delegation's BATNA favoring a non-binding outcome anyway, Kazakhstan's momentum steers the summit toward its preferred de-escalation framework, while India's surprise security pact with Tajikistan boosts both of their positions and leaves China and Russia satisfied only that no comprehensive settlement emerged."
+    },
+    {
+     "t": 15,
+     "dealType": "framework",
+     "shock": "No major external shock — only standing structural pressures",
+     "mood": "confrontational",
+     "mediatorPressure": "medium",
+     "note": "Confrontational mood with no external shock let Uzbekistan's momentum steer the four regional states into a thin, self-directed de-escalation framework that shut out Russia's security architecture and India's rebalancing bid while leaving China's preferred frozen-dispute status quo intact."
+    },
+    {
+     "t": 16,
+     "dealType": "framework",
+     "shock": "A severe drought collapses the Syr Darya harvest",
+     "mood": "cooperative",
+     "mediatorPressure": "high",
+     "note": "The drought shock made emergency water-sharing existential while cooperative mood and heavy mediator pressure let the four Central Asian states close a framework deal on their own terms, leaving Russia, China, and India confined to secondary guarantor/observer roles."
+    },
+    {
+     "t": 17,
+     "dealType": "partial",
+     "shock": "A deadly Kyrgyz-Tajik border clash erupts during the talks",
+     "mood": "neutral",
+     "mediatorPressure": "low",
+     "note": "A live Kyrgyz-Tajik border clash erupting mid-summit, combined with weak mediator pressure, wrecked any chance of a comprehensive settlement and pushed the group toward only a thin de-escalation statement while KGZ absorbed the reputational damage and CHN/RUS quietly gained ground."
+    },
+    {
+     "t": 18,
+     "dealType": "framework",
+     "shock": "China tables a massive new BRI investment package",
+     "mood": "confrontational",
+     "mediatorPressure": "medium",
+     "note": "China's freshly tabled BRI package under a confrontational mood let Beijing entrench bilateral leverage and keep disputes frozen, while Russia's momentum only produced a thin de-escalation framework once the Central Asian four diluted it to protect their sovereignty red lines."
+    },
+    {
+     "t": 19,
+     "dealType": "framework",
+     "shock": "Russia escalates CSTO pressure while distracted elsewhere",
+     "mood": "cooperative",
+     "mediatorPressure": "high",
+     "note": "China's momentum in a cooperative, mediator-pressured room steered the summit into a non-binding de-escalation framework that let the Central Asian four restore the status quo on their own terms, while Russia's CSTO saber-rattling rang hollow given its distraction elsewhere and India failed to meaningfully check Chinese primacy."
     }
    ]
   },
@@ -500,134 +676,134 @@ window.MC_RESULTS = {
    "key": "cyprus",
    "title": "Cyprus — Reunification",
    "sessionId": "sess-cyprus-iscne-01",
-   "nTrials": 8,
+   "nTrials": 19,
    "dealTypes": {
     "comprehensive": 0,
-    "framework": 3,
-    "partial": 2,
-    "stalemate": 1,
+    "framework": 8,
+    "partial": 3,
+    "stalemate": 6,
     "breakdown": 2
    },
    "parties": [
     {
-     "code": "TR",
-     "name": "Turkey",
-     "n": 8,
-     "sat": {
-      "n": 8,
-      "mean": 0.49,
-      "sd": 0.126,
-      "min": 0.22,
-      "max": 0.65,
-      "p50": 0.525
-     },
-     "redLineHeldPct": 100,
-     "goals": {
-      "achieved": 0,
-      "partial": 6,
-      "failed": 2
-     }
-    },
-    {
      "code": "CY",
      "name": "Republic of Cyprus",
-     "n": 8,
+     "n": 19,
      "sat": {
-      "n": 8,
-      "mean": 0.481,
-      "sd": 0.168,
+      "n": 19,
+      "mean": 0.499,
+      "sd": 0.159,
       "min": 0.15,
-      "max": 0.75,
-      "p50": 0.5
+      "max": 0.76,
+      "p50": 0.52
      },
      "redLineHeldPct": 100,
      "goals": {
-      "achieved": 0,
-      "partial": 5,
-      "failed": 3
-     }
-    },
-    {
-     "code": "TRNC",
-     "name": "Turkish Republic of Northern Cyprus",
-     "n": 8,
-     "sat": {
-      "n": 8,
-      "mean": 0.479,
-      "sd": 0.11,
-      "min": 0.28,
-      "max": 0.6,
-      "p50": 0.55
-     },
-     "redLineHeldPct": 100,
-     "goals": {
-      "achieved": 0,
-      "partial": 6,
-      "failed": 2
+      "achieved": 1,
+      "partial": 11,
+      "failed": 7
      }
     },
     {
      "code": "UK",
      "name": "United Kingdom",
-     "n": 8,
+     "n": 19,
      "sat": {
-      "n": 8,
-      "mean": 0.465,
-      "sd": 0.151,
+      "n": 19,
+      "mean": 0.493,
+      "sd": 0.191,
       "min": 0.25,
-      "max": 0.65,
-      "p50": 0.475
+      "max": 0.86,
+      "p50": 0.5
      },
      "redLineHeldPct": 100,
      "goals": {
-      "achieved": 0,
-      "partial": 5,
-      "failed": 3
+      "achieved": 2,
+      "partial": 9,
+      "failed": 8
      }
     },
     {
      "code": "GR",
      "name": "Greece",
-     "n": 8,
+     "n": 19,
      "sat": {
-      "n": 8,
-      "mean": 0.459,
-      "sd": 0.146,
+      "n": 19,
+      "mean": 0.481,
+      "sd": 0.154,
       "min": 0.15,
-      "max": 0.7,
+      "max": 0.72,
       "p50": 0.5
      },
      "redLineHeldPct": 100,
      "goals": {
-      "achieved": 0,
-      "partial": 5,
-      "failed": 3
+      "achieved": 2,
+      "partial": 11,
+      "failed": 6
      }
     },
     {
      "code": "US",
      "name": "United States",
-     "n": 8,
+     "n": 19,
      "sat": {
-      "n": 8,
-      "mean": 0.439,
-      "sd": 0.14,
+      "n": 19,
+      "mean": 0.481,
+      "sd": 0.18,
+      "min": 0.22,
+      "max": 0.8,
+      "p50": 0.45
+     },
+     "redLineHeldPct": 100,
+     "goals": {
+      "achieved": 2,
+      "partial": 9,
+      "failed": 8
+     }
+    },
+    {
+     "code": "TRNC",
+     "name": "Turkish Republic of Northern Cyprus",
+     "n": 19,
+     "sat": {
+      "n": 19,
+      "mean": 0.472,
+      "sd": 0.113,
       "min": 0.28,
-      "max": 0.7,
-      "p50": 0.425
+      "max": 0.66,
+      "p50": 0.45
      },
      "redLineHeldPct": 100,
      "goals": {
       "achieved": 0,
-      "partial": 5,
-      "failed": 3
+      "partial": 12,
+      "failed": 7
+     }
+    },
+    {
+     "code": "TR",
+     "name": "Turkey",
+     "n": 19,
+     "sat": {
+      "n": 19,
+      "mean": 0.467,
+      "sd": 0.12,
+      "min": 0.22,
+      "max": 0.65,
+      "p50": 0.5
+     },
+     "redLineHeldPct": 100,
+     "goals": {
+      "achieved": 0,
+      "partial": 13,
+      "failed": 6
      }
     }
    ],
    "coalitions": [
     {
      "label": "CY-GR-UK-US single-sovereignty bloc",
-     "n": 2
+     "n": 3
     },
     {
      "label": "TRNC-TR political-equality/two-state bloc",
@@ -722,6 +898,94 @@ window.MC_RESULTS = {
      "mood": "neutral",
      "mediatorPressure": "medium",
      "note": "Absent any shock and with only medium mediator pressure, the sides logged incremental confidence-building gains but the core single-sovereignty-vs-two-state gap stayed unbridged, and TRNC's momentum let it push the confederation framing further onto the table without breaking Greek Cypriot or US/UK red lines."
+    },
+    {
+     "t": 8,
+     "dealType": "stalemate",
+     "shock": "A major new gas discovery in the contested Cypriot EEZ",
+     "mood": "neutral",
+     "mediatorPressure": "low",
+     "note": "With mediator pressure low, the gas discovery hardened rather than bridged positions: CY/GR used it to reinforce sole-sovereignty leverage while TR/TRNC read their exclusion as proof of marginalization and shifted toward contesting the EEZ, so momentum favored Greece rhetorically but talks stalled without a deal."
+    },
+    {
+     "t": 9,
+     "dealType": "stalemate",
+     "shock": "Turkiye escalates naval drilling near Cyprus",
+     "mood": "confrontational",
+     "mediatorPressure": "medium",
+     "note": "Turkiye's naval drilling escalation in a confrontational mood froze the table: TR/TRNC gained tactical leverage and momentum without conceding on political equality, while CY/GR/UK/US hardened around rejecting any TRNC recognition, so talks stalled with all red lines intact but no settlement reached."
+    },
+    {
+     "t": 10,
+     "dealType": "framework",
+     "shock": "An EU accession/sanctions ultimatum lands mid-talks",
+     "mood": "cooperative",
+     "mediatorPressure": "high",
+     "note": "The EU accession/sanctions ultimatum combined with high mediator pressure and a cooperative mood let UK's bridging momentum lock in a single-sovereignty federation framework with entrenched political-equality safeguards for Turkish Cypriots, but TRNC/Turkey's confederation ambitions and the harder implementation details (territory, property, guarantees) were deferred rather than resolved."
+    },
+    {
+     "t": 11,
+     "dealType": "partial",
+     "shock": "A UNFICYP mandate-renewal crisis hits the Security Council",
+     "mood": "neutral",
+     "mediatorPressure": "low",
+     "note": "With low mediator pressure and a neutral mood, US momentum was enough to broker a narrow UNFICYP mandate-renewal fix with modest confidence-building measures, averting a Security Council breakdown but leaving the core sovereignty/governance red lines on both sides untouched and comprehensive reunification out of reach."
+    },
+    {
+     "t": 12,
+     "dealType": "stalemate",
+     "shock": "A snap election shifts the RoC or TRNC leadership",
+     "mood": "confrontational",
+     "mediatorPressure": "medium",
+     "note": "A snap election hardens TRNC's leadership toward TR's confederation demand just as CY presses its momentary momentum for a strong central government, and in the confrontational mood neither bloc will cross its red line, so medium mediator pressure can't force more than a stalemate."
+    },
+    {
+     "t": 13,
+     "dealType": "framework",
+     "shock": "A provocative move to reopen Varosha",
+     "mood": "cooperative",
+     "mediatorPressure": "high",
+     "note": "TRNC's unilateral Varosha reopening handed it bargaining leverage that, under high mediator pressure and a cooperative mood, was converted into a framework agreement enshrining stronger political-equality language rather than a full comprehensive settlement."
+    },
+    {
+     "t": 14,
+     "dealType": "framework",
+     "shock": "US pressure ties Cyprus into a broader regional bargain",
+     "mood": "neutral",
+     "mediatorPressure": "low",
+     "note": "US linkage of Cyprus to a broader regional bargain gave Greece's momentum-driven push for a strong central government just enough traction to produce a framework on governance principles, but low mediator pressure and Turkey's unyielding political-equality red line kept the deal from becoming comprehensive."
+    },
+    {
+     "t": 15,
+     "dealType": "stalemate",
+     "shock": "No major external shock — only standing structural pressures",
+     "mood": "confrontational",
+     "mediatorPressure": "medium",
+     "note": "With no external shock to force movement, only medium mediator leverage, and a confrontational mood, Turkey used its momentum to harden the TRNC's confederation demands rather than compromise, while Cyprus, Greece, the UK, and the US closed ranks on their shared red line against any recognition of the TRNC, leaving both blocs' bottom lines intact and the talks deadlocked without a deal."
+    },
+    {
+     "t": 16,
+     "dealType": "framework",
+     "shock": "A major new gas discovery in the contested Cypriot EEZ",
+     "mood": "cooperative",
+     "mediatorPressure": "high",
+     "note": "The new EEZ gas find gave all sides a shared economic prize, and UK-driven momentum plus high mediator pressure in a cooperative climate converted that into a framework accord on single sovereignty and revenue-sharing, but hard implementation details (security guarantees, territorial map) were deferred rather than resolved."
+    },
+    {
+     "t": 17,
+     "dealType": "stalemate",
+     "shock": "Turkiye escalates naval drilling near Cyprus",
+     "mood": "neutral",
+     "mediatorPressure": "low",
+     "note": "Turkiye's naval drilling escalation poisoned trust just as talks convened, and with mediator pressure low even a US-led push for momentum couldn't overcome it, so all sides retreated to their red lines and the round ended in stalemate rather than collapse or progress."
+    },
+    {
+     "t": 19,
+     "dealType": "framework",
+     "shock": "A UNFICYP mandate-renewal crisis hits the Security Council",
+     "mood": "cooperative",
+     "mediatorPressure": "high",
+     "note": "The UNFICYP mandate crisis at the Security Council supplied shared urgency that, combined with high mediator pressure and a cooperative mood, let TRNC ride its momentum into a framework agreement granting stronger political-equality and decentralization language, while CY/GR/UK/US held their no-recognition, single-sovereignty red line, leaving the core confederation-vs-federation question deferred rather than resolved."
     }
    ]
   },
@@ -729,11 +993,11 @@ window.MC_RESULTS = {
    "key": "scs",
    "title": "South China Sea",
    "sessionId": "sess-scs-iscne-01",
-   "nTrials": 8,
+   "nTrials": 9,
    "dealTypes": {
     "comprehensive": 0,
     "framework": 4,
-    "partial": 3,
+    "partial": 4,
     "stalemate": 1,
     "breakdown": 0
    },
@@ -741,87 +1005,49 @@ window.MC_RESULTS = {
     {
      "code": "MYS",
      "name": "Malaysia",
-     "n": 8,
+     "n": 9,
      "sat": {
-      "n": 8,
-      "mean": 0.551,
-      "sd": 0.136,
+      "n": 9,
+      "mean": 0.529,
+      "sd": 0.143,
       "min": 0.35,
       "max": 0.8,
-      "p50": 0.575
+      "p50": 0.55
      },
      "redLineHeldPct": 100,
      "goals": {
       "achieved": 1,
-      "partial": 6,
+      "partial": 7,
       "failed": 1
      }
     },
     {
      "code": "CHN",
      "name": "China",
-     "n": 8,
+     "n": 9,
      "sat": {
-      "n": 8,
-      "mean": 0.537,
-      "sd": 0.129,
+      "n": 9,
+      "mean": 0.517,
+      "sd": 0.135,
       "min": 0.28,
       "max": 0.68,
-      "p50": 0.585
+      "p50": 0.55
      },
      "redLineHeldPct": 100,
      "goals": {
       "achieved": 0,
       "partial": 4,
-      "failed": 4
-     }
-    },
-    {
-     "code": "IDN",
-     "name": "Indonesia",
-     "n": 8,
-     "sat": {
-      "n": 8,
-      "mean": 0.522,
-      "sd": 0.095,
-      "min": 0.41,
-      "max": 0.7,
-      "p50": 0.49
-     },
-     "redLineHeldPct": 100,
-     "goals": {
-      "achieved": 0,
-      "partial": 7,
-      "failed": 1
-     }
-    },
-    {
-     "code": "BRN",
-     "name": "Brunei",
-     "n": 8,
-     "sat": {
-      "n": 8,
-      "mean": 0.517,
-      "sd": 0.113,
-      "min": 0.32,
-      "max": 0.65,
-      "p50": 0.565
-     },
-     "redLineHeldPct": 100,
-     "goals": {
-      "achieved": 0,
-      "partial": 7,
-      "failed": 1
+      "failed": 5
      }
     },
     {
      "code": "USA",
      "name": "United States",
-     "n": 8,
+     "n": 9,
      "sat": {
-      "n": 8,
-      "mean": 0.506,
-      "sd": 0.075,
+      "n": 9,
+      "mean": 0.511,
+      "sd": 0.072,
       "min": 0.35,
       "max": 0.58,
       "p50": 0.55
@@ -829,83 +1055,121 @@ window.MC_RESULTS = {
      "redLineHeldPct": 100,
      "goals": {
       "achieved": 0,
-      "partial": 8,
+      "partial": 9,
       "failed": 0
+     }
+    },
+    {
+     "code": "IDN",
+     "name": "Indonesia",
+     "n": 9,
+     "sat": {
+      "n": 9,
+      "mean": 0.509,
+      "sd": 0.097,
+      "min": 0.4,
+      "max": 0.7,
+      "p50": 0.48
+     },
+     "redLineHeldPct": 100,
+     "goals": {
+      "achieved": 0,
+      "partial": 8,
+      "failed": 1
+     }
+    },
+    {
+     "code": "BRN",
+     "name": "Brunei",
+     "n": 9,
+     "sat": {
+      "n": 9,
+      "mean": 0.499,
+      "sd": 0.119,
+      "min": 0.32,
+      "max": 0.65,
+      "p50": 0.55
+     },
+     "redLineHeldPct": 100,
+     "goals": {
+      "achieved": 0,
+      "partial": 8,
+      "failed": 1
      }
     },
     {
      "code": "IND",
      "name": "India",
-     "n": 8,
+     "n": 9,
      "sat": {
-      "n": 8,
-      "mean": 0.491,
-      "sd": 0.081,
+      "n": 9,
+      "mean": 0.487,
+      "sd": 0.077,
       "min": 0.4,
       "max": 0.65,
-      "p50": 0.475
+      "p50": 0.45
      },
      "redLineHeldPct": 100,
      "goals": {
       "achieved": 0,
-      "partial": 7,
+      "partial": 8,
+      "failed": 1
+     }
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "n": 9,
+     "sat": {
+      "n": 9,
+      "mean": 0.473,
+      "sd": 0.064,
+      "min": 0.38,
+      "max": 0.55,
+      "p50": 0.47
+     },
+     "redLineHeldPct": 100,
+     "goals": {
+      "achieved": 0,
+      "partial": 8,
       "failed": 1
      }
     },
     {
      "code": "VNM",
      "name": "Vietnam",
-     "n": 8,
+     "n": 9,
      "sat": {
-      "n": 8,
-      "mean": 0.469,
-      "sd": 0.109,
+      "n": 9,
+      "mean": 0.467,
+      "sd": 0.103,
       "min": 0.3,
       "max": 0.69,
-      "p50": 0.455
-     },
-     "redLineHeldPct": 100,
-     "goals": {
-      "achieved": 0,
-      "partial": 6,
-      "failed": 2
-     }
-    },
-    {
-     "code": "JPN",
-     "name": "Japan",
-     "n": 8,
-     "sat": {
-      "n": 8,
-      "mean": 0.464,
-      "sd": 0.061,
-      "min": 0.38,
-      "max": 0.55,
-      "p50": 0.455
+      "p50": 0.45
      },
      "redLineHeldPct": 100,
      "goals": {
       "achieved": 0,
       "partial": 7,
-      "failed": 1
+      "failed": 2
      }
     },
     {
      "code": "PHL",
      "name": "Philippines",
-     "n": 8,
+     "n": 9,
      "sat": {
-      "n": 8,
-      "mean": 0.453,
-      "sd": 0.134,
+      "n": 9,
+      "mean": 0.458,
+      "sd": 0.127,
       "min": 0.22,
       "max": 0.66,
-      "p50": 0.475
+      "p50": 0.5
      },
      "redLineHeldPct": 100,
      "goals": {
       "achieved": 0,
-      "partial": 5,
+      "partial": 6,
       "failed": 3
      }
     }
@@ -1008,6 +1272,14 @@ window.MC_RESULTS = {
      "mood": "neutral",
      "mediatorPressure": "medium",
      "note": "With no shock, a neutral mood and only medium mediator pressure, China's entrenched sovereignty red line and comfortable status-quo BATNA blocked any comprehensive settlement, while India's momentum helped the like-minded coalition extract a modest, non-binding Code of Conduct and confidence-building measures framework instead."
+    },
+    {
+     "t": 8,
+     "dealType": "partial",
+     "shock": "A ramming/collision incident at Second Thomas Shoal",
+     "mood": "neutral",
+     "mediatorPressure": "low",
+     "note": "The Second Thomas Shoal ramming hardened every claimant's red line and pushed Japan to broker an emergency incident-deconfliction/hotline framework, but low mediator pressure meant sovereignty questions stayed unresolved and China refused any recognition concession."
     }
    ]
   },

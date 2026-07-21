@@ -1,0 +1,18 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {"code":"KAZ","name":"Kazakhstan","satisfaction":0.85,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"UZB","name":"Uzbekistan","satisfaction":0.78,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"KGZ","name":"Kyrgyzstan","satisfaction":0.66,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"TJK","name":"Tajikistan","satisfaction":0.76,"primaryGoal":"achieved","redLineHeld":true},
+  {"code":"RUS","name":"Russia","satisfaction":0.42,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"CHN","name":"China","satisfaction":0.4,"primaryGoal":"partial","redLineHeld":true},
+  {"code":"IND","name":"India","satisfaction":0.82,"primaryGoal":"achieved","redLineHeld":true}
+ ],
+ "coalitions": [
+  "Central Asian quartet (KAZ-UZB-KGZ-TJK) converges around Kazakh-led de-escalation framework",
+  "India-Tajikistan security alignment deepens mid-summit",
+  "China-Russia informal alignment to keep any settlement non-binding"
+ ],
+ "note": "With low mediator pressure and every regional delegation's BATNA favoring a non-binding outcome anyway, Kazakhstan's momentum steers the summit toward its preferred de-escalation framework, while India's surprise security pact with Tajikistan boosts both of their positions and leaves China and Russia satisfied only that no comprehensive settlement emerged."
+}

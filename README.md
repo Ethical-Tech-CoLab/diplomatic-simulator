@@ -1,5 +1,8 @@
 # Diplomatic Simulator
 
+**[Live site](https://ethical-tech-colab.github.io/diplomatic-simulator/)** ·
+**[Research report](DiplomaticSimulator-Paper.md)** (plain-language, non-technical)
+
 An interactive simulation of multi-party diplomatic negotiation, developed under [Ethical Tech CoLab](https://github.com/Ethical-Tech-CoLab). Participants (human or AI) role-play state actors working through a live geopolitical crisis, and each session produces a structured transcript and analysis.
 
 ## Scenario library

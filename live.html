@@ -86,7 +86,7 @@ footer{border-top:1px solid var(--line);color:var(--muted);font-size:.78rem;text
   sessions.sort(function(a,b){var ia=PREF.indexOf(a.id),ib=PREF.indexOf(b.id);if(ia<0)ia=99;if(ib<0)ib=99;return ia-ib;});
   var PAL=['#1B2A4E','#A41034','#2e7d32','#b08a3e','#6a1b9a','#00838f','#c62828','#455a64','#ad1457','#4527a0','#00695c'];
   var $=function(id){return document.getElementById(id);};
-  function esc(x){return String(x==null?'':x).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function esc(x){return String(x==null?'':x).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
   var RL={1:'Opening Plenary',2:'Positioning / Bargaining',3:'Bargaining & Coalitions',4:'Closing Plenary'};
   function kindLabel(m){var k=m.kind||'';if(k.indexOf('opening')>=0)return 'opening statement';if(k.indexOf('closing')>=0)return 'closing statement';if(k==='offer')return 'tabled offer';if(k==='positioning')return 'positioning';return k||'statement';}
 

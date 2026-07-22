@@ -60,7 +60,7 @@ footer{border-top:1px solid var(--line);color:var(--muted);font-size:.8rem;text-
 (function(){
   var R=(window.MC_RESULTS||{scenarios:[]});
   var root=document.getElementById('root');
-  function esc(x){return String(x==null?'':x).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function esc(x){return String(x==null?'':x).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
   var DEALS=[['comprehensive','#2e7d32'],['framework','#7cb342'],['partial','#b08a3e'],['stalemate','#ef6c00'],['breakdown','#c62828']];
   var DMAP={};DEALS.forEach(function(d){DMAP[d[0]]=d[1];});
   var GOAL={achieved:'#2e7d32',partial:'#b08a3e',failed:'#c62828'};

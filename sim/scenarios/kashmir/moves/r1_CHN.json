@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-china",
+ "displayName": "People's Republic of China",
+ "roundNumber": 1,
+ "kind": "opening-statement",
+ "text": "Special Representative, China supports the resumption of dialogue and will speak briefly and precisely. Our sovereignty over Aksai Chin, the Shaksam Valley and Arunachal Pradesh is historical and legitimate, and it is not an agenda item at this conference. The McMahon Line was drawn arbitrarily by an empire at a moment of Chinese weakness and carries no legal force. On the questions between New Delhi and Islamabad, China's interest is stability: the Line of Control has kept two nuclear-armed neighbours apart for over fifty years, and we see no proposal here that would improve upon it. On governance, China takes no public position, and we note two things that we do oppose. We oppose any plebiscite offering autonomy or independence as an option, because such an outcome would legitimize separatism as an internationally sanctioned procedure. And we oppose international investigation of human rights within any sovereign state; that is a domestic matter, and the precedent would not stop at this region. What China will do is pay. We offer a substantial financial contribution toward relief for the roughly 950,000 displaced, subject to screening against militant infiltration. We prefer to conduct our business bilaterally.",
+ "tacticsApplied": [
+  "sovereignty-assertion",
+  "red-line-signaled",
+  "side-payment",
+  "delay-tactic"
+ ]
+}

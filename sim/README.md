@@ -13,15 +13,21 @@ instructions*).
    across plenary rounds (opening → positioning → bargaining → closing).
 4. Analyze (`analysis.json`): scoreboard (satisfaction, red-lines crossed),
    per-party debriefs, and an SRSG convener report.
-5. `build_session.py <manifest.json> <out.json>` — assemble a `data.js`
+5. `build_transcript.py <manifest.json>` — roll the `moves/` files up into
+   `transcript.json` + `transcript.md` for the scenario directory.
+6. `build_session.py <manifest.json> <out.json>` — assemble a `data.js`
    session+scenario in the diplomacy-table schema.
-6. `inject.py <built.json>...` — merge into `diplomacy-demo/data.js`.
+7. `inject.py <built.json>...` — merge into `diplomacy-demo/data.js`.
+8. `build_report.py <sessionId> <out.html> [subtitle]` — render the standalone
+   `scenario-<name>.html` report page from the injected session.
 
 ## Scenarios (each: `scenarios/<name>/` with profiles, transcript, analysis, brief, manifest)
 - `arctic/` — 7 parties (CAN, CHN, DNK, FIN, NOR, RUS, USA), 4 rounds / 28 moves.
 - `centralasia/` — 7 parties (KAZ, UZB, KGZ, TJK, RUS, CHN, IND), 3 rounds / 21 moves. Fergana Valley crisis.
 - `cyprus/` — 6 parties (CY, TRNC, GR, TR, UK, US), 3 rounds / 18 moves. Reunification talks.
 - `scs/` — 9 parties (CHN, USA, PHL, VNM, MYS, BRN, IDN, IND, JPN), 3 rounds / 27 moves. South China Sea.
+- `korea/` — 6 parties (CHN, PRK, KOR, USA, JPN, RUS), 3 rounds / 18 moves. Resumed Six-Party Talks in Beijing.
+- `kashmir/` — 7 parties (IND, PAK, JK, CHN, RUS, GBR, USA), 3 rounds / 21 moves. UNSCR 2900 conference in Geneva.
 
 Each scenario appears as a session in `diplomacy-demo/` (deep-link
 `diplomacy-demo/index.html?session=<sessionId>`), and on the landing page's

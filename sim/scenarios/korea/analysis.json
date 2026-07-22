@@ -1,0 +1,302 @@
+{
+ "scoreboard": [
+  {
+   "teamTwinName": "diplomacy-team-rok",
+   "satisfaction": 0.61,
+   "agreementsWon": 5,
+   "redLinesCrossed": 0
+  },
+  {
+   "teamTwinName": "diplomacy-team-us",
+   "satisfaction": 0.56,
+   "agreementsWon": 4,
+   "redLinesCrossed": 0
+  },
+  {
+   "teamTwinName": "diplomacy-team-china",
+   "satisfaction": 0.5,
+   "agreementsWon": 4,
+   "redLinesCrossed": 1
+  },
+  {
+   "teamTwinName": "diplomacy-team-russia",
+   "satisfaction": 0.5,
+   "agreementsWon": 4,
+   "redLinesCrossed": 0
+  },
+  {
+   "teamTwinName": "diplomacy-team-japan",
+   "satisfaction": 0.44,
+   "agreementsWon": 3,
+   "redLinesCrossed": 0
+  },
+  {
+   "teamTwinName": "diplomacy-team-dprk",
+   "satisfaction": 0.34,
+   "agreementsWon": 3,
+   "redLinesCrossed": 1
+  }
+ ],
+ "debriefs": [
+  {
+   "teamTwinName": "diplomacy-team-rok",
+   "selfRating": 3.4,
+   "satisfaction": 0.61,
+   "agreementsWon": 5,
+   "redLinesCrossedAgainstUs": 0,
+   "goals": [
+    {
+     "goalId": "inter-korean-channel",
+     "description": "Resume North-South dialogue without preconditions and restore the Comprehensive Military Agreement.",
+     "priority": "critical",
+     "status": "achieved",
+     "evidence": [
+      "R1: offered 'a room with only Koreans in it'",
+      "R2: DPRK accepted a bilateral meeting without the Americans present",
+      "R3: both governments committed before four witnesses"
+     ]
+    },
+    {
+     "goalId": "hold-trilateral-line",
+     "description": "Hold the joint US-ROK-Japan position that no part of the nuclear or missile programs may remain and no relief precedes verification.",
+     "priority": "critical",
+     "status": "achieved",
+     "evidence": [
+      "R1/R2/R3: freeze rejected in all three rounds",
+      "no sanctions relief conceded in advance"
+     ]
+    },
+    {
+     "goalId": "economic-package-uptake",
+     "description": "Draw Pyongyang toward dismantlement with the 2018 rail, road and energy package plus WHO-channelled humanitarian aid.",
+     "priority": "high",
+     "status": "partial",
+     "evidence": [
+      "R2: full package tabled against a verified dismantlement milestone",
+      "DPRK did not engage the milestone, calling relief-for-disarmament intolerable"
+     ]
+    }
+   ]
+  },
+  {
+   "teamTwinName": "diplomacy-team-us",
+   "selfRating": 3.2,
+   "satisfaction": 0.56,
+   "agreementsWon": 4,
+   "redLinesCrossedAgainstUs": 0,
+   "goals": [
+    {
+     "goalId": "no-payment-for-freeze",
+     "description": "Refuse the mutual freeze and retain exercises, THAAD and financial sanctions absent verified disablement.",
+     "priority": "critical",
+     "status": "achieved",
+     "evidence": [
+      "R1: freeze rejected as unverifiable and readiness-degrading",
+      "R2: refused to move sanctions first",
+      "R3: no exercise or missile-defense concession made"
+     ]
+    },
+    {
+     "goalId": "comprehensive-package",
+     "description": "Secure a comprehensive agreement covering disablement, verification, NPT return and an end to proliferation.",
+     "priority": "critical",
+     "status": "failed",
+     "evidence": [
+      "R2: full-inventory declaration and unfettered IAEA access offered as the price of the bilateral channel; not accepted",
+      "R3: sequencing gap between step-by-step and comprehensive left unreconciled"
+     ]
+    },
+    {
+     "goalId": "uncoupled-bilateral-channel",
+     "description": "Open a US-DPRK dialogue without preconditions, uncoupled from the Six-Party process, as confidence-building.",
+     "priority": "high",
+     "status": "achieved",
+     "evidence": [
+      "R1: offered without preconditions",
+      "R3: DPRK stated it will use the channel"
+     ]
+    }
+   ]
+  },
+  {
+   "teamTwinName": "diplomacy-team-china",
+   "selfRating": 3.0,
+   "satisfaction": 0.5,
+   "agreementsWon": 4,
+   "redLinesCrossedAgainstUs": 1,
+   "goals": [
+    {
+     "goalId": "reinstate-mutual-freeze",
+     "description": "Obtain an immediate return to the 2018 mutual freeze as the first order of business.",
+     "priority": "critical",
+     "status": "failed",
+     "evidence": [
+      "R2: freeze offered with IAEA inspectors attached to answer the verification objection",
+      "R2/R3: refused by the United States, ROK and Japan; THAAD unmoved"
+     ]
+    },
+    {
+     "goalId": "keep-process-alive",
+     "description": "Ensure the talks do not break down: keep every channel open and secure a further session.",
+     "priority": "critical",
+     "status": "achieved",
+     "evidence": [
+      "inter-Korean and US-DPRK channels both opened",
+      "KEDO/conventional-power working group constituted",
+      "R3: commitment to reconvene"
+     ]
+    },
+    {
+     "goalId": "keep-agenda-inside-framework",
+     "description": "Confine the talks to the Chairman's Framework and defer proliferation, chemical and cyber issues to a later stage.",
+     "priority": "high",
+     "status": "failed",
+     "evidence": [
+      "R2: chair ruled these issues outside the 1 April Framework",
+      "R2: the United States pressed them regardless, over the chair's ruling — red line crossed against us"
+     ]
+    }
+   ]
+  },
+  {
+   "teamTwinName": "diplomacy-team-russia",
+   "selfRating": 3.0,
+   "satisfaction": 0.5,
+   "agreementsWon": 4,
+   "redLinesCrossedAgainstUs": 0,
+   "goals": [
+    {
+     "goalId": "hold-step-by-step",
+     "description": "Prevent the comprehensive-package approach from becoming the agreed method and keep the sequence incremental.",
+     "priority": "critical",
+     "status": "partial",
+     "evidence": [
+      "no comprehensive agreement advanced",
+      "but no agreed step-by-step sequence was adopted either; the method question stayed open"
+     ]
+    },
+    {
+     "goalId": "russian-economic-position",
+     "description": "Establish Russia as the supplier of the DPRK's power and reconstruction, independent of any reactor decision.",
+     "priority": "high",
+     "status": "achieved",
+     "evidence": [
+      "R2: supervised humanitarian shipments plus grid and conventional-generation contracts tabled with no milestone attached",
+      "R3: proceeding regardless of the talks' outcome"
+     ]
+    },
+    {
+     "goalId": "not-sidelined",
+     "description": "Retain full-partner standing and an honest-broker channel to Pyongyang.",
+     "priority": "high",
+     "status": "achieved",
+     "evidence": [
+      "R1: standing asserted at the opening",
+      "R3: no party attempted to settle the file in a smaller format"
+     ]
+    }
+   ]
+  },
+  {
+   "teamTwinName": "diplomacy-team-japan",
+   "selfRating": 2.6,
+   "satisfaction": 0.44,
+   "agreementsWon": 3,
+   "redLinesCrossedAgainstUs": 0,
+   "goals": [
+    {
+     "goalId": "abductions-accounting",
+     "description": "Secure a full accounting of the abduction of Japanese citizens, including recovery of remains.",
+     "priority": "critical",
+     "status": "failed",
+     "evidence": [
+      "R1: raised at the opening plenary",
+      "R1/R2/R3: DPRK declared the matter closed and refused all discussion",
+      "chair ruled it outside the Framework and offered a bilateral room; accepted but not yet convened"
+     ]
+    },
+    {
+     "goalId": "no-relief-before-agreement",
+     "description": "Prevent any sanctions relief or assistance outside a comprehensive agreement.",
+     "priority": "critical",
+     "status": "achieved",
+     "evidence": [
+      "R2/R3: no relief conceded by the trilateral bloc",
+      "Russian and Chinese aid proceeds outside the agreement but without Japanese participation"
+     ]
+    },
+    {
+     "goalId": "kedo-terms",
+     "description": "Ensure any light water reactor arrangement excludes the DPRK from operation, and that Japan is not sidelined in the outcome.",
+     "priority": "high",
+     "status": "partial",
+     "evidence": [
+      "R2: financing offered conditional on an operator-excluded KEDO",
+      "R3: working group constituted on those terms but nothing settled"
+     ]
+    }
+   ]
+  },
+  {
+   "teamTwinName": "diplomacy-team-dprk",
+   "selfRating": 2.2,
+   "satisfaction": 0.34,
+   "agreementsWon": 3,
+   "redLinesCrossedAgainstUs": 1,
+   "goals": [
+    {
+     "goalId": "immediate-humanitarian-relief",
+     "description": "Obtain a solid commitment to immediate humanitarian assistance and easing of financial sanctions as the first step of any process.",
+     "priority": "critical",
+     "status": "failed",
+     "evidence": [
+      "R1: named as the precondition for every other step",
+      "R2: the trilateral bloc conditioned relief on a verified dismantlement milestone",
+      "red line crossed: refusal to lift sanctions during an acknowledged humanitarian crisis and ongoing talks"
+     ]
+    },
+    {
+     "goalId": "preserve-deterrent",
+     "description": "Keep the nuclear and ballistic missile programs off the table absent commensurate guarantees.",
+     "priority": "critical",
+     "status": "achieved",
+     "evidence": [
+      "no reduction offered beyond a conditional testing freeze",
+      "R3: 'our nuclear force is not on this table'"
+     ]
+    },
+    {
+     "goalId": "recognition-and-channels",
+     "description": "Win recognition as an equal state through normalization talks, an end-of-war declaration, and direct channels with Seoul and Washington.",
+     "priority": "high",
+     "status": "partial",
+     "evidence": [
+      "inter-Korean and US-DPRK channels secured",
+      "end-of-war declaration remains conditioned by Washington on verification, reversing the sequence we require"
+     ]
+    }
+   ]
+  }
+ ],
+ "convenerReport": {
+  "headline": "Three rounds opened two bilateral channels and a technical working group, but the freeze failed, no relief moved, and two delegations left with a red line crossed against them.",
+  "summary": "The chair's package — testing suspension and IAEA inspectors against suspended exercises, a shuttered THAAD and a World Food Program humanitarian corridor — was designed to answer the verification objection head-on, and it did not survive contact with the trilateral bloc. Washington, Seoul and Tokyo held their joint position that nothing precedes a comprehensive agreement, and Pyongyang held its own that nothing follows an unaddressed humanitarian crisis; the two positions met without moving. What did move was procedural and real: both Koreas committed to an inter-Korean channel with no preconditions, the United States offered and the DPRK accepted an uncoupled bilateral channel, a technical working group on KEDO reactors and conventional power was constituted, and China and Russia began supplying humanitarian aid and grid reconstruction outside the agreement entirely. Two red lines were crossed. The United States pressed proliferation, chemical and cyber issues against the chair's ruling that they sit outside the 1 April Framework. And the refusal to ease sanctions during an acknowledged humanitarian crisis crossed the DPRK's stated red line, which Pyongyang put on the record in the opening plenary and invoked at the close. The session ends without a comprehensive agreement, without a freeze, and with the sequencing question — comprehensive package versus step-by-step — exactly where it began.",
+  "keyOutcomes": [
+   "Both Koreas committed to an inter-Korean channel with no preconditions and no restriction of agenda, plus restoration of the Comprehensive Military Agreement.",
+   "A direct Washington–Pyongyang channel, uncoupled from the Six-Party process and without preconditions, was offered by the United States and accepted by the DPRK.",
+   "A technical working group on a revived KEDO, light water reactors and conventional power generation was constituted, with Japanese financing conditional on the DPRK being excluded from reactor operation.",
+   "China and Russia will proceed with needs-based humanitarian supply, grid rehabilitation and conventional generation outside any agreement, removing the electricity question from the bargaining table.",
+   "The trilateral bloc conceded nothing in advance: exercises, THAAD and financial sanctions all remain in place.",
+   "All six delegations committed to reconvene."
+  ],
+  "unresolved": [
+   "Method: the comprehensive package demanded by Washington, Seoul and Tokyo versus the step-by-step sequence held by Beijing, Moscow and Pyongyang.",
+   "The mutual freeze and THAAD — the chair's inspector-backed version was refused and no alternative confidence-building measure replaced it.",
+   "Timing of sanctions relief and humanitarian aid: immediate and unconditional versus at a verified dismantlement milestone.",
+   "Sequence of recognition: the DPRK requires an end-of-war declaration and normalization before disarmament; the United States and Japan require the reverse.",
+   "Scope: whether proliferation, chemical transfers and cyber operations belong inside the Chairman's Framework at all.",
+   "The abduction of Japanese citizens: refused entirely by Pyongyang, deferred by the chair to a bilateral room that has not yet convened.",
+   "The DPRK's civilian nuclear entitlement and its NPT return, both of which remain contingent on the unresolved method question."
+  ]
+ }
+}

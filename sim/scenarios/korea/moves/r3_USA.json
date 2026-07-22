@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-us",
+ "displayName": "United States of America",
+ "roundNumber": 3,
+ "kind": "closing-statement",
+ "text": "The United States leaves with its position intact and its offers on the table. The bilateral channel is open without preconditions whenever Pyongyang walks through it. We will support a peace declaration when verification permits, we will not obstruct reactors the DPRK does not operate, and we have invited Beijing and Moscow to supply the North's power tomorrow if they mean what they have said about its people. What we did not do is pay for a freeze. Three rounds produced no declaration of inventory, no unfettered access, and no written moratorium, and Washington will not trade exercises and missile defense for a promise no inspector may check. Our red line held: no part of the nuclear or missile programs may be retained, and nothing was rewarded in advance. Two gaps remain unbridged and we name them plainly. Sequencing, where the chair's step-by-step and our comprehensive package were never reconciled. And scope, where proliferation, chemical transfers and cyber operations were ruled outside a framework they belong inside. We are ready to reconvene.",
+ "tacticsApplied": [
+  "red-line-signaled",
+  "verification-demand",
+  "conditional-offer",
+  "issue-linkage"
+ ]
+}

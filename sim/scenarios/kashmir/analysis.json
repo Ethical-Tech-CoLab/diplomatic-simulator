@@ -1,0 +1,407 @@
+{
+ "scoreboard": [
+  {
+   "teamTwinName": "diplomacy-team-india",
+   "satisfaction": 0.62,
+   "agreementsWon": 4,
+   "redLinesCrossed": 0
+  },
+  {
+   "teamTwinName": "diplomacy-team-russia",
+   "satisfaction": 0.58,
+   "agreementsWon": 4,
+   "redLinesCrossed": 0
+  },
+  {
+   "teamTwinName": "diplomacy-team-china",
+   "satisfaction": 0.57,
+   "agreementsWon": 4,
+   "redLinesCrossed": 0
+  },
+  {
+   "teamTwinName": "diplomacy-team-pakistan",
+   "satisfaction": 0.41,
+   "agreementsWon": 3,
+   "redLinesCrossed": 0
+  },
+  {
+   "teamTwinName": "diplomacy-team-us",
+   "satisfaction": 0.4,
+   "agreementsWon": 3,
+   "redLinesCrossed": 1
+  },
+  {
+   "teamTwinName": "diplomacy-team-uk",
+   "satisfaction": 0.37,
+   "agreementsWon": 3,
+   "redLinesCrossed": 1
+  },
+  {
+   "teamTwinName": "diplomacy-team-kashmir",
+   "satisfaction": 0.29,
+   "agreementsWon": 2,
+   "redLinesCrossed": 1
+  }
+ ],
+ "debriefs": [
+  {
+   "teamTwinName": "diplomacy-team-india",
+   "selfRating": 3.6,
+   "satisfaction": 0.62,
+   "agreementsWon": 4,
+   "redLinesCrossedAgainstUs": 0,
+   "goals": [
+    {
+     "goalId": "no-cession-no-independence",
+     "description": "Cede no part of Jammu and Kashmir and permit no discussion of independence or accession to Pakistan.",
+     "priority": "critical",
+     "status": "achieved",
+     "evidence": [
+      "R1: agenda foreclosed in the opening statement",
+      "R3: final text contains no territorial or governance provision"
+     ]
+    },
+    {
+     "goalId": "block-external-investigation",
+     "description": "Prevent any external human rights investigation; substitute a domestic judicial inquiry.",
+     "priority": "critical",
+     "status": "achieved",
+     "evidence": [
+      "R2: domestic inquiry with published findings offered in its place",
+      "R3: no international mechanism attached to the outcome; China and Russia held the line with us"
+     ]
+    },
+    {
+     "goalId": "india-controlled-reconstruction",
+     "description": "Ensure no development or reconstruction in Jammu and Kashmir excludes the Indian government.",
+     "priority": "high",
+     "status": "achieved",
+     "evidence": [
+      "R3: humanitarian annex provides that reconstruction on Indian territory is administered by the Government of India"
+     ]
+    },
+    {
+     "goalId": "split-kashmiris-from-islamabad",
+     "description": "Draw the Kashmiri delegation into working within the Indian constitution using Article 370 restoration as the inducement.",
+     "priority": "high",
+     "status": "failed",
+     "evidence": [
+      "R2: Article 370 and 356 offered against a written constitutional commitment",
+      "R2: rejected — 'the floor of a conversation, not its price'"
+     ]
+    }
+   ]
+  },
+  {
+   "teamTwinName": "diplomacy-team-russia",
+   "selfRating": 3.3,
+   "satisfaction": 0.58,
+   "agreementsWon": 4,
+   "redLinesCrossedAgainstUs": 0,
+   "goals": [
+    {
+     "goalId": "protect-india-relationship",
+     "description": "Protect and enhance the bilateral relationship with India by aligning with New Delhi's public positions.",
+     "priority": "critical",
+     "status": "achieved",
+     "evidence": [
+      "R1/R2/R3: aligned throughout on territory, governance and investigation",
+      "no pressure applied to New Delhi at any point"
+     ]
+    },
+    {
+     "goalId": "block-investigation-precedent",
+     "description": "Prevent an international human rights investigation and the precedent it would set for inquiry into sovereign conduct.",
+     "priority": "critical",
+     "status": "achieved",
+     "evidence": [
+      "R2: acted jointly with China to prevent it",
+      "R3: no mechanism established"
+     ]
+    },
+    {
+     "goalId": "pakistan-counterterrorism",
+     "description": "Extract significant, verifiable and sustained Pakistani commitments against militant infrastructure.",
+     "priority": "critical",
+     "status": "failed",
+     "evidence": [
+      "R2: flexibility on India's territorial position offered against verified action",
+      "R3: commitments judged not verifiable, not durable, not sufficient — offer left open for a future session"
+     ]
+    },
+    {
+     "goalId": "screened-assistance-only",
+     "description": "Ensure no displaced-persons assistance can reach militant entities.",
+     "priority": "high",
+     "status": "achieved",
+     "evidence": [
+      "R3: joint screening written into the humanitarian annex and accepted by London and Washington"
+     ]
+    }
+   ]
+  },
+  {
+   "teamTwinName": "diplomacy-team-china",
+   "selfRating": 3.5,
+   "satisfaction": 0.57,
+   "agreementsWon": 4,
+   "redLinesCrossedAgainstUs": 0,
+   "goals": [
+    {
+     "goalId": "preserve-status-quo",
+     "description": "Preserve the territorial status quo, the Line of Control as the line of administration, and the security arrangements in Aksai Chin.",
+     "priority": "critical",
+     "status": "achieved",
+     "evidence": [
+      "R3: no delegation's claims altered; Aksai Chin untouched",
+      "no demilitarization that would free Indian forces for the Sino-Indian frontier"
+     ]
+    },
+    {
+     "goalId": "block-separatism-precedent",
+     "description": "Prevent any plebiscite offering autonomy or independence, and any autonomous or independent Kashmiri entity.",
+     "priority": "critical",
+     "status": "achieved",
+     "evidence": [
+      "R2: refused categorically, 'no package will move it'",
+      "R3: final text contains no autonomy provision"
+     ]
+    },
+    {
+     "goalId": "block-investigation",
+     "description": "Prevent international human rights investigation as a precedent within our sphere of influence.",
+     "priority": "critical",
+     "status": "achieved",
+     "evidence": [
+      "R1: opposed at the opening",
+      "R2: made the absence of an investigative mechanism a condition of the Chinese contribution"
+     ]
+    },
+    {
+     "goalId": "buy-goodwill-cheaply",
+     "description": "Use a financial contribution to relief to secure Pakistani goodwill on territory without conceding principle.",
+     "priority": "high",
+     "status": "achieved",
+     "evidence": [
+      "R1/R2: substantial contribution offered subject to screening",
+      "R3: confirmed through the UN system with no political concession attached"
+     ]
+    }
+   ]
+  },
+  {
+   "teamTwinName": "diplomacy-team-pakistan",
+   "selfRating": 2.5,
+   "satisfaction": 0.41,
+   "agreementsWon": 3,
+   "redLinesCrossedAgainstUs": 0,
+   "goals": [
+    {
+     "goalId": "prevent-loc-recognition",
+     "description": "Prevent recognition of the Line of Control as an international border.",
+     "priority": "critical",
+     "status": "achieved",
+     "evidence": [
+      "R1: stated as unchangeable",
+      "R3: signed the annex with an explicit reservation that crossing points imply no recognition"
+     ]
+    },
+    {
+     "goalId": "plebiscite-1948-terms",
+     "description": "Secure movement toward the UNSCR 47 plebiscite after Indian troop withdrawal.",
+     "priority": "critical",
+     "status": "failed",
+     "evidence": [
+      "R2: demilitarization and joint interim administration tabled",
+      "R3: no plebiscite provision of any kind in the final text"
+     ]
+    },
+    {
+     "goalId": "international-investigation",
+     "description": "Obtain a UN investigation whose mandate is limited to the conduct of Indian security forces.",
+     "priority": "high",
+     "status": "failed",
+     "evidence": [
+      "R2: sought and linked to US/UK support",
+      "R3: blocked by China and Russia; Pakistan recorded the blockage on the record"
+     ]
+    },
+    {
+     "goalId": "unconditioned-relief",
+     "description": "Obtain international relief funding for displaced populations without conditions on Pakistan's Kashmir policy.",
+     "priority": "high",
+     "status": "achieved",
+     "evidence": [
+      "R3: relief funded with screening conditions only, none touching Kashmir policy"
+     ]
+    }
+   ]
+  },
+  {
+   "teamTwinName": "diplomacy-team-us",
+   "selfRating": 2.7,
+   "satisfaction": 0.4,
+   "agreementsWon": 3,
+   "redLinesCrossedAgainstUs": 1,
+   "goals": [
+    {
+     "goalId": "de-escalation",
+     "description": "Reduce the risk of a repeat of the April–May 2025 exchange of strikes between two nuclear-armed states.",
+     "priority": "critical",
+     "status": "achieved",
+     "evidence": [
+      "R3: crossing points, reopened routes and functioning humanitarian coordination between New Delhi and Islamabad"
+     ]
+    },
+    {
+     "goalId": "limited-autonomy-in-text",
+     "description": "Ensure any agreement addresses, at minimum, limited autonomy for Jammu and Kashmir.",
+     "priority": "critical",
+     "status": "failed",
+     "evidence": [
+      "R2: graduated limited autonomy tabled inside an integrated package",
+      "R3: final text contains no autonomy provision — our stated red line crossed"
+     ]
+    },
+    {
+     "goalId": "investigation-and-repatriation",
+     "description": "Secure an international human rights investigation and a functioning repatriation programme.",
+     "priority": "high",
+     "status": "partial",
+     "evidence": [
+      "repatriation, protection and screening achieved in the annex",
+      "investigation blocked by China and Russia"
+     ]
+    },
+    {
+     "goalId": "nuclear-risk-reduction",
+     "description": "Open a strategic risk-reduction track between India and Pakistan.",
+     "priority": "medium",
+     "status": "partial",
+     "evidence": [
+      "R2: hotlines, pre-notification and incident protocols proposed",
+      "R3: deferred to bilateral pursuit with both capitals rather than dropped"
+     ]
+    }
+   ]
+  },
+  {
+   "teamTwinName": "diplomacy-team-uk",
+   "selfRating": 2.5,
+   "satisfaction": 0.37,
+   "agreementsWon": 3,
+   "redLinesCrossedAgainstUs": 1,
+   "goals": [
+    {
+     "goalId": "full-autonomy-addressed",
+     "description": "Ensure no agreement fails to address the possibility of full autonomy for Jammu and Kashmir.",
+     "priority": "critical",
+     "status": "failed",
+     "evidence": [
+      "R2: LoC recognition offered in exchange for a UN investigation and reopened routes",
+      "R3: signed a text addressing autonomy in no form — red line crossed and recorded"
+     ]
+    },
+    {
+     "goalId": "un-investigation",
+     "description": "Obtain an international investigation into human rights violations under UN auspices.",
+     "priority": "critical",
+     "status": "failed",
+     "evidence": [
+      "R1/R2/R3: pressed in every round",
+      "resisted by India, China and Russia on sovereignty grounds"
+     ]
+    },
+    {
+     "goalId": "humanitarian-access",
+     "description": "Reopen travel routes into the Kashmir Valley and fund relief and repatriation.",
+     "priority": "high",
+     "status": "achieved",
+     "evidence": [
+      "R3: routes reopened, two crossing points established, relief funded at scale including an unexpected Chinese contribution"
+     ]
+    },
+    {
+     "goalId": "legitimize-kashmiri-delegation",
+     "description": "Advocate for the Kashmiri delegation as a legitimate representative of all Kashmiris.",
+     "priority": "medium",
+     "status": "partial",
+     "evidence": [
+      "their participation was recorded and defended",
+      "but they were given no role in the annex's implementation"
+     ]
+    }
+   ]
+  },
+  {
+   "teamTwinName": "diplomacy-team-kashmir",
+   "selfRating": 2.0,
+   "satisfaction": 0.29,
+   "agreementsWon": 2,
+   "redLinesCrossedAgainstUs": 1,
+   "goals": [
+    {
+     "goalId": "autonomy-on-the-ballot",
+     "description": "Secure a plebiscite within one year, under neutral UN organisers, with full autonomy on the ballot.",
+     "priority": "critical",
+     "status": "failed",
+     "evidence": [
+      "R1/R2: pressed with dates and a UNMOGIP security formula",
+      "R3: no plebiscite provision; China refused categorically and India never opened the chapter"
+     ]
+    },
+    {
+     "goalId": "protect-local-legitimacy",
+     "description": "Permit no agreement that undermines the power, legitimacy or autonomy of duly elected local government.",
+     "priority": "critical",
+     "status": "failed",
+     "evidence": [
+      "R3: humanitarian annex vests reconstruction on Indian territory in the Government of India — red line crossed",
+      "no allocation of powers agreed"
+     ]
+    },
+    {
+     "goalId": "international-standing",
+     "description": "Establish the delegation as the representative of Kashmiris on the international stage.",
+     "priority": "critical",
+     "status": "partial",
+     "evidence": [
+      "seated and heard at a Security Council-mandated conference for the first time",
+      "but China and Russia refused bilateral contact and Pakistan conditioned support on renouncing Azad Kashmir"
+     ]
+    },
+    {
+     "goalId": "un-led-repatriation",
+     "description": "Lead repatriation of the displaced in cooperation with India and Pakistan or under UN mandate, with crossing points opened.",
+     "priority": "high",
+     "status": "partial",
+     "evidence": [
+      "crossing points opened and supported by us",
+      "implementation vested in the administering authorities rather than in Kashmiri hands"
+     ]
+    }
+   ]
+  }
+ ],
+ "convenerReport": {
+  "headline": "A conference convened on territory and governance produced a humanitarian annex and nothing else, with the three status-quo powers holding every line and three delegations leaving with a red line crossed.",
+  "summary": "Resolution 2900 mandated this conference to address the territory and governance of the former princely state. It addressed neither. India foreclosed both chapters in its opening statement and never reopened them, offering Article 370's restoration only against a written Kashmiri commitment to work inside the Indian constitution — an offer refused as 'the floor of a conversation, not its price'. Pakistan's demilitarization-and-plebiscite package found no purchase, and its price for supporting the Kashmiri delegation, renunciation of the claim to Azad Kashmir, was refused on the same grounds. China blocked any autonomy ballot categorically and made the absence of an investigative mechanism a condition of its relief contribution; Russia aligned with New Delhi throughout and reported that Pakistan's counterterrorism commitments fell short of what would have justified pressing India for flexibility. The United States and United Kingdom offered to concede the substance of the territorial question — recognition of the Line of Control — in exchange for an investigation and an autonomy provision, and got neither. What survived was the Geneva Humanitarian Annex: UN-coordinated relief with joint screening, reopened travel routes into the Kashmir Valley, two crossing points along the Line for family reunification and phased return, a Chinese financial contribution, and reconstruction administered on each side by the administering authority. Three delegations recorded crossed red lines: the United States and the United Kingdom, whose instructions forbid an agreement that fails to address autonomy, and the Kashmiri delegation, whose sole tangible outcome vests reconstruction on its territory in the government it came here to be freed from.",
+  "keyOutcomes": [
+   "The Geneva Humanitarian Annex: UN-coordinated relief for roughly 950,000 displaced people, with joint screening against militant infiltration accepted by every delegation.",
+   "Designated travel routes into the Kashmir Valley reopened, and two crossing points established along the Line of Control for family reunification and phased return.",
+   "A substantial Chinese financial contribution to relief, routed through the UN system, conditioned on screening and on no investigative mechanism attaching to the conference.",
+   "Reconstruction and development administered on each side by the administering authority — the provision that made Indian signature possible and that the Kashmiri delegation recorded as a crossed red line.",
+   "Functioning humanitarian coordination between two governments that exchanged missile and drone strikes eight months earlier.",
+   "India's offer of a domestic judicial inquiry with published findings, and referral of AFSPA amendment to its Parliament, in place of external investigation."
+  ],
+  "unresolved": [
+   "Sovereignty over the former princely state: India's claim to the whole, Pakistan's claim to the whole, and China's holdings, all left exactly as found.",
+   "The status of the Line of Control — recognized by neither party as a border, and now crossed by two humanitarian corridors that Pakistan expressly reserved against.",
+   "Governance: no autonomy formula, no allocation of powers, no restoration of Article 370, and no plebiscite of any description.",
+   "Whether autonomy may appear on any future ballot — refused categorically by China and never conceded by India, Pakistan or Russia.",
+   "An international human rights investigation, blocked by three delegations on sovereignty grounds against four that sought it.",
+   "The standing of the Kashmiri delegation itself: seated and heard, but denied bilateral contact by two delegations and any implementing role in the one text agreed.",
+   "Strategic risk reduction between two nuclear-armed states — deferred to bilateral tracks rather than agreed here."
+  ]
+ }
+}

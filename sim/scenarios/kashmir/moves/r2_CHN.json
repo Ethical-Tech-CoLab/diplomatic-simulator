@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-china",
+ "displayName": "People's Republic of China",
+ "roundNumber": 2,
+ "kind": "offer",
+ "text": "China will be concrete about what it will and will not do. We will not support a plebiscite that places autonomy or independence on the ballot, in any sequence, under any supervision, with any timeline. That is not a bargaining position and no package will move it. We will not discuss our territorial claims, and we note the Kashmiri delegation's statement regarding Aksai Chin without treating it as a transaction. What China offers is money and calm. A substantial contribution to relief for the displaced, transferable through the UN system, conditional on two things: joint screening arrangements against militant infiltration, and no international investigative mechanism attached to this conference's outcome. We support the Line of Control continuing as the line of administration and we will say so in any format. On the nuclear question raised by London and Washington: China's position is neutrality. Both programmes have functioned as genuine deterrents — they restrained escalation in 1987, in 1990 and after 2008 — and both states have the right of self-defence. We would encourage the parties to take the substance of these chapters into bilateral rooms, where agreements are actually made.",
+ "tacticsApplied": [
+  "red-line-signaled",
+  "side-payment",
+  "conditional-offer",
+  "delay-tactic"
+ ]
+}

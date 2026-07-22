@@ -82,7 +82,7 @@ footer{border-top:1px solid var(--line);color:var(--muted);font-size:.78rem;text
 (function(){
   var data=window.DIPLOMACY_SNAPSHOT_DEMO||{sessions:[]};
   var sessions=(data.sessions||[]).slice();
-  var PREF=['sess-arctic-iscne-01','sess-centralasia-iscne-01','sess-cyprus-iscne-01','sess-scs-iscne-01','sess-1778361924764-byifbp'];
+  var PREF=['sess-arctic-iscne-01','sess-centralasia-iscne-01','sess-cyprus-iscne-01','sess-scs-iscne-01','sess-korea-iscne-01','sess-kashmir-iscne-01','sess-1778361924764-byifbp'];
   sessions.sort(function(a,b){var ia=PREF.indexOf(a.id),ib=PREF.indexOf(b.id);if(ia<0)ia=99;if(ib<0)ib=99;return ia-ib;});
   var PAL=['#1B2A4E','#A41034','#2e7d32','#b08a3e','#6a1b9a','#00838f','#c62828','#455a64','#ad1457','#4527a0','#00695c'];
   var $=function(id){return document.getElementById(id);};

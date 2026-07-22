@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-japan",
+ "displayName": "Japan",
+ "roundNumber": 3,
+ "kind": "closing-statement",
+ "text": "Japan's red lines held and Japan's file remains open. No sanctions were relieved outside a comprehensive agreement, and no agreement was concluded that ignores the abductions, because no agreement was concluded at all. We regret that. We supported the inter-Korean channel and we support the working group on reactors, on the single condition we have stated throughout: a KEDO that installs and operates, with the DPRK nowhere near the controls. Our financing offer and our normalization package remain available and remain conditional. To the delegation that has declined to hear us, we accept the chair's offer of a bilateral room and we will occupy it at any hour, on any date, in any city; our prime minister has said she will meet Chairman Kim, and that stands. And I will repeat once, without drama, what I said on the first morning. Japan is prepared to be patient. Japan is not prepared to be indefinitely defenceless while these programs advance, and no delegation here should be surprised by what follows if this process produces nothing.",
+ "tacticsApplied": [
+  "red-line-signaled",
+  "conditional-offer",
+  "deterrence-frame",
+  "principled-bargaining-frame"
+ ]
+}

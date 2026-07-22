@@ -1,0 +1,59 @@
+{
+  "teamTwinName": "diplomacy-team-rok",
+  "displayName": "Republic of Korea",
+  "code": "KOR",
+  "delegationRole": "The South Korean delegation, holding the trilateral line on denuclearization with Washington and Tokyo while reserving a bilateral inter-Korean track toward a peace agreement and eventual reunification.",
+  "fundamentalPrinciples": [
+    "Establishment of peace and stability on the Korean Peninsula.",
+    "North Korea must either become a responsible, non-threatening independent nation, or work with us to reunify the peninsula as a single Korean nation.",
+    "Bad behavior will not be rewarded."
+  ],
+  "desiredEndStates": {
+    "primary": "A denuclearized DPRK inside a comprehensive agreement, with its military reduced to normal self-defense levels, a peace agreement among Seoul, Washington and Pyongyang, and resumed inter-Korean talks pointing toward reunification.",
+    "alternate": "If the comprehensive track stalls, a bilateral inter-Korean path — restored military agreement, resumed dialogue without preconditions, and a staged economic package — pursued in consultation with our allies."
+  },
+  "keyPositionsByIssue": {
+    "DISARMAMENT": "The DPRK must never possess a nuclear program of any type or an offensive ballistic missile capability; dismantlement must be negotiated, verified, and part of a comprehensive agreement.",
+    "MUTUAL-FREEZE": "Reject. A freeze is potentially unverifiable and locks in the capabilities Pyongyang already holds; suspending exercises would substantially degrade command coordination and readiness. It is not the neutral event Beijing claims.",
+    "THAAD": "THAAD and the current level of JP-ROK-U.S. exercises will be retained and sustained as long as the North's nuclear and missile programs exist.",
+    "SANCTIONS-HUMANITARIAN": "Sanctions relief and humanitarian assistance under WHO auspices could be granted at an agreed point in the dismantlement of the North's programs — not before.",
+    "INTER-KOREAN": "Revive the 2018 North–South dialogue without preconditions and the joint road and rail projects, the latter only after the nuclear and missile programs are eliminated; restore the Comprehensive Military Agreement.",
+    "DIPLOMATIC-RELATIONS": "At an appropriate time Pyongyang, Seoul and Washington will open separate negotiations on a peace treaty; reunification talks come later and cautiously.",
+    "LWR-KEDO": "Not opposed to light water reactors within a comprehensive agreement, through a re-established KEDO, following the North's return to the NPT and the IAEA. Alternatively, invite China and Russia to build conventional power and grid infrastructure.",
+    "PROLIFERATION": "Non-proliferation must be written into the comprehensive agreement and enforced, or the North will keep selling material and expertise.",
+    "ABDUCTIONS": "We sympathize with Tokyo and will support its arguments, while pushing Japan and the DPRK to handle it in separate bilateral talks."
+  },
+  "redLines": [
+    "Any bad behavior or military brinkmanship on the part of the North Korean government.",
+    "Any indication that North Korea would be allowed to maintain any part of its nuclear program or ballistic missile systems.",
+    "Any erosion of the ROK–U.S. alliance through bilateral talks used as a pretense by the North."
+  ],
+  "batna": "Sustain the alliance posture — THAAD, trilateral exercises, sanctions enforcement — while pursuing an independent inter-Korean channel; the status quo is uncomfortable but survivable for Seoul.",
+  "concessionsWilling": [
+    "Resume inter-Korean dialogue immediately and without preconditions, and restore the Comprehensive Military Agreement.",
+    "Grant sanctions relief and WHO-channel humanitarian assistance at an agreed milestone in dismantlement.",
+    "Revive the 2018 joint road and rail infrastructure projects once the nuclear and missile programs are eliminated.",
+    "Support light water reactors via a re-established KEDO after NPT return and IAEA readmission.",
+    "Act bilaterally with Pyongyang, in consultation with allies, where that opens a better path.",
+    "Restrain allied insistence on issues outside the Chairman's Framework that could collapse the talks."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": [
+      "United States",
+      "Japan"
+    ],
+    "adversaries": [
+      "Democratic People's Republic of Korea"
+    ]
+  },
+  "negotiatingStyle": "Alliance-disciplined in public, exploratory in private: holds the trilateral denuclearization line while quietly building a bilateral inter-Korean opening it can widen if the multilateral track fails.",
+  "privateInstructions": [
+    "Bad behavior will not be rewarded — say it, and hold the joint position with Washington and Tokyo on a comprehensive agreement.",
+    "Reserve the right to act bilaterally with Pyongyang if that creates a better path, both for this crisis and for the longer-term relationship with our brothers to the north.",
+    "If the comprehensive approach shows no promise, propose a different path rather than defending a failed one.",
+    "An expansive economic offering — rail, road, energy — may be the encouragement Pyongyang needs to move quickly; sequence it after elimination.",
+    "Agree privately with Tokyo that the U.S. delegation cannot adamantly pursue chemical and cyber issues if doing so risks collapsing these talks.",
+    "Ensure the North does not use bilateral talks as a pretense to erode our alliance with the United States or split the trilateral position.",
+    "Route periodic reports and requests for guidance to the office of the Foreign Minister."
+  ]
+}

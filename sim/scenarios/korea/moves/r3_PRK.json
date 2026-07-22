@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-dprk",
+ "displayName": "Democratic People's Republic of Korea",
+ "roundNumber": 3,
+ "kind": "closing-statement",
+ "text": "We came for one thing and we did not get it. Our people are hungry now, not at a verified milestone, and this table's answer was that relief must wait upon a declaration of our inventory. Let the record show that every delegation acknowledged a humanitarian crisis and three of them made relief a payment for disarmament. That is the refusal we named in advance as intolerable, and it stands. What we take from Beijing is not nothing. Seoul will meet us without the Americans, and we will go. Washington offered a channel without preconditions and we will use it, though recognition and an end to the war remain the first step and not the last. The chair's freeze, and the halt to the exercises that would accompany it, remains available whenever Washington finds the courage for it. Our nuclear force is not on this table and will not be placed on it by pressure. We give up our weapons when the world gives up its own. To Japan, we have said everything we intend to say.",
+ "tacticsApplied": [
+  "red-line-signaled",
+  "humanitarian-frame",
+  "sovereignty-assertion",
+  "conditional-offer"
+ ]
+}

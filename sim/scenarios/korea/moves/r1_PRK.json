@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-dprk",
+ "displayName": "Democratic People's Republic of Korea",
+ "roundNumber": 1,
+ "kind": "opening-statement",
+ "text": "Mr. Chairman. The Democratic People's Republic of Korea has come to Beijing, but let no delegation mistake our presence for penitence. Our nuclear and ballistic missile capability exists because the United States, with its proxies in Seoul and Tokyo, has for seventy years pursued a hostile policy against our people. Under the pyŏngjin line our deterrent is inseparable from the life of our state, and we say again what our Supreme Leader has always said: we will give up our nuclear weapons when the rest of the world gives up theirs. What is negotiable is this. Sanctions on our financial system were designed to manufacture a humanitarian crisis, and they have; our neediest people go hungry while this table debates sequencing. A solid commitment to immediate humanitarian assistance is the first step, or there is no second step. We support the step-by-step approach of China and Russia. We are open to freezing our programs against suspension of all Japan-ROK-U.S. exercises, and to talks on a treaty finally ending the Korean War. One matter is closed before it opens: we will not discuss Japanese abductions. Tokyo may begin with the reparations it owes our people, or it may remain silent.",
+ "tacticsApplied": [
+  "sovereignty-assertion",
+  "red-line-signaled",
+  "humanitarian-frame",
+  "anchoring"
+ ]
+}

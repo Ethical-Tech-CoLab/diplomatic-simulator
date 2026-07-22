@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-rok",
+ "displayName": "Republic of Korea",
+ "roundNumber": 1,
+ "kind": "opening-statement",
+ "text": "Mr. Chairman, the Republic of Korea thanks China for convening us. Let me be direct with our brothers in the North: bad behavior will not be rewarded, and Seoul will not buy the same horse twice. The DPRK must never possess a nuclear program of any type or an offensive ballistic missile capability, and we hold that position jointly with the United States and Japan inside a comprehensive agreement. THAAD and our joint exercises will be sustained as long as those programs exist, and we cannot accept a freeze that is unverifiable and simply locks in what Pyongyang already holds. But this government was elected to reduce tension, and we come with more than refusals. We are ready to resume North-South dialogue immediately and without preconditions, to restore the Comprehensive Military Agreement, and to reopen the 2018 discussions on road and rail links. Humanitarian assistance under WHO auspices, and phased sanctions relief in the sectors that touch ordinary lives, can be granted at agreed points in dismantlement. A peace agreement among Pyongyang, Seoul and Washington is our goal, not our concession. We ask Pyongyang to test our sincerity in a room with only Koreans in it.",
+ "tacticsApplied": [
+  "red-line-signaled",
+  "coalition-building",
+  "conditional-offer",
+  "principled-bargaining-frame"
+ ]
+}

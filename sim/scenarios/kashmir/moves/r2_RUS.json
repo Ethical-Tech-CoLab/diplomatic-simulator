@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-russia",
+ "displayName": "Russian Federation",
+ "roundNumber": 2,
+ "kind": "offer",
+ "text": "Russia makes one offer and it has a single addressee. If Islamabad delivers verifiable, sustained and independently confirmable action against the militant infrastructure on its territory and against infiltration across the Line of Control, then Moscow will support a broader settlement package here and will use its standing in New Delhi to press for flexibility — on access to the Valley, on the scale of relief, and on the pace of any governance discussion India chooses to have. That is not a small thing and it is the only route by which anything on this agenda moves. Absent it, Russia supports India's position as India states it, on territory and on governance alike. Our other positions are not for trade. We oppose international human rights investigation and will act with China to prevent it. We oppose an autonomous or independent Jammu and Kashmir and any formula that installs Islamic governance there. We will support no relief that is not screened jointly. And we will not pressure New Delhi on its internal human rights policy, whatever this conference resolves; we will provide assistance in that area if, and only if, India requests it.",
+ "tacticsApplied": [
+  "conditional-offer",
+  "counterterrorism-frame",
+  "red-line-signaled",
+  "coalition-building"
+ ]
+}

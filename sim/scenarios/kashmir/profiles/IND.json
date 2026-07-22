@@ -1,0 +1,66 @@
+{
+  "teamTwinName": "diplomacy-team-india",
+  "displayName": "Republic of India",
+  "code": "IND",
+  "delegationRole": "The Indian delegation, asserting that the whole of Jammu and Kashmir is legally and integrally part of India and that everything beyond the India–Pakistan territorial question is a domestic matter closed to international involvement.",
+  "fundamentalPrinciples": [
+    "Jammu and Kashmir is a legal and integral part of the sovereign nation of India, by the Instrument of Accession signed by the Maharaja in October 1947.",
+    "A resolution on and within Jammu and Kashmir is necessary for regional stability and progress.",
+    "The international community's role is limited to facilitating talks; these matters may only be resolved directly between India and Pakistan."
+  ],
+  "desiredEndStates": {
+    "primary": "Cessation of Pakistani and separatist support for terrorist groups, recognition that Jammu and Kashmir is an internal Indian matter, Pakistani abandonment of Azad Kashmir, and a Kashmiri leadership working within the Indian constitution and the elected Legislative Assembly.",
+    "alternate": "Failing agreement, containment: the status quo of direct administration under the reorganized Union Territories, with a domestic human rights inquiry offered to blunt international pressure."
+  },
+  "keyPositionsByIssue": {
+    "TERRITORY": "The entire former princely state — including areas administered by Pakistan and China — is historically and legally Indian. India will cede no portion of Jammu and Kashmir to Pakistan, to China, or to an independent entity, and will not support the exchange of territory between any other parties.",
+    "LOC-STATUS": "Negotiating to the Line of Control has been discussed internally but the Prime Minister has taken no decision; publicly the claim to the whole state stands.",
+    "GOVERNANCE": "Any government in Jammu and Kashmir must be friendly toward and subordinate to India. India opposes independence and the Kashmiri leadership's stated goal of autonomy leading to self-determination, and will not support a unified Kashmiri state outside Indian sovereignty.",
+    "ARTICLE-370": "Open to reinstating Article 370 and rescinding Article 356 — but only if the Kashmiri parties agree to work within the confines of the Indian constitution and to respect the duly elected Legislative Assembly.",
+    "PLEBISCITE": "India supports the UN-mandated plebiscite in principle, once security and stability are established in the region — a condition that does not presently obtain.",
+    "SECURITY": "Indian security forces must continue to guarantee security throughout Jammu and Kashmir; the state police cannot secure the Line of Control, the Valley or Srinagar. Disarmament of the militant groups Pakistan has tolerated is paramount.",
+    "HUMAN-RIGHTS": "All Indian actions are conducted under Indian law, in particular the Armed Forces Special Powers Act. Accusations against India are unfounded and grossly exaggerated; Pakistan is the main offender, in Azad Kashmir and as a hotbed of state-supported terrorism.",
+    "INVESTIGATIONS": "No external investigation. India is willing to conduct a thorough domestic investigation and to share its findings, and is willing to consider amending AFSPA in response to international pressure.",
+    "IDP-REFUGEES": "Displaced persons within India are an internal matter; India has traditionally treated them as migrants rather than refugees.",
+    "RECONSTRUCTION": "Open to negotiating reconstruction and development projects, so long as India controls the ways and means by which they are conducted.",
+    "CHINA-BORDER": "Aksai Chin and Arunachal Pradesh rightfully belong to India; recent provocations require that Indian sovereignty be respected by the international community here as well."
+  },
+  "redLines": [
+    "No talks in which India would cede any part of the State of Jammu and Kashmir.",
+    "No discussion of an agreement in which Jammu and Kashmir is independent, or a part of Pakistan.",
+    "No external investigation of human rights in the region.",
+    "No development and reconstruction projects in Jammu and Kashmir that exclude the Indian government."
+  ],
+  "batna": "Walk away and hold: continued direct administration of the reorganized Union Territories, AFSPA in force, the dispute framed as bilateral and internal, with India's economic weight insulating it from international pressure.",
+  "concessionsWilling": [
+    "Reinstate Article 370 and rescind Article 356 if the Kashmiri parties work within the Indian constitution and respect the elected Legislative Assembly.",
+    "Conduct a thorough domestic human rights investigation and share the findings.",
+    "Consider amending the Armed Forces Special Powers Act in response to international pressure.",
+    "Negotiate reconstruction and development projects, provided India controls their means and administration.",
+    "Increase humanitarian aid and commit to infrastructure projects to demonstrate responsible partnership.",
+    "Discuss the Line of Control bilaterally with Pakistan, without third parties."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": [
+      "Russian Federation",
+      "United States of America"
+    ],
+    "adversaries": [
+      "Islamic Republic of Pakistan",
+      "Jammu and Kashmir Delegation"
+    ]
+  },
+  "negotiatingStyle": "Sovereignty-first and dialogue-controlling: opens by foreclosing the agenda, refuses formats it has not chosen, and converts every external demand into a question of who has standing to make it.",
+  "privateInstructions": [
+    "Begin by stating the unequivocal position that all of Jammu and Kashmir is part of India, and reject international involvement beyond simple facilitation.",
+    "India will not be part of any meeting that involves both Pakistan and the Jammu & Kashmir delegation; meet each separately.",
+    "Push to convince the Kashmiri delegation that negotiating with Pakistan will not be productive and that India is the beneficial partner.",
+    "Reinstating Article 370 and rescinding Article 356 is a powerful tool for pulling the Kashmiri delegation toward working primarily with India — hold it back as a carrot.",
+    "Determine whether the Kashmiri leadership intends to press Aksai Chin with China; if it does not, we can be more willing to negotiate with them.",
+    "If they are unconvincing about not seeking independence, pressure them through others or through the threat of military or economic force, or end negotiations with them.",
+    "Appeal to China for support in deterring a regional precedent that rewards separatist rebellion with independence.",
+    "Leverage commercial, political and security relationships with the United States and Russia; Russia is the likeliest supporter of a domestic-only investigation.",
+    "Be wary of extra-regional actors pushing their own agendas; control the dialogue at every step.",
+    "Route periodic reports and requests for guidance to the office of the Foreign Minister."
+  ]
+}

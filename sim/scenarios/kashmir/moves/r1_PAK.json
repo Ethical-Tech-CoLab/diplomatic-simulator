@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-pakistan",
+ "displayName": "Islamic Republic of Pakistan",
+ "roundNumber": 1,
+ "kind": "opening-statement",
+ "text": "Special Representative, Jammu and Kashmir is the unfinished business of Partition, and no recitation of a maharaja's signature can settle what eighty million people were never asked. Security Council Resolution 47 is not a historical curiosity; it is binding, unimplemented law, and it was India that refused the withdrawal on which the plebiscite was conditioned. Pakistan's position is unchanged. The plebiscite must be held on its original terms. Indian forces must withdraw and the repression must end. And the Line of Control is a ceasefire line, not a border — Pakistan will not recognize it as one at this conference or any other. We come with three further demands. An international investigation into the conduct of Indian security forces in the occupied Valley, which our colleagues in London and Washington have rightly called for. Relief for the displaced in Azad Kashmir and across Pakistan, which our resources cannot carry alone. And an end to the fragmentation of the territory into administrative pieces designed to divide its Muslim population. We welcome every delegation that has come here to internationalize a question India would prefer to bury.",
+ "tacticsApplied": [
+  "appeal-to-law",
+  "counter-anchoring",
+  "red-line-signaled",
+  "humanitarian-frame"
+ ]
+}

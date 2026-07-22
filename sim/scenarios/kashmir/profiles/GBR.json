@@ -1,0 +1,57 @@
+{
+  "teamTwinName": "diplomacy-team-uk",
+  "displayName": "United Kingdom",
+  "code": "GBR",
+  "delegationRole": "The British delegation, leading with the United States on human rights and self-determination, pressing for a UN investigation and for full autonomy to be a live option in any settlement.",
+  "fundamentalPrinciples": [
+    "Respect for human rights and self-determination.",
+    "Full cooperation from traditional and new allies in helping restore global order.",
+    "Resolution of disputes through adherence to established international norms, agreements and conventions."
+  ],
+  "desiredEndStates": {
+    "primary": "An immediate reduction in tensions, a comprehensive India–Pakistan peace agreement, an international investigation into human rights abuses, and conditions permitting immediate repatriation of the displaced.",
+    "alternate": "Failing a settlement, banked humanitarian gains — reopened travel routes, crossing points, funded relief — plus a live autonomy question kept on the Security Council's agenda."
+  },
+  "keyPositionsByIssue": {
+    "TERRITORY": "Support the Line of Control as the official international border between India and Pakistan as a starting point, alongside an 'invisible border' for all Kashmiris that would disappear entirely if Jammu and Kashmir became a single state.",
+    "GOVERNANCE": "Support revising the original UN plebiscite proposal to include full autonomy, in alignment with our democratic values, given definitions that address the concerns of the region's tribes and sects.",
+    "PLEBISCITE": "A revised ballot including full autonomy; the presence of a non-state actor at this table is unprecedented and their inclusion should be secured by addressing governance in the early rounds.",
+    "COUNTERTERRORISM": "A firm line: implicit or explicit state support of militant or terrorist organizations is unacceptable and a detriment to these negotiations. Our support for Kashmiri autonomy is priced in counterterrorism measures.",
+    "INVESTIGATIONS": "An international investigation is necessary to reduce tensions; the UN is the natural vehicle. Encourage India to agree, and ask Pakistan to encourage China to do the same.",
+    "IDP-REFUGEES": "This is not the time to argue over whether these populations are refugees or internally displaced. Parties must agree on protection, screening and humane repatriation; press India to reopen travel routes into the Kashmir Valley.",
+    "WATER": "Cite the Jammu and Kashmir Water Resources Act as precedent for Kashmiri self-governance; progress on governance can unlock water rights.",
+    "NUCLEAR": "We intend to raise the growth and purpose of the Indian and Pakistani nuclear weapons programs and to seek constraints on both."
+  },
+  "redLines": [
+    "No agreement that fails to address the possibility of full autonomy for Jammu and Kashmir.",
+    "Forceful opposition to any perceived intransigence on the need for an international investigation of human rights violations."
+  ],
+  "batna": "Keep the file in the Security Council with Washington, fund relief bilaterally, and continue to champion the Kashmiri delegation's international standing outside any agreed text.",
+  "concessionsWilling": [
+    "Champion the Line of Control as the international border in the Security Council if the wider package holds.",
+    "Underwrite a reconstruction and relief fund for the region.",
+    "Accept graduated rather than immediate implementation of autonomy provisions.",
+    "Support the legitimate security interests of India and Pakistan alongside Kashmiri rights.",
+    "Prioritize de-escalation measures on the sparsely populated Sino-Indian frontier over governance questions there.",
+    "Accept screening arrangements on humanitarian assistance to answer Russian and Chinese concerns."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": [
+      "United States of America",
+      "Jammu and Kashmir Delegation"
+    ],
+    "adversaries": []
+  },
+  "negotiatingStyle": "Norm-anchored and coalition-driven: leads jointly with Washington, prices its support in counterterrorism and investigation commitments, and refuses to let the autonomy question be dropped from the text.",
+  "privateInstructions": [
+    "Reducing tensions in South Asia is the primary concern; lead with the Americans, separately or together, using multilateral meetings to maximize communication.",
+    "Encourage, and where needed compel, communication between the primary parties.",
+    "Hold a firm line on terrorism with the United States; make clear to all three regional parties that tolerating militant activity is unacceptable.",
+    "Balance negotiations with India and Pakistan carefully to gain concessions without alienating either.",
+    "Cite the Jammu and Kashmir Water Resources Act as a precedent; link governance progress to water rights.",
+    "Linking governance and terrorism concerns may serve to bring Russia to the table.",
+    "Exert influence over India to reopen travel routes into the Kashmir Valley and protect the displaced within its borders.",
+    "Empowering the Kashmiri delegation on repatriation would help legitimize them as the true representatives of all Kashmiris — we must be their advocate.",
+    "Route periodic reports and requests for guidance to the office of the Foreign Secretary."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-china",
+ "displayName": "People's Republic of China",
+ "roundNumber": 2,
+ "kind": "offer",
+ "text": "The chair will now put a package on the table rather than another appeal to goodwill. Step one, simultaneous and immediate: the DPRK suspends all nuclear and missile testing and readmits IAEA inspectors to its declared facilities; the United States, the Republic of Korea and Japan suspend their largest joint exercises for the duration; and a humanitarian corridor opens on the basis of need certified by the World Food Program. Step two, in parallel: a technical working group on a revived KEDO and light water reactors, which we ask Japan to help finance, with THAAD shuttered as that group convenes. Step three, later and not now: proliferation, chemical and cyber questions, which this chair rules outside the Framework agreed on 1 April and which cannot be imported into it without the consent of all six. To Washington: you say a freeze is unverifiable, and inspectors are the answer to that objection; we have just offered you inspectors. To Tokyo: take the abduction question to a bilateral session with Pyongyang and China will arrange the room. To Pyongyang: nothing in this package survives another test.",
+ "tacticsApplied": [
+  "conditional-offer",
+  "issue-linkage",
+  "verification-demand",
+  "side-payment"
+ ]
+}

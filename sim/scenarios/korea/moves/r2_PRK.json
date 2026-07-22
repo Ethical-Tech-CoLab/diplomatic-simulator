@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-dprk",
+ "displayName": "Democratic People's Republic of Korea",
+ "roundNumber": 2,
+ "kind": "offer",
+ "text": "We have listened. To the Chairman: we accept the substance of your step one, with a correction that is not negotiable. Inspectors are not a gift given in advance. If Washington eases the financial sanctions imposed on our banks and their correspondent institutions, and the humanitarian corridor the chair describes opens first, then the DPRK will suspend testing and readmit IAEA monitors to Yongbyon for the duration of the freeze. To the United States: we will go further than you expect. We do not demand the withdrawal of your forces from the South, from Japan, or from Guam as a condition of this step. Let them stay, without exercises, in exchange for a written guarantee, signed and not merely stated, that you will not invade or attack our nation. Recognition and a declaration ending the war come before disarmament, not after, and on that we will not move. To Seoul: we will meet you, Koreans with Koreans, without the Americans in the room. To Tokyo: you have again raised a matter this table was told is closed. Our delegation has nothing further to say to Japan.",
+ "tacticsApplied": [
+  "conditional-offer",
+  "issue-linkage",
+  "red-line-signaled",
+  "humanitarian-frame"
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-us",
+ "displayName": "United States of America",
+ "roundNumber": 1,
+ "kind": "opening-statement",
+ "text": "Mr. Chairman, the United States comes to Beijing prepared to negotiate seriously and unprepared to purchase the same commitments a fourth time. Our position is unchanged and fully coordinated with the Republic of Korea and Japan. What is required is the irreversible denuclearization of the DPRK: an internationally monitored shutdown and disablement of the nuclear program, verified termination of medium- and long-range ballistic missiles, return to the NPT as a non-nuclear weapons state, and readmission of the IAEA without conditions, all inside one comprehensive agreement and all before sanctions relief. We will not accept the mutual freeze. A freeze of a program no one may inspect is not a freeze; it locks in existing capability while cancelling the exercises that keep this alliance able to defend itself. That is not the neutral bargain Beijing describes, and THAAD stays. We also serve notice that any agreement must end the North's proliferation, including its chemical transfers and its cyber operations. What we offer today is concrete: direct dialogue between Washington and Pyongyang, without preconditions and uncoupled from this process, beginning whenever the DPRK is ready.",
+ "tacticsApplied": [
+  "anchoring",
+  "red-line-signaled",
+  "verification-demand",
+  "conditional-offer"
+ ]
+}

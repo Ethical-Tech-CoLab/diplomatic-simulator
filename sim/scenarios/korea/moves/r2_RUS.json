@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-russia",
+ "displayName": "Russian Federation",
+ "roundNumber": 2,
+ "kind": "offer",
+ "text": "Russia supports the chair's package and adds what only Russia can. Immediately, without waiting on any milestone: supervised humanitarian shipments through local North Korean authorities with Russian monitors alongside, and commercial contracts to rebuild the North's grid and add conventional generating capacity. That removes the electricity argument from this table entirely, and removes it faster than any reactor could. In exchange we ask Pyongyang for one thing, the IAEA monitors on the terms the chair described, and no test of any kind while this process runs. If a provocation occurs, Russian relief stops; we say that to our friends as plainly as to anyone else. To Washington: your sanctions on the North's banks are the single most effective lever you hold and the one you refuse to move. Ease them and you will obtain more from Pyongyang in a month than three years of exercises have produced. To Seoul: your offer is serious and we will support it. And a reminder to this table, a comprehensive package presented as the only acceptable form of agreement is a decision to have no agreement, and any attempt to settle this peninsula in a smaller room than this one will not bind us.",
+ "tacticsApplied": [
+  "side-payment",
+  "conditional-offer",
+  "red-line-signaled",
+  "coalition-building"
+ ]
+}

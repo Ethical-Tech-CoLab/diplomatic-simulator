@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-japan",
+ "displayName": "Japan",
+ "roundNumber": 2,
+ "kind": "offer",
+ "text": "Japan will match seriousness with seriousness. If a comprehensive agreement is concluded that dismantles the nuclear and missile programs irreversibly, returns the DPRK to the NPT and the IAEA, and includes a satisfactory accounting of our abducted citizens, then Japan will fund a substantial share of a re-envisioned KEDO, open normalization talks, and bring an economic cooperation package exceeding in value everything else offered at this table. That is our card, and we place it face up. Its conditions are not decorative. A KEDO in which the DPRK operates the reactors will not be financed by Japan; the corporation installs and operates them, or there is nothing to install. Sanctions relief before a comprehensive agreement is a red line for my government, and we will not join a step-by-step sequence whose early payments are irreversible and whose final steps are hypothetical. To the delegation that has announced it will not speak to us: we will speak to you anyway, here and in any bilateral room the chair can arrange, for as long as families in Japan are still waiting.",
+ "tacticsApplied": [
+  "conditional-offer",
+  "red-line-signaled",
+  "issue-linkage",
+  "principled-bargaining-frame"
+ ]
+}

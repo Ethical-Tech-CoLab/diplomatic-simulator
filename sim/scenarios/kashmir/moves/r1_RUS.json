@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-russia",
+ "displayName": "Russian Federation",
+ "roundNumber": 1,
+ "kind": "opening-statement",
+ "text": "Special Representative, Russia's position on Jammu and Kashmir has not changed in decades and will not change this week. The state acceded to India in 1948 and that accession is embedded in the Indian constitution. The governance of the territory is India's internal affair, and this conference has no standing to adjudicate it. There is one question here that is genuinely international, and it is terrorism. The attack at Pahalgam last April, and the exchange of strikes that followed, are what brought this conference into existence, and they did not originate in a governance dispute. Moscow's principal ask of this conference is directed at Islamabad: significant, verifiable and sustained action against the militant infrastructure operating from Pakistani territory. Deliver that and much becomes possible. On the other files, our position is straightforward. We oppose international human rights investigations, which would establish a precedent for investigations within other states, including our own. We oppose any autonomous or independent Jammu and Kashmir, and we will condemn any attempt to install Islamic governance formulas there. And we will support no assistance to displaced populations that is not screened, because we have seen where unscreened aid goes.",
+ "tacticsApplied": [
+  "counterterrorism-frame",
+  "red-line-signaled",
+  "sovereignty-assertion",
+  "coalition-building"
+ ]
+}

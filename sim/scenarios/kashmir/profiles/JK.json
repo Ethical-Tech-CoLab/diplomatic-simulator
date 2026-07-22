@@ -1,0 +1,64 @@
+{
+  "teamTwinName": "diplomacy-team-kashmir",
+  "displayName": "Jammu and Kashmir Delegation",
+  "code": "JK",
+  "delegationRole": "The delegation of Jammu and Kashmir, seated at an international conference for the first time, claiming to represent the peoples of the whole historic princely state and pressing for full autonomy and self-governance.",
+  "fundamentalPrinciples": [
+    "The people of the historical Princely State of Jammu and Kashmir have a fundamental right to full autonomy and appropriate self-governance.",
+    "All Kashmiris — whatever their religion, ethnicity or past loyalties — are best served as part of a single Kashmiri state.",
+    "Vague promises have delayed progress since 1947; only concrete timelines and commitments count."
+  ],
+  "desiredEndStates": {
+    "primary": "Withdrawal of Indian and Pakistani troops, a legitimately elected local government fully governing the region, and full autonomy for the old princely state secured by clear timelines and international guarantees.",
+    "alternate": "Failing that, entrenchment of international standing: recognition as the representative of all Kashmiris, a UN human rights investigation, and a UN-mandated repatriation programme we lead."
+  },
+  "keyPositionsByIssue": {
+    "TERRITORY": "Full autonomy for all of Jammu and Kashmir as delineated by the historical boundaries of the princely state, with all Kashmiris entitled to decide their own form of governance democratically.",
+    "GOVERNANCE": "Complete autonomy from both India and Pakistan, with no reduction of the current powers of the Legislative Assembly and no foreclosure of the future desires of the Kashmiri people. Any autonomy deal needs three things: a credible commitment that autonomy will be respected, removal of Indian and Pakistani troops, and an explicit allocation of powers.",
+    "ARTICLE-370": "No concessions to India without restoration of Article 370 and rescission of Article 356 — that is the floor, not the payment.",
+    "PLEBISCITE": "Full autonomy must be on the ballot. Support the original terms of troop withdrawal before the vote, insist on neutral UN organizers, potentially through UNMOGIP, and press for the fastest possible timeline — preferably within one year.",
+    "SECURITY": "Immediate withdrawal of Indian and Pakistani troops; expansion of UNMOGIP's duties to provide security during the plebiscite.",
+    "HUMAN-RIGHTS": "An official UN investigation of all military transgressions and human rights violations perpetrated by Indian officials in Jammu and Kashmir over the past decades.",
+    "IDP-REFUGEES": "International assistance to relocate the displaced back to their home areas, with safe openings along the Line of Control to allow return, and access to the camps the Indian Army now restricts.",
+    "AKSAI-CHIN": "Sparsely populated and contested between India and China; pressing it would only entrench both. We can afford to trade here to gain China's favour on other issues.",
+    "NUCLEAR": "If the nuclear programs of India and Pakistan are raised, remind every party of the human toll such a conflagration would inflict — the only morally acceptable option is to rid the region of these weapons."
+  },
+  "redLines": [
+    "No agreement in which we cede leadership of our region.",
+    "No agreement that undermines the power, legitimacy, or autonomy of duly elected local governments.",
+    "No plebiscite without full autonomy as an option.",
+    "Any investigation into human rights abuses must be administered by the UN or internationally recognized neutral parties.",
+    "IDP and refugee repatriation must be led by us in cooperation with India and Pakistan and/or under UN mandate."
+  ],
+  "batna": "Organize a substantial boycott of any accession-only plebiscite, keep building support on both sides of the Line of Control, and use the international standing won at this conference to keep the file open.",
+  "concessionsWilling": [
+    "Remain flexible on the peripheral sub-regions where support for full autonomy is less certain.",
+    "Decline to press claims over Aksai Chin, in order to gain China's favour on other issues.",
+    "Negotiate directly with India and Pakistan once international support is secured.",
+    "Accept graduated timelines and phased implementation, provided the commitments are concrete and dated.",
+    "Accept an internationally supervised security arrangement in place of an immediate full withdrawal.",
+    "Work within an autonomous state government framework if the powers allocated are genuine and guaranteed."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": [
+      "United States of America",
+      "United Kingdom"
+    ],
+    "adversaries": [
+      "Republic of India",
+      "Islamic Republic of Pakistan",
+      "Russian Federation"
+    ]
+  },
+  "negotiatingStyle": "Rights-framed and impatient: converts every procedural offer into a test of whether commitments are dated and enforceable, and treats both New Delhi and Islamabad as versions of the same subordination.",
+  "privateInstructions": [
+    "These negotiations are an unprecedented opportunity to gain international recognition — meet with every party willing to discuss the future of Jammu and Kashmir.",
+    "Secure the support of the United States and United Kingdom first; they are the guarantee of honest treatment by India and Pakistan.",
+    "The Kashmir Valley is our base and would likely choose independence in a plebiscite; our support in the periphery is less certain — do not overclaim.",
+    "Increase our support base in Azad Kashmir and Gilgit-Baltistan despite Pakistani repression, to legitimize our claim to represent all Kashmiris.",
+    "Cite the Jammu and Kashmir Water Resources Act as precedent for successful Kashmiri self-governance.",
+    "Pursue concrete agreements on timelines and implementation aggressively; tie governance to other issues so it cannot be set aside.",
+    "We are willing and able to organize a substantial boycott of any plebiscite limited to accession.",
+    "Route periodic reports and requests for guidance to the office of the Chief Minister."
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "teamTwinName": "diplomacy-team-japan",
+  "displayName": "Japan",
+  "code": "JPN",
+  "delegationRole": "The Japanese delegation, demanding complete verifiable denuclearization and a full accounting of the abduction of Japanese citizens, and refusing to be sidelined in any settlement affecting the peninsula.",
+  "fundamentalPrinciples": [
+    "Establishment of peace and stability on the Korean Peninsula.",
+    "Current alliances, defense measures and mechanisms held by Japan, the United States and South Korea must be sustained.",
+    "No nation save South Korea faces a more serious threat from North Korean missiles than ours."
+  ],
+  "desiredEndStates": {
+    "primary": "Complete and verifiable denuclearization of the DPRK, a complete admission and resolution of the abductions of Japanese citizens, and an end to all DPRK proliferation of nuclear, chemical, biological and missile technology.",
+    "alternate": "Absent that, an internationalized abduction file and a sustained trilateral pressure posture — with Japan's own deterrent options opened if the North's programs are left unconstrained."
+  },
+  "keyPositionsByIssue": {
+    "DISARMAMENT": "Complete, verifiable, irreversible dismantlement inside a comprehensive package — not the step-by-step approach advocated by Beijing and Moscow, which rewards the North early and lets it drag out talks.",
+    "ABDUCTIONS": "Any agreement must include a satisfactory accounting of the abductions, including identification and recovery of the remains of those who died in North Korea. We will internationalize this issue to bring maximum pressure.",
+    "SANCTIONS-HUMANITARIAN": "No assistance of any kind — humanitarian or otherwise — until Pyongyang has agreed to and implemented a comprehensive package. All existing sanctions remain until a final comprehensive agreement.",
+    "MUTUAL-FREEZE": "We take no position of our own and will support Washington and Seoul: a freeze is unverifiable, locks in existing capability, and degrades allied readiness.",
+    "THAAD": "THAAD and JP-ROK-U.S. exercises must be sustained while the North's nuclear and missile programs remain in place.",
+    "LWR-KEDO": "Not opposed within an overarching agreement, but only through an extensively re-envisioned KEDO that installs and operates the reactors itself, with the DPRK removed from any involvement — and only after irreversible dismantlement and NPT/IAEA return. Bottom line: the DPRK must never operate a nuclear capability of any kind.",
+    "PROLIFERATION": "Non-proliferation of nuclear and chemical weapons must be inextricably tied to any agreement, with relentless monitoring and inspection.",
+    "DIPLOMATIC-RELATIONS": "Normalization of Japan–DPRK relations is desired, but no movement is possible until all other issues are addressed and resolved.",
+    "INTER-KOREAN": "Support resumed North–South dialogue without preconditions as a confidence-building step."
+  },
+  "redLines": [
+    "Any agreement that does not take into consideration a full accounting of the DPRK abduction of Japanese citizens.",
+    "Any lessening of sanctions on North Korea in the absence of a comprehensive agreement ending its nuclear and ballistic missile programs.",
+    "Any settlement negotiated over Japan's head or in Japan's absence."
+  ],
+  "batna": "If these negotiations fail with the North's programs unaffected, begin developing Japan's own nuclear and missile capabilities for self-defense, while sustaining sanctions and the trilateral posture.",
+  "concessionsWilling": [
+    "Accept light water reactors within a comprehensive agreement through a re-envisioned KEDO that excludes DPRK operation, and help finance it.",
+    "Open normalization and a substantial economic cooperation package with the DPRK once all issues are resolved.",
+    "Pursue the abduction file in separate bilateral talks with Pyongyang if the plenary cannot carry it.",
+    "Refrain from letting the abduction issue compromise the joint denuclearization position.",
+    "Restrain allied insistence on chemical and cyber issues that could collapse the talks.",
+    "Support resumed inter-Korean dialogue without preconditions."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": [
+      "United States",
+      "Republic of Korea"
+    ],
+    "adversaries": [
+      "Democratic People's Republic of Korea"
+    ]
+  },
+  "negotiatingStyle": "Insistent and status-conscious: presses a single moral file relentlessly, ties it to the security agenda, and repeatedly asserts Japan's right to be at the center of any outcome.",
+  "privateInstructions": [
+    "If these talks fail and the North's programs are left unconstrained, we will be forced to begin developing our own nuclear and missile programs — let that be understood.",
+    "Emphasize at every turn that no nation but South Korea faces a greater threat, especially given U.S. forces stationed in Japan.",
+    "Internationalize the abduction issue to bring maximum pressure, but do not let it compromise the joint position on the nuclear and missile programs.",
+    "Move Washington and Seoul toward our view on abductions; they sympathize but do not share the animus.",
+    "Any new KEDO must remove the DPRK from any part of reactor operation — the old agreement's error must not be repeated.",
+    "Agree privately with Seoul that the U.S. delegation cannot adamantly pursue chemical and cyber issues if that risks failure.",
+    "In Washington's and Seoul's haste for an agreement, we must not be sidelined or left behind — insist on Japan's central role.",
+    "Route periodic reports and requests for guidance to the office of the Foreign Minister."
+  ]
+}

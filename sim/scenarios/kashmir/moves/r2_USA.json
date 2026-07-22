@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-us",
+ "displayName": "United States of America",
+ "roundNumber": 2,
+ "kind": "offer",
+ "text": "The United States tables an integrated package and asks the room to take it as a whole. Territory: the Line of Control becomes the international border, with an invisible border guaranteeing every Kashmiri unrestricted access to the whole of the former princely state. Governance: graduated, limited autonomy on a defined timeline, with the plebiscite proposal revised to include it — we are not asking anyone to accept independence, and we have said so to Srinagar directly. Human rights: a UN investigation with a mandate narrow enough to be finished. Displaced persons: immediate repatriation, protection and medical care, with joint screening that meets Moscow's and Beijing's stated concern, and reopened travel routes into the Valley. The price of American support for any autonomy provision is verifiable counterterrorism action, and that applies to New Delhi, to Islamabad and to Srinagar equally. Islamabad, we ask you to use your standing in Beijing on the investigation. Finally, we and London intend to open a strategic risk-reduction track between the two nuclear-armed parties — hotlines, launch pre-notification, incident protocols. If that obstructs the humanitarian chapter we will move it to a separate table, but we will not drop it.",
+ "tacticsApplied": [
+  "conditional-offer",
+  "issue-linkage",
+  "verification-demand",
+  "coalition-building"
+ ]
+}

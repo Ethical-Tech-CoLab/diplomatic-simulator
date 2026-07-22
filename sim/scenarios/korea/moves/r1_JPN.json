@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-japan",
+ "displayName": "Japan",
+ "roundNumber": 1,
+ "kind": "opening-statement",
+ "text": "Mr. Chairman, Japan is grateful to China for convening these talks and will state at the outset what our government cannot leave this room without. First, complete and verifiable denuclearization: no nation other than the Republic of Korea lives closer to these missiles than ours, and every American facility on our soil sits inside their range. Second, a full accounting of the abduction of Japanese citizens, including identification and return of the remains of those who died in the North. Our prime minister has said she is ready to meet Chairman Kim on this matter; we do not raise it to obstruct, we raise it because forty years of silence is not an answer. Third, sanctions remain, and Japan will provide no assistance of any kind, humanitarian or otherwise, outside a comprehensive agreement. We reject a step-by-step sequence that pays Pyongyang early and lets it negotiate indefinitely while its programs advance. And we will say plainly what our public already understands: if these talks end with the North's capabilities unconstrained, Japan will be forced to reconsider its own defense posture. Whatever is decided here concerns Japan directly, and Japan will not be informed of it afterwards.",
+ "tacticsApplied": [
+  "anchoring",
+  "red-line-signaled",
+  "deterrence-frame",
+  "issue-linkage"
+ ]
+}

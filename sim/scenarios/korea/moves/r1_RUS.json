@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-russia",
+ "displayName": "Russian Federation",
+ "roundNumber": 1,
+ "kind": "opening-statement",
+ "text": "Mr. Chairman, the Russian Federation welcomes the resumption of this process and reminds the table that we are not a guest at it. We border both China and the DPRK, and no settlement on this peninsula will be durable if it is drafted by Washington and handed to Moscow for signature. Our assessment differs from that of our American, Japanese and South Korean colleagues. Mutual deterrence holds, the risk of war is remote, and the alarm we have just heard is a device for extracting concessions. THAAD is an absurd overreach against a low-risk threat and a cause of the very tension it claims to answer; shutter it and remove it. Russia has never recognized the DPRK as a nuclear state and does not do so now. But denuclearization will be reached through a series of smaller, achievable agreements, not a comprehensive package delivered as an ultimatum. Begin with what is immediate: supervised humanitarian assistance through local authorities, and easing of the U.S. financial sanctions that are strangling ordinary North Koreans. Russia stands ready to supply power, rebuild the grid, and serve as an honest broker, a role Pyongyang has trusted before.",
+ "tacticsApplied": [
+  "sovereignty-assertion",
+  "counter-anchoring",
+  "humanitarian-frame",
+  "coalition-building"
+ ]
+}

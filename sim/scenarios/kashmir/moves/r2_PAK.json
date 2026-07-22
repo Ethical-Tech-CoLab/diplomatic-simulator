@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-pakistan",
+ "displayName": "Islamic Republic of Pakistan",
+ "roundNumber": 2,
+ "kind": "offer",
+ "text": "Pakistan tables a package that answers the security concern honestly. Demilitarize Jammu and Kashmir on both sides, place the territory under joint India–Pakistan administration in the interim, and hold the plebiscite on its 1948 terms under UN supervision. Under Pakistani sovereignty we are prepared to support autonomy for Kashmir far exceeding anything Article 370 ever provided — Article 370 still let New Delhi legislate on defence, keep its troops and interfere at will, which is why we reject it as a solution. To the Kashmiri delegation: our support is available, and its price is that you withdraw the claim to speak for Azad Kashmir. Until you do, we cannot treat you as the representative of all Kashmiris and neither will anyone else. To Beijing: an autonomous entity astride the Karakoram corridor would sit on the road to Gwadar; consider what that means for your access to the sea. To Moscow: consider what an internationally blessed autonomy precedent means in your own southern republics. To Washington and London: we support your investigation, provided its mandate covers the conduct of Indian security forces. And we require relief funding that carries no conditions on our Kashmir policy.",
+ "tacticsApplied": [
+  "conditional-offer",
+  "coalition-building",
+  "issue-linkage",
+  "red-line-signaled"
+ ]
+}

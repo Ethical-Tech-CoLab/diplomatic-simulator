@@ -42,3 +42,19 @@ only. Search-engine indexing is disabled via `robots.txt` and per-page `noindex`
 ## Attribution
 
 Adapted from the original Nova Fellowship portfolio work. See individual files for prior attribution.
+
+---
+
+## Peer Review
+
+An independent academic peer review of this report is available in [`peer-review/`](peer-review/) ([Word](peer-review/DiplomaticSimulator-Peer-Review.docx) &middot; [Markdown](peer-review/DiplomaticSimulator-Peer-Review.md)).
+
+**Recommendation:** Major revisions
+
+**What the review found:**
+
+- The deepest limitation, that one model plays every side, is acknowledged but never tested, though the test is cheap and available.
+- The headline "0 comprehensive settlements" result may be an artefact of the model's disposition rather than a finding about diplomacy.
+- Small-n percentages ("38% of runs" = 3 of 8) contradict the paper's own caveat against quoting such figures.
+
+**Noted strength:** Radical, self-documenting transparency, including disabling search indexing so AI-invented statements cannot circulate as reporting.

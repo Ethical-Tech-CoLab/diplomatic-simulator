@@ -1,0 +1,73 @@
+{
+ "dealType": "stalemate",
+ "parties": [
+  {
+   "code": "CHN",
+   "name": "China",
+   "satisfaction": 0.44,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "USA",
+   "name": "United States",
+   "satisfaction": 0.41,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "PHL",
+   "name": "Philippines",
+   "satisfaction": 0.37,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "VNM",
+   "name": "Vietnam",
+   "satisfaction": 0.39,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "MYS",
+   "name": "Malaysia",
+   "satisfaction": 0.4,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "BRN",
+   "name": "Brunei",
+   "satisfaction": 0.39,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "IDN",
+   "name": "Indonesia",
+   "satisfaction": 0.42,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "IND",
+   "name": "India",
+   "satisfaction": 0.39,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "JPN",
+   "name": "Japan",
+   "satisfaction": 0.4,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "ASEAN unity bloc (PHL, VNM, MYS, BRN, IDN)",
+  "US-Philippines-Japan security alignment"
+ ],
+ "note": "The Natuna EEZ seizure hardened a confrontational Indonesia into leading ASEAN in refusing to legitimize the ten-dashed line, but with only low mediator pressure and China unyielding, the talks stalled without even a face-saving arrangement."
+}

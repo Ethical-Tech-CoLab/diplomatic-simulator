@@ -1,0 +1,52 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {
+   "code": "CHN",
+   "name": "People's Republic of China",
+   "satisfaction": 0.6,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "PRK",
+   "name": "Democratic People's Republic of Korea",
+   "satisfaction": 0.56,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "KOR",
+   "name": "Republic of Korea",
+   "satisfaction": 0.62,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  },
+  {
+   "code": "USA",
+   "name": "United States of America",
+   "satisfaction": 0.45,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "JPN",
+   "name": "Japan",
+   "satisfaction": 0.35,
+   "primaryGoal": "failed",
+   "redLineHeld": false
+  },
+  {
+   "code": "RUS",
+   "name": "Russian Federation",
+   "satisfaction": 0.58,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "WHO-channel humanitarian coalition (KOR-CHN-RUS)",
+  "USA-KOR-JPN trilateral bloc (strained)"
+ ],
+ "note": "Verified malnutrition data let Seoul broker a WHO-channel humanitarian corridor and a resumed inter-Korean track, but relief ahead of any comprehensive step crossed Tokyo's line and no disarmament commitment followed."
+}

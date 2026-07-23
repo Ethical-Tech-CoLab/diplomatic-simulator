@@ -1,0 +1,60 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {
+   "code": "CAN",
+   "name": "Canada",
+   "satisfaction": 0.65,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "CHN",
+   "name": "China",
+   "satisfaction": 0.4,
+   "primaryGoal": "partial",
+   "redLineHeld": false
+  },
+  {
+   "code": "DNK",
+   "name": "Denmark",
+   "satisfaction": 0.62,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "FIN",
+   "name": "Finland",
+   "satisfaction": 0.62,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "NOR",
+   "name": "Norway",
+   "satisfaction": 0.58,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russia",
+   "satisfaction": 0.42,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "USA",
+   "name": "United States",
+   "satisfaction": 0.5,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "Indigenous-inclusion bloc (DNK-CAN-FIN-NOR)",
+  "Russia resisting Indigenous governance",
+  "Russia-China axis"
+ ],
+ "note": "The Indigenous legal challenge in a neutral mood let Denmark showcase Greenland's self-rule and secure a partial inclusion arrangement with the Nordics and Canada, which Russia declined given its refusal of special Indigenous political roles."
+}

@@ -1,0 +1,59 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {
+   "code": "IND",
+   "name": "Republic of India",
+   "satisfaction": 0.46,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "PAK",
+   "name": "Islamic Republic of Pakistan",
+   "satisfaction": 0.44,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "JK",
+   "name": "Jammu and Kashmir Delegation",
+   "satisfaction": 0.5,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "CHN",
+   "name": "People's Republic of China",
+   "satisfaction": 0.42,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russian Federation",
+   "satisfaction": 0.44,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "GBR",
+   "name": "United Kingdom",
+   "satisfaction": 0.58,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "USA",
+   "name": "United States of America",
+   "satisfaction": 0.56,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "GBR-USA-JK humanitarian coalition",
+  "IND-RUS-CHN status-quo bloc"
+ ],
+ "note": "The reunification pilot's success let London anchor a humanitarian framework with a deferred autonomy-study track, though territory and investigation stayed untouched."
+}

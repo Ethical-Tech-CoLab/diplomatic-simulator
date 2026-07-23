@@ -1,0 +1,60 @@
+{
+ "dealType": "stalemate",
+ "parties": [
+  {
+   "code": "CAN",
+   "name": "Canada",
+   "satisfaction": 0.45,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "CHN",
+   "name": "China",
+   "satisfaction": 0.35,
+   "primaryGoal": "failed",
+   "redLineHeld": false
+  },
+  {
+   "code": "DNK",
+   "name": "Denmark",
+   "satisfaction": 0.42,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "FIN",
+   "name": "Finland",
+   "satisfaction": 0.4,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "NOR",
+   "name": "Norway",
+   "satisfaction": 0.48,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russia",
+   "satisfaction": 0.6,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "USA",
+   "name": "United States",
+   "satisfaction": 0.45,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "Russia-China resource axis",
+  "Western Arctic coastal bloc",
+  "No-deal sovereignty holdouts"
+ ],
+ "note": "A contested hydrocarbon discovery amid confrontational posturing and weak mediation ended in stalemate, with Russia content to proceed unilaterally on extraction while China's high-seas exploitation claim was rejected outright."
+}

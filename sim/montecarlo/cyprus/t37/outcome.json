@@ -1,0 +1,52 @@
+{
+ "dealType": "breakdown",
+ "parties": [
+  {
+   "code": "CY",
+   "name": "Republic of Cyprus",
+   "satisfaction": 0.32,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "TRNC",
+   "name": "Turkish Republic of Northern Cyprus",
+   "satisfaction": 0.41,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "GR",
+   "name": "Greece",
+   "satisfaction": 0.34,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "TR",
+   "name": "Turkey",
+   "satisfaction": 0.44,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "UK",
+   "name": "United Kingdom",
+   "satisfaction": 0.26,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "US",
+   "name": "United States",
+   "satisfaction": 0.25,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "CY-GR-UK-US single-sovereignty bloc",
+  "TRNC-TR two-state bloc"
+ ],
+ "note": "With naval drilling escalating in a confrontational mood, TRNC's momentum hardened the two-state demand and medium pressure was too weak to hold the room, so the talks broke down over sovereignty and security at once."
+}

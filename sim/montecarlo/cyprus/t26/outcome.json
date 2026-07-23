@@ -1,0 +1,52 @@
+{
+ "dealType": "stalemate",
+ "parties": [
+  {
+   "code": "CY",
+   "name": "Republic of Cyprus",
+   "satisfaction": 0.37,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "TRNC",
+   "name": "Turkish Republic of Northern Cyprus",
+   "satisfaction": 0.56,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "GR",
+   "name": "Greece",
+   "satisfaction": 0.39,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "TR",
+   "name": "Turkey",
+   "satisfaction": 0.57,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "UK",
+   "name": "United Kingdom",
+   "satisfaction": 0.33,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "US",
+   "name": "United States",
+   "satisfaction": 0.33,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "CY-GR-UK-US single-sovereignty bloc",
+  "TRNC-TR confederation bloc"
+ ],
+ "note": "Absent any shock and with only low pressure, TRNC's momentum was enough to hold the equal-states line but not to move Nicosia, so the neutral session drifted into stalemate on the core sovereignty question."
+}

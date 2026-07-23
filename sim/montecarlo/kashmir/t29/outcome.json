@@ -1,0 +1,59 @@
+{
+ "dealType": "stalemate",
+ "parties": [
+  {
+   "code": "IND",
+   "name": "Republic of India",
+   "satisfaction": 0.38,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "PAK",
+   "name": "Islamic Republic of Pakistan",
+   "satisfaction": 0.34,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "JK",
+   "name": "Jammu and Kashmir Delegation",
+   "satisfaction": 0.24,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "CHN",
+   "name": "People's Republic of China",
+   "satisfaction": 0.5,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russian Federation",
+   "satisfaction": 0.48,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "GBR",
+   "name": "United Kingdom",
+   "satisfaction": 0.3,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "USA",
+   "name": "United States of America",
+   "satisfaction": 0.34,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "IND-RUS-CHN status-quo bloc",
+  "GBR-USA de-escalation bloc"
+ ],
+ "note": "The observer's death consumed the agenda with LoC de-escalation; parties reaffirmed the ceasefire but adjourned the substantive chapters unresolved."
+}

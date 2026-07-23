@@ -1,0 +1,52 @@
+{
+ "dealType": "stalemate",
+ "parties": [
+  {
+   "code": "CY",
+   "name": "Republic of Cyprus",
+   "satisfaction": 0.34,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "TRNC",
+   "name": "Turkish Republic of Northern Cyprus",
+   "satisfaction": 0.52,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "GR",
+   "name": "Greece",
+   "satisfaction": 0.37,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "TR",
+   "name": "Turkey",
+   "satisfaction": 0.6,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "UK",
+   "name": "United Kingdom",
+   "satisfaction": 0.3,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "US",
+   "name": "United States",
+   "satisfaction": 0.31,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "CY-GR-UK-US single-sovereignty bloc",
+  "TR-TRNC guarantor-security bloc"
+ ],
+ "note": "Naval drilling let TR's momentum entrench its guarantor and security demands while low pressure gave the mediators no leverage, so the neutral session settled into a stalemate over foreign troops and guarantees."
+}

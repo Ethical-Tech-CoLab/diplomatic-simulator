@@ -1,0 +1,52 @@
+{
+ "dealType": "breakdown",
+ "parties": [
+  {
+   "code": "CHN",
+   "name": "People's Republic of China",
+   "satisfaction": 0.2,
+   "primaryGoal": "failed",
+   "redLineHeld": false
+  },
+  {
+   "code": "PRK",
+   "name": "Democratic People's Republic of Korea",
+   "satisfaction": 0.26,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "KOR",
+   "name": "Republic of Korea",
+   "satisfaction": 0.23,
+   "primaryGoal": "failed",
+   "redLineHeld": false
+  },
+  {
+   "code": "USA",
+   "name": "United States of America",
+   "satisfaction": 0.29,
+   "primaryGoal": "failed",
+   "redLineHeld": false
+  },
+  {
+   "code": "JPN",
+   "name": "Japan",
+   "satisfaction": 0.21,
+   "primaryGoal": "failed",
+   "redLineHeld": false
+  },
+  {
+   "code": "RUS",
+   "name": "Russian Federation",
+   "satisfaction": 0.27,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "USA-KOR-JPN trilateral pressure bloc",
+  "CHN-RUS step-by-step bloc"
+ ],
+ "note": "The satellite launch, read as a long-range delivery test, tripped the allied brinkmanship red line even under heavy mediation; Washington, Seoul and Tokyo suspended participation and the process broke down."
+}

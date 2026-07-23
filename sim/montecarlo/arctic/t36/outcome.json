@@ -1,0 +1,60 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {
+   "code": "CAN",
+   "name": "Canada",
+   "satisfaction": 0.75,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  },
+  {
+   "code": "CHN",
+   "name": "China",
+   "satisfaction": 0.5,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "DNK",
+   "name": "Denmark",
+   "satisfaction": 0.63,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "FIN",
+   "name": "Finland",
+   "satisfaction": 0.72,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  },
+  {
+   "code": "NOR",
+   "name": "Norway",
+   "satisfaction": 0.65,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russia",
+   "satisfaction": 0.65,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "USA",
+   "name": "United States",
+   "satisfaction": 0.5,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "Canada-convened Arctic Council process bloc",
+  "Nordic solidarity",
+  "Russia-China axis"
+ ],
+ "note": "Absent any shock but with high pressure and a cooperative mood, momentum-holder Canada played convener to build a framework on Council revitalization, environment, and process, restoring its leadership profile while hard sovereignty red lines were preserved rather than negotiated."
+}

@@ -55,7 +55,17 @@ The full independent academic peer review of this report is in [PEER-REVIEW.md](
 
 **What the review found:**
 
-- The deepest limitation, that one model plays every side, is acknowledged but never tested, though the test is cheap and available.
+- The deepest limitation, that one model plays every side, is acknowledged but never tested, though the test is cheap and available. — **Partially addressed: the test is still not run, but every affected claim is now labelled conditional on a single model.**
+
+### Revisions applied (peer review, Tier 2)
+
+**The multi-model test has NOT been run.** It requires re-generating negotiations with different underlying models, and the generation harness is not in this repository — the sessions here are completed transcripts. This remains the single highest-value outstanding item: run one scenario (the Arctic, as the flagship) with delegations driven by two or three different models, or at minimum materially different temperatures or system-prompt personas, and report whether the deal type, the satisfaction ordering, and the "zero comprehensive settlements" result survive.
+
+**What has been done** is the reviewer's stated fallback — making the conditionality travel with the numbers instead of sitting in a limitations section readers reach last:
+
+- **S5.4, S6, and S8.6 each carry a "conditional on a single model" banner** at the point the results are presented, stating that satisfaction scores, red-line survival rates, deal-type distributions, and coalition frequencies describe how one model behaves playing every side, not how negotiations behave.
+- **New S11.1a** states plainly that diagnosing the monoculture problem is not the same as measuring it, specifies exactly what the missing test is, and records that the omission is not defensible on cost grounds — it simply has not been done.
+- **S13.1 is softened**: the conclusion now opens by saying the negotiation results should not yet be read as findings about negotiation, and confines the contribution to the methodological discipline, which is what the prototype actually demonstrates.
 - The headline "0 comprehensive settlements" result may be an artefact of the model's disposition rather than a finding about diplomacy.
 - Small-n percentages ("38% of runs" = 3 of 8) contradict the paper's own caveat against quoting such figures.
 

@@ -77,10 +77,16 @@ not been reviewed. In rough priority order:
 
 ## Experiments
 
-- **Mixed-model negotiation** — assign different LLMs to different delegations
-  (e.g. Opus for some parties, Sonnet/Haiku for others) with distinct
-  persona/temperature settings, to break the single-model stylistic
-  homogenization seen in the bleeding audit and produce more genuinely
-  independent adversaries. Keep any delegation that must defend a hard red line
-  on Opus or Sonnet (see `analysis.html`: Haiku self-breaches red lines and
-  fabricates terms at dense adversarial tables). Not yet run.
+- ~~**Mixed-model negotiation**~~ — first run done for Korea, as a controlled
+  A/B against the isolated single-model baseline: DPRK and USA on Opus 4.8,
+  China and Russia on Sonnet, ROK and Japan on Haiku 4.5, everything else held
+  constant. Design, transcripts and comparative audit under
+  [`sim/analysis/mixed-model/`](sim/analysis/mixed-model/).
+  Still to do: repeat for Jammu & Kashmir; rotate which seats get which tier so
+  the finding is not an artifact of *which* delegation was downgraded; and try
+  distinct persona/temperature settings, which this run did not vary.
+- **Model assignment may be a confound in the existing scenarios.** The four
+  original negotiations ran on Opus while their Monte Carlo trials ran on
+  Sonnet (see `methodology.html`). If the mixed-model audit confirms that tier
+  affects red-line fidelity, that split needs stating wherever those trial
+  distributions are quoted.

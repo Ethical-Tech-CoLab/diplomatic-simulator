@@ -38,10 +38,49 @@
     "Promote beneficial trade relations with other Arctic powers and support international Arctic organizations."
   ],
   "coalitionLeanings": {
-    "natural_allies": ["United States", "NATO allies", "NORAD partner (U.S.)", "Arctic Council member states", "Denmark/Greenland (on Indigenous inclusion)"],
-    "adversaries": ["Russia", "China"]
+    "natural_allies": [
+      "United States",
+      "NATO allies",
+      "NORAD partner (U.S.)",
+      "Arctic Council member states",
+      "Denmark/Greenland (on Indigenous inclusion)"
+    ],
+    "adversaries": [
+      "Russia",
+      "China"
+    ]
   },
   "negotiatingStyle": "Cooperative, rules-based, and multilateral through the Arctic Council; firm and sovereignty-protective on core red lines while acting as intermediary between the U.S. and Russia/China.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "warm",
+      "note": "Plays intermediary between Washington and Moscow and Beijing because the U.S. will not talk to them directly."
+    },
+    "riskTolerance": {
+      "level": "low",
+      "note": "The unilateral fallback — regulating the NWP, NORAD, bilateral agreements — is uncomfortable but intact."
+    },
+    "timeHorizon": {
+      "level": "patient",
+      "note": "The internal-waters claim is already the operative regime; time does not erode it."
+    },
+    "concessionPattern": {
+      "level": "reciprocal",
+      "note": "Exploits U.S. insistence on NWP freedom of navigation as leverage to extract compromises elsewhere."
+    },
+    "proceduralPosture": {
+      "level": "convening",
+      "note": "Works through the Arctic Council and brokers between parties that will not meet each other."
+    },
+    "trustPosture": {
+      "level": "conditional",
+      "note": "Quietly limits Greenland's direct Council involvement to avoid Inuit-representation pressure."
+    },
+    "communicationRegister": {
+      "level": "legalistic",
+      "note": "Makes its sovereignty argument in the language of internal waters and equidistance."
+    }
+  },
   "privateInstructions": [
     "Act as intermediary between the U.S. and China/Russia since the U.S. will not negotiate bilaterally with them, to move talks along.",
     "Exploit the U.S. insistence on NWP freedom of navigation as leverage to extract U.S. compromises on other issues.",

@@ -4854,6 +4854,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Assertive, alliance-driven; projects a united Western front while pressuring allies to fall in line.",
+            "behavior": {
+              "temperament": {
+                "level": "brittle",
+                "note": "Raises Canada's training of Chinese troops as a grievance rather than as a fact."
+              },
+              "riskTolerance": {
+                "level": "high",
+                "note": "Prefers unilateral posture and freedom-of-navigation operations to a deal that concedes navigation."
+              },
+              "timeHorizon": {
+                "level": "patient",
+                "note": "Constant Arctic presence and partner-nation basing are sustainable without any agreement."
+              },
+              "concessionPattern": {
+                "level": "withholding",
+                "note": "Pressures allies to fall in line rather than trading for their support."
+              },
+              "proceduralPosture": {
+                "level": "obstructive",
+                "note": "Refuses to treat China as a legitimate participant in Arctic governance at all."
+              },
+              "trustPosture": {
+                "level": "assumes-bad-faith",
+                "note": "Chinese participation is illegitimate by definition, and allied deals with Beijing read as defection."
+              },
+              "communicationRegister": {
+                "level": "plainspoken",
+                "note": "Projects a united front by stating the required position rather than negotiating it."
+              }
+            },
             "privateStrategy": [
               "Do not negotiate bilaterally with China on Arctic governance; treat it as an illegitimate participant.",
               "Use NORAD and security dependence as leverage to force Canada to back U.S. positions and away from China/Russia deals.",
@@ -4920,6 +4950,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Assertive, legalistic, and sovereignty-first; compartmentalizes Ukraine, leverages UNCLOS selectively, refuses bilateral talks with the U.S.",
+            "behavior": {
+              "temperament": {
+                "level": "imperturbable",
+                "note": "Compartmentalizes Ukraine entirely and refuses to let it enter the room."
+              },
+              "riskTolerance": {
+                "level": "high",
+                "note": "Prepared to proceed unilaterally on extraction, NSR regulation and military posture, backed by China."
+              },
+              "timeHorizon": {
+                "level": "attritional",
+                "note": "Defers contested items rather than conceding them; unresolved suits Moscow."
+              },
+              "concessionPattern": {
+                "level": "withholding",
+                "note": "Defers rather than concedes, and may quietly reopen the 1990 boundary agreement as retaliation."
+              },
+              "proceduralPosture": {
+                "level": "obstructive",
+                "note": "Refuses bilateral talks with the U.S. and denies its standing to arbitrate at all."
+              },
+              "trustPosture": {
+                "level": "assumes-bad-faith",
+                "note": "Does not recognize U.S. standing as a UNCLOS non-signatory."
+              },
+              "communicationRegister": {
+                "level": "legalistic",
+                "note": "Leverages UNCLOS selectively — invoking it where useful and denying others' standing under it."
+              }
+            },
             "privateStrategy": [
               "Will not negotiate bilaterally with the U.S. and does not recognize U.S. standing (non-signatory of UNCLOS) to arbitrate any disputes.",
               "May quietly contest the 1990 Maritime Boundary Agreement as leverage if the U.S. blocks other Russian initiatives.",
@@ -4986,6 +5046,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Cooperative, rules-based, and multilateral through the Arctic Council; firm and sovereignty-protective on core red lines while acting as intermediary between the U.S. and Russia/China.",
+            "behavior": {
+              "temperament": {
+                "level": "warm",
+                "note": "Plays intermediary between Washington and Moscow and Beijing because the U.S. will not talk to them directly."
+              },
+              "riskTolerance": {
+                "level": "low",
+                "note": "The unilateral fallback — regulating the NWP, NORAD, bilateral agreements — is uncomfortable but intact."
+              },
+              "timeHorizon": {
+                "level": "patient",
+                "note": "The internal-waters claim is already the operative regime; time does not erode it."
+              },
+              "concessionPattern": {
+                "level": "reciprocal",
+                "note": "Exploits U.S. insistence on NWP freedom of navigation as leverage to extract compromises elsewhere."
+              },
+              "proceduralPosture": {
+                "level": "convening",
+                "note": "Works through the Arctic Council and brokers between parties that will not meet each other."
+              },
+              "trustPosture": {
+                "level": "conditional",
+                "note": "Quietly limits Greenland's direct Council involvement to avoid Inuit-representation pressure."
+              },
+              "communicationRegister": {
+                "level": "legalistic",
+                "note": "Makes its sovereignty argument in the language of internal waters and equidistance."
+              }
+            },
             "privateStrategy": [
               "Act as intermediary between the U.S. and China/Russia since the U.S. will not negotiate bilaterally with them, to move talks along.",
               "Exploit the U.S. insistence on NWP freedom of navigation as leverage to extract U.S. compromises on other issues.",
@@ -5049,6 +5139,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Measured 'Major Country Diplomacy' with Wolf Warrior edge in reserve; strongly prefers bilateral deals over multilateral forums.",
+            "behavior": {
+              "temperament": {
+                "level": "measured",
+                "note": "The Wolf Warrior edge is held in reserve behind Major Country Diplomacy."
+              },
+              "riskTolerance": {
+                "level": "moderate",
+                "note": "Enhanced observer responsibilities are a tolerable floor; the long game continues from there."
+              },
+              "timeHorizon": {
+                "level": "attritional",
+                "note": "Plays 'the long game to erode other nations' hesitance' toward full membership."
+              },
+              "concessionPattern": {
+                "level": "front-loading",
+                "note": "Leads with investment and icebreaker cooperation to open basing and access conversations."
+              },
+              "proceduralPosture": {
+                "level": "obstructive",
+                "note": "Strongly prefers bilateral deals over the multilateral forum it is petitioning to join."
+              },
+              "trustPosture": {
+                "level": "conditional",
+                "note": "Icebreaker development is 'publicly economic' but tied to securing Russian basing agreements."
+              },
+              "communicationRegister": {
+                "level": "elliptical",
+                "note": "The stated interest is science and shipping; the instructed interest is basing, uranium and precious metals."
+              }
+            },
             "privateStrategy": [
               "Icebreaker development is publicly economic but is tied to securing basing agreements with Russia and providing security for BRI trade routes.",
               "Use investment in Russia's existing Arctic military infrastructure as a covert wedge to begin the basing-agreement process.",
@@ -5116,6 +5236,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Cooperative, law-based, and consensus-driven as Arctic Council Chair, but firm and adamant on Svalbard sovereignty.",
+            "behavior": {
+              "temperament": {
+                "level": "measured",
+                "note": "Consensus-driven as Council Chair, and avoids openly criticizing the American ally even when it disagrees."
+              },
+              "riskTolerance": {
+                "level": "low",
+                "note": "The Svalbard Treaty status quo and the fisheries protection zone hold unilaterally; failure changes little."
+              },
+              "timeHorizon": {
+                "level": "attritional",
+                "note": "Treats the 'temporary' protection zone as a lever to force eventual recognition of the full Svalbard EEZ."
+              },
+              "concessionPattern": {
+                "level": "withholding",
+                "note": "Firm and adamant on Svalbard sovereignty regardless of what is offered against it."
+              },
+              "proceduralPosture": {
+                "level": "convening",
+                "note": "Chairs for consensus while holding one issue deliberately outside the consensus."
+              },
+              "trustPosture": {
+                "level": "conditional",
+                "note": "Wants bilateral cooperation with Russia restored, but quietly and not yet."
+              },
+              "communicationRegister": {
+                "level": "legalistic",
+                "note": "Argues from the Svalbard Treaty and UNCLOS rather than from interest."
+              }
+            },
             "privateStrategy": [
               "Fears an American overreaction to Chinese/Russian activity; wants U.S. de-escalation but avoid openly criticizing the ally.",
               "Quietly wants to restore bilateral cooperation with Russia on Arctic issues while publicly maintaining pressure over Ukraine.",
@@ -5181,6 +5331,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Cooperative, law-abiding, and multilateral, projecting a unified Kingdom-Greenland front while quietly guarding sovereignty and managing great-power balance.",
+            "behavior": {
+              "temperament": {
+                "level": "guarded",
+                "note": "Its central task is concealment: the Greenland independence question must not surface."
+              },
+              "riskTolerance": {
+                "level": "low",
+                "note": "Every position is weighed against the risk of triggering a full independence referendum."
+              },
+              "timeHorizon": {
+                "level": "patient",
+                "note": "Falls back to unresolved but non-adjudicated ridge claims — unresolved is an acceptable state."
+              },
+              "concessionPattern": {
+                "level": "withholding",
+                "note": "Cannot move on mineral extraction without exposing the Naalakkersuisut's divergent position."
+              },
+              "proceduralPosture": {
+                "level": "chair-deferential",
+                "note": "Works through the Arctic 5 and international law rather than asserting."
+              },
+              "trustPosture": {
+                "level": "relationship-first",
+                "note": "Balances the U.S. relationship against Greenland's resource autonomy as the governing calculation."
+              },
+              "communicationRegister": {
+                "level": "conciliatory",
+                "note": "Presents a common Kingdom-Greenland voice that papers over a real internal split."
+              }
+            },
             "privateStrategy": [
               "Conceal the internal tension: Greenland has an unexercised independence-referendum right, and every decision must be weighed against triggering full independence.",
               "The Naalakkersuisut has banned mineral extraction and holds positions that diverge from Denmark's; hide this friction and present a common voice to foreign states.",
@@ -5245,6 +5425,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Gracious host and pragmatic bridge-builder favoring dialog, diplomacy, and consensus over confrontation.",
+            "behavior": {
+              "temperament": {
+                "level": "warm",
+                "note": "Hosts the conference and prefers dialog and consensus to confrontation as a matter of manner."
+              },
+              "riskTolerance": {
+                "level": "low",
+                "note": "Relies on EU and NATO guarantees; broad cooperation is the fallback and costs Helsinki nothing."
+              },
+              "timeHorizon": {
+                "level": "patient",
+                "note": "Bridge-building is a long project; there is no deadline Finland must beat."
+              },
+              "concessionPattern": {
+                "level": "front-loading",
+                "note": "Offers resource-development assistance as a tool to build bilateral ties before asking for anything."
+              },
+              "proceduralPosture": {
+                "level": "convening",
+                "note": "Uses the host role to draw Moscow into multilateral EU-Arctic dialog."
+              },
+              "trustPosture": {
+                "level": "relationship-first",
+                "note": "Leverages its unique channel to Russia without softening its stated threat assessment."
+              },
+              "communicationRegister": {
+                "level": "conciliatory",
+                "note": "Consensus language throughout, with the trade and global-commons agenda pursued quietly."
+              }
+            },
             "privateStrategy": [
               "Secretly leverage its unique channel to Russia to draw Moscow into multilateral EU-Arctic dialog, without appearing to soften its stance on Russia as a threat.",
               "Quietly seek new non-EU trade outlets to offset a ~75% collapse in Russia trade since NATO accession.",
@@ -7619,6 +7829,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Sovereignty-first, information-gathering broker: publicly cooperative and de-escalatory, privately transactional, advancing bilateral deals while avoiding binding commitments.",
+            "behavior": {
+              "temperament": {
+                "level": "measured",
+                "note": "Publicly cooperative and de-escalatory whatever is being probed in private."
+              },
+              "riskTolerance": {
+                "level": "low",
+                "note": "Walks away from anything touching resource sovereignty and defers to later Central-Asian-only talks."
+              },
+              "timeHorizon": {
+                "level": "patient",
+                "note": "Anticipates a possible post-CSTO order and positions for that rather than for this summit."
+              },
+              "concessionPattern": {
+                "level": "withholding",
+                "note": "Avoids binding commitments entirely while advancing bilateral deals off to the side."
+              },
+              "proceduralPosture": {
+                "level": "convening",
+                "note": "Works with the UN SRSG as would-be honest broker while pursuing its own bilateral agenda."
+              },
+              "trustPosture": {
+                "level": "conditional",
+                "note": "Declines Russian CSTO expansion and arms offers politely while extracting information from them."
+              },
+              "communicationRegister": {
+                "level": "elliptical",
+                "note": "The de-escalation language is genuine; the intelligence-gathering purpose is never stated."
+              }
+            },
             "privateStrategy": [
               "Secretly explore intelligence-sharing with the PRC on Tajik/Kyrgyz/Turkmen threats and with India on PRC activity, only in head-of-delegation bilaterals, hidden from all other nations.",
               "Quietly probe a Kyrgyz-Uzbek-Kazakh security bloc and a Uzbek mutual-defense pact, anticipating possible CSTO withdrawal after Armenia's freeze.",
@@ -7686,6 +7926,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Publicly conciliatory and integration-friendly, privately probing and intelligence-driven, playing rivals against each other while conceding nothing binding.",
+            "behavior": {
+              "temperament": {
+                "level": "measured",
+                "note": "Integration-friendly in register while running the summit as a collection operation."
+              },
+              "riskTolerance": {
+                "level": "low",
+                "note": "Walks away from any binding deal and defers everything to Tashkent-controlled bilaterals."
+              },
+              "timeHorizon": {
+                "level": "attritional",
+                "note": "Holds the territorial and water status quo; movement only creates exposure."
+              },
+              "concessionPattern": {
+                "level": "withholding",
+                "note": "Concedes nothing binding while playing Bishkek and Dushanbe against each other."
+              },
+              "proceduralPosture": {
+                "level": "rule-exploiting",
+                "note": "Uses the multilateral format to expose the border objectives of its two neighbours."
+              },
+              "trustPosture": {
+                "level": "assumes-bad-faith",
+                "note": "Treats Tajikistan and Kyrgyzstan as friction sources and Russia as a long-term security challenge."
+              },
+              "communicationRegister": {
+                "level": "elliptical",
+                "note": "Builds rapport with Moscow while never openly agreeing with a Russian position."
+              }
+            },
             "privateStrategy": [
               "Play Kyrgyzstan and Tajikistan against each other to expose their border objectives and strengthen Uzbek positions; report everything to the Foreign Ministry immediately.",
               "Explore intelligence-sharing on Tajik/Kyrgyz threats ONLY bilaterally with China; no other nation may know of this initiative.",
@@ -7752,6 +8022,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Outwardly cooperative and information-hungry: friendly, non-committal, extracts others' positions while quietly protecting red lines and deferring all decisions to the capital.",
+            "behavior": {
+              "temperament": {
+                "level": "warm",
+                "note": "Friendly and non-committal by design; the friendliness is itself the collection instrument."
+              },
+              "riskTolerance": {
+                "level": "low",
+                "note": "Concludes nothing binding and defers every decision to the capital."
+              },
+              "timeHorizon": {
+                "level": "attritional",
+                "note": "Holding the territorial and water status quo is the stated objective; movement is the only risk."
+              },
+              "concessionPattern": {
+                "level": "withholding",
+                "note": "Extracts others' positions while quietly protecting its own red lines."
+              },
+              "proceduralPosture": {
+                "level": "chair-deferential",
+                "note": "Cooperative with the format precisely because the format commits it to nothing."
+              },
+              "trustPosture": {
+                "level": "assumes-bad-faith",
+                "note": "Instructed to string Tajikistan along to extract intelligence while never agreeing to anything."
+              },
+              "communicationRegister": {
+                "level": "elliptical",
+                "note": "Non-committal throughout; the CSTO-exit thinking is invisible at the table."
+              }
+            },
             "privateStrategy": [
               "Secretly consider withdrawing from the CSTO and coordinate the timing/partnership with Kazakhstan (and Uzbekistan) on leaving Russia's orbit.",
               "In head-of-delegation-only bilaterals with China, explore an intelligence-sharing arrangement targeting Tajikistan and Uzbekistan; no other nation may learn of this (Red Line).",
@@ -7820,6 +8120,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Cautious, non-committal framework-builder: publicly conciliatory and pro-integration, privately probing for intelligence, defers all binding decisions to the Foreign Minister.",
+            "behavior": {
+              "temperament": {
+                "level": "guarded",
+                "note": "Publicly conciliatory while concealing an intention to explore leaving the CSTO."
+              },
+              "riskTolerance": {
+                "level": "low",
+                "note": "Signs no binding agreement and refers all substantive terms back to the Foreign Minister."
+              },
+              "timeHorizon": {
+                "level": "patient",
+                "note": "Wants the 201st Military Base redeployed 'within two years' — a horizon well beyond this summit."
+              },
+              "concessionPattern": {
+                "level": "withholding",
+                "note": "Frameworks only; nothing substantive is committed at the table."
+              },
+              "proceduralPosture": {
+                "level": "chair-deferential",
+                "note": "Pro-integration in posture, which costs nothing given that every decision is deferred."
+              },
+              "trustPosture": {
+                "level": "conditional",
+                "note": "Keeps India economic talks hidden from China to protect BRI benefits."
+              },
+              "communicationRegister": {
+                "level": "elliptical",
+                "note": "A conciliatory surface over probing; the CSTO exit and the base redeployment stay unstated."
+              }
+            },
             "privateStrategy": [
               "Secretly explore leaving the CSTO (like Armenia) and probe whether Kazakhstan would also exit and co-found a new Central Asian security bloc; keep any exit intention hidden.",
               "In heads-of-delegation bilaterals only, pursue secret intelligence-sharing with China on Kyrgyzstan/Uzbekistan (and possibly India); no other nation may know this exists.",
@@ -7891,6 +8221,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Patient great-power mediator: publicly cooperative and pro-peace, privately coercive and intelligence-driven, using issue-linkage, side-payments, and playing rivals against each other.",
+            "behavior": {
+              "temperament": {
+                "level": "measured",
+                "note": "Publicly cooperative and pro-peace while applying coercion privately."
+              },
+              "riskTolerance": {
+                "level": "moderate",
+                "note": "Signs nothing binding and lacks the authority to; real gains are deferred to later bilaterals."
+              },
+              "timeHorizon": {
+                "level": "patient",
+                "note": "Treats the summit as reconnaissance for a longer campaign to reclaim the near abroad."
+              },
+              "concessionPattern": {
+                "level": "reciprocal",
+                "note": "Uses issue-linkage and side-payments, and plays rivals against each other."
+              },
+              "proceduralPosture": {
+                "level": "rule-exploiting",
+                "note": "Blocks adverse structures — anything excluding Russia or led by China — from forming."
+              },
+              "trustPosture": {
+                "level": "assumes-bad-faith",
+                "note": "Pressures its own CSTO allies with the threat of sanctions for entertaining alternatives."
+              },
+              "communicationRegister": {
+                "level": "conciliatory",
+                "note": "Pro-peace in the plenary; the sanctions threats are delivered bilaterally."
+              }
+            },
             "privateStrategy": [
               "Secretly pressure the three CSTO allies with threat of sanctions if they entertain security organizations excluding Russia or led by China; privately warn Kazakhstan against its deepening PRC ties and its security partnership with Uzbekistan, and warn Uzbekistan against turning West.",
               "Only bilaterally, offer India an intelligence-sharing arrangement on Chinese activities in Central Asia (incl. PRC political/economic/PLA topics, Head-of-Delegation to Head-of-Delegation) and encourage India to rejuvenate its Tajik air-force ties as a China counterweight — no other nation may know.",
@@ -7957,6 +8317,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Publicly cooperative and incentive-driven, privately obstructive and coercive; Wolf Warrior hostility reserved for India.",
+            "behavior": {
+              "temperament": {
+                "level": "measured",
+                "note": "Wolf Warrior hostility is reserved for India alone; everything else is incentive-led."
+              },
+              "riskTolerance": {
+                "level": "low",
+                "note": "The fallback — post-summit bilaterals with each state individually — is the actual objective."
+              },
+              "timeHorizon": {
+                "level": "attritional",
+                "note": "Frozen disputes are the goal; every month without settlement is a month of Chinese advantage."
+              },
+              "concessionPattern": {
+                "level": "front-loading",
+                "note": "Leads with incentives and investment to open bilateral channels it never intends to formalize."
+              },
+              "proceduralPosture": {
+                "level": "obstructive",
+                "note": "Instructed to ensure covertly that no comprehensive border or water settlement is reached."
+              },
+              "trustPosture": {
+                "level": "assumes-bad-faith",
+                "note": "Supports Russia openly in multilateral sessions while undercutting its credibility bilaterally."
+              },
+              "communicationRegister": {
+                "level": "conciliatory",
+                "note": "Never publicly embarrasses the Central Asian states; the obstruction is entirely covert."
+              }
+            },
             "privateStrategy": [
               "Covertly ensure NO comprehensive border/water settlement is reached; obstruct while never publicly embarrassing the Central Asian states.",
               "Support Russia openly in multilateral sessions but undercut its credibility bilaterally; remind Moscow of the unfulfilled Tumen River land transfer for Sea of Japan access.",
@@ -8024,6 +8414,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Cordial and consensus-friendly in public, subtle and transactional in private—winning influence through bilateral deals while never openly attacking rivals.",
+            "behavior": {
+              "temperament": {
+                "level": "warm",
+                "note": "Cordial and consensus-friendly in public, and never openly attacks a rival."
+              },
+              "riskTolerance": {
+                "level": "low",
+                "note": "Off-summit bilateral engagement, especially with Dushanbe, secures Indian interests regardless."
+              },
+              "timeHorizon": {
+                "level": "patient",
+                "note": "Reestablishing influence is a multi-year project; the summit is a means to later bilaterals."
+              },
+              "concessionPattern": {
+                "level": "reciprocal",
+                "note": "Offers bilateral security and trade deals against movement away from Beijing."
+              },
+              "proceduralPosture": {
+                "level": "chair-deferential",
+                "note": "Supports the format publicly while doing the real work in private rooms."
+              },
+              "trustPosture": {
+                "level": "conditional",
+                "note": "Supports Russia publicly but stays vigilant against Russian efforts to reclaim primacy."
+              },
+              "communicationRegister": {
+                "level": "elliptical",
+                "note": "Boxes out Chinese initiatives, and BRI in particular, without ever naming them in plenary."
+              }
+            },
             "privateStrategy": [
               "Covertly undermine and box out all Chinese initiatives (especially BRI) via private bilateral talks with the four Central Asian states—never openly argue with the PRC; if a Chinese MSS operative is identified, it is acceptable to publicly expose them as a 'spy.'",
               "Support Russia publicly but stay vigilant against Russian efforts to reclaim primacy; do not endorse any specific Russian plan until relayed to and cleared by the Foreign Ministry.",
@@ -9914,6 +10334,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Legalistic and principle-driven, anchoring on international recognition and the EU acquis while trading EU-accession leverage for demilitarization.",
+            "behavior": {
+              "temperament": {
+                "level": "guarded",
+                "note": "Treats conduct in common areas as subject to intelligence collection and negotiates accordingly."
+              },
+              "riskTolerance": {
+                "level": "moderate",
+                "note": "The status quo inside the EU is survivable; the recognized Republic continues either way."
+              },
+              "timeHorizon": {
+                "level": "patient",
+                "note": "The blocks on Turkish accession and the Direct Trade Regulation lose no value with time."
+              },
+              "concessionPattern": {
+                "level": "reciprocal",
+                "note": "Concedes a Senate-elected Vice-President 'only as a trade'; nothing is offered for free."
+              },
+              "proceduralPosture": {
+                "level": "rule-exploiting",
+                "note": "Turns the census into an instrument for quantifying settlers and framing them as a war crime."
+              },
+              "trustPosture": {
+                "level": "verification-first",
+                "note": "Releases its leverage only against verified Turkish troop withdrawal."
+              },
+              "communicationRegister": {
+                "level": "legalistic",
+                "note": "Anchors on international recognition and the EU acquis rather than on outcomes."
+              }
+            },
             "privateStrategy": [
               "Treat the census as a tool to expose and quantify Turkish settlers/soldiers for repatriation and to frame them as a Fourth Geneva Convention war crime.",
               "Use blocks on Türkiye's EU accession and the Direct Trade Regulation as bargaining leverage, releasing them only against verified Turkish troop withdrawal.",
@@ -9981,6 +10431,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Constructive and proactive but firm on political equality; coordinated closely with Türkiye, uses issue-linkage (trade/accession for confidence-building) and takes initiative with the SRSG.",
+            "behavior": {
+              "temperament": {
+                "level": "warm",
+                "note": "Constructive and proactive in manner, taking the initiative with the SRSG rather than waiting."
+              },
+              "riskTolerance": {
+                "level": "moderate",
+                "note": "A recognition-seeking fallback exists, but private demographic anxiety makes drift costly."
+              },
+              "timeHorizon": {
+                "level": "urgent",
+                "note": "Privately worries that mainland immigrants now outnumber native Turkish Cypriots — time erodes its own base."
+              },
+              "concessionPattern": {
+                "level": "front-loading",
+                "note": "Can secretly acquiesce to larger repatriation numbers than its public stance admits."
+              },
+              "proceduralPosture": {
+                "level": "convening",
+                "note": "Takes the initiative with the SRSG and works the US and UK to move Nicosia and Athens."
+              },
+              "trustPosture": {
+                "level": "conditional",
+                "note": "Coordinates all positions with Ankara before committing to anything."
+              },
+              "communicationRegister": {
+                "level": "conciliatory",
+                "note": "Constructive in register while immovable on political equality."
+              }
+            },
             "privateStrategy": [
               "Do not align with Türkiye's position that a large mainland Turkish population is needed; privately worry that immigrants now outnumber native Turkish Cypriots and threaten Turkish Cypriot identity.",
               "Can secretly acquiesce to larger repatriation numbers than the public stance opposing Greek Cypriot demands.",
@@ -10047,6 +10527,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Legalistic and principled but pragmatic: anchors on international legality and sovereignty while offering calibrated confidence-building trades to isolate the two-state position.",
+            "behavior": {
+              "temperament": {
+                "level": "measured",
+                "note": "Publicly deferential to Nicosia's competence while steering outcomes behind the scenes."
+              },
+              "riskTolerance": {
+                "level": "low",
+                "note": "Falls back to the UN Good Offices process, which costs Athens nothing."
+              },
+              "timeHorizon": {
+                "level": "patient",
+                "note": "Holds a pre-set fallback in reserve for use only if an issue becomes an absolute deal breaker."
+              },
+              "concessionPattern": {
+                "level": "end-loading",
+                "note": "The intervention concession is held to the very end and conceded only through Nicosia."
+              },
+              "proceduralPosture": {
+                "level": "chair-deferential",
+                "note": "Accepts UN-mediated bicommunal talks as the only legitimate method."
+              },
+              "trustPosture": {
+                "level": "conditional",
+                "note": "Offers calibrated confidence-building trades to isolate the two-state position."
+              },
+              "communicationRegister": {
+                "level": "legalistic",
+                "note": "Argues legality and sovereignty in public; the pragmatism stays private."
+              }
+            },
             "privateStrategy": [
               "Secretly favor Türkiye's EU accession because it would benefit the Greek economy and normalize Greek-Turkish relations, and quietly press Greek Cypriots to drop the blockage.",
               "Hold a pre-set fallback on military intervention: only if it becomes an absolute deal breaker, privately advise Greek Cypriots to concede it, strictly limited to constituent-state boundaries.",
@@ -10113,6 +10623,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Firm, principled-bargaining and sovereignty-assertive; lets the TRNC take the lead, uses issue-linkage and red-line signaling, and avoids direct talks with Greek Cypriots to force them to deal with the TRNC.",
+            "behavior": {
+              "temperament": {
+                "level": "guarded",
+                "note": "Avoids direct talks with Greek Cypriots as a deliberate device to force them to deal with the TRNC."
+              },
+              "riskTolerance": {
+                "level": "high",
+                "note": "The two-state fallback under Turkish protection is a preferred outcome, not a penalty."
+              },
+              "timeHorizon": {
+                "level": "patient",
+                "note": "Recognition of the TRNC is 'the first step, not genuine unification' — a longer game than this table."
+              },
+              "concessionPattern": {
+                "level": "withholding",
+                "note": "Coordinates every move with the TRNC before broaching it; concedes nothing unilaterally."
+              },
+              "proceduralPosture": {
+                "level": "rule-exploiting",
+                "note": "Uses issue-linkage, red-line signaling, and guarantor status as standing."
+              },
+              "trustPosture": {
+                "level": "assumes-bad-faith",
+                "note": "Retains the legal right of Turkish Cypriot 'divorce' should security or liberty concerns arise."
+              },
+              "communicationRegister": {
+                "level": "plainspoken",
+                "note": "Signals red lines explicitly rather than leaving them to be inferred."
+              }
+            },
             "privateStrategy": [
               "Ultimate goal is a strong, independent TRNC; pursue international recognition of the TRNC as the first step, not genuine unification.",
               "Coordinate every move on Direct Trade Regulation / EU accession and other issues with the TRNC delegation before broaching them, and avoid direct engagement with Greek Cypriots to force them to deal with the TRNC.",
@@ -10179,6 +10719,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Facilitative, coordination-driven honest broker that works behind the UN and US, applies quiet issue-linkage, and avoids derailing talks over disagreements.",
+            "behavior": {
+              "temperament": {
+                "level": "imperturbable",
+                "note": "Never lets its private lean toward the Greek Cypriot side derail the talks."
+              },
+              "riskTolerance": {
+                "level": "low",
+                "note": "Falls back to incremental confidence-building gains, which it counts as success in themselves."
+              },
+              "timeHorizon": {
+                "level": "patient",
+                "note": "Sustaining the UN process is itself an acceptable outcome."
+              },
+              "concessionPattern": {
+                "level": "reciprocal",
+                "note": "Applies quiet issue-linkage — Famagusta and Ercan against the accession block."
+              },
+              "proceduralPosture": {
+                "level": "chair-deferential",
+                "note": "Works behind the UN and the United States and seeks guidance rather than committing unilaterally."
+              },
+              "trustPosture": {
+                "level": "relationship-first",
+                "note": "Coordinates with Washington before approaching Athens or Ankara."
+              },
+              "communicationRegister": {
+                "level": "conciliatory",
+                "note": "Avoids derailing talks over disagreements; disagreement is registered quietly."
+              }
+            },
             "privateStrategy": [
               "Privately lean toward the Greek Cypriot side on sovereignty/'virgin birth' but never let that preference derail the talks.",
               "Coordinate UK positions with the United States before approaching Greece and Turkiye.",
@@ -10244,6 +10814,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Even-handed facilitator: publicly neutral and pro-settlement, working sides directly and using EU accession and CBMs as leverage.",
+            "behavior": {
+              "temperament": {
+                "level": "measured",
+                "note": "Publicly neutral and pro-settlement; the private lean is never allowed to become visible."
+              },
+              "riskTolerance": {
+                "level": "low",
+                "note": "Brokering discrete confidence-building wins is an acceptable floor."
+              },
+              "timeHorizon": {
+                "level": "patient",
+                "note": "Keeps Greece and Türkiye from impeding future UN-led talks even if this round fails."
+              },
+              "concessionPattern": {
+                "level": "reciprocal",
+                "note": "Uses EU accession and confidence-building measures as leverage rather than as gifts."
+              },
+              "proceduralPosture": {
+                "level": "convening",
+                "note": "Works both sides directly and carries EU messaging to Ankara."
+              },
+              "trustPosture": {
+                "level": "relationship-first",
+                "note": "Quietly coordinates positions with the United Kingdom before moving."
+              },
+              "communicationRegister": {
+                "level": "conciliatory",
+                "note": "Even-handed in register regardless of the private preference."
+              }
+            },
             "privateStrategy": [
               "Privately lean toward the Greek Cypriot side on sovereignty/governance, but never let that lean visibly derail the talks.",
               "Cyprus is treated as an important partner and the U.S. works closely with Greek Cypriots on Eastern Mediterranean security priorities.",
@@ -11888,6 +12488,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Blend of assertive Wolf Warrior sovereignty-assertion and measured Major Country Diplomacy, insisting on bilateralism, delay/shelving, and issue-linkage while framing China as the region's benevolent leader.",
+            "behavior": {
+              "temperament": {
+                "level": "volatile",
+                "note": "The Wolf Warrior register is deployed here rather than merely held: history pressure on Japan, standing denied to Malaysia."
+              },
+              "riskTolerance": {
+                "level": "high",
+                "note": "Prepared to walk and shelve indefinitely while de facto control and land reclamation continue."
+              },
+              "timeHorizon": {
+                "level": "attritional",
+                "note": "Shelving is the strategy; every year of delay consolidates control on the water."
+              },
+              "concessionPattern": {
+                "level": "withholding",
+                "note": "Offers economic cooperation while conceding nothing whatever on sovereignty."
+              },
+              "proceduralPosture": {
+                "level": "obstructive",
+                "note": "Insists on bilateralism, denies the ASEAN Chair any standing, and drives wedges through the multilateral format."
+              },
+              "trustPosture": {
+                "level": "assumes-bad-faith",
+                "note": "Treats extra-regional presence as interference to be ended rather than as a party to bargain with."
+              },
+              "communicationRegister": {
+                "level": "declamatory",
+                "note": "Sovereignty assertion first and benevolent-leader framing second; the Taiwan linkage is raised only privately."
+              }
+            },
             "privateStrategy": [
               "Use multilateral ASEAN talks to drive a wedge between regional states and the extra-regional powers (New Delhi, Tokyo, Washington), isolating smaller claimants from outside support.",
               "Deny Malaysia (ASEAN Chair) any standing to speak for ASEAN, and exploit its distrust of the US to pull the Philippines and Vietnam into cooperating with China.",
@@ -11956,6 +12586,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Principled, law-and-norms-based facilitator that engages China cooperatively while quietly marshaling a unified allied coalition behind UNCLOS and the PCA ruling.",
+            "behavior": {
+              "temperament": {
+                "level": "measured",
+                "note": "Engages China cooperatively while marshaling the allied coalition quietly."
+              },
+              "riskTolerance": {
+                "level": "low",
+                "note": "Forward presence, FONOPS and bilateral alliance support continue regardless of outcome."
+              },
+              "timeHorizon": {
+                "level": "patient",
+                "note": "Pursues claim resolution incrementally through ASEAN mechanisms."
+              },
+              "concessionPattern": {
+                "level": "withholding",
+                "note": "Keeps security-support offers 'under mutual-defense frameworks as reserved leverage.'"
+              },
+              "proceduralPosture": {
+                "level": "convening",
+                "note": "Enlists Tokyo and New Delhi to be more directive with Beijing than Washington can openly be."
+              },
+              "trustPosture": {
+                "level": "conditional",
+                "note": "Seeks to nudge China into international norms rather than assuming either good or bad faith."
+              },
+              "communicationRegister": {
+                "level": "legalistic",
+                "note": "Argues law and norms while concealing that it has not itself ratified UNCLOS."
+              }
+            },
             "privateStrategy": [
               "Overarching strategy is to nudge China into accepting international norms and prevent it from moving from competing in to controlling the SCS with a blue-water navy.",
               "Enlist Japan and India to be more directive with China than the U.S. can openly be, aligning positions so Beijing hears 'one voice.'",
@@ -12022,6 +12682,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Principled, law-first and cooperative-framed, leveraging ASEAN Chair convening power while firmly anchoring on UNCLOS and the arbitral award.",
+            "behavior": {
+              "temperament": {
+                "level": "brittle",
+                "note": "Frames the talks internally as possibly the last opportunity to contain China peacefully."
+              },
+              "riskTolerance": {
+                "level": "moderate",
+                "note": "The UNCLOS award and deepened alignment are a real fallback, but one framed internally as failure."
+              },
+              "timeHorizon": {
+                "level": "urgent",
+                "note": "Success is treated as 'a matter of national power and prestige' now, not later."
+              },
+              "concessionPattern": {
+                "level": "withholding",
+                "note": "Anchors firmly on the binding arbitral award and does not trade it for process."
+              },
+              "proceduralPosture": {
+                "level": "convening",
+                "note": "Leverages ASEAN Chair convening power to hold the bloc together."
+              },
+              "trustPosture": {
+                "level": "verification-first",
+                "note": "Anchors on the binding arbitral award rather than on any assurance offered at the table."
+              },
+              "communicationRegister": {
+                "level": "legalistic",
+                "note": "Law-first: the award and UNCLOS do the arguing."
+              }
+            },
             "privateStrategy": [
               "Internally frame these talks as possibly the last opportunity to peacefully contain Chinese ambitions in the SCS/SEA region; success is a matter of national power and prestige.",
               "Privately press the US, Japan, and India to lean on Beijing to abandon bilateral talks and abide by UNCLOS.",
@@ -12089,6 +12779,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Principled and law-anchored but pragmatic and compartmentalized: firm on UNCLOS and ASEAN unity, flexible on resource-sharing and face-saving swaps, prefers multilateral leverage over bilateral exposure.",
+            "behavior": {
+              "temperament": {
+                "level": "guarded",
+                "note": "Conceals a deep economic dependence on its principal adversary."
+              },
+              "riskTolerance": {
+                "level": "moderate",
+                "note": "Holds arbitration as a real walk-away, tempered by the trade exposure it is hiding."
+              },
+              "timeHorizon": {
+                "level": "patient",
+                "note": "Diversification of trade and defense is a long project run alongside the talks."
+              },
+              "concessionPattern": {
+                "level": "end-loading",
+                "note": "Holds the Amphitrite-for-Crescent Paracels swap as a fallback card, explicitly not an opening position."
+              },
+              "proceduralPosture": {
+                "level": "rule-exploiting",
+                "note": "Uses the arbitration threat as pressure and prefers multilateral leverage over bilateral exposure."
+              },
+              "trustPosture": {
+                "level": "conditional",
+                "note": "Coordinates a pre-agreed front with Manila while staying ready to oppose Washington where interests diverge."
+              },
+              "communicationRegister": {
+                "level": "elliptical",
+                "note": "Firm on UNCLOS in public while the vulnerability and the swap card stay unsaid."
+              }
+            },
             "privateStrategy": [
               "Conceal deep vulnerability: China is our largest trading partner and main import source, giving Beijing major one-sided economic leverage we privately fear.",
               "Hold the Amphitrite-for-Crescent Paracels swap as a fallback compromise card, not an opening position.",
@@ -12157,6 +12877,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Consensus-building, law-anchored mediator that projects itself as the indispensable honest broker while avoiding confrontation.",
+            "behavior": {
+              "temperament": {
+                "level": "warm",
+                "note": "Avoids confrontation and compartmentalizes existing frictions with Beijing to protect its commercial economy."
+              },
+              "riskTolerance": {
+                "level": "low",
+                "note": "Falls back to interim confidence-building measures and a mix of bilateral and multilateral alignments."
+              },
+              "timeHorizon": {
+                "level": "patient",
+                "note": "Positions for the long-run intermediary role rather than for a settlement now."
+              },
+              "concessionPattern": {
+                "level": "front-loading",
+                "note": "Offers itself as the channel first and seeks the positional payoff later."
+              },
+              "proceduralPosture": {
+                "level": "convening",
+                "note": "Quietly gets Brunei, the Philippines and Vietnam to route their key issues through Kuala Lumpur."
+              },
+              "trustPosture": {
+                "level": "conditional",
+                "note": "Bolsters Philippine claims it privately judges to fail UNCLOS, because doing so advances its own."
+              },
+              "communicationRegister": {
+                "level": "conciliatory",
+                "note": "Sustains the indispensable-broker framing throughout; the frictions are compartmentalized out of view."
+              }
+            },
             "privateStrategy": [
               "Position Malaysia as the single best intermediary with China and quietly get Brunei/Philippines/Vietnam to route their key issues through Malaysia, jointly or on their behalf.",
               "Compartmentalize existing frictions with Beijing to protect Malaysia's commercial economy, and downplay Ambalat/Malacca disputes with Indonesia to keep a united ASEAN front.",
@@ -12225,6 +12975,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Cordial, non-confrontational, and consensus-seeking; frames itself as a trusted bridge-builder that upholds UNCLOS without unnecessarily antagonizing China.",
+            "behavior": {
+              "temperament": {
+                "level": "warm",
+                "note": "Cordial with all parties, especially China, and trades on exactly that standing."
+              },
+              "riskTolerance": {
+                "level": "low",
+                "note": "Falls back to confidence-building measures and joint ventures, keeping sovereignty disputes bilateral."
+              },
+              "timeHorizon": {
+                "level": "patient",
+                "note": "Short-term measures now and sovereignty later is an acceptable outcome."
+              },
+              "concessionPattern": {
+                "level": "front-loading",
+                "note": "Offers joint commercial and energy ventures as the opening rather than as the reward."
+              },
+              "proceduralPosture": {
+                "level": "convening",
+                "note": "Quietly positions itself to lead the negotiations on the strength of its relations with everyone."
+              },
+              "trustPosture": {
+                "level": "relationship-first",
+                "note": "The whole strategy rests on excellent relations with every party, Beijing included."
+              },
+              "communicationRegister": {
+                "level": "conciliatory",
+                "note": "Upholds UNCLOS 'without unnecessarily antagonizing China' — the qualifier is the strategy."
+              }
+            },
             "privateStrategy": [
               "Quietly position Brunei as the lead for the negotiations, leveraging its excellent relations with all parties, especially China, and enlist India, Japan, and the US to back that lead.",
               "Covertly enlist Indonesia and Malaysia to bring unqualified support to the Philippines and Vietnam so as to strengthen Brunei's own positions against China.",
@@ -12292,6 +13072,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Consensus-driven honest broker: patient, principled, multilateralist, positioning as trusted intermediary while quietly leading.",
+            "behavior": {
+              "temperament": {
+                "level": "measured",
+                "note": "Patient and principled in manner while quietly maneuvering for the lead."
+              },
+              "riskTolerance": {
+                "level": "low",
+                "note": "Preserving ASEAN unity is an acceptable floor, and it will accept bilateral formats if China insists."
+              },
+              "timeHorizon": {
+                "level": "patient",
+                "note": "Assesses that getting China into any multilateral format at all should count as an achievement."
+              },
+              "concessionPattern": {
+                "level": "reciprocal",
+                "note": "Trades incremental confidence-building measures and joint ventures rather than pressing for settlement."
+              },
+              "proceduralPosture": {
+                "level": "convening",
+                "note": "Secretly maneuvers to claim the lead and to act as China's primary intermediary."
+              },
+              "trustPosture": {
+                "level": "conditional",
+                "note": "Publicly backs the Philippines while privately judging its claims to fail UNCLOS land-formation tests."
+              },
+              "communicationRegister": {
+                "level": "conciliatory",
+                "note": "Holds the honest-broker register even where its private assessment differs from its public support."
+              }
+            },
             "privateStrategy": [
               "Secretly maneuver to claim the lead of the negotiations and act as China's primary intermediary; get allied and external delegations to accede to Indonesia's leadership.",
               "Assess that China plays for time and will not compromise; getting China into any multilateral format at all should be treated as an achievement.",
@@ -12360,6 +13170,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Principled honest broker: UNCLOS-anchored and coalition-building, but firm and willing to wield the credible threat of force against Chinese intransigence.",
+            "behavior": {
+              "temperament": {
+                "level": "brittle",
+                "note": "Instructed to walk out immediately if China raises the Jammu-Kashmir or border issue."
+              },
+              "riskTolerance": {
+                "level": "high",
+                "note": "Signals that military action may become necessary if Chinese provocation continues."
+              },
+              "timeHorizon": {
+                "level": "urgent",
+                "note": "Presses on Beijing that time is not on its side — the exact inverse of China's own reading."
+              },
+              "concessionPattern": {
+                "level": "withholding",
+                "note": "Will not scuttle the talks but refuses to soften the UNCLOS anchor to keep them alive."
+              },
+              "proceduralPosture": {
+                "level": "convening",
+                "note": "Actively builds a united front with Washington, Tokyo, Manila, Jakarta and Hanoi."
+              },
+              "trustPosture": {
+                "level": "assumes-bad-faith",
+                "note": "Assumes China plays for time, and designs its whole approach around that assumption."
+              },
+              "communicationRegister": {
+                "level": "plainspoken",
+                "note": "States the deterrence premise openly while concealing the border grievance."
+              }
+            },
             "privateStrategy": [
               "India is at odds with China over Jammu-Kashmir and the common border; conceal this and immediately walk out if China raises the border issue.",
               "Actively build a united front with the US, Japan, Indonesia, Philippines, and Vietnam around the premise that the threat of force will deter China rather than inflame the region.",
@@ -12427,6 +13267,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Principled, law-anchored honest-broker: firm on UNCLOS and freedom of navigation, conciliatory and coalition-building in method, patient but willing to signal that sanctions and military options remain on the table.",
+            "behavior": {
+              "temperament": {
+                "level": "measured",
+                "note": "Conciliatory in method and coalition-building even while signaling that options remain open."
+              },
+              "riskTolerance": {
+                "level": "moderate",
+                "note": "Falls back to bilateral reassurance of Manila and Hanoi, but strictly within UNCLOS limits."
+              },
+              "timeHorizon": {
+                "level": "patient",
+                "note": "Patient by instruction, while expecting Beijing to stall and play for time."
+              },
+              "concessionPattern": {
+                "level": "reciprocal",
+                "note": "Conditions support for the Philippines and Vietnam strictly on UNCLOS-verifiable claims."
+              },
+              "proceduralPosture": {
+                "level": "convening",
+                "note": "Presses Jakarta, Kuala Lumpur and Bandar Seri Begawan to broker de-escalation on its behalf."
+              },
+              "trustPosture": {
+                "level": "verification-first",
+                "note": "Support is conditioned on verifiable claims; off-UNCLOS claims are steered back into line."
+              },
+              "communicationRegister": {
+                "level": "legalistic",
+                "note": "Argues freedom of navigation and UNCLOS text rather than interest or threat."
+              }
+            },
             "privateStrategy": [
               "Quietly probe China for what short-term measures or compromises its delegation is actually instructed to offer, expecting Beijing to stall and play for time rather than concede.",
               "Reassure the Philippines and Vietnam of support against China, but privately condition it strictly on UNCLOS-verifiable claims and steer their off-UNCLOS claims back into existing regimes.",
@@ -14830,6 +15700,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Process-protective and procedurally dominant: uses the chair to set the agenda, reframes deadlock as a sequencing problem, and trades reassurance to Pyongyang against pressure on Washington.",
+            "behavior": {
+              "temperament": {
+                "level": "measured",
+                "note": "Absorbs provocation without answering it; the chair's composure is itself an instrument."
+              },
+              "riskTolerance": {
+                "level": "low",
+                "note": "Instructed that 'these talks cannot be allowed to fail'; will trade substance for continuation."
+              },
+              "timeHorizon": {
+                "level": "patient",
+                "note": "Sequencing is the whole strategy; treats deadlock as a problem of order rather than of substance."
+              },
+              "concessionPattern": {
+                "level": "reciprocal",
+                "note": "Trades reassurance to Pyongyang against pressure on Washington, matched move for move."
+              },
+              "proceduralPosture": {
+                "level": "convening",
+                "note": "Uses the chair to set the agenda, rule items out of scope, and offer to host bilaterals."
+              },
+              "trustPosture": {
+                "level": "conditional",
+                "note": "Shields Pyongyang only on condition of good faith: 'we have little tolerance for misbehavior.'"
+              },
+              "communicationRegister": {
+                "level": "conciliatory",
+                "note": "Reframes rather than rebuts; converts disagreement into a question of sequencing."
+              }
+            },
             "privateStrategy": [
               "These talks cannot be allowed to fail; every effort must be made to keep engagement going in some format.",
               "The first and primary order of business is a negotiated return to the 2018 'mutual freeze' between Washington, Seoul and Pyongyang — without it, nothing else can succeed.",
@@ -14897,6 +15797,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Grievance-anchored and dignity-first: refuses coercive framing, answers pressure with escalation, but pairs ideological declarations with concrete transactional openings on aid and sanctions.",
+            "behavior": {
+              "temperament": {
+                "level": "volatile",
+                "note": "Answers pressure with escalation, and is authorised to ignore the Japanese delegation entirely."
+              },
+              "riskTolerance": {
+                "level": "high",
+                "note": "Walkout under pyŏngjin is a live and rehearsed option, with blame pre-assigned to Washington."
+              },
+              "timeHorizon": {
+                "level": "attritional",
+                "note": "The deterrent advances whether or not the table produces anything; delay costs Pyongyang least."
+              },
+              "concessionPattern": {
+                "level": "reciprocal",
+                "note": "Nothing moves unilaterally: freeze against exercises, IAEA readmission against sanctions relief."
+              },
+              "proceduralPosture": {
+                "level": "obstructive",
+                "note": "Will not permit the abductions item on the agenda and appeals to the chair to strike it."
+              },
+              "trustPosture": {
+                "level": "assumes-bad-faith",
+                "note": "The United States is 'the main enemy and the reason our deterrent exists'; respect must precede reciprocity."
+              },
+              "communicationRegister": {
+                "level": "declamatory",
+                "note": "Ideological declaration first, transactional opening second, in that fixed order."
+              }
+            },
             "privateStrategy": [
               "The United States, with its proxies in Seoul and Tokyo, is the main enemy and the reason our deterrent exists; say so.",
               "State plainly in the opening statement and thereafter: we will give up our nuclear weapons when the rest of the world gives up theirs.",
@@ -14962,6 +15892,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Alliance-disciplined in public, exploratory in private: holds the trilateral denuclearization line while quietly building a bilateral inter-Korean opening it can widen if the multilateral track fails.",
+            "behavior": {
+              "temperament": {
+                "level": "guarded",
+                "note": "Two-track by design: public discipline with the alliance, private exploration with Pyongyang."
+              },
+              "riskTolerance": {
+                "level": "moderate",
+                "note": "The status quo is 'uncomfortable but survivable'; can absorb failure but wants the bilateral door open."
+              },
+              "timeHorizon": {
+                "level": "patient",
+                "note": "Plays for the longer-term relationship 'with our brothers to the north' beyond this crisis."
+              },
+              "concessionPattern": {
+                "level": "end-loading",
+                "note": "The expansive rail, road and energy offering is sequenced explicitly after elimination."
+              },
+              "proceduralPosture": {
+                "level": "chair-deferential",
+                "note": "Works inside the framework, and proposes a different path rather than defending a failed one."
+              },
+              "trustPosture": {
+                "level": "conditional",
+                "note": "'Bad behavior will not be rewarded,' but reserves the right to act bilaterally if that opens a better path."
+              },
+              "communicationRegister": {
+                "level": "plainspoken",
+                "note": "States the joint line without ornament, then explores quietly off the record."
+              }
+            },
             "privateStrategy": [
               "Bad behavior will not be rewarded — say it, and hold the joint position with Washington and Tokyo on a comprehensive agreement.",
               "Reserve the right to act bilaterally with Pyongyang if that creates a better path, both for this crisis and for the longer-term relationship with our brothers to the north.",
@@ -15028,6 +15988,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Verification-first and conditional: refuses to pay for process, converts every concession into a sequencing question, and keeps the trilateral bloc visibly locked.",
+            "behavior": {
+              "temperament": {
+                "level": "imperturbable",
+                "note": "Does not answer escalation in kind; converts it into a sequencing question."
+              },
+              "riskTolerance": {
+                "level": "moderate",
+                "note": "Content to let the talks lapse and hold the pressure architecture indefinitely."
+              },
+              "timeHorizon": {
+                "level": "patient",
+                "note": "Sanctions, THAAD and exercises are sustainable; there is no deadline Washington must beat."
+              },
+              "concessionPattern": {
+                "level": "withholding",
+                "note": "'What we will not do is buy a freeze' — relief follows verification and never precedes it."
+              },
+              "proceduralPosture": {
+                "level": "rule-exploiting",
+                "note": "Insists chemical and cyber be addressed although they sit outside the Chairman's Framework."
+              },
+              "trustPosture": {
+                "level": "verification-first",
+                "note": "No unverifiable instrument is acceptable regardless of what it would buy."
+              },
+              "communicationRegister": {
+                "level": "legalistic",
+                "note": "Argues in terms of what a text would permit, not what a party intends."
+              }
+            },
             "privateStrategy": [
               "Work in unison with Seoul and Tokyo to hold the joint position on a comprehensive agreement covering every issue in the Chairman's Framework.",
               "If the comprehensive approach shows no promise, do not let that compromise the joint position on abolishing the nuclear and missile programs.",
@@ -15094,6 +16084,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Insistent and status-conscious: presses a single moral file relentlessly, ties it to the security agenda, and repeatedly asserts Japan's right to be at the center of any outcome.",
+            "behavior": {
+              "temperament": {
+                "level": "brittle",
+                "note": "Status-anxious; reacts sharply to any sign of being sidelined by Washington and Seoul."
+              },
+              "riskTolerance": {
+                "level": "moderate",
+                "note": "Holds a nuclear-latency BATNA and will voice it, but not at the cost of the trilateral line."
+              },
+              "timeHorizon": {
+                "level": "urgent",
+                "note": "Fears being left behind 'in Washington's and Seoul's haste for an agreement.'"
+              },
+              "concessionPattern": {
+                "level": "withholding",
+                "note": "Offers KEDO financing only against the DPRK's total exclusion from reactor operation."
+              },
+              "proceduralPosture": {
+                "level": "rule-exploiting",
+                "note": "Presses the abductions file onto an agenda from which the chair has excluded it."
+              },
+              "trustPosture": {
+                "level": "assumes-bad-faith",
+                "note": "'The old agreement's error must not be repeated' — past compliance is read as prior deceit."
+              },
+              "communicationRegister": {
+                "level": "declamatory",
+                "note": "Presses a single moral file relentlessly, repeating rather than varying the argument."
+              }
+            },
             "privateStrategy": [
               "If these talks fail and the North's programs are left unconstrained, we will be forced to begin developing our own nuclear and missile programs — let that be understood.",
               "Emphasize at every turn that no nation but South Korea faces a greater threat, especially given U.S. forces stationed in Japan.",
@@ -15160,6 +16180,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Positional but transactional: dismisses allied threat assessments as pretext, insists on procedural standing, and converts every issue into an opening for Russian economic presence.",
+            "behavior": {
+              "temperament": {
+                "level": "measured",
+                "note": "Dismissive rather than heated; treats allied alarm as a ploy to extract concessions, not as a threat."
+              },
+              "riskTolerance": {
+                "level": "moderate",
+                "note": "Bilateral gains with Pyongyang accrue regardless, so little is staked on this table."
+              },
+              "timeHorizon": {
+                "level": "attritional",
+                "note": "The treaty, labour and energy relationship with Pyongyang deepens whatever this round produces."
+              },
+              "concessionPattern": {
+                "level": "reciprocal",
+                "note": "Converts each issue into an opening for Russian economic presence, traded rather than given."
+              },
+              "proceduralPosture": {
+                "level": "rule-exploiting",
+                "note": "Insists on procedural standing; sidelining the delegation is framed as damage to the process itself."
+              },
+              "trustPosture": {
+                "level": "conditional",
+                "note": "Offers the honest-broker role, but only after establishing how Pyongyang regards it."
+              },
+              "communicationRegister": {
+                "level": "plainspoken",
+                "note": "Blunt on threat assessment and concrete about what Russia expects in return."
+              }
+            },
             "privateStrategy": [
               "Work in tandem with the Chinese delegation to hold the step-by-step line against the comprehensive approach.",
               "We seek influence on the peninsula in direct competition with China, Japan, South Korea and the United States — not only with Washington.",
@@ -16895,6 +17945,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Sovereignty-first and dialogue-controlling: opens by foreclosing the agenda, refuses formats it has not chosen, and converts every external demand into a question of who has standing to make it.",
+            "behavior": {
+              "temperament": {
+                "level": "guarded",
+                "note": "Controls the dialogue at every step and is wary of extra-regional actors pushing their own agendas."
+              },
+              "riskTolerance": {
+                "level": "high",
+                "note": "Walking away costs nothing: direct administration continues and economic weight insulates New Delhi."
+              },
+              "timeHorizon": {
+                "level": "attritional",
+                "note": "The reorganized Union Territories are already the outcome India wants; time entrenches them."
+              },
+              "concessionPattern": {
+                "level": "withholding",
+                "note": "Article 370 is explicitly 'held back as a carrot,' never offered."
+              },
+              "proceduralPosture": {
+                "level": "agenda-foreclosing",
+                "note": "Opens by ruling the agenda out of scope and refuses any format containing both Pakistan and the Kashmiris."
+              },
+              "trustPosture": {
+                "level": "assumes-bad-faith",
+                "note": "Tests whether the Kashmiri leadership secretly intends independence, with pressure ready if unconvinced."
+              },
+              "communicationRegister": {
+                "level": "legalistic",
+                "note": "Converts every external demand into a question of who has standing to make it."
+              }
+            },
             "privateStrategy": [
               "Begin by stating the unequivocal position that all of Jammu and Kashmir is part of India, and reject international involvement beyond simple facilitation.",
               "India will not be part of any meeting that involves both Pakistan and the Jammu & Kashmir delegation; meet each separately.",
@@ -16965,6 +18045,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Internationalizing and moralizing: converts every procedural question into a demand for third-party involvement, and every humanitarian fact into an indictment of Indian rule.",
+            "behavior": {
+              "temperament": {
+                "level": "guarded",
+                "note": "Tailors a different argument to each audience — precedent to Beijing, separatism to Moscow, terrorism to Washington."
+              },
+              "riskTolerance": {
+                "level": "moderate",
+                "note": "Retains Azad Kashmir and the UN file whatever happens; failure is survivable, domestication is not."
+              },
+              "timeHorizon": {
+                "level": "attritional",
+                "note": "Lets 'the demographic and political costs of occupation accumulate against New Delhi.'"
+              },
+              "concessionPattern": {
+                "level": "withholding",
+                "note": "Avoids any concession that would foreclose Jammu and Kashmir eventually joining Pakistan."
+              },
+              "proceduralPosture": {
+                "level": "rule-exploiting",
+                "note": "Converts every procedural question into a demand for third-party involvement."
+              },
+              "trustPosture": {
+                "level": "conditional",
+                "note": "Support is contingent on Beijing not turning neutral; alignment is priced rather than assumed."
+              },
+              "communicationRegister": {
+                "level": "declamatory",
+                "note": "Every humanitarian fact is delivered as an indictment of Indian rule."
+              }
+            },
             "privateStrategy": [
               "Avoid any concession that would prevent Jammu and Kashmir from eventually joining Pakistan.",
               "Pakistan does not support Kashmiri independence — insist on the original 1948 plebiscite, which excludes it.",
@@ -17036,6 +18146,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Rights-framed and impatient: converts every procedural offer into a test of whether commitments are dated and enforceable, and treats both New Delhi and Islamabad as versions of the same subordination.",
+            "behavior": {
+              "temperament": {
+                "level": "brittle",
+                "note": "Seated at an international table for the first time; treats each procedural deferral as a slight."
+              },
+              "riskTolerance": {
+                "level": "high",
+                "note": "Willing and able to organize a substantial boycott of any plebiscite limited to accession."
+              },
+              "timeHorizon": {
+                "level": "urgent",
+                "note": "'Pursue concrete agreements on timelines and implementation aggressively.'"
+              },
+              "concessionPattern": {
+                "level": "withholding",
+                "note": "Ties governance to every other issue so that it cannot be traded away or set aside."
+              },
+              "proceduralPosture": {
+                "level": "rule-exploiting",
+                "note": "Converts every procedural offer into a test of whether commitments are dated and enforceable."
+              },
+              "trustPosture": {
+                "level": "assumes-bad-faith",
+                "note": "Treats New Delhi and Islamabad as versions of the same subordination; trusts only Washington and London."
+              },
+              "communicationRegister": {
+                "level": "declamatory",
+                "note": "Argues in the register of rights and recognition rather than of terms."
+              }
+            },
             "privateStrategy": [
               "These negotiations are an unprecedented opportunity to gain international recognition — meet with every party willing to discuss the future of Jammu and Kashmir.",
               "Secure the support of the United States and United Kingdom first; they are the guarantee of honest treatment by India and Pakistan.",
@@ -17106,6 +18246,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Measured major-country diplomacy with an edge held in reserve: prefers bilateral rooms, concedes money rather than principle, and blocks precedents rather than arguing outcomes.",
+            "behavior": {
+              "temperament": {
+                "level": "measured",
+                "note": "Balances Zhànláng Wàijiāo against dàguó-wàijiāo; the edge is held in reserve, not deployed."
+              },
+              "riskTolerance": {
+                "level": "low",
+                "note": "'Do nothing and win' — the status quo already secures the corridor and the claims, so nothing is risked."
+              },
+              "timeHorizon": {
+                "level": "attritional",
+                "note": "Instructed that 'the times and trends are on our side'; delay is itself the strategy."
+              },
+              "concessionPattern": {
+                "level": "withholding",
+                "note": "Concedes money rather than principle; a financial offer to Pakistan substitutes for a territorial one."
+              },
+              "proceduralPosture": {
+                "level": "obstructive",
+                "note": "Prefers bilateral rooms, minimizes multilateral discussion, and blocks precedents rather than arguing outcomes."
+              },
+              "trustPosture": {
+                "level": "conditional",
+                "note": "Seeks common ground with Russia instrumentally, to marginalize Washington rather than out of alignment."
+              },
+              "communicationRegister": {
+                "level": "elliptical",
+                "note": "Objects to precedent while leaving the underlying interest — Aksai Chin, Tibet, the corridor — unstated."
+              }
+            },
             "privateStrategy": [
               "Balance Zhànláng Wàijiāo with a measured approach; take an active role under President Xi's dàguó-wàijiāo, and remember the times and trends are on our side.",
               "Prefer bilateral formats and minimize multilateral discussion, which dilutes our strength and drifts away from our concerns.",
@@ -17174,6 +18344,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               ]
             },
             "style": "Loyal and single-issue: reduces the conference to terrorism and sovereignty, defers to New Delhi on everything else, and trades procedural support for standing.",
+            "behavior": {
+              "temperament": {
+                "level": "imperturbable",
+                "note": "Reduces a broad conference to a single issue and simply does not engage the rest."
+              },
+              "riskTolerance": {
+                "level": "low",
+                "note": "'Lose nothing': the military-industrial and energy relationship with India continues regardless."
+              },
+              "timeHorizon": {
+                "level": "attritional",
+                "note": "The status quo already forecloses the separatist precedent Moscow fears."
+              },
+              "concessionPattern": {
+                "level": "withholding",
+                "note": "Does not anticipate enough Pakistani movement on terrorism to warrant pressuring India at all."
+              },
+              "proceduralPosture": {
+                "level": "chair-deferential",
+                "note": "Trades procedural support for standing, and declines bilateral contact with the Kashmiri delegation."
+              },
+              "trustPosture": {
+                "level": "relationship-first",
+                "note": "Protects the bilateral relationship with India 'above all'; every position follows from it."
+              },
+              "communicationRegister": {
+                "level": "plainspoken",
+                "note": "States the terrorism and sovereignty position directly and defers on everything else."
+              }
+            },
             "privateStrategy": [
               "Protect and enhance the bilateral relationship with India above all; avoid discussing with Pakistan issues vital to New Delhi.",
               "India and Pakistan should resolve territory, governance and water bilaterally wherever possible.",
@@ -17236,6 +18436,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               "adversaries": []
             },
             "style": "Norm-anchored and coalition-driven: leads jointly with Washington, prices its support in counterterrorism and investigation commitments, and refuses to let the autonomy question be dropped from the text.",
+            "behavior": {
+              "temperament": {
+                "level": "measured",
+                "note": "Firm on norms without heat; presses through coalition rather than confrontation."
+              },
+              "riskTolerance": {
+                "level": "low",
+                "note": "The file stays in the Security Council either way; little is staked on this particular text."
+              },
+              "timeHorizon": {
+                "level": "patient",
+                "note": "Willing to keep championing the Kashmiri delegation's standing outside any agreed text."
+              },
+              "concessionPattern": {
+                "level": "reciprocal",
+                "note": "Prices its support in counterterrorism and investigation commitments."
+              },
+              "proceduralPosture": {
+                "level": "convening",
+                "note": "Uses multilateral meetings to maximize communication and compels contact between the primary parties."
+              },
+              "trustPosture": {
+                "level": "conditional",
+                "note": "Balances India and Pakistan 'carefully to gain concessions without alienating either.'"
+              },
+              "communicationRegister": {
+                "level": "legalistic",
+                "note": "Argues from precedent — the Jammu and Kashmir Water Resources Act — and from investigation mandates."
+              }
+            },
             "privateStrategy": [
               "Reducing tensions in South Asia is the primary concern; lead with the Americans, separately or together, using multilateral meetings to maximize communication.",
               "Encourage, and where needed compel, communication between the primary parties.",
@@ -17299,6 +18529,36 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
               "adversaries": []
             },
             "style": "Convening and instrumental: builds multilateral formats as leverage, prices autonomy support in counterterrorism, and trades breadth of ambition for immediate reduction in tension.",
+            "behavior": {
+              "temperament": {
+                "level": "measured",
+                "note": "Trades breadth of ambition for immediate reduction in tension without visible frustration."
+              },
+              "riskTolerance": {
+                "level": "low",
+                "note": "Bilateral de-escalation channels with New Delhi and Islamabad remain open regardless; the fallback is comfortable."
+              },
+              "timeHorizon": {
+                "level": "urgent",
+                "note": "'Reducing tensions in South Asia is our primary concern' — de-escalation now over settlement later."
+              },
+              "concessionPattern": {
+                "level": "reciprocal",
+                "note": "Prices support for autonomy in counterterrorism commitments."
+              },
+              "proceduralPosture": {
+                "level": "convening",
+                "note": "Builds multilateral formats as leverage and shifts chapters when governance talks stall."
+              },
+              "trustPosture": {
+                "level": "conditional",
+                "note": "Praises Kashmiri self-governance privately while taking no formal position publicly."
+              },
+              "communicationRegister": {
+                "level": "plainspoken",
+                "note": "Instrumental and direct about what it wants moved, and in what order."
+              }
+            },
             "privateStrategy": [
               "Reducing tensions in South Asia is our primary concern; play a leading role using multilateral meetings to maximize communication.",
               "Engagement from Great Britain and Russia will be critical to concluding lasting agreements.",

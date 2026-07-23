@@ -40,10 +40,48 @@
     "Public supportive statements for Russian and Tajik/Kazakh positions."
   ],
   "coalitionLeanings": {
-    "natural_allies": ["Tajikistan", "Kazakhstan", "Russia (public support only)", "Uzbekistan", "Kyrgyzstan"],
-    "adversaries": ["China"]
+    "natural_allies": [
+      "Tajikistan",
+      "Kazakhstan",
+      "Russia (public support only)",
+      "Uzbekistan",
+      "Kyrgyzstan"
+    ],
+    "adversaries": [
+      "China"
+    ]
   },
   "negotiatingStyle": "Cordial and consensus-friendly in public, subtle and transactional in private—winning influence through bilateral deals while never openly attacking rivals.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "warm",
+      "note": "Cordial and consensus-friendly in public, and never openly attacks a rival."
+    },
+    "riskTolerance": {
+      "level": "low",
+      "note": "Off-summit bilateral engagement, especially with Dushanbe, secures Indian interests regardless."
+    },
+    "timeHorizon": {
+      "level": "patient",
+      "note": "Reestablishing influence is a multi-year project; the summit is a means to later bilaterals."
+    },
+    "concessionPattern": {
+      "level": "reciprocal",
+      "note": "Offers bilateral security and trade deals against movement away from Beijing."
+    },
+    "proceduralPosture": {
+      "level": "chair-deferential",
+      "note": "Supports the format publicly while doing the real work in private rooms."
+    },
+    "trustPosture": {
+      "level": "conditional",
+      "note": "Supports Russia publicly but stays vigilant against Russian efforts to reclaim primacy."
+    },
+    "communicationRegister": {
+      "level": "elliptical",
+      "note": "Boxes out Chinese initiatives, and BRI in particular, without ever naming them in plenary."
+    }
+  },
   "privateInstructions": [
     "Covertly undermine and box out all Chinese initiatives (especially BRI) via private bilateral talks with the four Central Asian states—never openly argue with the PRC; if a Chinese MSS operative is identified, it is acceptable to publicly expose them as a 'spy.'",
     "Support Russia publicly but stay vigilant against Russian efforts to reclaim primacy; do not endorse any specific Russian plan until relayed to and cleared by the Foreign Ministry.",

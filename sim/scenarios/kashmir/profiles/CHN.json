@@ -51,6 +51,36 @@
     ]
   },
   "negotiatingStyle": "Measured major-country diplomacy with an edge held in reserve: prefers bilateral rooms, concedes money rather than principle, and blocks precedents rather than arguing outcomes.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "measured",
+      "note": "Balances Zhànláng Wàijiāo against dàguó-wàijiāo; the edge is held in reserve, not deployed."
+    },
+    "riskTolerance": {
+      "level": "low",
+      "note": "'Do nothing and win' — the status quo already secures the corridor and the claims, so nothing is risked."
+    },
+    "timeHorizon": {
+      "level": "attritional",
+      "note": "Instructed that 'the times and trends are on our side'; delay is itself the strategy."
+    },
+    "concessionPattern": {
+      "level": "withholding",
+      "note": "Concedes money rather than principle; a financial offer to Pakistan substitutes for a territorial one."
+    },
+    "proceduralPosture": {
+      "level": "obstructive",
+      "note": "Prefers bilateral rooms, minimizes multilateral discussion, and blocks precedents rather than arguing outcomes."
+    },
+    "trustPosture": {
+      "level": "conditional",
+      "note": "Seeks common ground with Russia instrumentally, to marginalize Washington rather than out of alignment."
+    },
+    "communicationRegister": {
+      "level": "elliptical",
+      "note": "Objects to precedent while leaving the underlying interest — Aksai Chin, Tibet, the corridor — unstated."
+    }
+  },
   "privateInstructions": [
     "Balance Zhànláng Wàijiāo with a measured approach; take an active role under President Xi's dàguó-wàijiāo, and remember the times and trends are on our side.",
     "Prefer bilateral formats and minimize multilateral discussion, which dilutes our strength and drifts away from our concerns.",

@@ -43,6 +43,36 @@
     "adversaries": []
   },
   "negotiatingStyle": "Norm-anchored and coalition-driven: leads jointly with Washington, prices its support in counterterrorism and investigation commitments, and refuses to let the autonomy question be dropped from the text.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "measured",
+      "note": "Firm on norms without heat; presses through coalition rather than confrontation."
+    },
+    "riskTolerance": {
+      "level": "low",
+      "note": "The file stays in the Security Council either way; little is staked on this particular text."
+    },
+    "timeHorizon": {
+      "level": "patient",
+      "note": "Willing to keep championing the Kashmiri delegation's standing outside any agreed text."
+    },
+    "concessionPattern": {
+      "level": "reciprocal",
+      "note": "Prices its support in counterterrorism and investigation commitments."
+    },
+    "proceduralPosture": {
+      "level": "convening",
+      "note": "Uses multilateral meetings to maximize communication and compels contact between the primary parties."
+    },
+    "trustPosture": {
+      "level": "conditional",
+      "note": "Balances India and Pakistan 'carefully to gain concessions without alienating either.'"
+    },
+    "communicationRegister": {
+      "level": "legalistic",
+      "note": "Argues from precedent — the Jammu and Kashmir Water Resources Act — and from investigation mandates."
+    }
+  },
   "privateInstructions": [
     "Reducing tensions in South Asia is the primary concern; lead with the Americans, separately or together, using multilateral meetings to maximize communication.",
     "Encourage, and where needed compel, communication between the primary parties.",

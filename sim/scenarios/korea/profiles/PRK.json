@@ -48,6 +48,36 @@
     ]
   },
   "negotiatingStyle": "Grievance-anchored and dignity-first: refuses coercive framing, answers pressure with escalation, but pairs ideological declarations with concrete transactional openings on aid and sanctions.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "volatile",
+      "note": "Answers pressure with escalation, and is authorised to ignore the Japanese delegation entirely."
+    },
+    "riskTolerance": {
+      "level": "high",
+      "note": "Walkout under pyŏngjin is a live and rehearsed option, with blame pre-assigned to Washington."
+    },
+    "timeHorizon": {
+      "level": "attritional",
+      "note": "The deterrent advances whether or not the table produces anything; delay costs Pyongyang least."
+    },
+    "concessionPattern": {
+      "level": "reciprocal",
+      "note": "Nothing moves unilaterally: freeze against exercises, IAEA readmission against sanctions relief."
+    },
+    "proceduralPosture": {
+      "level": "obstructive",
+      "note": "Will not permit the abductions item on the agenda and appeals to the chair to strike it."
+    },
+    "trustPosture": {
+      "level": "assumes-bad-faith",
+      "note": "The United States is 'the main enemy and the reason our deterrent exists'; respect must precede reciprocity."
+    },
+    "communicationRegister": {
+      "level": "declamatory",
+      "note": "Ideological declaration first, transactional opening second, in that fixed order."
+    }
+  },
   "privateInstructions": [
     "The United States, with its proxies in Seoul and Tokyo, is the main enemy and the reason our deterrent exists; say so.",
     "State plainly in the opening statement and thereafter: we will give up our nuclear weapons when the rest of the world gives up theirs.",

@@ -39,10 +39,49 @@
     "Frame the TFPZ as temporary, convertible to full EEZ recognition."
   ],
   "coalitionLeanings": {
-    "natural_allies": ["Denmark", "Iceland", "Finland", "Sweden", "NATO"],
-    "adversaries": ["China", "Russia"]
+    "natural_allies": [
+      "Denmark",
+      "Iceland",
+      "Finland",
+      "Sweden",
+      "NATO"
+    ],
+    "adversaries": [
+      "China",
+      "Russia"
+    ]
   },
   "negotiatingStyle": "Cooperative, law-based, and consensus-driven as Arctic Council Chair, but firm and adamant on Svalbard sovereignty.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "measured",
+      "note": "Consensus-driven as Council Chair, and avoids openly criticizing the American ally even when it disagrees."
+    },
+    "riskTolerance": {
+      "level": "low",
+      "note": "The Svalbard Treaty status quo and the fisheries protection zone hold unilaterally; failure changes little."
+    },
+    "timeHorizon": {
+      "level": "attritional",
+      "note": "Treats the 'temporary' protection zone as a lever to force eventual recognition of the full Svalbard EEZ."
+    },
+    "concessionPattern": {
+      "level": "withholding",
+      "note": "Firm and adamant on Svalbard sovereignty regardless of what is offered against it."
+    },
+    "proceduralPosture": {
+      "level": "convening",
+      "note": "Chairs for consensus while holding one issue deliberately outside the consensus."
+    },
+    "trustPosture": {
+      "level": "conditional",
+      "note": "Wants bilateral cooperation with Russia restored, but quietly and not yet."
+    },
+    "communicationRegister": {
+      "level": "legalistic",
+      "note": "Argues from the Svalbard Treaty and UNCLOS rather than from interest."
+    }
+  },
   "privateInstructions": [
     "Fears an American overreaction to Chinese/Russian activity; wants U.S. de-escalation but avoid openly criticizing the ally.",
     "Quietly wants to restore bilateral cooperation with Russia on Arctic issues while publicly maintaining pressure over Ukraine.",

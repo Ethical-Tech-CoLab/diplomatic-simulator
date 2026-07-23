@@ -40,10 +40,47 @@
     "Explore replacing the EAEU with an SCO-based economic framework."
   ],
   "coalitionLeanings": {
-    "natural_allies": ["Kazakhstan", "Uzbekistan", "China"],
-    "adversaries": ["Tajikistan", "Russia"]
+    "natural_allies": [
+      "Kazakhstan",
+      "Uzbekistan",
+      "China"
+    ],
+    "adversaries": [
+      "Tajikistan",
+      "Russia"
+    ]
   },
   "negotiatingStyle": "Outwardly cooperative and information-hungry: friendly, non-committal, extracts others' positions while quietly protecting red lines and deferring all decisions to the capital.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "warm",
+      "note": "Friendly and non-committal by design; the friendliness is itself the collection instrument."
+    },
+    "riskTolerance": {
+      "level": "low",
+      "note": "Concludes nothing binding and defers every decision to the capital."
+    },
+    "timeHorizon": {
+      "level": "attritional",
+      "note": "Holding the territorial and water status quo is the stated objective; movement is the only risk."
+    },
+    "concessionPattern": {
+      "level": "withholding",
+      "note": "Extracts others' positions while quietly protecting its own red lines."
+    },
+    "proceduralPosture": {
+      "level": "chair-deferential",
+      "note": "Cooperative with the format precisely because the format commits it to nothing."
+    },
+    "trustPosture": {
+      "level": "assumes-bad-faith",
+      "note": "Instructed to string Tajikistan along to extract intelligence while never agreeing to anything."
+    },
+    "communicationRegister": {
+      "level": "elliptical",
+      "note": "Non-committal throughout; the CSTO-exit thinking is invisible at the table."
+    }
+  },
   "privateInstructions": [
     "Secretly consider withdrawing from the CSTO and coordinate the timing/partnership with Kazakhstan (and Uzbekistan) on leaving Russia's orbit.",
     "In head-of-delegation-only bilaterals with China, explore an intelligence-sharing arrangement targeting Tajikistan and Uzbekistan; no other nation may learn of this (Red Line).",

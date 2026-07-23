@@ -47,6 +47,36 @@
     ]
   },
   "negotiatingStyle": "Positional but transactional: dismisses allied threat assessments as pretext, insists on procedural standing, and converts every issue into an opening for Russian economic presence.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "measured",
+      "note": "Dismissive rather than heated; treats allied alarm as a ploy to extract concessions, not as a threat."
+    },
+    "riskTolerance": {
+      "level": "moderate",
+      "note": "Bilateral gains with Pyongyang accrue regardless, so little is staked on this table."
+    },
+    "timeHorizon": {
+      "level": "attritional",
+      "note": "The treaty, labour and energy relationship with Pyongyang deepens whatever this round produces."
+    },
+    "concessionPattern": {
+      "level": "reciprocal",
+      "note": "Converts each issue into an opening for Russian economic presence, traded rather than given."
+    },
+    "proceduralPosture": {
+      "level": "rule-exploiting",
+      "note": "Insists on procedural standing; sidelining the delegation is framed as damage to the process itself."
+    },
+    "trustPosture": {
+      "level": "conditional",
+      "note": "Offers the honest-broker role, but only after establishing how Pyongyang regards it."
+    },
+    "communicationRegister": {
+      "level": "plainspoken",
+      "note": "Blunt on threat assessment and concrete about what Russia expects in return."
+    }
+  },
   "privateInstructions": [
     "Work in tandem with the Chinese delegation to hold the step-by-step line against the comprehensive approach.",
     "We seek influence on the peninsula in direct competition with China, Japan, South Korea and the United States — not only with Washington.",

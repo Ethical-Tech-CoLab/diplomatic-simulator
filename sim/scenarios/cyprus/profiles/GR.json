@@ -40,10 +40,47 @@
     "Provide safeguards for Turkish Cypriots and other minorities within a strong federal structure."
   ],
   "coalitionLeanings": {
-    "natural_allies": ["Republic of Cyprus (Greek Cypriots)", "United States", "United Kingdom"],
-    "adversaries": ["Turkey", "Turkish Republic of Northern Cyprus"]
+    "natural_allies": [
+      "Republic of Cyprus (Greek Cypriots)",
+      "United States",
+      "United Kingdom"
+    ],
+    "adversaries": [
+      "Turkey",
+      "Turkish Republic of Northern Cyprus"
+    ]
   },
   "negotiatingStyle": "Legalistic and principled but pragmatic: anchors on international legality and sovereignty while offering calibrated confidence-building trades to isolate the two-state position.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "measured",
+      "note": "Publicly deferential to Nicosia's competence while steering outcomes behind the scenes."
+    },
+    "riskTolerance": {
+      "level": "low",
+      "note": "Falls back to the UN Good Offices process, which costs Athens nothing."
+    },
+    "timeHorizon": {
+      "level": "patient",
+      "note": "Holds a pre-set fallback in reserve for use only if an issue becomes an absolute deal breaker."
+    },
+    "concessionPattern": {
+      "level": "end-loading",
+      "note": "The intervention concession is held to the very end and conceded only through Nicosia."
+    },
+    "proceduralPosture": {
+      "level": "chair-deferential",
+      "note": "Accepts UN-mediated bicommunal talks as the only legitimate method."
+    },
+    "trustPosture": {
+      "level": "conditional",
+      "note": "Offers calibrated confidence-building trades to isolate the two-state position."
+    },
+    "communicationRegister": {
+      "level": "legalistic",
+      "note": "Argues legality and sovereignty in public; the pragmatism stays private."
+    }
+  },
   "privateInstructions": [
     "Secretly favor Türkiye's EU accession because it would benefit the Greek economy and normalize Greek-Turkish relations, and quietly press Greek Cypriots to drop the blockage.",
     "Hold a pre-set fallback on military intervention: only if it becomes an absolute deal breaker, privately advise Greek Cypriots to concede it, strictly limited to constituent-state boundaries.",

@@ -84,7 +84,38 @@ not been reviewed. In rough priority order:
   [`sim/analysis/mixed-model/`](sim/analysis/mixed-model/).
   Still to do: repeat for Jammu & Kashmir; rotate which seats get which tier so
   the finding is not an artifact of *which* delegation was downgraded; and try
-  distinct persona/temperature settings, which this run did not vary.
+  distinct temperature settings, which this run did not vary.
+- ~~**Behavioural personality variable — schema.**~~ Done (2026-07-23). Every
+  profile now carries `behavioralProfile`: seven coded dimensions (temperament,
+  risk tolerance, time horizon, concession pattern, procedural posture, trust
+  posture, register), each a controlled level plus a note grounded in that
+  delegation's own role, BATNA or privileged instructions. Authored for all 42
+  delegations across the six scenarios; schema documented in
+  [`sim/README.md`](sim/README.md) and on
+  [`methodology.html`](methodology.html#dispositions); rendered as the
+  *Delegation dispositions* table on each scenario report.
+- **Personality is not yet a variable — only a field.** The blocks are authored
+  per delegation and held constant across runs of a scenario, exactly like a red
+  line, so nothing so far tests whether disposition *changes* anything. Two
+  things needed to make it an experiment, in order:
+  1. **Feed it into the negotiation.** No published transcript was generated
+     with these blocks present. Until a run puts `behavioralProfile` in the
+     delegation prompt, it is descriptive metadata with no causal role.
+  2. **Vary it against a fixed profile.** The clean A/B is the mixed-model
+     design with the axis swapped: same scenario, same profiles, same prompts
+     and rounds, changing only the disposition on one or two seats — e.g. the
+     DPRK seat played `patient`/`reciprocal` instead of `volatile`/
+     `attritional`. Korea is the natural target since it already has a baseline
+     and a mixed-model arm to sit beside.
+  Worth reading `sim/analysis/mixed-model/findings.md` §1.3 first: Korea's
+  authorised concession sets are disjoint, so **settlement rate cannot
+  discriminate anything** on that scenario. Score a disposition arm on process
+  instead — agreements won, which round a concession lands in, whether an
+  offered channel is taken up, red-line breaks.
+- **Cheap check available now.** The register dimension predicts which
+  delegations should sound unlike each other. Re-running the cross-party
+  bleeding audit with those labels turns "the voices feel similar" into a
+  testable claim, using transcripts that already exist.
 - **Model assignment may be a confound in the existing scenarios.** The four
   original negotiations ran on Opus while their Monte Carlo trials ran on
   Sonnet (see `methodology.html`). If the mixed-model audit confirms that tier

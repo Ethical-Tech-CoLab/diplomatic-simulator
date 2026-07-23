@@ -51,6 +51,36 @@
     ]
   },
   "negotiatingStyle": "Facilitative, coordination-driven honest broker that works behind the UN and US, applies quiet issue-linkage, and avoids derailing talks over disagreements.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "imperturbable",
+      "note": "Never lets its private lean toward the Greek Cypriot side derail the talks."
+    },
+    "riskTolerance": {
+      "level": "low",
+      "note": "Falls back to incremental confidence-building gains, which it counts as success in themselves."
+    },
+    "timeHorizon": {
+      "level": "patient",
+      "note": "Sustaining the UN process is itself an acceptable outcome."
+    },
+    "concessionPattern": {
+      "level": "reciprocal",
+      "note": "Applies quiet issue-linkage — Famagusta and Ercan against the accession block."
+    },
+    "proceduralPosture": {
+      "level": "chair-deferential",
+      "note": "Works behind the UN and the United States and seeks guidance rather than committing unilaterally."
+    },
+    "trustPosture": {
+      "level": "relationship-first",
+      "note": "Coordinates with Washington before approaching Athens or Ankara."
+    },
+    "communicationRegister": {
+      "level": "conciliatory",
+      "note": "Avoids derailing talks over disagreements; disagreement is registered quietly."
+    }
+  },
   "privateInstructions": [
     "Privately lean toward the Greek Cypriot side on sovereignty/'virgin birth' but never let that preference derail the talks.",
     "Coordinate UK positions with the United States before approaching Greece and Turkiye.",

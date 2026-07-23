@@ -47,6 +47,36 @@
     ]
   },
   "negotiatingStyle": "Alliance-disciplined in public, exploratory in private: holds the trilateral denuclearization line while quietly building a bilateral inter-Korean opening it can widen if the multilateral track fails.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "guarded",
+      "note": "Two-track by design: public discipline with the alliance, private exploration with Pyongyang."
+    },
+    "riskTolerance": {
+      "level": "moderate",
+      "note": "The status quo is 'uncomfortable but survivable'; can absorb failure but wants the bilateral door open."
+    },
+    "timeHorizon": {
+      "level": "patient",
+      "note": "Plays for the longer-term relationship 'with our brothers to the north' beyond this crisis."
+    },
+    "concessionPattern": {
+      "level": "end-loading",
+      "note": "The expansive rail, road and energy offering is sequenced explicitly after elimination."
+    },
+    "proceduralPosture": {
+      "level": "chair-deferential",
+      "note": "Works inside the framework, and proposes a different path rather than defending a failed one."
+    },
+    "trustPosture": {
+      "level": "conditional",
+      "note": "'Bad behavior will not be rewarded,' but reserves the right to act bilaterally if that opens a better path."
+    },
+    "communicationRegister": {
+      "level": "plainspoken",
+      "note": "States the joint line without ornament, then explores quietly off the record."
+    }
+  },
   "privateInstructions": [
     "Bad behavior will not be rewarded — say it, and hold the joint position with Washington and Tokyo on a comprehensive agreement.",
     "Reserve the right to act bilaterally with Pyongyang if that creates a better path, both for this crisis and for the longer-term relationship with our brothers to the north.",

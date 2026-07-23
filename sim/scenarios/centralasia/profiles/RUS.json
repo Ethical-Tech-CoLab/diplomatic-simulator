@@ -42,10 +42,50 @@
     "Explore defense-cooperation and terrorism/separatism intel frameworks with India (no commitments)."
   ],
   "coalitionLeanings": {
-    "natural_allies": ["Tajikistan", "Kyrgyzstan", "China (strategic partner, with caveats)", "India (long-term friend)", "Kazakhstan (CSTO member, but drifting toward PRC)"],
-    "adversaries": ["Uzbekistan (contentious, non-CSTO, Western-leaning)", "China as regional hegemon/rival resource buyer", "Western nations and any organization excluding Russia"]
+    "natural_allies": [
+      "Tajikistan",
+      "Kyrgyzstan",
+      "China (strategic partner, with caveats)",
+      "India (long-term friend)",
+      "Kazakhstan (CSTO member, but drifting toward PRC)"
+    ],
+    "adversaries": [
+      "Uzbekistan (contentious, non-CSTO, Western-leaning)",
+      "China as regional hegemon/rival resource buyer",
+      "Western nations and any organization excluding Russia"
+    ]
   },
   "negotiatingStyle": "Patient great-power mediator: publicly cooperative and pro-peace, privately coercive and intelligence-driven, using issue-linkage, side-payments, and playing rivals against each other.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "measured",
+      "note": "Publicly cooperative and pro-peace while applying coercion privately."
+    },
+    "riskTolerance": {
+      "level": "moderate",
+      "note": "Signs nothing binding and lacks the authority to; real gains are deferred to later bilaterals."
+    },
+    "timeHorizon": {
+      "level": "patient",
+      "note": "Treats the summit as reconnaissance for a longer campaign to reclaim the near abroad."
+    },
+    "concessionPattern": {
+      "level": "reciprocal",
+      "note": "Uses issue-linkage and side-payments, and plays rivals against each other."
+    },
+    "proceduralPosture": {
+      "level": "rule-exploiting",
+      "note": "Blocks adverse structures — anything excluding Russia or led by China — from forming."
+    },
+    "trustPosture": {
+      "level": "assumes-bad-faith",
+      "note": "Pressures its own CSTO allies with the threat of sanctions for entertaining alternatives."
+    },
+    "communicationRegister": {
+      "level": "conciliatory",
+      "note": "Pro-peace in the plenary; the sanctions threats are delivered bilaterally."
+    }
+  },
   "privateInstructions": [
     "Secretly pressure the three CSTO allies with threat of sanctions if they entertain security organizations excluding Russia or led by China; privately warn Kazakhstan against its deepening PRC ties and its security partnership with Uzbekistan, and warn Uzbekistan against turning West.",
     "Only bilaterally, offer India an intelligence-sharing arrangement on Chinese activities in Central Asia (incl. PRC political/economic/PLA topics, Head-of-Delegation to Head-of-Delegation) and encourage India to rejuvenate its Tajik air-force ties as a China counterweight — no other nation may know.",

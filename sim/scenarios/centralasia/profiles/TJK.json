@@ -41,10 +41,48 @@
     "Combined CT/COIN training and purchase of excess military equipment with Uzbekistan (frameworks only)."
   ],
   "coalitionLeanings": {
-    "natural_allies": ["China", "India", "Uzbekistan", "Kazakhstan"],
-    "adversaries": ["Kyrgyzstan", "Russia"]
+    "natural_allies": [
+      "China",
+      "India",
+      "Uzbekistan",
+      "Kazakhstan"
+    ],
+    "adversaries": [
+      "Kyrgyzstan",
+      "Russia"
+    ]
   },
   "negotiatingStyle": "Cautious, non-committal framework-builder: publicly conciliatory and pro-integration, privately probing for intelligence, defers all binding decisions to the Foreign Minister.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "guarded",
+      "note": "Publicly conciliatory while concealing an intention to explore leaving the CSTO."
+    },
+    "riskTolerance": {
+      "level": "low",
+      "note": "Signs no binding agreement and refers all substantive terms back to the Foreign Minister."
+    },
+    "timeHorizon": {
+      "level": "patient",
+      "note": "Wants the 201st Military Base redeployed 'within two years' — a horizon well beyond this summit."
+    },
+    "concessionPattern": {
+      "level": "withholding",
+      "note": "Frameworks only; nothing substantive is committed at the table."
+    },
+    "proceduralPosture": {
+      "level": "chair-deferential",
+      "note": "Pro-integration in posture, which costs nothing given that every decision is deferred."
+    },
+    "trustPosture": {
+      "level": "conditional",
+      "note": "Keeps India economic talks hidden from China to protect BRI benefits."
+    },
+    "communicationRegister": {
+      "level": "elliptical",
+      "note": "A conciliatory surface over probing; the CSTO exit and the base redeployment stay unstated."
+    }
+  },
   "privateInstructions": [
     "Secretly explore leaving the CSTO (like Armenia) and probe whether Kazakhstan would also exit and co-found a new Central Asian security bloc; keep any exit intention hidden.",
     "In heads-of-delegation bilaterals only, pursue secret intelligence-sharing with China on Kyrgyzstan/Uzbekistan (and possibly India); no other nation may know this exists.",

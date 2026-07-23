@@ -40,10 +40,48 @@
     "Defer contested sovereignty questions to UNCLOS tribunal adjudication rather than pressing a Japanese position."
   ],
   "coalitionLeanings": {
-    "natural_allies": ["United States", "India", "Philippines", "Vietnam", "ASEAN (Indonesia, Malaysia, Brunei)"],
-    "adversaries": ["China"]
+    "natural_allies": [
+      "United States",
+      "India",
+      "Philippines",
+      "Vietnam",
+      "ASEAN (Indonesia, Malaysia, Brunei)"
+    ],
+    "adversaries": [
+      "China"
+    ]
   },
   "negotiatingStyle": "Principled, law-anchored honest-broker: firm on UNCLOS and freedom of navigation, conciliatory and coalition-building in method, patient but willing to signal that sanctions and military options remain on the table.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "measured",
+      "note": "Conciliatory in method and coalition-building even while signaling that options remain open."
+    },
+    "riskTolerance": {
+      "level": "moderate",
+      "note": "Falls back to bilateral reassurance of Manila and Hanoi, but strictly within UNCLOS limits."
+    },
+    "timeHorizon": {
+      "level": "patient",
+      "note": "Patient by instruction, while expecting Beijing to stall and play for time."
+    },
+    "concessionPattern": {
+      "level": "reciprocal",
+      "note": "Conditions support for the Philippines and Vietnam strictly on UNCLOS-verifiable claims."
+    },
+    "proceduralPosture": {
+      "level": "convening",
+      "note": "Presses Jakarta, Kuala Lumpur and Bandar Seri Begawan to broker de-escalation on its behalf."
+    },
+    "trustPosture": {
+      "level": "verification-first",
+      "note": "Support is conditioned on verifiable claims; off-UNCLOS claims are steered back into line."
+    },
+    "communicationRegister": {
+      "level": "legalistic",
+      "note": "Argues freedom of navigation and UNCLOS text rather than interest or threat."
+    }
+  },
   "privateInstructions": [
     "Quietly probe China for what short-term measures or compromises its delegation is actually instructed to offer, expecting Beijing to stall and play for time rather than concede.",
     "Reassure the Philippines and Vietnam of support against China, but privately condition it strictly on UNCLOS-verifiable claims and steer their off-UNCLOS claims back into existing regimes.",

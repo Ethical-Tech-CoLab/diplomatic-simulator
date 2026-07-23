@@ -43,6 +43,36 @@
     "adversaries": []
   },
   "negotiatingStyle": "Convening and instrumental: builds multilateral formats as leverage, prices autonomy support in counterterrorism, and trades breadth of ambition for immediate reduction in tension.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "measured",
+      "note": "Trades breadth of ambition for immediate reduction in tension without visible frustration."
+    },
+    "riskTolerance": {
+      "level": "low",
+      "note": "Bilateral de-escalation channels with New Delhi and Islamabad remain open regardless; the fallback is comfortable."
+    },
+    "timeHorizon": {
+      "level": "urgent",
+      "note": "'Reducing tensions in South Asia is our primary concern' — de-escalation now over settlement later."
+    },
+    "concessionPattern": {
+      "level": "reciprocal",
+      "note": "Prices support for autonomy in counterterrorism commitments."
+    },
+    "proceduralPosture": {
+      "level": "convening",
+      "note": "Builds multilateral formats as leverage and shifts chapters when governance talks stall."
+    },
+    "trustPosture": {
+      "level": "conditional",
+      "note": "Praises Kashmiri self-governance privately while taking no formal position publicly."
+    },
+    "communicationRegister": {
+      "level": "plainspoken",
+      "note": "Instrumental and direct about what it wants moved, and in what order."
+    }
+  },
   "privateInstructions": [
     "Reducing tensions in South Asia is our primary concern; play a leading role using multilateral meetings to maximize communication.",
     "Engagement from Great Britain and Russia will be critical to concluding lasting agreements.",

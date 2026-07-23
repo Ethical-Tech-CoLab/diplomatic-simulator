@@ -49,6 +49,36 @@
     ]
   },
   "negotiatingStyle": "Process-protective and procedurally dominant: uses the chair to set the agenda, reframes deadlock as a sequencing problem, and trades reassurance to Pyongyang against pressure on Washington.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "measured",
+      "note": "Absorbs provocation without answering it; the chair's composure is itself an instrument."
+    },
+    "riskTolerance": {
+      "level": "low",
+      "note": "Instructed that 'these talks cannot be allowed to fail'; will trade substance for continuation."
+    },
+    "timeHorizon": {
+      "level": "patient",
+      "note": "Sequencing is the whole strategy; treats deadlock as a problem of order rather than of substance."
+    },
+    "concessionPattern": {
+      "level": "reciprocal",
+      "note": "Trades reassurance to Pyongyang against pressure on Washington, matched move for move."
+    },
+    "proceduralPosture": {
+      "level": "convening",
+      "note": "Uses the chair to set the agenda, rule items out of scope, and offer to host bilaterals."
+    },
+    "trustPosture": {
+      "level": "conditional",
+      "note": "Shields Pyongyang only on condition of good faith: 'we have little tolerance for misbehavior.'"
+    },
+    "communicationRegister": {
+      "level": "conciliatory",
+      "note": "Reframes rather than rebuts; converts disagreement into a question of sequencing."
+    }
+  },
   "privateInstructions": [
     "These talks cannot be allowed to fail; every effort must be made to keep engagement going in some format.",
     "The first and primary order of business is a negotiated return to the 2018 'mutual freeze' between Washington, Seoul and Pyongyang — without it, nothing else can succeed.",

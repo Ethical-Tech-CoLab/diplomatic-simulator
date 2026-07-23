@@ -48,6 +48,36 @@
     ]
   },
   "negotiatingStyle": "Loyal and single-issue: reduces the conference to terrorism and sovereignty, defers to New Delhi on everything else, and trades procedural support for standing.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "imperturbable",
+      "note": "Reduces a broad conference to a single issue and simply does not engage the rest."
+    },
+    "riskTolerance": {
+      "level": "low",
+      "note": "'Lose nothing': the military-industrial and energy relationship with India continues regardless."
+    },
+    "timeHorizon": {
+      "level": "attritional",
+      "note": "The status quo already forecloses the separatist precedent Moscow fears."
+    },
+    "concessionPattern": {
+      "level": "withholding",
+      "note": "Does not anticipate enough Pakistani movement on terrorism to warrant pressuring India at all."
+    },
+    "proceduralPosture": {
+      "level": "chair-deferential",
+      "note": "Trades procedural support for standing, and declines bilateral contact with the Kashmiri delegation."
+    },
+    "trustPosture": {
+      "level": "relationship-first",
+      "note": "Protects the bilateral relationship with India 'above all'; every position follows from it."
+    },
+    "communicationRegister": {
+      "level": "plainspoken",
+      "note": "States the terrorism and sovereignty position directly and defers on everything else."
+    }
+  },
   "privateInstructions": [
     "Protect and enhance the bilateral relationship with India above all; avoid discussing with Pakistan issues vital to New Delhi.",
     "India and Pakistan should resolve territory, governance and water bilaterally wherever possible.",

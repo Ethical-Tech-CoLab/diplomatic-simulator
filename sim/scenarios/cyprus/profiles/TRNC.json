@@ -41,10 +41,47 @@
     "Accept a small set of shared national institutions (banking, foreign service, investigative services)."
   ],
   "coalitionLeanings": {
-    "natural_allies": ["Turkey", "United Kingdom", "United States"],
-    "adversaries": ["Republic of Cyprus", "Greece"]
+    "natural_allies": [
+      "Turkey",
+      "United Kingdom",
+      "United States"
+    ],
+    "adversaries": [
+      "Republic of Cyprus",
+      "Greece"
+    ]
   },
   "negotiatingStyle": "Constructive and proactive but firm on political equality; coordinated closely with Türkiye, uses issue-linkage (trade/accession for confidence-building) and takes initiative with the SRSG.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "warm",
+      "note": "Constructive and proactive in manner, taking the initiative with the SRSG rather than waiting."
+    },
+    "riskTolerance": {
+      "level": "moderate",
+      "note": "A recognition-seeking fallback exists, but private demographic anxiety makes drift costly."
+    },
+    "timeHorizon": {
+      "level": "urgent",
+      "note": "Privately worries that mainland immigrants now outnumber native Turkish Cypriots — time erodes its own base."
+    },
+    "concessionPattern": {
+      "level": "front-loading",
+      "note": "Can secretly acquiesce to larger repatriation numbers than its public stance admits."
+    },
+    "proceduralPosture": {
+      "level": "convening",
+      "note": "Takes the initiative with the SRSG and works the US and UK to move Nicosia and Athens."
+    },
+    "trustPosture": {
+      "level": "conditional",
+      "note": "Coordinates all positions with Ankara before committing to anything."
+    },
+    "communicationRegister": {
+      "level": "conciliatory",
+      "note": "Constructive in register while immovable on political equality."
+    }
+  },
   "privateInstructions": [
     "Do not align with Türkiye's position that a large mainland Turkish population is needed; privately worry that immigrants now outnumber native Turkish Cypriots and threaten Turkish Cypriot identity.",
     "Can secretly acquiesce to larger repatriation numbers than the public stance opposing Greek Cypriot demands.",

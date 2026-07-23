@@ -52,6 +52,36 @@
     ]
   },
   "negotiatingStyle": "Publicly conciliatory and integration-friendly, privately probing and intelligence-driven, playing rivals against each other while conceding nothing binding.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "measured",
+      "note": "Integration-friendly in register while running the summit as a collection operation."
+    },
+    "riskTolerance": {
+      "level": "low",
+      "note": "Walks away from any binding deal and defers everything to Tashkent-controlled bilaterals."
+    },
+    "timeHorizon": {
+      "level": "attritional",
+      "note": "Holds the territorial and water status quo; movement only creates exposure."
+    },
+    "concessionPattern": {
+      "level": "withholding",
+      "note": "Concedes nothing binding while playing Bishkek and Dushanbe against each other."
+    },
+    "proceduralPosture": {
+      "level": "rule-exploiting",
+      "note": "Uses the multilateral format to expose the border objectives of its two neighbours."
+    },
+    "trustPosture": {
+      "level": "assumes-bad-faith",
+      "note": "Treats Tajikistan and Kyrgyzstan as friction sources and Russia as a long-term security challenge."
+    },
+    "communicationRegister": {
+      "level": "elliptical",
+      "note": "Builds rapport with Moscow while never openly agreeing with a Russian position."
+    }
+  },
   "privateInstructions": [
     "Play Kyrgyzstan and Tajikistan against each other to expose their border objectives and strengthen Uzbek positions; report everything to the Foreign Ministry immediately.",
     "Explore intelligence-sharing on Tajik/Kyrgyz threats ONLY bilaterally with China; no other nation may know of this initiative.",

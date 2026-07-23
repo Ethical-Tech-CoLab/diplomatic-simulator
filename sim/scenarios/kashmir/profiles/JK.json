@@ -51,6 +51,36 @@
     ]
   },
   "negotiatingStyle": "Rights-framed and impatient: converts every procedural offer into a test of whether commitments are dated and enforceable, and treats both New Delhi and Islamabad as versions of the same subordination.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "brittle",
+      "note": "Seated at an international table for the first time; treats each procedural deferral as a slight."
+    },
+    "riskTolerance": {
+      "level": "high",
+      "note": "Willing and able to organize a substantial boycott of any plebiscite limited to accession."
+    },
+    "timeHorizon": {
+      "level": "urgent",
+      "note": "'Pursue concrete agreements on timelines and implementation aggressively.'"
+    },
+    "concessionPattern": {
+      "level": "withholding",
+      "note": "Ties governance to every other issue so that it cannot be traded away or set aside."
+    },
+    "proceduralPosture": {
+      "level": "rule-exploiting",
+      "note": "Converts every procedural offer into a test of whether commitments are dated and enforceable."
+    },
+    "trustPosture": {
+      "level": "assumes-bad-faith",
+      "note": "Treats New Delhi and Islamabad as versions of the same subordination; trusts only Washington and London."
+    },
+    "communicationRegister": {
+      "level": "declamatory",
+      "note": "Argues in the register of rights and recognition rather than of terms."
+    }
+  },
   "privateInstructions": [
     "These negotiations are an unprecedented opportunity to gain international recognition — meet with every party willing to discuss the future of Jammu and Kashmir.",
     "Secure the support of the United States and United Kingdom first; they are the guarantee of honest treatment by India and Pakistan.",

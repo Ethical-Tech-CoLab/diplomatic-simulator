@@ -39,10 +39,46 @@
     "Facilitate transit of Uzbek commodities through Kazakhstan to western China."
   ],
   "coalitionLeanings": {
-    "natural_allies": ["Uzbekistan", "China", "India"],
-    "adversaries": ["Russia"]
+    "natural_allies": [
+      "Uzbekistan",
+      "China",
+      "India"
+    ],
+    "adversaries": [
+      "Russia"
+    ]
   },
   "negotiatingStyle": "Sovereignty-first, information-gathering broker: publicly cooperative and de-escalatory, privately transactional, advancing bilateral deals while avoiding binding commitments.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "measured",
+      "note": "Publicly cooperative and de-escalatory whatever is being probed in private."
+    },
+    "riskTolerance": {
+      "level": "low",
+      "note": "Walks away from anything touching resource sovereignty and defers to later Central-Asian-only talks."
+    },
+    "timeHorizon": {
+      "level": "patient",
+      "note": "Anticipates a possible post-CSTO order and positions for that rather than for this summit."
+    },
+    "concessionPattern": {
+      "level": "withholding",
+      "note": "Avoids binding commitments entirely while advancing bilateral deals off to the side."
+    },
+    "proceduralPosture": {
+      "level": "convening",
+      "note": "Works with the UN SRSG as would-be honest broker while pursuing its own bilateral agenda."
+    },
+    "trustPosture": {
+      "level": "conditional",
+      "note": "Declines Russian CSTO expansion and arms offers politely while extracting information from them."
+    },
+    "communicationRegister": {
+      "level": "elliptical",
+      "note": "The de-escalation language is genuine; the intelligence-gathering purpose is never stated."
+    }
+  },
   "privateInstructions": [
     "Secretly explore intelligence-sharing with the PRC on Tajik/Kyrgyz/Turkmen threats and with India on PRC activity, only in head-of-delegation bilaterals, hidden from all other nations.",
     "Quietly probe a Kyrgyz-Uzbek-Kazakh security bloc and a Uzbek mutual-defense pact, anticipating possible CSTO withdrawal after Armenia's freeze.",

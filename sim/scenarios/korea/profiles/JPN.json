@@ -47,6 +47,36 @@
     ]
   },
   "negotiatingStyle": "Insistent and status-conscious: presses a single moral file relentlessly, ties it to the security agenda, and repeatedly asserts Japan's right to be at the center of any outcome.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "brittle",
+      "note": "Status-anxious; reacts sharply to any sign of being sidelined by Washington and Seoul."
+    },
+    "riskTolerance": {
+      "level": "moderate",
+      "note": "Holds a nuclear-latency BATNA and will voice it, but not at the cost of the trilateral line."
+    },
+    "timeHorizon": {
+      "level": "urgent",
+      "note": "Fears being left behind 'in Washington's and Seoul's haste for an agreement.'"
+    },
+    "concessionPattern": {
+      "level": "withholding",
+      "note": "Offers KEDO financing only against the DPRK's total exclusion from reactor operation."
+    },
+    "proceduralPosture": {
+      "level": "rule-exploiting",
+      "note": "Presses the abductions file onto an agenda from which the chair has excluded it."
+    },
+    "trustPosture": {
+      "level": "assumes-bad-faith",
+      "note": "'The old agreement's error must not be repeated' — past compliance is read as prior deceit."
+    },
+    "communicationRegister": {
+      "level": "declamatory",
+      "note": "Presses a single moral file relentlessly, repeating rather than varying the argument."
+    }
+  },
   "privateInstructions": [
     "If these talks fail and the North's programs are left unconstrained, we will be forced to begin developing our own nuclear and missile programs — let that be understood.",
     "Emphasize at every turn that no nation but South Korea faces a greater threat, especially given U.S. forces stationed in Japan.",

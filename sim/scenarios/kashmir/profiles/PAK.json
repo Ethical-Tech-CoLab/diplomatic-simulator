@@ -49,6 +49,36 @@
     ]
   },
   "negotiatingStyle": "Internationalizing and moralizing: converts every procedural question into a demand for third-party involvement, and every humanitarian fact into an indictment of Indian rule.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "guarded",
+      "note": "Tailors a different argument to each audience — precedent to Beijing, separatism to Moscow, terrorism to Washington."
+    },
+    "riskTolerance": {
+      "level": "moderate",
+      "note": "Retains Azad Kashmir and the UN file whatever happens; failure is survivable, domestication is not."
+    },
+    "timeHorizon": {
+      "level": "attritional",
+      "note": "Lets 'the demographic and political costs of occupation accumulate against New Delhi.'"
+    },
+    "concessionPattern": {
+      "level": "withholding",
+      "note": "Avoids any concession that would foreclose Jammu and Kashmir eventually joining Pakistan."
+    },
+    "proceduralPosture": {
+      "level": "rule-exploiting",
+      "note": "Converts every procedural question into a demand for third-party involvement."
+    },
+    "trustPosture": {
+      "level": "conditional",
+      "note": "Support is contingent on Beijing not turning neutral; alignment is priced rather than assumed."
+    },
+    "communicationRegister": {
+      "level": "declamatory",
+      "note": "Every humanitarian fact is delivered as an indictment of Indian rule."
+    }
+  },
   "privateInstructions": [
     "Avoid any concession that would prevent Jammu and Kashmir from eventually joining Pakistan.",
     "Pakistan does not support Kashmiri independence — insist on the original 1948 plebiscite, which excludes it.",

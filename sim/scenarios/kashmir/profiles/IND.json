@@ -51,6 +51,36 @@
     ]
   },
   "negotiatingStyle": "Sovereignty-first and dialogue-controlling: opens by foreclosing the agenda, refuses formats it has not chosen, and converts every external demand into a question of who has standing to make it.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "guarded",
+      "note": "Controls the dialogue at every step and is wary of extra-regional actors pushing their own agendas."
+    },
+    "riskTolerance": {
+      "level": "high",
+      "note": "Walking away costs nothing: direct administration continues and economic weight insulates New Delhi."
+    },
+    "timeHorizon": {
+      "level": "attritional",
+      "note": "The reorganized Union Territories are already the outcome India wants; time entrenches them."
+    },
+    "concessionPattern": {
+      "level": "withholding",
+      "note": "Article 370 is explicitly 'held back as a carrot,' never offered."
+    },
+    "proceduralPosture": {
+      "level": "agenda-foreclosing",
+      "note": "Opens by ruling the agenda out of scope and refuses any format containing both Pakistan and the Kashmiris."
+    },
+    "trustPosture": {
+      "level": "assumes-bad-faith",
+      "note": "Tests whether the Kashmiri leadership secretly intends independence, with pressure ready if unconvinced."
+    },
+    "communicationRegister": {
+      "level": "legalistic",
+      "note": "Converts every external demand into a question of who has standing to make it."
+    }
+  },
   "privateInstructions": [
     "Begin by stating the unequivocal position that all of Jammu and Kashmir is part of India, and reject international involvement beyond simple facilitation.",
     "India will not be part of any meeting that involves both Pakistan and the Jammu & Kashmir delegation; meet each separately.",

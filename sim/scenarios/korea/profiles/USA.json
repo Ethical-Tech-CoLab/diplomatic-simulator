@@ -48,6 +48,36 @@
     ]
   },
   "negotiatingStyle": "Verification-first and conditional: refuses to pay for process, converts every concession into a sequencing question, and keeps the trilateral bloc visibly locked.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "imperturbable",
+      "note": "Does not answer escalation in kind; converts it into a sequencing question."
+    },
+    "riskTolerance": {
+      "level": "moderate",
+      "note": "Content to let the talks lapse and hold the pressure architecture indefinitely."
+    },
+    "timeHorizon": {
+      "level": "patient",
+      "note": "Sanctions, THAAD and exercises are sustainable; there is no deadline Washington must beat."
+    },
+    "concessionPattern": {
+      "level": "withholding",
+      "note": "'What we will not do is buy a freeze' — relief follows verification and never precedes it."
+    },
+    "proceduralPosture": {
+      "level": "rule-exploiting",
+      "note": "Insists chemical and cyber be addressed although they sit outside the Chairman's Framework."
+    },
+    "trustPosture": {
+      "level": "verification-first",
+      "note": "No unverifiable instrument is acceptable regardless of what it would buy."
+    },
+    "communicationRegister": {
+      "level": "legalistic",
+      "note": "Argues in terms of what a text would permit, not what a party intends."
+    }
+  },
   "privateInstructions": [
     "Work in unison with Seoul and Tokyo to hold the joint position on a comprehensive agreement covering every issue in the Chairman's Framework.",
     "If the comprehensive approach shows no promise, do not let that compromise the joint position on abolishing the nuclear and missile programs.",

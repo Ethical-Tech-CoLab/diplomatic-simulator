@@ -59,6 +59,7 @@ def main():
                 "concessions":p.get("concessionsWilling",[]),
                 "coalitions":p.get("coalitionLeanings",{}),
                 "style":p.get("negotiatingStyle",""),
+                "behavior":p.get("behavioralProfile",{}),
                 "privateStrategy":p.get("privateInstructions",[])
             }
         })

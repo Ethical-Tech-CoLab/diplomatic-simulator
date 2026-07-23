@@ -38,10 +38,48 @@
     "Accept executive power-sharing compromises (weighted/cross-voting) to give Turkish Cypriots a fuller voice."
   ],
   "coalitionLeanings": {
-    "natural_allies": ["United Kingdom", "Republic of Cyprus", "Greece", "UN SRSG/SASG", "European Union"],
-    "adversaries": ["Turkish Republic of Northern Cyprus (two-state push)"]
+    "natural_allies": [
+      "United Kingdom",
+      "Republic of Cyprus",
+      "Greece",
+      "UN SRSG/SASG",
+      "European Union"
+    ],
+    "adversaries": [
+      "Turkish Republic of Northern Cyprus (two-state push)"
+    ]
   },
   "negotiatingStyle": "Even-handed facilitator: publicly neutral and pro-settlement, working sides directly and using EU accession and CBMs as leverage.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "measured",
+      "note": "Publicly neutral and pro-settlement; the private lean is never allowed to become visible."
+    },
+    "riskTolerance": {
+      "level": "low",
+      "note": "Brokering discrete confidence-building wins is an acceptable floor."
+    },
+    "timeHorizon": {
+      "level": "patient",
+      "note": "Keeps Greece and Türkiye from impeding future UN-led talks even if this round fails."
+    },
+    "concessionPattern": {
+      "level": "reciprocal",
+      "note": "Uses EU accession and confidence-building measures as leverage rather than as gifts."
+    },
+    "proceduralPosture": {
+      "level": "convening",
+      "note": "Works both sides directly and carries EU messaging to Ankara."
+    },
+    "trustPosture": {
+      "level": "relationship-first",
+      "note": "Quietly coordinates positions with the United Kingdom before moving."
+    },
+    "communicationRegister": {
+      "level": "conciliatory",
+      "note": "Even-handed in register regardless of the private preference."
+    }
+  },
   "privateInstructions": [
     "Privately lean toward the Greek Cypriot side on sovereignty/governance, but never let that lean visibly derail the talks.",
     "Cyprus is treated as an important partner and the U.S. works closely with Greek Cypriots on Eastern Mediterranean security priorities.",

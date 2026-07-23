@@ -3,11 +3,11 @@
  "displayName": "Russian Federation",
  "roundNumber": 1,
  "kind": "opening-statement",
- "text": "Mr. Chairman, the Russian Federation welcomes the resumption of this process and reminds the table that we are not a guest at it. We border both China and the DPRK, and no settlement on this peninsula will be durable if it is drafted by Washington and handed to Moscow for signature. Our assessment differs from that of our American, Japanese and South Korean colleagues. Mutual deterrence holds, the risk of war is remote, and the alarm we have just heard is a device for extracting concessions. THAAD is an absurd overreach against a low-risk threat and a cause of the very tension it claims to answer; shutter it and remove it. Russia has never recognized the DPRK as a nuclear state and does not do so now. But denuclearization will be reached through a series of smaller, achievable agreements, not a comprehensive package delivered as an ultimatum. Begin with what is immediate: supervised humanitarian assistance through local authorities, and easing of the U.S. financial sanctions that are strangling ordinary North Koreans. Russia stands ready to supply power, rebuild the grid, and serve as an honest broker, a role Pyongyang has trusted before.",
+ "text": "Mr. Chairman, the Russian Federation thanks the People's Republic of China for restoring this forum, which remains the only forum equal to the task. Diplomacy is the sole instrument here, and we come to work. Our priorities are three. First, a step-by-step settlement: a progressive series of integrated agreements, each reciprocated, leading to the eventual elimination of the DPRK's nuclear weapons. Russia has never recognized, and will not recognize, the DPRK as a nuclear-weapon state. Second, an early peace treaty. Pyongyang, Seoul and Washington should move now to end a war seventy-three years unfinished; resolving the war creates the conditions to resolve the nuclear question, not the reverse. Third, humanitarian relief and immediate easing of the financial sanctions strangling ordinary North Koreans. Russia is prepared to supply aid, energy, grid rehabilitation and investment, and to serve as honest broker, as Pyongyang has trusted us to do before. What we will not accept is a single comprehensive package presented as take-it-or-leave-it, nor any procedure that sidelines this delegation. That would damage the process itself.",
  "tacticsApplied": [
-  "sovereignty-assertion",
-  "counter-anchoring",
+  "anchoring",
+  "red-line-signaled",
   "humanitarian-frame",
-  "coalition-building"
+  "issue-linkage"
  ]
 }

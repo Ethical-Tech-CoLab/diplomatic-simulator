@@ -3,11 +3,11 @@
  "displayName": "Russian Federation",
  "roundNumber": 2,
  "kind": "offer",
- "text": "Russia supports the chair's package and adds what only Russia can. Immediately, without waiting on any milestone: supervised humanitarian shipments through local North Korean authorities with Russian monitors alongside, and commercial contracts to rebuild the North's grid and add conventional generating capacity. That removes the electricity argument from this table entirely, and removes it faster than any reactor could. In exchange we ask Pyongyang for one thing, the IAEA monitors on the terms the chair described, and no test of any kind while this process runs. If a provocation occurs, Russian relief stops; we say that to our friends as plainly as to anyone else. To Washington: your sanctions on the North's banks are the single most effective lever you hold and the one you refuse to move. Ease them and you will obtain more from Pyongyang in a month than three years of exercises have produced. To Seoul: your offer is serious and we will support it. And a reminder to this table, a comprehensive package presented as the only acceptable form of agreement is a decision to have no agreement, and any attempt to settle this peninsula in a smaller room than this one will not bind us.",
+ "text": "Mr. Chairman, Russia tables a concrete package. To the United States: you call the freeze \"unverifiable.\" Then let us verify it. If Washington eases sanctions on international financial institutions and joins the chair's freeze, Russia will use every channel we hold in Pyongyang to press for readmission of the IAEA with unfettered access — inspectors on the ground answer your objection precisely. Verification is our demand too, not yours alone. Second: if the DPRK accepts that monitoring, Russia will deliver immediate supervised humanitarian aid, and thereafter energy, grid rehabilitation and reconstruction on commercial terms — but that relief is explicitly tied to the conduct of the North's military. Provocations end it. Third, to Seoul: you offer dialogue without preconditions, and we support that; Russia will encourage a three-party peace agreement with Washington as partner to it. To Tokyo: Japan says it will not be sidelined. Nor will Russia. No settlement is reached over this delegation's head. And our red line stands — one comprehensive package presented as take-it-or-leave-it is not an agreement, it is an ultimatum, and Russia will not join it.",
  "tacticsApplied": [
-  "side-payment",
   "conditional-offer",
-  "red-line-signaled",
+  "verification-demand",
+  "issue-linkage",
   "coalition-building"
  ]
 }

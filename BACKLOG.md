@@ -5,13 +5,21 @@
 Both scenarios are live (`sess-korea-iscne-01`, `sess-kashmir-iscne-01`) but have
 not been reviewed. In rough priority order:
 
-- **Generation method differs from the first four scenarios.** Korea and
-  Jammu-Kashmir were written in a single context rather than by one isolated
-  agent per delegation seeing only its own privileged instructions. The
-  information-isolation claim in `methodology.html` and in
-  `DiplomaticSimulator-Paper.md` does not hold for these two as generated.
-  Either re-run them through the isolated multi-agent pipeline, or state the
-  difference explicitly on both pages and in the scenario reports.
+- ~~**Generation method differs from the first four scenarios.**~~ Fixed. Both
+  scenarios were re-run through the isolated pipeline: one agent per delegation,
+  each reading only the public brief and its own profile, three rounds in
+  lockstep, each round seeing only the public transcript so far. The authored
+  single-context versions are in git history at commit `ac390a5`. Two caveats
+  remain: isolation is enforced by instruction rather than by sandbox (an agent
+  *could* read another profile; each was told not to), and the analysis cell
+  reads everything by design, as the pipeline intends.
+- **Now worth doing: compare the two versions.** We have the same scenario
+  generated both ways, which is the cheap test the peer review asks for. The
+  authored Korea run had the U.S. pressing chemical/cyber against the chair's
+  ruling; in the isolated run that issue was raised once and dropped, and
+  China's crossed red line came instead from the "no DPRK access" reactor model.
+  The authored Kashmir run and the isolated one reached the same destination — a
+  humanitarian annex and nothing else — by different routes. Write that up.
 - **Fidelity check against the source PDFs.** Verify each profile's principles,
   red lines, BATNA, concessions and private instructions against the
   corresponding `* Scenario Docs/` privileged-instruction PDF. Particular
@@ -30,6 +38,12 @@ not been reviewed. In rough priority order:
   inconsistent: UNSCR 2900 sets a conference "target date of 9 February 2024, in
   Vienna Austria", while the 17 October entry datelines Geneva. We used Geneva,
   9 February 2026. Confirm that is the reading we want, and note it if so.
+- **The Monte Carlo trials predate the isolated re-run.** Both scenarios' 20
+  trials were written against the earlier authored transcripts and calibrated to
+  their outcomes. The trials vary conditions rather than replay the base run, so
+  they are not strictly invalidated — but the baseline they were tuned against
+  no longer exists, and at minimum the party satisfaction ranges should be
+  re-checked against the isolated runs.
 - **Monte Carlo outcomes are authored, not sampled.** Both new scenarios now
   have 20 trials, matching the corpus — but as with every other scenario the
   outcomes were written under varied conditions rather than produced by re-running

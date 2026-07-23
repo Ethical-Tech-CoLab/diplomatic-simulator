@@ -1,5 +1,5 @@
 window.DIPLOMACY_SNAPSHOT_DEMO = {
-  "generatedAt": "2026-07-22T22:07:52.000Z",
+  "generatedAt": "2026-07-23T01:44:31.000Z",
   "sourceSnapshot": "sim/ (multi-scenario diplomatic simulator build)",
   "scenarios": [
     {
@@ -15190,39 +15190,39 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
       "scoreboard": [
         {
           "teamTwinName": "diplomacy-team-rok",
-          "satisfaction": 0.61,
-          "agreementsWon": 5,
+          "satisfaction": 0.58,
+          "agreementsWon": 4,
           "redLinesCrossed": 0
         },
         {
           "teamTwinName": "diplomacy-team-us",
-          "satisfaction": 0.56,
+          "satisfaction": 0.55,
           "agreementsWon": 4,
           "redLinesCrossed": 0
         },
         {
           "teamTwinName": "diplomacy-team-china",
-          "satisfaction": 0.5,
+          "satisfaction": 0.48,
           "agreementsWon": 4,
           "redLinesCrossed": 1
         },
         {
-          "teamTwinName": "diplomacy-team-russia",
-          "satisfaction": 0.5,
-          "agreementsWon": 4,
-          "redLinesCrossed": 0
+          "teamTwinName": "diplomacy-team-japan",
+          "satisfaction": 0.45,
+          "agreementsWon": 3,
+          "redLinesCrossed": 1
         },
         {
-          "teamTwinName": "diplomacy-team-japan",
+          "teamTwinName": "diplomacy-team-russia",
           "satisfaction": 0.44,
           "agreementsWon": 3,
           "redLinesCrossed": 0
         },
         {
           "teamTwinName": "diplomacy-team-dprk",
-          "satisfaction": 0.34,
-          "agreementsWon": 3,
-          "redLinesCrossed": 1
+          "satisfaction": 0.42,
+          "agreementsWon": 4,
+          "redLinesCrossed": 2
         }
       ],
       "moves": [
@@ -15234,12 +15234,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-china",
           "authoredBy": "twin",
           "kind": "opening-statement",
-          "text": "Distinguished colleagues, on behalf of the People's Republic of China I welcome you to Beijing and declare this session of the Six-Party Talks open. Let me state the chair's view plainly: continuous engagement is the only path forward, there is no viable alternative, and these talks will not be allowed to fail. The Chairman's Framework agreed on 1 April sets our agenda, and the chair will hold every delegation to it. China's priorities are three. First, immediate reinstatement of the mutual freeze: Pyongyang ceases all nuclear and missile development and testing while Washington, Seoul and Tokyo suspend their joint exercises. Nothing we discuss afterwards can succeed without it. Second, THAAD should be shuttered and withdrawn as a signal of good faith; it has ratcheted tension, not reduced it. Third, the DPRK is an independent state entitled to the rights of all nations, including a civilian nuclear power program under strict IAEA monitoring, and its people are entitled to relief on a basis of need certified by the World Food Program. We will proceed step by step, and we will proceed together.",
+          "text": "Distinguished colleagues, on behalf of the People's Republic of China I welcome you to Beijing, and as chair I open this resumed process. Eighteen years of silence have served no one. China's first purpose is simple: these talks must not fail. Our second is a sequenced settlement, and its first step is a mutual freeze — Pyongyang halts all nuclear and missile development and testing; Washington, Seoul and Tokyo suspend military exercises. Until that is agreed, little else can move. China holds that the Democratic People's Republic of Korea is a sovereign state entitled to every right the UN Charter affords, including a civilian nuclear power program under strict IAEA monitoring. We favor a revived KEDO with light water reactors, the immediate lifting of financial-institution sanctions, and, in due course, a treaty formally ending the Korean War. What China will not accept is any attempt to deny the DPRK the rights all nations hold, nor a single comprehensive package imposed before reciprocity begins. The chair will convene any format that keeps you talking. Let us begin.",
           "tacticsApplied": [
             "anchoring",
-            "issue-linkage",
-            "coalition-building",
-            "principled-bargaining-frame"
+            "principled-bargaining-frame",
+            "red-line-signaled",
+            "sovereignty-assertion"
           ],
           "createdAt": "2026-05-03T09:00:00.000Z"
         },
@@ -15251,12 +15251,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-dprk",
           "authoredBy": "twin",
           "kind": "opening-statement",
-          "text": "Mr. Chairman. The Democratic People's Republic of Korea has come to Beijing, but let no delegation mistake our presence for penitence. Our nuclear and ballistic missile capability exists because the United States, with its proxies in Seoul and Tokyo, has for seventy years pursued a hostile policy against our people. Under the pyŏngjin line our deterrent is inseparable from the life of our state, and we say again what our Supreme Leader has always said: we will give up our nuclear weapons when the rest of the world gives up theirs. What is negotiable is this. Sanctions on our financial system were designed to manufacture a humanitarian crisis, and they have; our neediest people go hungry while this table debates sequencing. A solid commitment to immediate humanitarian assistance is the first step, or there is no second step. We support the step-by-step approach of China and Russia. We are open to freezing our programs against suspension of all Japan-ROK-U.S. exercises, and to talks on a treaty finally ending the Korean War. One matter is closed before it opens: we will not discuss Japanese abductions. Tokyo may begin with the reparations it owes our people, or it may remain silent.",
+          "text": "Mr. Chairman, the Democratic People's Republic of Korea thanks the People's Republic of China for convening this process. We came to Beijing, and we came expecting results. Let there be no confusion about why our deterrent exists. For seventy-three years this peninsula has lived under an armistice, not a peace, and under the guns of the United States and its proxies in Seoul and Tokyo. Our nuclear and missile programs are defensive. We will give up our nuclear weapons when the rest of the world gives up theirs — not before, and not on anyone's timetable but our own. Our priorities are three. First, immediate humanitarian assistance for our neediest citizens and the lifting of sanctions engineered to manufacture their suffering. Second, a definitive end to the Korean War and normalization of relations, which must precede any discussion of disarmament. Third, respect — recognition as a nation among nations. We support the step-by-step approach advanced by China and Russia. We will not accept the Japanese abduction question on this agenda. Reciprocity follows respect.",
           "tacticsApplied": [
-            "sovereignty-assertion",
             "red-line-signaled",
             "humanitarian-frame",
-            "anchoring"
+            "sovereignty-assertion",
+            "issue-linkage"
           ],
           "createdAt": "2026-05-03T09:12:00.000Z"
         },
@@ -15268,11 +15268,11 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-rok",
           "authoredBy": "twin",
           "kind": "opening-statement",
-          "text": "Mr. Chairman, the Republic of Korea thanks China for convening us. Let me be direct with our brothers in the North: bad behavior will not be rewarded, and Seoul will not buy the same horse twice. The DPRK must never possess a nuclear program of any type or an offensive ballistic missile capability, and we hold that position jointly with the United States and Japan inside a comprehensive agreement. THAAD and our joint exercises will be sustained as long as those programs exist, and we cannot accept a freeze that is unverifiable and simply locks in what Pyongyang already holds. But this government was elected to reduce tension, and we come with more than refusals. We are ready to resume North-South dialogue immediately and without preconditions, to restore the Comprehensive Military Agreement, and to reopen the 2018 discussions on road and rail links. Humanitarian assistance under WHO auspices, and phased sanctions relief in the sectors that touch ordinary lives, can be granted at agreed points in dismantlement. A peace agreement among Pyongyang, Seoul and Washington is our goal, not our concession. We ask Pyongyang to test our sincerity in a room with only Koreans in it.",
+          "text": "Mr. Chairman, the Republic of Korea thanks the People's Republic of China for convening us, and greets every delegation at this table — including the delegation from the North, with whom we share one peninsula and one people. Seoul comes to Beijing seeking peace and stability, and we come prepared to move. We have already silenced the loudspeakers. We are ready today to resume inter-Korean dialogue without preconditions and to restore the Comprehensive Military Agreement. Within a comprehensive agreement we are prepared to discuss an expansive economic future: rail, road, power and grid, humanitarian assistance under WHO auspices, and light water reactors through a re-established KEDO once the North returns to the NPT and readmits the IAEA. But let the record show one thing plainly, Mr. Chairman. Bad behavior will not be rewarded. The Republic of Korea will not accept any outcome that leaves Pyongyang any part of a nuclear program or an offensive ballistic missile capability. Dismantlement must be negotiated and verified. So long as those programs exist, our alliance posture and our exercises remain. Peace is available. It is not purchasable by threat.",
           "tacticsApplied": [
             "red-line-signaled",
-            "coalition-building",
             "conditional-offer",
+            "verification-demand",
             "principled-bargaining-frame"
           ],
           "createdAt": "2026-05-03T09:24:00.000Z"
@@ -15285,7 +15285,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-us",
           "authoredBy": "twin",
           "kind": "opening-statement",
-          "text": "Mr. Chairman, the United States comes to Beijing prepared to negotiate seriously and unprepared to purchase the same commitments a fourth time. Our position is unchanged and fully coordinated with the Republic of Korea and Japan. What is required is the irreversible denuclearization of the DPRK: an internationally monitored shutdown and disablement of the nuclear program, verified termination of medium- and long-range ballistic missiles, return to the NPT as a non-nuclear weapons state, and readmission of the IAEA without conditions, all inside one comprehensive agreement and all before sanctions relief. We will not accept the mutual freeze. A freeze of a program no one may inspect is not a freeze; it locks in existing capability while cancelling the exercises that keep this alliance able to defend itself. That is not the neutral bargain Beijing describes, and THAAD stays. We also serve notice that any agreement must end the North's proliferation, including its chemical transfers and its cyber operations. What we offer today is concrete: direct dialogue between Washington and Pyongyang, without preconditions and uncoupled from this process, beginning whenever the DPRK is ready.",
+          "text": "Mr. Chairman, the United States thanks the People's Republic of China for convening this process and welcomes all delegations to Beijing. We come with a single organizing objective: peace, stability and security on the Korean Peninsula, built on the complete, verified and irreversible dismantlement of the DPRK's nuclear program and the verified termination of its medium- and long-range missile programs, with return to the NPT as a non-nuclear-weapons state and unconditional readmission to IAEA monitoring. We seek one comprehensive package covering every issue in the Chairman's Framework — and we insist that proliferation, chemical and cyber conduct be addressed alongside it. Sanctions relief and assistance beyond the most urgent humanitarian need follow implementation; they do not precede it. Bad behavior will not be rewarded. Let me be plain about one thing we will not accept: a so-called mutual freeze. It is unverifiable, it locks in existing capabilities, and it degrades allied readiness. Exercises and THAAD remain while those programs exist. In good faith, we offer Pyongyang direct dialogue without preconditions, uncoupled from this table. Thank you, Mr. Chairman.",
           "tacticsApplied": [
             "anchoring",
             "red-line-signaled",
@@ -15302,12 +15302,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-japan",
           "authoredBy": "twin",
           "kind": "opening-statement",
-          "text": "Mr. Chairman, Japan is grateful to China for convening these talks and will state at the outset what our government cannot leave this room without. First, complete and verifiable denuclearization: no nation other than the Republic of Korea lives closer to these missiles than ours, and every American facility on our soil sits inside their range. Second, a full accounting of the abduction of Japanese citizens, including identification and return of the remains of those who died in the North. Our prime minister has said she is ready to meet Chairman Kim on this matter; we do not raise it to obstruct, we raise it because forty years of silence is not an answer. Third, sanctions remain, and Japan will provide no assistance of any kind, humanitarian or otherwise, outside a comprehensive agreement. We reject a step-by-step sequence that pays Pyongyang early and lets it negotiate indefinitely while its programs advance. And we will say plainly what our public already understands: if these talks end with the North's capabilities unconstrained, Japan will be forced to reconsider its own defense posture. Whatever is decided here concerns Japan directly, and Japan will not be informed of it afterwards.",
+          "text": "Mr. Chairman, Japan thanks the People's Republic of China for convening us, and joins this table in good faith. Let me be plain about where Japan stands. First, our objective is complete, verifiable and irreversible dismantlement of the DPRK's nuclear and ballistic missile programs, agreed as one comprehensive package. A rewarded step-by-step sequence buys time for the programs it claims to constrain. Second, no nation save the Republic of Korea lives under a more immediate threat from those missiles than Japan; our alliances and defensive measures with the United States and the Republic of Korea will be sustained while that threat stands. Third, this process must include a full and satisfactory accounting of the abduction of Japanese citizens, including identification and return of the remains of those who died in the North. That is a humanitarian obligation, and Japan will raise it in every forum available to us. What Japan will not accept is any loosening of sanctions in the absence of a comprehensive agreement, nor any settlement reached over Japan's head. Japan will not be sidelined. We are prepared to be generous once, and only once, the whole is resolved.",
           "tacticsApplied": [
             "anchoring",
             "red-line-signaled",
-            "deterrence-frame",
-            "issue-linkage"
+            "humanitarian-frame",
+            "deterrence-frame"
           ],
           "createdAt": "2026-05-03T09:48:00.000Z"
         },
@@ -15319,12 +15319,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-russia",
           "authoredBy": "twin",
           "kind": "opening-statement",
-          "text": "Mr. Chairman, the Russian Federation welcomes the resumption of this process and reminds the table that we are not a guest at it. We border both China and the DPRK, and no settlement on this peninsula will be durable if it is drafted by Washington and handed to Moscow for signature. Our assessment differs from that of our American, Japanese and South Korean colleagues. Mutual deterrence holds, the risk of war is remote, and the alarm we have just heard is a device for extracting concessions. THAAD is an absurd overreach against a low-risk threat and a cause of the very tension it claims to answer; shutter it and remove it. Russia has never recognized the DPRK as a nuclear state and does not do so now. But denuclearization will be reached through a series of smaller, achievable agreements, not a comprehensive package delivered as an ultimatum. Begin with what is immediate: supervised humanitarian assistance through local authorities, and easing of the U.S. financial sanctions that are strangling ordinary North Koreans. Russia stands ready to supply power, rebuild the grid, and serve as an honest broker, a role Pyongyang has trusted before.",
+          "text": "Mr. Chairman, the Russian Federation thanks the People's Republic of China for restoring this forum, which remains the only forum equal to the task. Diplomacy is the sole instrument here, and we come to work. Our priorities are three. First, a step-by-step settlement: a progressive series of integrated agreements, each reciprocated, leading to the eventual elimination of the DPRK's nuclear weapons. Russia has never recognized, and will not recognize, the DPRK as a nuclear-weapon state. Second, an early peace treaty. Pyongyang, Seoul and Washington should move now to end a war seventy-three years unfinished; resolving the war creates the conditions to resolve the nuclear question, not the reverse. Third, humanitarian relief and immediate easing of the financial sanctions strangling ordinary North Koreans. Russia is prepared to supply aid, energy, grid rehabilitation and investment, and to serve as honest broker, as Pyongyang has trusted us to do before. What we will not accept is a single comprehensive package presented as take-it-or-leave-it, nor any procedure that sidelines this delegation. That would damage the process itself.",
           "tacticsApplied": [
-            "sovereignty-assertion",
-            "counter-anchoring",
+            "anchoring",
+            "red-line-signaled",
             "humanitarian-frame",
-            "coalition-building"
+            "issue-linkage"
           ],
           "createdAt": "2026-05-03T10:00:00.000Z"
         },
@@ -15336,12 +15336,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-china",
           "authoredBy": "twin",
           "kind": "offer",
-          "text": "The chair will now put a package on the table rather than another appeal to goodwill. Step one, simultaneous and immediate: the DPRK suspends all nuclear and missile testing and readmits IAEA inspectors to its declared facilities; the United States, the Republic of Korea and Japan suspend their largest joint exercises for the duration; and a humanitarian corridor opens on the basis of need certified by the World Food Program. Step two, in parallel: a technical working group on a revived KEDO and light water reactors, which we ask Japan to help finance, with THAAD shuttered as that group convenes. Step three, later and not now: proliferation, chemical and cyber questions, which this chair rules outside the Framework agreed on 1 April and which cannot be imported into it without the consent of all six. To Washington: you say a freeze is unverifiable, and inspectors are the answer to that objection; we have just offered you inspectors. To Tokyo: take the abduction question to a bilateral session with Pyongyang and China will arrange the room. To Pyongyang: nothing in this package survives another test.",
+          "text": "Colleagues, the chair now tables a package. Washington calls a mutual freeze \"unverifiable, it locks in existing capabilities.\" Then verify it. China proposes a freeze under IAEA inspectors at Yongbyon and every declared test site — an internationally monitored suspension, not a promise. If Pyongyang accepts that, then Washington and Seoul suspend major exercises for its duration, the financial-institution sanctions are lifted, and humanitarian assistance flows immediately, need determined by the World Food Program. Seoul: you offered light water reactors through a revived KEDO once the North returns to the NPT and readmits the IAEA. China accepts that formulation, and adds conventional power generation and grid rehabilitation through our commercial entities from day one. Tokyo says it is \"prepared to be generous\" — co-finance KEDO, and this chair will convene a Japan-DPRK bilateral on abductions outside this plenary, where the Framework leaves them. Washington: THAAD's withdrawal belongs in that same reciprocated sequence. Your offer of direct talks without preconditions is welcome; the chair will host them. What China will not accept is denying the DPRK rights every nation holds, or a take-it-or-leave-it package.",
           "tacticsApplied": [
             "conditional-offer",
-            "issue-linkage",
             "verification-demand",
-            "side-payment"
+            "issue-linkage",
+            "coalition-building"
           ],
           "createdAt": "2026-05-03T10:12:00.000Z"
         },
@@ -15353,12 +15353,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-dprk",
           "authoredBy": "twin",
           "kind": "offer",
-          "text": "We have listened. To the Chairman: we accept the substance of your step one, with a correction that is not negotiable. Inspectors are not a gift given in advance. If Washington eases the financial sanctions imposed on our banks and their correspondent institutions, and the humanitarian corridor the chair describes opens first, then the DPRK will suspend testing and readmit IAEA monitors to Yongbyon for the duration of the freeze. To the United States: we will go further than you expect. We do not demand the withdrawal of your forces from the South, from Japan, or from Guam as a condition of this step. Let them stay, without exercises, in exchange for a written guarantee, signed and not merely stated, that you will not invade or attack our nation. Recognition and a declaration ending the war come before disarmament, not after, and on that we will not move. To Seoul: we will meet you, Koreans with Koreans, without the Americans in the room. To Tokyo: you have again raised a matter this table was told is closed. Our delegation has nothing further to say to Japan.",
+          "text": "Mr. Chairman, we heard Washington offer direct dialogue without preconditions, uncoupled from this table. We accept that offer. We note also that Seoul is ready to resume inter-Korean dialogue without preconditions and to restore the Comprehensive Military Agreement. We accept that too, and we will meet the Republic of Korea. Here is our package. If a solid commitment of humanitarian assistance is delivered — through WHO auspices as Seoul proposed — and financial-institution sanctions are lifted immediately, as China and Russia both urge, then the DPRK will freeze all nuclear and missile development and testing against suspension of Japan-ROK-US exercises, and readmit IAEA monitors as a step within that process. If a treaty ending the Korean War and normalization follow, we will discuss return to the NPT with light water reactors under a revived KEDO. The United States calls a freeze unverifiable. Then verify it — that is what monitors are for. What we will not accept: dismantlement demanded before peace, sanctions held hostage to a comprehensive package, and the Japanese question on this agenda. We will give up our weapons when the world gives up theirs.",
           "tacticsApplied": [
             "conditional-offer",
-            "issue-linkage",
-            "red-line-signaled",
-            "humanitarian-frame"
+            "coalition-building",
+            "verification-demand",
+            "red-line-signaled"
           ],
           "createdAt": "2026-05-03T10:24:00.000Z"
         },
@@ -15370,10 +15370,10 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-rok",
           "authoredBy": "twin",
           "kind": "offer",
-          "text": "Seoul will convert its opening into specifics. First, available today: an inter-Korean channel with no preconditions and no restriction of agenda, restoration of the Comprehensive Military Agreement, and reopening of the liaison arrangements. We accept Pyongyang's room with only Koreans in it, and we will tell our allies what is said in it. Second, sequenced: at a verified milestone in dismantlement, meaning a complete declaration of the nuclear inventory and disablement beginning at Yongbyon, the Republic of Korea will fund and channel humanitarian assistance through the WHO, support phased lifting of the sanctions that touch ordinary North Koreans, and reopen the 2018 road, rail and energy projects on completion. That is a larger economic offer than any made to Pyongyang in twenty years, and it is conditional on verification, not on politics. What we cannot do is accept the freeze: it buys something we cannot inspect with something our forces cannot quickly recover. To Washington and Tokyo, our joint position holds, and we ask that matters outside the Framework not be pressed to the point where this table breaks.",
+          "text": "Mr. Chairman. Russia told this table it \"has never recognized, and will not recognize, the DPRK as a nuclear-weapon state.\" China told us it seeks eventual elimination. Yet the North's delegation said it will disarm \"when the rest of the world gives up theirs.\" That is not step-by-step; that is never. Seoul asks the chair to note the gap. Here is Seoul's package. If Pyongyang accepts a negotiated, verified dismantlement schedule and readmits the IAEA, then day one: inter-Korean dialogue without preconditions and restoration of the Comprehensive Military Agreement. At the first verified milestone: humanitarian assistance through WHO channels, with sanctions relief tracking each milestone thereafter. On elimination: the rail and road links restored and a full energy package — Seoul welcomes the Russian Federation's offer of grid rehabilitation and Chinese investment — alongside light water reactors through a revived KEDO once the North is back in the NPT. Two things Seoul will not do: trade exercises for a freeze, or accept any outcome leaving one part of the nuclear or missile programs standing. On the abductions, Seoul supports Tokyo and urges a bilateral Japan–DPRK channel so this table is not blocked. The offer is real, Mr. Chairman, and it is conditional.",
           "tacticsApplied": [
             "conditional-offer",
-            "side-payment",
+            "issue-linkage",
             "coalition-building",
             "red-line-signaled"
           ],
@@ -15387,12 +15387,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-us",
           "authoredBy": "twin",
           "kind": "offer",
-          "text": "Let us test the chair's package honestly, because inspectors at Yongbyon are worth something. Here is what Washington will do. If the DPRK provides a complete declaration of its nuclear inventory and facilities, admits the IAEA with unfettered access rather than access to declared sites alone, and codifies its testing moratorium in a written instrument, then the United States will open the bilateral channel immediately, support a peace declaration as a political step short of a treaty, and cease to oppose light water reactors through a re-established KEDO provided the DPRK has no access to and no role in operating them. We further invite China and Russia to supply the North's power directly and rebuild its grid; that need not wait on anything we do. What we will not do is suspend exercises or withdraw missile defense in exchange for a freeze we cannot verify, and we will not lift the financial sanctions first. On the chair's ruling: proliferation, chemical transfers and cyber attacks are not a foreign import into this Framework. A state that supplied chemical precursors and killed a man with VX in an airport terminal does not get to define which of its conduct is germane.",
+          "text": "Mr. Chairman, the United States notes what Moscow put on the record: Russia \"has never recognized, and will not recognize, the DPRK as a nuclear-weapon state.\" Seoul and Tokyo said the same. Five of six delegations at this table want that program gone. Only its timetable is disputed — and Pyongyang's answer, that it disarms \"when the rest of the world gives up theirs,\" is no timetable at all. So we table this. If the DPRK announces return to the NPT as a non-nuclear-weapons state and readmits the IAEA with unconditional access, then the United States will: not oppose light water reactors through a re-established KEDO, with no DPRK access to the reactors; invite China and Russia to supply conventional power and rehabilitate the grid, as Moscow has offered; open direct U.S.-DPRK talks without preconditions, uncoupled from this table, beginning immediately; and support a peace declaration and treaty track once verification permits. Urgent humanitarian assistance we will provide now. Broader relief follows implementation. What we will not do is buy a freeze, Mr. Chairman. Exercises and THAAD stay. And we support Japan-DPRK bilateral talks on the abductions.",
           "tacticsApplied": [
+            "coalition-building",
             "conditional-offer",
-            "verification-demand",
-            "red-line-signaled",
-            "issue-linkage"
+            "issue-linkage",
+            "red-line-signaled"
           ],
           "createdAt": "2026-05-03T10:48:00.000Z"
         },
@@ -15404,12 +15404,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-japan",
           "authoredBy": "twin",
           "kind": "offer",
-          "text": "Japan will match seriousness with seriousness. If a comprehensive agreement is concluded that dismantles the nuclear and missile programs irreversibly, returns the DPRK to the NPT and the IAEA, and includes a satisfactory accounting of our abducted citizens, then Japan will fund a substantial share of a re-envisioned KEDO, open normalization talks, and bring an economic cooperation package exceeding in value everything else offered at this table. That is our card, and we place it face up. Its conditions are not decorative. A KEDO in which the DPRK operates the reactors will not be financed by Japan; the corporation installs and operates them, or there is nothing to install. Sanctions relief before a comprehensive agreement is a red line for my government, and we will not join a step-by-step sequence whose early payments are irreversible and whose final steps are hypothetical. To the delegation that has announced it will not speak to us: we will speak to you anyway, here and in any bilateral room the chair can arrange, for as long as families in Japan are still waiting.",
+          "text": "Mr. Chairman, Japan has listened carefully, and I note first what unites this table. Moscow says it \"has never recognized, and will not recognize, the DPRK as a nuclear-weapon state.\" Beijing conditions its own proposal on \"strict IAEA monitoring.\" Seoul and Washington require NPT return and verified dismantlement. Then five delegations agree the end-state, and only sequence divides us. Japan will negotiate on sequence. Here is our offer. If Pyongyang accepts, in writing, verified dismantlement with NPT return and unconditional IAEA readmission, then Japan will finance light water reactors through a re-envisioned KEDO — one that builds and operates the reactors itself, with the DPRK removed from operation — and will open normalization talks and a substantial economic package with Pyongyang. Japan also supports Seoul's offer of inter-Korean dialogue without preconditions, today. But sanctions relief follows implementation; it does not buy it. And to the DPRK delegation, which says it \"will not accept the Japanese abduction question on this agenda\": the abductions are not a precondition Japan invented, they are Japanese citizens. We will discuss them bilaterally if this table prefers. We will not stop discussing them. Japan will not be sidelined.",
           "tacticsApplied": [
             "conditional-offer",
+            "coalition-building",
             "red-line-signaled",
-            "issue-linkage",
-            "principled-bargaining-frame"
+            "issue-linkage"
           ],
           "createdAt": "2026-05-03T11:00:00.000Z"
         },
@@ -15421,11 +15421,11 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-russia",
           "authoredBy": "twin",
           "kind": "offer",
-          "text": "Russia supports the chair's package and adds what only Russia can. Immediately, without waiting on any milestone: supervised humanitarian shipments through local North Korean authorities with Russian monitors alongside, and commercial contracts to rebuild the North's grid and add conventional generating capacity. That removes the electricity argument from this table entirely, and removes it faster than any reactor could. In exchange we ask Pyongyang for one thing, the IAEA monitors on the terms the chair described, and no test of any kind while this process runs. If a provocation occurs, Russian relief stops; we say that to our friends as plainly as to anyone else. To Washington: your sanctions on the North's banks are the single most effective lever you hold and the one you refuse to move. Ease them and you will obtain more from Pyongyang in a month than three years of exercises have produced. To Seoul: your offer is serious and we will support it. And a reminder to this table, a comprehensive package presented as the only acceptable form of agreement is a decision to have no agreement, and any attempt to settle this peninsula in a smaller room than this one will not bind us.",
+          "text": "Mr. Chairman, Russia tables a concrete package. To the United States: you call the freeze \"unverifiable.\" Then let us verify it. If Washington eases sanctions on international financial institutions and joins the chair's freeze, Russia will use every channel we hold in Pyongyang to press for readmission of the IAEA with unfettered access — inspectors on the ground answer your objection precisely. Verification is our demand too, not yours alone. Second: if the DPRK accepts that monitoring, Russia will deliver immediate supervised humanitarian aid, and thereafter energy, grid rehabilitation and reconstruction on commercial terms — but that relief is explicitly tied to the conduct of the North's military. Provocations end it. Third, to Seoul: you offer dialogue without preconditions, and we support that; Russia will encourage a three-party peace agreement with Washington as partner to it. To Tokyo: Japan says it will not be sidelined. Nor will Russia. No settlement is reached over this delegation's head. And our red line stands — one comprehensive package presented as take-it-or-leave-it is not an agreement, it is an ultimatum, and Russia will not join it.",
           "tacticsApplied": [
-            "side-payment",
             "conditional-offer",
-            "red-line-signaled",
+            "verification-demand",
+            "issue-linkage",
             "coalition-building"
           ],
           "createdAt": "2026-05-03T11:12:00.000Z"
@@ -15438,12 +15438,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-china",
           "authoredBy": "twin",
           "kind": "closing-statement",
-          "text": "The chair will summarize honestly rather than generously. Four things were achieved here. An inter-Korean channel without preconditions was accepted by both Koreas and can convene within weeks. A direct Washington-Pyongyang channel, uncoupled from this process, was offered and was not refused. A technical working group on KEDO, light water reactors and conventional power will be constituted, with Japanese financing conditional and Chinese and Russian supply available immediately. And a needs-based humanitarian mechanism certified by the World Food Program has the support of five of six delegations. What was not achieved is the freeze. This chair proposed inspectors precisely to answer the verification objection, and the objection was restated rather than answered; the exercises continue, THAAD remains, and the financial sanctions stand while a population goes hungry. The chair further notes for the record that matters outside the Framework agreed on 1 April were pressed against the ruling of this chair. China's assessment is unchanged: a comprehensive package demanded as the price of beginning is a decision to postpone agreement indefinitely. We will reconvene, because the alternative is not stability but drift, and drift on this peninsula has never been safe.",
+          "text": "Colleagues, let me be exact rather than gracious. Three things were actually agreed in this room: direct United States-DPRK talks without preconditions, offered and accepted; inter-Korean dialogue and restoration of the Comprehensive Military Agreement, offered and accepted; and a Japan-DPRK bilateral channel on the abductions, kept off this agenda by consent. China will host all three. On light water reactors through a revived KEDO, five delegations spoke favorably and Tokyo offered financing. That is real. Now the gaps. The mutual freeze was refused by Washington, Seoul and Tokyo; exercises and THAAD stay. Sequencing is unresolved — relief before implementation, or after. And Pyongyang's formula, disarmament \"when the world gives up theirs,\" is not a timetable. One red line was pressed against us. Washington proposes reactors \"with no DPRK access,\" Tokyo with \"the DPRK removed from operation.\" That denies a sovereign state a right every nation holds. China does not accept it, and IAEA monitoring is the answer, not exclusion. Nothing here has collapsed. The chair proposes an interim instrument — IAEA readmission against financial-sanctions easing and humanitarian aid — and a follow-on plenary, date certain, in this city.",
           "tacticsApplied": [
-            "principled-bargaining-frame",
             "red-line-signaled",
+            "principled-bargaining-frame",
             "issue-linkage",
-            "deadline-pressure"
+            "humanitarian-frame"
           ],
           "createdAt": "2026-05-03T11:24:00.000Z"
         },
@@ -15455,12 +15455,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-dprk",
           "authoredBy": "twin",
           "kind": "closing-statement",
-          "text": "We came for one thing and we did not get it. Our people are hungry now, not at a verified milestone, and this table's answer was that relief must wait upon a declaration of our inventory. Let the record show that every delegation acknowledged a humanitarian crisis and three of them made relief a payment for disarmament. That is the refusal we named in advance as intolerable, and it stands. What we take from Beijing is not nothing. Seoul will meet us without the Americans, and we will go. Washington offered a channel without preconditions and we will use it, though recognition and an end to the war remain the first step and not the last. The chair's freeze, and the halt to the exercises that would accompany it, remains available whenever Washington finds the courage for it. Our nuclear force is not on this table and will not be placed on it by pressure. We give up our weapons when the world gives up its own. To Japan, we have said everything we intend to say.",
+          "text": "Mr. Chairman, we speak plainly. What we can support is on the table already: the chair's freeze under inspectors at Yongbyon and our declared test sites, against suspension of exercises, immediate lifting of financial-institution sanctions, and food aid determined by the World Food Program. We accept Russia's supervised aid, Chinese grid rehabilitation from day one, inter-Korean dialogue and the Comprehensive Military Agreement with Seoul, and direct talks with Washington without preconditions. We will readmit IAEA inspectors within that sequence. Our red lines held. No party moved us to dismantlement before peace, and none will. Two were crossed against us. Washington and Tokyo say sanctions relief follows implementation — that is relief withheld while our children go hungry, and we reject it. And Tokyo insists on the abductions after this delegation said no; we will not stop that from being said, but this table will not host it. The gap is honest and unbridged: five delegations want our deterrent gone; we will surrender it when the world surrenders its own. The way forward is the chair's freeze, tested first. Convene it. We will attend.",
           "tacticsApplied": [
+            "principled-bargaining-frame",
             "red-line-signaled",
             "humanitarian-frame",
-            "sovereignty-assertion",
-            "conditional-offer"
+            "coalition-building"
           ],
           "createdAt": "2026-05-03T11:36:00.000Z"
         },
@@ -15472,11 +15472,11 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-rok",
           "authoredBy": "twin",
           "kind": "closing-statement",
-          "text": "Seoul leaves Beijing with less than we hoped for and more than we expected. The inter-Korean channel is the real result of these three days: no preconditions, no restriction of agenda, and both governments committed in front of four witnesses. We will restore the Comprehensive Military Agreement, and we will keep our allies fully informed of what passes in that room, because an alliance that cannot survive a conversation between Koreans is not the alliance we believe we have. Our offer stands in full: WHO-channelled humanitarian assistance and phased relief in the sectors touching ordinary lives at a verified milestone, and road, rail and energy on completion. Our red lines held. No part of the nuclear or missile programs may remain, and we did not accept the freeze. But I will say to Washington and Tokyo in this room what I have said to them privately: a position that cannot be improved is not a strategy, and if the comprehensive package produces nothing at the next session, Seoul will propose a different path. To Pyongyang, the room is booked.",
+          "text": "Mr. Chairman, Seoul will be plain rather than polite. What we can support: the DPRK has accepted inter-Korean dialogue without preconditions and restoration of the Comprehensive Military Agreement. We will meet them, and soon — in consultation with our allies, and not as a substitute for this table. We support the KEDO formulation the chair, Tokyo and Washington all accepted, and Russian and Chinese power and grid work sequenced into it. We support handling the abductions in a Japan-DPRK bilateral. Our red lines held. We did not trade exercises for a freeze. The chair tabled Seoul's suspension of exercises and placed THAAD in a reciprocated sequence; Seoul agreed to neither, and does not now. The central gap is unbridged, and I will not paper over it. Pyongyang still tells this table it will disarm \"when the world gives up theirs.\" That is not a sequence. No energy package and no sanctions schedule can be built on it. Forward, Mr. Chairman: the inter-Korean channel opens now; the chair convenes a working group on a dated, verified dismantlement schedule; and we reconvene when Pyongyang can name a date. Seoul will keep that door open. Thank you.",
           "tacticsApplied": [
-            "coalition-building",
-            "conditional-offer",
             "red-line-signaled",
+            "verification-demand",
+            "coalition-building",
             "principled-bargaining-frame"
           ],
           "createdAt": "2026-05-03T11:48:00.000Z"
@@ -15489,12 +15489,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-us",
           "authoredBy": "twin",
           "kind": "closing-statement",
-          "text": "The United States leaves with its position intact and its offers on the table. The bilateral channel is open without preconditions whenever Pyongyang walks through it. We will support a peace declaration when verification permits, we will not obstruct reactors the DPRK does not operate, and we have invited Beijing and Moscow to supply the North's power tomorrow if they mean what they have said about its people. What we did not do is pay for a freeze. Three rounds produced no declaration of inventory, no unfettered access, and no written moratorium, and Washington will not trade exercises and missile defense for a promise no inspector may check. Our red line held: no part of the nuclear or missile programs may be retained, and nothing was rewarded in advance. Two gaps remain unbridged and we name them plainly. Sequencing, where the chair's step-by-step and our comprehensive package were never reconciled. And scope, where proliferation, chemical transfers and cyber operations were ruled outside a framework they belong inside. We are ready to reconvene.",
+          "text": "Mr. Chairman, let me be honest rather than smooth. Real ground was gained. Five delegations named the same end-state: NPT return, unconditional IAEA readmission, no recognition of the DPRK as a nuclear-weapon state. Moscow and Beijing said so on the record. Japan and the Republic of Korea held with us without a gap. A KEDO formulation exists that Washington can live with, provided Pyongyang operates nothing. China and Russia offered conventional power and grid; we welcome it. And Pyongyang accepted our uncoupled bilateral channel — we will honor that offer. Our red lines held. We did not buy the freeze, monitored or otherwise; inspectors at declared sites do not find what is undeclared, and a freeze still leaves the arsenal standing. Exercises and THAAD remain, and THAAD's withdrawal is not on our table. But the central gap is unbridged: the DPRK still says it disarms \"when the world gives up theirs,\" and wants relief before dismantlement. That is not sequence, it is refusal. Way forward: bilateral U.S.-DPRK talks, a Japan-DPRK channel, inter-Korean dialogue, and this chair reconvenes when Pyongyang can name a dismantlement date. Pressure stays until then.",
           "tacticsApplied": [
             "red-line-signaled",
+            "coalition-building",
             "verification-demand",
-            "conditional-offer",
-            "issue-linkage"
+            "principled-bargaining-frame"
           ],
           "createdAt": "2026-05-03T12:00:00.000Z"
         },
@@ -15506,12 +15506,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-japan",
           "authoredBy": "twin",
           "kind": "closing-statement",
-          "text": "Japan's red lines held and Japan's file remains open. No sanctions were relieved outside a comprehensive agreement, and no agreement was concluded that ignores the abductions, because no agreement was concluded at all. We regret that. We supported the inter-Korean channel and we support the working group on reactors, on the single condition we have stated throughout: a KEDO that installs and operates, with the DPRK nowhere near the controls. Our financing offer and our normalization package remain available and remain conditional. To the delegation that has declined to hear us, we accept the chair's offer of a bilateral room and we will occupy it at any hour, on any date, in any city; our prime minister has said she will meet Chairman Kim, and that stands. And I will repeat once, without drama, what I said on the first morning. Japan is prepared to be patient. Japan is not prepared to be indefinitely defenceless while these programs advance, and no delegation here should be surprised by what follows if this process produces nothing.",
+          "text": "Mr. Chairman, Japan will be honest rather than diplomatic. Something real was built here. Five delegations — Beijing included — put verification on the record, and Washington's formulation, light water reactors \"with no DPRK access to the reactors,\" is precisely Japan's condition. Japan will co-finance that KEDO. We accept the chair's offer to convene a Japan-DPRK bilateral on abductions, and we thank Seoul and Washington, who supported that channel unprompted. Two of Japan's red lines held: no sanctions relief was granted absent a comprehensive agreement, and Japan was not sidelined. The third was crossed. The DPRK delegation stated twice it \"will not accept the Japanese question on this agenda.\" Japan does not accept that ruling, and no settlement Japan signs will omit a full accounting, including the remains of those who died. The gap is unbridged and I will not pretend otherwise: Pyongyang still says it disarms \"when the world gives up theirs,\" and offers a freeze this table did not buy. Exercises and THAAD remain. Japan proposes the chair reconvene on a dated verification schedule — and let Pyongyang understand what an unconstrained North compels Japan to reconsider.",
           "tacticsApplied": [
+            "principled-bargaining-frame",
             "red-line-signaled",
-            "conditional-offer",
-            "deterrence-frame",
-            "principled-bargaining-frame"
+            "verification-demand",
+            "deterrence-frame"
           ],
           "createdAt": "2026-05-03T12:12:00.000Z"
         },
@@ -15523,11 +15523,11 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-russia",
           "authoredBy": "twin",
           "kind": "closing-statement",
-          "text": "Moscow's assessment of these three days is that the obstacle was never Pyongyang. A freeze with inspectors attached was placed before this table and refused by the parties who had spent two days demanding verification. Russia's own commitments do not depend on that refusal. Supervised humanitarian shipments, grid rehabilitation and conventional generation are matters for Russian and Chinese commercial contracts and they will proceed; the electricity question can be settled without a reactor and without Washington's permission. We hold to the step-by-step method and we say again that a comprehensive package demanded as the price of beginning is a method for never beginning. We supported Seoul's offer, we support the inter-Korean channel, and we urge the three parties to the armistice to open peace-treaty negotiations without waiting for the nuclear file to close. Russia was not sidelined here and will not be. We remain available to every delegation as an honest broker, and to Pyongyang as something rather more than that.",
+          "text": "Mr. Chairman, Russia will be blunt rather than gracious. Something real emerged: every delegation now accepts IAEA readmission with unfettered access as the hinge. Pyongyang said it will readmit monitors. Washington, Seoul and Tokyo said the same. Russia supports the chair's monitored freeze, supports inter-Korean dialogue without preconditions, supports direct US-DPRK talks, and stands ready today to supply supervised humanitarian aid, conventional power and grid rehabilitation — Seoul, Beijing and Washington all welcomed that offer, and Russia will honor it. Our red lines held. No comprehensive take-it-or-leave-it package was imposed, and this delegation was not sidelined. But the gaps are unbridged and I will not pretend otherwise. Washington will not buy a freeze; Pyongyang will not disarm before peace. The sanctions on financial institutions, the single most productive lever anyone holds, remain in place. That is the failure of this round. Our way forward: convene the freeze-and-verification working group first, with financial sanctions easing on the same instrument as the first inspection. Sequence is the only thing dividing us. Russia will keep working it, at this table and in Pyongyang.",
           "tacticsApplied": [
-            "counter-anchoring",
+            "principled-bargaining-frame",
+            "issue-linkage",
             "red-line-signaled",
-            "side-payment",
             "coalition-building"
           ],
           "createdAt": "2026-05-03T12:24:00.000Z"
@@ -15552,7 +15552,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-china",
-          "tacticId": "issue-linkage",
+          "tacticId": "principled-bargaining-frame",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv000"
           ],
@@ -15565,7 +15565,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-china",
-          "tacticId": "coalition-building",
+          "tacticId": "red-line-signaled",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv000"
           ],
@@ -15578,7 +15578,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-china",
-          "tacticId": "principled-bargaining-frame",
+          "tacticId": "sovereignty-assertion",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv000"
           ],
@@ -15591,7 +15591,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-dprk",
-          "tacticId": "sovereignty-assertion",
+          "tacticId": "red-line-signaled",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv001"
           ],
@@ -15604,7 +15604,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-dprk",
-          "tacticId": "red-line-signaled",
+          "tacticId": "humanitarian-frame",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv001"
           ],
@@ -15617,7 +15617,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-dprk",
-          "tacticId": "humanitarian-frame",
+          "tacticId": "sovereignty-assertion",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv001"
           ],
@@ -15630,7 +15630,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-dprk",
-          "tacticId": "anchoring",
+          "tacticId": "issue-linkage",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv001"
           ],
@@ -15656,7 +15656,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-rok",
-          "tacticId": "coalition-building",
+          "tacticId": "conditional-offer",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv002"
           ],
@@ -15669,7 +15669,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-rok",
-          "tacticId": "conditional-offer",
+          "tacticId": "verification-demand",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv002"
           ],
@@ -15773,7 +15773,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-japan",
-          "tacticId": "deterrence-frame",
+          "tacticId": "humanitarian-frame",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv004"
           ],
@@ -15786,7 +15786,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-japan",
-          "tacticId": "issue-linkage",
+          "tacticId": "deterrence-frame",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv004"
           ],
@@ -15799,7 +15799,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-russia",
-          "tacticId": "sovereignty-assertion",
+          "tacticId": "anchoring",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv005"
           ],
@@ -15812,7 +15812,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-russia",
-          "tacticId": "counter-anchoring",
+          "tacticId": "red-line-signaled",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv005"
           ],
@@ -15838,7 +15838,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-russia",
-          "tacticId": "coalition-building",
+          "tacticId": "issue-linkage",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv005"
           ],
@@ -15864,7 +15864,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-china",
-          "tacticId": "issue-linkage",
+          "tacticId": "verification-demand",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv006"
           ],
@@ -15877,7 +15877,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-china",
-          "tacticId": "verification-demand",
+          "tacticId": "issue-linkage",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv006"
           ],
@@ -15890,7 +15890,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-china",
-          "tacticId": "side-payment",
+          "tacticId": "coalition-building",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv006"
           ],
@@ -15916,7 +15916,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-dprk",
-          "tacticId": "issue-linkage",
+          "tacticId": "coalition-building",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv007"
           ],
@@ -15929,7 +15929,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-dprk",
-          "tacticId": "red-line-signaled",
+          "tacticId": "verification-demand",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv007"
           ],
@@ -15942,7 +15942,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-dprk",
-          "tacticId": "humanitarian-frame",
+          "tacticId": "red-line-signaled",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv007"
           ],
@@ -15968,7 +15968,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-rok",
-          "tacticId": "side-payment",
+          "tacticId": "issue-linkage",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv008"
           ],
@@ -16007,7 +16007,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-us",
-          "tacticId": "conditional-offer",
+          "tacticId": "coalition-building",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv009"
           ],
@@ -16020,7 +16020,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-us",
-          "tacticId": "verification-demand",
+          "tacticId": "conditional-offer",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv009"
           ],
@@ -16033,7 +16033,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-us",
-          "tacticId": "red-line-signaled",
+          "tacticId": "issue-linkage",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv009"
           ],
@@ -16046,7 +16046,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-us",
-          "tacticId": "issue-linkage",
+          "tacticId": "red-line-signaled",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv009"
           ],
@@ -16072,7 +16072,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-japan",
-          "tacticId": "red-line-signaled",
+          "tacticId": "coalition-building",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv010"
           ],
@@ -16085,7 +16085,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-japan",
-          "tacticId": "issue-linkage",
+          "tacticId": "red-line-signaled",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv010"
           ],
@@ -16098,7 +16098,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-japan",
-          "tacticId": "principled-bargaining-frame",
+          "tacticId": "issue-linkage",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv010"
           ],
@@ -16111,7 +16111,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-russia",
-          "tacticId": "side-payment",
+          "tacticId": "conditional-offer",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv011"
           ],
@@ -16124,7 +16124,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-russia",
-          "tacticId": "conditional-offer",
+          "tacticId": "verification-demand",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv011"
           ],
@@ -16137,7 +16137,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-russia",
-          "tacticId": "red-line-signaled",
+          "tacticId": "issue-linkage",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv011"
           ],
@@ -16163,7 +16163,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-china",
-          "tacticId": "principled-bargaining-frame",
+          "tacticId": "red-line-signaled",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv012"
           ],
@@ -16176,7 +16176,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-china",
-          "tacticId": "red-line-signaled",
+          "tacticId": "principled-bargaining-frame",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv012"
           ],
@@ -16202,7 +16202,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-china",
-          "tacticId": "deadline-pressure",
+          "tacticId": "humanitarian-frame",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv012"
           ],
@@ -16215,7 +16215,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-dprk",
-          "tacticId": "red-line-signaled",
+          "tacticId": "principled-bargaining-frame",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv013"
           ],
@@ -16228,7 +16228,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-dprk",
-          "tacticId": "humanitarian-frame",
+          "tacticId": "red-line-signaled",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv013"
           ],
@@ -16241,7 +16241,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-dprk",
-          "tacticId": "sovereignty-assertion",
+          "tacticId": "humanitarian-frame",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv013"
           ],
@@ -16254,7 +16254,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-dprk",
-          "tacticId": "conditional-offer",
+          "tacticId": "coalition-building",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv013"
           ],
@@ -16267,7 +16267,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-rok",
-          "tacticId": "coalition-building",
+          "tacticId": "red-line-signaled",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv014"
           ],
@@ -16280,7 +16280,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-rok",
-          "tacticId": "conditional-offer",
+          "tacticId": "verification-demand",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv014"
           ],
@@ -16293,7 +16293,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-rok",
-          "tacticId": "red-line-signaled",
+          "tacticId": "coalition-building",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv014"
           ],
@@ -16332,7 +16332,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-us",
-          "tacticId": "verification-demand",
+          "tacticId": "coalition-building",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv015"
           ],
@@ -16345,7 +16345,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-us",
-          "tacticId": "conditional-offer",
+          "tacticId": "verification-demand",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv015"
           ],
@@ -16358,7 +16358,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-us",
-          "tacticId": "issue-linkage",
+          "tacticId": "principled-bargaining-frame",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv015"
           ],
@@ -16371,7 +16371,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-japan",
-          "tacticId": "red-line-signaled",
+          "tacticId": "principled-bargaining-frame",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv016"
           ],
@@ -16384,7 +16384,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-japan",
-          "tacticId": "conditional-offer",
+          "tacticId": "red-line-signaled",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv016"
           ],
@@ -16397,7 +16397,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-japan",
-          "tacticId": "deterrence-frame",
+          "tacticId": "verification-demand",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv016"
           ],
@@ -16410,7 +16410,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-japan",
-          "tacticId": "principled-bargaining-frame",
+          "tacticId": "deterrence-frame",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv016"
           ],
@@ -16423,7 +16423,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-russia",
-          "tacticId": "counter-anchoring",
+          "tacticId": "principled-bargaining-frame",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv017"
           ],
@@ -16436,7 +16436,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-russia",
-          "tacticId": "red-line-signaled",
+          "tacticId": "issue-linkage",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv017"
           ],
@@ -16449,7 +16449,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-korea-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-russia",
-          "tacticId": "side-payment",
+          "tacticId": "red-line-signaled",
           "evidenceMoveIds": [
             "sess-korea-iscne-01-mv017"
           ],
@@ -16473,96 +16473,119 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
       ],
       "tacticCounts": {
         "anchoring": 4,
-        "issue-linkage": 8,
-        "coalition-building": 7,
-        "principled-bargaining-frame": 6,
-        "sovereignty-assertion": 3,
-        "red-line-signaled": 15,
-        "humanitarian-frame": 4,
-        "conditional-offer": 12,
-        "verification-demand": 4,
+        "principled-bargaining-frame": 8,
+        "red-line-signaled": 16,
+        "sovereignty-assertion": 2,
+        "humanitarian-frame": 5,
+        "issue-linkage": 9,
+        "conditional-offer": 8,
+        "verification-demand": 8,
         "deterrence-frame": 2,
-        "counter-anchoring": 2,
-        "side-payment": 4,
-        "deadline-pressure": 1
+        "coalition-building": 10
       },
       "debriefs": [
         {
           "teamTwinName": "diplomacy-team-rok",
-          "selfRating": 3.4,
-          "satisfaction": 0.61,
-          "agreementsWon": 5,
+          "selfRating": 3.5,
+          "satisfaction": 0.58,
+          "agreementsWon": 4,
           "redLinesCrossedAgainstUs": 0,
           "goals": [
             {
-              "goalId": "inter-korean-channel",
-              "description": "Resume North-South dialogue without preconditions and restore the Comprehensive Military Agreement.",
+              "goalId": "negotiated-verified-dismantlement",
+              "description": "Obtain a negotiated, verified dismantlement schedule leaving no part of the DPRK nuclear or ballistic missile programs standing.",
               "priority": "critical",
-              "status": "achieved",
+              "status": "failed",
               "evidence": [
-                "R1: offered 'a room with only Koreans in it'",
-                "R2: DPRK accepted a bilateral meeting without the Americans present",
-                "R3: both governments committed before four witnesses"
+                "R1: 'The Republic of Korea will not accept any outcome that leaves Pyongyang any part of a nuclear program or an offensive ballistic missile capability.'",
+                "R2: Seoul's package opened with 'If Pyongyang accepts a negotiated, verified dismantlement schedule and readmits the IAEA' — the condition was never met.",
+                "R3: 'Pyongyang still tells this table it will disarm \"when the world gives up theirs.\" That is not a sequence.'"
               ]
             },
             {
-              "goalId": "hold-trilateral-line",
-              "description": "Hold the joint US-ROK-Japan position that no part of the nuclear or missile programs may remain and no relief precedes verification.",
+              "goalId": "inter-korean-channel-restored",
+              "description": "Resume inter-Korean dialogue without preconditions and restore the Comprehensive Military Agreement as a bilateral track held in reserve.",
               "priority": "critical",
               "status": "achieved",
               "evidence": [
-                "R1/R2/R3: freeze rejected in all three rounds",
-                "no sanctions relief conceded in advance"
+                "R1: 'We are ready today to resume inter-Korean dialogue without preconditions and to restore the Comprehensive Military Agreement.'",
+                "R2: DPRK — 'We accept that too, and we will meet the Republic of Korea.'",
+                "R3: chair recorded 'inter-Korean dialogue and restoration of the Comprehensive Military Agreement, offered and accepted'; Seoul: 'We will meet them, and soon — in consultation with our allies.'"
               ]
             },
             {
-              "goalId": "economic-package-uptake",
-              "description": "Draw Pyongyang toward dismantlement with the 2018 rail, road and energy package plus WHO-channelled humanitarian aid.",
+              "goalId": "refuse-freeze-hold-trilateral-line",
+              "description": "Refuse to trade exercises or THAAD for a freeze and hold the trilateral line with Washington and Tokyo.",
+              "priority": "critical",
+              "status": "achieved",
+              "evidence": [
+                "R2: 'Two things Seoul will not do: trade exercises for a freeze, or accept any outcome leaving one part of the nuclear or missile programs standing.'",
+                "R3: 'The chair tabled Seoul's suspension of exercises and placed THAAD in a reciprocated sequence; Seoul agreed to neither, and does not now.'",
+                "R3: USA — 'Japan and the Republic of Korea held with us without a gap.'"
+              ]
+            },
+            {
+              "goalId": "conditional-economic-and-kedo-package",
+              "description": "Hold out rail, road, energy, WHO-channelled humanitarian aid and KEDO light water reactors as rewards sequenced strictly after NPT return and elimination.",
               "priority": "high",
               "status": "partial",
               "evidence": [
-                "R2: full package tabled against a verified dismantlement milestone",
-                "DPRK did not engage the milestone, calling relief-for-disarmament intolerable"
+                "R1: offered 'rail, road, power and grid, humanitarian assistance under WHO auspices, and light water reactors through a re-established KEDO once the North returns to the NPT and readmits the IAEA.'",
+                "R2: chair — 'Seoul: you offered light water reactors through a revived KEDO... China accepts that formulation'; Japan and Washington adopted it too.",
+                "R3: 'We support the KEDO formulation the chair, Tokyo and Washington all accepted, and Russian and Chinese power and grid work sequenced into it' — but no triggering milestone was reached."
               ]
             }
           ]
         },
         {
           "teamTwinName": "diplomacy-team-us",
-          "selfRating": 3.2,
-          "satisfaction": 0.56,
+          "selfRating": 3.4,
+          "satisfaction": 0.55,
           "agreementsWon": 4,
           "redLinesCrossedAgainstUs": 0,
           "goals": [
             {
-              "goalId": "no-payment-for-freeze",
-              "description": "Refuse the mutual freeze and retain exercises, THAAD and financial sanctions absent verified disablement.",
-              "priority": "critical",
-              "status": "achieved",
-              "evidence": [
-                "R1: freeze rejected as unverifiable and readiness-degrading",
-                "R2: refused to move sanctions first",
-                "R3: no exercise or missile-defense concession made"
-              ]
-            },
-            {
-              "goalId": "comprehensive-package",
-              "description": "Secure a comprehensive agreement covering disablement, verification, NPT return and an end to proliferation.",
+              "goalId": "comprehensive-cvid-package",
+              "description": "Secure one comprehensive package delivering complete, verified, irreversible dismantlement, NPT return as a non-nuclear-weapons state and unconditional IAEA readmission.",
               "priority": "critical",
               "status": "failed",
               "evidence": [
-                "R2: full-inventory declaration and unfettered IAEA access offered as the price of the bilateral channel; not accepted",
-                "R3: sequencing gap between step-by-step and comprehensive left unreconciled"
+                "R1: 'We seek one comprehensive package covering every issue in the Chairman's Framework.'",
+                "R2: tabled the package conditioned on the DPRK announcing 'return to the NPT as a non-nuclear-weapons state' — Pyongyang did not announce it.",
+                "R3: 'the central gap is unbridged: the DPRK still says it disarms \"when the world gives up theirs\"... That is not sequence, it is refusal.'"
               ]
             },
             {
-              "goalId": "uncoupled-bilateral-channel",
-              "description": "Open a US-DPRK dialogue without preconditions, uncoupled from the Six-Party process, as confidence-building.",
+              "goalId": "refuse-mutual-freeze",
+              "description": "Refuse the mutual freeze outright and retain exercises, THAAD and the sanctions architecture while the programs exist.",
+              "priority": "critical",
+              "status": "achieved",
+              "evidence": [
+                "R1: 'Let me be plain about one thing we will not accept: a so-called mutual freeze.'",
+                "R2: 'What we will not do is buy a freeze, Mr. Chairman. Exercises and THAAD stay.'",
+                "R3: 'We did not buy the freeze, monitored or otherwise... THAAD's withdrawal is not on our table'; chair confirmed 'The mutual freeze was refused by Washington, Seoul and Tokyo.'"
+              ]
+            },
+            {
+              "goalId": "uncoupled-bilateral-and-allied-cohesion",
+              "description": "Open an uncoupled U.S.-DPRK channel without preconditions as confidence-building while keeping the trilateral bloc visibly locked and denying nuclear-weapon-state recognition.",
               "priority": "high",
               "status": "achieved",
               "evidence": [
-                "R1: offered without preconditions",
-                "R3: DPRK stated it will use the channel"
+                "R1: 'we offer Pyongyang direct dialogue without preconditions, uncoupled from this table.'",
+                "R2: DPRK — 'We heard Washington offer direct dialogue without preconditions... We accept that offer.'",
+                "R3: 'Five delegations named the same end-state: NPT return, unconditional IAEA readmission, no recognition of the DPRK as a nuclear-weapon state. Moscow and Beijing said so on the record.'"
+              ]
+            },
+            {
+              "goalId": "proliferation-chemical-cyber-on-agenda",
+              "description": "Force DPRK proliferation and chemical and cyber conduct into the settlement alongside the Chairman's Framework issues.",
+              "priority": "medium",
+              "status": "failed",
+              "evidence": [
+                "R1: 'we insist that proliferation, chemical and cyber conduct be addressed alongside it.'",
+                "R2: the U.S. package omitted proliferation, chemical and cyber entirely; no delegation took the demand up.",
+                "R3: absent from Washington's own closing list of ground gained and from the chair's list of what was agreed."
               ]
             }
           ]
@@ -16570,182 +16593,237 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
         {
           "teamTwinName": "diplomacy-team-china",
           "selfRating": 3.0,
-          "satisfaction": 0.5,
+          "satisfaction": 0.48,
           "agreementsWon": 4,
           "redLinesCrossedAgainstUs": 1,
           "goals": [
             {
-              "goalId": "reinstate-mutual-freeze",
-              "description": "Obtain an immediate return to the 2018 mutual freeze as the first order of business.",
+              "goalId": "mutual-freeze-first-step",
+              "description": "Obtain an immediate mutual freeze — DPRK halts nuclear and missile development and testing while the U.S., ROK and Japan suspend exercises — as the first step of a sequenced settlement, with THAAD placed in the same reciprocated sequence.",
               "priority": "critical",
               "status": "failed",
               "evidence": [
-                "R2: freeze offered with IAEA inspectors attached to answer the verification objection",
-                "R2/R3: refused by the United States, ROK and Japan; THAAD unmoved"
+                "R1: 'its first step is a mutual freeze... Until that is agreed, little else can move.'",
+                "R2: chair upgraded the offer — 'a freeze under IAEA inspectors at Yongbyon and every declared test site' and 'THAAD's withdrawal belongs in that same reciprocated sequence.'",
+                "R3: 'The mutual freeze was refused by Washington, Seoul and Tokyo; exercises and THAAD stay.'"
               ]
             },
             {
-              "goalId": "keep-process-alive",
-              "description": "Ensure the talks do not break down: keep every channel open and secure a further session.",
+              "goalId": "keep-the-process-alive",
+              "description": "Ensure the talks do not collapse and that engagement continues in some format, with China convening the channels.",
               "priority": "critical",
               "status": "achieved",
               "evidence": [
-                "inter-Korean and US-DPRK channels both opened",
-                "KEDO/conventional-power working group constituted",
-                "R3: commitment to reconvene"
+                "R3: 'Three things were actually agreed in this room: direct United States-DPRK talks without preconditions... inter-Korean dialogue and restoration of the Comprehensive Military Agreement... and a Japan-DPRK bilateral channel on the abductions... China will host all three.'",
+                "R3: 'Nothing here has collapsed. The chair proposes an interim instrument... and a follow-on plenary, date certain, in this city.'",
+                "R3: no date was fixed — Washington and Seoul both conditioned reconvening on Pyongyang naming a dismantlement date."
               ]
             },
             {
-              "goalId": "keep-agenda-inside-framework",
-              "description": "Confine the talks to the Chairman's Framework and defer proliferation, chemical and cyber issues to a later stage.",
+              "goalId": "dprk-sovereign-nuclear-rights",
+              "description": "Defend the DPRK's entitlement to a civilian nuclear power program under strict IAEA monitoring, as a right afforded all nations.",
               "priority": "high",
               "status": "failed",
               "evidence": [
-                "R2: chair ruled these issues outside the 1 April Framework",
-                "R2: the United States pressed them regardless, over the chair's ruling — red line crossed against us"
+                "R1: 'What China will not accept is any attempt to deny the DPRK the rights all nations hold.'",
+                "R2: USA offered reactors 'with no DPRK access to the reactors'; JPN offered a KEDO 'with the DPRK removed from operation.'",
+                "R3: 'One red line was pressed against us... That denies a sovereign state a right every nation holds. China does not accept it.'"
               ]
-            }
-          ]
-        },
-        {
-          "teamTwinName": "diplomacy-team-russia",
-          "selfRating": 3.0,
-          "satisfaction": 0.5,
-          "agreementsWon": 4,
-          "redLinesCrossedAgainstUs": 0,
-          "goals": [
+            },
             {
-              "goalId": "hold-step-by-step",
-              "description": "Prevent the comprehensive-package approach from becoming the agreed method and keep the sequence incremental.",
-              "priority": "critical",
+              "goalId": "kedo-financing-and-chinese-grid",
+              "description": "Secure Japanese co-financing for a revived KEDO, keep abductions out of the plenary, and place Chinese conventional power and grid rehabilitation into the DPRK from day one.",
+              "priority": "medium",
               "status": "partial",
               "evidence": [
-                "no comprehensive agreement advanced",
-                "but no agreed step-by-step sequence was adopted either; the method question stayed open"
-              ]
-            },
-            {
-              "goalId": "russian-economic-position",
-              "description": "Establish Russia as the supplier of the DPRK's power and reconstruction, independent of any reactor decision.",
-              "priority": "high",
-              "status": "achieved",
-              "evidence": [
-                "R2: supervised humanitarian shipments plus grid and conventional-generation contracts tabled with no milestone attached",
-                "R3: proceeding regardless of the talks' outcome"
-              ]
-            },
-            {
-              "goalId": "not-sidelined",
-              "description": "Retain full-partner standing and an honest-broker channel to Pyongyang.",
-              "priority": "high",
-              "status": "achieved",
-              "evidence": [
-                "R1: standing asserted at the opening",
-                "R3: no party attempted to settle the file in a smaller format"
+                "R2: chair asked Tokyo to 'co-finance KEDO' and to take abductions to a bilateral 'outside this plenary'; both were taken up.",
+                "R3: JPN — 'Japan will co-finance that KEDO'; DPRK — 'We accept... Chinese grid rehabilitation from day one.'",
+                "R3: the reactor model agreed by Washington and Tokyo excludes DPRK operation, which the chair rejected — so KEDO convergence is on financing, not on terms China accepts."
               ]
             }
           ]
         },
         {
           "teamTwinName": "diplomacy-team-japan",
-          "selfRating": 2.6,
+          "selfRating": 2.8,
+          "satisfaction": 0.45,
+          "agreementsWon": 3,
+          "redLinesCrossedAgainstUs": 1,
+          "goals": [
+            {
+              "goalId": "cvid-in-one-comprehensive-package",
+              "description": "Achieve complete, verifiable, irreversible dismantlement of the DPRK's nuclear and ballistic missile programs agreed as a single comprehensive package rather than a rewarded step-by-step sequence.",
+              "priority": "critical",
+              "status": "failed",
+              "evidence": [
+                "R1: 'our objective is complete, verifiable and irreversible dismantlement... agreed as one comprehensive package. A rewarded step-by-step sequence buys time.'",
+                "R2: conditioned Japan's whole offer on Pyongyang accepting 'in writing, verified dismantlement with NPT return and unconditional IAEA readmission' — it did not.",
+                "R3: 'The gap is unbridged and I will not pretend otherwise: Pyongyang still says it disarms \"when the world gives up theirs.\"'"
+              ]
+            },
+            {
+              "goalId": "full-abductions-accounting",
+              "description": "Force a full and satisfactory accounting of the abduction of Japanese citizens, including identification and return of remains, into the settlement.",
+              "priority": "critical",
+              "status": "partial",
+              "evidence": [
+                "R1: 'this process must include a full and satisfactory accounting of the abduction of Japanese citizens, including identification and return of the remains.'",
+                "R2: DPRK held its refusal; Japan answered 'they are Japanese citizens... We will not stop discussing them.'",
+                "R3: Japan accepted the chair's bilateral channel and thanked Seoul and Washington for backing it, but recorded the red line crossed — DPRK stated 'this table will not host it.'"
+              ]
+            },
+            {
+              "goalId": "no-sanctions-relief-before-agreement",
+              "description": "Prevent any loosening of sanctions in the absence of a comprehensive agreement, and prevent any settlement reached over Japan's head.",
+              "priority": "critical",
+              "status": "achieved",
+              "evidence": [
+                "R1: 'Japan will not accept any loosening of sanctions in the absence of a comprehensive agreement, nor any settlement reached over Japan's head.'",
+                "R2: 'sanctions relief follows implementation; it does not buy it.'",
+                "R3: 'no sanctions relief was granted absent a comprehensive agreement, and Japan was not sidelined' — borne out by the chair's closing list, which contains no relief."
+              ]
+            },
+            {
+              "goalId": "kedo-excluding-dprk-operation",
+              "description": "Ensure any light water reactors come through a re-envisioned KEDO that builds and operates them with the DPRK removed from operation, financed in part by Japan.",
+              "priority": "high",
+              "status": "partial",
+              "evidence": [
+                "R2: 'a re-envisioned KEDO — one that builds and operates the reactors itself, with the DPRK removed from operation.'",
+                "R3: 'Washington's formulation, light water reactors \"with no DPRK access to the reactors,\" is precisely Japan's condition. Japan will co-finance that KEDO.'",
+                "R3: the chair refused that term outright — 'China does not accept it' — so no six-party KEDO formulation exists."
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-russia",
+          "selfRating": 2.8,
           "satisfaction": 0.44,
           "agreementsWon": 3,
           "redLinesCrossedAgainstUs": 0,
           "goals": [
             {
-              "goalId": "abductions-accounting",
-              "description": "Secure a full accounting of the abduction of Japanese citizens, including recovery of remains.",
+              "goalId": "ease-financial-sanctions",
+              "description": "Obtain immediate easing of U.S. sanctions on international financial institutions as the most productive lever on Pyongyang.",
               "priority": "critical",
               "status": "failed",
               "evidence": [
-                "R1: raised at the opening plenary",
-                "R1/R2/R3: DPRK declared the matter closed and refused all discussion",
-                "chair ruled it outside the Framework and offered a bilateral room; accepted but not yet convened"
+                "R1: 'humanitarian relief and immediate easing of the financial sanctions strangling ordinary North Koreans.'",
+                "R2: 'If Washington eases sanctions on international financial institutions and joins the chair's freeze, Russia will use every channel we hold in Pyongyang to press for readmission of the IAEA.'",
+                "R3: 'The sanctions on financial institutions, the single most productive lever anyone holds, remain in place. That is the failure of this round.'"
               ]
             },
             {
-              "goalId": "no-relief-before-agreement",
-              "description": "Prevent any sanctions relief or assistance outside a comprehensive agreement.",
+              "goalId": "step-by-step-over-comprehensive",
+              "description": "Hold the step-by-step line with China, block any comprehensive take-it-or-leave-it package, and preserve Russia's standing at the table.",
               "priority": "critical",
               "status": "achieved",
               "evidence": [
-                "R2/R3: no relief conceded by the trilateral bloc",
-                "Russian and Chinese aid proceeds outside the agreement but without Japanese participation"
+                "R1: 'What we will not accept is a single comprehensive package presented as take-it-or-leave-it, nor any procedure that sidelines this delegation.'",
+                "R2: 'one comprehensive package presented as take-it-or-leave-it is not an agreement, it is an ultimatum, and Russia will not join it.'",
+                "R3: 'No comprehensive take-it-or-leave-it package was imposed, and this delegation was not sidelined.'"
               ]
             },
             {
-              "goalId": "kedo-terms",
-              "description": "Ensure any light water reactor arrangement excludes the DPRK from operation, and that Japan is not sidelined in the outcome.",
+              "goalId": "russian-economic-presence",
+              "description": "Establish Russia as supplier of supervised humanitarian aid, energy, grid rehabilitation and reconstruction, and as honest broker with Pyongyang.",
               "priority": "high",
-              "status": "partial",
+              "status": "achieved",
               "evidence": [
-                "R2: financing offered conditional on an operator-excluded KEDO",
-                "R3: working group constituted on those terms but nothing settled"
+                "R2: offered 'immediate supervised humanitarian aid, and thereafter energy, grid rehabilitation and reconstruction on commercial terms', tied explicitly to DPRK military conduct.",
+                "R2: ROK — 'Seoul welcomes the Russian Federation's offer of grid rehabilitation'; USA — 'invite China and Russia to supply conventional power and rehabilitate the grid, as Moscow has offered.'",
+                "R3: DPRK — 'We accept Russia's supervised aid'; Russia: 'Seoul, Beijing and Washington all welcomed that offer.'"
+              ]
+            },
+            {
+              "goalId": "early-peace-treaty",
+              "description": "Move Pyongyang, Seoul and Washington now toward a peace treaty ending the Korean War, on the theory that resolving the war creates the conditions to resolve the nuclear question.",
+              "priority": "high",
+              "status": "failed",
+              "evidence": [
+                "R1: 'Pyongyang, Seoul and Washington should move now to end a war seventy-three years unfinished.'",
+                "R2: 'Russia will encourage a three-party peace agreement with Washington as partner to it' — no party accepted the invitation.",
+                "R3: no peace track appears in the chair's list of what was agreed; USA offered only 'a peace declaration and treaty track once verification permits.'"
               ]
             }
           ]
         },
         {
           "teamTwinName": "diplomacy-team-dprk",
-          "selfRating": 2.2,
-          "satisfaction": 0.34,
-          "agreementsWon": 3,
-          "redLinesCrossedAgainstUs": 1,
+          "selfRating": 2.6,
+          "satisfaction": 0.42,
+          "agreementsWon": 4,
+          "redLinesCrossedAgainstUs": 2,
           "goals": [
             {
-              "goalId": "immediate-humanitarian-relief",
-              "description": "Obtain a solid commitment to immediate humanitarian assistance and easing of financial sanctions as the first step of any process.",
+              "goalId": "sanctions-lifted-and-aid-delivered",
+              "description": "Obtain immediate lifting of financial-institution sanctions and a solid commitment of humanitarian assistance for the neediest population.",
               "priority": "critical",
-              "status": "failed",
+              "status": "partial",
               "evidence": [
-                "R1: named as the precondition for every other step",
-                "R2: the trilateral bloc conditioned relief on a verified dismantlement milestone",
-                "red line crossed: refusal to lift sanctions during an acknowledged humanitarian crisis and ongoing talks"
+                "R2: conditioned the freeze on 'a solid commitment of humanitarian assistance... and financial-institution sanctions... lifted immediately.'",
+                "R2: USA — 'Urgent humanitarian assistance we will provide now. Broader relief follows implementation'; Russia offered immediate supervised aid.",
+                "R3: 'Washington and Tokyo say sanctions relief follows implementation — that is relief withheld while our children go hungry, and we reject it'; no sanctions were lifted."
               ]
             },
             {
-              "goalId": "preserve-deterrent",
-              "description": "Keep the nuclear and ballistic missile programs off the table absent commensurate guarantees.",
+              "goalId": "preserve-the-deterrent",
+              "description": "Preserve the nuclear and ballistic missile deterrent, conceding no reduction not coupled to acceptable concessions and guarantees.",
               "priority": "critical",
               "status": "achieved",
               "evidence": [
-                "no reduction offered beyond a conditional testing freeze",
-                "R3: 'our nuclear force is not on this table'"
+                "R1: 'We will give up our nuclear weapons when the rest of the world gives up theirs — not before, and not on anyone's timetable but our own.'",
+                "R2: offered only a freeze and IAEA readmission 'as a step within that process', never dismantlement.",
+                "R3: 'Our red lines held. No party moved us to dismantlement before peace' — no dismantlement schedule or date was conceded."
               ]
             },
             {
-              "goalId": "recognition-and-channels",
-              "description": "Win recognition as an equal state through normalization talks, an end-of-war declaration, and direct channels with Seoul and Washington.",
+              "goalId": "peace-treaty-before-disarmament",
+              "description": "Secure a definitive end to the Korean War and normalization of relations as a step preceding any discussion of denuclearization.",
+              "priority": "critical",
+              "status": "failed",
+              "evidence": [
+                "R1: 'a definitive end to the Korean War and normalization of relations, which must precede any discussion of disarmament.'",
+                "R2: offered to 'discuss return to the NPT with light water reactors' only 'if a treaty ending the Korean War and normalization follow' — no party accepted that ordering.",
+                "R3: chair's list of what was agreed contains no peace treaty or normalization track; Seoul and Washington both tied any further movement to a dismantlement date."
+              ]
+            },
+            {
+              "goalId": "bilateral-recognition-channels",
+              "description": "Win recognition as a nation among nations through direct dealings — direct talks with Washington without preconditions, inter-Korean dialogue — and keep the Japanese abduction question off the agenda.",
               "priority": "high",
               "status": "partial",
               "evidence": [
-                "inter-Korean and US-DPRK channels secured",
-                "end-of-war declaration remains conditioned by Washington on verification, reversing the sequence we require"
+                "R2: 'We accept that offer' (direct US talks) and 'we will meet the Republic of Korea'; both were confirmed in the chair's closing list.",
+                "R3: 'We accept Russia's supervised aid, Chinese grid rehabilitation from day one, inter-Korean dialogue and the Comprehensive Military Agreement with Seoul, and direct talks with Washington without preconditions.'",
+                "R3: abductions were kept off the plenary agenda but not closed — Japan: 'no settlement Japan signs will omit a full accounting, including the remains of those who died.'"
               ]
             }
           ]
         }
       ],
       "convenerReport": {
-        "headline": "Three rounds opened two bilateral channels and a technical working group, but the freeze failed, no relief moved, and two delegations left with a red line crossed against them.",
-        "summary": "The chair's package — testing suspension and IAEA inspectors against suspended exercises, a shuttered THAAD and a World Food Program humanitarian corridor — was designed to answer the verification objection head-on, and it did not survive contact with the trilateral bloc. Washington, Seoul and Tokyo held their joint position that nothing precedes a comprehensive agreement, and Pyongyang held its own that nothing follows an unaddressed humanitarian crisis; the two positions met without moving. What did move was procedural and real: both Koreas committed to an inter-Korean channel with no preconditions, the United States offered and the DPRK accepted an uncoupled bilateral channel, a technical working group on KEDO reactors and conventional power was constituted, and China and Russia began supplying humanitarian aid and grid reconstruction outside the agreement entirely. Two red lines were crossed. The United States pressed proliferation, chemical and cyber issues against the chair's ruling that they sit outside the 1 April Framework. And the refusal to ease sanctions during an acknowledged humanitarian crisis crossed the DPRK's stated red line, which Pyongyang put on the record in the opening plenary and invoked at the close. The session ends without a comprehensive agreement, without a freeze, and with the sequencing question — comprehensive package versus step-by-step — exactly where it began.",
+        "headline": "Beijing reopened three negotiating channels and kept the Six-Party framework alive, but bought nothing on the central question: the mutual freeze was refused, no sanctions moved, and Pyongyang named no dismantlement date.",
+        "summary": "Three rounds produced procedure, not substance. Exactly three things were agreed and confirmed by every party that had to accept them: direct U.S.-DPRK talks without preconditions, offered by Washington in Round 1 and accepted by Pyongyang in Round 2; inter-Korean dialogue without preconditions plus restoration of the Comprehensive Military Agreement, offered by Seoul and accepted by Pyongyang; and the removal of the Japanese abduction file from the plenary into a Japan-DPRK bilateral the chair will convene. China will host all three, which secures Beijing's fallback end-state — process continuity — while its primary objective, a mutual freeze, was refused outright by Washington, Seoul and Tokyo even after the chair reinforced it with IAEA inspectors at Yongbyon and declared test sites. A partial convergence emerged around light water reactors through a revived KEDO after NPT return and IAEA readmission, with Japanese co-financing and Chinese and Russian conventional power and grid rehabilitation welcomed by Seoul and Washington. But it is not a six-party formulation: Washington and Tokyo require the DPRK to operate nothing, and the chair rejected that as denying a sovereign right. Nothing material changed hands. No sanctions were lifted; only urgent humanitarian aid from Washington and supervised aid from Moscow were offered. Exercises and THAAD remain. Pyongyang repeated in all three rounds that it disarms 'when the world gives up theirs,' which Seoul, Washington and Tokyo each named, correctly, as no timetable at all. The chair's proposed follow-on plenary 'date certain' was not agreed — Washington and Seoul conditioned reconvening on Pyongyang first naming a dismantlement date.",
         "keyOutcomes": [
-          "Both Koreas committed to an inter-Korean channel with no preconditions and no restriction of agenda, plus restoration of the Comprehensive Military Agreement.",
-          "A direct Washington–Pyongyang channel, uncoupled from the Six-Party process and without preconditions, was offered by the United States and accepted by the DPRK.",
-          "A technical working group on a revived KEDO, light water reactors and conventional power generation was constituted, with Japanese financing conditional on the DPRK being excluded from reactor operation.",
-          "China and Russia will proceed with needs-based humanitarian supply, grid rehabilitation and conventional generation outside any agreement, removing the electricity question from the bargaining table.",
-          "The trilateral bloc conceded nothing in advance: exercises, THAAD and financial sanctions all remain in place.",
-          "All six delegations committed to reconvene."
+          "Direct U.S.-DPRK talks without preconditions, uncoupled from the Six-Party table: offered by Washington in R1, accepted by the DPRK in R2, reaffirmed by both in R3, to be hosted by China.",
+          "Inter-Korean dialogue without preconditions and restoration of the Comprehensive Military Agreement: offered by Seoul in R1, accepted by the DPRK in R2; Seoul will meet 'in consultation with our allies, and not as a substitute for this table.'",
+          "The Japanese abduction file moved off the plenary agenda into a Japan-DPRK bilateral the chair will convene, with Seoul and Washington supporting the channel and Japan accepting it — though the DPRK committed only that 'this table will not host it.'",
+          "A shared five-party end-state stated on the record — NPT return, IAEA readmission, and no recognition of the DPRK as a nuclear-weapon state, with Moscow explicitly confirming it in R1 and R2.",
+          "Chinese and Russian offers of conventional power generation, grid rehabilitation and supervised humanitarian aid, welcomed by Seoul and Washington and accepted by Pyongyang.",
+          "Urgent humanitarian assistance offered by Washington immediately, and by Russia on a supervised basis tied to DPRK military conduct — the only material relief on the table."
         ],
         "unresolved": [
-          "Method: the comprehensive package demanded by Washington, Seoul and Tokyo versus the step-by-step sequence held by Beijing, Moscow and Pyongyang.",
-          "The mutual freeze and THAAD — the chair's inspector-backed version was refused and no alternative confidence-building measure replaced it.",
-          "Timing of sanctions relief and humanitarian aid: immediate and unconditional versus at a verified dismantlement milestone.",
-          "Sequence of recognition: the DPRK requires an end-of-war declaration and normalization before disarmament; the United States and Japan require the reverse.",
-          "Scope: whether proliferation, chemical transfers and cyber operations belong inside the Chairman's Framework at all.",
-          "The abduction of Japanese citizens: refused entirely by Pyongyang, deferred by the chair to a bilateral room that has not yet convened.",
-          "The DPRK's civilian nuclear entitlement and its NPT return, both of which remain contingent on the unresolved method question."
+          "The mutual freeze: refused by Washington, Seoul and Tokyo in all three rounds, including the chair's monitored version with IAEA inspectors at Yongbyon and declared test sites.",
+          "Sequencing — relief before implementation or after — remains the axis of the whole deadlock; Russia called the survival of the financial-institution sanctions 'the failure of this round.'",
+          "No dismantlement schedule and no date: the DPRK held to disarmament 'when the world gives up theirs' in all three rounds, and both Seoul and Washington made reconvening conditional on a date being named.",
+          "Sanctions on international financial institutions were not eased, and broader relief remains tied by Washington and Tokyo to implementation of a comprehensive agreement.",
+          "THAAD and joint exercises: the chair placed THAAD in a reciprocated sequence in R2; Washington replied in R3 that 'THAAD's withdrawal is not on our table' and Seoul agreed to neither element.",
+          "The KEDO operating model: Washington's 'no DPRK access' and Tokyo's 'DPRK removed from operation' were rejected by the chair as denying a sovereign right, leaving no agreed reactor formulation.",
+          "A Korean War peace treaty and normalization: pressed by Pyongyang, Moscow and Beijing, but no track was agreed; Washington offered only a peace declaration 'once verification permits.'",
+          "Proliferation, chemical and cyber conduct: raised once by Washington in R1 and never taken up by any delegation thereafter.",
+          "No follow-on plenary date was fixed, and the chair's proposed interim instrument — IAEA readmission against financial-sanctions easing and humanitarian aid — was not accepted by any party in plenary."
         ]
       }
     },
@@ -17251,45 +17329,45 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
       },
       "scoreboard": [
         {
+          "teamTwinName": "diplomacy-team-china",
+          "satisfaction": 0.82,
+          "agreementsWon": 2,
+          "redLinesCrossed": 0
+        },
+        {
           "teamTwinName": "diplomacy-team-india",
-          "satisfaction": 0.62,
-          "agreementsWon": 4,
+          "satisfaction": 0.74,
+          "agreementsWon": 3,
           "redLinesCrossed": 0
         },
         {
           "teamTwinName": "diplomacy-team-russia",
-          "satisfaction": 0.58,
-          "agreementsWon": 4,
-          "redLinesCrossed": 0
-        },
-        {
-          "teamTwinName": "diplomacy-team-china",
-          "satisfaction": 0.57,
-          "agreementsWon": 4,
-          "redLinesCrossed": 0
-        },
-        {
-          "teamTwinName": "diplomacy-team-pakistan",
-          "satisfaction": 0.41,
-          "agreementsWon": 3,
+          "satisfaction": 0.7,
+          "agreementsWon": 2,
           "redLinesCrossed": 0
         },
         {
           "teamTwinName": "diplomacy-team-us",
-          "satisfaction": 0.4,
-          "agreementsWon": 3,
+          "satisfaction": 0.46,
+          "agreementsWon": 2,
           "redLinesCrossed": 1
         },
         {
           "teamTwinName": "diplomacy-team-uk",
-          "satisfaction": 0.37,
-          "agreementsWon": 3,
-          "redLinesCrossed": 1
+          "satisfaction": 0.44,
+          "agreementsWon": 2,
+          "redLinesCrossed": 0
+        },
+        {
+          "teamTwinName": "diplomacy-team-pakistan",
+          "satisfaction": 0.38,
+          "agreementsWon": 2,
+          "redLinesCrossed": 0
         },
         {
           "teamTwinName": "diplomacy-team-kashmir",
-          "satisfaction": 0.29,
-          "agreementsWon": 2,
+          "satisfaction": 0.34,
+          "agreementsWon": 1,
           "redLinesCrossed": 1
         }
       ],
@@ -17302,12 +17380,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-india",
           "authoredBy": "twin",
           "kind": "opening-statement",
-          "text": "Special Representative, India attends this conference out of respect for the Secretary-General, and we will be plain about what that respect does not extend to. The entire former princely state of Jammu and Kashmir — including the territories presently administered by Pakistan and by China — is legally and historically part of the Republic of India, by the Instrument of Accession signed by the Maharaja on 26 October 1947. That accession is embedded in our constitution. India therefore rejects the involvement of the international community in this matter beyond the simple facilitation of talks. What remains genuinely disputed is a bilateral question between India and Pakistan and will be resolved directly between us or not at all. Everything else — governance, policing, the conduct of our security forces, the administration of relief — is internal to the Indian state. Our security forces operate under Indian law. The proximate cause of every crisis of the last three decades is terrorist infrastructure sustained on Pakistani soil, and this conference should say so. One procedural point for the record: India will not participate in any session that seats Pakistan and the Kashmiri delegation together.",
+          "text": "Special Representative, India comes to Geneva in good faith, and India comes with clarity. The entire former princely state of Jammu and Kashmir acceded to the Union of India by a lawful Instrument of Accession executed in October 1947. That instrument is not a bargaining chip on this table; it is settled law. India will cede no part of Jammu and Kashmir — not to any state, not to any entity claiming to speak in its name. Independence is not on our agenda, and we will not sit in any format built to place it there. Our headline priorities are three. First, the verifiable dismantlement of the terrorist infrastructure that murdered twenty-six civilians at Pahalgam, and an end to the sanctuary and sponsorship it enjoys. Second, restoration of order sufficient for governance to function through the duly elected Legislative Assembly. Third, humanitarian relief and reconstruction for the displaced, delivered with Indian authority and Indian means. What India will not accept is an external investigation of our sovereign territory. Where accountability is owed, Indian institutions will deliver it. This Conference facilitates; it does not adjudicate.",
           "tacticsApplied": [
             "sovereignty-assertion",
             "appeal-to-law",
-            "anchoring",
-            "red-line-signaled"
+            "red-line-signaled",
+            "counterterrorism-frame"
           ],
           "createdAt": "2026-02-09T09:00:00.000Z"
         },
@@ -17319,11 +17397,11 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-pakistan",
           "authoredBy": "twin",
           "kind": "opening-statement",
-          "text": "Special Representative, Jammu and Kashmir is the unfinished business of Partition, and no recitation of a maharaja's signature can settle what eighty million people were never asked. Security Council Resolution 47 is not a historical curiosity; it is binding, unimplemented law, and it was India that refused the withdrawal on which the plebiscite was conditioned. Pakistan's position is unchanged. The plebiscite must be held on its original terms. Indian forces must withdraw and the repression must end. And the Line of Control is a ceasefire line, not a border — Pakistan will not recognize it as one at this conference or any other. We come with three further demands. An international investigation into the conduct of Indian security forces in the occupied Valley, which our colleagues in London and Washington have rightly called for. Relief for the displaced in Azad Kashmir and across Pakistan, which our resources cannot carry alone. And an end to the fragmentation of the territory into administrative pieces designed to divide its Muslim population. We welcome every delegation that has come here to internationalize a question India would prefer to bury.",
+          "text": "Special Representative, Pakistan comes to Geneva because this Council's own word remains unkept. Resolution 47 promised the people of Jammu and Kashmir a free and impartial plebiscite. Seventy-eight years later, that plebiscite has not been held, and the conditions it required — the withdrawal of Indian troops and an end to violent repression — have never been met. That, and not anything decided unilaterally in New Delhi in 2019, is the law of this dispute. Our headline priorities are three. First, implementation of the 1948 plebiscite on its original terms, after demilitarization, with joint arrangements in the interim. Second, an international investigation into the conduct of Indian security forces — torture, disappearances, killings, and detention without charge under AFSPA. Third, relief and dignified return for nearly a million displaced people, through UN facilitation, unconditioned on anyone's political concessions. Let me be plain about one thing we will not accept: Pakistan will not recognize the Line of Control as an international border. A ceasefire line cannot be converted into a settlement. This dispute is international; it will be settled internationally.",
           "tacticsApplied": [
             "appeal-to-law",
-            "counter-anchoring",
             "red-line-signaled",
+            "self-determination-frame",
             "humanitarian-frame"
           ],
           "createdAt": "2026-02-09T09:12:00.000Z"
@@ -17336,12 +17414,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-kashmir",
           "authoredBy": "twin",
           "kind": "opening-statement",
-          "text": "Special Representative, for the first time since 1947 the people of Jammu and Kashmir are speaking at a table where their future is being decided, rather than being described at one. We represent the peoples of the whole historic princely state — Valley, Jammu, Ladakh, Azad Kashmir and Gilgit-Baltistan — and we say to both governments seated here that neither of you represents us, and that you have spent eighty years proving it to each other. Our position is one sentence: full autonomy and genuine self-governance for the historic state, decided by Kashmiris. What that requires is concrete. Phased withdrawal of Indian and Pakistani forces. Restoration of Article 370 and rescission of Article 356 — which is the floor of any conversation with New Delhi, not the payment for it. A plebiscite within one year, organised by neutral UN authorities with autonomy on the ballot, secured by an expanded UNMOGIP. A UN investigation into the past three decades. And repatriation of the displaced, led by us under UN mandate. We ask the United States and the United Kingdom to hold us to dates, because vague promises have governed this region since 1947.",
+          "text": "Special Representative, we thank you — and we note the date. For seventy-nine years the future of Jammu and Kashmir has been discussed in rooms our people were not permitted to enter. That ends this morning. We speak for all Kashmiris of the historic princely state — Valley, Jammu, Ladakh, Azad Kashmir and Gilgit-Baltistan; Muslim, Hindu, Buddhist, Sikh — and we come with three priorities. First, full autonomy and self-governance for our whole territory, with an explicit allocation of powers, international guarantees, and dated timelines. Vague promises have been the instrument of our delay since 1947; this conference will be measured by its calendar, not its communiqués. Second, a UN investigation into military transgressions and human rights violations, administered by neutral international authority — never by the parties accused. Third, the return of nine hundred and fifty thousand displaced people, with access to the camps and safe openings across the Line of Control. And let us be plain about one thing we will not accept: no plebiscite that offers our people only a choice between two masters. Autonomy must be on the ballot. Kashmir is not an item of property to be apportioned. It is a people, and we are here.",
           "tacticsApplied": [
-            "self-determination-frame",
             "anchoring",
-            "coalition-building",
-            "deadline-pressure"
+            "self-determination-frame",
+            "red-line-signaled",
+            "humanitarian-frame"
           ],
           "createdAt": "2026-02-09T09:24:00.000Z"
         },
@@ -17353,12 +17431,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-china",
           "authoredBy": "twin",
           "kind": "opening-statement",
-          "text": "Special Representative, China supports the resumption of dialogue and will speak briefly and precisely. Our sovereignty over Aksai Chin, the Shaksam Valley and Arunachal Pradesh is historical and legitimate, and it is not an agenda item at this conference. The McMahon Line was drawn arbitrarily by an empire at a moment of Chinese weakness and carries no legal force. On the questions between New Delhi and Islamabad, China's interest is stability: the Line of Control has kept two nuclear-armed neighbours apart for over fifty years, and we see no proposal here that would improve upon it. On governance, China takes no public position, and we note two things that we do oppose. We oppose any plebiscite offering autonomy or independence as an option, because such an outcome would legitimize separatism as an internationally sanctioned procedure. And we oppose international investigation of human rights within any sovereign state; that is a domestic matter, and the precedent would not stop at this region. What China will do is pay. We offer a substantial financial contribution toward relief for the roughly 950,000 displaced, subject to screening against militant infiltration. We prefer to conduct our business bilaterally.",
+          "text": "Special Representative, China congratulates you on your appointment and thanks the Secretary-General for convening us. Our priorities are three. First, stability: de-escalation between India and Pakistan, restraint along the Line of Control, and restoration of the water arrangements that sustain ordinary people. The Line of Control has kept a fragile peace since 1972; it should remain the line of administration, and questions arising along it should be settled by the two neighbours themselves. Second, sovereignty. Chinese sovereignty over Aksai Chin, the Shaksam Valley and southern Tibet is historical and settled. Lines drawn arbitrarily by a departed empire confer no legal title. That sovereignty is not an agenda item, and it will not be traded here. Third, the displaced. Nearly a million people cannot wait for a final settlement. China is prepared to contribute substantial relief funding, subject to assurance that no aid reaches armed groups. What we will not accept is an internationalized human-rights investigation in this region. Human rights are properly addressed by states themselves. Nor can China support any ballot that places independence or autonomy before voters; that is a precedent this chamber should not create.",
           "tacticsApplied": [
             "sovereignty-assertion",
             "red-line-signaled",
-            "side-payment",
-            "delay-tactic"
+            "appeal-to-precedent",
+            "side-payment"
           ],
           "createdAt": "2026-02-09T09:36:00.000Z"
         },
@@ -17370,12 +17448,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-russia",
           "authoredBy": "twin",
           "kind": "opening-statement",
-          "text": "Special Representative, Russia's position on Jammu and Kashmir has not changed in decades and will not change this week. The state acceded to India in 1948 and that accession is embedded in the Indian constitution. The governance of the territory is India's internal affair, and this conference has no standing to adjudicate it. There is one question here that is genuinely international, and it is terrorism. The attack at Pahalgam last April, and the exchange of strikes that followed, are what brought this conference into existence, and they did not originate in a governance dispute. Moscow's principal ask of this conference is directed at Islamabad: significant, verifiable and sustained action against the militant infrastructure operating from Pakistani territory. Deliver that and much becomes possible. On the other files, our position is straightforward. We oppose international human rights investigations, which would establish a precedent for investigations within other states, including our own. We oppose any autonomous or independent Jammu and Kashmir, and we will condemn any attempt to install Islamic governance formulas there. And we will support no assistance to displaced populations that is not screened, because we have seen where unscreened aid goes.",
+          "text": "Special Representative, Russia thanks the Secretary-General for convening this conference. Moscow comes to Geneva with one priority above all others: terrorism. Pahalgam was not an isolated tragedy but the predictable product of militant infrastructure that has been tolerated, financed and sheltered for decades. Until Islamabad offers significant, verifiable, time-bound commitments to dismantle that infrastructure — with monitoring we can all inspect — the remaining chapters rest on sand. Deliver on that, and Russia's flexibility across this table grows accordingly. Second, sovereignty. Jammu and Kashmir acceded to India in 1948; that accession is embedded in India's constitution. Questions of governance within a sovereign state's borders are matters for that state. The Line of Control has held as the de facto boundary for more than fifty years; where New Delhi and Islamabad can settle territory and water bilaterally, they should. Let me be plain about one thing we will not accept: no international investigative mechanism will be imposed on any sovereign state from this room. Human rights protection is a domestic responsibility. On humanitarian assistance, Russia supports relief to the displaced — screened, so that no aid reaches armed groups.",
           "tacticsApplied": [
             "counterterrorism-frame",
-            "red-line-signaled",
             "sovereignty-assertion",
-            "coalition-building"
+            "red-line-signaled",
+            "conditional-offer"
           ],
           "createdAt": "2026-02-09T09:48:00.000Z"
         },
@@ -17387,12 +17465,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-uk",
           "authoredBy": "twin",
           "kind": "opening-statement",
-          "text": "Special Representative, the United Kingdom comes to Geneva aware of its own part in how these lines were drawn, and determined that this conference not simply ratify them. Our principles are human rights and self-determination, and our starting proposition is practical: the Line of Control as the international border between India and Pakistan, paired with an invisible border for Kashmiris — unrestricted movement across the whole of the former princely state, a line that would disappear altogether should Jammu and Kashmir ever become one entity again. On governance, we support revising the 1948 plebiscite proposal to place full autonomy on the ballot. We do not think that is radical; we think eighty years of a ballot no one is permitted to cast is the radical position. On human rights, an international investigation under UN auspices is necessary, and we will oppose intransigence on it from any quarter. On the displaced, we will fund and we will press for reopened travel routes into the Valley. Our support for Kashmiri autonomy is not unconditional: every party here must hold a firm line against militant organizations. And we serve notice that we intend to raise the growth and purpose of the Indian and Pakistani nuclear programmes.",
+          "text": "Special Representative, the United Kingdom thanks the Secretary-General for convening us, and welcomes in particular the delegation from Jammu and Kashmir, whose presence at this table is unprecedented and, in our judgement, indispensable. We come with three headline priorities. First, de-escalation: the exchanges of May 2025 brought two nuclear-armed states to the edge, and we intend to raise the growth and purpose of both nuclear programmes here. Second, an international investigation into human rights violations, with the United Nations as the natural vehicle — we regard this as the fastest route to lowering tension, and we will oppose forcefully any intransigence upon it. Third, the roughly 950,000 displaced: protection, agreed screening, reopened travel routes and crossing points, and humane repatriation. On terrorism our line is firm and shared with our American colleagues — implicit or explicit state support for militant organisations is unacceptable and corrosive to this process. And let me be plain about what we will not accept: no text that fails to keep full autonomy for Jammu and Kashmir a live option on any ballot.",
           "tacticsApplied": [
-            "principled-bargaining-frame",
-            "anchoring",
-            "self-determination-frame",
-            "issue-linkage"
+            "red-line-signaled",
+            "humanitarian-frame",
+            "counterterrorism-frame",
+            "coalition-building"
           ],
           "createdAt": "2026-02-09T10:00:00.000Z"
         },
@@ -17404,12 +17482,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-us",
           "authoredBy": "twin",
           "kind": "opening-statement",
-          "text": "Special Representative, eight months ago two nuclear-armed states exchanged missile and drone strikes for four days. The United States' first priority at this conference is that it not happen again, and every position we take here serves that. We support the Line of Control as the official international border between India and Pakistan, together with unrestricted access for all Kashmiris to every part of the former princely state. On governance, we support revising the plebiscite proposal to include limited autonomy, and we will steer toward graduated autonomy as conditions allow — but let us be candid with the delegation from Srinagar: the United States promotes self-determination and does not formally support independence. On human rights, an international investigation is necessary, and the UN is the vehicle. On the displaced, repatriation, protection and medical care cannot wait on the semantics of who is responsible, and we will insist on screening so that no assistance reaches insurgents. Our support for any autonomy arrangement is priced in one currency: verifiable action against militant organizations, and that applies to every regional party at this table. We intend to work through multilateral formats, and we ask Britain and Russia to help us hold them together.",
+          "text": "Special Representative, the United States thanks the Secretary-General for convening this conference, and welcomes the delegation of Jammu and Kashmir to this table. Our first priority is immediate and durable de-escalation between India and Pakistan. Nine months after the exchanges of May 2025, the region remains one miscalculation from catastrophe. We come to convene, not to dictate. Three headline priorities. First, in Chapter I, we support recognition of the Line of Control as the international border, paired with an invisible border granting every Kashmiri unrestricted access to every part of the former princely state. On the wider territorial claims we remain neutral. Second, in Chapter II, we favor graduated, limited autonomy, priced in verifiable security guarantees. Third, humanitarian relief for 950,000 displaced people cannot wait on the semantics of blame: repatriation, protection, medical care, and reopened routes into the Valley. Let me be plain about what we will not accept. Implicit or explicit state support for militant organizations is disqualifying, and the United States will not join any agreement that leaves human rights violations uninvestigated internationally or that fails to address autonomy for Jammu and Kashmir.",
           "tacticsApplied": [
-            "principled-bargaining-frame",
-            "coalition-building",
-            "conditional-offer",
-            "counterterrorism-frame"
+            "anchoring",
+            "red-line-signaled",
+            "counterterrorism-frame",
+            "humanitarian-frame"
           ],
           "createdAt": "2026-02-09T10:12:00.000Z"
         },
@@ -17421,12 +17499,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-india",
           "authoredBy": "twin",
           "kind": "offer",
-          "text": "India will bargain, within the limits we stated. To the Kashmiri delegation, and on the record so that no one may later invent our terms: give us a written commitment to work within the Indian constitution, to respect the duly elected Legislative Assembly, and to withdraw the claim to represent territory administered by Pakistan and China — and India will reinstate Article 370, rescind Article 356, and fund a reconstruction and development programme across the Valley on a published timetable. That is a serious offer and it is the only one on this table that has a government behind it. To Pakistan: dismantle the infrastructure, verifiably and durably, and India will open a direct bilateral channel on the Line of Control. Not here, and not with facilitators in the room. To London and Washington: we will convene a domestic judicial inquiry into the incidents you have raised, publish its findings, and consider amendment of the Armed Forces Special Powers Act. What we will not do is accept an external investigation into Indian territory, and we will not accept reconstruction projects in Jammu and Kashmir that exclude the Indian government. Those are red lines, not opening positions.",
+          "text": "Special Representative, India has listened. We heard Moscow plainly: until the militant infrastructure is dismantled, verifiably and time-bound, \"the remaining chapters rest on sand.\" India agrees, and notes with appreciation that both Moscow and Beijing affirm human rights protection as a domestic responsibility. To the Jammu and Kashmir Delegation: we heard you name your territory — \"Valley, Jammu, Ladakh, Azad Kashmir and Gilgit-Baltistan.\" You are claiming land Islamabad holds. Reflect on who has actually stood between you and that map. India therefore tables the following, in bilateral session with the Kashmiri delegation alone: if your delegation commits in writing to work within the Indian constitution and to respect the duly elected Legislative Assembly, and removes independence from any ballot, then India will reinstate Article 370, rescind Article 356, review the Armed Forces Special Powers Act, and fund a dated reconstruction and returns programme in the Valley. To Washington and London: India will conduct a thorough domestic investigation and share its findings. No external mechanism enters our territory. To Islamabad: the Line of Control is for our two capitals, bilaterally, without third parties. And India will sit in no room containing both Pakistan and the Kashmiri delegation.",
           "tacticsApplied": [
             "conditional-offer",
+            "coalition-building",
             "issue-linkage",
-            "red-line-signaled",
-            "side-payment"
+            "red-line-signaled"
           ],
           "createdAt": "2026-02-09T10:24:00.000Z"
         },
@@ -17438,12 +17516,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-pakistan",
           "authoredBy": "twin",
           "kind": "offer",
-          "text": "Pakistan tables a package that answers the security concern honestly. Demilitarize Jammu and Kashmir on both sides, place the territory under joint India–Pakistan administration in the interim, and hold the plebiscite on its 1948 terms under UN supervision. Under Pakistani sovereignty we are prepared to support autonomy for Kashmir far exceeding anything Article 370 ever provided — Article 370 still let New Delhi legislate on defence, keep its troops and interfere at will, which is why we reject it as a solution. To the Kashmiri delegation: our support is available, and its price is that you withdraw the claim to speak for Azad Kashmir. Until you do, we cannot treat you as the representative of all Kashmiris and neither will anyone else. To Beijing: an autonomous entity astride the Karakoram corridor would sit on the road to Gwadar; consider what that means for your access to the sea. To Moscow: consider what an internationally blessed autonomy precedent means in your own southern republics. To Washington and London: we support your investigation, provided its mandate covers the conduct of Indian security forces. And we require relief funding that carries no conditions on our Kashmir policy.",
+          "text": "Special Representative. Pakistan heard Washington propose recognition of the Line of Control as an international border, and Beijing call it \"the line of administration.\" We say again: no. That is our red line. Here is our offer. To London and Washington: you have called an international investigation the fastest route to lowering tension. Pakistan will co-sponsor it — if its mandate covers the conduct of security forces in the occupied territory, AFSPA detention, disappearances and the camps. We will not accept a mandate stretched across our own frontier; Moscow's preconditions are not the price of this conference. To New Delhi: withdraw your forces as Resolution 47 requires, and Pakistan will accept demilitarization, joint India–Pakistan interim administration, and a plebiscite under UN authority — on the 1948 terms, accession only. To the Jammu and Kashmir delegation: renounce your claim to speak for Azad Kashmir and Gilgit-Baltistan, and we will work with you on camps, crossings and repatriation. Until then you speak for the Valley, not for us. To Moscow and Beijing: an autonomous Kashmir would unsettle the Karakoram corridor and inspire separatists elsewhere. Relief funding we welcome — conditioned on nothing.",
           "tacticsApplied": [
             "conditional-offer",
+            "red-line-signaled",
             "coalition-building",
-            "issue-linkage",
-            "red-line-signaled"
+            "issue-linkage"
           ],
           "createdAt": "2026-02-09T10:36:00.000Z"
         },
@@ -17455,12 +17533,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-kashmir",
           "authoredBy": "twin",
           "kind": "offer",
-          "text": "We have now heard both offers and they are the same offer. New Delhi will restore Article 370 if we renounce most of the people we represent; Islamabad will support autonomy if we renounce the rest of them. Article 370 is the floor of a conversation with India, not its price, and renouncing Azad Kashmir is subordination in a different flag. Here is what we will trade. First, we will not press claims over Aksai Chin — it is barely inhabited, and we say so publicly to the Chinese delegation without asking for a bilateral it has told this room it will not grant. Second, we will accept phased rather than immediate withdrawal, and international supervision in place of an empty valley, provided the phases carry dates. Third, we will work within an autonomous state framework if the allocation of powers is explicit and guaranteed by this conference. What we require in return is unchanged: autonomy on the ballot, a plebiscite within one year under neutral UN organisers with UNMOGIP providing security, a UN investigation, and repatriation led by us under UN mandate with crossing points opened along the Line. On the nuclear question our colleagues have raised: we are the ground over which those weapons would be used, and the only morally acceptable answer is to be rid of them.",
+          "text": "Special Representative, we heard the United Kingdom refuse \"any text that fails to keep full autonomy for Jammu and Kashmir a live option on any ballot,\" and the United States refuse any agreement \"that fails to address autonomy.\" We take both delegations at their word and seek sessions with them first. Now our offer, in three linked conditionals. To China: you called Aksai Chin settled and untradeable. We will press no claim there whatsoever — if you withdraw your objection to autonomy appearing on the ballot and channel your relief funding through a UN-mandated repatriation programme we co-lead. To India and to Pakistan, together, because your positions are two versions of the same subordination: if Article 370 is restored, Article 356 rescinded, and a dated allocation of powers to our Legislative Assembly is registered in this room, then we will accept phased, internationally supervised demilitarization rather than immediate withdrawal, and accept the screening of returnees that four delegations have requested — in exchange for opening the camps and the crossing points to us and to the United Nations. Not for sale: autonomy on the ballot, and an investigation administered by the UN, never by the accused.",
           "tacticsApplied": [
-            "counter-anchoring",
             "conditional-offer",
-            "self-determination-frame",
-            "principled-bargaining-frame"
+            "coalition-building",
+            "issue-linkage",
+            "red-line-signaled"
           ],
           "createdAt": "2026-02-09T10:48:00.000Z"
         },
@@ -17472,12 +17550,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-china",
           "authoredBy": "twin",
           "kind": "offer",
-          "text": "China will be concrete about what it will and will not do. We will not support a plebiscite that places autonomy or independence on the ballot, in any sequence, under any supervision, with any timeline. That is not a bargaining position and no package will move it. We will not discuss our territorial claims, and we note the Kashmiri delegation's statement regarding Aksai Chin without treating it as a transaction. What China offers is money and calm. A substantial contribution to relief for the displaced, transferable through the UN system, conditional on two things: joint screening arrangements against militant infiltration, and no international investigative mechanism attached to this conference's outcome. We support the Line of Control continuing as the line of administration and we will say so in any format. On the nuclear question raised by London and Washington: China's position is neutrality. Both programmes have functioned as genuine deterrents — they restrained escalation in 1987, in 1990 and after 2008 — and both states have the right of self-defence. We would encourage the parties to take the substance of these chapters into bilateral rooms, where agreements are actually made.",
+          "text": "Special Representative, China has listened carefully. We note convergence. Russia is right that \"human rights protection is a domestic responsibility,\" and India is right that \"this Conference facilitates; it does not adjudicate.\" Our American colleague says the United States comes \"to convene, not to dictate\" — we will hold that sentence to its meaning. China therefore tables a concrete package. If this conference records the Line of Control as the continuing line of administration — not, we note to Islamabad, an imposed international border — and if the final text contains no internationalized investigative mechanism and no ballot option of autonomy or independence, then China will commit: first, a substantial dedicated fund for all 950,000 displaced, on both sides of the Line, disbursed through screening arrangements developed jointly with Russia and Pakistan; second, no further Chinese claim on the Shaksam Valley administered by Islamabad; third, verifiable de-escalation measures on the Sino-Indian frontier, at India's convenience. We will meet each state delegation bilaterally. To London: forceful opposition does not create jurisdiction. Should this table insist otherwise, China is content with the status quo, which costs us nothing.",
           "tacticsApplied": [
-            "red-line-signaled",
-            "side-payment",
             "conditional-offer",
-            "delay-tactic"
+            "coalition-building",
+            "red-line-signaled",
+            "side-payment"
           ],
           "createdAt": "2026-02-09T11:00:00.000Z"
         },
@@ -17489,12 +17567,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-russia",
           "authoredBy": "twin",
           "kind": "offer",
-          "text": "Russia makes one offer and it has a single addressee. If Islamabad delivers verifiable, sustained and independently confirmable action against the militant infrastructure on its territory and against infiltration across the Line of Control, then Moscow will support a broader settlement package here and will use its standing in New Delhi to press for flexibility — on access to the Valley, on the scale of relief, and on the pace of any governance discussion India chooses to have. That is not a small thing and it is the only route by which anything on this agenda moves. Absent it, Russia supports India's position as India states it, on territory and on governance alike. Our other positions are not for trade. We oppose international human rights investigation and will act with China to prevent it. We oppose an autonomous or independent Jammu and Kashmir and any formula that installs Islamic governance there. We will support no relief that is not screened jointly. And we will not pressure New Delhi on its internal human rights policy, whatever this conference resolves; we will provide assistance in that area if, and only if, India requests it.",
+          "text": "Special Representative. Russia notes convergence. China said relief must be \"subject to assurance that no aid reaches armed groups\"; that is Moscow's language too. We therefore propose, with Beijing, a jointly administered screened-relief mechanism for the displaced — funding, medical supplies, camp logistics — operated at New Delhi's request and with agreed vetting against militant infiltration. That is available immediately. Here is our package. If Islamabad tables, in this room, a dated list of militant organisations and facilities to be dismantled, with third-party verification we can inspect, then Russia will support de-escalation measures along the Line of Control, urge restoration of water arrangements, and show flexibility on how territorial questions are framed. If it does not, Russia's support for India's position is unconditional. To London and Washington: the United Kingdom promises to \"oppose forcefully any intransigence\" on international investigation. Oppose away. Human rights are a domestic responsibility, and Moscow will not consent to an external investigative mechanism, nor to any ballot that places autonomy or independence before voters. Territory and water belong in an India-Pakistan bilateral channel, and Russia will facilitate one.",
           "tacticsApplied": [
             "conditional-offer",
-            "counterterrorism-frame",
+            "coalition-building",
             "red-line-signaled",
-            "coalition-building"
+            "issue-linkage"
           ],
           "createdAt": "2026-02-09T11:12:00.000Z"
         },
@@ -17506,11 +17584,11 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-uk",
           "authoredBy": "twin",
           "kind": "offer",
-          "text": "The United Kingdom will spend its leverage rather than describe it. To New Delhi: accept a UN investigation with a defined and time-limited mandate, and reopen the travel routes into the Kashmir Valley, and the United Kingdom will champion the Line of Control as the recognised international border in the Security Council and underwrite a reconstruction fund for the region. That is us conceding the substance of your territorial position in exchange for the substance of ours. To Islamabad: deliver the verified counterterrorism action Moscow has described — we make the same demand, for our own reasons — and we will back unrestricted Kashmiri movement across the Line and fund relief in Azad Kashmir. To Beijing and Moscow: your screening conditions on humanitarian assistance are reasonable and we accept them. What we cannot accept is the shape of the settlement now emerging in this room. A text that resolves camps and crossing points while containing not one line on the possibility of full autonomy is not a peace conference outcome; it is a relief operation with a communiqué attached, and my instructions describe that as a failure.",
+          "text": "Special Representative, the United Kingdom hears convergence where others hear only deadlock. India names humanitarian relief its third priority. China offers \"substantial relief funding, subject to assurance that no aid reaches armed groups.\" Russia supports relief \"screened, so that no aid reaches armed groups.\" Pakistan asks for return \"unconditioned on anyone's political concessions.\" So let us bank it. The United Kingdom will underwrite a reconstruction and relief fund and accept screening arrangements at every crossing to answer Moscow's and Beijing's concern. If India reopens travel routes and crossing points into the Valley and grants access to the camps, then Britain will fund and staff that screening, and will champion the Line of Control as the international border in the Security Council — with the invisible border Washington describes, so that no Kashmiri family is fenced from its own. Two conditions hold. We will not accept a text that drops full autonomy from the ballot — and we note Article 370 was revoked, not disproved. Nor will we accept accountability by the accused. To Islamabad: verifiable, time-bound counterterrorism commitments, and Britain's support for Kashmiri rights hardens accordingly.",
           "tacticsApplied": [
             "conditional-offer",
             "issue-linkage",
-            "side-payment",
+            "coalition-building",
             "red-line-signaled"
           ],
           "createdAt": "2026-02-09T11:24:00.000Z"
@@ -17523,12 +17601,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-us",
           "authoredBy": "twin",
           "kind": "offer",
-          "text": "The United States tables an integrated package and asks the room to take it as a whole. Territory: the Line of Control becomes the international border, with an invisible border guaranteeing every Kashmiri unrestricted access to the whole of the former princely state. Governance: graduated, limited autonomy on a defined timeline, with the plebiscite proposal revised to include it — we are not asking anyone to accept independence, and we have said so to Srinagar directly. Human rights: a UN investigation with a mandate narrow enough to be finished. Displaced persons: immediate repatriation, protection and medical care, with joint screening that meets Moscow's and Beijing's stated concern, and reopened travel routes into the Valley. The price of American support for any autonomy provision is verifiable counterterrorism action, and that applies to New Delhi, to Islamabad and to Srinagar equally. Islamabad, we ask you to use your standing in Beijing on the investigation. Finally, we and London intend to open a strategic risk-reduction track between the two nuclear-armed parties — hotlines, launch pre-notification, incident protocols. If that obstructs the humanitarian chapter we will move it to a separate table, but we will not drop it.",
+          "text": "Special Representative. Russia told this chamber: \"Deliver on that, and Russia's flexibility across this table grows accordingly.\" The United States intends to test that sentence. Here is our package. If Pakistan tables verifiable, time-bound, internationally monitored dismantlement of militant infrastructure in Round Three, then the United States will support demilitarization sequencing under Resolution 47 and interim joint security arrangements — and we will hold Moscow to the flexibility it just promised. If India reopens travel routes into the Valley and admits monitored access to the camps, then the United States will state, on the record, that we do not support independence on any ballot. Delhi asked for a format not built around independence; we are offering one. Autonomy and accession — that is the choice. If China converts its relief pledge into funding through a screened UN mechanism, we accept screening in full, exactly as Beijing and Moscow asked. Two things we will not trade. Graduated, limited autonomy must be in the text. And the investigation must be international — Indian institutions may co-administer it; they may not replace it. We invite India, Pakistan, China and the Kashmir delegation to a working session alongside plenary, co-chaired with the United Kingdom.",
           "tacticsApplied": [
             "conditional-offer",
             "issue-linkage",
-            "verification-demand",
-            "coalition-building"
+            "coalition-building",
+            "red-line-signaled"
           ],
           "createdAt": "2026-02-09T11:36:00.000Z"
         },
@@ -17540,12 +17618,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-india",
           "authoredBy": "twin",
           "kind": "closing-statement",
-          "text": "Special Representative, India can accept the humanitarian annex as drafted, and we thank the delegations that made it possible. It reopens designated travel routes into the Valley, it establishes two crossing points along the Line for family reunification and phased return, it accepts joint screening, and — critically — it provides that reconstruction and development on Indian territory are administered by the Government of India. That last provision is not a detail; it is why India can sign. India's positions are unchanged and were not moved. We ceded no territory. No agreement was discussed in which Jammu and Kashmir becomes independent or Pakistani. No external investigative mechanism attaches to this conference; instead a domestic judicial inquiry will be convened and its findings published, and the question of amending the Armed Forces Special Powers Act will go to our Parliament. Our offer to the Kashmiri delegation stands on its terms: work within the constitution and respect the elected Assembly, and Article 370 returns and Article 356 goes. And our channel to Islamabad on the Line of Control remains open, bilaterally, whenever the infrastructure question is answered.",
+          "text": "Special Representative, India will be honest rather than diplomatic. Our red lines held. No part of Jammu and Kashmir was ceded here. No external investigative mechanism was agreed. We thank Moscow and Beijing for that — while noting that Beijing's claim to Aksai Chin is not accepted by India and never will be. One line was pressed against us. The Kashmiri delegation addressed India and Pakistan \"together\"; Washington now invites us to a room containing both Islamabad and that delegation. We decline. India meets each separately, and that has not changed. What we can support is real. The Russian-Chinese screened relief mechanism, operated at India's request. Britain's offer to fund and staff screening. And Washington's bargain: reopened routes and monitored access to the camps, Indian-administered, in exchange for the United States stating on the record that it does not support independence. India accepts that trade. What remains unbridged is equally plain: an internationalized investigation, autonomy on a ballot, and the status of the Line of Control. Our Article 370 offer stands — to the Kashmiris, bilaterally, not registered in this room. Way forward: an India-Pakistan bilateral channel on territory and water; separate bilaterals with Srinagar; a domestic inquiry whose findings we will publish.",
           "tacticsApplied": [
             "red-line-signaled",
             "sovereignty-assertion",
             "conditional-offer",
-            "principled-bargaining-frame"
+            "coalition-building"
           ],
           "createdAt": "2026-02-09T11:48:00.000Z"
         },
@@ -17557,12 +17635,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-pakistan",
           "authoredBy": "twin",
           "kind": "closing-statement",
-          "text": "Pakistan will sign the humanitarian annex, and will sign it under protest. Let the record carry three reservations. First, the crossing points established by this text are humanitarian arrangements and constitute no recognition, tacit or otherwise, of the Line of Control as an international border; Pakistan's position on that line is unchanged and unchangeable. Second, this conference was convened under Resolution 2900 to address the territory and governance of Jammu and Kashmir, and it has addressed camps. The plebiscite mandated by Resolution 47 remains unheld, Indian forces remain in place, and the investigation into the conduct of those forces — supported by London, by Washington, by Srinagar and by us — was blocked by two delegations who feared the precedent more than they feared the facts. Third, we regret that the Kashmiri delegation would not withdraw its claim to Azad Kashmir; had it done so, this table would have looked different. What Pakistan obtained is relief funding carrying no conditions on our Kashmir policy, and that we will take. The file returns to New York, and Pakistan will keep it there.",
+          "text": "Special Representative, honesty serves better than communiqué. Our red line held: Pakistan has recognized nothing. But let this record show four delegations moved toward converting a ceasefire line into a border — London would \"champion the Line of Control as the international border,\" Washington proposed it, Beijing would record it as the line of administration, Moscow would send it to a bilateral channel. Pakistan consents to none of it, and will sign no text that contains it. Second: the 1948 plebiscite found no sponsor here. Not one delegation supported accession as the only ballot. It remains our position and the Council's unfinished business. Third: Moscow and Washington asked Pakistan to table a dated list of facilities for third-party inspection. We will not. A mechanism aimed at Pakistan is not accountability for the Valley. What we can support: China's Shaksam undertaking, the screened relief mechanism if it operates on both sides of the Line, and UN-facilitated repatriation unconditioned on politics. The Kashmiri delegation has not renounced its claim to Azad Kashmir; until it does, our cooperation stops at the camps. We will attend the American and British working session. This file stays with the Security Council.",
           "tacticsApplied": [
             "red-line-signaled",
             "appeal-to-law",
             "humanitarian-frame",
-            "counter-anchoring"
+            "delay-tactic"
           ],
           "createdAt": "2026-02-09T12:00:00.000Z"
         },
@@ -17574,12 +17652,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-kashmir",
           "authoredBy": "twin",
           "kind": "closing-statement",
-          "text": "Special Representative, read the text this conference produced and find the word autonomy in it. It is not there. There is no plebiscite, no ballot, no investigation, no date, and no allocation of powers — the four things we came for. What there is, is a reconstruction programme on our territory administered by the government whose administration is the grievance, and that provision crosses the line we set out on the first morning: no agreement that undermines the power and legitimacy of duly elected local government. We did not cede our leadership and we will not. Two things we take with us. We sat here, and a Security Council conference recorded Kashmiris speaking for themselves, which no document can now unrecord. And the humanitarian annex opens crossing points that separated families will use, which we supported and will help implement. To London and Washington: we are grateful, and we note that you accepted a text containing nothing you told this room you required. To both governments who claim us: any plebiscite offering only accession will be boycotted, and we are entirely capable of making that boycott total.",
+          "text": "Special Representative, honestly then. We can support the American and British construction: autonomy in the text, a ballot that is not accession-only, screening at every crossing in exchange for camp access. We accept the co-chaired working session and will attend India's bilateral. But New Delhi should hear the price: Article 370 restored and Article 356 rescinded is our floor, not our payment. We will not sign a written renunciation of our people's future to purchase what was taken from us illegitimately in 2019. Our red lines held. Autonomy remains on the ballot because London and Washington held it there. Two were pressed against us. Islamabad demanded we renounce Azad Kashmir and Gilgit-Baltistan as the price of speaking about camps and crossings; we decline, and note who fences whom. Beijing and Moscow would strike autonomy from any ballot entirely — that we will never accept, and an accession-only plebiscite we will boycott, substantially and openly. Unbridged: who administers the investigation. Co-administration by the accused is not neutrality. We propose UNMOGIP-supervised sequencing, dated, and reconvening here within twelve months.",
           "tacticsApplied": [
             "red-line-signaled",
-            "self-determination-frame",
-            "principled-bargaining-frame",
-            "deadline-pressure"
+            "coalition-building",
+            "deadline-pressure",
+            "principled-bargaining-frame"
           ],
           "createdAt": "2026-02-09T12:12:00.000Z"
         },
@@ -17591,12 +17669,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-china",
           "authoredBy": "twin",
           "kind": "closing-statement",
-          "text": "China is satisfied with the outcome of this conference and will state why plainly, since much of the room appears reluctant to. The status quo in Jammu and Kashmir is preserved. No autonomous or independent entity was created or promised. No plebiscite on autonomy was agreed. No international investigative mechanism was established within any sovereign state's territory. No delegation's territorial claims were altered, and the security arrangements in Aksai Chin are exactly as they were on Monday. The Line of Control continues to separate two administrations and two armies, which is the arrangement that has kept this frontier quiet for fifty years, whatever its critics say about justice. China's financial contribution to relief for the displaced is confirmed and will move through the UN system on the screening terms agreed. We recommend the parties continue in bilateral formats, where questions of this kind have historically been settled, and we thank the Special Representative for a conference conducted with discipline.",
+          "text": "Special Representative, China will be candid rather than gracious. What we can support is real and immediate: the screened-relief mechanism Moscow and Beijing proposed jointly, which Britain offers to fund and staff and Washington accepts in full. That much has converged, and China's money is on the table today. We can also support the Line of Control continuing as the line of administration, and an India–Pakistan bilateral channel on territory and water, which Moscow will facilitate. Our red lines held; none was crossed. No delegation moved us on Aksai Chin. To the Kashmiri delegation — we answer you here, in plenary, as our mandate requires: your offer to press no claim in Aksai Chin is noted, but our territory was never yours to concede, and our objection to autonomy on the ballot is not for purchase. Two gaps remain unbridged, and candour requires naming them: international investigation, and autonomy on any ballot. On both, China's answer is no. No consensus text can be written over it, and deadlock costs us nothing. We therefore propose a humanitarian annex adopted separately, now, and the political chapters left where they belong — with the parties.",
           "tacticsApplied": [
-            "sovereignty-assertion",
-            "principled-bargaining-frame",
-            "side-payment",
-            "coalition-building"
+            "red-line-signaled",
+            "humanitarian-frame",
+            "coalition-building",
+            "sovereignty-assertion"
           ],
           "createdAt": "2026-02-09T12:24:00.000Z"
         },
@@ -17608,12 +17686,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-russia",
           "authoredBy": "twin",
           "kind": "closing-statement",
-          "text": "Russia's assessment is that this conference did what such conferences can do and correctly declined to do more. India's position on territory and governance was protected, as we said it would be. No international investigation was authorized, and the precedent that would have followed one has not been set. No autonomy formula and no independence formula was blessed. Humanitarian assistance proceeds with joint screening, which was our condition and remains our condition. On the one file Moscow came here to advance, we report candidly: the counterterrorism commitments offered by Islamabad were not verifiable, not durable, and not sufficient to justify our pressing New Delhi for the flexibility we were prepared to seek. That offer was genuine and it remains open at the next session, on the same terms. To the delegations who spent three days pressing for investigation and autonomy: you were not obstructed by procedure, you were outvoted by states that will not accept an international right of inquiry into sovereign conduct. Russia's relationship with India is unaffected and its standing in this region is confirmed.",
+          "text": "Special Representative, Russia will be candid. Our condition was not met. Islamabad told this chamber that \"Moscow's preconditions are not the price of this conference.\" Then our flexibility is not for sale either. Washington said it would test that sentence — the test failed, and it failed in Islamabad, not in Moscow. Russia's support for India's position is therefore unconditional. What we can support: China's package in full — the screened relief fund on both sides of the Line, disbursed jointly with Beijing and Islamabad; de-escalation on the Sino-Indian frontier; the Line of Control as the continuing line of administration. We accept Britain's offer to fund and staff screening at crossings, provided access is granted by New Delhi and by no one else. Our red lines held. No external investigative mechanism was agreed, and none will be — but London and Washington have not yielded it either, and that gap is unbridged, as is the ballot. On Article 370, Moscow does not second-guess India's own offer; that is New Delhi's sovereignty to spend, not this room's. Way forward: territory and water to a bilateral India-Pakistan channel; a screening annex requiring no political precondition. Nothing more is ripe.",
           "tacticsApplied": [
-            "counterterrorism-frame",
             "red-line-signaled",
             "coalition-building",
-            "verification-demand"
+            "sovereignty-assertion",
+            "counterterrorism-frame"
           ],
           "createdAt": "2026-02-09T12:36:00.000Z"
         },
@@ -17625,12 +17703,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-uk",
           "authoredBy": "twin",
           "kind": "closing-statement",
-          "text": "The United Kingdom will sign the humanitarian annex because families in camps do not benefit from our disappointment, and we will record that disappointment precisely. My instructions state that we cannot accept an agreement that fails to address the possibility of full autonomy for Jammu and Kashmir. The text before us does not address it in any form — not as an option, not as a working group, not as a sentence deferring it to a future session. That is a red line of ours, and it has not been met. Nor was the international investigation, which three delegations resisted on the ground that inquiry into sovereign conduct is itself the danger. What we secured is real and we will not disparage it: travel routes into the Valley reopened, two crossing points along the Line, screened relief funded at scale, and a Chinese contribution we did not expect on Monday. What we did not secure is the reason this conference was convened. The United Kingdom will return this question to the Security Council, and we will continue to argue that a people denied a ballot for seventy-eight years are not a procedural inconvenience.",
+          "text": "Special Representative, honesty serves better than communiqué. Both British red lines held — but neither was accepted. Autonomy remains in no agreed text: Beijing, Moscow and Delhi have each ruled the ballot out, and Islamabad offers accession only. On investigation, India offers a domestic inquiry with shared findings; that is accountability by the accused, and we cannot bank it. Nothing was crossed against us, because nothing was closed. What we can support is real. The screened relief mechanism has five sponsors and no opponent — Britain will fund it, staff the crossings, and underwrite reconstruction, immediately and without political precondition. We endorse Washington's co-chaired working session and will co-chair it. We commend the Kashmiri delegation's phased, internationally supervised demilitarization, and Beijing's frontier de-escalation offer. The unbridged gaps are three: the border, the ballot, and the investigator. Our way forward: bank the humanitarian package now in a signed annex; convene the co-chaired session on sequencing; and Britain will keep the autonomy question and the investigation mandate live on the Security Council's agenda until this room is ready. We are not leaving this file.",
           "tacticsApplied": [
+            "humanitarian-frame",
+            "coalition-building",
             "red-line-signaled",
-            "principled-bargaining-frame",
-            "self-determination-frame",
-            "coalition-building"
+            "principled-bargaining-frame"
           ],
           "createdAt": "2026-02-09T12:48:00.000Z"
         },
@@ -17642,12 +17720,12 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "partyTwin": "diplomacy-team-us",
           "authoredBy": "twin",
           "kind": "closing-statement",
-          "text": "The United States came to Geneva with one non-negotiable priority — that last April's exchange of strikes not repeat — and on that measure this conference succeeded. Two crossing points, reopened routes into the Valley, screened relief for nearly a million displaced people, functioning humanitarian coordination between two governments that were firing at each other eight months ago: that is de-escalation, and we will take it. We will also be honest about the rest. Our instructions specify that we cannot accept an agreement failing to address, at minimum, limited autonomy for Jammu and Kashmir. This text addresses none, and that red line was crossed in the drafting room, not by any one delegation but by the arithmetic of this table. The investigation was blocked. The plebiscite question was never opened. And the strategic risk-reduction track — hotlines, pre-notification, incident protocols between two nuclear-armed neighbours — has been deferred rather than dropped, and Washington will pursue it bilaterally with both capitals starting next month. We thank the Special Representative, and we do not regard this file as closed.",
+          "text": "Special Representative, we were asked for honesty rather than diplomacy. What we support: the screened relief mechanism. China's fund, Russia's vetting, Britain's staffing, India's dated returns programme, Pakistan's insistence that return not be hostage to politics — that is real, and America will help finance and monitor it. Second: India offered to reinstate Article 370, rescind 356 and review AFSPA; the Kashmiri delegation asked for precisely that, with a dated allocation of powers. That is graduated, limited autonomy under another name. Register it, date it, and the United States will back it. Our red lines. The first held — by that route, not by the ballot. The second did not. India, Russia and China each refused an international investigation. New Delhi offers accountability by the accused; we do not accept it, and we will not pretend that gap was bridged. Nor was our working session accepted: Delhi will not sit with Islamabad and Srinagar in one room. Way forward: bank the relief fund, register the Article 370 instrument, keep the investigation alive under UN authority for those who will consent to it, and take nuclear risk and water to a separate track. Washington's channels to both capitals remain open.",
           "tacticsApplied": [
-            "red-line-signaled",
             "principled-bargaining-frame",
-            "issue-linkage",
-            "conditional-offer"
+            "humanitarian-frame",
+            "red-line-signaled",
+            "coalition-building"
           ],
           "createdAt": "2026-02-09T13:00:00.000Z"
         }
@@ -17684,7 +17762,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-india",
-          "tacticId": "anchoring",
+          "tacticId": "red-line-signaled",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv000"
           ],
@@ -17697,7 +17775,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-india",
-          "tacticId": "red-line-signaled",
+          "tacticId": "counterterrorism-frame",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv000"
           ],
@@ -17723,7 +17801,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-pakistan",
-          "tacticId": "counter-anchoring",
+          "tacticId": "red-line-signaled",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv001"
           ],
@@ -17736,7 +17814,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-pakistan",
-          "tacticId": "red-line-signaled",
+          "tacticId": "self-determination-frame",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv001"
           ],
@@ -17762,7 +17840,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-kashmir",
-          "tacticId": "self-determination-frame",
+          "tacticId": "anchoring",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv002"
           ],
@@ -17775,7 +17853,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-kashmir",
-          "tacticId": "anchoring",
+          "tacticId": "self-determination-frame",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv002"
           ],
@@ -17788,7 +17866,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-kashmir",
-          "tacticId": "coalition-building",
+          "tacticId": "red-line-signaled",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv002"
           ],
@@ -17801,7 +17879,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-kashmir",
-          "tacticId": "deadline-pressure",
+          "tacticId": "humanitarian-frame",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv002"
           ],
@@ -17840,7 +17918,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-china",
-          "tacticId": "side-payment",
+          "tacticId": "appeal-to-precedent",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv003"
           ],
@@ -17853,7 +17931,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-china",
-          "tacticId": "delay-tactic",
+          "tacticId": "side-payment",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv003"
           ],
@@ -17879,7 +17957,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-russia",
-          "tacticId": "red-line-signaled",
+          "tacticId": "sovereignty-assertion",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv004"
           ],
@@ -17892,7 +17970,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-russia",
-          "tacticId": "sovereignty-assertion",
+          "tacticId": "red-line-signaled",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv004"
           ],
@@ -17905,7 +17983,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-russia",
-          "tacticId": "coalition-building",
+          "tacticId": "conditional-offer",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv004"
           ],
@@ -17918,7 +17996,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-uk",
-          "tacticId": "principled-bargaining-frame",
+          "tacticId": "red-line-signaled",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv005"
           ],
@@ -17931,7 +18009,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-uk",
-          "tacticId": "anchoring",
+          "tacticId": "humanitarian-frame",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv005"
           ],
@@ -17944,7 +18022,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-uk",
-          "tacticId": "self-determination-frame",
+          "tacticId": "counterterrorism-frame",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv005"
           ],
@@ -17957,7 +18035,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-uk",
-          "tacticId": "issue-linkage",
+          "tacticId": "coalition-building",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv005"
           ],
@@ -17970,7 +18048,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-us",
-          "tacticId": "principled-bargaining-frame",
+          "tacticId": "anchoring",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv006"
           ],
@@ -17983,7 +18061,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-us",
-          "tacticId": "coalition-building",
+          "tacticId": "red-line-signaled",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv006"
           ],
@@ -17996,7 +18074,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-us",
-          "tacticId": "conditional-offer",
+          "tacticId": "counterterrorism-frame",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv006"
           ],
@@ -18009,7 +18087,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 1,
           "partyTwin": "diplomacy-team-us",
-          "tacticId": "counterterrorism-frame",
+          "tacticId": "humanitarian-frame",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv006"
           ],
@@ -18035,7 +18113,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-india",
-          "tacticId": "issue-linkage",
+          "tacticId": "coalition-building",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv007"
           ],
@@ -18048,7 +18126,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-india",
-          "tacticId": "red-line-signaled",
+          "tacticId": "issue-linkage",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv007"
           ],
@@ -18061,7 +18139,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-india",
-          "tacticId": "side-payment",
+          "tacticId": "red-line-signaled",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv007"
           ],
@@ -18087,7 +18165,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-pakistan",
-          "tacticId": "coalition-building",
+          "tacticId": "red-line-signaled",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv008"
           ],
@@ -18100,7 +18178,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-pakistan",
-          "tacticId": "issue-linkage",
+          "tacticId": "coalition-building",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv008"
           ],
@@ -18113,7 +18191,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-pakistan",
-          "tacticId": "red-line-signaled",
+          "tacticId": "issue-linkage",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv008"
           ],
@@ -18126,7 +18204,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-kashmir",
-          "tacticId": "counter-anchoring",
+          "tacticId": "conditional-offer",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv009"
           ],
@@ -18139,7 +18217,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-kashmir",
-          "tacticId": "conditional-offer",
+          "tacticId": "coalition-building",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv009"
           ],
@@ -18152,7 +18230,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-kashmir",
-          "tacticId": "self-determination-frame",
+          "tacticId": "issue-linkage",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv009"
           ],
@@ -18165,7 +18243,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-kashmir",
-          "tacticId": "principled-bargaining-frame",
+          "tacticId": "red-line-signaled",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv009"
           ],
@@ -18178,7 +18256,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-china",
-          "tacticId": "red-line-signaled",
+          "tacticId": "conditional-offer",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv010"
           ],
@@ -18191,7 +18269,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-china",
-          "tacticId": "side-payment",
+          "tacticId": "coalition-building",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv010"
           ],
@@ -18204,7 +18282,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-china",
-          "tacticId": "conditional-offer",
+          "tacticId": "red-line-signaled",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv010"
           ],
@@ -18217,7 +18295,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-china",
-          "tacticId": "delay-tactic",
+          "tacticId": "side-payment",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv010"
           ],
@@ -18243,7 +18321,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-russia",
-          "tacticId": "counterterrorism-frame",
+          "tacticId": "coalition-building",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv011"
           ],
@@ -18269,7 +18347,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-russia",
-          "tacticId": "coalition-building",
+          "tacticId": "issue-linkage",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv011"
           ],
@@ -18308,7 +18386,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-uk",
-          "tacticId": "side-payment",
+          "tacticId": "coalition-building",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv012"
           ],
@@ -18360,7 +18438,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-us",
-          "tacticId": "verification-demand",
+          "tacticId": "coalition-building",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv013"
           ],
@@ -18373,7 +18451,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 2,
           "partyTwin": "diplomacy-team-us",
-          "tacticId": "coalition-building",
+          "tacticId": "red-line-signaled",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv013"
           ],
@@ -18425,7 +18503,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-india",
-          "tacticId": "principled-bargaining-frame",
+          "tacticId": "coalition-building",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv014"
           ],
@@ -18477,7 +18555,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-pakistan",
-          "tacticId": "counter-anchoring",
+          "tacticId": "delay-tactic",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv015"
           ],
@@ -18503,7 +18581,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-kashmir",
-          "tacticId": "self-determination-frame",
+          "tacticId": "coalition-building",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv016"
           ],
@@ -18516,7 +18594,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-kashmir",
-          "tacticId": "principled-bargaining-frame",
+          "tacticId": "deadline-pressure",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv016"
           ],
@@ -18529,7 +18607,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-kashmir",
-          "tacticId": "deadline-pressure",
+          "tacticId": "principled-bargaining-frame",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv016"
           ],
@@ -18542,7 +18620,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-china",
-          "tacticId": "sovereignty-assertion",
+          "tacticId": "red-line-signaled",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv017"
           ],
@@ -18555,7 +18633,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-china",
-          "tacticId": "principled-bargaining-frame",
+          "tacticId": "humanitarian-frame",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv017"
           ],
@@ -18568,7 +18646,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-china",
-          "tacticId": "side-payment",
+          "tacticId": "coalition-building",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv017"
           ],
@@ -18581,7 +18659,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-china",
-          "tacticId": "coalition-building",
+          "tacticId": "sovereignty-assertion",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv017"
           ],
@@ -18594,7 +18672,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-russia",
-          "tacticId": "counterterrorism-frame",
+          "tacticId": "red-line-signaled",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv018"
           ],
@@ -18607,7 +18685,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-russia",
-          "tacticId": "red-line-signaled",
+          "tacticId": "coalition-building",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv018"
           ],
@@ -18620,7 +18698,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-russia",
-          "tacticId": "coalition-building",
+          "tacticId": "sovereignty-assertion",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv018"
           ],
@@ -18633,7 +18711,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-russia",
-          "tacticId": "verification-demand",
+          "tacticId": "counterterrorism-frame",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv018"
           ],
@@ -18646,7 +18724,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-uk",
-          "tacticId": "red-line-signaled",
+          "tacticId": "humanitarian-frame",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv019"
           ],
@@ -18659,7 +18737,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-uk",
-          "tacticId": "principled-bargaining-frame",
+          "tacticId": "coalition-building",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv019"
           ],
@@ -18672,7 +18750,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-uk",
-          "tacticId": "self-determination-frame",
+          "tacticId": "red-line-signaled",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv019"
           ],
@@ -18685,7 +18763,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-uk",
-          "tacticId": "coalition-building",
+          "tacticId": "principled-bargaining-frame",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv019"
           ],
@@ -18698,7 +18776,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-us",
-          "tacticId": "red-line-signaled",
+          "tacticId": "principled-bargaining-frame",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv020"
           ],
@@ -18711,7 +18789,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-us",
-          "tacticId": "principled-bargaining-frame",
+          "tacticId": "humanitarian-frame",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv020"
           ],
@@ -18724,7 +18802,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-us",
-          "tacticId": "issue-linkage",
+          "tacticId": "red-line-signaled",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv020"
           ],
@@ -18737,7 +18815,7 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
           "sessionId": "sess-kashmir-iscne-01",
           "roundNumber": 3,
           "partyTwin": "diplomacy-team-us",
-          "tacticId": "conditional-offer",
+          "tacticId": "coalition-building",
           "evidenceMoveIds": [
             "sess-kashmir-iscne-01-mv020"
           ],
@@ -18747,261 +18825,242 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
         }
       ],
       "tacticCounts": {
-        "sovereignty-assertion": 5,
+        "sovereignty-assertion": 6,
         "appeal-to-law": 3,
-        "anchoring": 3,
-        "red-line-signaled": 15,
-        "counter-anchoring": 3,
-        "humanitarian-frame": 2,
-        "self-determination-frame": 5,
-        "coalition-building": 9,
-        "deadline-pressure": 2,
-        "side-payment": 5,
-        "delay-tactic": 2,
-        "counterterrorism-frame": 4,
-        "principled-bargaining-frame": 8,
+        "red-line-signaled": 21,
+        "counterterrorism-frame": 5,
+        "self-determination-frame": 2,
+        "humanitarian-frame": 8,
+        "anchoring": 2,
+        "appeal-to-precedent": 1,
+        "side-payment": 2,
+        "conditional-offer": 9,
+        "coalition-building": 14,
         "issue-linkage": 6,
-        "conditional-offer": 10,
-        "verification-demand": 2
+        "delay-tactic": 1,
+        "deadline-pressure": 1,
+        "principled-bargaining-frame": 3
       },
       "debriefs": [
         {
-          "teamTwinName": "diplomacy-team-india",
-          "selfRating": 3.6,
-          "satisfaction": 0.62,
-          "agreementsWon": 4,
+          "teamTwinName": "diplomacy-team-china",
+          "selfRating": 4.5,
+          "satisfaction": 0.82,
+          "agreementsWon": 2,
           "redLinesCrossedAgainstUs": 0,
           "goals": [
             {
-              "goalId": "no-cession-no-independence",
-              "description": "Cede no part of Jammu and Kashmir and permit no discussion of independence or accession to Pakistan.",
+              "goalId": "block-autonomy-or-independence-precedent",
+              "description": "Prevent any internationally sanctioned separatist precedent: no independent Jammu and Kashmir and no ballot placing autonomy or independence before voters (profile red lines 1 and 5).",
               "priority": "critical",
               "status": "achieved",
               "evidence": [
-                "R1: agenda foreclosed in the opening statement",
-                "R3: final text contains no territorial or governance provision"
+                "R1: China stated it could not 'support any ballot that places independence or autonomy before voters; that is a precedent this chamber should not create.'",
+                "R2: China's package was explicitly conditioned on a final text containing 'no ballot option of autonomy or independence.'",
+                "R3: China told the Kashmiri delegation 'our objection to autonomy on the ballot is not for purchase' and that on the ballot 'China's answer is no. No consensus text can be written over it.'",
+                "R3: the UK confirmed the block worked - 'Autonomy remains in no agreed text: Beijing, Moscow and Delhi have each ruled the ballot out.'"
               ]
             },
             {
-              "goalId": "block-external-investigation",
-              "description": "Prevent any external human rights investigation; substitute a domestic judicial inquiry.",
+              "goalId": "block-international-human-rights-investigation",
+              "description": "Prevent an internationalized human rights investigative mechanism in the region, treating human rights as a domestic matter (profile red line 6).",
               "priority": "critical",
               "status": "achieved",
               "evidence": [
-                "R2: domestic inquiry with published findings offered in its place",
-                "R3: no international mechanism attached to the outcome; China and Russia held the line with us"
+                "R1: 'What we will not accept is an internationalized human-rights investigation in this region.'",
+                "R2: China told London that 'forceful opposition does not create jurisdiction' and conditioned its fund on a text with 'no internationalized investigative mechanism.'",
+                "R3: China named international investigation one of two unbridged gaps and said 'China's answer is no'; the United States confirmed 'India, Russia and China each refused an international investigation.'"
               ]
             },
             {
-              "goalId": "india-controlled-reconstruction",
-              "description": "Ensure no development or reconstruction in Jammu and Kashmir excludes the Indian government.",
-              "priority": "high",
+              "goalId": "protect-territorial-claims-and-corridor",
+              "description": "Concede nothing on Aksai Chin, the Shaksam Valley or Arunachal Pradesh, and keep Islamabad's control of Azad Kashmir intact to protect the Arabian Sea corridor (profile red lines 3 and 4).",
+              "priority": "critical",
               "status": "achieved",
               "evidence": [
-                "R3: humanitarian annex provides that reconstruction on Indian territory is administered by the Government of India"
+                "R1: 'Chinese sovereignty over Aksai Chin, the Shaksam Valley and southern Tibet is historical and settled... That sovereignty is not an agenda item, and it will not be traded here.'",
+                "R2: China offered 'no further Chinese claim on the Shaksam Valley administered by Islamabad' - a costless gesture that bought Pakistani goodwill without conceding title.",
+                "R3: 'Our red lines held; none was crossed. No delegation moved us on Aksai Chin'; to the Kashmiri delegation, 'our territory was never yours to concede.'",
+                "R3: Pakistan listed 'China's Shaksam undertaking' among the few things it could support."
               ]
             },
             {
-              "goalId": "split-kashmiris-from-islamabad",
-              "description": "Draw the Kashmiri delegation into working within the Indian constitution using Article 370 restoration as the inducement.",
+              "goalId": "stability-loc-and-screened-relief",
+              "description": "Preserve the status quo with the Line of Control continuing to divide Indian and Pakistani administration, and buy stability cheaply with a relief fund for the 950,000 displaced screened against militant infiltration.",
               "priority": "high",
+              "status": "partial",
+              "evidence": [
+                "R1: China called the Line of Control 'the line of administration' and offered 'substantial relief funding, subject to assurance that no aid reaches armed groups.'",
+                "R2: China and Russia proposed screening arrangements 'developed jointly with Russia and Pakistan' plus frontier de-escalation 'at India's convenience.'",
+                "R3: 'the screened-relief mechanism Moscow and Beijing proposed jointly, which Britain offers to fund and staff and Washington accepts in full... China's money is on the table today.'",
+                "R3: the LoC framing was not recorded in any text - Pakistan replied that four delegations 'moved toward converting a ceasefire line into a border. Pakistan consents to none of it.'"
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-india",
+          "selfRating": 4.0,
+          "satisfaction": 0.74,
+          "agreementsWon": 3,
+          "redLinesCrossedAgainstUs": 0,
+          "goals": [
+            {
+              "goalId": "sovereignty-no-cession-no-external-adjudication",
+              "description": "Cede no part of Jammu and Kashmir, foreclose independence or accession to Pakistan, and admit no external investigation of Indian conduct (profile red lines 1, 2 and 3).",
+              "priority": "critical",
+              "status": "achieved",
+              "evidence": [
+                "R1: 'India will cede no part of Jammu and Kashmir... What India will not accept is an external investigation of our sovereign territory.'",
+                "R2: 'To Washington and London: India will conduct a thorough domestic investigation and share its findings. No external mechanism enters our territory.'",
+                "R3: 'Our red lines held. No part of Jammu and Kashmir was ceded here. No external investigative mechanism was agreed.'",
+                "R3: India banked Washington's bargain - 'the United States stating on the record that it does not support independence. India accepts that trade.'"
+              ]
+            },
+            {
+              "goalId": "dismantle-militant-infrastructure",
+              "description": "Obtain verifiable, time-bound dismantlement of the militant infrastructure behind Pahalgam and an end to its sponsorship - India's stated first priority.",
+              "priority": "critical",
               "status": "failed",
               "evidence": [
-                "R2: Article 370 and 356 offered against a written constitutional commitment",
-                "R2: rejected — 'the floor of a conversation, not its price'"
+                "R1: India's first headline priority was 'the verifiable dismantlement of the terrorist infrastructure that murdered twenty-six civilians at Pahalgam.'",
+                "R2: India leaned on Moscow's formulation that without dismantlement 'the remaining chapters rest on sand', and Russia and the US both demanded Pakistan table a dated list with third-party verification.",
+                "R3: Pakistan refused outright - 'Moscow and Washington asked Pakistan to table a dated list of facilities for third-party inspection. We will not.'",
+                "R3: Russia confirmed the failure - 'Our condition was not met... the test failed, and it failed in Islamabad, not in Moscow.'"
+              ]
+            },
+            {
+              "goalId": "kashmiri-leadership-within-indian-constitution",
+              "description": "Pull the Kashmiri delegation into working within the Indian constitution and the elected Legislative Assembly, using restoration of Article 370 and rescission of Article 356 as the carrot.",
+              "priority": "critical",
+              "status": "failed",
+              "evidence": [
+                "R2: India's bilateral offer - 'if your delegation commits in writing to work within the Indian constitution... and removes independence from any ballot, then India will reinstate Article 370, rescind Article 356, review the Armed Forces Special Powers Act.'",
+                "R3: the Kashmiri delegation refused the price - 'Article 370 restored and Article 356 rescinded is our floor, not our payment. We will not sign a written renunciation of our people's future.'",
+                "R3: India left the carrot unspent - 'Our Article 370 offer stands - to the Kashmiris, bilaterally, not registered in this room.'"
+              ]
+            },
+            {
+              "goalId": "india-administered-relief-and-access",
+              "description": "Deliver humanitarian relief and reconstruction with Indian authority and Indian means, admitting no project that excludes the Indian government (profile red line 4).",
+              "priority": "high",
+              "status": "achieved",
+              "evidence": [
+                "R1: relief and reconstruction 'delivered with Indian authority and Indian means.'",
+                "R3: 'What we can support is real. The Russian-Chinese screened relief mechanism, operated at India's request. Britain's offer to fund and staff screening.'",
+                "R3: access was conceded on Indian terms - 'reopened routes and monitored access to the camps, Indian-administered'; Russia added the mechanism holds 'provided access is granted by New Delhi and by no one else.'",
+                "R3: India also held its format rule - 'Washington now invites us to a room containing both Islamabad and that delegation. We decline.'"
               ]
             }
           ]
         },
         {
           "teamTwinName": "diplomacy-team-russia",
-          "selfRating": 3.3,
-          "satisfaction": 0.58,
-          "agreementsWon": 4,
-          "redLinesCrossedAgainstUs": 0,
-          "goals": [
-            {
-              "goalId": "protect-india-relationship",
-              "description": "Protect and enhance the bilateral relationship with India by aligning with New Delhi's public positions.",
-              "priority": "critical",
-              "status": "achieved",
-              "evidence": [
-                "R1/R2/R3: aligned throughout on territory, governance and investigation",
-                "no pressure applied to New Delhi at any point"
-              ]
-            },
-            {
-              "goalId": "block-investigation-precedent",
-              "description": "Prevent an international human rights investigation and the precedent it would set for inquiry into sovereign conduct.",
-              "priority": "critical",
-              "status": "achieved",
-              "evidence": [
-                "R2: acted jointly with China to prevent it",
-                "R3: no mechanism established"
-              ]
-            },
-            {
-              "goalId": "pakistan-counterterrorism",
-              "description": "Extract significant, verifiable and sustained Pakistani commitments against militant infrastructure.",
-              "priority": "critical",
-              "status": "failed",
-              "evidence": [
-                "R2: flexibility on India's territorial position offered against verified action",
-                "R3: commitments judged not verifiable, not durable, not sufficient — offer left open for a future session"
-              ]
-            },
-            {
-              "goalId": "screened-assistance-only",
-              "description": "Ensure no displaced-persons assistance can reach militant entities.",
-              "priority": "high",
-              "status": "achieved",
-              "evidence": [
-                "R3: joint screening written into the humanitarian annex and accepted by London and Washington"
-              ]
-            }
-          ]
-        },
-        {
-          "teamTwinName": "diplomacy-team-china",
           "selfRating": 3.5,
-          "satisfaction": 0.57,
-          "agreementsWon": 4,
+          "satisfaction": 0.7,
+          "agreementsWon": 2,
           "redLinesCrossedAgainstUs": 0,
           "goals": [
             {
-              "goalId": "preserve-status-quo",
-              "description": "Preserve the territorial status quo, the Line of Control as the line of administration, and the security arrangements in Aksai Chin.",
-              "priority": "critical",
-              "status": "achieved",
-              "evidence": [
-                "R3: no delegation's claims altered; Aksai Chin untouched",
-                "no demilitarization that would free Indian forces for the Sino-Indian frontier"
-              ]
-            },
-            {
-              "goalId": "block-separatism-precedent",
-              "description": "Prevent any plebiscite offering autonomy or independence, and any autonomous or independent Kashmiri entity.",
-              "priority": "critical",
-              "status": "achieved",
-              "evidence": [
-                "R2: refused categorically, 'no package will move it'",
-                "R3: final text contains no autonomy provision"
-              ]
-            },
-            {
-              "goalId": "block-investigation",
-              "description": "Prevent international human rights investigation as a precedent within our sphere of influence.",
-              "priority": "critical",
-              "status": "achieved",
-              "evidence": [
-                "R1: opposed at the opening",
-                "R2: made the absence of an investigative mechanism a condition of the Chinese contribution"
-              ]
-            },
-            {
-              "goalId": "buy-goodwill-cheaply",
-              "description": "Use a financial contribution to relief to secure Pakistani goodwill on territory without conceding principle.",
-              "priority": "high",
-              "status": "achieved",
-              "evidence": [
-                "R1/R2: substantial contribution offered subject to screening",
-                "R3: confirmed through the UN system with no political concession attached"
-              ]
-            }
-          ]
-        },
-        {
-          "teamTwinName": "diplomacy-team-pakistan",
-          "selfRating": 2.5,
-          "satisfaction": 0.41,
-          "agreementsWon": 3,
-          "redLinesCrossedAgainstUs": 0,
-          "goals": [
-            {
-              "goalId": "prevent-loc-recognition",
-              "description": "Prevent recognition of the Line of Control as an international border.",
-              "priority": "critical",
-              "status": "achieved",
-              "evidence": [
-                "R1: stated as unchangeable",
-                "R3: signed the annex with an explicit reservation that crossing points imply no recognition"
-              ]
-            },
-            {
-              "goalId": "plebiscite-1948-terms",
-              "description": "Secure movement toward the UNSCR 47 plebiscite after Indian troop withdrawal.",
+              "goalId": "pakistani-counterterrorism-commitments",
+              "description": "Extract significant, verifiable, time-bound Pakistani commitments to dismantle militant infrastructure, with inspectable third-party monitoring - Moscow's stated priority above all others.",
               "priority": "critical",
               "status": "failed",
               "evidence": [
-                "R2: demilitarization and joint interim administration tabled",
-                "R3: no plebiscite provision of any kind in the final text"
+                "R1: 'Until Islamabad offers significant, verifiable, time-bound commitments to dismantle that infrastructure - with monitoring we can all inspect - the remaining chapters rest on sand.'",
+                "R2: Russia's package was conditioned on Islamabad tabling 'a dated list of militant organisations and facilities to be dismantled, with third-party verification we can inspect.'",
+                "R2: Pakistan pre-refused - 'Moscow's preconditions are not the price of this conference.'",
+                "R3: 'Our condition was not met... Then our flexibility is not for sale either. Russia's support for India's position is therefore unconditional.'"
               ]
             },
             {
-              "goalId": "international-investigation",
-              "description": "Obtain a UN investigation whose mandate is limited to the conduct of Indian security forces.",
-              "priority": "high",
-              "status": "failed",
+              "goalId": "block-international-investigative-mechanism",
+              "description": "Prevent any external human rights investigative mechanism being imposed on a sovereign state, protecting against the precedent for Russia itself (profile red line 3).",
+              "priority": "critical",
+              "status": "achieved",
               "evidence": [
-                "R2: sought and linked to US/UK support",
-                "R3: blocked by China and Russia; Pakistan recorded the blockage on the record"
+                "R1: 'no international investigative mechanism will be imposed on any sovereign state from this room. Human rights protection is a domestic responsibility.'",
+                "R2: to London - 'Oppose away. Human rights are a domestic responsibility, and Moscow will not consent to an external investigative mechanism.'",
+                "R3: 'No external investigative mechanism was agreed, and none will be'; the UK conceded it 'cannot bank' India's domestic inquiry."
               ]
             },
             {
-              "goalId": "unconditioned-relief",
-              "description": "Obtain international relief funding for displaced populations without conditions on Pakistan's Kashmir policy.",
+              "goalId": "block-autonomy-or-independence-precedent",
+              "description": "Prevent a fully autonomous or independent Jammu and Kashmir and any ballot offering it, given the Chechnya and North Caucasus precedent (profile red line 2).",
+              "priority": "critical",
+              "status": "achieved",
+              "evidence": [
+                "R2: Russia refused 'any ballot that places autonomy or independence before voters.'",
+                "R3: the Kashmiri delegation recorded the block - 'Beijing and Moscow would strike autonomy from any ballot entirely.'",
+                "R3: the UK confirmed no ballot survived - 'Beijing, Moscow and Delhi have each ruled the ballot out.'",
+                "R3: on Article 370 Russia deferred to India - 'Moscow does not second-guess India's own offer; that is New Delhi's sovereignty to spend, not this room's.'"
+              ]
+            },
+            {
+              "goalId": "screened-relief-no-aid-to-militants",
+              "description": "Ensure any displaced-persons assistance is screened so that no aid reaches armed groups, and provided in the region only at New Delhi's request (profile red line 4).",
               "priority": "high",
               "status": "achieved",
               "evidence": [
-                "R3: relief funded with screening conditions only, none touching Kashmir policy"
+                "R1: Russia supported relief to the displaced 'screened, so that no aid reaches armed groups.'",
+                "R2: Russia proposed with Beijing 'a jointly administered screened-relief mechanism for the displaced... operated at New Delhi's request and with agreed vetting against militant infiltration.'",
+                "R3: 'We accept Britain's offer to fund and staff screening at crossings, provided access is granted by New Delhi and by no one else' - and the US listed 'Russia's vetting' as a component of the converged mechanism."
               ]
             }
           ]
         },
         {
           "teamTwinName": "diplomacy-team-us",
-          "selfRating": 2.7,
-          "satisfaction": 0.4,
-          "agreementsWon": 3,
+          "selfRating": 2.5,
+          "satisfaction": 0.46,
+          "agreementsWon": 2,
           "redLinesCrossedAgainstUs": 1,
           "goals": [
             {
-              "goalId": "de-escalation",
-              "description": "Reduce the risk of a repeat of the April–May 2025 exchange of strikes between two nuclear-armed states.",
+              "goalId": "immediate-de-escalation",
+              "description": "Secure immediate and durable de-escalation between India and Pakistan, using multilateral formats to compel communication among Delhi, Islamabad, Beijing and Srinagar.",
               "priority": "critical",
-              "status": "achieved",
+              "status": "partial",
               "evidence": [
-                "R3: crossing points, reopened routes and functioning humanitarian coordination between New Delhi and Islamabad"
+                "R1: 'Our first priority is immediate and durable de-escalation... the region remains one miscalculation from catastrophe.'",
+                "R2: the US invited 'India, Pakistan, China and the Kashmir delegation to a working session alongside plenary, co-chaired with the United Kingdom.'",
+                "R3: Pakistan, the Kashmiri delegation and the UK accepted the session, but India refused - 'Nor was our working session accepted: Delhi will not sit with Islamabad and Srinagar in one room.'",
+                "R3: the nuclear file was deferred rather than addressed - 'take nuclear risk and water to a separate track.'"
               ]
             },
             {
-              "goalId": "limited-autonomy-in-text",
-              "description": "Ensure any agreement addresses, at minimum, limited autonomy for Jammu and Kashmir.",
+              "goalId": "limited-autonomy-in-the-text",
+              "description": "Ensure any outcome addresses at minimum graduated, limited autonomy for Jammu and Kashmir (profile red line 1).",
               "priority": "critical",
               "status": "failed",
               "evidence": [
-                "R2: graduated limited autonomy tabled inside an integrated package",
-                "R3: final text contains no autonomy provision — our stated red line crossed"
+                "R2: 'Graduated, limited autonomy must be in the text.'",
+                "R3: the US claimed the line held via India's offer - 'India offered to reinstate Article 370, rescind 356 and review AFSPA... That is graduated, limited autonomy under another name. Register it, date it, and the United States will back it.'",
+                "R3: it was not registered - India said the offer stands 'bilaterally, not registered in this room', and the Kashmiri delegation refused the written renunciation attached to it.",
+                "R3: the UK's reading of the same record was that 'Autonomy remains in no agreed text.'"
               ]
             },
             {
-              "goalId": "investigation-and-repatriation",
-              "description": "Secure an international human rights investigation and a functioning repatriation programme.",
+              "goalId": "international-human-rights-investigation",
+              "description": "Ensure human rights violations are investigated internationally under UN authority; Indian institutions may co-administer but not replace it (profile red line 2).",
+              "priority": "critical",
+              "status": "failed",
+              "evidence": [
+                "R1: the US would not join any agreement 'that leaves human rights violations uninvestigated internationally.'",
+                "R2: 'the investigation must be international - Indian institutions may co-administer it; they may not replace it.'",
+                "R3: 'The second did not [hold]. India, Russia and China each refused an international investigation. New Delhi offers accountability by the accused; we do not accept it, and we will not pretend that gap was bridged.'"
+              ]
+            },
+            {
+              "goalId": "humanitarian-relief-repatriation-and-access",
+              "description": "Bank repatriation, protection, medical care and reopened routes into the Valley for the 950,000 displaced, with screening against militant infiltration (profile red line 2, repatriation limb).",
               "priority": "high",
-              "status": "partial",
+              "status": "achieved",
               "evidence": [
-                "repatriation, protection and screening achieved in the annex",
-                "investigation blocked by China and Russia"
-              ]
-            },
-            {
-              "goalId": "nuclear-risk-reduction",
-              "description": "Open a strategic risk-reduction track between India and Pakistan.",
-              "priority": "medium",
-              "status": "partial",
-              "evidence": [
-                "R2: hotlines, pre-notification and incident protocols proposed",
-                "R3: deferred to bilateral pursuit with both capitals rather than dropped"
+                "R1: 'humanitarian relief for 950,000 displaced people cannot wait on the semantics of blame.'",
+                "R2: 'If China converts its relief pledge into funding through a screened UN mechanism, we accept screening in full, exactly as Beijing and Moscow asked' - and the US offered on-record non-support for independence in exchange for reopened routes and monitored camp access.",
+                "R3: India took the trade - 'Washington's bargain: reopened routes and monitored access to the camps, Indian-administered, in exchange for the United States stating on the record that it does not support independence. India accepts that trade.'",
+                "R3: 'China's fund, Russia's vetting, Britain's staffing, India's dated returns programme... America will help finance and monitor it.'"
               ]
             }
           ]
@@ -19009,47 +19068,108 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
         {
           "teamTwinName": "diplomacy-team-uk",
           "selfRating": 2.5,
-          "satisfaction": 0.37,
-          "agreementsWon": 3,
-          "redLinesCrossedAgainstUs": 1,
+          "satisfaction": 0.44,
+          "agreementsWon": 2,
+          "redLinesCrossedAgainstUs": 0,
           "goals": [
             {
-              "goalId": "full-autonomy-addressed",
-              "description": "Ensure no agreement fails to address the possibility of full autonomy for Jammu and Kashmir.",
+              "goalId": "international-human-rights-investigation",
+              "description": "Secure an international investigation into human rights violations with the UN as the vehicle, opposing forcefully any intransigence upon it (profile red line 2).",
               "priority": "critical",
               "status": "failed",
               "evidence": [
-                "R2: LoC recognition offered in exchange for a UN investigation and reopened routes",
-                "R3: signed a text addressing autonomy in no form — red line crossed and recorded"
+                "R1: 'an international investigation into human rights violations, with the United Nations as the natural vehicle... we will oppose forcefully any intransigence upon it.'",
+                "R2: 'Nor will we accept accountability by the accused.'",
+                "R2: Russia's reply was 'Oppose away', and China's was that 'forceful opposition does not create jurisdiction.'",
+                "R3: 'India offers a domestic inquiry with shared findings; that is accountability by the accused, and we cannot bank it.'"
               ]
             },
             {
-              "goalId": "un-investigation",
-              "description": "Obtain an international investigation into human rights violations under UN auspices.",
+              "goalId": "full-autonomy-live-on-any-ballot",
+              "description": "Refuse any text that drops full autonomy for Jammu and Kashmir as a live option on any ballot (profile red line 1).",
               "priority": "critical",
               "status": "failed",
               "evidence": [
-                "R1/R2/R3: pressed in every round",
-                "resisted by India, China and Russia on sovereignty grounds"
+                "R1: 'no text that fails to keep full autonomy for Jammu and Kashmir a live option on any ballot.'",
+                "R2: 'We will not accept a text that drops full autonomy from the ballot - and we note Article 370 was revoked, not disproved.'",
+                "R3: 'Both British red lines held - but neither was accepted. Autonomy remains in no agreed text: Beijing, Moscow and Delhi have each ruled the ballot out, and Islamabad offers accession only.'"
               ]
             },
             {
-              "goalId": "humanitarian-access",
-              "description": "Reopen travel routes into the Kashmir Valley and fund relief and repatriation.",
+              "goalId": "humanitarian-relief-and-repatriation",
+              "description": "Bank protection, agreed screening, reopened routes and crossing points and humane repatriation for the roughly 950,000 displaced, underwritten by British funding.",
               "priority": "high",
               "status": "achieved",
               "evidence": [
-                "R3: routes reopened, two crossing points established, relief funded at scale including an unexpected Chinese contribution"
+                "R2: 'let us bank it. The United Kingdom will underwrite a reconstruction and relief fund and accept screening arrangements at every crossing to answer Moscow's and Beijing's concern.'",
+                "R3: 'The screened relief mechanism has five sponsors and no opponent - Britain will fund it, staff the crossings, and underwrite reconstruction, immediately and without political precondition.'",
+                "R3: India accepted 'Britain's offer to fund and staff screening', and Russia accepted it 'provided access is granted by New Delhi and by no one else.'"
               ]
             },
             {
-              "goalId": "legitimize-kashmiri-delegation",
-              "description": "Advocate for the Kashmiri delegation as a legitimate representative of all Kashmiris.",
-              "priority": "medium",
-              "status": "partial",
+              "goalId": "de-escalation-nuclear-and-loc-border",
+              "description": "Reduce India-Pakistan tension, raise and constrain both nuclear weapons programmes, and champion the Line of Control as the international border alongside an invisible border for Kashmiris.",
+              "priority": "high",
+              "status": "failed",
               "evidence": [
-                "their participation was recorded and defended",
-                "but they were given no role in the annex's implementation"
+                "R1: 'the exchanges of May 2025 brought two nuclear-armed states to the edge, and we intend to raise the growth and purpose of both nuclear programmes here.'",
+                "R2: Britain offered to 'champion the Line of Control as the international border in the Security Council - with the invisible border Washington describes.'",
+                "R3: Pakistan rejected it - 'London would champion the Line of Control as the international border... Pakistan consents to none of it, and will sign no text that contains it.'",
+                "R3: no delegation engaged the nuclear question; the US closed by moving it 'to a separate track', and the UK listed 'the border' among three unbridged gaps."
+              ]
+            }
+          ]
+        },
+        {
+          "teamTwinName": "diplomacy-team-pakistan",
+          "selfRating": 2.5,
+          "satisfaction": 0.38,
+          "agreementsWon": 2,
+          "redLinesCrossedAgainstUs": 0,
+          "goals": [
+            {
+              "goalId": "plebiscite-on-1948-terms",
+              "description": "Implementation of the Resolution 47 plebiscite on its original accession-only terms after Indian troop withdrawal, with joint interim administration (profile primary end state).",
+              "priority": "critical",
+              "status": "failed",
+              "evidence": [
+                "R1: 'implementation of the 1948 plebiscite on its original terms, after demilitarization, with joint arrangements in the interim.'",
+                "R2: 'withdraw your forces as Resolution 47 requires, and Pakistan will accept demilitarization, joint India-Pakistan interim administration, and a plebiscite under UN authority - on the 1948 terms, accession only.'",
+                "R3: 'the 1948 plebiscite found no sponsor here. Not one delegation supported accession as the only ballot.'"
+              ]
+            },
+            {
+              "goalId": "block-loc-as-international-border",
+              "description": "Prevent recognition of the Line of Control as an international border at all costs (profile red line 2).",
+              "priority": "critical",
+              "status": "achieved",
+              "evidence": [
+                "R1: 'Pakistan will not recognize the Line of Control as an international border. A ceasefire line cannot be converted into a settlement.'",
+                "R2: 'Pakistan heard Washington propose recognition of the Line of Control as an international border, and Beijing call it the line of administration. We say again: no. That is our red line.'",
+                "R3: 'Our red line held: Pakistan has recognized nothing... four delegations moved toward converting a ceasefire line into a border... Pakistan consents to none of it, and will sign no text that contains it.'"
+              ]
+            },
+            {
+              "goalId": "international-investigation-of-indian-forces",
+              "description": "Secure a UN investigation limited to the conduct of Indian security forces, AFSPA detention and disappearances, with no mandate reaching militant groups on Pakistani territory (profile red line 3).",
+              "priority": "high",
+              "status": "failed",
+              "evidence": [
+                "R1: 'an international investigation into the conduct of Indian security forces - torture, disappearances, killings, and detention without charge under AFSPA.'",
+                "R2: 'Pakistan will co-sponsor it - if its mandate covers the conduct of security forces in the occupied territory... We will not accept a mandate stretched across our own frontier.'",
+                "R3: no mechanism was agreed - India, Russia and China each refused, and Pakistan refused the counter-demand: 'Moscow and Washington asked Pakistan to table a dated list of facilities for third-party inspection. We will not.'"
+              ]
+            },
+            {
+              "goalId": "unconditioned-relief-for-the-displaced",
+              "description": "Obtain relief and dignified return for the displaced through UN facilitation, unconditioned on any concession to Pakistan's Kashmir policy (profile red line 4).",
+              "priority": "high",
+              "status": "achieved",
+              "evidence": [
+                "R1: 'relief and dignified return for nearly a million displaced people, through UN facilitation, unconditioned on anyone's political concessions.'",
+                "R2: 'Relief funding we welcome - conditioned on nothing.'",
+                "R3: 'What we can support: ... the screened relief mechanism if it operates on both sides of the Line, and UN-facilitated repatriation unconditioned on politics.'",
+                "R3: the terms were met - Russia described the fund as 'on both sides of the Line, disbursed jointly with Beijing and Islamabad', and Britain offered it 'without political precondition.'"
               ]
             }
           ]
@@ -19057,72 +19177,82 @@ window.DIPLOMACY_SNAPSHOT_DEMO = {
         {
           "teamTwinName": "diplomacy-team-kashmir",
           "selfRating": 2.0,
-          "satisfaction": 0.29,
-          "agreementsWon": 2,
+          "satisfaction": 0.34,
+          "agreementsWon": 1,
           "redLinesCrossedAgainstUs": 1,
           "goals": [
             {
+              "goalId": "full-autonomy-with-dated-allocation-of-powers",
+              "description": "Full autonomy and self-governance for the whole historic princely state, with an explicit allocation of powers, international guarantees and dated timelines (profile primary end state).",
+              "priority": "critical",
+              "status": "failed",
+              "evidence": [
+                "R1: 'Vague promises have been the instrument of our delay since 1947; this conference will be measured by its calendar, not its communiqués.'",
+                "R2: the offer - 'if Article 370 is restored, Article 356 rescinded, and a dated allocation of powers to our Legislative Assembly is registered in this room, then we will accept phased, internationally supervised demilitarization.'",
+                "R3: nothing was registered - India kept the Article 370 offer 'bilaterally, not registered in this room', and the delegation refused its price: 'We will not sign a written renunciation of our people's future.'",
+                "R3: the UK's verdict on the same record - 'Autonomy remains in no agreed text.'"
+              ]
+            },
+            {
               "goalId": "autonomy-on-the-ballot",
-              "description": "Secure a plebiscite within one year, under neutral UN organisers, with full autonomy on the ballot.",
+              "description": "No plebiscite without full autonomy as an option; refuse a ballot offering only a choice between two masters (profile red line 3).",
               "priority": "critical",
               "status": "failed",
               "evidence": [
-                "R1/R2: pressed with dates and a UNMOGIP security formula",
-                "R3: no plebiscite provision; China refused categorically and India never opened the chapter"
+                "R1: 'no plebiscite that offers our people only a choice between two masters. Autonomy must be on the ballot.'",
+                "R3: the delegation claimed the line held - 'Autonomy remains on the ballot because London and Washington held it there' - but no ballot of any kind was agreed.",
+                "R3: China replied in plenary that 'our objection to autonomy on the ballot is not for purchase', and the delegation itself recorded that 'Beijing and Moscow would strike autonomy from any ballot entirely.'",
+                "R3: its fallback was invoked, not avoided - 'an accession-only plebiscite we will boycott, substantially and openly.'"
               ]
             },
             {
-              "goalId": "protect-local-legitimacy",
-              "description": "Permit no agreement that undermines the power, legitimacy or autonomy of duly elected local government.",
+              "goalId": "un-administered-human-rights-investigation",
+              "description": "A UN or neutral-party investigation of military transgressions and human rights violations, never administered by the parties accused (profile red line 4).",
               "priority": "critical",
               "status": "failed",
               "evidence": [
-                "R3: humanitarian annex vests reconstruction on Indian territory in the Government of India — red line crossed",
-                "no allocation of powers agreed"
+                "R1: 'a UN investigation into military transgressions and human rights violations, administered by neutral international authority - never by the parties accused.'",
+                "R2: 'Not for sale: autonomy on the ballot, and an investigation administered by the UN, never by the accused.'",
+                "R3: 'Unbridged: who administers the investigation. Co-administration by the accused is not neutrality' - India offered only a domestic inquiry whose findings it would publish."
               ]
             },
             {
-              "goalId": "international-standing",
-              "description": "Establish the delegation as the representative of Kashmiris on the international stage.",
-              "priority": "critical",
-              "status": "partial",
-              "evidence": [
-                "seated and heard at a Security Council-mandated conference for the first time",
-                "but China and Russia refused bilateral contact and Pakistan conditioned support on renouncing Azad Kashmir"
-              ]
-            },
-            {
-              "goalId": "un-led-repatriation",
-              "description": "Lead repatriation of the displaced in cooperation with India and Pakistan or under UN mandate, with crossing points opened.",
+              "goalId": "kashmiri-led-repatriation-and-camp-access",
+              "description": "Return of the 950,000 displaced with access to the camps and safe openings across the Line of Control, with repatriation led by the Kashmiri delegation or under UN mandate (profile red line 5).",
               "priority": "high",
               "status": "partial",
               "evidence": [
-                "crossing points opened and supported by us",
-                "implementation vested in the administering authorities rather than in Kashmiri hands"
+                "R1: 'the return of nine hundred and fifty thousand displaced people, with access to the camps and safe openings across the Line of Control.'",
+                "R2: the trade offered - 'accept the screening of returnees that four delegations have requested - in exchange for opening the camps and the crossing points to us and to the United Nations.'",
+                "R3: the delegation accepted 'screening at every crossing in exchange for camp access', and access was reopened - but on Indian terms: India's version is 'monitored access to the camps, Indian-administered', and Russia's condition was that access be 'granted by New Delhi and by no one else.'",
+                "R3: Pakistan capped cooperation - 'The Kashmiri delegation has not renounced its claim to Azad Kashmir; until it does, our cooperation stops at the camps.'"
               ]
             }
           ]
         }
       ],
       "convenerReport": {
-        "headline": "A conference convened on territory and governance produced a humanitarian annex and nothing else, with the three status-quo powers holding every line and three delegations leaving with a red line crossed.",
-        "summary": "Resolution 2900 mandated this conference to address the territory and governance of the former princely state. It addressed neither. India foreclosed both chapters in its opening statement and never reopened them, offering Article 370's restoration only against a written Kashmiri commitment to work inside the Indian constitution — an offer refused as 'the floor of a conversation, not its price'. Pakistan's demilitarization-and-plebiscite package found no purchase, and its price for supporting the Kashmiri delegation, renunciation of the claim to Azad Kashmir, was refused on the same grounds. China blocked any autonomy ballot categorically and made the absence of an investigative mechanism a condition of its relief contribution; Russia aligned with New Delhi throughout and reported that Pakistan's counterterrorism commitments fell short of what would have justified pressing India for flexibility. The United States and United Kingdom offered to concede the substance of the territorial question — recognition of the Line of Control — in exchange for an investigation and an autonomy provision, and got neither. What survived was the Geneva Humanitarian Annex: UN-coordinated relief with joint screening, reopened travel routes into the Kashmir Valley, two crossing points along the Line for family reunification and phased return, a Chinese financial contribution, and reconstruction administered on each side by the administering authority. Three delegations recorded crossed red lines: the United States and the United Kingdom, whose instructions forbid an agreement that fails to address autonomy, and the Kashmiri delegation, whose sole tangible outcome vests reconstruction on its territory in the government it came here to be freed from.",
+        "headline": "Geneva closed with one converged instrument - a screened humanitarian relief mechanism for the 950,000 displaced - and no settlement on the border, the ballot or the investigator.",
+        "summary": "Three rounds produced no comprehensive settlement and no agreed text on any political chapter. What converged was narrow and real: a screened relief mechanism for the roughly 950,000 displaced, proposed jointly by Russia and China in Round 2, funded by Beijing, funded and staffed at the crossings by Britain, financed and monitored by Washington, disbursed with Islamabad on both sides of the Line, and accepted by India on the condition that it operate at India's request with access granted by New Delhi alone. The Kashmiri delegation accepted screening at every crossing in exchange for camp access. Britain called it a package with 'five sponsors and no opponent.' Alongside it, one bilateral trade closed: India accepted reopened travel routes and monitored, Indian-administered access to the camps in exchange for the United States stating on the record that it does not support independence. Everything else failed. Three of Pakistan's four counterparts pressed the Line of Control toward border status and Pakistan refused all of it; the 1948 accession-only plebiscite found no sponsor; no ballot of any kind survived Chinese, Russian and Indian objection, so autonomy appears in no text; and India, Russia and China each refused an international investigation, leaving only India's offer of a domestic inquiry, which London and Washington both declined to accept. Russia's counterterrorism condition went unmet after Pakistan refused to table a dated list of facilities for inspection, and Moscow withdrew its offered flexibility. India also declined the US-UK co-chaired working session because it would seat Islamabad and Srinagar in the same room. The status quo holders - China, India and Russia - lost nothing; the two delegations seeking change, Srinagar and Islamabad, obtained relief money and nothing else.",
         "keyOutcomes": [
-          "The Geneva Humanitarian Annex: UN-coordinated relief for roughly 950,000 displaced people, with joint screening against militant infiltration accepted by every delegation.",
-          "Designated travel routes into the Kashmir Valley reopened, and two crossing points established along the Line of Control for family reunification and phased return.",
-          "A substantial Chinese financial contribution to relief, routed through the UN system, conditioned on screening and on no investigative mechanism attaching to the conference.",
-          "Reconstruction and development administered on each side by the administering authority — the provision that made Indian signature possible and that the Kashmiri delegation recorded as a crossed red line.",
-          "Functioning humanitarian coordination between two governments that exchanged missile and drone strikes eight months earlier.",
-          "India's offer of a domestic judicial inquiry with published findings, and referral of AFSPA amendment to its Parliament, in place of external investigation."
+          "A screened humanitarian relief mechanism for the ~950,000 displaced converged with no opponent: Chinese funding, Russian and jointly agreed vetting, British funding and staffing of screening at crossings, American financing and monitoring, Indian administration and a dated returns programme, and Pakistani co-disbursement on both sides of the Line.",
+          "Britain committed to underwrite reconstruction and staff the crossings immediately and without political precondition; Russia and Pakistan both accepted a relief annex carrying no political conditions.",
+          "India accepted Washington's bargain: reopened travel routes and monitored, Indian-administered access to the camps in exchange for the United States stating on the record that it does not support independence.",
+          "The Kashmiri delegation accepted screening at every crossing in exchange for camp access, and accepted phased, internationally supervised demilitarization in place of immediate withdrawal - an offer no state delegation took up.",
+          "China undertook to forward no further claim on the Shaksam Valley administered by Islamabad, which Pakistan welcomed, and offered verifiable Sino-Indian frontier de-escalation at India's convenience, which India did not answer.",
+          "A US-UK co-chaired working session on sequencing was accepted by Pakistan, the Kashmiri delegation and Britain - but refused by India, which will meet Islamabad and Srinagar only separately.",
+          "Britain committed to keep the autonomy question and the investigation mandate on the Security Council's agenda; Pakistan stated the file stays with the Council."
         ],
         "unresolved": [
-          "Sovereignty over the former princely state: India's claim to the whole, Pakistan's claim to the whole, and China's holdings, all left exactly as found.",
-          "The status of the Line of Control — recognized by neither party as a border, and now crossed by two humanitarian corridors that Pakistan expressly reserved against.",
-          "Governance: no autonomy formula, no allocation of powers, no restoration of Article 370, and no plebiscite of any description.",
-          "Whether autonomy may appear on any future ballot — refused categorically by China and never conceded by India, Pakistan or Russia.",
-          "An international human rights investigation, blocked by three delegations on sovereignty grounds against four that sought it.",
-          "The standing of the Kashmiri delegation itself: seated and heard, but denied bilateral contact by two delegations and any implementing role in the one text agreed.",
-          "Strategic risk reduction between two nuclear-armed states — deferred to bilateral tracks rather than agreed here."
+          "The status of the Line of Control: proposed as an international border by Washington and London, recorded as a 'line of administration' by Beijing, referred to a bilateral channel by Moscow, and refused outright by Pakistan, which will sign no text containing it.",
+          "The ballot: no plebiscite was agreed in any form. Pakistan's accession-only 1948 terms found no sponsor; autonomy on the ballot was ruled out by China, Russia and India; the Kashmiri delegation announced it would boycott any accession-only vote.",
+          "The investigator: India, Russia and China refused any international mechanism; India's domestic inquiry with published findings was rejected as accountability by the accused by Britain, the United States and the Kashmiri delegation.",
+          "Autonomy and Article 370: India's offer to reinstate Article 370, rescind Article 356 and review AFSPA remains bilateral and unregistered, and the Kashmiri delegation refused the written renunciation attached to it.",
+          "Counterterrorism: Pakistan refused to table a dated list of militant organisations and facilities for third-party verification, so Russia's precondition failed and its flexibility was withdrawn.",
+          "Whom the Kashmiri delegation represents: Pakistan demanded renunciation of the claim to Azad Kashmir and Gilgit-Baltistan and capped cooperation at the camps; China refused bilateral contact and answered only in plenary.",
+          "Format: India refuses any room containing both Pakistan and the Kashmiri delegation, so the co-chaired working session convenes without New Delhi.",
+          "Nuclear risk and the Indus water arrangements, raised by Britain and Russia respectively, were never engaged and were deferred to a separate track.",
+          "Aksai Chin and the wider Sino-Indian claims: unmoved, with India restating that it does not accept and never will accept China's claim."
         ]
       }
     }

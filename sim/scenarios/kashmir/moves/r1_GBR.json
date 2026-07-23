@@ -3,11 +3,11 @@
  "displayName": "United Kingdom",
  "roundNumber": 1,
  "kind": "opening-statement",
- "text": "Special Representative, the United Kingdom comes to Geneva aware of its own part in how these lines were drawn, and determined that this conference not simply ratify them. Our principles are human rights and self-determination, and our starting proposition is practical: the Line of Control as the international border between India and Pakistan, paired with an invisible border for Kashmiris — unrestricted movement across the whole of the former princely state, a line that would disappear altogether should Jammu and Kashmir ever become one entity again. On governance, we support revising the 1948 plebiscite proposal to place full autonomy on the ballot. We do not think that is radical; we think eighty years of a ballot no one is permitted to cast is the radical position. On human rights, an international investigation under UN auspices is necessary, and we will oppose intransigence on it from any quarter. On the displaced, we will fund and we will press for reopened travel routes into the Valley. Our support for Kashmiri autonomy is not unconditional: every party here must hold a firm line against militant organizations. And we serve notice that we intend to raise the growth and purpose of the Indian and Pakistani nuclear programmes.",
+ "text": "Special Representative, the United Kingdom thanks the Secretary-General for convening us, and welcomes in particular the delegation from Jammu and Kashmir, whose presence at this table is unprecedented and, in our judgement, indispensable. We come with three headline priorities. First, de-escalation: the exchanges of May 2025 brought two nuclear-armed states to the edge, and we intend to raise the growth and purpose of both nuclear programmes here. Second, an international investigation into human rights violations, with the United Nations as the natural vehicle — we regard this as the fastest route to lowering tension, and we will oppose forcefully any intransigence upon it. Third, the roughly 950,000 displaced: protection, agreed screening, reopened travel routes and crossing points, and humane repatriation. On terrorism our line is firm and shared with our American colleagues — implicit or explicit state support for militant organisations is unacceptable and corrosive to this process. And let me be plain about what we will not accept: no text that fails to keep full autonomy for Jammu and Kashmir a live option on any ballot.",
  "tacticsApplied": [
-  "principled-bargaining-frame",
-  "anchoring",
-  "self-determination-frame",
-  "issue-linkage"
+  "red-line-signaled",
+  "humanitarian-frame",
+  "counterterrorism-frame",
+  "coalition-building"
  ]
 }

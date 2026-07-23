@@ -3,11 +3,11 @@
  "displayName": "Islamic Republic of Pakistan",
  "roundNumber": 2,
  "kind": "offer",
- "text": "Pakistan tables a package that answers the security concern honestly. Demilitarize Jammu and Kashmir on both sides, place the territory under joint India–Pakistan administration in the interim, and hold the plebiscite on its 1948 terms under UN supervision. Under Pakistani sovereignty we are prepared to support autonomy for Kashmir far exceeding anything Article 370 ever provided — Article 370 still let New Delhi legislate on defence, keep its troops and interfere at will, which is why we reject it as a solution. To the Kashmiri delegation: our support is available, and its price is that you withdraw the claim to speak for Azad Kashmir. Until you do, we cannot treat you as the representative of all Kashmiris and neither will anyone else. To Beijing: an autonomous entity astride the Karakoram corridor would sit on the road to Gwadar; consider what that means for your access to the sea. To Moscow: consider what an internationally blessed autonomy precedent means in your own southern republics. To Washington and London: we support your investigation, provided its mandate covers the conduct of Indian security forces. And we require relief funding that carries no conditions on our Kashmir policy.",
+ "text": "Special Representative. Pakistan heard Washington propose recognition of the Line of Control as an international border, and Beijing call it \"the line of administration.\" We say again: no. That is our red line. Here is our offer. To London and Washington: you have called an international investigation the fastest route to lowering tension. Pakistan will co-sponsor it — if its mandate covers the conduct of security forces in the occupied territory, AFSPA detention, disappearances and the camps. We will not accept a mandate stretched across our own frontier; Moscow's preconditions are not the price of this conference. To New Delhi: withdraw your forces as Resolution 47 requires, and Pakistan will accept demilitarization, joint India–Pakistan interim administration, and a plebiscite under UN authority — on the 1948 terms, accession only. To the Jammu and Kashmir delegation: renounce your claim to speak for Azad Kashmir and Gilgit-Baltistan, and we will work with you on camps, crossings and repatriation. Until then you speak for the Valley, not for us. To Moscow and Beijing: an autonomous Kashmir would unsettle the Karakoram corridor and inspire separatists elsewhere. Relief funding we welcome — conditioned on nothing.",
  "tacticsApplied": [
   "conditional-offer",
+  "red-line-signaled",
   "coalition-building",
-  "issue-linkage",
-  "red-line-signaled"
+  "issue-linkage"
  ]
 }

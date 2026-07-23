@@ -1,0 +1,36 @@
+# Arctic Negotiation — Cross-Party Contamination Audit (7 delegations)
+
+Parties audited: CAN, CHN, DNK, FIN, NOR, RUS, USA. Transcript = 4 rounds, public plenary only.
+
+## 1) Information leakage
+No true bleeding detected. Every move traces to the actor's own secrets or to public inference off the shared brief. The tell-tale secrets that would prove leakage all stayed dark:
+
+- **DNK** holds the deepest secret in the room, the unexercised Greenlandic independence-referendum right and the concealed Naalakkersuisut mineral-extraction ban that diverges from Copenhagen. Neither ever surfaces. No rival probes the Denmark-Greenland split; "independence," "referendum," "Naalakkersuisut," and "Pituffik" appear nowhere in the transcript. CHN, whose private card is to pressure Denmark on the Greenland uranium license, instead offers only the sanitized public line, "China respects your self-rule and stands ready to invest in Greenlandic mining and science on terms you set" (R2). Uranium, precious metals, and the extraction ban are never named. Denmark's concealment task succeeded completely. Severity: NONE.
+- **CHN**'s covert card, that its icebreaker and infrastructure investment is a wedge to secure Russian *military* basing, never leaks. USA calls the Polar Silk Road "tethered to Moscow a strategic partnership, not stewardship" (R2), but that is public suspicion of a publicly-declared partnership, not knowledge of the secret basing intent. No one says China seeks bases. Severity: NONE.
+- **FIN**'s secret motive, the ~75% collapse in Russia trade since NATO accession and the hunt for non-EU trade outlets, is never referenced. CHN's offer of "capital for your mine-water and critical-mineral projects" (R3) answers Finland's *own public* R1 pitch ("our mining and mine-water expertise can supply Europe's critical minerals"), not the hidden trade-collapse driver. Severity: NONE.
+- **NOR**'s secret that the Temporary Fisheries Protection Zone is a lever to force eventual full Svalbard EEZ recognition, not a genuinely temporary measure, is never named by a rival. RUS rejects the zone ("treaty access does not create a Norwegian EEZ," R2), but that is Russia's own public red line, not insight into Norway's lever strategy. Norway itself telegraphs a sanitized version ("Practical quotas for legal recognition, colleagues, is a fair trade," R3), which is its own card, not bleeding. Severity: NONE.
+- **RUS**'s quiet leverage card, contesting the 1990 Maritime Boundary Agreement, is never triggered; "1990" and "Bering" appear nowhere. Its China partnership's hidden military-security purpose stays hidden; publicly Russia only "backs your full Council participation," which is its own declared position. Severity: NONE.
+- **USA**'s private grievance, that Canada trained Chinese troops in Arctic combat without U.S. knowledge, is never voiced, by anyone. The U.S. sat on its own juiciest card. CHN's matching private interest in "military training with countries like Canada" also never surfaces. Severity: NONE.
+- **CAN**'s secret to quietly limit Greenland's Arctic Council involvement to dodge Inuit-representation pressure is the inverse of its public posture ("no Arctic decision is legitimate without meaningful Inuit and Sami inclusion," R1); no rival exposes the contradiction. Severity: NONE.
+
+Apparent "insider" hits are all own-card reveals or legitimate public inference. CAN's brokerage offer ("I offer to broker the messages you will not deliver directly to Moscow and Beijing," R3) is Canada deploying its *own* intermediary instruction, not a rival reading it. FIN's "quietly broker between this table and Moscow" (R3) is Finland voicing its own channel card. The Lomonosov "Hans Island spirit" language shared by DNK, RUS, and CAN traces to the public brief plus each party's own concessionsWilling, not to leaked text. Nothing rises above NONE.
+
+## 2) Convergence
+Realistically frictional, and the consensus is scenario-baked, not suspicious. Every declared red line held to R4:
+- USA: freedom of navigation "non-negotiable," NWP an international strait, held.
+- CAN: "our red lines held, the Northwest Passage remains Canadian internal waters" (R4).
+- RUS: "NSR sovereignty is a red line, and it holds" (R4). Easing warship notice from 45 to 30 days is a notification concession within the public brief's 45-day baseline, not a sovereignty surrender.
+- NOR: Svalbard EEZ "unchallenged, unpatrolled, unlicensed" (R4).
+- DNK: "no Chinese military presence on or around Greenland, and near-Arctic status is never membership" (R4).
+- FIN / bloc: "Chinese Arctic Council membership no," held by five delegations.
+
+No party capitulated a red line implausibly. CHN's acceptance of enhanced observer status over full membership ("we conceded that gracefully," R4) is not a party "seeing" a rival's hand, it is CHN executing its own pre-declared BATNA and concessionsWilling ("Accept enhanced observer responsibilities instead of full membership"). Convergence is confined to items each party independently held: the high-seas fisheries moratorium (CAN, NOR, DNK, USA all carry it), SAR and science cooperation, the Hans-Island-model Lomonosov track (DNK and RUS both pre-hold bilateral resolution), and Finland's Arctic Eight. The deal also splits cleanly along the brief's pre-anchored coalitions, Western bloc versus Sino-Russian partnership, with the NSR and Svalbard gaps left explicitly unresolved. No fake deal.
+
+## 3) Stylistic homogenization
+Strong single-author fingerprint, the one real flag. R3/R4 run a near-verbatim template: openers "comes to bargain concretely" (RUS) / "moves from principle to packages" (CAN) / "tables a concrete package" (DNK, NOR); closers "leaves/closes Trondheim encouraged" (CAN, NOR, DNK), "Our red lines held" (CAN, CHN, echoed by NOR/DNK), and "The way forward is..." (USA, RUS, CAN, NOR). Shared tics recur across delegations regardless of interest: "Let me be plain / Let us be exact / unambiguous," "Full stop," "keep the lights on" (NOR, twice), "low-tension High North," "Hans Island spirit," and the symmetric "if X then we will Y" conditional syntax (USA, CAN). Voices are structurally identical even where the interests are opposed. This is a single-model artifact, not information leakage.
+
+## 4) Single-model effect
+Dominant on **form**, negligible on **content**. One model plus a shared round template drives the phrasal lockstep and the choreographed R4 closings, and some shared vocabulary (UNCLOS, Article 234, Hans Island, the fisheries moratorium) also traces to the common public brief. But strategic behavior stayed differentiated, red lines held distinct, and every party's confidential material, Greenland independence, the mining ban, Finland's trade collapse, China's basing wedge and uranium pressure, Russia's 1990-boundary leverage, and the U.S. trained-troops grievance, stayed compartmentalized.
+
+## VERDICT: LOW information-integrity risk
+Trust the substantive positions, held red lines, and the openly unresolved NSR/NWP/Svalbard/Lomonosov gaps, these reflect genuinely siloed reasoning, proven by the tell-tale secrets that never surfaced. Discount the uniform diction and the synchronized R3/R4 packaging, which is single-model stylistic convergence, not evidence of seven independent drafters or of covertly coordinated agreement.

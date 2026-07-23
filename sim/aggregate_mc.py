@@ -46,7 +46,8 @@ def main():
         # aggregate
         dealcount = {d: 0 for d in DEAL_ORDER}
         for tr in trials:
-            dt = (tr["outcome"].get("dealType") or "").strip().lower().split()[0] if tr["outcome"].get("dealType") else ""
+            parts = (tr["outcome"].get("dealType") or "").strip().lower().split()
+            dt = parts[0] if parts else ""
             for d in DEAL_ORDER:
                 if dt.startswith(d):
                     dealcount[d] += 1

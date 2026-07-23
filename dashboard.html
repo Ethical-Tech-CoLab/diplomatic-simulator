@@ -104,7 +104,7 @@ footer{border-top:1px solid var(--line);color:var(--muted);font-size:.8rem;text-
   });
   var PALETTE=['#1B2A4E','#A41034','#2e7d32','#b08a3e','#6a1b9a','#00838f','#c62828','#455a64','#ad1457','#4527a0','#00695c'];
   var E=document.getElementById.bind(document);
-  function esc(x){return String(x==null?'':x).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function esc(x){return String(x==null?'':x).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
   function el(id){return E(id);}
   function num(x){return x==null?'–':(Math.round(x*100)/100);}
 
@@ -260,7 +260,7 @@ footer{border-top:1px solid var(--line);color:var(--muted);font-size:.8rem;text-
     var rows=(S.parties||[]).map(function(p){
       return '<tr><td class="name">'+esc(p.displayName)+'</td>'+tactics.map(function(t){
         var v=mat[p.teamTwinName][t]||0; var a=v?(0.15+0.85*v/maxc):0;
-        return '<td style="background:rgba(164,16,52,'+a.toFixed(2)+');color:'+(a>0.5?'#fff':'#333')+'">'+(v||'')+'</td>';
+        return '<td style="background:color-mix(in srgb, var(--crimson) '+Math.round(a*100)+'%, transparent);color:'+(a>0.5?'#fff':'#333')+'">'+(v||'')+'</td>';
       }).join('')+'</tr>';
     }).join('');
     var heat='<div class="card"><h2>Tactic heatmap</h2><div style="overflow-x:auto"><table class="heat">'+head+rows+'</table></div>'+

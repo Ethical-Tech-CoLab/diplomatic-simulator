@@ -5,14 +5,21 @@ Each built file is {"scenario":{...},"session":{...}} from build_session.py.
 Dedupes by id (replaces existing entries with same id). Preserves the
 existing Iran demo session/scenarios already in data.js.
 """
-import json, sys, os, datetime
+import json, re, sys, os, datetime
 
 DATA = os.path.join(os.path.dirname(__file__), "..", "diplomacy-demo", "data.js")
 
+# data.js is written by this script as `window.<NAME> = <json>;` — strip that
+# wrapper explicitly rather than slicing between the first `{` and last `}`,
+# which corrupts the parse if a brace ever appears outside the JSON body.
+ASSIGNMENT = re.compile(r"^\s*(?:var\s+|let\s+|const\s+)?[\w.$]+\s*=\s*")
+
 def load_data():
-    src = open(DATA).read()
-    obj = json.loads(src[src.index("{"):src.rindex("}")+1])
-    return obj
+    src = open(DATA).read().strip()
+    m = ASSIGNMENT.match(src)
+    if not m:
+        raise ValueError(f"{DATA}: expected a `window.NAME = {{...}};` assignment")
+    return json.loads(src[m.end():].rstrip().rstrip(";"))
 
 def main():
     obj = load_data()

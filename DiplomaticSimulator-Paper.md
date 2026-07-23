@@ -29,7 +29,7 @@ The Diplomatic Simulator is a research prototype that asks what happens when the
 
 1.5 After the talks conclude, a separate analyst agent reads the whole transcript and produces a scoreboard, a debrief for each delegation, and a neutral summary written in the voice of a convening envoy. A further layer re-runs each scenario twenty times under randomly varied external conditions, in order to show which outcomes are stable and which depend on luck.
 
-1.6 The repository is candid that every number on the site is one artificial intelligence system's subjective judgement of another artificial intelligence system's writing. There is no ground truth anywhere in the tool. The most serious structural limitation is that a single underlying model plays every side of every table, so the adversaries are not genuinely independent minds.
+1.6 The repository is candid that every number on the site is one artificial intelligence system's subjective judgement of another artificial intelligence system's writing. There is no ground truth anywhere in the tool. The most serious structural limitation is that a single underlying model plays every side of every table, so the adversaries are not genuinely independent minds. That limitation has now been tested once, on the Korean scenario, by re-running it with different models behind four of the six seats. The coarse outcomes replicated. The test also established something the report had not seen: on that scenario a comprehensive settlement is impossible by construction, because the concessions the parties are authorised to make do not overlap, so the zero-settlement result reported at 8.6 measures the scenario pack rather than the negotiation. Section 11.1a sets out what the comparison does and does not license.
 
 ---
 
@@ -145,7 +145,11 @@ The resulting counts are informative in aggregate. In the Arctic session, coalit
 
 > **Conditional on a single model.** The scores this section defines were all
 > produced with one underlying model driving every delegation. A mixed-model
-> A/B run for Korea has been executed but not yet analysed. See 11.1 and 11.1a.
+> A/B run for Korea has now been executed and audited; what it licenses and
+> what it does not is set out at 11.1a. In particular, no scoreboard comparison
+> between the two runs is made, because the mixed run has no `analysis.json`
+> and constructing one post hoc by a different method than the baseline used
+> would not be a comparison. See 11.1 and 11.1a.
 
 
 The analyst agent produces four numbers for each delegation.
@@ -168,10 +172,14 @@ Each debrief also lists the delegation's goals individually. Every goal carries 
 > satisfaction scores, red-line survival rates, deal-type distributions, and
 > coalition frequencies -- was produced with one underlying model driving all
 > delegations. As 11.1 states, the adversaries are therefore not independent
-> minds. A mixed-model A/B run for Korea has since been executed and its
-> transcripts committed, but **its comparative findings are not yet written up**
-> (see 11.1a). Until they are, these numbers should be read as describing how
-> one model behaves when playing every side.
+> minds. A mixed-model A/B run for Korea has since been executed and audited
+> (11.1a). It found that the coarse outcomes replicated under substitution of
+> four of six seats, and that three finer outcomes did not. It also found that
+> one headline outcome moved between the two runs at a seat whose model never
+> changed, which bounds how much weight any single reported result can carry.
+> These numbers should still be read as describing how one model behaves when
+> playing every side, on all scenarios but Korea, and as resting on one paired
+> run there.
 
 6.1 The convener report. Alongside the scoreboard, the analyst writes a neutral summary in the voice of a Special Representative of the Secretary-General, the title given to a senior envoy appointed by the United Nations Secretary-General to convene and mediate. The report carries a headline, a summary, a list of key outcomes, and a list of unresolved issues. The Arctic report concluded that the conference produced a scaffolding of cooperation tracks but no binding settlement, and observed that what broke through was the low-politics agenda, where trust was cheapest, while everything touching sovereignty, jurisdiction, and membership stalled.
 
@@ -225,12 +233,18 @@ Momentum, recording which delegation enters with the initiative.
 > satisfaction scores, red-line survival rates, deal-type distributions, and
 > coalition frequencies -- was produced with one underlying model driving all
 > delegations. As 11.1 states, the adversaries are therefore not independent
-> minds. A mixed-model A/B run for Korea has since been executed and its
-> transcripts committed, but **its comparative findings are not yet written up**
-> (see 11.1a). Until they are, these numbers should be read as describing how
-> one model behaves when playing every side.
+> minds. A mixed-model A/B run for Korea has since been executed and audited
+> (11.1a). It found that the coarse outcomes replicated under substitution of
+> four of six seats, and that three finer outcomes did not. It also found that
+> one headline outcome moved between the two runs at a seat whose model never
+> changed, which bounds how much weight any single reported result can carry.
+> These numbers should still be read as describing how one model behaves when
+> playing every side, on all scenarios but Korea, and as resting on one paired
+> run there.
 
-8.6 What the runs found. Twenty trials were run for each scenario, nineteen for the South China Sea. Across every trial of every scenario, not one produced a comprehensive settlement. Central Asia was the most stable, returning a framework agreement in fourteen trials of twenty and a partial in the remaining six, with no failures at all. The Arctic returned a framework in nine and a partial in ten, with a single stalemate and no breakdowns. Cyprus was the most fragile of the original four, returning six stalemates and two breakdowns against eight frameworks. Of the two scenarios added later, the Korean Peninsula proved the most fragile table in the whole set, reaching a framework in only three trials against six partials, eight stalemates, and three breakdowns, while Jammu and Kashmir returned three frameworks, nine partials, six stalemates, and two breakdowns. Individual variables are equally revealing: in the Arctic trials, China's red line held in forty-five per cent of runs and the United States red line in seventy-five per cent, while the five other delegations held theirs in every single trial.
+8.6 What the runs found. Twenty trials were run for each scenario, nineteen for the South China Sea. Across every trial of every scenario, not one produced a comprehensive settlement. Central Asia was the most stable, returning a framework agreement in fourteen trials of twenty and a partial in the remaining six, with no failures at all. The Arctic returned a framework in nine and a partial in ten, with a single stalemate and no breakdowns. Cyprus was the most fragile of the original four, returning six stalemates and two breakdowns against eight frameworks. Of the two scenarios added later, the Korean Peninsula proved the most fragile table in the whole set, reaching a framework in only three trials against six partials, eight stalemates, and three breakdowns, while Jammu and Kashmir returned three frameworks, nine partials, six stalemates, and two breakdowns. Individual variables are equally revealing: in the Arctic trials, China's red line held in nine runs of twenty and the United States red line in fifteen of twenty, while the five other delegations held theirs in all twenty. Counts are given rather than percentages throughout this section, because a percentage taken over twenty trials invites a reader to treat it as a rate estimated from a sample, and it is a census of twenty runs of one scenario.
+
+The absence of a comprehensive settlement across every trial reads as a finding about diplomacy and is not one, at least on the scenario where it has been examined. The mixed-model audit at 11.1a checked the Korean profiles against each other and found that the maximum concession the DPRK is authorised to make and the minimum the United States, the Republic of Korea and Japan are authorised to accept do not overlap at any point. On that table a comprehensive settlement is unreachable by construction, so its absence measures the scenario pack rather than the negotiation, and the metric cannot discriminate between two runs, two models, or two sets of tactics. The same check has not been run on the other five scenarios, and until it has, the zero-settlement result should be read as a property the scenarios may impose rather than an outcome the talks produced. What the trials do measure, and measure usefully, is the distribution below that ceiling: how often a table reaches a framework rather than a partial, how often it breaks down, and which red lines survive varied conditions.
 
 8.7 What this is not. The methodology page is explicit that each trial is a reduced-form outcome simulation conditioned on the random draw, not a complete re-run of the multi-round negotiation. What the exercise samples is the model's own distribution over plausible outcomes. It is not an empirical distribution of real events, and the randomised conditions are illustrative rather than calibrated probabilities. The right reading is how sensitive the model thinks this outcome is to shocks and mood, and nothing stronger.
 
@@ -264,7 +278,7 @@ The repository documents its own limitations at length, and they are serious eno
 
 11.1 One mind plays every side. All delegations are driven by the same underlying model. Information is isolated, but the adversaries are not genuinely independent actors, and shared assumptions or style can leak across roles. This is the deepest limitation in the design, because it undercuts the premise that a negotiation is a meeting of different minds.
 
-11.1a The confound is now being tested, and the test is half-complete.
+11.1a The confound has now been tested on one scenario.
 Diagnosing the monoculture problem is not the same as measuring it. The check
 this design needs is a seam: run one scenario with delegations driven by
 *different* underlying models and report whether the deal type, the
@@ -280,14 +294,80 @@ not hold"), China and Russia on Sonnet, and the Republic of Korea and Japan on
 Haiku 4.5. Design and all three round transcripts are committed under
 `sim/analysis/mixed-model/`.
 
-**What is outstanding is the comparative analysis.** The transcripts exist; the
-finding does not yet. Until the comparison against the baseline is written up
-and reported here, every quantitative claim in 5.4, 6 and 8.6 remains
-conditional on a single model and is labelled as such at the point it is made.
-Either outcome is worth reporting: if the convergences and red-line breaks
-recur under a different model assignment, the baseline finding survives a real
-test; if they do not, the finding is partly about the model, which is more
-useful to know than to assume.
+**The comparative audit is now written up** and committed at
+`sim/analysis/mixed-model/findings.md`, with the summary at `korea.md`. It is a
+paired comparison of two runs of one scenario, with one run in each arm.
+Nothing in it is a rate, a frequency, or an effect size, and it should not be
+cited as one. Its results are not the ones the run was expected to produce.
+
+The coarse outcome replicated. Substituting four of six seats across two model
+tiers did not change whether the mutual freeze was accepted, whether sanctions
+moved, or whether a settlement was reached. The peer review's specific worry,
+that the zero-settlements result is an artefact of one model's disposition, is
+not supported by this pair. The finer record did not replicate: the baseline
+produced three procedural agreements the chair could enumerate and the mixed run
+produced one, and the Japan-DPRK bilateral channel on the abductions, agreed in
+the baseline, was never convened in the mixed run.
+
+The most important finding is one the review did not anticipate and it is
+adverse to the paper. **The zero-settlements result is over-determined by
+profile design, and belongs in this section as a limitation rather than in
+section 8 as a finding.** The DPRK's maximum authorised concession set and the
+minimum authorised demand of the United States, the Republic of Korea and Japan
+are logically disjoint: the DPRK's red line forbids reducing its deterrent
+without acceptable compensation, and the other three forbid any residual
+programme whatsoever. There is no point in the authorised space where a
+comprehensive settlement exists, so no role-faithful agent of any tier can
+produce one. On the Korea scenario the settlement rate cannot discriminate
+between models at all, because it cannot vary. Making it informative requires a
+scenario whose authorised concession sets overlap, which is now the first item
+of future work.
+
+**Run-to-run variance moved a headline outcome by itself.** The United States
+offered the DPRK an unconditional bilateral channel in round one of both runs.
+The DPRK accepted it in the baseline and ignored it in the mixed run, from a
+seat that was on the same model in both. The delegation whose behaviour flipped
+a reported outcome was not a substituted seat. Any tier-attributed difference
+in the audit has to be read against that.
+
+**Tier-linked defects are real, quotable, and weaker than they first look.** The
+Sonnet chair miscounted a three-three room as three-one and was corrected on the
+record by the American delegation; a Haiku seat offered humanitarian aid and
+rail reconstruction at the declaration stage when its instructions reserve them
+for after elimination, then reported its red lines intact. But the all-Opus
+baseline contains the same error families. Two Opus seats asserted an
+unsupported five-party coalition and attributed it to the record, and the Opus
+Japan seat made the same red-line category error later made by its Haiku
+counterpart. Reporting only the weak-model errors would be selecting on the
+hypothesis, so both arms are audited and both are reported.
+
+**Model and role are perfectly confounded in this design**, which is the
+limitation that most constrains what the run licenses. Both Haiku seats were the
+two allied non-American delegations and both Sonnet seats were the two
+step-by-step delegations. "The weaker model degrades role fidelity" and "the
+Seoul and Tokyo seats are harder to play" are indistinguishable on this data.
+Rotating each tier across each seat is the next run. A further design bias
+should be stated with the replication claim: the two seats holding the positions
+that generate the central deadlock were deliberately kept on the strongest
+model, which mechanically stabilises the headline outcome, so what replicated is
+outcome stability under substitution of the non-pivotal seats rather than
+outcome stability generally.
+
+The audit was also not blind. Its author knew the model assignment before
+reading either transcript, and the qualitative judgements most exposed to that,
+the "press-release" reading and the coding of conditional offers, are flagged as
+such in its threats section. Auditing the baseline for the same error classes,
+and reporting the instances where a weaker seat outperformed a stronger one, is
+mitigation rather than blinding. Repeating the red-line audit with a coder blind
+to assignment, and reporting inter-rater agreement, is required before any of
+this is presented as more than a documented pair of runs.
+
+What the exercise contributes independently of its results is the method:
+auditing statements against each delegation's own machine-readable red-line
+array, and keeping three things apart that are routinely collapsed together, a
+red line breached, a binding instruction breached, and a red-line breach
+falsely claimed. That produced discriminating evidence in both arms and
+transfers to any run of this kind.
 
 11.2 There is no ground truth. Nothing in the tool has been validated against a real negotiation, an expert assessment, or a historical outcome. The scoreboard numbers are one system's subjective judgement of another system's writing. Satisfaction should be read as how the analyst rated the argument on the page, not as an assessment of any national interest.
 
@@ -324,9 +404,16 @@ useful to know than to assume.
 One model plays every side. The multi-model check that would tell the reader
 whether the satisfaction ordering, the deal types, and the "zero comprehensive
 settlements" result are properties of the scenarios or artefacts of that
-monoculture has been run for Korea, but its comparative findings are not yet
-written up (11.1, 11.1a). Every number reported here remains conditional on
-that until they are.
+monoculture has now been run and audited for Korea (11.1, 11.1a). It answers
+less than it was meant to. The coarse outcomes replicated, but the audit found
+that the zero-settlements result on that scenario is fixed by the profiles
+rather than produced by the talks, so the metric the check was supposed to test
+cannot vary there; one headline outcome moved between runs at a seat whose model
+never changed; and model and seat are perfectly confounded in the assignment
+used. The honest position is that the monoculture has been tested once, on one
+scenario, in a design that cannot separate the model from the chair it sits in.
+Every number reported here remains conditional on a single model, and on Korea
+it rests on one paired run.
 
 What the prototype does contribute is less the simulated negotiations themselves than the discipline imposed on them: confidential mandates that stay confidential, statements that are counted and labelled, scores that are defined against each delegation's own stated goals rather than an invented standard of success, and a sensitivity layer that reports how much of the outcome was luck.
 

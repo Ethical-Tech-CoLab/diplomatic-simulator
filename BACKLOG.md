@@ -30,9 +30,14 @@ not been reviewed. In rough priority order:
   inconsistent: UNSCR 2900 sets a conference "target date of 9 February 2024, in
   Vienna Austria", while the 17 October entry datelines Geneva. We used Geneva,
   9 February 2026. Confirm that is the reading we want, and note it if so.
-- **No Monte Carlo trials for either scenario.** `montecarlo.html` reads
-  `mc-data.js` and silently omits them; the other scenarios have ~20 trials
-  each. Run `sim/montecarlo` + `aggregate_mc.py` for both.
+- **Monte Carlo trials are thin and authored.** Korea and Jammu-Kashmir have 12
+  trials each against 19–20 for the other five, and — like the rest of the
+  corpus — the outcomes were written rather than sampled from re-run
+  negotiations. Top up to 20 for comparability, and treat every percentage the
+  page derives from 12 trials with the same caution the peer review applies to
+  "38% of runs" (3 of 8). Neither new scenario produced a comprehensive
+  settlement, which is consistent with the other five and therefore *not*
+  independent evidence for the paper's headline claim.
 - **Stale counts across the site.** `methodology.html`, the paper, and any
   "four scenarios" phrasing need updating to six.
 - **Re-run the cross-party bleeding audit.** `analysis.html` and
@@ -48,11 +53,13 @@ not been reviewed. In rough priority order:
 
 ## Live simulation
 
-- **Loop playback.** When `live.html` reaches the final move it stops on the
-  outcome card. Add a "Loop" toggle that restarts the replay automatically after
-  a short pause, and optionally advances to the next session in the picker, so
-  the page can run unattended as a display or kiosk view. Default off, so the
-  current behaviour is unchanged for anyone reading a single session.
+- ~~**Loop playback.**~~ Done. `live.html` has a Loop control (Off / This
+  session / All scenarios) and honours `?loop=one|all` and `?autoplay=1`;
+  "All scenarios" cycles the curated `PREF` list, so every scenario is covered
+  by the one page. Every scenario report now links to it.
+- **Kiosk polish, if the loop gets real use:** a full-screen mode that hides the
+  controls and the header, and a visible countdown on the outcome card instead
+  of the current "shortly…" text.
 
 ## Experiments
 

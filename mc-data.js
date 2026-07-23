@@ -1388,6 +1388,547 @@ window.MC_RESULTS = {
    ]
   },
   {
+   "key": "korea",
+   "title": "Korea — Six-Party Talks",
+   "sessionId": "sess-korea-iscne-01",
+   "nTrials": 12,
+   "dealTypes": {
+    "comprehensive": 0,
+    "framework": 2,
+    "partial": 3,
+    "stalemate": 4,
+    "breakdown": 3
+   },
+   "parties": [
+    {
+     "code": "RUS",
+     "name": "Russian Federation",
+     "n": 12,
+     "sat": {
+      "n": 12,
+      "mean": 0.464,
+      "sd": 0.148,
+      "min": 0.28,
+      "max": 0.7,
+      "p50": 0.44
+     },
+     "redLineHeldPct": 100,
+     "goals": {
+      "achieved": 3,
+      "partial": 4,
+      "failed": 5
+     }
+    },
+    {
+     "code": "CHN",
+     "name": "People's Republic of China",
+     "n": 12,
+     "sat": {
+      "n": 12,
+      "mean": 0.45,
+      "sd": 0.17,
+      "min": 0.22,
+      "max": 0.74,
+      "p50": 0.42
+     },
+     "redLineHeldPct": 83,
+     "goals": {
+      "achieved": 2,
+      "partial": 5,
+      "failed": 5
+     }
+    },
+    {
+     "code": "KOR",
+     "name": "Republic of Korea",
+     "n": 12,
+     "sat": {
+      "n": 12,
+      "mean": 0.433,
+      "sd": 0.133,
+      "min": 0.22,
+      "max": 0.66,
+      "p50": 0.41
+     },
+     "redLineHeldPct": 92,
+     "goals": {
+      "achieved": 1,
+      "partial": 7,
+      "failed": 4
+     }
+    },
+    {
+     "code": "USA",
+     "name": "United States of America",
+     "n": 12,
+     "sat": {
+      "n": 12,
+      "mean": 0.41,
+      "sd": 0.069,
+      "min": 0.28,
+      "max": 0.52,
+      "p50": 0.42
+     },
+     "redLineHeldPct": 83,
+     "goals": {
+      "achieved": 0,
+      "partial": 9,
+      "failed": 3
+     }
+    },
+    {
+     "code": "PRK",
+     "name": "Democratic People's Republic of Korea",
+     "n": 12,
+     "sat": {
+      "n": 12,
+      "mean": 0.395,
+      "sd": 0.142,
+      "min": 0.2,
+      "max": 0.62,
+      "p50": 0.36
+     },
+     "redLineHeldPct": 100,
+     "goals": {
+      "achieved": 0,
+      "partial": 6,
+      "failed": 6
+     }
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "n": 12,
+     "sat": {
+      "n": 12,
+      "mean": 0.343,
+      "sd": 0.069,
+      "min": 0.24,
+      "max": 0.5,
+      "p50": 0.34
+     },
+     "redLineHeldPct": 92,
+     "goals": {
+      "achieved": 0,
+      "partial": 3,
+      "failed": 9
+     }
+    }
+   ],
+   "coalitions": [
+    {
+     "label": "CHN-RUS-PRK step-by-step bloc",
+     "n": 4
+    },
+    {
+     "label": "CHN-RUS step-by-step bloc",
+     "n": 3
+    },
+    {
+     "label": "USA-KOR-JPN trilateral bloc",
+     "n": 3
+    },
+    {
+     "label": "Inter-Korean bilateral track",
+     "n": 2
+    },
+    {
+     "label": "USA-KOR-JPN trilateral pressure bloc",
+     "n": 1
+    },
+    {
+     "label": "WFP-certified humanitarian coalition (CHN-RUS-KOR)",
+     "n": 1
+    },
+    {
+     "label": "USA-KOR-JPN trilateral bloc (strained)",
+     "n": 1
+    },
+    {
+     "label": "USA-JPN maximum-pressure bloc",
+     "n": 1
+    }
+   ],
+   "trials": [
+    {
+     "t": 0,
+     "dealType": "breakdown",
+     "shock": "The DPRK conducts an intermediate-range missile test on the second morning of talks",
+     "mood": "hostile",
+     "mediatorPressure": "low",
+     "note": "The test triggered the U.S. and ROK red line on brinkmanship directly; Washington suspended participation and the chair could not reconvene the plenary."
+    },
+    {
+     "t": 1,
+     "dealType": "framework",
+     "shock": "The World Food Program publishes famine-level malnutrition data for two northern provinces",
+     "mood": "constructive",
+     "mediatorPressure": "high",
+     "note": "Verified famine data made refusal politically untenable; a freeze-for-freeze with IAEA monitors and a humanitarian corridor was agreed in principle, crossing Japan's no-relief-before-comprehensive line."
+    },
+    {
+     "t": 2,
+     "dealType": "partial",
+     "shock": "Seoul announces a unilaterally scaled-down spring exercise before the opening plenary",
+     "mood": "constructive",
+     "mediatorPressure": "medium",
+     "note": "Seoul's unilateral gesture bought an inter-Korean channel and a testing moratorium, but Washington refused to follow and the freeze was never formalized."
+    },
+    {
+     "t": 3,
+     "dealType": "stalemate",
+     "shock": "The U.S. Treasury sanctions a Chinese bank over DPRK correspondent transactions",
+     "mood": "hostile",
+     "mediatorPressure": "medium",
+     "note": "The designation was read in Beijing as denying the DPRK rights afforded all states and as importing off-framework matters; the chair's freeze package never reached the table."
+    },
+    {
+     "t": 4,
+     "dealType": "breakdown",
+     "shock": "Japan identifies the remains of two abducted citizens returned through a third country",
+     "mood": "hostile",
+     "mediatorPressure": "low",
+     "note": "Tokyo internationalized the abduction file over the chair's ruling that it sat outside the framework; Pyongyang invoked its standing instruction and ceased acknowledging the Japanese delegation, then the room."
+    },
+    {
+     "t": 5,
+     "dealType": "partial",
+     "shock": "Russia announces a grain and fuel package for the DPRK to proceed regardless of the talks",
+     "mood": "neutral",
+     "mediatorPressure": "medium",
+     "note": "Moscow's unilateral supply removed the trilateral bloc's principal lever; relief arrived without denuclearization and the comprehensive package lost its price."
+    },
+    {
+     "t": 6,
+     "dealType": "stalemate",
+     "shock": "An IAEA report identifies a previously undeclared enrichment site",
+     "mood": "hostile",
+     "mediatorPressure": "high",
+     "note": "The disclosure hardened the verification demand into a precondition and destroyed the inspector-backed freeze the chair had built the package around."
+    },
+    {
+     "t": 7,
+     "dealType": "partial",
+     "shock": "An inter-Korean back-channel leaks to the South Korean press mid-conference",
+     "mood": "neutral",
+     "mediatorPressure": "medium",
+     "note": "Exposure forced the inter-Korean track into the open where it survived as the session's only agreed outcome; Tokyo protested being briefed after the fact."
+    },
+    {
+     "t": 8,
+     "dealType": "stalemate",
+     "shock": "Pyongyang announces a satellite launch window for the following month",
+     "mood": "neutral",
+     "mediatorPressure": "high",
+     "note": "The announced launch was calibrated to fall short of a test while draining the freeze of meaning; the chair kept the process alive and secured nothing else."
+    },
+    {
+     "t": 9,
+     "dealType": "stalemate",
+     "shock": "Kim Jong-un misses a scheduled appearance, prompting succession rumours",
+     "mood": "neutral",
+     "mediatorPressure": "low",
+     "note": "Every delegation hedged against a succession it could not assess; the DPRK delegation lost authority to concede and the round became a holding exercise."
+    },
+    {
+     "t": 10,
+     "dealType": "framework",
+     "shock": "Beijing tables a draft end-of-war declaration co-signed by Moscow",
+     "mood": "constructive",
+     "mediatorPressure": "high",
+     "note": "A drafted text moved the peace-declaration question from principle to sequencing; Washington accepted a political declaration short of a treaty, and denuclearization stayed unresolved."
+    },
+    {
+     "t": 11,
+     "dealType": "breakdown",
+     "shock": "A naval clash near the Northern Limit Line kills three ROK sailors",
+     "mood": "hostile",
+     "mediatorPressure": "low",
+     "note": "Seoul's and Washington's brinkmanship red lines were crossed within hours; the conference adjourned without a closing plenary and the chair issued the only statement."
+    }
+   ]
+  },
+  {
+   "key": "kashmir",
+   "title": "Jammu & Kashmir",
+   "sessionId": "sess-kashmir-iscne-01",
+   "nTrials": 12,
+   "dealTypes": {
+    "comprehensive": 0,
+    "framework": 2,
+    "partial": 5,
+    "stalemate": 3,
+    "breakdown": 2
+   },
+   "parties": [
+    {
+     "code": "IND",
+     "name": "Republic of India",
+     "n": 12,
+     "sat": {
+      "n": 12,
+      "mean": 0.5,
+      "sd": 0.088,
+      "min": 0.3,
+      "max": 0.62,
+      "p50": 0.51
+     },
+     "redLineHeldPct": 92,
+     "goals": {
+      "achieved": 0,
+      "partial": 11,
+      "failed": 1
+     }
+    },
+    {
+     "code": "RUS",
+     "name": "Russian Federation",
+     "n": 12,
+     "sat": {
+      "n": 12,
+      "mean": 0.497,
+      "sd": 0.064,
+      "min": 0.4,
+      "max": 0.62,
+      "p50": 0.49
+     },
+     "redLineHeldPct": 100,
+     "goals": {
+      "achieved": 2,
+      "partial": 10,
+      "failed": 0
+     }
+    },
+    {
+     "code": "CHN",
+     "name": "People's Republic of China",
+     "n": 12,
+     "sat": {
+      "n": 12,
+      "mean": 0.488,
+      "sd": 0.076,
+      "min": 0.4,
+      "max": 0.64,
+      "p50": 0.46
+     },
+     "redLineHeldPct": 100,
+     "goals": {
+      "achieved": 3,
+      "partial": 9,
+      "failed": 0
+     }
+    },
+    {
+     "code": "USA",
+     "name": "United States of America",
+     "n": 12,
+     "sat": {
+      "n": 12,
+      "mean": 0.402,
+      "sd": 0.105,
+      "min": 0.24,
+      "max": 0.56,
+      "p50": 0.4
+     },
+     "redLineHeldPct": 33,
+     "goals": {
+      "achieved": 0,
+      "partial": 6,
+      "failed": 6
+     }
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "n": 12,
+     "sat": {
+      "n": 12,
+      "mean": 0.382,
+      "sd": 0.105,
+      "min": 0.22,
+      "max": 0.54,
+      "p50": 0.38
+     },
+     "redLineHeldPct": 33,
+     "goals": {
+      "achieved": 0,
+      "partial": 6,
+      "failed": 6
+     }
+    },
+    {
+     "code": "PAK",
+     "name": "Islamic Republic of Pakistan",
+     "n": 12,
+     "sat": {
+      "n": 12,
+      "mean": 0.347,
+      "sd": 0.11,
+      "min": 0.18,
+      "max": 0.52,
+      "p50": 0.33
+     },
+     "redLineHeldPct": 100,
+     "goals": {
+      "achieved": 0,
+      "partial": 4,
+      "failed": 8
+     }
+    },
+    {
+     "code": "JK",
+     "name": "Jammu and Kashmir Delegation",
+     "n": 12,
+     "sat": {
+      "n": 12,
+      "mean": 0.32,
+      "sd": 0.103,
+      "min": 0.18,
+      "max": 0.5,
+      "p50": 0.29
+     },
+     "redLineHeldPct": 75,
+     "goals": {
+      "achieved": 0,
+      "partial": 5,
+      "failed": 7
+     }
+    }
+   ],
+   "coalitions": [
+    {
+     "label": "IND-RUS bloc",
+     "n": 4
+    },
+    {
+     "label": "PAK-CHN bloc",
+     "n": 4
+    },
+    {
+     "label": "GBR-USA-JK self-determination bloc",
+     "n": 2
+    },
+    {
+     "label": "IND-JK constitutional track",
+     "n": 2
+    },
+    {
+     "label": "IND-RUS sovereignty bloc",
+     "n": 1
+    },
+    {
+     "label": "GBR-USA-PAK-JK investigation coalition",
+     "n": 1
+    },
+    {
+     "label": "CHN-RUS non-interference bloc",
+     "n": 1
+    },
+    {
+     "label": "IND-USA-RUS bloc",
+     "n": 1
+    }
+   ],
+   "trials": [
+    {
+     "t": 0,
+     "dealType": "breakdown",
+     "shock": "A bus bombing in Jammu kills fourteen pilgrims during the second round",
+     "mood": "hostile",
+     "mediatorPressure": "low",
+     "note": "New Delhi suspended participation and named Pakistani-based groups; the humanitarian annex died with the conference and no autonomy language survived."
+    },
+    {
+     "t": 1,
+     "dealType": "breakdown",
+     "shock": "India announces permanent withdrawal from the Indus Waters Treaty",
+     "mood": "hostile",
+     "mediatorPressure": "low",
+     "note": "Water displaced Kashmir as the crisis; Islamabad walked out to internationalize the treaty question and the conference lost its quorum on every chapter."
+    },
+    {
+     "t": 2,
+     "dealType": "partial",
+     "shock": "An NGO confirms a new mass grave near Baramulla",
+     "mood": "hostile",
+     "mediatorPressure": "high",
+     "note": "Pressure forced India to accept a domestic judicial inquiry with international observers attending as guests — short of a UN investigation, and past New Delhi's stated no-external-scrutiny line."
+    },
+    {
+     "t": 3,
+     "dealType": "stalemate",
+     "shock": "China announces a second mega-dam on the Yarlung Tsangpo",
+     "mood": "neutral",
+     "mediatorPressure": "medium",
+     "note": "The dam pulled Indian attention onto the China file and out of the Kashmir chapters; Beijing preserved the status quo at no cost and the annex was never drafted."
+    },
+    {
+     "t": 4,
+     "dealType": "partial",
+     "shock": "The Jammu and Kashmir Legislative Assembly passes a resolution demanding Article 370's restoration",
+     "mood": "neutral",
+     "mediatorPressure": "medium",
+     "note": "An elected resolution gave New Delhi a counterparty it could recognize; Article 370's restoration entered the text as an Indian constitutional matter, which Islamabad rejected as legitimizing the occupation."
+    },
+    {
+     "t": 5,
+     "dealType": "stalemate",
+     "shock": "Washington announces a major defence package for New Delhi on day one",
+     "mood": "neutral",
+     "mediatorPressure": "low",
+     "note": "American leverage evaporated the moment the package was announced; India conceded nothing and the U.S. and U.K. autonomy red line went unmet with no counter-offer available."
+    },
+    {
+     "t": 6,
+     "dealType": "framework",
+     "shock": "A UNMOGIP observer is killed by shelling near the Line of Control",
+     "mood": "constructive",
+     "mediatorPressure": "high",
+     "note": "A dead peacekeeper produced the one thing all seven could sign: a strengthened ceasefire-monitoring regime with the humanitarian annex attached — and still no autonomy provision."
+    },
+    {
+     "t": 7,
+     "dealType": "stalemate",
+     "shock": "Pakistan's coalition government collapses mid-conference",
+     "mood": "neutral",
+     "mediatorPressure": "medium",
+     "note": "The Pakistani delegation lost its mandate to concede anything; India waited it out and the conference produced procedural text only."
+    },
+    {
+     "t": 8,
+     "dealType": "partial",
+     "shock": "An earthquake in Ladakh displaces forty thousand more people",
+     "mood": "constructive",
+     "mediatorPressure": "high",
+     "note": "Disaster relief widened the humanitarian annex into cross-LoC corridors and joint screening; the political chapters were formally deferred to a session that was never scheduled."
+    },
+    {
+     "t": 9,
+     "dealType": "partial",
+     "shock": "A leaked cable documents ISI support to a listed militant group",
+     "mood": "hostile",
+     "mediatorPressure": "high",
+     "note": "Moscow's single demand landed with documentary force; Pakistan conceded counterterrorism verification and lost every other chapter, and Russia never had to press New Delhi in return."
+    },
+    {
+     "t": 10,
+     "dealType": "framework",
+     "shock": "India's Supreme Court orders early restoration of statehood to Jammu and Kashmir",
+     "mood": "constructive",
+     "mediatorPressure": "medium",
+     "note": "A domestic court did what the conference could not: statehood plus a dated devolution timetable inside the Indian constitution, which met the U.S. and U.K. limited-autonomy threshold but not Kashmiri demands for a ballot."
+    },
+    {
+     "t": 11,
+     "dealType": "partial",
+     "shock": "Beijing offers to fund reconstruction on both sides of the Line of Control",
+     "mood": "neutral",
+     "mediatorPressure": "low",
+     "note": "Chinese money entrenched both administrations at once; reconstruction ran through New Delhi and Islamabad, and the Kashmiri delegation was written out of the only chapter that produced text."
+    }
+   ]
+  },
+  {
    "key": "iran",
    "title": "Iran–US — Strait of Hormuz",
    "sessionId": "sess-1778361924764-byifbp",

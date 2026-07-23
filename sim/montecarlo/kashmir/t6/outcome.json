@@ -1,0 +1,60 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {
+   "code": "IND",
+   "name": "Republic of India",
+   "satisfaction": 0.5,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "PAK",
+   "name": "Islamic Republic of Pakistan",
+   "satisfaction": 0.48,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "JK",
+   "name": "Jammu and Kashmir Delegation",
+   "satisfaction": 0.38,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "CHN",
+   "name": "People's Republic of China",
+   "satisfaction": 0.52,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russian Federation",
+   "satisfaction": 0.54,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "GBR",
+   "name": "United Kingdom",
+   "satisfaction": 0.5,
+   "primaryGoal": "partial",
+   "redLineHeld": false
+  },
+  {
+   "code": "USA",
+   "name": "United States of America",
+   "satisfaction": 0.56,
+   "primaryGoal": "partial",
+   "redLineHeld": false
+  }
+ ],
+ "coalitions": [
+  "GBR-USA-PAK-JK coalition",
+  "IND-CHN-RUS status-quo bloc",
+  "LoC monitoring coalition (all seven)"
+ ],
+ "note": "A dead peacekeeper produced the one thing all seven could sign: a strengthened ceasefire-monitoring regime with the humanitarian annex attached — and still no autonomy provision."
+}

@@ -1,0 +1,59 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {
+   "code": "IND",
+   "name": "Republic of India",
+   "satisfaction": 0.54,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "PAK",
+   "name": "Islamic Republic of Pakistan",
+   "satisfaction": 0.46,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "JK",
+   "name": "Jammu and Kashmir Delegation",
+   "satisfaction": 0.4,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "CHN",
+   "name": "People's Republic of China",
+   "satisfaction": 0.58,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russian Federation",
+   "satisfaction": 0.6,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  },
+  {
+   "code": "GBR",
+   "name": "United Kingdom",
+   "satisfaction": 0.44,
+   "primaryGoal": "partial",
+   "redLineHeld": false
+  },
+  {
+   "code": "USA",
+   "name": "United States of America",
+   "satisfaction": 0.46,
+   "primaryGoal": "partial",
+   "redLineHeld": false
+  }
+ ],
+ "coalitions": [
+  "Relief coalition (CHN-RUS-IND funding)",
+  "GBR-USA-JK self-determination bloc"
+ ],
+ "note": "Disaster relief widened the humanitarian annex into cross-LoC corridors and joint screening; the political chapters were formally deferred to a session that was never scheduled."
+}

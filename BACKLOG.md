@@ -118,6 +118,30 @@ not been reviewed. In rough priority order:
   testable claim, using transcripts that already exist.
 - **Model assignment may be a confound in the existing scenarios.** The four
   original negotiations ran on Opus while their Monte Carlo trials ran on
-  Sonnet (see `methodology.html`). If the mixed-model audit confirms that tier
-  affects red-line fidelity, that split needs stating wherever those trial
-  distributions are quoted.
+  Sonnet (see `methodology.html`). The audit is now done and does not settle
+  this: it found tier-linked defects that are real and quotable, but also found
+  the same error families in the all-Opus arm, and its design confounds model
+  with seat. Treat the split as an unresolved confound and state it wherever
+  those trial distributions are quoted.
+- **The settlement-rate metric cannot vary on Korea, and possibly not
+  elsewhere.** The audit found the DPRK's maximum authorised concession and the
+  trilateral bloc's minimum authorised demand are logically disjoint, so no
+  role-faithful agent can produce a comprehensive settlement on that scenario.
+  The same check has not been run on the other five. Run it: read each
+  scenario's `redLines` and `concessionsWilling` against each other and record
+  which tables are settleable at all. Any scenario that is not should stop
+  having its zero-settlement result reported as a finding. Building one
+  scenario whose authorised concession sets *do* overlap would make settlement
+  rate a variable rather than a constant, and is the single change that would
+  most improve what the Monte Carlo layer can measure.
+- **The mixed-model comparison needs replication before any of it is a rate.**
+  n = 1 per condition. To turn documented instances into frequencies: rotate
+  each tier across each seat so model and role come apart, run at least ten
+  replicates per cell, and have a second coder repeat the red-line audit blind
+  to the model assignment, reporting inter-rater agreement. Until then nothing
+  in `findings.md` should be cited as an effect size.
+- **No `analysis.json` exists for the mixed run**, so no scoreboard comparison
+  between the two arms is possible without constructing one post hoc by a
+  different method than the baseline used. If a numeric comparison is wanted,
+  re-run the mixed arm through the same analyst pipeline rather than
+  reconstructing figures by hand.

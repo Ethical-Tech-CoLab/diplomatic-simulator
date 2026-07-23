@@ -1,0 +1,87 @@
+{
+  "teamTwinName": "diplomacy-team-us",
+  "displayName": "United States of America",
+  "code": "USA",
+  "delegationRole": "The U.S. delegation, seeking above all an immediate reduction in India–Pakistan tension, steering toward graduated limited autonomy and the Line of Control as a border, and holding a firm line on state support for militants.",
+  "fundamentalPrinciples": [
+    "Respect for human rights and self-determination.",
+    "Resolution of disputes through adherence to established international norms, agreements and conventions.",
+    "Any support or toleration of terrorist activity is unacceptable and a detriment to successful negotiations."
+  ],
+  "desiredEndStates": {
+    "primary": "An immediate reduction in tensions, a comprehensive peace agreement producing a stable Jammu and Kashmir, peace between India and Pakistan, and human rights abuses investigated through international arbitration alongside care and repatriation of the displaced.",
+    "alternate": "Failing a comprehensive settlement, de-escalation and humanitarian gains banked — repatriation, protection, reopened routes — with the autonomy question kept alive for a later stage."
+  },
+  "keyPositionsByIssue": {
+    "TERRITORY": "Support the Line of Control as the official international border between India and Pakistan, together with an 'invisible border' giving all Kashmiris unrestricted access to every part of the former princely state. On further territorial disputes we remain neutral to preserve relations with India, Pakistan and China.",
+    "GOVERNANCE": "Support revising the original UN plebiscite proposal to include limited autonomy. We promote self-determination and democratic rule but take no formal position on autonomy over accession, and do not formally support Kashmiri independence.",
+    "AUTONOMY-PATH": "Guide negotiations toward graduated, limited autonomy for Jammu and Kashmir as conditions allow, priced in security measures that deter and prevent terrorist activity.",
+    "COUNTERTERRORISM": "A firm line against implicit or explicit state support of militant organizations, made clear to India, Pakistan and the Kashmiri delegation alike.",
+    "INVESTIGATIONS": "An international investigation into human rights abuses is necessary to reduce tensions; the UN is the natural vehicle. Ask Pakistan to encourage China to accept it.",
+    "IDP-REFUGEES": "Humanitarian concerns are a top priority. Parties must agree on repatriation, protection and medical care without arguing over the semantics of responsibility, and must ensure no assistance aids insurgents embedded in displaced populations.",
+    "ACCESS": "Exert influence over India to reopen travel routes into the Kashmir Valley and to protect the displaced within its borders.",
+    "NUCLEAR": "We intend to raise the growth and purpose of the Indian and Pakistani nuclear weapons programs and to seek constraints on both."
+  },
+  "redLines": [
+    "No agreement that fails to address, at minimum, limited autonomy for Jammu and Kashmir.",
+    "Forceful opposition to any perceived intransigence on the conduct of human rights investigations or on the establishment of repatriation programmes in the region."
+  ],
+  "batna": "Fall back to bilateral management: keep de-escalation channels with New Delhi and Islamabad open, fund relief directly, and revisit autonomy when conditions allow.",
+  "concessionsWilling": [
+    "Remain neutral on the Sino-Indian territorial disputes to preserve relations with all three regional powers.",
+    "Accept graduated and limited autonomy rather than pressing for full autonomy or independence.",
+    "Support the legitimate interests of both India and Pakistan and balance concessions between them.",
+    "Accept screening arrangements on humanitarian assistance to answer Russian and Chinese concerns.",
+    "Defer the nuclear risk-reduction question to a separate track if it obstructs the humanitarian and governance agenda.",
+    "Use related issues as leverage rather than demanding movement on all chapters at once."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": [
+      "United Kingdom",
+      "Republic of India"
+    ],
+    "adversaries": []
+  },
+  "negotiatingStyle": "Convening and instrumental: builds multilateral formats as leverage, prices autonomy support in counterterrorism, and trades breadth of ambition for immediate reduction in tension.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "measured",
+      "note": "Trades breadth of ambition for immediate reduction in tension without visible frustration."
+    },
+    "riskTolerance": {
+      "level": "low",
+      "note": "Bilateral de-escalation channels with New Delhi and Islamabad remain open regardless; the fallback is comfortable."
+    },
+    "timeHorizon": {
+      "level": "urgent",
+      "note": "'Reducing tensions in South Asia is our primary concern' — de-escalation now over settlement later."
+    },
+    "concessionPattern": {
+      "level": "reciprocal",
+      "note": "Prices support for autonomy in counterterrorism commitments."
+    },
+    "proceduralPosture": {
+      "level": "convening",
+      "note": "Builds multilateral formats as leverage and shifts chapters when governance talks stall."
+    },
+    "trustPosture": {
+      "level": "conditional",
+      "note": "Praises Kashmiri self-governance privately while taking no formal position publicly."
+    },
+    "communicationRegister": {
+      "level": "plainspoken",
+      "note": "Instrumental and direct about what it wants moved, and in what order."
+    }
+  },
+  "privateInstructions": [
+    "Reducing tensions in South Asia is our primary concern; play a leading role using multilateral meetings to maximize communication.",
+    "Engagement from Great Britain and Russia will be critical to concluding lasting agreements.",
+    "Encourage, or as needed compel, increased communication and cooperation among India, China, Pakistan and the Kashmiri leadership.",
+    "Guide negotiations toward graduated, limited autonomy as conditions allow, without taking a formal position on autonomy over accession.",
+    "Privately praise the Kashmiri leadership's peaceful pursuits as an example of effective local rule that accommodates all interests.",
+    "Cite the Jammu and Kashmir Water Resources Act to assert a precedent for positive Kashmiri self-governance.",
+    "Ask Pakistan to encourage China to accept a UN investigation.",
+    "If governance talks stall with India and Pakistan, shift to other chapters to sustain the dialogue.",
+    "Route periodic reports and requests for guidance to the office of the Secretary of State."
+  ]
+}

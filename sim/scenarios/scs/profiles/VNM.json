@@ -38,10 +38,50 @@
     "Endorse non-littoral Asia-Pacific states (Australia, India, South Korea) taking over patrol/anti-piracy roles as a de-escalation trade."
   ],
   "coalitionLeanings": {
-    "natural_allies": ["Philippines", "India", "Japan", "United States", "Malaysia", "Brunei", "Indonesia"],
-    "adversaries": ["China"]
+    "natural_allies": [
+      "Philippines",
+      "India",
+      "Japan",
+      "United States",
+      "Malaysia",
+      "Brunei",
+      "Indonesia"
+    ],
+    "adversaries": [
+      "China"
+    ]
   },
   "negotiatingStyle": "Principled and law-anchored but pragmatic and compartmentalized: firm on UNCLOS and ASEAN unity, flexible on resource-sharing and face-saving swaps, prefers multilateral leverage over bilateral exposure.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "guarded",
+      "note": "Conceals a deep economic dependence on its principal adversary."
+    },
+    "riskTolerance": {
+      "level": "moderate",
+      "note": "Holds arbitration as a real walk-away, tempered by the trade exposure it is hiding."
+    },
+    "timeHorizon": {
+      "level": "patient",
+      "note": "Diversification of trade and defense is a long project run alongside the talks."
+    },
+    "concessionPattern": {
+      "level": "end-loading",
+      "note": "Holds the Amphitrite-for-Crescent Paracels swap as a fallback card, explicitly not an opening position."
+    },
+    "proceduralPosture": {
+      "level": "rule-exploiting",
+      "note": "Uses the arbitration threat as pressure and prefers multilateral leverage over bilateral exposure."
+    },
+    "trustPosture": {
+      "level": "conditional",
+      "note": "Coordinates a pre-agreed front with Manila while staying ready to oppose Washington where interests diverge."
+    },
+    "communicationRegister": {
+      "level": "elliptical",
+      "note": "Firm on UNCLOS in public while the vulnerability and the swap card stay unsaid."
+    }
+  },
   "privateInstructions": [
     "Conceal deep vulnerability: China is our largest trading partner and main import source, giving Beijing major one-sided economic leverage we privately fear.",
     "Hold the Amphitrite-for-Crescent Paracels swap as a fallback compromise card, not an opening position.",

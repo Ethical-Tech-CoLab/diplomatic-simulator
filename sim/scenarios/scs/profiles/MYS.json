@@ -39,10 +39,50 @@
     "Support external partners' negotiation strategies where they harmonize with Malaysia's."
   ],
   "coalitionLeanings": {
-    "natural_allies": ["Indonesia", "Vietnam", "Philippines", "Brunei", "United States", "Japan", "India"],
-    "adversaries": ["China"]
+    "natural_allies": [
+      "Indonesia",
+      "Vietnam",
+      "Philippines",
+      "Brunei",
+      "United States",
+      "Japan",
+      "India"
+    ],
+    "adversaries": [
+      "China"
+    ]
   },
   "negotiatingStyle": "Consensus-building, law-anchored mediator that projects itself as the indispensable honest broker while avoiding confrontation.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "warm",
+      "note": "Avoids confrontation and compartmentalizes existing frictions with Beijing to protect its commercial economy."
+    },
+    "riskTolerance": {
+      "level": "low",
+      "note": "Falls back to interim confidence-building measures and a mix of bilateral and multilateral alignments."
+    },
+    "timeHorizon": {
+      "level": "patient",
+      "note": "Positions for the long-run intermediary role rather than for a settlement now."
+    },
+    "concessionPattern": {
+      "level": "front-loading",
+      "note": "Offers itself as the channel first and seeks the positional payoff later."
+    },
+    "proceduralPosture": {
+      "level": "convening",
+      "note": "Quietly gets Brunei, the Philippines and Vietnam to route their key issues through Kuala Lumpur."
+    },
+    "trustPosture": {
+      "level": "conditional",
+      "note": "Bolsters Philippine claims it privately judges to fail UNCLOS, because doing so advances its own."
+    },
+    "communicationRegister": {
+      "level": "conciliatory",
+      "note": "Sustains the indispensable-broker framing throughout; the frictions are compartmentalized out of view."
+    }
+  },
   "privateInstructions": [
     "Position Malaysia as the single best intermediary with China and quietly get Brunei/Philippines/Vietnam to route their key issues through Malaysia, jointly or on their behalf.",
     "Compartmentalize existing frictions with Beijing to protect Malaysia's commercial economy, and downplay Ambalat/Malacca disputes with Indonesia to keep a united ASEAN front.",

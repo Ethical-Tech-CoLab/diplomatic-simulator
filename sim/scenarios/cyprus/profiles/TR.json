@@ -41,10 +41,46 @@
     "Accept a minimal set of shared national institutions (banking, foreign service, investigative service)."
   ],
   "coalitionLeanings": {
-    "natural_allies": ["Turkish Republic of Northern Cyprus", "United Kingdom", "United States"],
-    "adversaries": ["Republic of Cyprus"]
+    "natural_allies": [
+      "Turkish Republic of Northern Cyprus",
+      "United Kingdom",
+      "United States"
+    ],
+    "adversaries": [
+      "Republic of Cyprus"
+    ]
   },
   "negotiatingStyle": "Firm, principled-bargaining and sovereignty-assertive; lets the TRNC take the lead, uses issue-linkage and red-line signaling, and avoids direct talks with Greek Cypriots to force them to deal with the TRNC.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "guarded",
+      "note": "Avoids direct talks with Greek Cypriots as a deliberate device to force them to deal with the TRNC."
+    },
+    "riskTolerance": {
+      "level": "high",
+      "note": "The two-state fallback under Turkish protection is a preferred outcome, not a penalty."
+    },
+    "timeHorizon": {
+      "level": "patient",
+      "note": "Recognition of the TRNC is 'the first step, not genuine unification' — a longer game than this table."
+    },
+    "concessionPattern": {
+      "level": "withholding",
+      "note": "Coordinates every move with the TRNC before broaching it; concedes nothing unilaterally."
+    },
+    "proceduralPosture": {
+      "level": "rule-exploiting",
+      "note": "Uses issue-linkage, red-line signaling, and guarantor status as standing."
+    },
+    "trustPosture": {
+      "level": "assumes-bad-faith",
+      "note": "Retains the legal right of Turkish Cypriot 'divorce' should security or liberty concerns arise."
+    },
+    "communicationRegister": {
+      "level": "plainspoken",
+      "note": "Signals red lines explicitly rather than leaving them to be inferred."
+    }
+  },
   "privateInstructions": [
     "Ultimate goal is a strong, independent TRNC; pursue international recognition of the TRNC as the first step, not genuine unification.",
     "Coordinate every move on Direct Trade Regulation / EU accession and other issues with the TRNC delegation before broaching them, and avoid direct engagement with Greek Cypriots to force them to deal with the TRNC.",

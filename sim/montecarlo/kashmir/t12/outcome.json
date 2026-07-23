@@ -1,0 +1,59 @@
+{
+ "dealType": "stalemate",
+ "parties": [
+  {
+   "code": "IND",
+   "name": "Republic of India",
+   "satisfaction": 0.42,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "PAK",
+   "name": "Islamic Republic of Pakistan",
+   "satisfaction": 0.4,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "JK",
+   "name": "Jammu and Kashmir Delegation",
+   "satisfaction": 0.34,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "CHN",
+   "name": "People's Republic of China",
+   "satisfaction": 0.46,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russian Federation",
+   "satisfaction": 0.46,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "GBR",
+   "name": "United Kingdom",
+   "satisfaction": 0.36,
+   "primaryGoal": "failed",
+   "redLineHeld": false
+  },
+  {
+   "code": "USA",
+   "name": "United States of America",
+   "satisfaction": 0.38,
+   "primaryGoal": "failed",
+   "redLineHeld": false
+  }
+ ],
+ "coalitions": [
+  "GBR-USA-PAK-JK investigation coalition",
+  "IND-CHN-RUS non-interference bloc"
+ ],
+ "note": "Publishing before negotiating hardened New Delhi; the investigation was blocked, and the humanitarian text was the only chapter that moved."
+}

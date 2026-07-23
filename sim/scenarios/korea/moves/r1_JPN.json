@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-japan",
+ "displayName": "Japan",
+ "roundNumber": 1,
+ "kind": "opening-statement",
+ "text": "Mr. Chairman, Japan thanks the People's Republic of China for convening us, and joins this table in good faith. Let me be plain about where Japan stands. First, our objective is complete, verifiable and irreversible dismantlement of the DPRK's nuclear and ballistic missile programs, agreed as one comprehensive package. A rewarded step-by-step sequence buys time for the programs it claims to constrain. Second, no nation save the Republic of Korea lives under a more immediate threat from those missiles than Japan; our alliances and defensive measures with the United States and the Republic of Korea will be sustained while that threat stands. Third, this process must include a full and satisfactory accounting of the abduction of Japanese citizens, including identification and return of the remains of those who died in the North. That is a humanitarian obligation, and Japan will raise it in every forum available to us. What Japan will not accept is any loosening of sanctions in the absence of a comprehensive agreement, nor any settlement reached over Japan's head. Japan will not be sidelined. We are prepared to be generous once, and only once, the whole is resolved.",
+ "tacticsApplied": [
+  "anchoring",
+  "red-line-signaled",
+  "humanitarian-frame",
+  "deterrence-frame"
+ ]
+}

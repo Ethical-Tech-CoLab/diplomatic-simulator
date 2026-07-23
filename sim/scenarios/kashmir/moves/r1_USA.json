@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-us",
+ "displayName": "United States of America",
+ "roundNumber": 1,
+ "kind": "opening-statement",
+ "text": "Special Representative, the United States thanks the Secretary-General for convening this conference, and welcomes the delegation of Jammu and Kashmir to this table. Our first priority is immediate and durable de-escalation between India and Pakistan. Nine months after the exchanges of May 2025, the region remains one miscalculation from catastrophe. We come to convene, not to dictate. Three headline priorities. First, in Chapter I, we support recognition of the Line of Control as the international border, paired with an invisible border granting every Kashmiri unrestricted access to every part of the former princely state. On the wider territorial claims we remain neutral. Second, in Chapter II, we favor graduated, limited autonomy, priced in verifiable security guarantees. Third, humanitarian relief for 950,000 displaced people cannot wait on the semantics of blame: repatriation, protection, medical care, and reopened routes into the Valley. Let me be plain about what we will not accept. Implicit or explicit state support for militant organizations is disqualifying, and the United States will not join any agreement that leaves human rights violations uninvestigated internationally or that fails to address autonomy for Jammu and Kashmir.",
+ "tacticsApplied": [
+  "anchoring",
+  "red-line-signaled",
+  "counterterrorism-frame",
+  "humanitarian-frame"
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {
+   "code": "CHN",
+   "name": "People's Republic of China",
+   "satisfaction": 0.74,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  },
+  {
+   "code": "PRK",
+   "name": "Democratic People's Republic of Korea",
+   "satisfaction": 0.6,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "KOR",
+   "name": "Republic of Korea",
+   "satisfaction": 0.55,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "USA",
+   "name": "United States of America",
+   "satisfaction": 0.44,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "JPN",
+   "name": "Japan",
+   "satisfaction": 0.34,
+   "primaryGoal": "failed",
+   "redLineHeld": false
+  },
+  {
+   "code": "RUS",
+   "name": "Russian Federation",
+   "satisfaction": 0.68,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "CHN-RUS-PRK step-by-step bloc",
+  "WFP-certified humanitarian coalition (CHN-RUS-KOR)"
+ ],
+ "note": "Verified famine data made refusal politically untenable; a freeze-for-freeze with IAEA monitors and a humanitarian corridor was agreed in principle, crossing Japan's no-relief-before-comprehensive line."
+}

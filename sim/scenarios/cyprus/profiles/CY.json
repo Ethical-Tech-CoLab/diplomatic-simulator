@@ -41,10 +41,48 @@
     "Accept a whole-island census by a mutually agreed independent agency."
   ],
   "coalitionLeanings": {
-    "natural_allies": ["Greece", "United States", "United Kingdom", "European Union"],
-    "adversaries": ["Turkish Republic of Northern Cyprus", "Turkey"]
+    "natural_allies": [
+      "Greece",
+      "United States",
+      "United Kingdom",
+      "European Union"
+    ],
+    "adversaries": [
+      "Turkish Republic of Northern Cyprus",
+      "Turkey"
+    ]
   },
   "negotiatingStyle": "Legalistic and principle-driven, anchoring on international recognition and the EU acquis while trading EU-accession leverage for demilitarization.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "guarded",
+      "note": "Treats conduct in common areas as subject to intelligence collection and negotiates accordingly."
+    },
+    "riskTolerance": {
+      "level": "moderate",
+      "note": "The status quo inside the EU is survivable; the recognized Republic continues either way."
+    },
+    "timeHorizon": {
+      "level": "patient",
+      "note": "The blocks on Turkish accession and the Direct Trade Regulation lose no value with time."
+    },
+    "concessionPattern": {
+      "level": "reciprocal",
+      "note": "Concedes a Senate-elected Vice-President 'only as a trade'; nothing is offered for free."
+    },
+    "proceduralPosture": {
+      "level": "rule-exploiting",
+      "note": "Turns the census into an instrument for quantifying settlers and framing them as a war crime."
+    },
+    "trustPosture": {
+      "level": "verification-first",
+      "note": "Releases its leverage only against verified Turkish troop withdrawal."
+    },
+    "communicationRegister": {
+      "level": "legalistic",
+      "note": "Anchors on international recognition and the EU acquis rather than on outcomes."
+    }
+  },
   "privateInstructions": [
     "Treat the census as a tool to expose and quantify Turkish settlers/soldiers for repatriation and to frame them as a Fourth Geneva Convention war crime.",
     "Use blocks on Türkiye's EU accession and the Direct Trade Regulation as bargaining leverage, releasing them only against verified Turkish troop withdrawal.",

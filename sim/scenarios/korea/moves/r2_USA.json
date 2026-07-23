@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-us",
+ "displayName": "United States of America",
+ "roundNumber": 2,
+ "kind": "offer",
+ "text": "Mr. Chairman, the United States notes what Moscow put on the record: Russia \"has never recognized, and will not recognize, the DPRK as a nuclear-weapon state.\" Seoul and Tokyo said the same. Five of six delegations at this table want that program gone. Only its timetable is disputed — and Pyongyang's answer, that it disarms \"when the rest of the world gives up theirs,\" is no timetable at all. So we table this. If the DPRK announces return to the NPT as a non-nuclear-weapons state and readmits the IAEA with unconditional access, then the United States will: not oppose light water reactors through a re-established KEDO, with no DPRK access to the reactors; invite China and Russia to supply conventional power and rehabilitate the grid, as Moscow has offered; open direct U.S.-DPRK talks without preconditions, uncoupled from this table, beginning immediately; and support a peace declaration and treaty track once verification permits. Urgent humanitarian assistance we will provide now. Broader relief follows implementation. What we will not do is buy a freeze, Mr. Chairman. Exercises and THAAD stay. And we support Japan-DPRK bilateral talks on the abductions.",
+ "tacticsApplied": [
+  "coalition-building",
+  "conditional-offer",
+  "issue-linkage",
+  "red-line-signaled"
+ ]
+}

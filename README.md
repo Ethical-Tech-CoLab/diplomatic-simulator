@@ -14,7 +14,7 @@ produces a full transcript, tactic analysis, and a convener report.
 **▶ Live site:** https://ethical-tech-colab.github.io/diplomatic-simulator/
 &nbsp;·&nbsp; **[Watch a live negotiation](https://ethical-tech-colab.github.io/diplomatic-simulator/live.html)** (delegations take the floor one by one, streamed as a live feed)
 &nbsp;·&nbsp; **[Interactive dashboard](https://ethical-tech-colab.github.io/diplomatic-simulator/dashboard.html)** (parties' thoughts, proposals, detector hits, scoreboard — pick any scenario)
-&nbsp;·&nbsp; **[Monte Carlo analysis](https://ethical-tech-colab.github.io/diplomatic-simulator/montecarlo.html)** (outcome distributions across 8 randomized-condition trials per scenario)
+&nbsp;·&nbsp; **[Monte Carlo analysis](https://ethical-tech-colab.github.io/diplomatic-simulator/montecarlo.html)** (outcome distributions across ~20 randomized-condition trials per scenario)
 
 | Scenario | Parties | Report page | Interactive | Focus |
 |---|---|---|---|---|
@@ -22,6 +22,8 @@ produces a full transcript, tactic analysis, and a convener report.
 | **Central Asia — Fergana Valley** | 7 | [report](https://ethical-tech-colab.github.io/diplomatic-simulator/scenario-central-asia.html) | [table](https://ethical-tech-colab.github.io/diplomatic-simulator/diplomacy-demo/index.html?session=sess-centralasia-iscne-01) | Disputed borders, Syr Darya water, hydropower, great-power influence |
 | **Cyprus — Reunification** | 6 | [report](https://ethical-tech-colab.github.io/diplomatic-simulator/scenario-cyprus.html) | [table](https://ethical-tech-colab.github.io/diplomatic-simulator/diplomacy-demo/index.html?session=sess-cyprus-iscne-01) | Federation vs. two-state, territory, property, security, EEZ gas |
 | **South China Sea** | 9 | [report](https://ethical-tech-colab.github.io/diplomatic-simulator/scenario-south-china-sea.html) | [table](https://ethical-tech-colab.github.io/diplomatic-simulator/diplomacy-demo/index.html?session=sess-scs-iscne-01) | Competing claims, UNCLOS, freedom of navigation, code of conduct |
+| **Korea — Six-Party Talks** | 6 | [report](https://ethical-tech-colab.github.io/diplomatic-simulator/scenario-korea.html) | [table](https://ethical-tech-colab.github.io/diplomatic-simulator/diplomacy-demo/index.html?session=sess-korea-iscne-01) | Denuclearization vs. mutual freeze, THAAD, sanctions & humanitarian aid, peace treaty, LWR/KEDO |
+| **Jammu & Kashmir** | 7 | [report](https://ethical-tech-colab.github.io/diplomatic-simulator/scenario-kashmir.html) | [table](https://ethical-tech-colab.github.io/diplomatic-simulator/diplomacy-demo/index.html?session=sess-kashmir-iscne-01) | Sovereignty & the Line of Control, Article 370 and the unheld plebiscite, human rights investigation, 950,000 displaced |
 | **Iran–US Strait of Hormuz** | 2 | [report](https://ethical-tech-colab.github.io/diplomatic-simulator/diplomacy-session-report.html) | — | Original session report (ceasefire / Hormuz closure crisis) |
 
 Each **report page** is a standalone, readable write-up (overview, convener report, scoreboard, full transcript); the **interactive table** replays the same session with a scenario picker.
@@ -42,3 +44,29 @@ only. Search-engine indexing is disabled via `robots.txt` and per-page `noindex`
 ## Attribution
 
 Adapted from the original Nova Fellowship portfolio work. See individual files for prior attribution.
+
+---
+
+## Peer Review
+
+The full independent academic peer review of this report is in [PEER-REVIEW.md](PEER-REVIEW.md) (also available as [Word](peer-review/DiplomaticSimulator-Peer-Review.docx) under [`peer-review/`](peer-review/)).
+
+**Recommendation:** Major revisions
+
+**What the review found:**
+
+- The deepest limitation, that one model plays every side, is acknowledged but never tested, though the test is cheap and available. — **Partially addressed: the Korea mixed-model run is done and committed; its comparative analysis is still outstanding, and every affected claim is labelled conditional meanwhile.**
+
+### Revisions applied (peer review, Tier 2)
+
+**The multi-model run has been executed for Korea; its comparative analysis has not.** A controlled A/B against the isolated single-model baseline (`93b2941`) holds scenario, profiles, brief, prompts, rounds and information isolation constant and varies only the model behind each seat — DPRK and USA on Opus 4.8, China and Russia on Sonnet, ROK and Japan on Haiku 4.5. Design and all three round transcripts are committed under [`sim/analysis/mixed-model/`](sim/analysis/mixed-model/). **The Findings section of `korea.md` is still empty**, so the question the review actually asked — do the convergences, the red-line breaks and the "zero comprehensive settlements" result survive a different model assignment? — is not yet answered. That write-up is the outstanding item.
+
+**What has also been done** is the reviewer's stated fallback — making the conditionality travel with the numbers instead of sitting in a limitations section readers reach last:
+
+- **S5.4, S6, and S8.6 each carry a "conditional on a single model" banner** at the point the results are presented, stating that satisfaction scores, red-line survival rates, deal-type distributions, and coalition frequencies describe how one model behaves playing every side, not how negotiations behave.
+- **New S11.1a** states plainly that diagnosing the monoculture problem is not the same as measuring it, documents the mixed-model run's design and model assignment, and records that what remains outstanding is the comparative analysis rather than the run itself.
+- **S13.1 is softened**: the conclusion now opens by saying the negotiation results should not yet be read as findings about negotiation, and confines the contribution to the methodological discipline, which is what the prototype actually demonstrates.
+- The headline "0 comprehensive settlements" result may be an artefact of the model's disposition rather than a finding about diplomacy.
+- Small-n percentages ("38% of runs" = 3 of 8) contradict the paper's own caveat against quoting such figures.
+
+**Noted strength:** Radical, self-documenting transparency, including disabling search indexing so AI-invented statements cannot circulate as reporting.

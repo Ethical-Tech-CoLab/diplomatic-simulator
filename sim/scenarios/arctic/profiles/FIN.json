@@ -34,10 +34,51 @@
     "Support new like-minded observers, including EU full observer status, on the Arctic Council."
   ],
   "coalitionLeanings": {
-    "natural_allies": ["Denmark", "Norway", "Iceland", "Sweden", "EU", "NATO/Scandinavian partners"],
-    "adversaries": ["China (bid for Council membership)", "Arctic Five (as an exclusive bloc)", "Russia (threat, yet essential dialog partner)"]
+    "natural_allies": [
+      "Denmark",
+      "Norway",
+      "Iceland",
+      "Sweden",
+      "EU",
+      "NATO/Scandinavian partners"
+    ],
+    "adversaries": [
+      "China (bid for Council membership)",
+      "Arctic Five (as an exclusive bloc)",
+      "Russia (threat, yet essential dialog partner)"
+    ]
   },
   "negotiatingStyle": "Gracious host and pragmatic bridge-builder favoring dialog, diplomacy, and consensus over confrontation.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "warm",
+      "note": "Hosts the conference and prefers dialog and consensus to confrontation as a matter of manner."
+    },
+    "riskTolerance": {
+      "level": "low",
+      "note": "Relies on EU and NATO guarantees; broad cooperation is the fallback and costs Helsinki nothing."
+    },
+    "timeHorizon": {
+      "level": "patient",
+      "note": "Bridge-building is a long project; there is no deadline Finland must beat."
+    },
+    "concessionPattern": {
+      "level": "front-loading",
+      "note": "Offers resource-development assistance as a tool to build bilateral ties before asking for anything."
+    },
+    "proceduralPosture": {
+      "level": "convening",
+      "note": "Uses the host role to draw Moscow into multilateral EU-Arctic dialog."
+    },
+    "trustPosture": {
+      "level": "relationship-first",
+      "note": "Leverages its unique channel to Russia without softening its stated threat assessment."
+    },
+    "communicationRegister": {
+      "level": "conciliatory",
+      "note": "Consensus language throughout, with the trade and global-commons agenda pursued quietly."
+    }
+  },
   "privateInstructions": [
     "Secretly leverage its unique channel to Russia to draw Moscow into multilateral EU-Arctic dialog, without appearing to soften its stance on Russia as a threat.",
     "Quietly seek new non-EU trade outlets to offset a ~75% collapse in Russia trade since NATO accession.",

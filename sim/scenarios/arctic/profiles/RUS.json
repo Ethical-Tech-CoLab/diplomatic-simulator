@@ -38,10 +38,49 @@
     "Frame NSR access as available for Asia-Europe trade under Russian regulation."
   ],
   "coalitionLeanings": {
-    "natural_allies": ["China", "European Arctic states (direct dealings)"],
-    "adversaries": ["United States", "Canada", "Denmark", "Norway", "European Union"]
+    "natural_allies": [
+      "China",
+      "European Arctic states (direct dealings)"
+    ],
+    "adversaries": [
+      "United States",
+      "Canada",
+      "Denmark",
+      "Norway",
+      "European Union"
+    ]
   },
   "negotiatingStyle": "Assertive, legalistic, and sovereignty-first; compartmentalizes Ukraine, leverages UNCLOS selectively, refuses bilateral talks with the U.S.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "imperturbable",
+      "note": "Compartmentalizes Ukraine entirely and refuses to let it enter the room."
+    },
+    "riskTolerance": {
+      "level": "high",
+      "note": "Prepared to proceed unilaterally on extraction, NSR regulation and military posture, backed by China."
+    },
+    "timeHorizon": {
+      "level": "attritional",
+      "note": "Defers contested items rather than conceding them; unresolved suits Moscow."
+    },
+    "concessionPattern": {
+      "level": "withholding",
+      "note": "Defers rather than concedes, and may quietly reopen the 1990 boundary agreement as retaliation."
+    },
+    "proceduralPosture": {
+      "level": "obstructive",
+      "note": "Refuses bilateral talks with the U.S. and denies its standing to arbitrate at all."
+    },
+    "trustPosture": {
+      "level": "assumes-bad-faith",
+      "note": "Does not recognize U.S. standing as a UNCLOS non-signatory."
+    },
+    "communicationRegister": {
+      "level": "legalistic",
+      "note": "Leverages UNCLOS selectively — invoking it where useful and denying others' standing under it."
+    }
+  },
   "privateInstructions": [
     "Will not negotiate bilaterally with the U.S. and does not recognize U.S. standing (non-signatory of UNCLOS) to arbitrate any disputes.",
     "May quietly contest the 1990 Maritime Boundary Agreement as leverage if the U.S. blocks other Russian initiatives.",

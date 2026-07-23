@@ -8,6 +8,13 @@ import json, sys, os, html, datetime
 
 DATA = os.path.join(os.path.dirname(__file__), "..", "diplomacy-demo", "data.js")
 
+BEHAVIOR_DIMS = ["temperament", "riskTolerance", "timeHorizon", "concessionPattern",
+                 "proceduralPosture", "trustPosture", "communicationRegister"]
+BEHAVIOR_LABELS = {"temperament": "Temperament", "riskTolerance": "Risk tolerance",
+                   "timeHorizon": "Time horizon", "concessionPattern": "Concession pattern",
+                   "proceduralPosture": "Procedural posture", "trustPosture": "Trust posture",
+                   "communicationRegister": "Register"}
+
 ROUND_LABEL = {1: "Opening Plenary", 2: "Positioning", 3: "Bargaining & Coalitions", 4: "Closing Plenary"}
 # 3-round scenarios: opening / bargaining / closing
 ROUND_LABEL_3 = {1: "Opening Plenary", 2: "Bargaining & Coalitions", 3: "Closing Plenary"}
@@ -35,6 +42,28 @@ def main():
         prows += (f'<tr><td><strong>{esc(p["displayName"])}</strong></td>'
                   f'<td>{sats}</td><td>{esc(sc.get("agreementsWon","-"))}</td>'
                   f'<td>{esc(sc.get("redLinesCrossed","-"))}</td></tr>')
+
+    # behavioural dispositions (brief.behavior, authored per delegation)
+    brows = ""
+    for p in s["parties"]:
+        b = (p.get("brief") or {}).get("behavior") or {}
+        if not b:
+            continue
+        cells = "".join(
+            f'<td><span class="lvl">{esc(b[dim]["level"])}</span>'
+            f'<span class="note">{esc(b[dim].get("note",""))}</span></td>'
+            for dim in BEHAVIOR_DIMS if dim in b)
+        brows += f'<tr><td><strong>{esc(p["displayName"])}</strong></td>{cells}</tr>'
+    bsection = ""
+    if brows:
+        bhead = "".join(f"<th>{esc(BEHAVIOR_LABELS[d])}</th>" for d in BEHAVIOR_DIMS)
+        bsection = (
+            '<section><h2>Delegation dispositions</h2>'
+            '<p class="lead">Seven behavioural dimensions authored into each delegation&rsquo;s profile '
+            'from its own role, BATNA and privileged instructions. These shape how a delegation '
+            'negotiates, independently of what it is negotiating for.</p>'
+            f'<div class="scroll"><table class="behavior"><thead><tr><th>Delegation</th>{bhead}</tr></thead>'
+            f'<tbody>{brows}</tbody></table></div></section>')
 
     # tactics
     tc = sorted(s.get("tacticCounts", {}).items(), key=lambda x: -x[1])[:12]
@@ -94,6 +123,12 @@ table{{width:100%;border-collapse:collapse;margin-top:10px;background:#fff;borde
 th,td{{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);font-size:.92rem}}
 th{{background:var(--navy);color:#fff;font-family:Georgia,serif}}
 tr:last-child td{{border-bottom:0}}tr:nth-child(even) td{{background:#fcfaf6}}
+.scroll{{overflow-x:auto;-webkit-overflow-scrolling:touch}}
+table.behavior{{min-width:900px}}
+table.behavior td{{vertical-align:top;font-size:.8rem}}
+table.behavior th{{font-size:.78rem;white-space:nowrap}}
+.lvl{{display:block;font-weight:700;color:var(--navy);letter-spacing:.01em}}
+.note{{display:block;color:var(--muted);font-size:.74rem;line-height:1.42;margin-top:3px;max-width:22ch}}
 .move{{background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin:10px 0;max-width:80%}}
 .move.left{{border-left:4px solid var(--navy)}}
 .move.right{{border-left:4px solid var(--crimson);margin-left:20%}}
@@ -113,7 +148,7 @@ footer{{border-top:1px solid var(--line);color:var(--muted);font-size:.85rem;tex
 </div></header>
 <div class="wrap">
 <section><h2>Overview</h2><p class="lead">{esc(s.get("description",""))}</p>
-<p><a href="dashboard.html?session={esc(sid)}"><strong>▶ Open the interactive dashboard</strong></a> &nbsp;·&nbsp; <a href="diplomacy-demo/index.html?session={esc(sid)}">simple replay table</a> &nbsp;·&nbsp; <a href="methodology.html">how this was made</a></p></section>
+<p><a href="dashboard.html?session={esc(sid)}"><strong>▶ Open the interactive dashboard</strong></a> &nbsp;·&nbsp; <a href="live.html?session={esc(sid)}">watch it play out live</a> &nbsp;·&nbsp; <a href="diplomacy-demo/index.html?session={esc(sid)}">simple replay table</a> &nbsp;·&nbsp; <a href="methodology.html">how this was made</a></p></section>
 
 <section><h2>Convener Report</h2>
 {('<p class="lead"><strong>'+esc(headline)+'</strong></p>') if headline else ''}
@@ -123,6 +158,8 @@ footer{{border-top:1px solid var(--line);color:var(--muted);font-size:.85rem;tex
 <section><h2>Delegations &amp; Scoreboard</h2>
 <table><thead><tr><th>Delegation</th><th>Satisfaction</th><th>Agreements</th><th>Red lines crossed</th></tr></thead>
 <tbody>{prows}</tbody></table></section>
+
+{bsection}
 
 <section><h2>Tactics observed</h2><div>{tchips}</div></section>
 

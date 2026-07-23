@@ -1,0 +1,59 @@
+{
+ "dealType": "stalemate",
+ "parties": [
+  {
+   "code": "IND",
+   "name": "Republic of India",
+   "satisfaction": 0.4,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "PAK",
+   "name": "Islamic Republic of Pakistan",
+   "satisfaction": 0.36,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "JK",
+   "name": "Jammu and Kashmir Delegation",
+   "satisfaction": 0.24,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "CHN",
+   "name": "People's Republic of China",
+   "satisfaction": 0.6,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russian Federation",
+   "satisfaction": 0.5,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "GBR",
+   "name": "United Kingdom",
+   "satisfaction": 0.32,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "USA",
+   "name": "United States of America",
+   "satisfaction": 0.34,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "IND-RUS bloc",
+  "PAK-CHN bloc"
+ ],
+ "note": "The dam pulled Indian attention onto the China file and out of the Kashmir chapters; Beijing preserved the status quo at no cost and the annex was never drafted."
+}

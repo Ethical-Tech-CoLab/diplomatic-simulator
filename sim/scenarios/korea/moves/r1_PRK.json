@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-dprk",
+ "displayName": "Democratic People's Republic of Korea",
+ "roundNumber": 1,
+ "kind": "opening-statement",
+ "text": "Mr. Chairman, the Democratic People's Republic of Korea thanks the People's Republic of China for convening this process. We came to Beijing, and we came expecting results. Let there be no confusion about why our deterrent exists. For seventy-three years this peninsula has lived under an armistice, not a peace, and under the guns of the United States and its proxies in Seoul and Tokyo. Our nuclear and missile programs are defensive. We will give up our nuclear weapons when the rest of the world gives up theirs — not before, and not on anyone's timetable but our own. Our priorities are three. First, immediate humanitarian assistance for our neediest citizens and the lifting of sanctions engineered to manufacture their suffering. Second, a definitive end to the Korean War and normalization of relations, which must precede any discussion of disarmament. Third, respect — recognition as a nation among nations. We support the step-by-step approach advanced by China and Russia. We will not accept the Japanese abduction question on this agenda. Reciprocity follows respect.",
+ "tacticsApplied": [
+  "red-line-signaled",
+  "humanitarian-frame",
+  "sovereignty-assertion",
+  "issue-linkage"
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-uk",
+ "displayName": "United Kingdom",
+ "roundNumber": 1,
+ "kind": "opening-statement",
+ "text": "Special Representative, the United Kingdom thanks the Secretary-General for convening us, and welcomes in particular the delegation from Jammu and Kashmir, whose presence at this table is unprecedented and, in our judgement, indispensable. We come with three headline priorities. First, de-escalation: the exchanges of May 2025 brought two nuclear-armed states to the edge, and we intend to raise the growth and purpose of both nuclear programmes here. Second, an international investigation into human rights violations, with the United Nations as the natural vehicle — we regard this as the fastest route to lowering tension, and we will oppose forcefully any intransigence upon it. Third, the roughly 950,000 displaced: protection, agreed screening, reopened travel routes and crossing points, and humane repatriation. On terrorism our line is firm and shared with our American colleagues — implicit or explicit state support for militant organisations is unacceptable and corrosive to this process. And let me be plain about what we will not accept: no text that fails to keep full autonomy for Jammu and Kashmir a live option on any ballot.",
+ "tacticsApplied": [
+  "red-line-signaled",
+  "humanitarian-frame",
+  "counterterrorism-frame",
+  "coalition-building"
+ ]
+}

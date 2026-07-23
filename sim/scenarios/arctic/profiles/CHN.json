@@ -34,10 +34,50 @@
     "Emphasize scientific research, environmental protection, and cooperative Arctic/non-Arctic partnerships as trade-friendly framing."
   ],
   "coalitionLeanings": {
-    "natural_allies": ["Russia", "Denmark", "Finland", "Iceland", "Norway", "EU (global commons framing)", "Canada (military training)"],
-    "adversaries": ["United States"]
+    "natural_allies": [
+      "Russia",
+      "Denmark",
+      "Finland",
+      "Iceland",
+      "Norway",
+      "EU (global commons framing)",
+      "Canada (military training)"
+    ],
+    "adversaries": [
+      "United States"
+    ]
   },
   "negotiatingStyle": "Measured 'Major Country Diplomacy' with Wolf Warrior edge in reserve; strongly prefers bilateral deals over multilateral forums.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "measured",
+      "note": "The Wolf Warrior edge is held in reserve behind Major Country Diplomacy."
+    },
+    "riskTolerance": {
+      "level": "moderate",
+      "note": "Enhanced observer responsibilities are a tolerable floor; the long game continues from there."
+    },
+    "timeHorizon": {
+      "level": "attritional",
+      "note": "Plays 'the long game to erode other nations' hesitance' toward full membership."
+    },
+    "concessionPattern": {
+      "level": "front-loading",
+      "note": "Leads with investment and icebreaker cooperation to open basing and access conversations."
+    },
+    "proceduralPosture": {
+      "level": "obstructive",
+      "note": "Strongly prefers bilateral deals over the multilateral forum it is petitioning to join."
+    },
+    "trustPosture": {
+      "level": "conditional",
+      "note": "Icebreaker development is 'publicly economic' but tied to securing Russian basing agreements."
+    },
+    "communicationRegister": {
+      "level": "elliptical",
+      "note": "The stated interest is science and shipping; the instructed interest is basing, uranium and precious metals."
+    }
+  },
   "privateInstructions": [
     "Icebreaker development is publicly economic but is tied to securing basing agreements with Russia and providing security for BRI trade routes.",
     "Use investment in Russia's existing Arctic military infrastructure as a covert wedge to begin the basing-agreement process.",

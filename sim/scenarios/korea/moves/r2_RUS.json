@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-russia",
+ "displayName": "Russian Federation",
+ "roundNumber": 2,
+ "kind": "offer",
+ "text": "Mr. Chairman, Russia tables a concrete package. To the United States: you call the freeze \"unverifiable.\" Then let us verify it. If Washington eases sanctions on international financial institutions and joins the chair's freeze, Russia will use every channel we hold in Pyongyang to press for readmission of the IAEA with unfettered access — inspectors on the ground answer your objection precisely. Verification is our demand too, not yours alone. Second: if the DPRK accepts that monitoring, Russia will deliver immediate supervised humanitarian aid, and thereafter energy, grid rehabilitation and reconstruction on commercial terms — but that relief is explicitly tied to the conduct of the North's military. Provocations end it. Third, to Seoul: you offer dialogue without preconditions, and we support that; Russia will encourage a three-party peace agreement with Washington as partner to it. To Tokyo: Japan says it will not be sidelined. Nor will Russia. No settlement is reached over this delegation's head. And our red line stands — one comprehensive package presented as take-it-or-leave-it is not an agreement, it is an ultimatum, and Russia will not join it.",
+ "tacticsApplied": [
+  "conditional-offer",
+  "verification-demand",
+  "issue-linkage",
+  "coalition-building"
+ ]
+}

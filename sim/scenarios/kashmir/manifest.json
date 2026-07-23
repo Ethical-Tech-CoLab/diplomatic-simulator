@@ -1,0 +1,27 @@
+{
+ "scenarioId": "scenario-kashmir-iscne",
+ "scenarioTitle": "Jammu & Kashmir — UNSCR 2900 Peace Conference",
+ "sessionId": "sess-kashmir-iscne-01",
+ "title": "Jammu & Kashmir — UN Peace Conference (7-party)",
+ "domain": "geopolitical",
+ "shortDescription": "Seven-party UN-facilitated Geneva conference on Jammu and Kashmir (India, Pakistan, the Jammu & Kashmir delegation, China, Russia, United Kingdom, United States): sovereignty over the former princely state, the Line of Control, Article 370 and the unheld UNSCR 47 plebiscite, an international human rights investigation, and the repatriation of some 950,000 displaced people. Adapted from a U.S. Army War College ISCNE crisis-negotiation exercise.",
+ "description": "Eight months after India and Pakistan exchanged missile and drone strikes, a UN Special Representative convenes seven delegations in Geneva under UNSCR 2900 — including, unprecedentedly, a delegation from Jammu and Kashmir itself. Three plenary rounds (opening, bargaining and coalitions, closing) test whether territory and governance can be opened at all against India's insistence that both are internal, China's and Russia's refusal of any autonomy or investigation precedent, and an Anglo-American package that trades recognition of the Line of Control for self-determination language. Each delegation negotiates from its own privileged instructions, several of which restrict whom it may meet and in what format.",
+ "openerTwin": "diplomacy-team-india",
+ "baseTime": "2026-02-09T09:00:00",
+ "partyOrder": [
+  "IND",
+  "PAK",
+  "JK",
+  "CHN",
+  "RUS",
+  "GBR",
+  "USA"
+ ],
+ "leftBloc": [
+  "IND",
+  "CHN",
+  "RUS"
+ ],
+ "simDir": "sim/scenarios/kashmir",
+ "profilesDir": "sim/scenarios/kashmir/profiles"
+}

@@ -1,0 +1,238 @@
+{
+ "moves": [
+  {
+   "partyTwin": "diplomacy-team-china",
+   "displayName": "People's Republic of China",
+   "roundNumber": 1,
+   "kind": "opening-statement",
+   "text": "Distinguished colleagues, on behalf of the People's Republic of China I welcome you to Beijing, and as chair I open this resumed process. Eighteen years of silence have served no one. China's first purpose is simple: these talks must not fail. Our second is a sequenced settlement, and its first step is a mutual freeze — Pyongyang halts all nuclear and missile development and testing; Washington, Seoul and Tokyo suspend military exercises. Until that is agreed, little else can move. China holds that the Democratic People's Republic of Korea is a sovereign state entitled to every right the UN Charter affords, including a civilian nuclear power program under strict IAEA monitoring. We favor a revived KEDO with light water reactors, the immediate lifting of financial-institution sanctions, and, in due course, a treaty formally ending the Korean War. What China will not accept is any attempt to deny the DPRK the rights all nations hold, nor a single comprehensive package imposed before reciprocity begins. The chair will convene any format that keeps you talking. Let us begin.",
+   "tacticsApplied": [
+    "anchoring",
+    "principled-bargaining-frame",
+    "red-line-signaled",
+    "sovereignty-assertion"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-dprk",
+   "displayName": "Democratic People's Republic of Korea",
+   "roundNumber": 1,
+   "kind": "opening-statement",
+   "text": "Mr. Chairman, the Democratic People's Republic of Korea thanks the People's Republic of China for convening this process. We came to Beijing, and we came expecting results. Let there be no confusion about why our deterrent exists. For seventy-three years this peninsula has lived under an armistice, not a peace, and under the guns of the United States and its proxies in Seoul and Tokyo. Our nuclear and missile programs are defensive. We will give up our nuclear weapons when the rest of the world gives up theirs — not before, and not on anyone's timetable but our own. Our priorities are three. First, immediate humanitarian assistance for our neediest citizens and the lifting of sanctions engineered to manufacture their suffering. Second, a definitive end to the Korean War and normalization of relations, which must precede any discussion of disarmament. Third, respect — recognition as a nation among nations. We support the step-by-step approach advanced by China and Russia. We will not accept the Japanese abduction question on this agenda. Reciprocity follows respect.",
+   "tacticsApplied": [
+    "red-line-signaled",
+    "humanitarian-frame",
+    "sovereignty-assertion",
+    "issue-linkage"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-rok",
+   "displayName": "Republic of Korea",
+   "roundNumber": 1,
+   "kind": "opening-statement",
+   "text": "Mr. Chairman, the Republic of Korea thanks the People's Republic of China for convening us, and greets every delegation at this table — including the delegation from the North, with whom we share one peninsula and one people. Seoul comes to Beijing seeking peace and stability, and we come prepared to move. We have already silenced the loudspeakers. We are ready today to resume inter-Korean dialogue without preconditions and to restore the Comprehensive Military Agreement. Within a comprehensive agreement we are prepared to discuss an expansive economic future: rail, road, power and grid, humanitarian assistance under WHO auspices, and light water reactors through a re-established KEDO once the North returns to the NPT and readmits the IAEA. But let the record show one thing plainly, Mr. Chairman. Bad behavior will not be rewarded. The Republic of Korea will not accept any outcome that leaves Pyongyang any part of a nuclear program or an offensive ballistic missile capability. Dismantlement must be negotiated and verified. So long as those programs exist, our alliance posture and our exercises remain. Peace is available. It is not purchasable by threat.",
+   "tacticsApplied": [
+    "red-line-signaled",
+    "conditional-offer",
+    "verification-demand",
+    "principled-bargaining-frame"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-us",
+   "displayName": "United States of America",
+   "roundNumber": 1,
+   "kind": "opening-statement",
+   "text": "Mr. Chairman, the United States thanks the People's Republic of China for convening this process and welcomes all delegations to Beijing. We come with a single organizing objective: peace, stability and security on the Korean Peninsula, built on the complete, verified and irreversible dismantlement of the DPRK's nuclear program and the verified termination of its medium- and long-range missile programs, with return to the NPT as a non-nuclear-weapons state and unconditional readmission to IAEA monitoring. We seek one comprehensive package covering every issue in the Chairman's Framework — and we insist that proliferation, chemical and cyber conduct be addressed alongside it. Sanctions relief and assistance beyond the most urgent humanitarian need follow implementation; they do not precede it. Bad behavior will not be rewarded. Let me be plain about one thing we will not accept: a so-called mutual freeze. It is unverifiable, it locks in existing capabilities, and it degrades allied readiness. Exercises and THAAD remain while those programs exist. In good faith, we offer Pyongyang direct dialogue without preconditions, uncoupled from this table. Thank you, Mr. Chairman.",
+   "tacticsApplied": [
+    "anchoring",
+    "red-line-signaled",
+    "verification-demand",
+    "conditional-offer"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-japan",
+   "displayName": "Japan",
+   "roundNumber": 1,
+   "kind": "opening-statement",
+   "text": "Mr. Chairman, Japan thanks the People's Republic of China for convening us, and joins this table in good faith. Let me be plain about where Japan stands. First, our objective is complete, verifiable and irreversible dismantlement of the DPRK's nuclear and ballistic missile programs, agreed as one comprehensive package. A rewarded step-by-step sequence buys time for the programs it claims to constrain. Second, no nation save the Republic of Korea lives under a more immediate threat from those missiles than Japan; our alliances and defensive measures with the United States and the Republic of Korea will be sustained while that threat stands. Third, this process must include a full and satisfactory accounting of the abduction of Japanese citizens, including identification and return of the remains of those who died in the North. That is a humanitarian obligation, and Japan will raise it in every forum available to us. What Japan will not accept is any loosening of sanctions in the absence of a comprehensive agreement, nor any settlement reached over Japan's head. Japan will not be sidelined. We are prepared to be generous once, and only once, the whole is resolved.",
+   "tacticsApplied": [
+    "anchoring",
+    "red-line-signaled",
+    "humanitarian-frame",
+    "deterrence-frame"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-russia",
+   "displayName": "Russian Federation",
+   "roundNumber": 1,
+   "kind": "opening-statement",
+   "text": "Mr. Chairman, the Russian Federation thanks the People's Republic of China for restoring this forum, which remains the only forum equal to the task. Diplomacy is the sole instrument here, and we come to work. Our priorities are three. First, a step-by-step settlement: a progressive series of integrated agreements, each reciprocated, leading to the eventual elimination of the DPRK's nuclear weapons. Russia has never recognized, and will not recognize, the DPRK as a nuclear-weapon state. Second, an early peace treaty. Pyongyang, Seoul and Washington should move now to end a war seventy-three years unfinished; resolving the war creates the conditions to resolve the nuclear question, not the reverse. Third, humanitarian relief and immediate easing of the financial sanctions strangling ordinary North Koreans. Russia is prepared to supply aid, energy, grid rehabilitation and investment, and to serve as honest broker, as Pyongyang has trusted us to do before. What we will not accept is a single comprehensive package presented as take-it-or-leave-it, nor any procedure that sidelines this delegation. That would damage the process itself.",
+   "tacticsApplied": [
+    "anchoring",
+    "red-line-signaled",
+    "humanitarian-frame",
+    "issue-linkage"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-china",
+   "displayName": "People's Republic of China",
+   "roundNumber": 2,
+   "kind": "offer",
+   "text": "Colleagues, the chair now tables a package. Washington calls a mutual freeze \"unverifiable, it locks in existing capabilities.\" Then verify it. China proposes a freeze under IAEA inspectors at Yongbyon and every declared test site — an internationally monitored suspension, not a promise. If Pyongyang accepts that, then Washington and Seoul suspend major exercises for its duration, the financial-institution sanctions are lifted, and humanitarian assistance flows immediately, need determined by the World Food Program. Seoul: you offered light water reactors through a revived KEDO once the North returns to the NPT and readmits the IAEA. China accepts that formulation, and adds conventional power generation and grid rehabilitation through our commercial entities from day one. Tokyo says it is \"prepared to be generous\" — co-finance KEDO, and this chair will convene a Japan-DPRK bilateral on abductions outside this plenary, where the Framework leaves them. Washington: THAAD's withdrawal belongs in that same reciprocated sequence. Your offer of direct talks without preconditions is welcome; the chair will host them. What China will not accept is denying the DPRK rights every nation holds, or a take-it-or-leave-it package.",
+   "tacticsApplied": [
+    "conditional-offer",
+    "verification-demand",
+    "issue-linkage",
+    "coalition-building"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-dprk",
+   "displayName": "Democratic People's Republic of Korea",
+   "roundNumber": 2,
+   "kind": "offer",
+   "text": "Mr. Chairman, we heard Washington offer direct dialogue without preconditions, uncoupled from this table. We accept that offer. We note also that Seoul is ready to resume inter-Korean dialogue without preconditions and to restore the Comprehensive Military Agreement. We accept that too, and we will meet the Republic of Korea. Here is our package. If a solid commitment of humanitarian assistance is delivered — through WHO auspices as Seoul proposed — and financial-institution sanctions are lifted immediately, as China and Russia both urge, then the DPRK will freeze all nuclear and missile development and testing against suspension of Japan-ROK-US exercises, and readmit IAEA monitors as a step within that process. If a treaty ending the Korean War and normalization follow, we will discuss return to the NPT with light water reactors under a revived KEDO. The United States calls a freeze unverifiable. Then verify it — that is what monitors are for. What we will not accept: dismantlement demanded before peace, sanctions held hostage to a comprehensive package, and the Japanese question on this agenda. We will give up our weapons when the world gives up theirs.",
+   "tacticsApplied": [
+    "conditional-offer",
+    "coalition-building",
+    "verification-demand",
+    "red-line-signaled"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-rok",
+   "displayName": "Republic of Korea",
+   "roundNumber": 2,
+   "kind": "offer",
+   "text": "Mr. Chairman. Russia told this table it \"has never recognized, and will not recognize, the DPRK as a nuclear-weapon state.\" China told us it seeks eventual elimination. Yet the North's delegation said it will disarm \"when the rest of the world gives up theirs.\" That is not step-by-step; that is never. Seoul asks the chair to note the gap. Here is Seoul's package. If Pyongyang accepts a negotiated, verified dismantlement schedule and readmits the IAEA, then day one: inter-Korean dialogue without preconditions and restoration of the Comprehensive Military Agreement. At the first verified milestone: humanitarian assistance through WHO channels, with sanctions relief tracking each milestone thereafter. On elimination: the rail and road links restored and a full energy package — Seoul welcomes the Russian Federation's offer of grid rehabilitation and Chinese investment — alongside light water reactors through a revived KEDO once the North is back in the NPT. Two things Seoul will not do: trade exercises for a freeze, or accept any outcome leaving one part of the nuclear or missile programs standing. On the abductions, Seoul supports Tokyo and urges a bilateral Japan–DPRK channel so this table is not blocked. The offer is real, Mr. Chairman, and it is conditional.",
+   "tacticsApplied": [
+    "conditional-offer",
+    "issue-linkage",
+    "coalition-building",
+    "red-line-signaled"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-us",
+   "displayName": "United States of America",
+   "roundNumber": 2,
+   "kind": "offer",
+   "text": "Mr. Chairman, the United States notes what Moscow put on the record: Russia \"has never recognized, and will not recognize, the DPRK as a nuclear-weapon state.\" Seoul and Tokyo said the same. Five of six delegations at this table want that program gone. Only its timetable is disputed — and Pyongyang's answer, that it disarms \"when the rest of the world gives up theirs,\" is no timetable at all. So we table this. If the DPRK announces return to the NPT as a non-nuclear-weapons state and readmits the IAEA with unconditional access, then the United States will: not oppose light water reactors through a re-established KEDO, with no DPRK access to the reactors; invite China and Russia to supply conventional power and rehabilitate the grid, as Moscow has offered; open direct U.S.-DPRK talks without preconditions, uncoupled from this table, beginning immediately; and support a peace declaration and treaty track once verification permits. Urgent humanitarian assistance we will provide now. Broader relief follows implementation. What we will not do is buy a freeze, Mr. Chairman. Exercises and THAAD stay. And we support Japan-DPRK bilateral talks on the abductions.",
+   "tacticsApplied": [
+    "coalition-building",
+    "conditional-offer",
+    "issue-linkage",
+    "red-line-signaled"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-japan",
+   "displayName": "Japan",
+   "roundNumber": 2,
+   "kind": "offer",
+   "text": "Mr. Chairman, Japan has listened carefully, and I note first what unites this table. Moscow says it \"has never recognized, and will not recognize, the DPRK as a nuclear-weapon state.\" Beijing conditions its own proposal on \"strict IAEA monitoring.\" Seoul and Washington require NPT return and verified dismantlement. Then five delegations agree the end-state, and only sequence divides us. Japan will negotiate on sequence. Here is our offer. If Pyongyang accepts, in writing, verified dismantlement with NPT return and unconditional IAEA readmission, then Japan will finance light water reactors through a re-envisioned KEDO — one that builds and operates the reactors itself, with the DPRK removed from operation — and will open normalization talks and a substantial economic package with Pyongyang. Japan also supports Seoul's offer of inter-Korean dialogue without preconditions, today. But sanctions relief follows implementation; it does not buy it. And to the DPRK delegation, which says it \"will not accept the Japanese abduction question on this agenda\": the abductions are not a precondition Japan invented, they are Japanese citizens. We will discuss them bilaterally if this table prefers. We will not stop discussing them. Japan will not be sidelined.",
+   "tacticsApplied": [
+    "conditional-offer",
+    "coalition-building",
+    "red-line-signaled",
+    "issue-linkage"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-russia",
+   "displayName": "Russian Federation",
+   "roundNumber": 2,
+   "kind": "offer",
+   "text": "Mr. Chairman, Russia tables a concrete package. To the United States: you call the freeze \"unverifiable.\" Then let us verify it. If Washington eases sanctions on international financial institutions and joins the chair's freeze, Russia will use every channel we hold in Pyongyang to press for readmission of the IAEA with unfettered access — inspectors on the ground answer your objection precisely. Verification is our demand too, not yours alone. Second: if the DPRK accepts that monitoring, Russia will deliver immediate supervised humanitarian aid, and thereafter energy, grid rehabilitation and reconstruction on commercial terms — but that relief is explicitly tied to the conduct of the North's military. Provocations end it. Third, to Seoul: you offer dialogue without preconditions, and we support that; Russia will encourage a three-party peace agreement with Washington as partner to it. To Tokyo: Japan says it will not be sidelined. Nor will Russia. No settlement is reached over this delegation's head. And our red line stands — one comprehensive package presented as take-it-or-leave-it is not an agreement, it is an ultimatum, and Russia will not join it.",
+   "tacticsApplied": [
+    "conditional-offer",
+    "verification-demand",
+    "issue-linkage",
+    "coalition-building"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-china",
+   "displayName": "People's Republic of China",
+   "roundNumber": 3,
+   "kind": "closing-statement",
+   "text": "Colleagues, let me be exact rather than gracious. Three things were actually agreed in this room: direct United States-DPRK talks without preconditions, offered and accepted; inter-Korean dialogue and restoration of the Comprehensive Military Agreement, offered and accepted; and a Japan-DPRK bilateral channel on the abductions, kept off this agenda by consent. China will host all three. On light water reactors through a revived KEDO, five delegations spoke favorably and Tokyo offered financing. That is real. Now the gaps. The mutual freeze was refused by Washington, Seoul and Tokyo; exercises and THAAD stay. Sequencing is unresolved — relief before implementation, or after. And Pyongyang's formula, disarmament \"when the world gives up theirs,\" is not a timetable. One red line was pressed against us. Washington proposes reactors \"with no DPRK access,\" Tokyo with \"the DPRK removed from operation.\" That denies a sovereign state a right every nation holds. China does not accept it, and IAEA monitoring is the answer, not exclusion. Nothing here has collapsed. The chair proposes an interim instrument — IAEA readmission against financial-sanctions easing and humanitarian aid — and a follow-on plenary, date certain, in this city.",
+   "tacticsApplied": [
+    "red-line-signaled",
+    "principled-bargaining-frame",
+    "issue-linkage",
+    "humanitarian-frame"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-dprk",
+   "displayName": "Democratic People's Republic of Korea",
+   "roundNumber": 3,
+   "kind": "closing-statement",
+   "text": "Mr. Chairman, we speak plainly. What we can support is on the table already: the chair's freeze under inspectors at Yongbyon and our declared test sites, against suspension of exercises, immediate lifting of financial-institution sanctions, and food aid determined by the World Food Program. We accept Russia's supervised aid, Chinese grid rehabilitation from day one, inter-Korean dialogue and the Comprehensive Military Agreement with Seoul, and direct talks with Washington without preconditions. We will readmit IAEA inspectors within that sequence. Our red lines held. No party moved us to dismantlement before peace, and none will. Two were crossed against us. Washington and Tokyo say sanctions relief follows implementation — that is relief withheld while our children go hungry, and we reject it. And Tokyo insists on the abductions after this delegation said no; we will not stop that from being said, but this table will not host it. The gap is honest and unbridged: five delegations want our deterrent gone; we will surrender it when the world surrenders its own. The way forward is the chair's freeze, tested first. Convene it. We will attend.",
+   "tacticsApplied": [
+    "principled-bargaining-frame",
+    "red-line-signaled",
+    "humanitarian-frame",
+    "coalition-building"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-rok",
+   "displayName": "Republic of Korea",
+   "roundNumber": 3,
+   "kind": "closing-statement",
+   "text": "Mr. Chairman, Seoul will be plain rather than polite. What we can support: the DPRK has accepted inter-Korean dialogue without preconditions and restoration of the Comprehensive Military Agreement. We will meet them, and soon — in consultation with our allies, and not as a substitute for this table. We support the KEDO formulation the chair, Tokyo and Washington all accepted, and Russian and Chinese power and grid work sequenced into it. We support handling the abductions in a Japan-DPRK bilateral. Our red lines held. We did not trade exercises for a freeze. The chair tabled Seoul's suspension of exercises and placed THAAD in a reciprocated sequence; Seoul agreed to neither, and does not now. The central gap is unbridged, and I will not paper over it. Pyongyang still tells this table it will disarm \"when the world gives up theirs.\" That is not a sequence. No energy package and no sanctions schedule can be built on it. Forward, Mr. Chairman: the inter-Korean channel opens now; the chair convenes a working group on a dated, verified dismantlement schedule; and we reconvene when Pyongyang can name a date. Seoul will keep that door open. Thank you.",
+   "tacticsApplied": [
+    "red-line-signaled",
+    "verification-demand",
+    "coalition-building",
+    "principled-bargaining-frame"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-us",
+   "displayName": "United States of America",
+   "roundNumber": 3,
+   "kind": "closing-statement",
+   "text": "Mr. Chairman, let me be honest rather than smooth. Real ground was gained. Five delegations named the same end-state: NPT return, unconditional IAEA readmission, no recognition of the DPRK as a nuclear-weapon state. Moscow and Beijing said so on the record. Japan and the Republic of Korea held with us without a gap. A KEDO formulation exists that Washington can live with, provided Pyongyang operates nothing. China and Russia offered conventional power and grid; we welcome it. And Pyongyang accepted our uncoupled bilateral channel — we will honor that offer. Our red lines held. We did not buy the freeze, monitored or otherwise; inspectors at declared sites do not find what is undeclared, and a freeze still leaves the arsenal standing. Exercises and THAAD remain, and THAAD's withdrawal is not on our table. But the central gap is unbridged: the DPRK still says it disarms \"when the world gives up theirs,\" and wants relief before dismantlement. That is not sequence, it is refusal. Way forward: bilateral U.S.-DPRK talks, a Japan-DPRK channel, inter-Korean dialogue, and this chair reconvenes when Pyongyang can name a dismantlement date. Pressure stays until then.",
+   "tacticsApplied": [
+    "red-line-signaled",
+    "coalition-building",
+    "verification-demand",
+    "principled-bargaining-frame"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-japan",
+   "displayName": "Japan",
+   "roundNumber": 3,
+   "kind": "closing-statement",
+   "text": "Mr. Chairman, Japan will be honest rather than diplomatic. Something real was built here. Five delegations — Beijing included — put verification on the record, and Washington's formulation, light water reactors \"with no DPRK access to the reactors,\" is precisely Japan's condition. Japan will co-finance that KEDO. We accept the chair's offer to convene a Japan-DPRK bilateral on abductions, and we thank Seoul and Washington, who supported that channel unprompted. Two of Japan's red lines held: no sanctions relief was granted absent a comprehensive agreement, and Japan was not sidelined. The third was crossed. The DPRK delegation stated twice it \"will not accept the Japanese question on this agenda.\" Japan does not accept that ruling, and no settlement Japan signs will omit a full accounting, including the remains of those who died. The gap is unbridged and I will not pretend otherwise: Pyongyang still says it disarms \"when the world gives up theirs,\" and offers a freeze this table did not buy. Exercises and THAAD remain. Japan proposes the chair reconvene on a dated verification schedule — and let Pyongyang understand what an unconstrained North compels Japan to reconsider.",
+   "tacticsApplied": [
+    "principled-bargaining-frame",
+    "red-line-signaled",
+    "verification-demand",
+    "deterrence-frame"
+   ]
+  },
+  {
+   "partyTwin": "diplomacy-team-russia",
+   "displayName": "Russian Federation",
+   "roundNumber": 3,
+   "kind": "closing-statement",
+   "text": "Mr. Chairman, Russia will be blunt rather than gracious. Something real emerged: every delegation now accepts IAEA readmission with unfettered access as the hinge. Pyongyang said it will readmit monitors. Washington, Seoul and Tokyo said the same. Russia supports the chair's monitored freeze, supports inter-Korean dialogue without preconditions, supports direct US-DPRK talks, and stands ready today to supply supervised humanitarian aid, conventional power and grid rehabilitation — Seoul, Beijing and Washington all welcomed that offer, and Russia will honor it. Our red lines held. No comprehensive take-it-or-leave-it package was imposed, and this delegation was not sidelined. But the gaps are unbridged and I will not pretend otherwise. Washington will not buy a freeze; Pyongyang will not disarm before peace. The sanctions on financial institutions, the single most productive lever anyone holds, remain in place. That is the failure of this round. Our way forward: convene the freeze-and-verification working group first, with financial sanctions easing on the same instrument as the first inspection. Sequence is the only thing dividing us. Russia will keep working it, at this table and in Pyongyang.",
+   "tacticsApplied": [
+    "principled-bargaining-frame",
+    "issue-linkage",
+    "red-line-signaled",
+    "coalition-building"
+   ]
+  }
+ ]
+}

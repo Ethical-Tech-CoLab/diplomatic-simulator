@@ -38,10 +38,50 @@
     "Prioritize interim CBMs (patrol suspension, EEZ respect, economic cooperation) short of a full solution."
   ],
   "coalitionLeanings": {
-    "natural_allies": ["Brunei", "Philippines", "Vietnam", "Malaysia", "United States", "Japan", "India"],
-    "adversaries": ["China"]
+    "natural_allies": [
+      "Brunei",
+      "Philippines",
+      "Vietnam",
+      "Malaysia",
+      "United States",
+      "Japan",
+      "India"
+    ],
+    "adversaries": [
+      "China"
+    ]
   },
   "negotiatingStyle": "Consensus-driven honest broker: patient, principled, multilateralist, positioning as trusted intermediary while quietly leading.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "measured",
+      "note": "Patient and principled in manner while quietly maneuvering for the lead."
+    },
+    "riskTolerance": {
+      "level": "low",
+      "note": "Preserving ASEAN unity is an acceptable floor, and it will accept bilateral formats if China insists."
+    },
+    "timeHorizon": {
+      "level": "patient",
+      "note": "Assesses that getting China into any multilateral format at all should count as an achievement."
+    },
+    "concessionPattern": {
+      "level": "reciprocal",
+      "note": "Trades incremental confidence-building measures and joint ventures rather than pressing for settlement."
+    },
+    "proceduralPosture": {
+      "level": "convening",
+      "note": "Secretly maneuvers to claim the lead and to act as China's primary intermediary."
+    },
+    "trustPosture": {
+      "level": "conditional",
+      "note": "Publicly backs the Philippines while privately judging its claims to fail UNCLOS land-formation tests."
+    },
+    "communicationRegister": {
+      "level": "conciliatory",
+      "note": "Holds the honest-broker register even where its private assessment differs from its public support."
+    }
+  },
   "privateInstructions": [
     "Secretly maneuver to claim the lead of the negotiations and act as China's primary intermediary; get allied and external delegations to accede to Indonesia's leadership.",
     "Assess that China plays for time and will not compromise; getting China into any multilateral format at all should be treated as an achievement.",

@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-russia",
+ "displayName": "Russian Federation",
+ "roundNumber": 2,
+ "kind": "offer",
+ "text": "Special Representative. Russia notes convergence. China said relief must be \"subject to assurance that no aid reaches armed groups\"; that is Moscow's language too. We therefore propose, with Beijing, a jointly administered screened-relief mechanism for the displaced — funding, medical supplies, camp logistics — operated at New Delhi's request and with agreed vetting against militant infiltration. That is available immediately. Here is our package. If Islamabad tables, in this room, a dated list of militant organisations and facilities to be dismantled, with third-party verification we can inspect, then Russia will support de-escalation measures along the Line of Control, urge restoration of water arrangements, and show flexibility on how territorial questions are framed. If it does not, Russia's support for India's position is unconditional. To London and Washington: the United Kingdom promises to \"oppose forcefully any intransigence\" on international investigation. Oppose away. Human rights are a domestic responsibility, and Moscow will not consent to an external investigative mechanism, nor to any ballot that places autonomy or independence before voters. Territory and water belong in an India-Pakistan bilateral channel, and Russia will facilitate one.",
+ "tacticsApplied": [
+  "conditional-offer",
+  "coalition-building",
+  "red-line-signaled",
+  "issue-linkage"
+ ]
+}

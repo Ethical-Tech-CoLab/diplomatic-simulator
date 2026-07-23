@@ -1,0 +1,26 @@
+{
+ "scenarioId": "scenario-korea-iscne",
+ "scenarioTitle": "Korea — Six-Party Talks",
+ "sessionId": "sess-korea-iscne-01",
+ "title": "Korean Peninsula — Six-Party Talks (6-party)",
+ "domain": "geopolitical",
+ "shortDescription": "Six-party Beijing talks on the Korean Peninsula (China, North Korea, South Korea, United States, Japan, Russia): denuclearization and the mutual freeze, security guarantees and THAAD, sanctions relief and humanitarian aid, a Korean War peace treaty, light water reactors under a revived KEDO, and the abduction of Japanese citizens. Adapted from a U.S. Army War College ISCNE crisis-negotiation exercise.",
+ "description": "The Chinese Foreign Minister chairs a resumed round of the Six-Party Talks in Beijing under a framework agreed on 1 April 2026. Three plenary rounds (opening, bargaining and coalitions, closing) test the central split of the process: Washington, Seoul and Tokyo demand a single comprehensive agreement with verification before any relief, while Beijing, Moscow and Pyongyang press a step-by-step sequence beginning with a mutual freeze and immediate humanitarian aid. Each delegation negotiates from its own privileged instructions.",
+ "openerTwin": "diplomacy-team-china",
+ "baseTime": "2026-05-03T09:00:00",
+ "partyOrder": [
+  "CHN",
+  "PRK",
+  "KOR",
+  "USA",
+  "JPN",
+  "RUS"
+ ],
+ "leftBloc": [
+  "USA",
+  "KOR",
+  "JPN"
+ ],
+ "simDir": "sim/scenarios/korea",
+ "profilesDir": "sim/scenarios/korea/profiles"
+}

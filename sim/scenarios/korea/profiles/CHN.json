@@ -1,0 +1,92 @@
+{
+  "teamTwinName": "diplomacy-team-china",
+  "displayName": "People's Republic of China",
+  "code": "CHN",
+  "delegationRole": "Chair of the Six-Party Talks and the DPRK's principal patron, seeking to keep the process alive, reimpose a 'mutual freeze', and steer the parties toward a step-by-step settlement.",
+  "fundamentalPrinciples": [
+    "Establish peace and stability on the Korean Peninsula through multilateral dialogue.",
+    "Continuous engagement is the only viable path; these talks cannot be allowed to break down or fail.",
+    "The DPRK is an independent nation entitled to the rights afforded all nations under the UN Charter, including a civilian nuclear power capability."
+  ],
+  "desiredEndStates": {
+    "primary": "A denuclearized but secure and prosperous DPRK, recognized in its rightful place as an independent state, reached through a step-by-step process that begins with an immediate mutual freeze.",
+    "alternate": "Failing agreement on substance, an agreed continuation of the process itself — bilateral and multilateral channels kept open, with a follow-on session scheduled — so that no party can declare the Six-Party framework dead."
+  },
+  "keyPositionsByIssue": {
+    "MUTUAL-FREEZE": "The first order of business: Pyongyang ceases all nuclear and missile development and testing while the United States, South Korea and Japan suspend all military exercises. Nothing else can progress before this.",
+    "THAAD": "The United States should remove THAAD from South Korea as a good-faith signal; it is a driver of tension, not a response to a real threat.",
+    "DISARMAMENT": "The DPRK does not require and should not possess nuclear weapons or offensive ballistic missiles, but this must be achieved by graduated, reciprocated steps — never by a single comprehensive package imposed up front.",
+    "PEACEFUL-NUCLEAR-ENERGY": "All nations must respect the DPRK's right to a civilian nuclear power program, solely for electricity generation and nothing else.",
+    "LWR-KEDO": "Favor a revived Korean Energy Development Organization and installation of light water reactors in exchange for permanent shutdown of the North's weapons programs — with immediate removal of THAAD as a condition.",
+    "SANCTIONS-HUMANITARIAN": "Immediate removal of U.S. sanctions targeting international financial institutions; humanitarian assistance to be provided once Pyongyang accepts a verified, internationally monitored suspension, with need determined by the World Food Program.",
+    "DIPLOMATIC-RELATIONS": "At an appropriate time Pyongyang, Seoul and Washington should open separate negotiations on a peace treaty formally ending the Korean War; a formal peace would permanently de-escalate the region.",
+    "INTER-KOREAN": "Support recognition of the DPRK as a separate Korean nation, replacement of the DMZ with a normal international border, commensurate force reductions, and the eventual withdrawal of U.S. forces; reunification is a long-term question only.",
+    "PROLIFERATION": "A valid concern but not a primary issue at this time; it belongs at a much later stage of an established step-by-step process.",
+    "ABDUCTIONS": "Not germane to the Chairman's Framework. Encourage Tokyo to take the issue to separate bilateral talks with Pyongyang, which our delegation is willing to facilitate."
+  },
+  "redLines": [
+    "Intransigence by any of the parties that causes these negotiations to collapse.",
+    "Discussion of topics not germane to the Chairman's Framework unless all parties first accept them.",
+    "Any attempt to deny the DPRK the rights afforded all nations, including the right to a civilian nuclear capability."
+  ],
+  "batna": "Keep the process alive unilaterally: continue bilateral engagement with Pyongyang and Moscow, sustain the economic lifeline into the DPRK, and blame the collapse on Washington's refusal to reciprocate — retaining the chair and the agenda for a future round.",
+  "concessionsWilling": [
+    "Chair impartially and convene any format — bilateral, trilateral, multilateral — that keeps parties talking.",
+    "Press Pyongyang privately that pyŏngjin and sŏn'gun are counterproductive and that its people must come first.",
+    "Accept strict IAEA monitoring and inspection of any DPRK civilian nuclear program.",
+    "Facilitate a Japan–DPRK bilateral aside on abductions outside the plenary.",
+    "Support a Korean War peace accord and, over time, a normalized inter-Korean border with reduced forces on both sides.",
+    "Provide conventional power generation and grid rehabilitation to the DPRK through Chinese commercial entities as an alternative to reactors."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": [
+      "Russian Federation",
+      "Democratic People's Republic of Korea"
+    ],
+    "adversaries": [
+      "United States",
+      "Japan"
+    ]
+  },
+  "negotiatingStyle": "Process-protective and procedurally dominant: uses the chair to set the agenda, reframes deadlock as a sequencing problem, and trades reassurance to Pyongyang against pressure on Washington.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "measured",
+      "note": "Absorbs provocation without answering it; the chair's composure is itself an instrument."
+    },
+    "riskTolerance": {
+      "level": "low",
+      "note": "Instructed that 'these talks cannot be allowed to fail'; will trade substance for continuation."
+    },
+    "timeHorizon": {
+      "level": "patient",
+      "note": "Sequencing is the whole strategy; treats deadlock as a problem of order rather than of substance."
+    },
+    "concessionPattern": {
+      "level": "reciprocal",
+      "note": "Trades reassurance to Pyongyang against pressure on Washington, matched move for move."
+    },
+    "proceduralPosture": {
+      "level": "convening",
+      "note": "Uses the chair to set the agenda, rule items out of scope, and offer to host bilaterals."
+    },
+    "trustPosture": {
+      "level": "conditional",
+      "note": "Shields Pyongyang only on condition of good faith: 'we have little tolerance for misbehavior.'"
+    },
+    "communicationRegister": {
+      "level": "conciliatory",
+      "note": "Reframes rather than rebuts; converts disagreement into a question of sequencing."
+    }
+  },
+  "privateInstructions": [
+    "These talks cannot be allowed to fail; every effort must be made to keep engagement going in some format.",
+    "The first and primary order of business is a negotiated return to the 2018 'mutual freeze' between Washington, Seoul and Pyongyang — without it, nothing else can succeed.",
+    "Any perceived DPRK threat to South Korea, Japan or the United States is overstated; Pyongyang would never use these weapons, as that would mean its destruction.",
+    "Part of the responsibility for the present crisis lies with Washington, which refuses to acknowledge Kim's desire for a relationship of mutual respect.",
+    "Tell Pyongyang plainly that we will only shield it if it negotiates in good faith and honors what it signs; we have little tolerance for misbehavior.",
+    "Gauge Moscow early — assume Russian support for the freeze but confirm it; Moscow seeks influence in northeast Asia at American expense.",
+    "Seek Tokyo's agreement to help finance a revived KEDO, and keep the abduction issue out of the plenary.",
+    "Route periodic reports and requests for guidance to the Foreign Minister's office."
+  ]
+}

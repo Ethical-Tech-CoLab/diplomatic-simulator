@@ -2,3 +2,5 @@
 Thumbs.db
 *.swp
 .slug
+__pycache__/
+*.pyc

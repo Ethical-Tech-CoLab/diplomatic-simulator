@@ -39,10 +39,50 @@
     "Endorse an SCS hotline and multilateral cessation of confrontational activities."
   ],
   "coalitionLeanings": {
-    "natural_allies": ["United States", "Japan", "Philippines", "Vietnam", "Indonesia", "Malaysia", "Brunei"],
-    "adversaries": ["China"]
+    "natural_allies": [
+      "United States",
+      "Japan",
+      "Philippines",
+      "Vietnam",
+      "Indonesia",
+      "Malaysia",
+      "Brunei"
+    ],
+    "adversaries": [
+      "China"
+    ]
   },
   "negotiatingStyle": "Principled honest broker: UNCLOS-anchored and coalition-building, but firm and willing to wield the credible threat of force against Chinese intransigence.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "brittle",
+      "note": "Instructed to walk out immediately if China raises the Jammu-Kashmir or border issue."
+    },
+    "riskTolerance": {
+      "level": "high",
+      "note": "Signals that military action may become necessary if Chinese provocation continues."
+    },
+    "timeHorizon": {
+      "level": "urgent",
+      "note": "Presses on Beijing that time is not on its side — the exact inverse of China's own reading."
+    },
+    "concessionPattern": {
+      "level": "withholding",
+      "note": "Will not scuttle the talks but refuses to soften the UNCLOS anchor to keep them alive."
+    },
+    "proceduralPosture": {
+      "level": "convening",
+      "note": "Actively builds a united front with Washington, Tokyo, Manila, Jakarta and Hanoi."
+    },
+    "trustPosture": {
+      "level": "assumes-bad-faith",
+      "note": "Assumes China plays for time, and designs its whole approach around that assumption."
+    },
+    "communicationRegister": {
+      "level": "plainspoken",
+      "note": "States the deterrence premise openly while concealing the border grievance."
+    }
+  },
   "privateInstructions": [
     "India is at odds with China over Jammu-Kashmir and the common border; conceal this and immediately walk out if China raises the border issue.",
     "Actively build a united front with the US, Japan, Indonesia, Philippines, and Vietnam around the premise that the threat of force will deter China rather than inflame the region.",

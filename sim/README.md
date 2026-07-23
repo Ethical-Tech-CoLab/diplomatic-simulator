@@ -7,21 +7,72 @@ instructions*).
 ## Pipeline
 1. `extract_pdf.py "<Scenario Docs folder>" <out_dir>` — PDF → text.
 2. Build a structured **party profile** per delegation (end-states, red lines,
-   BATNA, private instructions) — see `scenarios/<name>/profiles/*.json`.
+   BATNA, private instructions, behavioural profile) — see
+   `scenarios/<name>/profiles/*.json`, and **Behavioural profile** below.
 3. Run the **negotiation**: one agent per party, each seeing only its own
    privileged instructions + a shared public brief + the running transcript,
    across plenary rounds (opening → positioning → bargaining → closing).
 4. Analyze (`analysis.json`): scoreboard (satisfaction, red-lines crossed),
    per-party debriefs, and an SRSG convener report.
-5. `build_session.py <manifest.json> <out.json>` — assemble a `data.js`
+5. `build_transcript.py <manifest.json>` — roll the `moves/` files up into
+   `transcript.json` + `transcript.md` for the scenario directory.
+6. `build_session.py <manifest.json> <out.json>` — assemble a `data.js`
    session+scenario in the diplomacy-table schema.
-6. `inject.py <built.json>...` — merge into `diplomacy-demo/data.js`.
+7. `inject.py <built.json>...` — merge into `diplomacy-demo/data.js`.
+8. `build_report.py <sessionId> <out.html> [subtitle]` — render the standalone
+   `scenario-<name>.html` report page from the injected session.
+
+## Behavioural profile
+
+`negotiatingStyle` is a one-line prose summary of how a delegation negotiates.
+`behavioralProfile` decomposes it into seven dimensions so that *how* a
+delegation bargains can be tabulated and compared across the corpus,
+independently of *what* it bargains for. Every profile carries all seven; each
+is a controlled `level` plus a `note` grounding that level in the delegation's
+own role, BATNA, style line or privileged instructions.
+
+| Dimension | Levels |
+|---|---|
+| `temperament` | imperturbable · measured · guarded · warm · brittle · volatile |
+| `riskTolerance` | low · moderate · high — appetite for the BATNA, walkout, brinkmanship |
+| `timeHorizon` | urgent · patient · attritional — does delay cost this party, or pay it? |
+| `concessionPattern` | front-loading · reciprocal · end-loading · withholding |
+| `proceduralPosture` | convening · chair-deferential · rule-exploiting · obstructive · agenda-foreclosing |
+| `trustPosture` | verification-first · conditional · relationship-first · assumes-bad-faith |
+| `communicationRegister` | declamatory · legalistic · plainspoken · elliptical · conciliatory |
+
+These are **authored per delegation from the source pack**, not assigned at run
+time — a delegation's disposition is part of the scenario, held constant across
+runs of it, exactly like its red lines. They are therefore *not* an experimental
+variable as they stand: varying them to test their effect on outcomes would
+require assigning dispositions independently of the profiles, which is a
+separate design (see `BACKLOG.md`).
+
+Two properties worth preserving when editing:
+
+- **Discriminating.** No two delegations at the same table share all seven
+  levels; mean separation across the corpus is 4.9 of 7 dimensions. If an edit
+  collapses a dimension so that every delegation shares a level, that dimension
+  has stopped carrying information.
+- **Grounded.** Every `note` should be traceable to something already in the
+  profile or the source PDF. It is a reading of the delegation, not a new fact
+  about it.
+
+`build_session.py` carries the block into `data.js` as `parties[].brief.behavior`,
+and `build_report.py` renders it as the *Delegation dispositions* table on each
+`scenario-<name>.html` page.
+
+Note that `teamTwinName` is **not** unique across scenarios —
+`diplomacy-team-china` appears in five. Anything joining profiles to sessions
+must key on `(sessionId, teamTwinName)`, not the twin name alone.
 
 ## Scenarios (each: `scenarios/<name>/` with profiles, transcript, analysis, brief, manifest)
 - `arctic/` — 7 parties (CAN, CHN, DNK, FIN, NOR, RUS, USA), 4 rounds / 28 moves.
 - `centralasia/` — 7 parties (KAZ, UZB, KGZ, TJK, RUS, CHN, IND), 3 rounds / 21 moves. Fergana Valley crisis.
 - `cyprus/` — 6 parties (CY, TRNC, GR, TR, UK, US), 3 rounds / 18 moves. Reunification talks.
 - `scs/` — 9 parties (CHN, USA, PHL, VNM, MYS, BRN, IDN, IND, JPN), 3 rounds / 27 moves. South China Sea.
+- `korea/` — 6 parties (CHN, PRK, KOR, USA, JPN, RUS), 3 rounds / 18 moves. Resumed Six-Party Talks in Beijing.
+- `kashmir/` — 7 parties (IND, PAK, JK, CHN, RUS, GBR, USA), 3 rounds / 21 moves. UNSCR 2900 conference in Geneva.
 
 Each scenario appears as a session in `diplomacy-demo/` (deep-link
 `diplomacy-demo/index.html?session=<sessionId>`), and on the landing page's

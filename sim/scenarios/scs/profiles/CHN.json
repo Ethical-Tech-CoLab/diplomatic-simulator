@@ -39,10 +39,50 @@
     "Acknowledge existing US-SEA agreements as constructive (while opposing any new ones)."
   ],
   "coalitionLeanings": {
-    "natural_allies": ["Malaysia", "Brunei", "Indonesia"],
-    "adversaries": ["United States", "Japan", "India", "Philippines", "Vietnam"]
+    "natural_allies": [
+      "Malaysia",
+      "Brunei",
+      "Indonesia"
+    ],
+    "adversaries": [
+      "United States",
+      "Japan",
+      "India",
+      "Philippines",
+      "Vietnam"
+    ]
   },
   "negotiatingStyle": "Blend of assertive Wolf Warrior sovereignty-assertion and measured Major Country Diplomacy, insisting on bilateralism, delay/shelving, and issue-linkage while framing China as the region's benevolent leader.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "volatile",
+      "note": "The Wolf Warrior register is deployed here rather than merely held: history pressure on Japan, standing denied to Malaysia."
+    },
+    "riskTolerance": {
+      "level": "high",
+      "note": "Prepared to walk and shelve indefinitely while de facto control and land reclamation continue."
+    },
+    "timeHorizon": {
+      "level": "attritional",
+      "note": "Shelving is the strategy; every year of delay consolidates control on the water."
+    },
+    "concessionPattern": {
+      "level": "withholding",
+      "note": "Offers economic cooperation while conceding nothing whatever on sovereignty."
+    },
+    "proceduralPosture": {
+      "level": "obstructive",
+      "note": "Insists on bilateralism, denies the ASEAN Chair any standing, and drives wedges through the multilateral format."
+    },
+    "trustPosture": {
+      "level": "assumes-bad-faith",
+      "note": "Treats extra-regional presence as interference to be ended rather than as a party to bargain with."
+    },
+    "communicationRegister": {
+      "level": "declamatory",
+      "note": "Sovereignty assertion first and benevolent-leader framing second; the Taiwan linkage is raised only privately."
+    }
+  },
   "privateInstructions": [
     "Use multilateral ASEAN talks to drive a wedge between regional states and the extra-regional powers (New Delhi, Tokyo, Washington), isolating smaller claimants from outside support.",
     "Deny Malaysia (ASEAN Chair) any standing to speak for ASEAN, and exploit its distrust of the US to pull the Philippines and Vietnam into cooperating with China.",

@@ -36,10 +36,50 @@
     "Greenland autonomy to grant its own land/near-shore licenses (including existing Chinese uranium license) as a domestic decision."
   ],
   "coalitionLeanings": {
-    "natural_allies": ["United States", "Norway", "Canada", "Arctic 5 coastal states", "NATO allies", "European Union"],
-    "adversaries": ["China", "Russia"]
+    "natural_allies": [
+      "United States",
+      "Norway",
+      "Canada",
+      "Arctic 5 coastal states",
+      "NATO allies",
+      "European Union"
+    ],
+    "adversaries": [
+      "China",
+      "Russia"
+    ]
   },
   "negotiatingStyle": "Cooperative, law-abiding, and multilateral, projecting a unified Kingdom-Greenland front while quietly guarding sovereignty and managing great-power balance.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "guarded",
+      "note": "Its central task is concealment: the Greenland independence question must not surface."
+    },
+    "riskTolerance": {
+      "level": "low",
+      "note": "Every position is weighed against the risk of triggering a full independence referendum."
+    },
+    "timeHorizon": {
+      "level": "patient",
+      "note": "Falls back to unresolved but non-adjudicated ridge claims — unresolved is an acceptable state."
+    },
+    "concessionPattern": {
+      "level": "withholding",
+      "note": "Cannot move on mineral extraction without exposing the Naalakkersuisut's divergent position."
+    },
+    "proceduralPosture": {
+      "level": "chair-deferential",
+      "note": "Works through the Arctic 5 and international law rather than asserting."
+    },
+    "trustPosture": {
+      "level": "relationship-first",
+      "note": "Balances the U.S. relationship against Greenland's resource autonomy as the governing calculation."
+    },
+    "communicationRegister": {
+      "level": "conciliatory",
+      "note": "Presents a common Kingdom-Greenland voice that papers over a real internal split."
+    }
+  },
   "privateInstructions": [
     "Conceal the internal tension: Greenland has an unexercised independence-referendum right, and every decision must be weighed against triggering full independence.",
     "The Naalakkersuisut has banned mineral extraction and holds positions that diverge from Denmark's; hide this friction and present a common voice to foreign states.",

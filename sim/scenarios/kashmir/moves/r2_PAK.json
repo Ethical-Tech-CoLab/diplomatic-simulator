@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-pakistan",
+ "displayName": "Islamic Republic of Pakistan",
+ "roundNumber": 2,
+ "kind": "offer",
+ "text": "Special Representative. Pakistan heard Washington propose recognition of the Line of Control as an international border, and Beijing call it \"the line of administration.\" We say again: no. That is our red line. Here is our offer. To London and Washington: you have called an international investigation the fastest route to lowering tension. Pakistan will co-sponsor it — if its mandate covers the conduct of security forces in the occupied territory, AFSPA detention, disappearances and the camps. We will not accept a mandate stretched across our own frontier; Moscow's preconditions are not the price of this conference. To New Delhi: withdraw your forces as Resolution 47 requires, and Pakistan will accept demilitarization, joint India–Pakistan interim administration, and a plebiscite under UN authority — on the 1948 terms, accession only. To the Jammu and Kashmir delegation: renounce your claim to speak for Azad Kashmir and Gilgit-Baltistan, and we will work with you on camps, crossings and repatriation. Until then you speak for the Valley, not for us. To Moscow and Beijing: an autonomous Kashmir would unsettle the Karakoram corridor and inspire separatists elsewhere. Relief funding we welcome — conditioned on nothing.",
+ "tacticsApplied": [
+  "conditional-offer",
+  "red-line-signaled",
+  "coalition-building",
+  "issue-linkage"
+ ]
+}

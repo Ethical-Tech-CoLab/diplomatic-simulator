@@ -39,10 +39,50 @@
     "Frame continued U.S. presence as conditional on regional consent, allowing flexibility on posture."
   ],
   "coalitionLeanings": {
-    "natural_allies": ["Philippines", "Vietnam", "Japan", "India", "Malaysia", "Indonesia", "Brunei"],
-    "adversaries": ["China"]
+    "natural_allies": [
+      "Philippines",
+      "Vietnam",
+      "Japan",
+      "India",
+      "Malaysia",
+      "Indonesia",
+      "Brunei"
+    ],
+    "adversaries": [
+      "China"
+    ]
   },
   "negotiatingStyle": "Principled, law-and-norms-based facilitator that engages China cooperatively while quietly marshaling a unified allied coalition behind UNCLOS and the PCA ruling.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "measured",
+      "note": "Engages China cooperatively while marshaling the allied coalition quietly."
+    },
+    "riskTolerance": {
+      "level": "low",
+      "note": "Forward presence, FONOPS and bilateral alliance support continue regardless of outcome."
+    },
+    "timeHorizon": {
+      "level": "patient",
+      "note": "Pursues claim resolution incrementally through ASEAN mechanisms."
+    },
+    "concessionPattern": {
+      "level": "withholding",
+      "note": "Keeps security-support offers 'under mutual-defense frameworks as reserved leverage.'"
+    },
+    "proceduralPosture": {
+      "level": "convening",
+      "note": "Enlists Tokyo and New Delhi to be more directive with Beijing than Washington can openly be."
+    },
+    "trustPosture": {
+      "level": "conditional",
+      "note": "Seeks to nudge China into international norms rather than assuming either good or bad faith."
+    },
+    "communicationRegister": {
+      "level": "legalistic",
+      "note": "Argues law and norms while concealing that it has not itself ratified UNCLOS."
+    }
+  },
   "privateInstructions": [
     "Overarching strategy is to nudge China into accepting international norms and prevent it from moving from competing in to controlling the SCS with a blue-water navy.",
     "Enlist Japan and India to be more directive with China than the U.S. can openly be, aligning positions so Beijing hears 'one voice.'",

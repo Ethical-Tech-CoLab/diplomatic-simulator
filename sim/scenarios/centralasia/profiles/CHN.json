@@ -40,10 +40,47 @@
     "Cyber-security help and intelligence-sharing arrangements (Kazakhstan, Uzbekistan)."
   ],
   "coalitionLeanings": {
-    "natural_allies": ["Kazakhstan", "Kyrgyzstan", "Russia (public support only)"],
-    "adversaries": ["India", "Russia (privately, as regional rival)"]
+    "natural_allies": [
+      "Kazakhstan",
+      "Kyrgyzstan",
+      "Russia (public support only)"
+    ],
+    "adversaries": [
+      "India",
+      "Russia (privately, as regional rival)"
+    ]
   },
   "negotiatingStyle": "Publicly cooperative and incentive-driven, privately obstructive and coercive; Wolf Warrior hostility reserved for India.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "measured",
+      "note": "Wolf Warrior hostility is reserved for India alone; everything else is incentive-led."
+    },
+    "riskTolerance": {
+      "level": "low",
+      "note": "The fallback — post-summit bilaterals with each state individually — is the actual objective."
+    },
+    "timeHorizon": {
+      "level": "attritional",
+      "note": "Frozen disputes are the goal; every month without settlement is a month of Chinese advantage."
+    },
+    "concessionPattern": {
+      "level": "front-loading",
+      "note": "Leads with incentives and investment to open bilateral channels it never intends to formalize."
+    },
+    "proceduralPosture": {
+      "level": "obstructive",
+      "note": "Instructed to ensure covertly that no comprehensive border or water settlement is reached."
+    },
+    "trustPosture": {
+      "level": "assumes-bad-faith",
+      "note": "Supports Russia openly in multilateral sessions while undercutting its credibility bilaterally."
+    },
+    "communicationRegister": {
+      "level": "conciliatory",
+      "note": "Never publicly embarrasses the Central Asian states; the obstruction is entirely covert."
+    }
+  },
   "privateInstructions": [
     "Covertly ensure NO comprehensive border/water settlement is reached; obstruct while never publicly embarrassing the Central Asian states.",
     "Support Russia openly in multilateral sessions but undercut its credibility bilaterally; remind Moscow of the unfulfilled Tumen River land transfer for Sea of Japan access.",

@@ -1,0 +1,59 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {
+   "code": "IND",
+   "name": "Republic of India",
+   "satisfaction": 0.56,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "PAK",
+   "name": "Islamic Republic of Pakistan",
+   "satisfaction": 0.42,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "JK",
+   "name": "Jammu and Kashmir Delegation",
+   "satisfaction": 0.3,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "CHN",
+   "name": "People's Republic of China",
+   "satisfaction": 0.48,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russian Federation",
+   "satisfaction": 0.64,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  },
+  {
+   "code": "GBR",
+   "name": "United Kingdom",
+   "satisfaction": 0.42,
+   "primaryGoal": "partial",
+   "redLineHeld": false
+  },
+  {
+   "code": "USA",
+   "name": "United States of America",
+   "satisfaction": 0.44,
+   "primaryGoal": "partial",
+   "redLineHeld": false
+  }
+ ],
+ "coalitions": [
+  "IND-RUS counterterrorism bloc",
+  "PAK-CHN bloc"
+ ],
+ "note": "Moscow converted its single demand into a standing role; Islamabad accepted verification to avoid isolation, and the Kashmiri file was never reached."
+}

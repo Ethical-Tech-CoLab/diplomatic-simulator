@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-japan",
+ "displayName": "Japan",
+ "roundNumber": 2,
+ "kind": "offer",
+ "text": "Mr. Chairman, Japan has listened carefully, and I note first what unites this table. Moscow says it \"has never recognized, and will not recognize, the DPRK as a nuclear-weapon state.\" Beijing conditions its own proposal on \"strict IAEA monitoring.\" Seoul and Washington require NPT return and verified dismantlement. Then five delegations agree the end-state, and only sequence divides us. Japan will negotiate on sequence. Here is our offer. If Pyongyang accepts, in writing, verified dismantlement with NPT return and unconditional IAEA readmission, then Japan will finance light water reactors through a re-envisioned KEDO — one that builds and operates the reactors itself, with the DPRK removed from operation — and will open normalization talks and a substantial economic package with Pyongyang. Japan also supports Seoul's offer of inter-Korean dialogue without preconditions, today. But sanctions relief follows implementation; it does not buy it. And to the DPRK delegation, which says it \"will not accept the Japanese abduction question on this agenda\": the abductions are not a precondition Japan invented, they are Japanese citizens. We will discuss them bilaterally if this table prefers. We will not stop discussing them. Japan will not be sidelined.",
+ "tacticsApplied": [
+  "conditional-offer",
+  "coalition-building",
+  "red-line-signaled",
+  "issue-linkage"
+ ]
+}

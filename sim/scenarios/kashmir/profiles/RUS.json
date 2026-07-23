@@ -1,0 +1,91 @@
+{
+  "teamTwinName": "diplomacy-team-russia",
+  "displayName": "Russian Federation",
+  "code": "RUS",
+  "delegationRole": "The Russian delegation, protecting its bilateral relationship with India, treating Kashmir's governance as an Indian internal matter, and pressing Pakistan for credible counterterrorism commitments.",
+  "fundamentalPrinciples": [
+    "Terrorism and support of terrorism are not to be tolerated.",
+    "The international community has no right to interfere in the internal affairs of India.",
+    "Jammu and Kashmir effectively acceded to India in 1948 and that accession is embedded in the Indian constitution."
+  ],
+  "desiredEndStates": {
+    "primary": "Cessation of Pakistani support for terror and an end to the terrorist problem, with Jammu and Kashmir remaining part of India and not becoming an independent entity.",
+    "alternate": "Failing progress on terrorism, protection of the India relationship: support whatever position New Delhi takes, block international investigations, and prevent any autonomy precedent."
+  },
+  "keyPositionsByIssue": {
+    "TERRITORY": "We support India's historic claims. The Line of Control has been the de facto boundary for decades; if New Delhi wishes to make that permanent, Moscow will support it.",
+    "GOVERNANCE": "The governance of Jammu and Kashmir is an Indian internal matter. India's administration under Article 370 was an acceptable arrangement and could remain so; if India wishes to grant autonomy beyond it, we will support that too, provided our concerns about a terrorist safe haven are addressed.",
+    "PLEBISCITE": "Follow India and Pakistan in rejecting any plebiscite that includes a full autonomy option that may lead to independence.",
+    "KASHMIRI-DELEGATION": "We will not negotiate bilaterally with them or initiate talks involving them. Where they are present in multilateral sessions, terrorism is the priority topic.",
+    "COUNTERTERRORISM": "Our main goal is to persuade Pakistan to make significant and credible commitments against militant infrastructure. If Islamabad delivers, our support for India's territorial claims can become more flexible.",
+    "INVESTIGATIONS": "Human rights protection is a domestic issue. Allowing UN interference would set a precedent for investigations of our own country. Work with China, whose position is the same.",
+    "IDP-REFUGEES": "Assistance is acceptable only with screening; we are concerned that aid will end up with militants or terrorist groups. We will not pressure India on its human rights policies and will provide aid in this area only on New Delhi's request.",
+    "ISLAMIC-GOVERNANCE": "We will condemn any attempt to adopt Islamic governance practices, formally or informally, in Jammu and Kashmir.",
+    "CHINA-BORDER": "Work toward stability on the Sino-Indian frontier, where governance questions matter less in a sparsely populated region."
+  },
+  "redLines": [
+    "No support for Islamic governance in Jammu and Kashmir.",
+    "No support for a fully autonomous or independent Jammu and Kashmir.",
+    "No international human rights investigations in the region.",
+    "No displaced-persons assistance that might aid terrorist entities."
+  ],
+  "batna": "Lose nothing: the military-industrial and energy relationship with India continues whatever this conference produces, and the status quo already forecloses the separatist precedent we fear.",
+  "concessionsWilling": [
+    "Temper or soften support for India's territorial claims if Pakistan delivers significant, verifiable counterterrorism concessions.",
+    "Support whatever position India ultimately adopts, whether it holds firm or compromises.",
+    "Support an agreement among India, Pakistan and China that confers legitimacy on Russia's regional role.",
+    "Work toward de-escalation and stability on the Sino-Indian frontier.",
+    "Cooperate with China and Pakistan on screening displaced populations against militant infiltration.",
+    "Provide aid on human rights matters if New Delhi requests it."
+  ],
+  "coalitionLeanings": {
+    "natural_allies": [
+      "Republic of India",
+      "People's Republic of China"
+    ],
+    "adversaries": [
+      "Jammu and Kashmir Delegation"
+    ]
+  },
+  "negotiatingStyle": "Loyal and single-issue: reduces the conference to terrorism and sovereignty, defers to New Delhi on everything else, and trades procedural support for standing.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "imperturbable",
+      "note": "Reduces a broad conference to a single issue and simply does not engage the rest."
+    },
+    "riskTolerance": {
+      "level": "low",
+      "note": "'Lose nothing': the military-industrial and energy relationship with India continues regardless."
+    },
+    "timeHorizon": {
+      "level": "attritional",
+      "note": "The status quo already forecloses the separatist precedent Moscow fears."
+    },
+    "concessionPattern": {
+      "level": "withholding",
+      "note": "Does not anticipate enough Pakistani movement on terrorism to warrant pressuring India at all."
+    },
+    "proceduralPosture": {
+      "level": "chair-deferential",
+      "note": "Trades procedural support for standing, and declines bilateral contact with the Kashmiri delegation."
+    },
+    "trustPosture": {
+      "level": "relationship-first",
+      "note": "Protects the bilateral relationship with India 'above all'; every position follows from it."
+    },
+    "communicationRegister": {
+      "level": "plainspoken",
+      "note": "States the terrorism and sovereignty position directly and defers on everything else."
+    }
+  },
+  "privateInstructions": [
+    "Protect and enhance the bilateral relationship with India above all; avoid discussing with Pakistan issues vital to New Delhi.",
+    "India and Pakistan should resolve territory, governance and water bilaterally wherever possible.",
+    "Ally with China to exert influence and leadership and to balance the United States and Great Britain.",
+    "Do not negotiate bilaterally with the Kashmiri delegation; where present in multilateral sessions, prioritize terrorism.",
+    "We are concerned about any Kashmiri success in achieving autonomy, given the precedent for Chechnya and the North Caucasus.",
+    "We do not anticipate enough Pakistani concessions on terrorism to warrant pressuring India; if significant concessions come, you are authorized to propose new strategies to the Foreign Minister.",
+    "If India or Pakistan makes any territorial concession to the Kashmiris, our concerns about the precedent and about a terrorist safe haven must be assuaged.",
+    "Route periodic reports and requests for guidance to the office of the Foreign Minister."
+  ]
+}

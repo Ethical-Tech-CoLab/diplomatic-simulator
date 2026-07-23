@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-china",
+ "displayName": "People's Republic of China",
+ "roundNumber": 2,
+ "kind": "offer",
+ "text": "Colleagues, the chair now tables a package. Washington calls a mutual freeze \"unverifiable, it locks in existing capabilities.\" Then verify it. China proposes a freeze under IAEA inspectors at Yongbyon and every declared test site — an internationally monitored suspension, not a promise. If Pyongyang accepts that, then Washington and Seoul suspend major exercises for its duration, the financial-institution sanctions are lifted, and humanitarian assistance flows immediately, need determined by the World Food Program. Seoul: you offered light water reactors through a revived KEDO once the North returns to the NPT and readmits the IAEA. China accepts that formulation, and adds conventional power generation and grid rehabilitation through our commercial entities from day one. Tokyo says it is \"prepared to be generous\" — co-finance KEDO, and this chair will convene a Japan-DPRK bilateral on abductions outside this plenary, where the Framework leaves them. Washington: THAAD's withdrawal belongs in that same reciprocated sequence. Your offer of direct talks without preconditions is welcome; the chair will host them. What China will not accept is denying the DPRK rights every nation holds, or a take-it-or-leave-it package.",
+ "tacticsApplied": [
+  "conditional-offer",
+  "verification-demand",
+  "issue-linkage",
+  "coalition-building"
+ ]
+}

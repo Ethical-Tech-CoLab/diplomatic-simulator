@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-dprk",
+ "displayName": "Democratic People's Republic of Korea",
+ "roundNumber": 2,
+ "kind": "offer",
+ "text": "Mr. Chairman, we heard Washington offer direct dialogue without preconditions, uncoupled from this table. We accept that offer. We note also that Seoul is ready to resume inter-Korean dialogue without preconditions and to restore the Comprehensive Military Agreement. We accept that too, and we will meet the Republic of Korea. Here is our package. If a solid commitment of humanitarian assistance is delivered — through WHO auspices as Seoul proposed — and financial-institution sanctions are lifted immediately, as China and Russia both urge, then the DPRK will freeze all nuclear and missile development and testing against suspension of Japan-ROK-US exercises, and readmit IAEA monitors as a step within that process. If a treaty ending the Korean War and normalization follow, we will discuss return to the NPT with light water reactors under a revived KEDO. The United States calls a freeze unverifiable. Then verify it — that is what monitors are for. What we will not accept: dismantlement demanded before peace, sanctions held hostage to a comprehensive package, and the Japanese question on this agenda. We will give up our weapons when the world gives up theirs.",
+ "tacticsApplied": [
+  "conditional-offer",
+  "coalition-building",
+  "verification-demand",
+  "red-line-signaled"
+ ]
+}

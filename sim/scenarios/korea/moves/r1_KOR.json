@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-rok",
+ "displayName": "Republic of Korea",
+ "roundNumber": 1,
+ "kind": "opening-statement",
+ "text": "Mr. Chairman, the Republic of Korea thanks the People's Republic of China for convening us, and greets every delegation at this table — including the delegation from the North, with whom we share one peninsula and one people. Seoul comes to Beijing seeking peace and stability, and we come prepared to move. We have already silenced the loudspeakers. We are ready today to resume inter-Korean dialogue without preconditions and to restore the Comprehensive Military Agreement. Within a comprehensive agreement we are prepared to discuss an expansive economic future: rail, road, power and grid, humanitarian assistance under WHO auspices, and light water reactors through a re-established KEDO once the North returns to the NPT and readmits the IAEA. But let the record show one thing plainly, Mr. Chairman. Bad behavior will not be rewarded. The Republic of Korea will not accept any outcome that leaves Pyongyang any part of a nuclear program or an offensive ballistic missile capability. Dismantlement must be negotiated and verified. So long as those programs exist, our alliance posture and our exercises remain. Peace is available. It is not purchasable by threat.",
+ "tacticsApplied": [
+  "red-line-signaled",
+  "conditional-offer",
+  "verification-demand",
+  "principled-bargaining-frame"
+ ]
+}

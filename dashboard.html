@@ -97,7 +97,7 @@ footer{border-top:1px solid var(--line);color:var(--muted);font-size:.8rem;text-
   var data = window.DIPLOMACY_SNAPSHOT_DEMO || {sessions:[]};
   var sessions = (data.sessions||[]);
   // prefer the scenario sessions in the picker
-  var PREF = ['sess-arctic-iscne-01','sess-centralasia-iscne-01','sess-cyprus-iscne-01','sess-scs-iscne-01'];
+  var PREF = ['sess-arctic-iscne-01','sess-centralasia-iscne-01','sess-cyprus-iscne-01','sess-scs-iscne-01','sess-korea-iscne-01','sess-kashmir-iscne-01'];
   sessions = sessions.slice().sort(function(a,b){
     var ia=PREF.indexOf(a.id), ib=PREF.indexOf(b.id);
     if(ia<0)ia=99; if(ib<0)ib=99; return ia-ib;

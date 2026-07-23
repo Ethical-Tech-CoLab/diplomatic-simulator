@@ -37,10 +37,51 @@
     "Signal forthcoming accession to UNCLOS."
   ],
   "coalitionLeanings": {
-    "natural_allies": ["Canada", "Denmark/Greenland", "Finland", "Iceland", "Norway", "Sweden", "NATO"],
-    "adversaries": ["Russia", "China"]
+    "natural_allies": [
+      "Canada",
+      "Denmark/Greenland",
+      "Finland",
+      "Iceland",
+      "Norway",
+      "Sweden",
+      "NATO"
+    ],
+    "adversaries": [
+      "Russia",
+      "China"
+    ]
   },
   "negotiatingStyle": "Assertive, alliance-driven; projects a united Western front while pressuring allies to fall in line.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "brittle",
+      "note": "Raises Canada's training of Chinese troops as a grievance rather than as a fact."
+    },
+    "riskTolerance": {
+      "level": "high",
+      "note": "Prefers unilateral posture and freedom-of-navigation operations to a deal that concedes navigation."
+    },
+    "timeHorizon": {
+      "level": "patient",
+      "note": "Constant Arctic presence and partner-nation basing are sustainable without any agreement."
+    },
+    "concessionPattern": {
+      "level": "withholding",
+      "note": "Pressures allies to fall in line rather than trading for their support."
+    },
+    "proceduralPosture": {
+      "level": "obstructive",
+      "note": "Refuses to treat China as a legitimate participant in Arctic governance at all."
+    },
+    "trustPosture": {
+      "level": "assumes-bad-faith",
+      "note": "Chinese participation is illegitimate by definition, and allied deals with Beijing read as defection."
+    },
+    "communicationRegister": {
+      "level": "plainspoken",
+      "note": "Projects a united front by stating the required position rather than negotiating it."
+    }
+  },
   "privateInstructions": [
     "Do not negotiate bilaterally with China on Arctic governance; treat it as an illegitimate participant.",
     "Use NORAD and security dependence as leverage to force Canada to back U.S. positions and away from China/Russia deals.",

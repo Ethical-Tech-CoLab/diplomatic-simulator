@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-us",
+ "displayName": "United States of America",
+ "roundNumber": 1,
+ "kind": "opening-statement",
+ "text": "Mr. Chairman, the United States thanks the People's Republic of China for convening this process and welcomes all delegations to Beijing. We come with a single organizing objective: peace, stability and security on the Korean Peninsula, built on the complete, verified and irreversible dismantlement of the DPRK's nuclear program and the verified termination of its medium- and long-range missile programs, with return to the NPT as a non-nuclear-weapons state and unconditional readmission to IAEA monitoring. We seek one comprehensive package covering every issue in the Chairman's Framework — and we insist that proliferation, chemical and cyber conduct be addressed alongside it. Sanctions relief and assistance beyond the most urgent humanitarian need follow implementation; they do not precede it. Bad behavior will not be rewarded. Let me be plain about one thing we will not accept: a so-called mutual freeze. It is unverifiable, it locks in existing capabilities, and it degrades allied readiness. Exercises and THAAD remain while those programs exist. In good faith, we offer Pyongyang direct dialogue without preconditions, uncoupled from this table. Thank you, Mr. Chairman.",
+ "tacticsApplied": [
+  "anchoring",
+  "red-line-signaled",
+  "verification-demand",
+  "conditional-offer"
+ ]
+}

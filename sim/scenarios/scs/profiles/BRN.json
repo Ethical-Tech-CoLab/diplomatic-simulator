@@ -39,10 +39,50 @@
     "Welcome external powers as 'trusted partners' in facilitating solutions."
   ],
   "coalitionLeanings": {
-    "natural_allies": ["Philippines", "Vietnam", "Malaysia", "Indonesia", "United States", "Japan", "India"],
-    "adversaries": ["China"]
+    "natural_allies": [
+      "Philippines",
+      "Vietnam",
+      "Malaysia",
+      "Indonesia",
+      "United States",
+      "Japan",
+      "India"
+    ],
+    "adversaries": [
+      "China"
+    ]
   },
   "negotiatingStyle": "Cordial, non-confrontational, and consensus-seeking; frames itself as a trusted bridge-builder that upholds UNCLOS without unnecessarily antagonizing China.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "warm",
+      "note": "Cordial with all parties, especially China, and trades on exactly that standing."
+    },
+    "riskTolerance": {
+      "level": "low",
+      "note": "Falls back to confidence-building measures and joint ventures, keeping sovereignty disputes bilateral."
+    },
+    "timeHorizon": {
+      "level": "patient",
+      "note": "Short-term measures now and sovereignty later is an acceptable outcome."
+    },
+    "concessionPattern": {
+      "level": "front-loading",
+      "note": "Offers joint commercial and energy ventures as the opening rather than as the reward."
+    },
+    "proceduralPosture": {
+      "level": "convening",
+      "note": "Quietly positions itself to lead the negotiations on the strength of its relations with everyone."
+    },
+    "trustPosture": {
+      "level": "relationship-first",
+      "note": "The whole strategy rests on excellent relations with every party, Beijing included."
+    },
+    "communicationRegister": {
+      "level": "conciliatory",
+      "note": "Upholds UNCLOS 'without unnecessarily antagonizing China' — the qualifier is the strategy."
+    }
+  },
   "privateInstructions": [
     "Quietly position Brunei as the lead for the negotiations, leveraging its excellent relations with all parties, especially China, and enlist India, Japan, and the US to back that lead.",
     "Covertly enlist Indonesia and Malaysia to bring unqualified support to the Philippines and Vietnam so as to strengthen Brunei's own positions against China.",

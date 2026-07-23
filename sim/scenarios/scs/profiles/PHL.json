@@ -39,10 +39,48 @@
     "Common operating procedures for naval and air forces in the region."
   ],
   "coalitionLeanings": {
-    "natural_allies": ["Vietnam", "United States", "Japan", "India", "ASEAN members (Malaysia, Brunei, Indonesia)"],
-    "adversaries": ["China"]
+    "natural_allies": [
+      "Vietnam",
+      "United States",
+      "Japan",
+      "India",
+      "ASEAN members (Malaysia, Brunei, Indonesia)"
+    ],
+    "adversaries": [
+      "China"
+    ]
   },
   "negotiatingStyle": "Principled, law-first and cooperative-framed, leveraging ASEAN Chair convening power while firmly anchoring on UNCLOS and the arbitral award.",
+  "behavioralProfile": {
+    "temperament": {
+      "level": "brittle",
+      "note": "Frames the talks internally as possibly the last opportunity to contain China peacefully."
+    },
+    "riskTolerance": {
+      "level": "moderate",
+      "note": "The UNCLOS award and deepened alignment are a real fallback, but one framed internally as failure."
+    },
+    "timeHorizon": {
+      "level": "urgent",
+      "note": "Success is treated as 'a matter of national power and prestige' now, not later."
+    },
+    "concessionPattern": {
+      "level": "withholding",
+      "note": "Anchors firmly on the binding arbitral award and does not trade it for process."
+    },
+    "proceduralPosture": {
+      "level": "convening",
+      "note": "Leverages ASEAN Chair convening power to hold the bloc together."
+    },
+    "trustPosture": {
+      "level": "verification-first",
+      "note": "Anchors on the binding arbitral award rather than on any assurance offered at the table."
+    },
+    "communicationRegister": {
+      "level": "legalistic",
+      "note": "Law-first: the award and UNCLOS do the arguing."
+    }
+  },
   "privateInstructions": [
     "Internally frame these talks as possibly the last opportunity to peacefully contain Chinese ambitions in the SCS/SEA region; success is a matter of national power and prestige.",
     "Privately press the US, Japan, and India to lean on Beijing to abandon bilateral talks and abide by UNCLOS.",

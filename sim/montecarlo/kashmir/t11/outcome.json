@@ -1,0 +1,59 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {
+   "code": "IND",
+   "name": "Republic of India",
+   "satisfaction": 0.5,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "PAK",
+   "name": "Islamic Republic of Pakistan",
+   "satisfaction": 0.48,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "JK",
+   "name": "Jammu and Kashmir Delegation",
+   "satisfaction": 0.28,
+   "primaryGoal": "failed",
+   "redLineHeld": false
+  },
+  {
+   "code": "CHN",
+   "name": "People's Republic of China",
+   "satisfaction": 0.64,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russian Federation",
+   "satisfaction": 0.52,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "GBR",
+   "name": "United Kingdom",
+   "satisfaction": 0.34,
+   "primaryGoal": "failed",
+   "redLineHeld": false
+  },
+  {
+   "code": "USA",
+   "name": "United States of America",
+   "satisfaction": 0.36,
+   "primaryGoal": "failed",
+   "redLineHeld": false
+  }
+ ],
+ "coalitions": [
+  "CHN-PAK bloc",
+  "IND-RUS bloc"
+ ],
+ "note": "Chinese money entrenched both administrations at once; reconstruction ran through New Delhi and Islamabad, and the Kashmiri delegation was written out of the only chapter that produced text."
+}

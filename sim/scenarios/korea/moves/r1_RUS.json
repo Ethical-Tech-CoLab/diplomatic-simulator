@@ -1,0 +1,13 @@
+{
+ "partyTwin": "diplomacy-team-russia",
+ "displayName": "Russian Federation",
+ "roundNumber": 1,
+ "kind": "opening-statement",
+ "text": "Mr. Chairman, the Russian Federation thanks the People's Republic of China for restoring this forum, which remains the only forum equal to the task. Diplomacy is the sole instrument here, and we come to work. Our priorities are three. First, a step-by-step settlement: a progressive series of integrated agreements, each reciprocated, leading to the eventual elimination of the DPRK's nuclear weapons. Russia has never recognized, and will not recognize, the DPRK as a nuclear-weapon state. Second, an early peace treaty. Pyongyang, Seoul and Washington should move now to end a war seventy-three years unfinished; resolving the war creates the conditions to resolve the nuclear question, not the reverse. Third, humanitarian relief and immediate easing of the financial sanctions strangling ordinary North Koreans. Russia is prepared to supply aid, energy, grid rehabilitation and investment, and to serve as honest broker, as Pyongyang has trusted us to do before. What we will not accept is a single comprehensive package presented as take-it-or-leave-it, nor any procedure that sidelines this delegation. That would damage the process itself.",
+ "tacticsApplied": [
+  "anchoring",
+  "red-line-signaled",
+  "humanitarian-frame",
+  "issue-linkage"
+ ]
+}

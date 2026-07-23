@@ -55,16 +55,16 @@ The full independent academic peer review of this report is in [PEER-REVIEW.md](
 
 **What the review found:**
 
-- The deepest limitation, that one model plays every side, is acknowledged but never tested, though the test is cheap and available. — **Partially addressed: the test is still not run, but every affected claim is now labelled conditional on a single model.**
+- The deepest limitation, that one model plays every side, is acknowledged but never tested, though the test is cheap and available. — **Partially addressed: the Korea mixed-model run is done and committed; its comparative analysis is still outstanding, and every affected claim is labelled conditional meanwhile.**
 
 ### Revisions applied (peer review, Tier 2)
 
-**The multi-model test has NOT been run.** It requires re-generating negotiations with different underlying models, and the generation harness is not in this repository — the sessions here are completed transcripts. This remains the single highest-value outstanding item: run one scenario (the Arctic, as the flagship) with delegations driven by two or three different models, or at minimum materially different temperatures or system-prompt personas, and report whether the deal type, the satisfaction ordering, and the "zero comprehensive settlements" result survive.
+**The multi-model run has been executed for Korea; its comparative analysis has not.** A controlled A/B against the isolated single-model baseline (`93b2941`) holds scenario, profiles, brief, prompts, rounds and information isolation constant and varies only the model behind each seat — DPRK and USA on Opus 4.8, China and Russia on Sonnet, ROK and Japan on Haiku 4.5. Design and all three round transcripts are committed under [`sim/analysis/mixed-model/`](sim/analysis/mixed-model/). **The Findings section of `korea.md` is still empty**, so the question the review actually asked — do the convergences, the red-line breaks and the "zero comprehensive settlements" result survive a different model assignment? — is not yet answered. That write-up is the outstanding item.
 
-**What has been done** is the reviewer's stated fallback — making the conditionality travel with the numbers instead of sitting in a limitations section readers reach last:
+**What has also been done** is the reviewer's stated fallback — making the conditionality travel with the numbers instead of sitting in a limitations section readers reach last:
 
 - **S5.4, S6, and S8.6 each carry a "conditional on a single model" banner** at the point the results are presented, stating that satisfaction scores, red-line survival rates, deal-type distributions, and coalition frequencies describe how one model behaves playing every side, not how negotiations behave.
-- **New S11.1a** states plainly that diagnosing the monoculture problem is not the same as measuring it, specifies exactly what the missing test is, and records that the omission is not defensible on cost grounds — it simply has not been done.
+- **New S11.1a** states plainly that diagnosing the monoculture problem is not the same as measuring it, documents the mixed-model run's design and model assignment, and records that what remains outstanding is the comparative analysis rather than the run itself.
 - **S13.1 is softened**: the conclusion now opens by saying the negotiation results should not yet be read as findings about negotiation, and confines the contribution to the methodological discipline, which is what the prototype actually demonstrates.
 - The headline "0 comprehensive settlements" result may be an artefact of the model's disposition rather than a finding about diplomacy.
 - Small-n percentages ("38% of runs" = 3 of 8) contradict the paper's own caveat against quoting such figures.

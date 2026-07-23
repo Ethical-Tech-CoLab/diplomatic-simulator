@@ -144,8 +144,8 @@ The resulting counts are informative in aggregate. In the Arctic session, coalit
 ### 5.4 The scoreboard: how the outcome is scored
 
 > **Conditional on a single model.** The scores this section defines were all
-> produced with one underlying model driving every delegation, and the
-> multi-model check has not been run. See 11.1 and 11.1a.
+> produced with one underlying model driving every delegation. A mixed-model
+> A/B run for Korea has been executed but not yet analysed. See 11.1 and 11.1a.
 
 
 The analyst agent produces four numbers for each delegation.
@@ -168,10 +168,10 @@ Each debrief also lists the delegation's goals individually. Every goal carries 
 > satisfaction scores, red-line survival rates, deal-type distributions, and
 > coalition frequencies -- was produced with one underlying model driving all
 > delegations. As 11.1 states, the adversaries are therefore not independent
-> minds. **The multi-model check that would separate a finding about negotiation
-> from an artefact of monoculture has not been run** (see 11.1a). Until it is,
-> these numbers describe how one model behaves when playing every side, not how
-> negotiations behave.
+> minds. A mixed-model A/B run for Korea has since been executed and its
+> transcripts committed, but **its comparative findings are not yet written up**
+> (see 11.1a). Until they are, these numbers should be read as describing how
+> one model behaves when playing every side.
 
 6.1 The convener report. Alongside the scoreboard, the analyst writes a neutral summary in the voice of a Special Representative of the Secretary-General, the title given to a senior envoy appointed by the United Nations Secretary-General to convene and mediate. The report carries a headline, a summary, a list of key outcomes, and a list of unresolved issues. The Arctic report concluded that the conference produced a scaffolding of cooperation tracks but no binding settlement, and observed that what broke through was the low-politics agenda, where trust was cheapest, while everything touching sovereignty, jurisdiction, and membership stalled.
 
@@ -221,10 +221,10 @@ Momentum, recording which delegation enters with the initiative.
 > satisfaction scores, red-line survival rates, deal-type distributions, and
 > coalition frequencies -- was produced with one underlying model driving all
 > delegations. As 11.1 states, the adversaries are therefore not independent
-> minds. **The multi-model check that would separate a finding about negotiation
-> from an artefact of monoculture has not been run** (see 11.1a). Until it is,
-> these numbers describe how one model behaves when playing every side, not how
-> negotiations behave.
+> minds. A mixed-model A/B run for Korea has since been executed and its
+> transcripts committed, but **its comparative findings are not yet written up**
+> (see 11.1a). Until they are, these numbers should be read as describing how
+> one model behaves when playing every side.
 
 8.6 What the runs found. Eight trials were run for each scenario. Across every trial of every scenario, not one produced a comprehensive settlement. Central Asia was the most stable, returning a framework agreement in six trials of eight. The Arctic returned a framework in five and a partial in three, with no failures at all. Cyprus was by a wide margin the most fragile, returning two outright breakdowns and one stalemate against three frameworks. The Strait of Hormuz session likewise produced two breakdowns. Individual variables are equally revealing: in the Arctic trials, China's red line held in only thirty-eight per cent of runs and the United States red line in eighty-eight per cent, while the five other delegations held theirs in every single trial.
 
@@ -260,20 +260,30 @@ The repository documents its own limitations at length, and they are serious eno
 
 11.1 One mind plays every side. All delegations are driven by the same underlying model. Information is isolated, but the adversaries are not genuinely independent actors, and shared assumptions or style can leak across roles. This is the deepest limitation in the design, because it undercuts the premise that a negotiation is a meeting of different minds.
 
-11.1a The confound is acknowledged but untested, and that is a real gap.
+11.1a The confound is now being tested, and the test is half-complete.
 Diagnosing the monoculture problem is not the same as measuring it. The check
-this design most needs is a seam: run one scenario -- the Arctic is the natural
-choice as the flagship -- with delegations driven by two or three *different*
-underlying models, or at minimum with materially different sampling
-temperatures or system-prompt personas, and report whether the deal type, the
+this design needs is a seam: run one scenario with delegations driven by
+*different* underlying models and report whether the deal type, the
 satisfaction ordering, and the "zero comprehensive settlements" result survive.
 
-**That test has not been run.** It is not expensive, and the omission is not
-defensible on grounds of cost; it simply has not been done yet. Until it is,
-every quantitative claim in 5.4, 6 and 8.6 is conditional on a single model,
-and is labelled as such at the point it is made. Either outcome would be worth
-reporting: if the ordering is stable across models, that is a real finding; if
-it collapses, that matters more still.
+**That run has been executed for the Korea Six-Party Talks** as a controlled
+A/B against the isolated single-model baseline, holding scenario, profiles,
+public brief, prompts, rounds and information isolation constant and varying
+only which model sits behind each seat: the DPRK and the United States on Opus
+4.8 (kept on the strongest model, because a weaker model self-breaching a red
+line would confound "the model cannot hold a position" with "the position did
+not hold"), China and Russia on Sonnet, and the Republic of Korea and Japan on
+Haiku 4.5. Design and all three round transcripts are committed under
+`sim/analysis/mixed-model/`.
+
+**What is outstanding is the comparative analysis.** The transcripts exist; the
+finding does not yet. Until the comparison against the baseline is written up
+and reported here, every quantitative claim in 5.4, 6 and 8.6 remains
+conditional on a single model and is labelled as such at the point it is made.
+Either outcome is worth reporting: if the convergences and red-line breaks
+recur under a different model assignment, the baseline finding survives a real
+test; if they do not, the finding is partly about the model, which is more
+useful to know than to assume.
 
 11.2 There is no ground truth. Nothing in the tool has been validated against a real negotiation, an expert assessment, or a historical outcome. The scoreboard numbers are one system's subjective judgement of another system's writing. Satisfaction should be read as how the analyst rated the argument on the page, not as an assessment of any national interest.
 
@@ -307,11 +317,12 @@ it collapses, that matters more still.
 
 13.1 The Diplomatic Simulator is a modest and carefully documented prototype.
 **Its negotiation results should not yet be read as findings about negotiation.**
-One model plays every side, and the multi-model check that would tell the reader
+One model plays every side. The multi-model check that would tell the reader
 whether the satisfaction ordering, the deal types, and the "zero comprehensive
 settlements" result are properties of the scenarios or artefacts of that
-monoculture has not been run (11.1, 11.1a). Every number reported here is
-conditional on that.
+monoculture has been run for Korea, but its comparative findings are not yet
+written up (11.1, 11.1a). Every number reported here remains conditional on
+that until they are.
 
 What the prototype does contribute is less the simulated negotiations themselves than the discipline imposed on them: confidential mandates that stay confidential, statements that are counted and labelled, scores that are defined against each delegation's own stated goals rather than an invented standard of success, and a sensitivity layer that reports how much of the outcome was luck.
 

@@ -1391,138 +1391,142 @@ window.MC_RESULTS = {
    "key": "korea",
    "title": "Korea — Six-Party Talks",
    "sessionId": "sess-korea-iscne-01",
-   "nTrials": 12,
+   "nTrials": 20,
    "dealTypes": {
     "comprehensive": 0,
-    "framework": 2,
-    "partial": 3,
-    "stalemate": 4,
+    "framework": 3,
+    "partial": 6,
+    "stalemate": 8,
     "breakdown": 3
    },
    "parties": [
     {
      "code": "RUS",
      "name": "Russian Federation",
-     "n": 12,
+     "n": 20,
      "sat": {
-      "n": 12,
-      "mean": 0.464,
-      "sd": 0.148,
+      "n": 20,
+      "mean": 0.479,
+      "sd": 0.135,
       "min": 0.28,
       "max": 0.7,
-      "p50": 0.44
+      "p50": 0.48
      },
      "redLineHeldPct": 100,
      "goals": {
-      "achieved": 3,
-      "partial": 4,
-      "failed": 5
+      "achieved": 5,
+      "partial": 8,
+      "failed": 7
      }
     },
     {
      "code": "CHN",
      "name": "People's Republic of China",
-     "n": 12,
+     "n": 20,
      "sat": {
-      "n": 12,
-      "mean": 0.45,
-      "sd": 0.17,
+      "n": 20,
+      "mean": 0.473,
+      "sd": 0.158,
       "min": 0.22,
       "max": 0.74,
-      "p50": 0.42
+      "p50": 0.47
      },
-     "redLineHeldPct": 83,
+     "redLineHeldPct": 85,
      "goals": {
-      "achieved": 2,
-      "partial": 5,
-      "failed": 5
+      "achieved": 4,
+      "partial": 9,
+      "failed": 7
      }
     },
     {
      "code": "KOR",
      "name": "Republic of Korea",
-     "n": 12,
+     "n": 20,
      "sat": {
-      "n": 12,
-      "mean": 0.433,
-      "sd": 0.133,
+      "n": 20,
+      "mean": 0.434,
+      "sd": 0.115,
       "min": 0.22,
       "max": 0.66,
       "p50": 0.41
      },
-     "redLineHeldPct": 92,
+     "redLineHeldPct": 95,
      "goals": {
       "achieved": 1,
-      "partial": 7,
-      "failed": 4
+      "partial": 12,
+      "failed": 7
      }
     },
     {
      "code": "USA",
      "name": "United States of America",
-     "n": 12,
+     "n": 20,
      "sat": {
-      "n": 12,
-      "mean": 0.41,
+      "n": 20,
+      "mean": 0.426,
       "sd": 0.069,
       "min": 0.28,
       "max": 0.52,
-      "p50": 0.42
+      "p50": 0.44
      },
-     "redLineHeldPct": 83,
+     "redLineHeldPct": 90,
      "goals": {
       "achieved": 0,
-      "partial": 9,
-      "failed": 3
+      "partial": 15,
+      "failed": 5
      }
     },
     {
      "code": "PRK",
      "name": "Democratic People's Republic of Korea",
-     "n": 12,
+     "n": 20,
      "sat": {
-      "n": 12,
-      "mean": 0.395,
-      "sd": 0.142,
+      "n": 20,
+      "mean": 0.414,
+      "sd": 0.132,
       "min": 0.2,
       "max": 0.62,
-      "p50": 0.36
+      "p50": 0.45
      },
      "redLineHeldPct": 100,
      "goals": {
       "achieved": 0,
-      "partial": 6,
-      "failed": 6
+      "partial": 12,
+      "failed": 8
      }
     },
     {
      "code": "JPN",
      "name": "Japan",
-     "n": 12,
+     "n": 20,
      "sat": {
-      "n": 12,
-      "mean": 0.343,
-      "sd": 0.069,
+      "n": 20,
+      "mean": 0.36,
+      "sd": 0.074,
       "min": 0.24,
-      "max": 0.5,
+      "max": 0.52,
       "p50": 0.34
      },
-     "redLineHeldPct": 92,
+     "redLineHeldPct": 85,
      "goals": {
       "achieved": 0,
-      "partial": 3,
-      "failed": 9
+      "partial": 7,
+      "failed": 13
      }
     }
    ],
    "coalitions": [
     {
-     "label": "CHN-RUS-PRK step-by-step bloc",
-     "n": 4
+     "label": "CHN-RUS step-by-step bloc",
+     "n": 6
     },
     {
-     "label": "CHN-RUS step-by-step bloc",
-     "n": 3
+     "label": "CHN-RUS-PRK step-by-step bloc",
+     "n": 6
+    },
+    {
+     "label": "USA-KOR-JPN bloc",
+     "n": 4
     },
     {
      "label": "USA-KOR-JPN trilateral bloc",
@@ -1542,10 +1546,6 @@ window.MC_RESULTS = {
     },
     {
      "label": "USA-KOR-JPN trilateral bloc (strained)",
-     "n": 1
-    },
-    {
-     "label": "USA-JPN maximum-pressure bloc",
      "n": 1
     }
    ],
@@ -1645,6 +1645,70 @@ window.MC_RESULTS = {
      "mood": "hostile",
      "mediatorPressure": "low",
      "note": "Seoul's and Washington's brinkmanship red lines were crossed within hours; the conference adjourned without a closing plenary and the chair issued the only statement."
+    },
+    {
+     "t": 12,
+     "dealType": "partial",
+     "shock": "The chair convenes an unannounced U.S.–DPRK sidebar on the second afternoon",
+     "mood": "constructive",
+     "mediatorPressure": "high",
+     "note": "The sidebar produced a standing bilateral channel and nothing verifiable; Tokyo learned of it afterwards and protested being sidelined."
+    },
+    {
+     "t": 13,
+     "dealType": "stalemate",
+     "shock": "A DPRK cyber operation against a South Korean bank is attributed mid-round",
+     "mood": "hostile",
+     "mediatorPressure": "medium",
+     "note": "Attribution let Washington and Tokyo force cyber onto the agenda over the chair's framework ruling; Beijing's germaneness red line fell and the freeze went with it."
+    },
+    {
+     "t": 14,
+     "dealType": "partial",
+     "shock": "Tokyo publicly offers a normalization and economic package before the plenary",
+     "mood": "neutral",
+     "mediatorPressure": "medium",
+     "note": "A priced Japanese offer bought a bilateral aside on the abductions — the first in the corpus — but nothing on the nuclear file."
+    },
+    {
+     "t": 15,
+     "dealType": "framework",
+     "shock": "Washington and Seoul announce a shortened exercise cycle as a goodwill measure",
+     "mood": "constructive",
+     "mediatorPressure": "high",
+     "note": "A reciprocated gesture did what three rounds of argument could not: an inspector-backed freeze in principle, with Japan dissenting on relief sequencing."
+    },
+    {
+     "t": 16,
+     "dealType": "partial",
+     "shock": "Chinese customs data show a collapse in cross-border trade with the DPRK",
+     "mood": "neutral",
+     "mediatorPressure": "medium",
+     "note": "Evidence that Beijing was in fact enforcing sanctions bought China credibility and Pyongyang a humanitarian corridor; the deterrent stayed off the table."
+    },
+    {
+     "t": 17,
+     "dealType": "stalemate",
+     "shock": "A delegation of DPRK defectors testifies at the UN during the talks",
+     "mood": "hostile",
+     "mediatorPressure": "low",
+     "note": "Pyongyang treated the testimony as a coordinated insult and spent the remaining rounds demanding an apology rather than negotiating."
+    },
+    {
+     "t": 18,
+     "dealType": "stalemate",
+     "shock": "Moscow and Pyongyang sign an expanded labour and energy protocol",
+     "mood": "neutral",
+     "mediatorPressure": "low",
+     "note": "With Russian labour and fuel already contracted, sanctions relief lost its value as an inducement and the trilateral bloc had nothing left to withhold."
+    },
+    {
+     "t": 19,
+     "dealType": "stalemate",
+     "shock": "A South Korean court orders compensation from Japanese firms, reopening Seoul–Tokyo friction",
+     "mood": "neutral",
+     "mediatorPressure": "medium",
+     "note": "The trilateral position split on a matter unrelated to Korea; Pyongyang widened the gap deliberately and conceded nothing to either capital."
     }
    ]
   },
@@ -1652,156 +1716,164 @@ window.MC_RESULTS = {
    "key": "kashmir",
    "title": "Jammu & Kashmir",
    "sessionId": "sess-kashmir-iscne-01",
-   "nTrials": 12,
+   "nTrials": 20,
    "dealTypes": {
     "comprehensive": 0,
-    "framework": 2,
-    "partial": 5,
-    "stalemate": 3,
+    "framework": 3,
+    "partial": 9,
+    "stalemate": 6,
     "breakdown": 2
    },
    "parties": [
     {
-     "code": "IND",
-     "name": "Republic of India",
-     "n": 12,
-     "sat": {
-      "n": 12,
-      "mean": 0.5,
-      "sd": 0.088,
-      "min": 0.3,
-      "max": 0.62,
-      "p50": 0.51
-     },
-     "redLineHeldPct": 92,
-     "goals": {
-      "achieved": 0,
-      "partial": 11,
-      "failed": 1
-     }
-    },
-    {
      "code": "RUS",
      "name": "Russian Federation",
-     "n": 12,
+     "n": 20,
      "sat": {
-      "n": 12,
-      "mean": 0.497,
-      "sd": 0.064,
+      "n": 20,
+      "mean": 0.506,
+      "sd": 0.061,
       "min": 0.4,
-      "max": 0.62,
-      "p50": 0.49
+      "max": 0.64,
+      "p50": 0.5
      },
      "redLineHeldPct": 100,
      "goals": {
-      "achieved": 2,
-      "partial": 10,
+      "achieved": 3,
+      "partial": 17,
       "failed": 0
+     }
+    },
+    {
+     "code": "IND",
+     "name": "Republic of India",
+     "n": 20,
+     "sat": {
+      "n": 20,
+      "mean": 0.505,
+      "sd": 0.077,
+      "min": 0.3,
+      "max": 0.62,
+      "p50": 0.52
+     },
+     "redLineHeldPct": 95,
+     "goals": {
+      "achieved": 1,
+      "partial": 18,
+      "failed": 1
      }
     },
     {
      "code": "CHN",
      "name": "People's Republic of China",
-     "n": 12,
+     "n": 20,
      "sat": {
-      "n": 12,
-      "mean": 0.488,
-      "sd": 0.076,
+      "n": 20,
+      "mean": 0.492,
+      "sd": 0.068,
       "min": 0.4,
       "max": 0.64,
-      "p50": 0.46
+      "p50": 0.47
      },
      "redLineHeldPct": 100,
      "goals": {
-      "achieved": 3,
-      "partial": 9,
+      "achieved": 4,
+      "partial": 16,
       "failed": 0
      }
     },
     {
      "code": "USA",
      "name": "United States of America",
-     "n": 12,
+     "n": 20,
      "sat": {
-      "n": 12,
-      "mean": 0.402,
-      "sd": 0.105,
+      "n": 20,
+      "mean": 0.411,
+      "sd": 0.099,
       "min": 0.24,
-      "max": 0.56,
-      "p50": 0.4
+      "max": 0.58,
+      "p50": 0.42
      },
-     "redLineHeldPct": 33,
+     "redLineHeldPct": 30,
      "goals": {
       "achieved": 0,
-      "partial": 6,
-      "failed": 6
+      "partial": 10,
+      "failed": 10
      }
     },
     {
      "code": "GBR",
      "name": "United Kingdom",
-     "n": 12,
+     "n": 20,
      "sat": {
-      "n": 12,
-      "mean": 0.382,
-      "sd": 0.105,
+      "n": 20,
+      "mean": 0.394,
+      "sd": 0.101,
       "min": 0.22,
       "max": 0.54,
-      "p50": 0.38
+      "p50": 0.4
      },
-     "redLineHeldPct": 33,
+     "redLineHeldPct": 30,
      "goals": {
       "achieved": 0,
-      "partial": 6,
-      "failed": 6
+      "partial": 10,
+      "failed": 10
      }
     },
     {
      "code": "PAK",
      "name": "Islamic Republic of Pakistan",
-     "n": 12,
+     "n": 20,
      "sat": {
-      "n": 12,
-      "mean": 0.347,
-      "sd": 0.11,
+      "n": 20,
+      "mean": 0.371,
+      "sd": 0.1,
       "min": 0.18,
       "max": 0.52,
-      "p50": 0.33
+      "p50": 0.36
      },
      "redLineHeldPct": 100,
      "goals": {
       "achieved": 0,
-      "partial": 4,
-      "failed": 8
+      "partial": 9,
+      "failed": 11
      }
     },
     {
      "code": "JK",
      "name": "Jammu and Kashmir Delegation",
-     "n": 12,
+     "n": 20,
      "sat": {
-      "n": 12,
-      "mean": 0.32,
-      "sd": 0.103,
+      "n": 20,
+      "mean": 0.331,
+      "sd": 0.104,
       "min": 0.18,
       "max": 0.5,
-      "p50": 0.29
+      "p50": 0.31
      },
-     "redLineHeldPct": 75,
+     "redLineHeldPct": 85,
      "goals": {
       "achieved": 0,
-      "partial": 5,
-      "failed": 7
+      "partial": 9,
+      "failed": 11
      }
     }
    ],
    "coalitions": [
     {
+     "label": "PAK-CHN bloc",
+     "n": 5
+    },
+    {
      "label": "IND-RUS bloc",
      "n": 4
     },
     {
-     "label": "PAK-CHN bloc",
+     "label": "IND-CHN-RUS status-quo bloc",
+     "n": 4
+    },
+    {
+     "label": "GBR-USA-JK autonomy coalition",
      "n": 4
     },
     {
@@ -1809,24 +1881,16 @@ window.MC_RESULTS = {
      "n": 2
     },
     {
+     "label": "GBR-USA-PAK-JK investigation coalition",
+     "n": 2
+    },
+    {
      "label": "IND-JK constitutional track",
      "n": 2
     },
     {
-     "label": "IND-RUS sovereignty bloc",
-     "n": 1
-    },
-    {
-     "label": "GBR-USA-PAK-JK investigation coalition",
-     "n": 1
-    },
-    {
-     "label": "CHN-RUS non-interference bloc",
-     "n": 1
-    },
-    {
-     "label": "IND-USA-RUS bloc",
-     "n": 1
+     "label": "IND-RUS counterterrorism bloc",
+     "n": 2
     }
    ],
    "trials": [
@@ -1925,6 +1989,70 @@ window.MC_RESULTS = {
      "mood": "neutral",
      "mediatorPressure": "low",
      "note": "Chinese money entrenched both administrations at once; reconstruction ran through New Delhi and Islamabad, and the Kashmiri delegation was written out of the only chapter that produced text."
+    },
+    {
+     "t": 12,
+     "dealType": "stalemate",
+     "shock": "Islamabad releases a dossier on Indian human rights violations at the UN",
+     "mood": "hostile",
+     "mediatorPressure": "medium",
+     "note": "Publishing before negotiating hardened New Delhi; the investigation was blocked, and the humanitarian text was the only chapter that moved."
+    },
+    {
+     "t": 13,
+     "dealType": "framework",
+     "shock": "A Line of Control ceasefire holds for thirty days before the conference opens",
+     "mood": "constructive",
+     "mediatorPressure": "high",
+     "note": "A month of quiet was the only condition under which India would discuss sequencing at all: a monitored ceasefire regime plus a dated review of local governance."
+    },
+    {
+     "t": 14,
+     "dealType": "partial",
+     "shock": "India offers a domestic judicial inquiry with published findings on day one",
+     "mood": "neutral",
+     "mediatorPressure": "medium",
+     "note": "Pre-empting the demand defused it; London and Washington could not argue for a UN mechanism against an inquiry already announced, and got no autonomy language in exchange."
+    },
+    {
+     "t": 15,
+     "dealType": "partial",
+     "shock": "Kashmiri diaspora protests draw sustained coverage in London and Washington",
+     "mood": "constructive",
+     "mediatorPressure": "high",
+     "note": "Public attention raised the Kashmiri delegation's standing enough to win a seat on the annex's implementation body — the one outcome that survived India's veto."
+    },
+    {
+     "t": 16,
+     "dealType": "stalemate",
+     "shock": "China blocks a Security Council statement referencing self-determination",
+     "mood": "hostile",
+     "mediatorPressure": "low",
+     "note": "Beijing foreclosed the governance chapter before it opened; the conference reduced to relief logistics and the autonomy red line was unmet for both Western delegations."
+    },
+    {
+     "t": 17,
+     "dealType": "partial",
+     "shock": "A cross-LoC family reunification pilot succeeds during the first round",
+     "mood": "constructive",
+     "mediatorPressure": "high",
+     "note": "A working pilot made the annex easy and everything else unnecessary; both administrations banked the goodwill and declined to open territory or governance."
+    },
+    {
+     "t": 18,
+     "dealType": "partial",
+     "shock": "Russia proposes itself as guarantor of a counterterrorism verification regime",
+     "mood": "neutral",
+     "mediatorPressure": "medium",
+     "note": "Moscow converted its single demand into a standing role; Islamabad accepted verification to avoid isolation, and the Kashmiri file was never reached."
+    },
+    {
+     "t": 19,
+     "dealType": "stalemate",
+     "shock": "An Indian general publicly rules out any troop reduction as talks open",
+     "mood": "hostile",
+     "mediatorPressure": "low",
+     "note": "With withdrawal ruled out, the UNSCR 47 preconditions were unreachable and every governance proposal collapsed into a demand New Delhi had already refused."
     }
    ]
   },

@@ -1,0 +1,51 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {
+   "code": "CHN",
+   "name": "People's Republic of China",
+   "satisfaction": 0.58,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "PRK",
+   "name": "Democratic People's Republic of Korea",
+   "satisfaction": 0.44,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "KOR",
+   "name": "Republic of Korea",
+   "satisfaction": 0.46,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "USA",
+   "name": "United States of America",
+   "satisfaction": 0.5,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "JPN",
+   "name": "Japan",
+   "satisfaction": 0.4,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russian Federation",
+   "satisfaction": 0.5,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "CHN-RUS step-by-step bloc"
+ ],
+ "note": "Evidence that Beijing was in fact enforcing sanctions bought China credibility and Pyongyang a humanitarian corridor; the deterrent stayed off the table."
+}

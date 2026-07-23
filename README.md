@@ -14,7 +14,7 @@ produces a full transcript, tactic analysis, and a convener report.
 **▶ Live site:** https://ethical-tech-colab.github.io/diplomatic-simulator/
 &nbsp;·&nbsp; **[Watch a live negotiation](https://ethical-tech-colab.github.io/diplomatic-simulator/live.html)** (delegations take the floor one by one, streamed as a live feed)
 &nbsp;·&nbsp; **[Interactive dashboard](https://ethical-tech-colab.github.io/diplomatic-simulator/dashboard.html)** (parties' thoughts, proposals, detector hits, scoreboard — pick any scenario)
-&nbsp;·&nbsp; **[Monte Carlo analysis](https://ethical-tech-colab.github.io/diplomatic-simulator/montecarlo.html)** (outcome distributions across randomized-condition trials — 19–20 per scenario, 12 for Korea and Jammu & Kashmir)
+&nbsp;·&nbsp; **[Monte Carlo analysis](https://ethical-tech-colab.github.io/diplomatic-simulator/montecarlo.html)** (outcome distributions across ~20 randomized-condition trials per scenario)
 
 | Scenario | Parties | Report page | Interactive | Focus |
 |---|---|---|---|---|

@@ -1,0 +1,59 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {
+   "code": "IND",
+   "name": "Republic of India",
+   "satisfaction": 0.6,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  },
+  {
+   "code": "PAK",
+   "name": "Islamic Republic of Pakistan",
+   "satisfaction": 0.36,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "JK",
+   "name": "Jammu and Kashmir Delegation",
+   "satisfaction": 0.32,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "CHN",
+   "name": "People's Republic of China",
+   "satisfaction": 0.5,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russian Federation",
+   "satisfaction": 0.54,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "GBR",
+   "name": "United Kingdom",
+   "satisfaction": 0.38,
+   "primaryGoal": "failed",
+   "redLineHeld": false
+  },
+  {
+   "code": "USA",
+   "name": "United States of America",
+   "satisfaction": 0.4,
+   "primaryGoal": "failed",
+   "redLineHeld": false
+  }
+ ],
+ "coalitions": [
+  "IND-CHN-RUS sovereignty bloc",
+  "GBR-USA-JK coalition"
+ ],
+ "note": "Pre-empting the demand defused it; London and Washington could not argue for a UN mechanism against an inquiry already announced, and got no autonomy language in exchange."
+}

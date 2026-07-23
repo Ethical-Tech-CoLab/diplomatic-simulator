@@ -1,0 +1,52 @@
+{
+ "dealType": "stalemate",
+ "parties": [
+  {
+   "code": "CHN",
+   "name": "People's Republic of China",
+   "satisfaction": 0.44,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "PRK",
+   "name": "Democratic People's Republic of Korea",
+   "satisfaction": 0.52,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "KOR",
+   "name": "Republic of Korea",
+   "satisfaction": 0.34,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "USA",
+   "name": "United States of America",
+   "satisfaction": 0.36,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "JPN",
+   "name": "Japan",
+   "satisfaction": 0.3,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russian Federation",
+   "satisfaction": 0.68,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "RUS-PRK bilateral track",
+  "USA-KOR-JPN bloc"
+ ],
+ "note": "With Russian labour and fuel already contracted, sanctions relief lost its value as an inducement and the trilateral bloc had nothing left to withhold."
+}

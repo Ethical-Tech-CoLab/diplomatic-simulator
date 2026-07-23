@@ -30,14 +30,14 @@ not been reviewed. In rough priority order:
   inconsistent: UNSCR 2900 sets a conference "target date of 9 February 2024, in
   Vienna Austria", while the 17 October entry datelines Geneva. We used Geneva,
   9 February 2026. Confirm that is the reading we want, and note it if so.
-- **Monte Carlo trials are thin and authored.** Korea and Jammu-Kashmir have 12
-  trials each against 19–20 for the other five, and — like the rest of the
-  corpus — the outcomes were written rather than sampled from re-run
-  negotiations. Top up to 20 for comparability, and treat every percentage the
-  page derives from 12 trials with the same caution the peer review applies to
-  "38% of runs" (3 of 8). Neither new scenario produced a comprehensive
-  settlement, which is consistent with the other five and therefore *not*
-  independent evidence for the paper's headline claim.
+- **Monte Carlo outcomes are authored, not sampled.** Both new scenarios now
+  have 20 trials, matching the corpus — but as with every other scenario the
+  outcomes were written under varied conditions rather than produced by re-running
+  the negotiation. Neither reached a comprehensive settlement, which is
+  consistent with the other five and therefore *not* independent evidence for
+  the paper's headline claim. The honest fix is the same as the isolation fix
+  above: re-run the trials as actual negotiations. Until then the Monte Carlo
+  page should say plainly what these numbers are.
 - **Stale counts across the site.** `methodology.html`, the paper, and any
   "four scenarios" phrasing need updating to six.
 - **Re-run the cross-party bleeding audit.** `analysis.html` and

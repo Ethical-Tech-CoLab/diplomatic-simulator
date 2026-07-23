@@ -1,0 +1,59 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {
+   "code": "KAZ",
+   "name": "Kazakhstan",
+   "satisfaction": 0.75,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  },
+  {
+   "code": "UZB",
+   "name": "Uzbekistan",
+   "satisfaction": 0.7,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  },
+  {
+   "code": "KGZ",
+   "name": "Kyrgyzstan",
+   "satisfaction": 0.64,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  },
+  {
+   "code": "TJK",
+   "name": "Tajikistan",
+   "satisfaction": 0.56,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russia",
+   "satisfaction": 0.42,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "CHN",
+   "name": "China",
+   "satisfaction": 0.6,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "IND",
+   "name": "India",
+   "satisfaction": 0.5,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "KAZ-brokered status-quo de-escalation framework",
+  "Central Asian Four unified front"
+ ],
+ "note": "With only standing structural pressures and a neutral mood, medium pressure was enough for Kazakhstan to broker a status-quo de-escalation framework among the unified Central Asian four, leaving sovereignty red lines intact and the outside powers empty-handed."
+}

@@ -1,0 +1,52 @@
+{
+ "dealType": "stalemate",
+ "parties": [
+  {
+   "code": "CHN",
+   "name": "People's Republic of China",
+   "satisfaction": 0.44,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "PRK",
+   "name": "Democratic People's Republic of Korea",
+   "satisfaction": 0.34,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "KOR",
+   "name": "Republic of Korea",
+   "satisfaction": 0.37,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "USA",
+   "name": "United States of America",
+   "satisfaction": 0.39,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "JPN",
+   "name": "Japan",
+   "satisfaction": 0.35,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russian Federation",
+   "satisfaction": 0.47,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "CHN-RUS step-by-step bloc",
+  "USA-KOR-JPN trilateral bloc"
+ ],
+ "note": "The Sino-Russian UN gambit pressured the room but Washington rejected the unverifiable freeze outright, and the plenary deadlocked with each side working the Council instead of the table."
+}

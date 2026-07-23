@@ -1,0 +1,60 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {
+   "code": "CAN",
+   "name": "Canada",
+   "satisfaction": 0.55,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "CHN",
+   "name": "China",
+   "satisfaction": 0.5,
+   "primaryGoal": "partial",
+   "redLineHeld": false
+  },
+  {
+   "code": "DNK",
+   "name": "Denmark",
+   "satisfaction": 0.5,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "FIN",
+   "name": "Finland",
+   "satisfaction": 0.55,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "NOR",
+   "name": "Norway",
+   "satisfaction": 0.55,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russia",
+   "satisfaction": 0.62,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "USA",
+   "name": "United States",
+   "satisfaction": 0.45,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "Russia-China axis",
+  "Nordic bloc blocking China membership",
+  "NATO Arctic bloc"
+ ],
+ "note": "With China holding momentum in a neutral mood, medium pressure produced a partial deal granting some economic and research cooperation, but the united wall against Chinese Arctic Council membership meant its core governance red line went unmet."
+}

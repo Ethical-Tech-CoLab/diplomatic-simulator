@@ -1,0 +1,73 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {
+   "code": "CHN",
+   "name": "China",
+   "satisfaction": 0.62,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "USA",
+   "name": "United States",
+   "satisfaction": 0.51,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "PHL",
+   "name": "Philippines",
+   "satisfaction": 0.54,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "VNM",
+   "name": "Vietnam",
+   "satisfaction": 0.58,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "MYS",
+   "name": "Malaysia",
+   "satisfaction": 0.63,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "BRN",
+   "name": "Brunei",
+   "satisfaction": 0.6,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "IDN",
+   "name": "Indonesia",
+   "satisfaction": 0.59,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "IND",
+   "name": "India",
+   "satisfaction": 0.52,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "JPN",
+   "name": "Japan",
+   "satisfaction": 0.53,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "ASEAN claimant bloc (VNM, MYS, BRN, IDN)",
+  "Quad-aligned bloc (USA, JPN, IND)"
+ ],
+ "note": "The new energy find created a shared commercial incentive that Malaysia, holding momentum in a cooperative low-pressure room, converted into a 'without prejudice to sovereignty' joint-development framework, letting every party keep its red line intact while the core dispute was shelved."
+}

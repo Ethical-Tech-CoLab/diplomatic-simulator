@@ -1,0 +1,52 @@
+{
+ "dealType": "stalemate",
+ "parties": [
+  {
+   "code": "CHN",
+   "name": "People's Republic of China",
+   "satisfaction": 0.35,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "PRK",
+   "name": "Democratic People's Republic of Korea",
+   "satisfaction": 0.26,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "KOR",
+   "name": "Republic of Korea",
+   "satisfaction": 0.42,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "USA",
+   "name": "United States of America",
+   "satisfaction": 0.45,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "JPN",
+   "name": "Japan",
+   "satisfaction": 0.41,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russian Federation",
+   "satisfaction": 0.34,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "USA-KOR-JPN trilateral bloc",
+  "CHN-RUS-PRK step-by-step bloc"
+ ],
+ "note": "The full-scale exercise announcement killed the chair's mutual-freeze opening before it could be tabled; Beijing held the process open but secured no movement."
+}

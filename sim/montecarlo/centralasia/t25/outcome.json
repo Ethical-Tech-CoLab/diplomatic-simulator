@@ -1,0 +1,60 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {
+   "code": "KAZ",
+   "name": "Kazakhstan",
+   "satisfaction": 0.68,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  },
+  {
+   "code": "UZB",
+   "name": "Uzbekistan",
+   "satisfaction": 0.66,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  },
+  {
+   "code": "KGZ",
+   "name": "Kyrgyzstan",
+   "satisfaction": 0.55,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "TJK",
+   "name": "Tajikistan",
+   "satisfaction": 0.78,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russia",
+   "satisfaction": 0.35,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "CHN",
+   "name": "China",
+   "satisfaction": 0.4,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "IND",
+   "name": "India",
+   "satisfaction": 0.62,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "TJK-India security alignment",
+  "Central Asian Four de-escalation framework",
+  "RUS and CHN jointly wary of India's Tajik foothold"
+ ],
+ "note": "India's deepened Tajik security pact gave Dushanbe momentum and a favorable de-escalation framework, but the visible Indian foothold rattled both Russia's guarantor claim and China's red line against Indian influence, leaving the two great-power rivals dissatisfied."
+}

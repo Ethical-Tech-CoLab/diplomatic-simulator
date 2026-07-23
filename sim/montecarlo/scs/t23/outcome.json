@@ -1,0 +1,73 @@
+{
+ "dealType": "breakdown",
+ "parties": [
+  {
+   "code": "CHN",
+   "name": "China",
+   "satisfaction": 0.3,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "USA",
+   "name": "United States",
+   "satisfaction": 0.42,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "PHL",
+   "name": "Philippines",
+   "satisfaction": 0.33,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "VNM",
+   "name": "Vietnam",
+   "satisfaction": 0.32,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "MYS",
+   "name": "Malaysia",
+   "satisfaction": 0.3,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "BRN",
+   "name": "Brunei",
+   "satisfaction": 0.29,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "IDN",
+   "name": "Indonesia",
+   "satisfaction": 0.31,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "IND",
+   "name": "India",
+   "satisfaction": 0.33,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "JPN",
+   "name": "Japan",
+   "satisfaction": 0.34,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "US-led rules-based coalition (USA, PHL, VNM, JPN, IND)",
+  "ASEAN unity bloc (PHL, VNM, MYS, BRN, IDN)"
+ ],
+ "note": "China's mid-talks ADIZ declaration detonated the confrontational atmosphere, and although the US seized momentum in condemning it, high mediator pressure only sharpened the rupture and the conference collapsed without any agreement."
+}

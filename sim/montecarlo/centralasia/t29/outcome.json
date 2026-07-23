@@ -1,0 +1,59 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {
+   "code": "KAZ",
+   "name": "Kazakhstan",
+   "satisfaction": 0.8,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  },
+  {
+   "code": "UZB",
+   "name": "Uzbekistan",
+   "satisfaction": 0.72,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  },
+  {
+   "code": "KGZ",
+   "name": "Kyrgyzstan",
+   "satisfaction": 0.66,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  },
+  {
+   "code": "TJK",
+   "name": "Tajikistan",
+   "satisfaction": 0.6,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russia",
+   "satisfaction": 0.44,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "CHN",
+   "name": "China",
+   "satisfaction": 0.6,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "IND",
+   "name": "India",
+   "satisfaction": 0.52,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "KAZ-led drought-response water framework",
+  "Central Asian Four unified front"
+ ],
+ "note": "The drought-driven harvest collapse, met with high pressure and a cooperative mood, let Kazakhstan lead the unified Central Asian four into a robust water-coordination framework that protected every state's resource sovereignty while great powers again gained no binding foothold."
+}

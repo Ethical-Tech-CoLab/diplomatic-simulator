@@ -1,0 +1,59 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {
+   "code": "KAZ",
+   "name": "Kazakhstan",
+   "satisfaction": 0.58,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "UZB",
+   "name": "Uzbekistan",
+   "satisfaction": 0.6,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "KGZ",
+   "name": "Kyrgyzstan",
+   "satisfaction": 0.5,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "TJK",
+   "name": "Tajikistan",
+   "satisfaction": 0.52,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russia",
+   "satisfaction": 0.3,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "CHN",
+   "name": "China",
+   "satisfaction": 0.66,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  },
+  {
+   "code": "IND",
+   "name": "India",
+   "satisfaction": 0.45,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "Central Asian Four resisting CSTO pressure",
+  "China quietly encouraging CSTO drift"
+ ],
+ "note": "Russia's heavy-handed CSTO pressure, widely read as hollow given its distraction elsewhere, backfired in the confrontational room and drew the Central Asian four into a defensive but only partial de-escalation understanding, while China quietly encouraged their drift away from Moscow."
+}

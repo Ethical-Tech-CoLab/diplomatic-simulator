@@ -1,0 +1,59 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {
+   "code": "KAZ",
+   "name": "Kazakhstan",
+   "satisfaction": 0.76,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  },
+  {
+   "code": "UZB",
+   "name": "Uzbekistan",
+   "satisfaction": 0.7,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  },
+  {
+   "code": "KGZ",
+   "name": "Kyrgyzstan",
+   "satisfaction": 0.62,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  },
+  {
+   "code": "TJK",
+   "name": "Tajikistan",
+   "satisfaction": 0.64,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russia",
+   "satisfaction": 0.5,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "CHN",
+   "name": "China",
+   "satisfaction": 0.6,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "IND",
+   "name": "India",
+   "satisfaction": 0.48,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "KAZ-brokered counterterrorism coordination framework",
+  "TJK-frontline CT track courted by RUS, CHN, and IND"
+ ],
+ "note": "The ISIS-K spillover and high mediator pressure let Kazakhstan broker a non-binding counterterrorism coordination framework, with Russia, China, and India all competing to arm and assist frontline Tajikistan but none locking in a binding role."
+}

@@ -1,0 +1,73 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {
+   "code": "CHN",
+   "name": "China",
+   "satisfaction": 0.6,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "USA",
+   "name": "United States",
+   "satisfaction": 0.52,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "PHL",
+   "name": "Philippines",
+   "satisfaction": 0.53,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "VNM",
+   "name": "Vietnam",
+   "satisfaction": 0.57,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "MYS",
+   "name": "Malaysia",
+   "satisfaction": 0.6,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "BRN",
+   "name": "Brunei",
+   "satisfaction": 0.58,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "IDN",
+   "name": "Indonesia",
+   "satisfaction": 0.64,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "IND",
+   "name": "India",
+   "satisfaction": 0.53,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "JPN",
+   "name": "Japan",
+   "satisfaction": 0.54,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "ASEAN claimant bloc (VNM, MYS, BRN, IDN)",
+  "Quad-aligned bloc (USA, JPN, IND)"
+ ],
+ "note": "With no shock and a cooperative mood, Indonesia used its honest-broker momentum to shepherd a non-binding confidence-building and dialogue framework, getting China into a multilateral format at all while every delegation's sovereignty red line stayed untouched."
+}

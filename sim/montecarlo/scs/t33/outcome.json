@@ -1,0 +1,73 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {
+   "code": "CHN",
+   "name": "China",
+   "satisfaction": 0.45,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "USA",
+   "name": "United States",
+   "satisfaction": 0.5,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "PHL",
+   "name": "Philippines",
+   "satisfaction": 0.42,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "VNM",
+   "name": "Vietnam",
+   "satisfaction": 0.44,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "MYS",
+   "name": "Malaysia",
+   "satisfaction": 0.45,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "BRN",
+   "name": "Brunei",
+   "satisfaction": 0.43,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "IDN",
+   "name": "Indonesia",
+   "satisfaction": 0.45,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "IND",
+   "name": "India",
+   "satisfaction": 0.46,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "JPN",
+   "name": "Japan",
+   "satisfaction": 0.47,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "US-Philippines-Japan security alignment",
+  "ASEAN claimant bloc (VNM, MYS, BRN, IDN)"
+ ],
+ "note": "The ramming incident on a neutral table gave the US momentum to broker an incident-management and crisis-hotline deal under medium pressure, but China stonewalled the Code of Conduct and no sovereignty ground was gained."
+}

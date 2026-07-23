@@ -1,0 +1,52 @@
+{
+ "dealType": "breakdown",
+ "parties": [
+  {
+   "code": "CHN",
+   "name": "People's Republic of China",
+   "satisfaction": 0.19,
+   "primaryGoal": "failed",
+   "redLineHeld": false
+  },
+  {
+   "code": "PRK",
+   "name": "Democratic People's Republic of Korea",
+   "satisfaction": 0.26,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "KOR",
+   "name": "Republic of Korea",
+   "satisfaction": 0.24,
+   "primaryGoal": "failed",
+   "redLineHeld": false
+  },
+  {
+   "code": "USA",
+   "name": "United States of America",
+   "satisfaction": 0.28,
+   "primaryGoal": "failed",
+   "redLineHeld": false
+  },
+  {
+   "code": "JPN",
+   "name": "Japan",
+   "satisfaction": 0.22,
+   "primaryGoal": "failed",
+   "redLineHeld": false
+  },
+  {
+   "code": "RUS",
+   "name": "Russian Federation",
+   "satisfaction": 0.27,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "USA-KOR-JPN trilateral pressure bloc",
+  "CHN-RUS step-by-step bloc"
+ ],
+ "note": "The salvo during the opening session directly triggered the allied brinkmanship red line and, with only token mediation, the trilateral bloc withdrew and the chair could not reconvene."
+}

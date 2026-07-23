@@ -1,0 +1,52 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {
+   "code": "CHN",
+   "name": "People's Republic of China",
+   "satisfaction": 0.54,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "PRK",
+   "name": "Democratic People's Republic of Korea",
+   "satisfaction": 0.57,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "KOR",
+   "name": "Republic of Korea",
+   "satisfaction": 0.42,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "USA",
+   "name": "United States of America",
+   "satisfaction": 0.39,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "JPN",
+   "name": "Japan",
+   "satisfaction": 0.33,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russian Federation",
+   "satisfaction": 0.71,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "CHN-RUS-PRK step-by-step bloc",
+  "Russian bilateral reconstruction track"
+ ],
+ "note": "Russia's independent contracts eroded the trilateral bloc's economic leverage and secured Moscow's influence, yielding only a partial inter-Korean humanitarian understanding while the comprehensive package lost its price."
+}

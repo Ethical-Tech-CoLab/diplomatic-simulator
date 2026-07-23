@@ -1,0 +1,52 @@
+{
+ "dealType": "breakdown",
+ "parties": [
+  {
+   "code": "CHN",
+   "name": "People's Republic of China",
+   "satisfaction": 0.21,
+   "primaryGoal": "failed",
+   "redLineHeld": false
+  },
+  {
+   "code": "PRK",
+   "name": "Democratic People's Republic of Korea",
+   "satisfaction": 0.29,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "KOR",
+   "name": "Republic of Korea",
+   "satisfaction": 0.22,
+   "primaryGoal": "failed",
+   "redLineHeld": false
+  },
+  {
+   "code": "USA",
+   "name": "United States of America",
+   "satisfaction": 0.3,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "JPN",
+   "name": "Japan",
+   "satisfaction": 0.24,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russian Federation",
+   "satisfaction": 0.28,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "CHN-RUS-PRK step-by-step bloc",
+  "USA-KOR-JPN trilateral bloc"
+ ],
+ "note": "Pyongyang's hostile-state rhetoric gutted Seoul's inter-Korean rationale and hardened the room; with minimal mediation the talks collapsed before any Framework issue was joined."
+}

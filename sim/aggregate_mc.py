@@ -34,7 +34,7 @@ def main():
     for key, title, sid in SCEN:
         base = os.path.join(mcdir, key)
         trials = []
-        for t in range(20):
+        for t in range(40):
             op = os.path.join(base, f"t{t}", "outcome.json")
             cp = os.path.join(base, f"t{t}", "conditions.json")
             if not os.path.exists(op):

@@ -1,0 +1,52 @@
+{
+ "dealType": "stalemate",
+ "parties": [
+  {
+   "code": "CHN",
+   "name": "People's Republic of China",
+   "satisfaction": 0.42,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "PRK",
+   "name": "Democratic People's Republic of Korea",
+   "satisfaction": 0.33,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "KOR",
+   "name": "Republic of Korea",
+   "satisfaction": 0.39,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "USA",
+   "name": "United States of America",
+   "satisfaction": 0.4,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "JPN",
+   "name": "Japan",
+   "satisfaction": 0.36,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russian Federation",
+   "satisfaction": 0.45,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "CHN-RUS step-by-step bloc",
+  "USA-KOR-JPN trilateral bloc"
+ ],
+ "note": "Even under heavy mediation the step-by-step and comprehensive camps could not bridge the disarmament sequencing gap, and Moscow settled for entrenching its honest-broker standing rather than a deal."
+}

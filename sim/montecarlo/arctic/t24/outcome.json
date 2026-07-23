@@ -1,0 +1,60 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {
+   "code": "CAN",
+   "name": "Canada",
+   "satisfaction": 0.68,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "CHN",
+   "name": "China",
+   "satisfaction": 0.52,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "DNK",
+   "name": "Denmark",
+   "satisfaction": 0.63,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "FIN",
+   "name": "Finland",
+   "satisfaction": 0.78,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  },
+  {
+   "code": "NOR",
+   "name": "Norway",
+   "satisfaction": 0.72,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russia",
+   "satisfaction": 0.72,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "USA",
+   "name": "United States",
+   "satisfaction": 0.4,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "Nordic-Arctic cooperation bloc (NOR-FIN-DNK-CAN)",
+  "Russia-China Arctic partnership",
+  "USA disengaged"
+ ],
+ "note": "US isolationism opened a leadership vacuum that chair-adjacent Norway filled with a cooperative framework on shipping safety and Council structure, benefiting the Nordics and a less-pressured Russia while a sidelined Washington gained little."
+}

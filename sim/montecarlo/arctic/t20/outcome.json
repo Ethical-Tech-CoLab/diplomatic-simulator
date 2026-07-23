@@ -1,0 +1,59 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {
+   "code": "CAN",
+   "name": "Canada",
+   "satisfaction": 0.62,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "CHN",
+   "name": "China",
+   "satisfaction": 0.48,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "DNK",
+   "name": "Denmark",
+   "satisfaction": 0.6,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "FIN",
+   "name": "Finland",
+   "satisfaction": 0.8,
+   "primaryGoal": "achieved",
+   "redLineHeld": true
+  },
+  {
+   "code": "NOR",
+   "name": "Norway",
+   "satisfaction": 0.63,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russia",
+   "satisfaction": 0.7,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "USA",
+   "name": "United States",
+   "satisfaction": 0.45,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "Nordic-Arctic cooperation bloc (FIN-NOR-DNK-CAN)",
+  "Russia-China economic partnership"
+ ],
+ "note": "With no external shock and cooperative mood, host Finland used medium mediator pressure to broker a framework on science, environment, and Arctic Council structure while the hard NWP, NSR, and Svalbard sovereignty disputes were left untouched."
+}

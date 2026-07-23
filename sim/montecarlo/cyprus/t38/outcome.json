@@ -1,0 +1,53 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {
+   "code": "CY",
+   "name": "Republic of Cyprus",
+   "satisfaction": 0.57,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "TRNC",
+   "name": "Turkish Republic of Northern Cyprus",
+   "satisfaction": 0.5,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "GR",
+   "name": "Greece",
+   "satisfaction": 0.52,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "TR",
+   "name": "Turkey",
+   "satisfaction": 0.47,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "UK",
+   "name": "United Kingdom",
+   "satisfaction": 0.54,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "US",
+   "name": "United States",
+   "satisfaction": 0.56,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "US-UK creative-compromise bloc",
+  "CY-GR restitution bloc",
+  "TRNC-TR redevelopment bloc"
+ ],
+ "note": "A cooperative mood let US momentum turn the Varosha flare-up into a narrow compensation-and-supervised-reopening deal that protected owners and redevelopers alike, a confidence-building step short of a territorial settlement."
+}

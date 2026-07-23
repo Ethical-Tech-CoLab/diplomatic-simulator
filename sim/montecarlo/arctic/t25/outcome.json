@@ -1,0 +1,59 @@
+{
+ "dealType": "stalemate",
+ "parties": [
+  {
+   "code": "CAN",
+   "name": "Canada",
+   "satisfaction": 0.5,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "CHN",
+   "name": "China",
+   "satisfaction": 0.3,
+   "primaryGoal": "failed",
+   "redLineHeld": false
+  },
+  {
+   "code": "DNK",
+   "name": "Denmark",
+   "satisfaction": 0.48,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "FIN",
+   "name": "Finland",
+   "satisfaction": 0.45,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "NOR",
+   "name": "Norway",
+   "satisfaction": 0.5,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russia",
+   "satisfaction": 0.55,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "USA",
+   "name": "United States",
+   "satisfaction": 0.45,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "NATO Arctic bloc countering China",
+  "Russia-China strategic axis"
+ ],
+ "note": "China's icebreaker-and-base expansion read as militarization to a confrontational, US-led Western front, and even high mediator pressure could not prevent a stalemate that blocked China's basing and membership goals while Russia backed its partner."
+}

@@ -1,0 +1,53 @@
+{
+ "dealType": "framework",
+ "parties": [
+  {
+   "code": "CY",
+   "name": "Republic of Cyprus",
+   "satisfaction": 0.56,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "TRNC",
+   "name": "Turkish Republic of Northern Cyprus",
+   "satisfaction": 0.58,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "GR",
+   "name": "Greece",
+   "satisfaction": 0.54,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "TR",
+   "name": "Turkey",
+   "satisfaction": 0.6,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "UK",
+   "name": "United Kingdom",
+   "satisfaction": 0.62,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "US",
+   "name": "United States",
+   "satisfaction": 0.64,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "US-UK facilitator bloc",
+  "CY-GR federalist front",
+  "TRNC-TR equal-states bloc"
+ ],
+ "note": "With no external shock and high pressure in a cooperative mood, US momentum brokered a procedural framework on confidence-building sequencing that all sides could accept without touching sovereignty, governance, or security red lines."
+}

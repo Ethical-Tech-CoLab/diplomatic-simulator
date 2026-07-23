@@ -1,0 +1,73 @@
+{
+ "dealType": "breakdown",
+ "parties": [
+  {
+   "code": "CHN",
+   "name": "China",
+   "satisfaction": 0.4,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "USA",
+   "name": "United States",
+   "satisfaction": 0.35,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "PHL",
+   "name": "Philippines",
+   "satisfaction": 0.3,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "VNM",
+   "name": "Vietnam",
+   "satisfaction": 0.31,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "MYS",
+   "name": "Malaysia",
+   "satisfaction": 0.33,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "BRN",
+   "name": "Brunei",
+   "satisfaction": 0.33,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "IDN",
+   "name": "Indonesia",
+   "satisfaction": 0.34,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "IND",
+   "name": "India",
+   "satisfaction": 0.32,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  },
+  {
+   "code": "JPN",
+   "name": "Japan",
+   "satisfaction": 0.34,
+   "primaryGoal": "failed",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "US-Philippines-Japan security alignment",
+  "China plus soft-hedging ASEAN states (MYS, BRN) leaning bilateral"
+ ],
+ "note": "The mutual-defense-treaty scare in a confrontational room let China, holding momentum, walk the table toward its bilateralist status quo, and with mediator pressure too low to hold anyone in, the conference broke down without agreement."
+}

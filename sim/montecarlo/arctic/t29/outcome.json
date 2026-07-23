@@ -1,0 +1,60 @@
+{
+ "dealType": "partial",
+ "parties": [
+  {
+   "code": "CAN",
+   "name": "Canada",
+   "satisfaction": 0.58,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "CHN",
+   "name": "China",
+   "satisfaction": 0.45,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "DNK",
+   "name": "Denmark",
+   "satisfaction": 0.55,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "FIN",
+   "name": "Finland",
+   "satisfaction": 0.7,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "NOR",
+   "name": "Norway",
+   "satisfaction": 0.6,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russia",
+   "satisfaction": 0.55,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "USA",
+   "name": "United States",
+   "satisfaction": 0.48,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "Finland-brokered deconfliction channel",
+  "NATO Arctic bloc",
+  "Russia-China axis"
+ ],
+ "note": "Despite the naval incident, a cooperative mood let host Finland leverage its Moscow channel to broker a partial crisis-deconfliction and hotline arrangement, though the underlying NSR legal-status dispute remained unresolved."
+}

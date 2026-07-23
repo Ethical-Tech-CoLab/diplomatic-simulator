@@ -1,0 +1,60 @@
+{
+ "dealType": "stalemate",
+ "parties": [
+  {
+   "code": "CAN",
+   "name": "Canada",
+   "satisfaction": 0.5,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "CHN",
+   "name": "China",
+   "satisfaction": 0.32,
+   "primaryGoal": "failed",
+   "redLineHeld": false
+  },
+  {
+   "code": "DNK",
+   "name": "Denmark",
+   "satisfaction": 0.45,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "FIN",
+   "name": "Finland",
+   "satisfaction": 0.42,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "NOR",
+   "name": "Norway",
+   "satisfaction": 0.48,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russia",
+   "satisfaction": 0.55,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  },
+  {
+   "code": "USA",
+   "name": "United States",
+   "satisfaction": 0.45,
+   "primaryGoal": "partial",
+   "redLineHeld": true
+  }
+ ],
+ "coalitions": [
+  "NATO Arctic bloc",
+  "Russia-China NSR axis",
+  "Straits-sovereignty holdouts (CAN, RUS)"
+ ],
+ "note": "An early ice-free season prompted a US freedom-of-navigation push, but confrontational posturing and weak mediation collided with Canadian and Russian internal-waters claims, deadlocking the straits question and leaving China's navigation aims rejected."
+}

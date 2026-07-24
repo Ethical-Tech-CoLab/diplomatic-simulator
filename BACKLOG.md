@@ -1,5 +1,30 @@
 # Backlog
 
+## Delegation realism — feedback-driven enhancements (added 2026-07-24)
+
+- **Multiple personas within a delegation (from U.S. military feedback).** A
+  delegation is currently a single unified voice. The suggestion is to model each
+  party as several internal actors — head of state or president, ministry of
+  defence, foreign ministry, and so on — each with its own priorities, risk
+  tolerance and red lines, so a delegation can carry visible internal
+  disagreement and strike an inter-agency bargain of its own before it reaches
+  the table. This would add the domestic, or two-level-game, layer that Section 9
+  of the report currently notes is deliberately absent (Putnam 1988): the
+  position a delegation brings would be the outcome of a prior internal
+  negotiation, not a given. Open questions: whether the internal actors caucus
+  before each round or argue live in plenary; how their disagreement is scored;
+  and how to keep information isolation intact across the added actors.
+- **Ground delegations in real decision-makers' personalities.** Research the
+  documented negotiating style of the actual named leadership of each country —
+  rhetoric, risk appetite, use of brinkmanship, history at the table — and fold
+  it into each delegation's profile, so a party negotiates in the recognizable
+  manner of its current government rather than a generic national voice. Pairs
+  naturally with the multiple-personas item: the president persona shaped by the
+  real head of state, the defence persona by the real defence minister. Caveat to
+  carry forward: this sharpens realism but imports more of the model's biases
+  about real individuals, and must stay clearly labelled as notional
+  characterisation, not a claim about how a named person would actually behave.
+
 ## Needs review — Korea & Jammu-Kashmir scenarios (added 2026-07-22)
 
 Both scenarios are live (`sess-korea-iscne-01`, `sess-kashmir-iscne-01`) but have

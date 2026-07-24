@@ -84,6 +84,37 @@
   3C fact sheet:
   <https://www.airuniversity.af.edu/Portals/10/AFCLC/07.%20Media/03-3C%20Fact%20Sheet-220907.pdf>
 
+## Group dynamics, coalitions & the meaning of "success" (added 2026-07-24)
+
+- **Deepen group dynamics beyond a flat coalition label.** The Monte Carlo layer
+  and the analysis already record which coalitions form, but they are treated as
+  flat labels. The real dynamics are richer: the difference between a standing
+  alliance (NATO, the US-Japan-ROK trilateral) and a situational partner of
+  convenience; bloc cohesion and discipline (ASEAN negotiating as one versus
+  splitting, which China exploits); whether a bloc has a leader who can actually
+  commit it; log-rolling and side deals struck inside a bloc; and how a
+  coalition's internal cohesion converts into bargaining power at the table. Make
+  these first-class variables so a coalition's strength, durability and internal
+  price are legible, not just its membership.
+- **Model agreement types and ratification, not just "a deal was reached."**
+  Outcomes differ in kind and in durability: a communiqué, a memorandum of
+  understanding, a framework, a binding treaty. And a deal at the table is not a
+  deal until it is ratified and implemented at home — the domestic step the
+  two-level-game persona item raises. Add an agreement-type field and a
+  ratification/deliverability check per party (can this delegation actually get
+  this ratified?), so the scoreboard can tell a signed framework that survives
+  ratification from one that collapses in it.
+- **Define what "probability of success" means — success for whom, and which
+  success.** "High probability of success" is ambiguous, because success is
+  party-relative (see the satisfaction-is-not-success item): a breakdown can be a
+  win for a spoiler. Pin the metric down before reporting any probability:
+  probability of *any* agreement; probability of a *durable, ratified* agreement;
+  probability each party attains its *primary goal*; probability every *red line*
+  holds. Report these separately rather than collapsing them into one number, and
+  pair each with the convening-plausibility rating — a high in-simulation success
+  rate on a low-plausibility table says more about the scenario pack than about
+  the world.
+
 ## Needs review — Korea & Jammu-Kashmir scenarios (added 2026-07-22)
 
 Both scenarios are live (`sess-korea-iscne-01`, `sess-kashmir-iscne-01`) but have

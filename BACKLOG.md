@@ -24,6 +24,33 @@
   carry forward: this sharpens realism but imports more of the model's biases
   about real individuals, and must stay clearly labelled as notional
   characterisation, not a claim about how a named person would actually behave.
+- **Model national diplomatic styles and cultural background.** Give each
+  delegation a recognizable register of statecraft rather than a uniform
+  negotiating voice: China's assertive "wolf-warrior" diplomacy, the United
+  States' blunt "cowboy" directness, the more reserved, consensus-seeking and
+  indirect approach common to Japan and much of East Asia, and so on. This
+  overlaps with the real-personalities item but is broader: it is about the
+  cultural and institutional register a delegation speaks in — face, hierarchy,
+  silence, indirection, appetite for brinkmanship — which shapes both the tactics
+  chosen and how the same concession is delivered. Caveat: national styles are
+  stereotypes as much as patterns, and the model already leans on them, so label
+  this as characterisation and watch for caricature.
+
+## Analysis nuance — what a score actually means (added 2026-07-24)
+
+- **Satisfaction is not the same as a successful negotiation.** The scoreboard
+  rates each delegation against its own stated goals, so a low satisfaction reads
+  as a bad outcome — but for some parties the absence of a deal *is* the goal. A
+  status-quo or spoiler power can be most satisfied when talks fail, because no
+  agreement preserves its position, buys time, or denies a rival a win. The
+  analysis should distinguish a delegation that wanted a settlement and did not
+  get one from a delegation that wanted no settlement and succeeded, and the
+  convener report should name which parties were playing to block. Concretely:
+  add a per-delegation flag for whether its BATNA beats any available deal (in
+  which case a breakdown is a win for it), and reconsider whether "satisfaction"
+  or a clearer label such as "goal attainment" should headline the scoreboard.
+  This bears directly on the convening-plausibility work: several low-plausibility
+  scenarios rate low precisely because a pivotal party prefers no table at all.
 
 ## Needs review — Korea & Jammu-Kashmir scenarios (added 2026-07-22)
 

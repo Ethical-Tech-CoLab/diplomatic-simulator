@@ -72,6 +72,17 @@
   parties actually said afterwards. This is also the closest thing to an external
   anchor the project currently lacks, since the report is explicit that there is
   no ground truth anywhere in the tool.
+- **Reference source: U.S. Air Force culture guides.** The Air Force Culture and
+  Language Center (AFCLC, Air University) publishes Expeditionary Culture Field
+  Guides (ECFGs) for over 70 countries, built on the USAF cross-cultural
+  competency (3C) model; country guides include China, Russia, Japan, Iraq and
+  Afghanistan, several of which map directly onto our scenario delegations. Use
+  them as a structured, citable input to the national-diplomatic-styles and
+  cultural-background modelling above, alongside the deep-research personality
+  pass. Field guides:
+  <https://www.airuniversity.af.edu/AFCLC/Ready-Airman-Training/Field-Guides/> ;
+  3C fact sheet:
+  <https://www.airuniversity.af.edu/Portals/10/AFCLC/07.%20Media/03-3C%20Fact%20Sheet-220907.pdf>
 
 ## Needs review — Korea & Jammu-Kashmir scenarios (added 2026-07-22)
 

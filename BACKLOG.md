@@ -52,6 +52,27 @@
   This bears directly on the convening-plausibility work: several low-plausibility
   scenarios rate low precisely because a pivotal party prefers no table at all.
 
+## Sourcing, validation & deep research (added 2026-07-24)
+
+- **Deep-research pass on real leadership personalities.** Run a structured,
+  cited deep-research effort that maps the actual named decision-makers of each
+  country — head of state, foreign minister, defence minister — with sourced
+  profiles of their negotiating style, documented positions, and rhetoric. This
+  is the research spine that feeds the multiple-personas and national-style items
+  above: treat it as a proper per-country research task with references, not
+  ad-hoc characterisation, and keep each profile labelled as sourced
+  characterisation rather than prediction.
+- **Mine the UN Library and archives for real references and post-event
+  statements.** Use the UN Dag Hammarskjold Library and the UN Digital Library,
+  including document and audiovisual archives, to pull real Security Council and
+  General Assembly statements, communiqués, and the actual remarks each
+  delegation made after real events and negotiations. Two uses: ground the
+  confidential briefs and public statements in real language, and validate the
+  simulator by comparing its transcripts and convener reports against what
+  parties actually said afterwards. This is also the closest thing to an external
+  anchor the project currently lacks, since the report is explicit that there is
+  no ground truth anywhere in the tool.
+
 ## Needs review — Korea & Jammu-Kashmir scenarios (added 2026-07-22)
 
 Both scenarios are live (`sess-korea-iscne-01`, `sess-kashmir-iscne-01`) but have

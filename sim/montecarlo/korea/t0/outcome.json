@@ -6,47 +6,66 @@
    "name": "People's Republic of China",
    "satisfaction": 0.22,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "PRK",
    "name": "Democratic People's Republic of Korea",
    "satisfaction": 0.25,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "KOR",
    "name": "Republic of Korea",
    "satisfaction": 0.26,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "USA",
    "name": "United States of America",
    "satisfaction": 0.3,
    "primaryGoal": "failed",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": null
   },
   {
    "code": "JPN",
    "name": "Japan",
    "satisfaction": 0.24,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "RUS",
    "name": "Russian Federation",
    "satisfaction": 0.28,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   }
  ],
  "coalitions": [
   "USA-KOR-JPN trilateral pressure bloc",
   "CHN-RUS step-by-step bloc"
  ],
- "note": "The test triggered the U.S. and ROK red line on brinkmanship directly; Washington suspended participation and the chair could not reconvene the plenary."
+ "note": "The test triggered the U.S. and ROK red line on brinkmanship directly; Washington suspended participation and the chair could not reconvene the plenary.",
+ "instrument": "none",
+ "blocs": [
+  {
+   "label": "USA-KOR-JPN trilateral pressure bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "CHN-RUS step-by-step bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  }
+ ]
 }

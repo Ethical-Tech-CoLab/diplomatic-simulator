@@ -6,54 +6,74 @@
    "name": "Republic of India",
    "satisfaction": 0.52,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "PAK",
    "name": "Islamic Republic of Pakistan",
    "satisfaction": 0.34,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": false
   },
   {
    "code": "JK",
    "name": "Jammu and Kashmir Delegation",
    "satisfaction": 0.46,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "CHN",
    "name": "People's Republic of China",
    "satisfaction": 0.44,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "RUS",
    "name": "Russian Federation",
    "satisfaction": 0.48,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "GBR",
    "name": "United Kingdom",
    "satisfaction": 0.44,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "USA",
    "name": "United States of America",
    "satisfaction": 0.46,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
  "coalitions": [
   "IND-JK constitutional track",
   "PAK-CHN bloc"
  ],
- "note": "An elected resolution gave New Delhi a counterparty it could recognize; Article 370's restoration entered the text as an Indian constitutional matter, which Islamabad rejected as legitimizing the occupation."
+ "note": "An elected resolution gave New Delhi a counterparty it could recognize; Article 370's restoration entered the text as an Indian constitutional matter, which Islamabad rejected as legitimizing the occupation.",
+ "instrument": "communique",
+ "blocs": [
+  {
+   "label": "IND-JK constitutional track",
+   "type": "situational",
+   "cohesion": "loose"
+  },
+  {
+   "label": "PAK-CHN bloc",
+   "type": "standing",
+   "cohesion": "loose"
+  }
+ ]
 }

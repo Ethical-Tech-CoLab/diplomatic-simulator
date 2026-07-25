@@ -1,14 +1,79 @@
 {
  "dealType": "framework",
  "parties": [
-  {"code":"KAZ","name":"Kazakhstan","satisfaction":0.72,"primaryGoal":"partial","redLineHeld":true},
-  {"code":"UZB","name":"Uzbekistan","satisfaction":0.70,"primaryGoal":"partial","redLineHeld":true},
-  {"code":"KGZ","name":"Kyrgyzstan","satisfaction":0.68,"primaryGoal":"partial","redLineHeld":true},
-  {"code":"TJK","name":"Tajikistan","satisfaction":0.80,"primaryGoal":"achieved","redLineHeld":true},
-  {"code":"RUS","name":"Russia","satisfaction":0.40,"primaryGoal":"failed","redLineHeld":true},
-  {"code":"CHN","name":"China","satisfaction":0.35,"primaryGoal":"failed","redLineHeld":true},
-  {"code":"IND","name":"India","satisfaction":0.85,"primaryGoal":"achieved","redLineHeld":true}
+  {
+   "code": "KAZ",
+   "name": "Kazakhstan",
+   "satisfaction": 0.72,
+   "primaryGoal": "partial",
+   "redLineHeld": true,
+   "ratifiable": true
+  },
+  {
+   "code": "UZB",
+   "name": "Uzbekistan",
+   "satisfaction": 0.7,
+   "primaryGoal": "partial",
+   "redLineHeld": true,
+   "ratifiable": true
+  },
+  {
+   "code": "KGZ",
+   "name": "Kyrgyzstan",
+   "satisfaction": 0.68,
+   "primaryGoal": "partial",
+   "redLineHeld": true,
+   "ratifiable": true
+  },
+  {
+   "code": "TJK",
+   "name": "Tajikistan",
+   "satisfaction": 0.8,
+   "primaryGoal": "achieved",
+   "redLineHeld": true,
+   "ratifiable": true
+  },
+  {
+   "code": "RUS",
+   "name": "Russia",
+   "satisfaction": 0.4,
+   "primaryGoal": "failed",
+   "redLineHeld": true,
+   "ratifiable": false
+  },
+  {
+   "code": "CHN",
+   "name": "China",
+   "satisfaction": 0.35,
+   "primaryGoal": "failed",
+   "redLineHeld": true,
+   "ratifiable": false
+  },
+  {
+   "code": "IND",
+   "name": "India",
+   "satisfaction": 0.85,
+   "primaryGoal": "achieved",
+   "redLineHeld": true,
+   "ratifiable": true
+  }
  ],
- "coalitions": ["Central Asian Four de-escalation bloc (KAZ-UZB-KGZ-TJK)", "India-Tajikistan security alignment"],
- "note": "The cooperative mood let the four Central Asian states quietly conclude a status-quo de-escalation framework, while India's momentum from its deepened Tajik security pact boxed out Russian and Chinese bids for regional primacy without triggering anyone's red lines."
+ "coalitions": [
+  "Central Asian Four de-escalation bloc (KAZ-UZB-KGZ-TJK)",
+  "India-Tajikistan security alignment"
+ ],
+ "note": "The cooperative mood let the four Central Asian states quietly conclude a status-quo de-escalation framework, while India's momentum from its deepened Tajik security pact boxed out Russian and Chinese bids for regional primacy without triggering anyone's red lines.",
+ "instrument": "framework",
+ "blocs": [
+  {
+   "label": "Central Asian Four de-escalation bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "India-Tajikistan security alignment",
+   "type": "situational",
+   "cohesion": "loose"
+  }
+ ]
 }

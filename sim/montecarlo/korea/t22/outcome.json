@@ -6,47 +6,66 @@
    "name": "People's Republic of China",
    "satisfaction": 0.36,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "PRK",
    "name": "Democratic People's Republic of Korea",
    "satisfaction": 0.28,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "KOR",
    "name": "Republic of Korea",
    "satisfaction": 0.4,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "USA",
    "name": "United States of America",
    "satisfaction": 0.42,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "JPN",
    "name": "Japan",
    "satisfaction": 0.39,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "RUS",
    "name": "Russian Federation",
    "satisfaction": 0.35,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   }
  ],
  "coalitions": [
   "USA-KOR-JPN trilateral bloc",
   "CHN-RUS step-by-step bloc"
  ],
- "note": "Tokyo's abduction push consumed the session; the chair ruled it outside the Framework and steered it to a bilateral aside, but no Framework issue advanced and the plenary stalled."
+ "note": "Tokyo's abduction push consumed the session; the chair ruled it outside the Framework and steered it to a bilateral aside, but no Framework issue advanced and the plenary stalled.",
+ "instrument": "none",
+ "blocs": [
+  {
+   "label": "USA-KOR-JPN trilateral bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "CHN-RUS step-by-step bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  }
+ ]
 }

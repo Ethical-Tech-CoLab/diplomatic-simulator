@@ -6,49 +6,56 @@
    "name": "Kazakhstan",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "UZB",
    "name": "Uzbekistan",
    "satisfaction": 0.52,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "KGZ",
    "name": "Kyrgyzstan",
    "satisfaction": 0.45,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "TJK",
    "name": "Tajikistan",
    "satisfaction": 0.68,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "RUS",
    "name": "Russia",
    "satisfaction": 0.35,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": false
   },
   {
    "code": "CHN",
    "name": "China",
    "satisfaction": 0.35,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": false
   },
   {
    "code": "IND",
    "name": "India",
    "satisfaction": 0.6,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
  "coalitions": [
@@ -56,5 +63,23 @@
   "China openly hostile to India's Tajik foothold",
   "No regional framework consolidates"
  ],
- "note": "India's deepened Tajik pact gave it momentum and a favorable bilateral security track, but low pressure and a confrontational mood, sharpened by China's Wolf Warrior hostility to any Indian foothold, prevented a regional framework from consolidating beyond a partial understanding."
+ "note": "India's deepened Tajik pact gave it momentum and a favorable bilateral security track, but low pressure and a confrontational mood, sharpened by China's Wolf Warrior hostility to any Indian foothold, prevented a regional framework from consolidating beyond a partial understanding.",
+ "instrument": "memorandum",
+ "blocs": [
+  {
+   "label": "TJK-India bilateral security track",
+   "type": "situational",
+   "cohesion": "loose"
+  },
+  {
+   "label": "China openly hostile to India's Tajik foothold",
+   "type": "situational",
+   "cohesion": "loose"
+  },
+  {
+   "label": "No regional framework consolidates (C4 fragmented)",
+   "type": "situational",
+   "cohesion": "fractured"
+  }
+ ]
 }

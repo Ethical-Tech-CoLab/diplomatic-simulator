@@ -6,54 +6,74 @@
    "name": "Republic of India",
    "satisfaction": 0.44,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "PAK",
    "name": "Islamic Republic of Pakistan",
    "satisfaction": 0.3,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "JK",
    "name": "Jammu and Kashmir Delegation",
    "satisfaction": 0.2,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "CHN",
    "name": "People's Republic of China",
    "satisfaction": 0.54,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "RUS",
    "name": "Russian Federation",
    "satisfaction": 0.52,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "GBR",
    "name": "United Kingdom",
    "satisfaction": 0.28,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "USA",
    "name": "United States of America",
    "satisfaction": 0.3,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   }
  ],
  "coalitions": [
   "IND-RUS-CHN status-quo bloc",
   "GBR-USA-JK demilitarization bloc"
  ],
- "note": "The general's statement foreclosed the troop-withdrawal chapter; talks stalled with the status quo intact and no annex drafted."
+ "note": "The general's statement foreclosed the troop-withdrawal chapter; talks stalled with the status quo intact and no annex drafted.",
+ "instrument": "none",
+ "blocs": [
+  {
+   "label": "IND-RUS-CHN status-quo bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "GBR-USA-JK demilitarization bloc",
+   "type": "situational",
+   "cohesion": "fractured"
+  }
+ ]
 }

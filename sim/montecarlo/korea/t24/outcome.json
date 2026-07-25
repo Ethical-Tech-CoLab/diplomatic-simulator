@@ -6,47 +6,66 @@
    "name": "People's Republic of China",
    "satisfaction": 0.72,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "PRK",
    "name": "Democratic People's Republic of Korea",
    "satisfaction": 0.58,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "KOR",
    "name": "Republic of Korea",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "USA",
    "name": "United States of America",
    "satisfaction": 0.43,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "JPN",
    "name": "Japan",
    "satisfaction": 0.33,
    "primaryGoal": "failed",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": false
   },
   {
    "code": "RUS",
    "name": "Russian Federation",
    "satisfaction": 0.66,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
  "coalitions": [
   "CHN-RUS-PRK step-by-step bloc",
   "Chair's continuation coalition"
  ],
- "note": "Sustained chair pressure in a calm atmosphere produced a freeze-for-freeze framework in principle with IAEA monitors and a scheduled follow-on session, but early relief language crossed Japan's no-relief-before-comprehensive line."
+ "note": "Sustained chair pressure in a calm atmosphere produced a freeze-for-freeze framework in principle with IAEA monitors and a scheduled follow-on session, but early relief language crossed Japan's no-relief-before-comprehensive line.",
+ "instrument": "framework",
+ "blocs": [
+  {
+   "label": "CHN-RUS-PRK step-by-step bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "Chair's continuation coalition",
+   "type": "situational",
+   "cohesion": "loose"
+  }
+ ]
 }

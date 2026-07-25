@@ -6,49 +6,56 @@
    "name": "Republic of India",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "PAK",
    "name": "Islamic Republic of Pakistan",
    "satisfaction": 0.34,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": false
   },
   {
    "code": "JK",
    "name": "Jammu and Kashmir Delegation",
    "satisfaction": 0.52,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "CHN",
    "name": "People's Republic of China",
    "satisfaction": 0.4,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "RUS",
    "name": "Russian Federation",
    "satisfaction": 0.44,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "GBR",
    "name": "United Kingdom",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "USA",
    "name": "United States of America",
    "satisfaction": 0.52,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
  "coalitions": [
@@ -56,5 +63,23 @@
   "GBR-USA autonomy bloc",
   "CHN-RUS anti-precedent bloc"
  ],
- "note": "The court's statehood order gave the cooperative mood a governance framework restoring elected rule with an Article 370 study, drawing the Kashmiris toward New Delhi and away from accession."
+ "note": "The court's statehood order gave the cooperative mood a governance framework restoring elected rule with an Article 370 study, drawing the Kashmiris toward New Delhi and away from accession.",
+ "instrument": "framework",
+ "blocs": [
+  {
+   "label": "IND-JK governance-restoration track",
+   "type": "situational",
+   "cohesion": "loose"
+  },
+  {
+   "label": "GBR-USA autonomy bloc",
+   "type": "standing",
+   "cohesion": "loose"
+  },
+  {
+   "label": "CHN-RUS anti-precedent bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  }
+ ]
 }

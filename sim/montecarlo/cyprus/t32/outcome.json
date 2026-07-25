@@ -6,47 +6,66 @@
    "name": "Republic of Cyprus",
    "satisfaction": 0.3,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "TRNC",
    "name": "Turkish Republic of Northern Cyprus",
    "satisfaction": 0.4,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "GR",
    "name": "Greece",
    "satisfaction": 0.32,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "TR",
    "name": "Turkey",
    "satisfaction": 0.43,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "UK",
    "name": "United Kingdom",
    "satisfaction": 0.23,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "US",
    "name": "United States",
    "satisfaction": 0.22,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   }
  ],
  "coalitions": [
   "CY-GR-UK-US single-sovereignty bloc",
   "TRNC-TR two-state bloc"
  ],
- "note": "A Green Line shooting in a confrontational mood with low pressure inflamed security fears on both sides and, with no mediator leverage to steady the room, the talks collapsed into breakdown."
+ "note": "A Green Line shooting in a confrontational mood with low pressure inflamed security fears on both sides and, with no mediator leverage to steady the room, the talks collapsed into breakdown.",
+ "instrument": "none",
+ "blocs": [
+  {
+   "label": "CY-GR-UK-US single-sovereignty bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "TRNC-TR two-state bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  }
+ ]
 }

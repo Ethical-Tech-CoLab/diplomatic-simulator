@@ -63,7 +63,9 @@ def main():
         for code in pcodes:
             sats, held, goals, nm = [], 0, {"achieved": 0, "partial": 0, "failed": 0}, code
             seen = 0
+            rat_ok, rat_den = 0, 0  # ratification: True count, and trials where a deal existed to ratify
             for tr in trials:
+                inst = (tr["outcome"].get("instrument") or "none").strip().lower()
                 for p in tr["outcome"].get("parties", []):
                     if p.get("code") == code:
                         seen += 1
@@ -75,11 +77,17 @@ def main():
                         g = (p.get("primaryGoal") or "").lower()
                         if g in goals:
                             goals[g] += 1
+                        if inst not in ("", "none"):
+                            rat_den += 1
+                            if p.get("ratifiable") is True:
+                                rat_ok += 1
             parties.append({
                 "code": code, "name": nm, "n": seen,
                 "sat": stats(sats),
                 "redLineHeldPct": round(100*held/seen) if seen else 0,
+                "primaryGoalAchievedPct": round(100*goals["achieved"]/seen) if seen else 0,
                 "goals": goals,
+                "ratifiedPct": round(100*rat_ok/rat_den) if rat_den else None,
             })
         parties.sort(key=lambda p: -(p["sat"]["mean"] if p["sat"] else 0))
         # coalition frequency
@@ -90,10 +98,39 @@ def main():
                 if k:
                     coal[k] = coal.get(k, 0) + 1
         coal_top = sorted(coal.items(), key=lambda x: -x[1])[:8]
+        # success metrics (probability of success, split by what "success" means)
+        n = len(trials)
+        any_deal = dealcount["comprehensive"] + dealcount["framework"] + dealcount["partial"]
+        substantive = dealcount["comprehensive"] + dealcount["framework"]
+        success = {
+            "anyAgreementPct": round(100*any_deal/n) if n else 0,
+            "substantiveAgreementPct": round(100*substantive/n) if n else 0,
+        }
+        # instrument (form of any agreement)
+        INSTR = ["treaty", "framework", "memorandum", "communique", "none"]
+        instruments = {i: 0 for i in INSTR}
+        for tr in trials:
+            iv = (tr["outcome"].get("instrument") or "none").strip().lower()
+            instruments[iv] = instruments.get(iv, 0) + 1
+        # bloc cohesion and type across all blocs recorded
+        cohesion = {"tight": 0, "loose": 0, "fractured": 0}
+        bloc_types = {"standing": 0, "situational": 0}
+        for tr in trials:
+            for b in tr["outcome"].get("blocs", []) or []:
+                c = (b.get("cohesion") or "").strip().lower()
+                if c in cohesion:
+                    cohesion[c] += 1
+                ty = (b.get("type") or "").strip().lower()
+                if ty in bloc_types:
+                    bloc_types[ty] += 1
         result["scenarios"].append({
             "key": key, "title": title, "sessionId": sid,
             "nTrials": len(trials),
             "dealTypes": dealcount,
+            "success": success,
+            "instruments": instruments,
+            "blocCohesion": cohesion,
+            "blocTypes": bloc_types,
             "parties": parties,
             "coalitions": [{"label": k, "n": v} for k, v in coal_top],
             "trials": [{

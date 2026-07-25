@@ -6,49 +6,56 @@
    "name": "Canada",
    "satisfaction": 0.55,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "CHN",
    "name": "China",
    "satisfaction": 0.42,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "DNK",
    "name": "Denmark",
    "satisfaction": 0.52,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "FIN",
    "name": "Finland",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "NOR",
    "name": "Norway",
    "satisfaction": 0.55,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "RUS",
    "name": "Russia",
    "satisfaction": 0.55,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "USA",
    "name": "United States",
    "satisfaction": 0.48,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
  "coalitions": [
@@ -56,5 +63,23 @@
   "Western coastal bloc",
   "Russia-China axis"
  ],
- "note": "The spill created pressure for cooperation but a confrontational mood narrowed the result to a partial SAR and pollution-response arrangement, with Russia touting its cleanup record while broader sovereignty questions stayed off the table."
+ "note": "The spill created pressure for cooperation but a confrontational mood narrowed the result to a partial SAR and pollution-response arrangement, with Russia touting its cleanup record while broader sovereignty questions stayed off the table.",
+ "instrument": "memorandum",
+ "blocs": [
+  {
+   "label": "Arctic SAR working group",
+   "type": "situational",
+   "cohesion": "tight"
+  },
+  {
+   "label": "Western coastal bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "Russia-China axis",
+   "type": "standing",
+   "cohesion": "loose"
+  }
+ ]
 }

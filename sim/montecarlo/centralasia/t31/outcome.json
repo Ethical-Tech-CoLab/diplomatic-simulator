@@ -6,54 +6,74 @@
    "name": "Kazakhstan",
    "satisfaction": 0.74,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "UZB",
    "name": "Uzbekistan",
    "satisfaction": 0.8,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "KGZ",
    "name": "Kyrgyzstan",
    "satisfaction": 0.66,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "TJK",
    "name": "Tajikistan",
    "satisfaction": 0.6,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "RUS",
    "name": "Russia",
    "satisfaction": 0.42,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "CHN",
    "name": "China",
    "satisfaction": 0.6,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "IND",
    "name": "India",
    "satisfaction": 0.52,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
  "coalitions": [
   "UZB-steered Central Asian Four framework",
   "UZB-KAZ economic-integration drafting group"
  ],
- "note": "With no external shock, high pressure and a cooperative mood let Uzbekistan steer the Central Asian four into a de-escalation and economic-integration framework, harvesting intelligence and confidence-building measures while committing to nothing binding."
+ "note": "With no external shock, high pressure and a cooperative mood let Uzbekistan steer the Central Asian four into a de-escalation and economic-integration framework, harvesting intelligence and confidence-building measures while committing to nothing binding.",
+ "instrument": "framework",
+ "blocs": [
+  {
+   "label": "UZB-steered Central Asian Four framework",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "UZB-KAZ economic-integration drafting group",
+   "type": "situational",
+   "cohesion": "tight"
+  }
+ ]
 }

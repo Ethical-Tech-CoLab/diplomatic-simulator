@@ -6,47 +6,66 @@
    "name": "People's Republic of China",
    "satisfaction": 0.36,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "PRK",
    "name": "Democratic People's Republic of Korea",
    "satisfaction": 0.28,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "KOR",
    "name": "Republic of Korea",
    "satisfaction": 0.4,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "USA",
    "name": "United States of America",
    "satisfaction": 0.46,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "JPN",
    "name": "Japan",
    "satisfaction": 0.44,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "RUS",
    "name": "Russian Federation",
    "satisfaction": 0.38,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   }
  ],
  "coalitions": [
   "USA-KOR-JPN verification bloc",
   "CHN-RUS step-by-step bloc"
  ],
- "note": "The disclosure hardened the verification demand into a precondition and destroyed the inspector-backed freeze the chair had built the package around."
+ "note": "The disclosure hardened the verification demand into a precondition and destroyed the inspector-backed freeze the chair had built the package around.",
+ "instrument": "none",
+ "blocs": [
+  {
+   "label": "USA-KOR-JPN verification bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "CHN-RUS step-by-step bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  }
+ ]
 }

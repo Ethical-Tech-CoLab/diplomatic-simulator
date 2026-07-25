@@ -6,54 +6,74 @@
    "name": "Republic of India",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "PAK",
    "name": "Islamic Republic of Pakistan",
    "satisfaction": 0.34,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": false
   },
   {
    "code": "JK",
    "name": "Jammu and Kashmir Delegation",
    "satisfaction": 0.3,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": false
   },
   {
    "code": "CHN",
    "name": "People's Republic of China",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "RUS",
    "name": "Russian Federation",
    "satisfaction": 0.52,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "GBR",
    "name": "United Kingdom",
    "satisfaction": 0.4,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "USA",
    "name": "United States of America",
    "satisfaction": 0.42,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
  "coalitions": [
   "IND-RUS-CHN non-interference bloc",
   "GBR-USA investigation bloc"
  ],
- "note": "India's pre-emptive domestic inquiry defused the push for a UN mandate; the cooperative mood yielded a humanitarian understanding but no autonomy text."
+ "note": "India's pre-emptive domestic inquiry defused the push for a UN mandate; the cooperative mood yielded a humanitarian understanding but no autonomy text.",
+ "instrument": "communique",
+ "blocs": [
+  {
+   "label": "IND-RUS-CHN non-interference bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "GBR-USA investigation bloc",
+   "type": "standing",
+   "cohesion": "loose"
+  }
+ ]
 }

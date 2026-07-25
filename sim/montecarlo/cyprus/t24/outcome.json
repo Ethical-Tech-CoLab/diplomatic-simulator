@@ -6,42 +6,48 @@
    "name": "Republic of Cyprus",
    "satisfaction": 0.44,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "TRNC",
    "name": "Turkish Republic of Northern Cyprus",
    "satisfaction": 0.26,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "GR",
    "name": "Greece",
    "satisfaction": 0.5,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "TR",
    "name": "Turkey",
    "satisfaction": 0.24,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "UK",
    "name": "United Kingdom",
    "satisfaction": 0.3,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "US",
    "name": "United States",
    "satisfaction": 0.29,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   }
  ],
  "coalitions": [
@@ -49,5 +55,23 @@
   "TRNC-TR Varosha-retention bloc",
   "UK-US sidelined mediators"
  ],
- "note": "A public fight over Varosha with GR momentum in a confrontational mood turned property and territory into an all-or-nothing clash that even high pressure could not contain, and the talks broke down."
+ "note": "A public fight over Varosha with GR momentum in a confrontational mood turned property and territory into an all-or-nothing clash that even high pressure could not contain, and the talks broke down.",
+ "instrument": "none",
+ "blocs": [
+  {
+   "label": "CY-GR property-restitution bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "TRNC-TR Varosha-retention bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "UK-US sidelined mediators",
+   "type": "situational",
+   "cohesion": "fractured"
+  }
+ ]
 }

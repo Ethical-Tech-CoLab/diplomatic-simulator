@@ -6,47 +6,66 @@
    "name": "Republic of Cyprus",
    "satisfaction": 0.35,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "TRNC",
    "name": "Turkish Republic of Northern Cyprus",
    "satisfaction": 0.53,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "GR",
    "name": "Greece",
    "satisfaction": 0.36,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "TR",
    "name": "Turkey",
    "satisfaction": 0.59,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "UK",
    "name": "United Kingdom",
    "satisfaction": 0.29,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "US",
    "name": "United States",
    "satisfaction": 0.3,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   }
  ],
  "coalitions": [
   "CY-GR-UK-US single-sovereignty bloc",
   "TR-TRNC guarantor bloc"
  ],
- "note": "The UNFICYP crisis in a confrontational mood let TR's momentum tie peacekeeping to its guarantee demands, and with only medium pressure neither side would move, freezing the session into stalemate."
+ "note": "The UNFICYP crisis in a confrontational mood let TR's momentum tie peacekeeping to its guarantee demands, and with only medium pressure neither side would move, freezing the session into stalemate.",
+ "instrument": "none",
+ "blocs": [
+  {
+   "label": "CY-GR-UK-US single-sovereignty bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "TR-TRNC guarantor bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  }
+ ]
 }

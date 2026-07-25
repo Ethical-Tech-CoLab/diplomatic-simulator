@@ -12,6 +12,26 @@ window.MC_RESULTS = {
     "stalemate": 7,
     "breakdown": 1
    },
+   "success": {
+    "anyAgreementPct": 80,
+    "substantiveAgreementPct": 40
+   },
+   "instruments": {
+    "treaty": 0,
+    "framework": 16,
+    "memorandum": 13,
+    "communique": 3,
+    "none": 8
+   },
+   "blocCohesion": {
+    "tight": 57,
+    "loose": 32,
+    "fractured": 11
+   },
+   "blocTypes": {
+    "standing": 76,
+    "situational": 24
+   },
    "parties": [
     {
      "code": "CAN",
@@ -26,11 +46,13 @@ window.MC_RESULTS = {
       "p50": 0.6
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 20,
      "goals": {
       "achieved": 8,
       "partial": 32,
       "failed": 0
-     }
+     },
+     "ratifiedPct": 100
     },
     {
      "code": "RUS",
@@ -45,11 +67,13 @@ window.MC_RESULTS = {
       "p50": 0.6
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 15,
      "goals": {
       "achieved": 6,
       "partial": 34,
       "failed": 0
-     }
+     },
+     "ratifiedPct": 100
     },
     {
      "code": "FIN",
@@ -64,11 +88,13 @@ window.MC_RESULTS = {
       "p50": 0.6
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 30,
      "goals": {
       "achieved": 12,
       "partial": 28,
       "failed": 0
-     }
+     },
+     "ratifiedPct": 100
     },
     {
      "code": "NOR",
@@ -83,11 +109,13 @@ window.MC_RESULTS = {
       "p50": 0.6
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 22,
      "goals": {
       "achieved": 9,
       "partial": 31,
       "failed": 0
-     }
+     },
+     "ratifiedPct": 100
     },
     {
      "code": "DNK",
@@ -102,11 +130,13 @@ window.MC_RESULTS = {
       "p50": 0.55
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 2,
      "goals": {
       "achieved": 1,
       "partial": 39,
       "failed": 0
-     }
+     },
+     "ratifiedPct": 100
     },
     {
      "code": "USA",
@@ -121,11 +151,13 @@ window.MC_RESULTS = {
       "p50": 0.45
      },
      "redLineHeldPct": 88,
+     "primaryGoalAchievedPct": 0,
      "goals": {
       "achieved": 0,
       "partial": 36,
       "failed": 4
-     }
+     },
+     "ratifiedPct": 84
     },
     {
      "code": "CHN",
@@ -140,11 +172,13 @@ window.MC_RESULTS = {
       "p50": 0.435
      },
      "redLineHeldPct": 45,
+     "primaryGoalAchievedPct": 0,
      "goals": {
       "achieved": 0,
       "partial": 28,
       "failed": 12
-     }
+     },
+     "ratifiedPct": 53
     }
    ],
    "coalitions": [
@@ -516,6 +550,26 @@ window.MC_RESULTS = {
     "stalemate": 1,
     "breakdown": 0
    },
+   "success": {
+    "anyAgreementPct": 98,
+    "substantiveAgreementPct": 65
+   },
+   "instruments": {
+    "treaty": 0,
+    "framework": 26,
+    "memorandum": 6,
+    "communique": 7,
+    "none": 1
+   },
+   "blocCohesion": {
+    "tight": 37,
+    "loose": 48,
+    "fractured": 9
+   },
+   "blocTypes": {
+    "standing": 35,
+    "situational": 59
+   },
    "parties": [
     {
      "code": "UZB",
@@ -530,11 +584,13 @@ window.MC_RESULTS = {
       "p50": 0.69
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 55,
      "goals": {
       "achieved": 22,
       "partial": 18,
       "failed": 0
-     }
+     },
+     "ratifiedPct": 100
     },
     {
      "code": "KAZ",
@@ -549,11 +605,13 @@ window.MC_RESULTS = {
       "p50": 0.71
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 58,
      "goals": {
       "achieved": 23,
       "partial": 16,
       "failed": 1
-     }
+     },
+     "ratifiedPct": 100
     },
     {
      "code": "CHN",
@@ -568,11 +626,13 @@ window.MC_RESULTS = {
       "p50": 0.62
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 42,
      "goals": {
       "achieved": 17,
       "partial": 20,
       "failed": 3
-     }
+     },
+     "ratifiedPct": 92
     },
     {
      "code": "KGZ",
@@ -587,11 +647,13 @@ window.MC_RESULTS = {
       "p50": 0.6
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 38,
      "goals": {
       "achieved": 15,
       "partial": 21,
       "failed": 4
-     }
+     },
+     "ratifiedPct": 92
     },
     {
      "code": "TJK",
@@ -606,11 +668,13 @@ window.MC_RESULTS = {
       "p50": 0.58
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 18,
      "goals": {
       "achieved": 7,
       "partial": 29,
       "failed": 4
-     }
+     },
+     "ratifiedPct": 92
     },
     {
      "code": "RUS",
@@ -625,11 +689,13 @@ window.MC_RESULTS = {
       "p50": 0.42
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 0,
      "goals": {
       "achieved": 0,
       "partial": 28,
       "failed": 12
-     }
+     },
+     "ratifiedPct": 69
     },
     {
      "code": "IND",
@@ -644,11 +710,13 @@ window.MC_RESULTS = {
       "p50": 0.435
      },
      "redLineHeldPct": 92,
+     "primaryGoalAchievedPct": 12,
      "goals": {
       "achieved": 5,
       "partial": 19,
       "failed": 16
-     }
+     },
+     "ratifiedPct": 62
     }
    ],
    "coalitions": [
@@ -1020,6 +1088,26 @@ window.MC_RESULTS = {
     "stalemate": 12,
     "breakdown": 7
    },
+   "success": {
+    "anyAgreementPct": 52,
+    "substantiveAgreementPct": 30
+   },
+   "instruments": {
+    "treaty": 0,
+    "framework": 12,
+    "memorandum": 6,
+    "communique": 3,
+    "none": 19
+   },
+   "blocCohesion": {
+    "tight": 86,
+    "loose": 4,
+    "fractured": 2
+   },
+   "blocTypes": {
+    "standing": 80,
+    "situational": 12
+   },
    "parties": [
     {
      "code": "CY",
@@ -1034,11 +1122,13 @@ window.MC_RESULTS = {
       "p50": 0.5
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 2,
      "goals": {
       "achieved": 1,
       "partial": 21,
       "failed": 18
-     }
+     },
+     "ratifiedPct": 100
     },
     {
      "code": "GR",
@@ -1053,11 +1143,13 @@ window.MC_RESULTS = {
       "p50": 0.5
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 5,
      "goals": {
       "achieved": 2,
       "partial": 21,
       "failed": 17
-     }
+     },
+     "ratifiedPct": 90
     },
     {
      "code": "TR",
@@ -1072,11 +1164,13 @@ window.MC_RESULTS = {
       "p50": 0.475
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 0,
      "goals": {
       "achieved": 0,
       "partial": 25,
       "failed": 15
-     }
+     },
+     "ratifiedPct": 67
     },
     {
      "code": "TRNC",
@@ -1091,11 +1185,13 @@ window.MC_RESULTS = {
       "p50": 0.45
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 0,
      "goals": {
       "achieved": 0,
       "partial": 25,
       "failed": 15
-     }
+     },
+     "ratifiedPct": 62
     },
     {
      "code": "UK",
@@ -1110,11 +1206,13 @@ window.MC_RESULTS = {
       "p50": 0.46
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 5,
      "goals": {
       "achieved": 2,
       "partial": 19,
       "failed": 19
-     }
+     },
+     "ratifiedPct": 100
     },
     {
      "code": "US",
@@ -1129,11 +1227,13 @@ window.MC_RESULTS = {
       "p50": 0.425
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 5,
      "goals": {
       "achieved": 2,
       "partial": 19,
       "failed": 19
-     }
+     },
+     "ratifiedPct": 95
     }
    ],
    "coalitions": [
@@ -1505,6 +1605,26 @@ window.MC_RESULTS = {
     "stalemate": 6,
     "breakdown": 5
    },
+   "success": {
+    "anyAgreementPct": 72,
+    "substantiveAgreementPct": 35
+   },
+   "instruments": {
+    "treaty": 0,
+    "framework": 14,
+    "memorandum": 13,
+    "communique": 2,
+    "none": 11
+   },
+   "blocCohesion": {
+    "tight": 48,
+    "loose": 26,
+    "fractured": 8
+   },
+   "blocTypes": {
+    "standing": 73,
+    "situational": 9
+   },
    "parties": [
     {
      "code": "CHN",
@@ -1519,11 +1639,13 @@ window.MC_RESULTS = {
       "p50": 0.53
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 0,
      "goals": {
       "achieved": 0,
       "partial": 24,
       "failed": 16
-     }
+     },
+     "ratifiedPct": 62
     },
     {
      "code": "MYS",
@@ -1538,11 +1660,13 @@ window.MC_RESULTS = {
       "p50": 0.485
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 2,
      "goals": {
       "achieved": 1,
       "partial": 29,
       "failed": 10
-     }
+     },
+     "ratifiedPct": 100
     },
     {
      "code": "IDN",
@@ -1557,11 +1681,13 @@ window.MC_RESULTS = {
       "p50": 0.455
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 0,
      "goals": {
       "achieved": 0,
       "partial": 29,
       "failed": 11
-     }
+     },
+     "ratifiedPct": 100
     },
     {
      "code": "USA",
@@ -1576,11 +1702,13 @@ window.MC_RESULTS = {
       "p50": 0.5
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 0,
      "goals": {
       "achieved": 0,
       "partial": 32,
       "failed": 8
-     }
+     },
+     "ratifiedPct": 100
     },
     {
      "code": "BRN",
@@ -1595,11 +1723,13 @@ window.MC_RESULTS = {
       "p50": 0.47
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 0,
      "goals": {
       "achieved": 0,
       "partial": 30,
       "failed": 10
-     }
+     },
+     "ratifiedPct": 100
     },
     {
      "code": "IND",
@@ -1614,11 +1744,13 @@ window.MC_RESULTS = {
       "p50": 0.45
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 0,
      "goals": {
       "achieved": 0,
       "partial": 29,
       "failed": 11
-     }
+     },
+     "ratifiedPct": 97
     },
     {
      "code": "JPN",
@@ -1633,11 +1765,13 @@ window.MC_RESULTS = {
       "p50": 0.44
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 0,
      "goals": {
       "achieved": 0,
       "partial": 29,
       "failed": 11
-     }
+     },
+     "ratifiedPct": 93
     },
     {
      "code": "VNM",
@@ -1652,11 +1786,13 @@ window.MC_RESULTS = {
       "p50": 0.445
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 0,
      "goals": {
       "achieved": 0,
       "partial": 25,
       "failed": 15
-     }
+     },
+     "ratifiedPct": 86
     },
     {
      "code": "PHL",
@@ -1671,11 +1807,13 @@ window.MC_RESULTS = {
       "p50": 0.44
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 0,
      "goals": {
       "achieved": 0,
       "partial": 19,
       "failed": 21
-     }
+     },
+     "ratifiedPct": 66
     }
    ],
    "coalitions": [
@@ -2047,6 +2185,26 @@ window.MC_RESULTS = {
     "stalemate": 16,
     "breakdown": 9
    },
+   "success": {
+    "anyAgreementPct": 38,
+    "substantiveAgreementPct": 10
+   },
+   "instruments": {
+    "treaty": 0,
+    "framework": 4,
+    "memorandum": 7,
+    "communique": 4,
+    "none": 25
+   },
+   "blocCohesion": {
+    "tight": 56,
+    "loose": 19,
+    "fractured": 1
+   },
+   "blocTypes": {
+    "standing": 58,
+    "situational": 18
+   },
    "parties": [
     {
      "code": "RUS",
@@ -2061,11 +2219,13 @@ window.MC_RESULTS = {
       "p50": 0.435
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 18,
      "goals": {
       "achieved": 7,
       "partial": 14,
       "failed": 19
-     }
+     },
+     "ratifiedPct": 100
     },
     {
      "code": "CHN",
@@ -2080,11 +2240,13 @@ window.MC_RESULTS = {
       "p50": 0.41
      },
      "redLineHeldPct": 78,
+     "primaryGoalAchievedPct": 15,
      "goals": {
       "achieved": 6,
       "partial": 21,
       "failed": 13
-     }
+     },
+     "ratifiedPct": 100
     },
     {
      "code": "KOR",
@@ -2099,11 +2261,13 @@ window.MC_RESULTS = {
       "p50": 0.4
      },
      "redLineHeldPct": 88,
+     "primaryGoalAchievedPct": 10,
      "goals": {
       "achieved": 4,
       "partial": 19,
       "failed": 17
-     }
+     },
+     "ratifiedPct": 100
     },
     {
      "code": "USA",
@@ -2118,11 +2282,13 @@ window.MC_RESULTS = {
       "p50": 0.425
      },
      "redLineHeldPct": 88,
+     "primaryGoalAchievedPct": 0,
      "goals": {
       "achieved": 0,
       "partial": 29,
       "failed": 11
-     }
+     },
+     "ratifiedPct": 93
     },
     {
      "code": "PRK",
@@ -2137,11 +2303,13 @@ window.MC_RESULTS = {
       "p50": 0.335
      },
      "redLineHeldPct": 95,
+     "primaryGoalAchievedPct": 0,
      "goals": {
       "achieved": 0,
       "partial": 18,
       "failed": 22
-     }
+     },
+     "ratifiedPct": 100
     },
     {
      "code": "JPN",
@@ -2156,11 +2324,13 @@ window.MC_RESULTS = {
       "p50": 0.35
      },
      "redLineHeldPct": 80,
+     "primaryGoalAchievedPct": 0,
      "goals": {
       "achieved": 0,
       "partial": 11,
       "failed": 29
-     }
+     },
+     "ratifiedPct": 13
     }
    ],
    "coalitions": [
@@ -2532,6 +2702,26 @@ window.MC_RESULTS = {
     "stalemate": 10,
     "breakdown": 7
    },
+   "success": {
+    "anyAgreementPct": 58,
+    "substantiveAgreementPct": 15
+   },
+   "instruments": {
+    "treaty": 0,
+    "framework": 6,
+    "memorandum": 13,
+    "communique": 4,
+    "none": 17
+   },
+   "blocCohesion": {
+    "tight": 39,
+    "loose": 27,
+    "fractured": 16
+   },
+   "blocTypes": {
+    "standing": 46,
+    "situational": 36
+   },
    "parties": [
     {
      "code": "RUS",
@@ -2546,11 +2736,13 @@ window.MC_RESULTS = {
       "p50": 0.49
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 8,
      "goals": {
       "achieved": 3,
       "partial": 37,
       "failed": 0
-     }
+     },
+     "ratifiedPct": 100
     },
     {
      "code": "CHN",
@@ -2565,11 +2757,13 @@ window.MC_RESULTS = {
       "p50": 0.46
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 10,
      "goals": {
       "achieved": 4,
       "partial": 36,
       "failed": 0
-     }
+     },
+     "ratifiedPct": 100
     },
     {
      "code": "IND",
@@ -2584,11 +2778,13 @@ window.MC_RESULTS = {
       "p50": 0.46
      },
      "redLineHeldPct": 95,
+     "primaryGoalAchievedPct": 2,
      "goals": {
       "achieved": 1,
       "partial": 35,
       "failed": 4
-     }
+     },
+     "ratifiedPct": 96
     },
     {
      "code": "USA",
@@ -2603,11 +2799,13 @@ window.MC_RESULTS = {
       "p50": 0.41
      },
      "redLineHeldPct": 50,
+     "primaryGoalAchievedPct": 0,
      "goals": {
       "achieved": 0,
       "partial": 21,
       "failed": 19
-     }
+     },
+     "ratifiedPct": 91
     },
     {
      "code": "GBR",
@@ -2622,11 +2820,13 @@ window.MC_RESULTS = {
       "p50": 0.4
      },
      "redLineHeldPct": 50,
+     "primaryGoalAchievedPct": 0,
      "goals": {
       "achieved": 0,
       "partial": 21,
       "failed": 19
-     }
+     },
+     "ratifiedPct": 91
     },
     {
      "code": "PAK",
@@ -2641,11 +2841,13 @@ window.MC_RESULTS = {
       "p50": 0.34
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 0,
      "goals": {
       "achieved": 0,
       "partial": 17,
       "failed": 23
-     }
+     },
+     "ratifiedPct": 70
     },
     {
      "code": "JK",
@@ -2660,11 +2862,13 @@ window.MC_RESULTS = {
       "p50": 0.3
      },
      "redLineHeldPct": 78,
+     "primaryGoalAchievedPct": 0,
      "goals": {
       "achieved": 0,
       "partial": 17,
       "failed": 23
-     }
+     },
+     "ratifiedPct": 70
     }
    ],
    "coalitions": [
@@ -3036,6 +3240,26 @@ window.MC_RESULTS = {
     "stalemate": 1,
     "breakdown": 4
    },
+   "success": {
+    "anyAgreementPct": 75,
+    "substantiveAgreementPct": 45
+   },
+   "instruments": {
+    "treaty": 0,
+    "framework": 9,
+    "memorandum": 6,
+    "communique": 0,
+    "none": 5
+   },
+   "blocCohesion": {
+    "tight": 13,
+    "loose": 8,
+    "fractured": 8
+   },
+   "blocTypes": {
+    "standing": 1,
+    "situational": 28
+   },
    "parties": [
     {
      "code": "US",
@@ -3050,11 +3274,13 @@ window.MC_RESULTS = {
       "p50": 0.565
      },
      "redLineHeldPct": 85,
+     "primaryGoalAchievedPct": 0,
      "goals": {
       "achieved": 0,
       "partial": 15,
       "failed": 5
-     }
+     },
+     "ratifiedPct": 100
     },
     {
      "code": "IRN",
@@ -3069,11 +3295,13 @@ window.MC_RESULTS = {
       "p50": 0.435
      },
      "redLineHeldPct": 100,
+     "primaryGoalAchievedPct": 0,
      "goals": {
       "achieved": 0,
       "partial": 15,
       "failed": 5
-     }
+     },
+     "ratifiedPct": 87
     }
    ],
    "coalitions": [

@@ -6,47 +6,66 @@
    "name": "People's Republic of China",
    "satisfaction": 0.2,
    "primaryGoal": "failed",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": null
   },
   {
    "code": "PRK",
    "name": "Democratic People's Republic of Korea",
    "satisfaction": 0.27,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "KOR",
    "name": "Republic of Korea",
    "satisfaction": 0.23,
    "primaryGoal": "failed",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": null
   },
   {
    "code": "USA",
    "name": "United States of America",
    "satisfaction": 0.29,
    "primaryGoal": "failed",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": null
   },
   {
    "code": "JPN",
    "name": "Japan",
    "satisfaction": 0.22,
    "primaryGoal": "failed",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": null
   },
   {
    "code": "RUS",
    "name": "Russian Federation",
    "satisfaction": 0.26,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   }
  ],
  "coalitions": [
   "USA-KOR-JPN trilateral pressure bloc",
   "CHN-RUS step-by-step bloc"
  ],
- "note": "The engine test read as continued long-range development, tripping the allied brinkmanship red line; with mediation minimal the trilateral bloc broke off and the round ended."
+ "note": "The engine test read as continued long-range development, tripping the allied brinkmanship red line; with mediation minimal the trilateral bloc broke off and the round ended.",
+ "instrument": "none",
+ "blocs": [
+  {
+   "label": "USA-KOR-JPN trilateral pressure bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "CHN-RUS step-by-step bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  }
+ ]
 }

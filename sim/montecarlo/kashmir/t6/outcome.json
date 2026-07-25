@@ -6,49 +6,56 @@
    "name": "Republic of India",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "PAK",
    "name": "Islamic Republic of Pakistan",
    "satisfaction": 0.48,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "JK",
    "name": "Jammu and Kashmir Delegation",
    "satisfaction": 0.38,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "CHN",
    "name": "People's Republic of China",
    "satisfaction": 0.52,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "RUS",
    "name": "Russian Federation",
    "satisfaction": 0.54,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "GBR",
    "name": "United Kingdom",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": true
   },
   {
    "code": "USA",
    "name": "United States of America",
    "satisfaction": 0.56,
    "primaryGoal": "partial",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": true
   }
  ],
  "coalitions": [
@@ -56,5 +63,23 @@
   "IND-CHN-RUS status-quo bloc",
   "LoC monitoring coalition (all seven)"
  ],
- "note": "A dead peacekeeper produced the one thing all seven could sign: a strengthened ceasefire-monitoring regime with the humanitarian annex attached — and still no autonomy provision."
+ "note": "A dead peacekeeper produced the one thing all seven could sign: a strengthened ceasefire-monitoring regime with the humanitarian annex attached — and still no autonomy provision.",
+ "instrument": "framework",
+ "blocs": [
+  {
+   "label": "GBR-USA-PAK-JK coalition",
+   "type": "situational",
+   "cohesion": "loose"
+  },
+  {
+   "label": "IND-CHN-RUS status-quo bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "LoC monitoring coalition (all seven)",
+   "type": "situational",
+   "cohesion": "tight"
+  }
+ ]
 }

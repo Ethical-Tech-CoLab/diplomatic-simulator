@@ -6,54 +6,74 @@
    "name": "Republic of India",
    "satisfaction": 0.46,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "PAK",
    "name": "Islamic Republic of Pakistan",
    "satisfaction": 0.16,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "JK",
    "name": "Jammu and Kashmir Delegation",
    "satisfaction": 0.18,
    "primaryGoal": "failed",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": null
   },
   {
    "code": "CHN",
    "name": "People's Republic of China",
    "satisfaction": 0.42,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "RUS",
    "name": "Russian Federation",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "GBR",
    "name": "United Kingdom",
    "satisfaction": 0.24,
    "primaryGoal": "failed",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": null
   },
   {
    "code": "USA",
    "name": "United States of America",
    "satisfaction": 0.26,
    "primaryGoal": "failed",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": null
   }
  ],
  "coalitions": [
   "IND-RUS counterterrorism bloc",
   "GBR-USA-JK self-determination bloc"
  ],
- "note": "The leaked cable turned the terror file against Islamabad, which disengaged to avoid a militant-scope investigation and the conference collapsed."
+ "note": "The leaked cable turned the terror file against Islamabad, which disengaged to avoid a militant-scope investigation and the conference collapsed.",
+ "instrument": "none",
+ "blocs": [
+  {
+   "label": "IND-RUS counterterrorism bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "GBR-USA-JK self-determination bloc",
+   "type": "situational",
+   "cohesion": "fractured"
+  }
+ ]
 }

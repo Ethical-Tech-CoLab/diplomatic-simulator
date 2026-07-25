@@ -6,47 +6,66 @@
    "name": "People's Republic of China",
    "satisfaction": 0.6,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "PRK",
    "name": "Democratic People's Republic of Korea",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "KOR",
    "name": "Republic of Korea",
    "satisfaction": 0.66,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "USA",
    "name": "United States of America",
    "satisfaction": 0.48,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "JPN",
    "name": "Japan",
    "satisfaction": 0.38,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": false
   },
   {
    "code": "RUS",
    "name": "Russian Federation",
    "satisfaction": 0.55,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
  "coalitions": [
   "Inter-Korean bilateral track",
   "USA-KOR-JPN trilateral bloc (strained)"
  ],
- "note": "Seoul's unilateral gesture bought an inter-Korean channel and a testing moratorium, but Washington refused to follow and the freeze was never formalized."
+ "note": "Seoul's unilateral gesture bought an inter-Korean channel and a testing moratorium, but Washington refused to follow and the freeze was never formalized.",
+ "instrument": "communique",
+ "blocs": [
+  {
+   "label": "Inter-Korean bilateral track",
+   "type": "situational",
+   "cohesion": "loose"
+  },
+  {
+   "label": "USA-KOR-JPN trilateral bloc (strained)",
+   "type": "standing",
+   "cohesion": "loose"
+  }
+ ]
 }

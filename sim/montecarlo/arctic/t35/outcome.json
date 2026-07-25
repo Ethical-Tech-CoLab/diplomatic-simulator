@@ -6,49 +6,56 @@
    "name": "Canada",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "CHN",
    "name": "China",
    "satisfaction": 0.32,
    "primaryGoal": "failed",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": null
   },
   {
    "code": "DNK",
    "name": "Denmark",
    "satisfaction": 0.45,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "FIN",
    "name": "Finland",
    "satisfaction": 0.42,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "NOR",
    "name": "Norway",
    "satisfaction": 0.48,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "RUS",
    "name": "Russia",
    "satisfaction": 0.55,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "USA",
    "name": "United States",
    "satisfaction": 0.45,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   }
  ],
  "coalitions": [
@@ -56,5 +63,23 @@
   "Russia-China NSR axis",
   "Straits-sovereignty holdouts (CAN, RUS)"
  ],
- "note": "An early ice-free season prompted a US freedom-of-navigation push, but confrontational posturing and weak mediation collided with Canadian and Russian internal-waters claims, deadlocking the straits question and leaving China's navigation aims rejected."
+ "note": "An early ice-free season prompted a US freedom-of-navigation push, but confrontational posturing and weak mediation collided with Canadian and Russian internal-waters claims, deadlocking the straits question and leaving China's navigation aims rejected.",
+ "instrument": "none",
+ "blocs": [
+  {
+   "label": "NATO Arctic bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "Russia-China NSR axis",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "Straits-sovereignty holdouts (CAN, RUS)",
+   "type": "situational",
+   "cohesion": "loose"
+  }
+ ]
 }

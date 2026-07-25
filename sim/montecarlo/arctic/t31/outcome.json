@@ -6,49 +6,56 @@
    "name": "Canada",
    "satisfaction": 0.52,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "CHN",
    "name": "China",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "DNK",
    "name": "Denmark",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "FIN",
    "name": "Finland",
    "satisfaction": 0.55,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "NOR",
    "name": "Norway",
    "satisfaction": 0.55,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "RUS",
    "name": "Russia",
    "satisfaction": 0.7,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "USA",
    "name": "United States",
    "satisfaction": 0.4,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
  "coalitions": [
@@ -56,5 +63,23 @@
   "Nordic coastal bloc",
   "USA disengaged"
  ],
- "note": "US disengagement removed the main blocker but a confrontational mood capped progress at a partial deal, letting momentum-holder Russia deal directly with European Arctic states while Nordic states still refused China's Council membership."
+ "note": "US disengagement removed the main blocker but a confrontational mood capped progress at a partial deal, letting momentum-holder Russia deal directly with European Arctic states while Nordic states still refused China's Council membership.",
+ "instrument": "communique",
+ "blocs": [
+  {
+   "label": "Russia-China partnership ascendant",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "Nordic coastal bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "USA disengaged",
+   "type": "situational",
+   "cohesion": "fractured"
+  }
+ ]
 }

@@ -6,47 +6,66 @@
    "name": "Republic of Cyprus",
    "satisfaction": 0.4,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "TRNC",
    "name": "Turkish Republic of Northern Cyprus",
    "satisfaction": 0.42,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "GR",
    "name": "Greece",
    "satisfaction": 0.44,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "TR",
    "name": "Turkey",
    "satisfaction": 0.48,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "UK",
    "name": "United Kingdom",
    "satisfaction": 0.34,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "US",
    "name": "United States",
    "satisfaction": 0.35,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   }
  ],
  "coalitions": [
   "CY-GR federalist front",
   "TRNC-TR confederation bloc"
  ],
- "note": "Even without a shock, GR's momentum and medium pressure in a neutral mood could not bridge the strong-center versus weak-confederation divide, and the governance question stalled into stalemate."
+ "note": "Even without a shock, GR's momentum and medium pressure in a neutral mood could not bridge the strong-center versus weak-confederation divide, and the governance question stalled into stalemate.",
+ "instrument": "none",
+ "blocs": [
+  {
+   "label": "CY-GR federalist front",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "TRNC-TR confederation bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  }
+ ]
 }

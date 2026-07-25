@@ -1,9 +1,39 @@
 {
  "dealType": "framework",
  "parties": [
-  {"code":"IRN","name":"Iran","satisfaction":0.63,"primaryGoal":"partial","redLineHeld":true},
-  {"code":"US","name":"US","satisfaction":0.46,"primaryGoal":"partial","redLineHeld":false}
+  {
+   "code": "IRN",
+   "name": "Iran",
+   "satisfaction": 0.63,
+   "primaryGoal": "partial",
+   "redLineHeld": true,
+   "ratifiable": true
+  },
+  {
+   "code": "US",
+   "name": "US",
+   "satisfaction": 0.46,
+   "primaryGoal": "partial",
+   "redLineHeld": false,
+   "ratifiable": true
+  }
  ],
- "coalitions": ["Russia/China sanctions-workaround backing Iran", "E3 mediators pressing for a phased deal"],
- "note": "The Beijing/Moscow sanctions lifeline blunted US economic leverage just as Iran held momentum, so Washington settled for a phased framework (partial Hormuz reopening, capped enrichment, staged snapback relief) instead of the full verified rollback it wanted."
+ "coalitions": [
+  "Russia/China sanctions-workaround backing Iran",
+  "E3 mediators pressing for a phased deal"
+ ],
+ "note": "The Beijing/Moscow sanctions lifeline blunted US economic leverage just as Iran held momentum, so Washington settled for a phased framework (partial Hormuz reopening, capped enrichment, staged snapback relief) instead of the full verified rollback it wanted.",
+ "instrument": "framework",
+ "blocs": [
+  {
+   "label": "Russia/China sanctions-workaround backing Iran",
+   "type": "situational",
+   "cohesion": "tight"
+  },
+  {
+   "label": "E3 mediators pressing for a phased deal",
+   "type": "situational",
+   "cohesion": "tight"
+  }
+ ]
 }

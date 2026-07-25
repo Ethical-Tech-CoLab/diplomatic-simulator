@@ -6,47 +6,66 @@
    "name": "People's Republic of China",
    "satisfaction": 0.28,
    "primaryGoal": "failed",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": null
   },
   {
    "code": "PRK",
    "name": "Democratic People's Republic of Korea",
    "satisfaction": 0.3,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "KOR",
    "name": "Republic of Korea",
    "satisfaction": 0.42,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "USA",
    "name": "United States of America",
    "satisfaction": 0.52,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "JPN",
    "name": "Japan",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "RUS",
    "name": "Russian Federation",
    "satisfaction": 0.34,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   }
  ],
  "coalitions": [
   "CHN-RUS-PRK step-by-step bloc",
   "USA-JPN maximum-pressure bloc"
  ],
- "note": "The designation was read in Beijing as denying the DPRK rights afforded all states and as importing off-framework matters; the chair's freeze package never reached the table."
+ "note": "The designation was read in Beijing as denying the DPRK rights afforded all states and as importing off-framework matters; the chair's freeze package never reached the table.",
+ "instrument": "none",
+ "blocs": [
+  {
+   "label": "CHN-RUS-PRK step-by-step bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "USA-JPN maximum-pressure bloc",
+   "type": "situational",
+   "cohesion": "tight"
+  }
+ ]
 }

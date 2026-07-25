@@ -6,47 +6,66 @@
    "name": "Republic of Cyprus",
    "satisfaction": 0.42,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "TRNC",
    "name": "Turkish Republic of Northern Cyprus",
    "satisfaction": 0.4,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "GR",
    "name": "Greece",
    "satisfaction": 0.41,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "TR",
    "name": "Turkey",
    "satisfaction": 0.46,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "UK",
    "name": "United Kingdom",
    "satisfaction": 0.33,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "US",
    "name": "United States",
    "satisfaction": 0.34,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   }
  ],
  "coalitions": [
   "CY-GR census/repatriation bloc",
   "TRNC-TR self-enumeration bloc"
  ],
- "note": "CY's momentum on an independent census met the immovable TRNC/TR red line on self-enumeration, and with only low pressure in a neutral mood the citizenship question deadlocked without breaking the talks."
+ "note": "CY's momentum on an independent census met the immovable TRNC/TR red line on self-enumeration, and with only low pressure in a neutral mood the citizenship question deadlocked without breaking the talks.",
+ "instrument": "none",
+ "blocs": [
+  {
+   "label": "CY-GR census/repatriation bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "TRNC-TR self-enumeration bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  }
+ ]
 }

@@ -6,54 +6,74 @@
    "name": "Republic of India",
    "satisfaction": 0.52,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "PAK",
    "name": "Islamic Republic of Pakistan",
    "satisfaction": 0.34,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "JK",
    "name": "Jammu and Kashmir Delegation",
    "satisfaction": 0.22,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "CHN",
    "name": "People's Republic of China",
    "satisfaction": 0.62,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "RUS",
    "name": "Russian Federation",
    "satisfaction": 0.52,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "GBR",
    "name": "United Kingdom",
    "satisfaction": 0.28,
    "primaryGoal": "failed",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": null
   },
   {
    "code": "USA",
    "name": "United States of America",
    "satisfaction": 0.3,
    "primaryGoal": "failed",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": null
   }
  ],
  "coalitions": [
   "IND-CHN-RUS status-quo bloc",
   "GBR-USA-JK coalition (outvoted)"
  ],
- "note": "Beijing foreclosed the governance chapter before it opened; the conference reduced to relief logistics and the autonomy red line was unmet for both Western delegations."
+ "note": "Beijing foreclosed the governance chapter before it opened; the conference reduced to relief logistics and the autonomy red line was unmet for both Western delegations.",
+ "instrument": "none",
+ "blocs": [
+  {
+   "label": "IND-CHN-RUS status-quo bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "GBR-USA-JK coalition (outvoted)",
+   "type": "situational",
+   "cohesion": "fractured"
+  }
+ ]
 }

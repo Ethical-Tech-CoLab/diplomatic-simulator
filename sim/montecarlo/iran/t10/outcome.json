@@ -6,16 +6,34 @@
    "name": "Iran",
    "satisfaction": 0.6,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "US",
    "name": "US",
    "satisfaction": 0.52,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
- "coalitions": ["Oman/Qatar-mediator emergency framework push", "US publicly distances from unilateral Israeli strike"],
- "note": "Israel's mid-talks strike nearly torched the ceasefire, but intense mediator pressure and Iran's sympathy-driven leverage forced both sides into a rushed interim framework rather than full collapse or a comprehensive deal."
+ "coalitions": [
+  "Oman/Qatar-mediator emergency framework push",
+  "US publicly distances from unilateral Israeli strike"
+ ],
+ "note": "Israel's mid-talks strike nearly torched the ceasefire, but intense mediator pressure and Iran's sympathy-driven leverage forced both sides into a rushed interim framework rather than full collapse or a comprehensive deal.",
+ "instrument": "framework",
+ "blocs": [
+  {
+   "label": "Oman/Qatar-mediator emergency framework push",
+   "type": "situational",
+   "cohesion": "tight"
+  },
+  {
+   "label": "US publicly distances from unilateral Israeli strike",
+   "type": "situational",
+   "cohesion": "tight"
+  }
+ ]
 }

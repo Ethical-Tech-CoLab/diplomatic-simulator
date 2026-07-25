@@ -1,16 +1,95 @@
 {
  "dealType": "partial",
  "parties": [
-  {"code":"CHN","name":"China","satisfaction":0.45,"primaryGoal":"failed","redLineHeld":true},
-  {"code":"USA","name":"United States","satisfaction":0.4,"primaryGoal":"partial","redLineHeld":true},
-  {"code":"PHL","name":"Philippines","satisfaction":0.45,"primaryGoal":"partial","redLineHeld":true},
-  {"code":"VNM","name":"Vietnam","satisfaction":0.6,"primaryGoal":"partial","redLineHeld":true},
-  {"code":"MYS","name":"Malaysia","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
-  {"code":"BRN","name":"Brunei","satisfaction":0.5,"primaryGoal":"partial","redLineHeld":true},
-  {"code":"IDN","name":"Indonesia","satisfaction":0.45,"primaryGoal":"partial","redLineHeld":true},
-  {"code":"IND","name":"India","satisfaction":0.45,"primaryGoal":"partial","redLineHeld":true},
-  {"code":"JPN","name":"Japan","satisfaction":0.4,"primaryGoal":"partial","redLineHeld":true}
+  {
+   "code": "CHN",
+   "name": "China",
+   "satisfaction": 0.45,
+   "primaryGoal": "failed",
+   "redLineHeld": true,
+   "ratifiable": false
+  },
+  {
+   "code": "USA",
+   "name": "United States",
+   "satisfaction": 0.4,
+   "primaryGoal": "partial",
+   "redLineHeld": true,
+   "ratifiable": true
+  },
+  {
+   "code": "PHL",
+   "name": "Philippines",
+   "satisfaction": 0.45,
+   "primaryGoal": "partial",
+   "redLineHeld": true,
+   "ratifiable": true
+  },
+  {
+   "code": "VNM",
+   "name": "Vietnam",
+   "satisfaction": 0.6,
+   "primaryGoal": "partial",
+   "redLineHeld": true,
+   "ratifiable": true
+  },
+  {
+   "code": "MYS",
+   "name": "Malaysia",
+   "satisfaction": 0.5,
+   "primaryGoal": "partial",
+   "redLineHeld": true,
+   "ratifiable": true
+  },
+  {
+   "code": "BRN",
+   "name": "Brunei",
+   "satisfaction": 0.5,
+   "primaryGoal": "partial",
+   "redLineHeld": true,
+   "ratifiable": true
+  },
+  {
+   "code": "IDN",
+   "name": "Indonesia",
+   "satisfaction": 0.45,
+   "primaryGoal": "partial",
+   "redLineHeld": true,
+   "ratifiable": true
+  },
+  {
+   "code": "IND",
+   "name": "India",
+   "satisfaction": 0.45,
+   "primaryGoal": "partial",
+   "redLineHeld": true,
+   "ratifiable": true
+  },
+  {
+   "code": "JPN",
+   "name": "Japan",
+   "satisfaction": 0.4,
+   "primaryGoal": "partial",
+   "redLineHeld": true,
+   "ratifiable": true
+  }
  ],
- "coalitions": ["Vietnam-led ASEAN claimant bloc (PHL, MYS, BRN, IDN)", "US-Japan-India security backers"],
- "note": "The new overlapping oil/gas find raised the economic stakes enough to produce a narrow joint-development framework for that field, but confrontational rhetoric and only medium mediator leverage kept every party's sovereignty red line intact, blocking any comprehensive settlement."
+ "coalitions": [
+  "Vietnam-led ASEAN claimant bloc (PHL, MYS, BRN, IDN)",
+  "US-Japan-India security backers"
+ ],
+ "note": "The new overlapping oil/gas find raised the economic stakes enough to produce a narrow joint-development framework for that field, but confrontational rhetoric and only medium mediator leverage kept every party's sovereignty red line intact, blocking any comprehensive settlement.",
+ "instrument": "memorandum",
+ "blocs": [
+  {
+   "label": "Vietnam-led ASEAN claimant bloc (PHL, MYS, BRN, IDN)",
+   "type": "standing",
+   "cohesion": "loose"
+  },
+  {
+   "label": "US-Japan-India security backers",
+   "type": "standing",
+   "cohesion": "loose"
+  }
+ ]
 }

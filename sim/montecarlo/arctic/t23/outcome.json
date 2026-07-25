@@ -6,49 +6,56 @@
    "name": "Canada",
    "satisfaction": 0.45,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "CHN",
    "name": "China",
    "satisfaction": 0.35,
    "primaryGoal": "failed",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": null
   },
   {
    "code": "DNK",
    "name": "Denmark",
    "satisfaction": 0.42,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "FIN",
    "name": "Finland",
    "satisfaction": 0.4,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "NOR",
    "name": "Norway",
    "satisfaction": 0.48,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "RUS",
    "name": "Russia",
    "satisfaction": 0.6,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "USA",
    "name": "United States",
    "satisfaction": 0.45,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   }
  ],
  "coalitions": [
@@ -56,5 +63,23 @@
   "Western Arctic coastal bloc",
   "No-deal sovereignty holdouts"
  ],
- "note": "A contested hydrocarbon discovery amid confrontational posturing and weak mediation ended in stalemate, with Russia content to proceed unilaterally on extraction while China's high-seas exploitation claim was rejected outright."
+ "note": "A contested hydrocarbon discovery amid confrontational posturing and weak mediation ended in stalemate, with Russia content to proceed unilaterally on extraction while China's high-seas exploitation claim was rejected outright.",
+ "instrument": "none",
+ "blocs": [
+  {
+   "label": "Russia-China resource axis",
+   "type": "standing",
+   "cohesion": "loose"
+  },
+  {
+   "label": "Western Arctic coastal bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "No-deal sovereignty holdouts",
+   "type": "situational",
+   "cohesion": "fractured"
+  }
+ ]
 }

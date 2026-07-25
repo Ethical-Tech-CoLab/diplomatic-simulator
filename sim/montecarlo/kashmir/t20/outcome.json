@@ -6,54 +6,74 @@
    "name": "Republic of India",
    "satisfaction": 0.42,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "PAK",
    "name": "Islamic Republic of Pakistan",
    "satisfaction": 0.4,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "JK",
    "name": "Jammu and Kashmir Delegation",
    "satisfaction": 0.38,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "CHN",
    "name": "People's Republic of China",
    "satisfaction": 0.44,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "RUS",
    "name": "Russian Federation",
    "satisfaction": 0.46,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "GBR",
    "name": "United Kingdom",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "USA",
    "name": "United States of America",
    "satisfaction": 0.52,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
  "coalitions": [
   "GBR-USA-JK autonomy bloc",
   "IND-RUS-CHN status-quo bloc"
  ],
- "note": "Washington brokered a humanitarian annex and kept limited autonomy on the agenda while the territorial chapters stayed frozen."
+ "note": "Washington brokered a humanitarian annex and kept limited autonomy on the agenda while the territorial chapters stayed frozen.",
+ "instrument": "memorandum",
+ "blocs": [
+  {
+   "label": "GBR-USA-JK autonomy bloc",
+   "type": "situational",
+   "cohesion": "loose"
+  },
+  {
+   "label": "IND-RUS-CHN status-quo bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  }
+ ]
 }

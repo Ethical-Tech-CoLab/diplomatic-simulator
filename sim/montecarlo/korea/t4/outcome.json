@@ -6,46 +6,60 @@
    "name": "People's Republic of China",
    "satisfaction": 0.3,
    "primaryGoal": "failed",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": null
   },
   {
    "code": "PRK",
    "name": "Democratic People's Republic of Korea",
    "satisfaction": 0.2,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "KOR",
    "name": "Republic of Korea",
    "satisfaction": 0.32,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "USA",
    "name": "United States of America",
    "satisfaction": 0.34,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "JPN",
    "name": "Japan",
    "satisfaction": 0.3,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "RUS",
    "name": "Russian Federation",
    "satisfaction": 0.3,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   }
  ],
  "coalitions": [
   "USA-KOR-JPN trilateral bloc"
  ],
- "note": "Tokyo internationalized the abduction file over the chair's ruling that it sat outside the framework; Pyongyang invoked its standing instruction and ceased acknowledging the Japanese delegation, then the room."
+ "note": "Tokyo internationalized the abduction file over the chair's ruling that it sat outside the framework; Pyongyang invoked its standing instruction and ceased acknowledging the Japanese delegation, then the room.",
+ "instrument": "none",
+ "blocs": [
+  {
+   "label": "USA-KOR-JPN trilateral bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  }
+ ]
 }

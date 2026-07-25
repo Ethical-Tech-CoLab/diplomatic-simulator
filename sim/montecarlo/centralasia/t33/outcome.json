@@ -6,49 +6,56 @@
    "name": "Kazakhstan",
    "satisfaction": 0.68,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "UZB",
    "name": "Uzbekistan",
    "satisfaction": 0.64,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "KGZ",
    "name": "Kyrgyzstan",
    "satisfaction": 0.66,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "TJK",
    "name": "Tajikistan",
    "satisfaction": 0.6,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "RUS",
    "name": "Russia",
    "satisfaction": 0.3,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": false
   },
   {
    "code": "CHN",
    "name": "China",
    "satisfaction": 0.82,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "IND",
    "name": "India",
    "satisfaction": 0.28,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": false
   }
  ],
  "coalitions": [
@@ -56,5 +63,23 @@
   "Central Asian states pocketing BRI offers",
   "Russia and India sidelined"
  ],
- "note": "With China holding momentum and low pressure removing any push toward a binding settlement, its BRI package anchored a loose framework that left the disputes frozen exactly as Beijing wanted, the Central Asian states pocketing investment offers while Russia and India were sidelined."
+ "note": "With China holding momentum and low pressure removing any push toward a binding settlement, its BRI package anchored a loose framework that left the disputes frozen exactly as Beijing wanted, the Central Asian states pocketing investment offers while Russia and India were sidelined.",
+ "instrument": "framework",
+ "blocs": [
+  {
+   "label": "China-led BRI bilateral track (CHN momentum)",
+   "type": "standing",
+   "cohesion": "loose"
+  },
+  {
+   "label": "Central Asian states pocketing BRI offers",
+   "type": "standing",
+   "cohesion": "loose"
+  },
+  {
+   "label": "Russia and India sidelined",
+   "type": "situational",
+   "cohesion": "fractured"
+  }
+ ]
 }

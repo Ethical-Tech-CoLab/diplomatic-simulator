@@ -6,49 +6,56 @@
    "name": "Canada",
    "satisfaction": 0.48,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "CHN",
    "name": "China",
    "satisfaction": 0.32,
    "primaryGoal": "failed",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": null
   },
   {
    "code": "DNK",
    "name": "Denmark",
    "satisfaction": 0.45,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "FIN",
    "name": "Finland",
    "satisfaction": 0.45,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "NOR",
    "name": "Norway",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "RUS",
    "name": "Russia",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "USA",
    "name": "United States",
    "satisfaction": 0.42,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   }
  ],
  "coalitions": [
@@ -56,5 +63,23 @@
   "Russia-China axis",
   "Norway-chaired deconfliction attempt"
  ],
- "note": "Even with chair Norway pushing hard for a deconfliction mechanism, the naval incident and confrontational mood hardened positions into stalemate, holding red lines on all sides while China's Council ambitions again failed."
+ "note": "Even with chair Norway pushing hard for a deconfliction mechanism, the naval incident and confrontational mood hardened positions into stalemate, holding red lines on all sides while China's Council ambitions again failed.",
+ "instrument": "none",
+ "blocs": [
+  {
+   "label": "NATO Arctic bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "Russia-China axis",
+   "type": "standing",
+   "cohesion": "loose"
+  },
+  {
+   "label": "Norway-chaired deconfliction attempt",
+   "type": "situational",
+   "cohesion": "fractured"
+  }
+ ]
 }

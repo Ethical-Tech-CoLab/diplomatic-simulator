@@ -66,6 +66,36 @@ footer{border-top:1px solid var(--line);color:var(--muted);font-size:.8rem;text-
   var DEALS=[['comprehensive','#2e7d32'],['framework','#7cb342'],['partial','#b08a3e'],['stalemate','#ef6c00'],['breakdown','#c62828']];
   var DMAP={};DEALS.forEach(function(d){DMAP[d[0]]=d[1];});
   var GOAL={achieved:'#2e7d32',partial:'#b08a3e',failed:'#c62828'};
+  var INSTR=[['treaty','#2e7d32'],['framework','#7cb342'],['memorandum','#b08a3e'],['communique','#ef6c00'],['none','#c62828']];
+  var INSTR_LABEL={treaty:'treaty',framework:'framework',memorandum:'memorandum',communique:'communiqué',none:'none'};
+
+  function successPanel(su){
+    su=su||{}; var any=(su.anyAgreementPct==null?'–':su.anyAgreementPct), sub=(su.substantiveAgreementPct==null?'–':su.substantiveAgreementPct);
+    return '<h3>Probability of success</h3>'+
+      '<div class="callout" style="margin:6px 0">'+
+        '<div><strong>'+any+'%</strong> reached some agreement</div>'+
+        '<div><strong>'+sub+'%</strong> reached a framework or better</div>'+
+        '<div class="muted small" style="margin-top:4px">No trial produced a comprehensive settlement. These are shares of simulated trials, not real-world odds.</div>'+
+      '</div>';
+  }
+  function instrumentBar(inst,n){
+    inst=inst||{};
+    var total=INSTR.reduce(function(a,d){return a+(inst[d[0]]||0);},0)||1;
+    var seg=INSTR.filter(function(d){return (inst[d[0]]||0)>0;}).map(function(d){
+      var c=inst[d[0]]||0, w=100*c/total;
+      return '<span style="width:'+w+'%;background:'+d[1]+'" title="'+INSTR_LABEL[d[0]]+': '+c+'">'+(w>10?c:'')+'</span>';
+    }).join('');
+    var leg=INSTR.map(function(d){return '<i style="background:'+d[1]+'"></i>'+INSTR_LABEL[d[0]]+' '+(inst[d[0]]||0);}).join('');
+    return '<h3>Instrument of agreement</h3><div class="deals">'+seg+'</div><div class="legend">'+leg+'</div>';
+  }
+  function blocLine(s){
+    var c=s.blocCohesion||{}, t=s.blocTypes||{};
+    return '<h3>Bloc dynamics</h3>'+
+      '<p class="small" style="margin:2px 0 0">'+
+      '<span class="muted">Cohesion:</span> tight '+(c.tight||0)+' · loose '+(c.loose||0)+' · fractured '+(c.fractured||0)+
+      ' &nbsp;<span class="muted">·</span>&nbsp; '+
+      '<span class="muted">Type:</span> standing '+(t.standing||0)+' · situational '+(t.situational||0)+'</p>';
+  }
 
   function dealBar(dt,n){
     var total=DEALS.reduce(function(a,d){return a+(dt[d[0]]||0);},0)||1;
@@ -89,9 +119,11 @@ footer{border-top:1px solid var(--line);color:var(--muted);font-size:.8rem;text-
     var rows=parties.map(function(p){
       var g=p.goals||{}; var tot=(g.achieved||0)+(g.partial||0)+(g.failed||0)||1;
       function b(k){var v=g[k]||0;return '<span class="pill" style="background:'+GOAL[k]+'" title="'+k+' '+v+'">'+v+'</span>';}
-      return '<tr><td>'+esc(p.name)+'</td><td>'+b('achieved')+' '+b('partial')+' '+b('failed')+'</td><td>'+p.redLineHeldPct+'%</td></tr>';
+      var goalPct=(p.primaryGoalAchievedPct==null?'–':p.primaryGoalAchievedPct+'%');
+      var ratPct=(p.ratifiedPct==null?'n/a':p.ratifiedPct+'%');
+      return '<tr><td>'+esc(p.name)+'</td><td>'+b('achieved')+' '+b('partial')+' '+b('failed')+'</td><td>'+p.redLineHeldPct+'%</td><td>'+goalPct+'</td><td>'+ratPct+'</td></tr>';
     }).join('');
-    return '<h3>Primary-goal outcomes &amp; red-line hold rate</h3><table><thead><tr><th>Delegation</th><th>achieved / partial / failed</th><th>red line held</th></tr></thead><tbody>'+rows+'</tbody></table>';
+    return '<h3>Primary-goal outcomes &amp; red-line hold rate</h3><table><thead><tr><th>Delegation</th><th>achieved / partial / failed</th><th>red line held</th><th>goal met</th><th>ratified</th></tr></thead><tbody>'+rows+'</tbody></table>';
   }
   function trialsTable(trials){
     var rows=trials.map(function(t){
@@ -107,6 +139,8 @@ footer{border-top:1px solid var(--line);color:var(--muted);font-size:.8rem;text-
     return '<div class="scard"><h2>'+esc(s.title)+'</h2>'+
       '<div class="meta">'+s.nTrials+' Monte Carlo trials · <a href="dashboard.html?session='+esc(s.sessionId)+'">dashboard</a> · <a href="'+(s.key==='iran'?'diplomacy-session-report.html':'scenario-'+(s.key==='centralasia'?'central-asia':s.key==='scs'?'south-china-sea':s.key)+'.html')+'">report</a></div>'+
       dealBar(s.dealTypes,s.nTrials)+
+      '<div class="grid2" style="margin-top:12px"><div>'+successPanel(s.success)+instrumentBar(s.instruments,s.nTrials)+'</div>'+
+      '<div>'+blocLine(s)+'</div></div>'+
       '<div class="grid2" style="margin-top:12px"><div>'+ '<h3>Satisfaction (mean, spread across trials)</h3>'+satRows(s.parties)+
       '<div class="legend" style="margin-top:6px"><span class="mean" style="display:inline-block;position:static;width:3px;height:10px;background:var(--navy);vertical-align:middle"></span> mean &nbsp; <span style="display:inline-block;width:16px;height:5px;background:#cdbf9e;border-radius:9px;vertical-align:middle"></span> min–max range</div></div>'+
       '<div>'+goalTable(s.parties)+ (coal?'<h3>Coalitions that recurred</h3>'+coal:'') +'</div></div>'+

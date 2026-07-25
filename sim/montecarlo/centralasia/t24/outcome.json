@@ -6,54 +6,74 @@
    "name": "Kazakhstan",
    "satisfaction": 0.75,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "UZB",
    "name": "Uzbekistan",
    "satisfaction": 0.72,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "KGZ",
    "name": "Kyrgyzstan",
    "satisfaction": 0.6,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "TJK",
    "name": "Tajikistan",
    "satisfaction": 0.62,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "RUS",
    "name": "Russia",
    "satisfaction": 0.45,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "CHN",
    "name": "China",
    "satisfaction": 0.62,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "IND",
    "name": "India",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
  "coalitions": [
   "Downstream water-security bloc (KAZ-UZB)",
   "KAZ-led dam-safety CBM framework"
  ],
- "note": "The dam-safety emergency rallied downstream Kazakhstan and Uzbekistan behind a cooperative KAZ-led confidence-building framework on hazard monitoring, gently pressuring upstream Kyrgyzstan and Tajikistan without touching their water sovereignty red lines."
+ "note": "The dam-safety emergency rallied downstream Kazakhstan and Uzbekistan behind a cooperative KAZ-led confidence-building framework on hazard monitoring, gently pressuring upstream Kyrgyzstan and Tajikistan without touching their water sovereignty red lines.",
+ "instrument": "framework",
+ "blocs": [
+  {
+   "label": "Downstream water-security bloc (KAZ-UZB)",
+   "type": "situational",
+   "cohesion": "tight"
+  },
+  {
+   "label": "KAZ-led dam-safety CBM group",
+   "type": "situational",
+   "cohesion": "tight"
+  }
+ ]
 }

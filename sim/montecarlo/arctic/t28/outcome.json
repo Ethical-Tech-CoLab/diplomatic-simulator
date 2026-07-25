@@ -6,49 +6,56 @@
    "name": "Canada",
    "satisfaction": 0.6,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "CHN",
    "name": "China",
    "satisfaction": 0.55,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "DNK",
    "name": "Denmark",
    "satisfaction": 0.55,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "FIN",
    "name": "Finland",
    "satisfaction": 0.62,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "NOR",
    "name": "Norway",
    "satisfaction": 0.6,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "RUS",
    "name": "Russia",
    "satisfaction": 0.62,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "USA",
    "name": "United States",
    "satisfaction": 0.45,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
  "coalitions": [
@@ -56,5 +63,23 @@
   "Nordic bloc",
   "Canada-led coastal-sovereignty bloc"
  ],
- "note": "The early ice-free season and cooperative mood let momentum-holder China secure partial shipping-safety and navigation cooperation under high pressure, but coastal states kept NWP/NSR control and blocked its Council membership, leaving only a partial deal."
+ "note": "The early ice-free season and cooperative mood let momentum-holder China secure partial shipping-safety and navigation cooperation under high pressure, but coastal states kept NWP/NSR control and blocked its Council membership, leaving only a partial deal.",
+ "instrument": "memorandum",
+ "blocs": [
+  {
+   "label": "Russia-China NSR shipping partnership",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "Nordic bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "Canada-led coastal-sovereignty bloc",
+   "type": "situational",
+   "cohesion": "tight"
+  }
+ ]
 }

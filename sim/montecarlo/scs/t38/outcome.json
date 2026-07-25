@@ -6,68 +6,90 @@
    "name": "China",
    "satisfaction": 0.58,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "USA",
    "name": "United States",
    "satisfaction": 0.4,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "PHL",
    "name": "Philippines",
    "satisfaction": 0.35,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": false
   },
   {
    "code": "VNM",
    "name": "Vietnam",
    "satisfaction": 0.39,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": false
   },
   {
    "code": "MYS",
    "name": "Malaysia",
    "satisfaction": 0.44,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "BRN",
    "name": "Brunei",
    "satisfaction": 0.43,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "IDN",
    "name": "Indonesia",
    "satisfaction": 0.43,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "IND",
    "name": "India",
    "satisfaction": 0.39,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "JPN",
    "name": "Japan",
    "satisfaction": 0.4,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
  "coalitions": [
   "China plus soft-hedging ASEAN states (MYS, BRN, IDN) leaning bilateral",
   "US-Philippines-Japan security alignment"
  ],
- "note": "With no shock and only medium pressure, China's momentum and comfortable status-quo BATNA let it steer talks toward preferred bilateral fisheries and communication understandings, delivering little to Manila and Hanoi while comprehensive settlement stayed out of reach."
+ "note": "With no shock and only medium pressure, China's momentum and comfortable status-quo BATNA let it steer talks toward preferred bilateral fisheries and communication understandings, delivering little to Manila and Hanoi while comprehensive settlement stayed out of reach.",
+ "instrument": "communique",
+ "blocs": [
+  {
+   "label": "China plus soft-hedging ASEAN states (MYS, BRN, IDN) leaning bilateral",
+   "type": "situational",
+   "cohesion": "loose"
+  },
+  {
+   "label": "US-Philippines-Japan security alignment",
+   "type": "standing",
+   "cohesion": "tight"
+  }
+ ]
 }

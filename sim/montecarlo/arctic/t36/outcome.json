@@ -6,49 +6,56 @@
    "name": "Canada",
    "satisfaction": 0.75,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "CHN",
    "name": "China",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "DNK",
    "name": "Denmark",
    "satisfaction": 0.63,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "FIN",
    "name": "Finland",
    "satisfaction": 0.72,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "NOR",
    "name": "Norway",
    "satisfaction": 0.65,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "RUS",
    "name": "Russia",
    "satisfaction": 0.65,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "USA",
    "name": "United States",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
  "coalitions": [
@@ -56,5 +63,23 @@
   "Nordic solidarity",
   "Russia-China axis"
  ],
- "note": "Absent any shock but with high pressure and a cooperative mood, momentum-holder Canada played convener to build a framework on Council revitalization, environment, and process, restoring its leadership profile while hard sovereignty red lines were preserved rather than negotiated."
+ "note": "Absent any shock but with high pressure and a cooperative mood, momentum-holder Canada played convener to build a framework on Council revitalization, environment, and process, restoring its leadership profile while hard sovereignty red lines were preserved rather than negotiated.",
+ "instrument": "framework",
+ "blocs": [
+  {
+   "label": "Canada-convened Arctic Council process bloc",
+   "type": "situational",
+   "cohesion": "tight"
+  },
+  {
+   "label": "Nordic solidarity",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "Russia-China axis",
+   "type": "standing",
+   "cohesion": "loose"
+  }
+ ]
 }

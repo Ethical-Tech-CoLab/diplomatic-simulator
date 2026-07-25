@@ -6,54 +6,74 @@
    "name": "Kazakhstan",
    "satisfaction": 0.58,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "UZB",
    "name": "Uzbekistan",
    "satisfaction": 0.6,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "KGZ",
    "name": "Kyrgyzstan",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "TJK",
    "name": "Tajikistan",
    "satisfaction": 0.52,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "RUS",
    "name": "Russia",
    "satisfaction": 0.3,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": false
   },
   {
    "code": "CHN",
    "name": "China",
    "satisfaction": 0.66,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "IND",
    "name": "India",
    "satisfaction": 0.45,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
  "coalitions": [
   "Central Asian Four resisting CSTO pressure",
   "China quietly encouraging CSTO drift"
  ],
- "note": "Russia's heavy-handed CSTO pressure, widely read as hollow given its distraction elsewhere, backfired in the confrontational room and drew the Central Asian four into a defensive but only partial de-escalation understanding, while China quietly encouraged their drift away from Moscow."
+ "note": "Russia's heavy-handed CSTO pressure, widely read as hollow given its distraction elsewhere, backfired in the confrontational room and drew the Central Asian four into a defensive but only partial de-escalation understanding, while China quietly encouraged their drift away from Moscow.",
+ "instrument": "communique",
+ "blocs": [
+  {
+   "label": "Central Asian Four resisting CSTO pressure",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "China quietly encouraging CSTO drift",
+   "type": "situational",
+   "cohesion": "loose"
+  }
+ ]
 }

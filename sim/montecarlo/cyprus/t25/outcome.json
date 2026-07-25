@@ -6,42 +6,48 @@
    "name": "Republic of Cyprus",
    "satisfaction": 0.52,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "TRNC",
    "name": "Turkish Republic of Northern Cyprus",
    "satisfaction": 0.57,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "GR",
    "name": "Greece",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "TR",
    "name": "Turkey",
    "satisfaction": 0.62,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "UK",
    "name": "United Kingdom",
    "satisfaction": 0.63,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "US",
    "name": "United States",
    "satisfaction": 0.6,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
  "coalitions": [
@@ -49,5 +55,23 @@
   "TRNC-TR trade-and-accession bloc",
   "CY-GR conditional-leverage bloc"
  ],
- "note": "The EU ultimatum in a cooperative mood let UK momentum broker framework language de-linking Turkiye's accession and easing the Direct Trade Regulation, banking a confidence-building step short of any governance settlement."
+ "note": "The EU ultimatum in a cooperative mood let UK momentum broker framework language de-linking Turkiye's accession and easing the Direct Trade Regulation, banking a confidence-building step short of any governance settlement.",
+ "instrument": "framework",
+ "blocs": [
+  {
+   "label": "UK-US de-linking bloc",
+   "type": "situational",
+   "cohesion": "tight"
+  },
+  {
+   "label": "TRNC-TR trade-and-accession bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "CY-GR conditional-leverage bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  }
+ ]
 }

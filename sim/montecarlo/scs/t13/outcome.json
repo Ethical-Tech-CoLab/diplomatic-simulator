@@ -6,68 +6,90 @@
    "name": "China",
    "satisfaction": 0.42,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "USA",
    "name": "United States",
    "satisfaction": 0.45,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "PHL",
    "name": "Philippines",
    "satisfaction": 0.38,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "VNM",
    "name": "Vietnam",
    "satisfaction": 0.4,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "MYS",
    "name": "Malaysia",
    "satisfaction": 0.38,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "BRN",
    "name": "Brunei",
    "satisfaction": 0.37,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "IDN",
    "name": "Indonesia",
    "satisfaction": 0.4,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "IND",
    "name": "India",
    "satisfaction": 0.41,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "JPN",
    "name": "Japan",
    "satisfaction": 0.42,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   }
  ],
  "coalitions": [
   "US-Philippines-Japan security alignment",
   "ASEAN claimant bloc (VNM, MYS, BRN, IDN)"
  ],
- "note": "The Scarborough Shoal blockade inflamed a confrontational table, and even with the ASEAN Chair Philippines pressing its momentum, medium mediator pressure could not bridge hardened sovereignty red lines, leaving the talks deadlocked."
+ "note": "The Scarborough Shoal blockade inflamed a confrontational table, and even with the ASEAN Chair Philippines pressing its momentum, medium mediator pressure could not bridge hardened sovereignty red lines, leaving the talks deadlocked.",
+ "instrument": "none",
+ "blocs": [
+  {
+   "label": "US-Philippines-Japan security alignment",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "ASEAN claimant bloc (VNM, MYS, BRN, IDN)",
+   "type": "standing",
+   "cohesion": "tight"
+  }
+ ]
 }

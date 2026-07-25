@@ -6,54 +6,74 @@
    "name": "Republic of India",
    "satisfaction": 0.46,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "PAK",
    "name": "Islamic Republic of Pakistan",
    "satisfaction": 0.16,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "JK",
    "name": "Jammu and Kashmir Delegation",
    "satisfaction": 0.2,
    "primaryGoal": "failed",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": null
   },
   {
    "code": "CHN",
    "name": "People's Republic of China",
    "satisfaction": 0.44,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "RUS",
    "name": "Russian Federation",
    "satisfaction": 0.46,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "GBR",
    "name": "United Kingdom",
    "satisfaction": 0.24,
    "primaryGoal": "failed",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": null
   },
   {
    "code": "USA",
    "name": "United States of America",
    "satisfaction": 0.26,
    "primaryGoal": "failed",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": null
   }
  ],
  "coalitions": [
   "IND-RUS bloc",
   "PAK-CHN water-and-territory bloc"
  ],
- "note": "The treaty withdrawal turned the table to water security; Islamabad refused to proceed while the Indus question stood and the Kashmir chapters collapsed."
+ "note": "The treaty withdrawal turned the table to water security; Islamabad refused to proceed while the Indus question stood and the Kashmir chapters collapsed.",
+ "instrument": "none",
+ "blocs": [
+  {
+   "label": "IND-RUS bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "PAK-CHN water-and-territory bloc",
+   "type": "situational",
+   "cohesion": "fractured"
+  }
+ ]
 }

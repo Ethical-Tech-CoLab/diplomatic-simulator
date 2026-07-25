@@ -6,54 +6,74 @@
    "name": "Republic of India",
    "satisfaction": 0.62,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "PAK",
    "name": "Islamic Republic of Pakistan",
    "satisfaction": 0.3,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "JK",
    "name": "Jammu and Kashmir Delegation",
    "satisfaction": 0.22,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "CHN",
    "name": "People's Republic of China",
    "satisfaction": 0.44,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "RUS",
    "name": "Russian Federation",
    "satisfaction": 0.4,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "GBR",
    "name": "United Kingdom",
    "satisfaction": 0.3,
    "primaryGoal": "failed",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": null
   },
   {
    "code": "USA",
    "name": "United States of America",
    "satisfaction": 0.32,
    "primaryGoal": "failed",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": null
   }
  ],
  "coalitions": [
   "IND-USA-RUS bloc",
   "PAK-CHN bloc"
  ],
- "note": "American leverage evaporated the moment the package was announced; India conceded nothing and the U.S. and U.K. autonomy red line went unmet with no counter-offer available."
+ "note": "American leverage evaporated the moment the package was announced; India conceded nothing and the U.S. and U.K. autonomy red line went unmet with no counter-offer available.",
+ "instrument": "none",
+ "blocs": [
+  {
+   "label": "IND-USA-RUS bloc",
+   "type": "situational",
+   "cohesion": "fractured"
+  },
+  {
+   "label": "PAK-CHN bloc",
+   "type": "standing",
+   "cohesion": "loose"
+  }
+ ]
 }

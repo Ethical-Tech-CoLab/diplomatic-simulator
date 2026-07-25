@@ -6,68 +6,90 @@
    "name": "China",
    "satisfaction": 0.3,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "USA",
    "name": "United States",
    "satisfaction": 0.42,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "PHL",
    "name": "Philippines",
    "satisfaction": 0.33,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "VNM",
    "name": "Vietnam",
    "satisfaction": 0.32,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "MYS",
    "name": "Malaysia",
    "satisfaction": 0.3,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "BRN",
    "name": "Brunei",
    "satisfaction": 0.29,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "IDN",
    "name": "Indonesia",
    "satisfaction": 0.31,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "IND",
    "name": "India",
    "satisfaction": 0.33,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "JPN",
    "name": "Japan",
    "satisfaction": 0.34,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   }
  ],
  "coalitions": [
   "US-led rules-based coalition (USA, PHL, VNM, JPN, IND)",
   "ASEAN unity bloc (PHL, VNM, MYS, BRN, IDN)"
  ],
- "note": "China's mid-talks ADIZ declaration detonated the confrontational atmosphere, and although the US seized momentum in condemning it, high mediator pressure only sharpened the rupture and the conference collapsed without any agreement."
+ "note": "China's mid-talks ADIZ declaration detonated the confrontational atmosphere, and although the US seized momentum in condemning it, high mediator pressure only sharpened the rupture and the conference collapsed without any agreement.",
+ "instrument": "none",
+ "blocs": [
+  {
+   "label": "US-led rules-based coalition (USA, PHL, VNM, JPN, IND)",
+   "type": "situational",
+   "cohesion": "tight"
+  },
+  {
+   "label": "ASEAN unity bloc (PHL, VNM, MYS, BRN, IDN)",
+   "type": "standing",
+   "cohesion": "tight"
+  }
+ ]
 }

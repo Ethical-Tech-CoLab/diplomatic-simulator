@@ -6,42 +6,48 @@
    "name": "Republic of Cyprus",
    "satisfaction": 0.53,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "TRNC",
    "name": "Turkish Republic of Northern Cyprus",
    "satisfaction": 0.42,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": false
   },
   {
    "code": "GR",
    "name": "Greece",
    "satisfaction": 0.48,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "TR",
    "name": "Turkey",
    "satisfaction": 0.44,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": false
   },
   {
    "code": "UK",
    "name": "United Kingdom",
    "satisfaction": 0.56,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "US",
    "name": "United States",
    "satisfaction": 0.52,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
  "coalitions": [
@@ -49,5 +55,23 @@
   "CY-GR single-sovereignty bloc",
   "TRNC-TR equal-states bloc"
  ],
- "note": "A flare-up over the Sovereign Base Areas put UK momentum at the center of a narrow deal on base land and access arrangements, a discrete gain that left the wider sovereignty and security agenda untouched."
+ "note": "A flare-up over the Sovereign Base Areas put UK momentum at the center of a narrow deal on base land and access arrangements, a discrete gain that left the wider sovereignty and security agenda untouched.",
+ "instrument": "memorandum",
+ "blocs": [
+  {
+   "label": "UK-US facilitator bloc",
+   "type": "situational",
+   "cohesion": "tight"
+  },
+  {
+   "label": "CY-GR single-sovereignty bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "TRNC-TR equal-states bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  }
+ ]
 }

@@ -6,54 +6,74 @@
    "name": "Republic of India",
    "satisfaction": 0.4,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "PAK",
    "name": "Islamic Republic of Pakistan",
    "satisfaction": 0.36,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "JK",
    "name": "Jammu and Kashmir Delegation",
    "satisfaction": 0.24,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "CHN",
    "name": "People's Republic of China",
    "satisfaction": 0.6,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "RUS",
    "name": "Russian Federation",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "GBR",
    "name": "United Kingdom",
    "satisfaction": 0.32,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "USA",
    "name": "United States of America",
    "satisfaction": 0.34,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   }
  ],
  "coalitions": [
   "IND-RUS bloc",
   "PAK-CHN bloc"
  ],
- "note": "The dam pulled Indian attention onto the China file and out of the Kashmir chapters; Beijing preserved the status quo at no cost and the annex was never drafted."
+ "note": "The dam pulled Indian attention onto the China file and out of the Kashmir chapters; Beijing preserved the status quo at no cost and the annex was never drafted.",
+ "instrument": "none",
+ "blocs": [
+  {
+   "label": "IND-RUS bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "PAK-CHN bloc",
+   "type": "standing",
+   "cohesion": "fractured"
+  }
+ ]
 }

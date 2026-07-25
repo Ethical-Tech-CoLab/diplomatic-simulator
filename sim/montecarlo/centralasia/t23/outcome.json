@@ -6,54 +6,74 @@
    "name": "Kazakhstan",
    "satisfaction": 0.72,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "UZB",
    "name": "Uzbekistan",
    "satisfaction": 0.7,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "KGZ",
    "name": "Kyrgyzstan",
    "satisfaction": 0.74,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "TJK",
    "name": "Tajikistan",
    "satisfaction": 0.55,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "RUS",
    "name": "Russia",
    "satisfaction": 0.4,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "CHN",
    "name": "China",
    "satisfaction": 0.6,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "IND",
    "name": "India",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
  "coalitions": [
   "Central Asian Four status-quo framework (KGZ momentum)",
   "KGZ-UZB confidence-building drafting group"
  ],
- "note": "Absent any external shock, the neutral mood and low pressure let the four Central Asian states negotiate directly into a status-quo confidence-building framework, with momentum letting Kyrgyzstan lock in favorable border and water language while binding commitments were deferred."
+ "note": "Absent any external shock, the neutral mood and low pressure let the four Central Asian states negotiate directly into a status-quo confidence-building framework, with momentum letting Kyrgyzstan lock in favorable border and water language while binding commitments were deferred.",
+ "instrument": "framework",
+ "blocs": [
+  {
+   "label": "Central Asian Four status-quo framework (KGZ momentum)",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "KGZ-UZB confidence-building drafting group",
+   "type": "situational",
+   "cohesion": "tight"
+  }
+ ]
 }

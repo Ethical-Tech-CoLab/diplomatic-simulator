@@ -6,49 +6,56 @@
    "name": "Canada",
    "satisfaction": 0.65,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "CHN",
    "name": "China",
    "satisfaction": 0.53,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "DNK",
    "name": "Denmark",
    "satisfaction": 0.6,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "FIN",
    "name": "Finland",
    "satisfaction": 0.8,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "NOR",
    "name": "Norway",
    "satisfaction": 0.63,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "RUS",
    "name": "Russia",
    "satisfaction": 0.72,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "USA",
    "name": "United States",
    "satisfaction": 0.42,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
  "coalitions": [
@@ -56,5 +63,23 @@
   "Russia-China partnership",
   "USA disengaged"
  ],
- "note": "US isolationism in a neutral mood let host Finland convert its bridging role into a framework on science, environment, and Council structure, satisfying Helsinki and a less-constrained Russia while the sidelined US and the deepest sovereignty disputes went unaddressed."
+ "note": "US isolationism in a neutral mood let host Finland convert its bridging role into a framework on science, environment, and Council structure, satisfying Helsinki and a less-constrained Russia while the sidelined US and the deepest sovereignty disputes went unaddressed.",
+ "instrument": "framework",
+ "blocs": [
+  {
+   "label": "Nordic-Arctic cooperation bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "Russia-China partnership",
+   "type": "standing",
+   "cohesion": "loose"
+  },
+  {
+   "label": "USA disengaged",
+   "type": "situational",
+   "cohesion": "fractured"
+  }
+ ]
 }

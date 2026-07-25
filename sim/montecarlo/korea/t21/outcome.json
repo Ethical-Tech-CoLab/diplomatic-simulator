@@ -6,47 +6,66 @@
    "name": "People's Republic of China",
    "satisfaction": 0.24,
    "primaryGoal": "failed",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": null
   },
   {
    "code": "PRK",
    "name": "Democratic People's Republic of Korea",
    "satisfaction": 0.3,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "KOR",
    "name": "Republic of Korea",
    "satisfaction": 0.27,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "USA",
    "name": "United States of America",
    "satisfaction": 0.31,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "JPN",
    "name": "Japan",
    "satisfaction": 0.25,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "RUS",
    "name": "Russian Federation",
    "satisfaction": 0.29,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   }
  ],
  "coalitions": [
   "CHN-RUS-PRK step-by-step bloc",
   "USA-KOR-JPN trilateral bloc"
  ],
- "note": "With no shock to force movement and weak mediation, Pyongyang demanded an up-front respect declaration and humanitarian commitment, then walked out under pyongjin when none came, collapsing the round."
+ "note": "With no shock to force movement and weak mediation, Pyongyang demanded an up-front respect declaration and humanitarian commitment, then walked out under pyongjin when none came, collapsing the round.",
+ "instrument": "none",
+ "blocs": [
+  {
+   "label": "CHN-RUS-PRK step-by-step bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "USA-KOR-JPN trilateral bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  }
+ ]
 }

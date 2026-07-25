@@ -6,53 +6,68 @@
    "name": "Republic of India",
    "satisfaction": 0.48,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "PAK",
    "name": "Islamic Republic of Pakistan",
    "satisfaction": 0.3,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "JK",
    "name": "Jammu and Kashmir Delegation",
    "satisfaction": 0.2,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "CHN",
    "name": "People's Republic of China",
    "satisfaction": 0.46,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "RUS",
    "name": "Russian Federation",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "GBR",
    "name": "United Kingdom",
    "satisfaction": 0.3,
    "primaryGoal": "failed",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": null
   },
   {
    "code": "USA",
    "name": "United States of America",
    "satisfaction": 0.32,
    "primaryGoal": "failed",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": null
   }
  ],
  "coalitions": [
   "IND-CHN-RUS status-quo bloc"
  ],
- "note": "With withdrawal ruled out, the UNSCR 47 preconditions were unreachable and every governance proposal collapsed into a demand New Delhi had already refused."
+ "note": "With withdrawal ruled out, the UNSCR 47 preconditions were unreachable and every governance proposal collapsed into a demand New Delhi had already refused.",
+ "instrument": "none",
+ "blocs": [
+  {
+   "label": "IND-CHN-RUS status-quo bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  }
+ ]
 }

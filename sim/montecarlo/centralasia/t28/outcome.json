@@ -6,49 +6,56 @@
    "name": "Kazakhstan",
    "satisfaction": 0.4,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "UZB",
    "name": "Uzbekistan",
    "satisfaction": 0.45,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "KGZ",
    "name": "Kyrgyzstan",
    "satisfaction": 0.25,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "TJK",
    "name": "Tajikistan",
    "satisfaction": 0.28,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "RUS",
    "name": "Russia",
    "satisfaction": 0.4,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "CHN",
    "name": "China",
    "satisfaction": 0.62,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "IND",
    "name": "India",
    "satisfaction": 0.3,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   }
  ],
  "coalitions": [
@@ -56,5 +63,18 @@
   "No de-escalation track survives",
   "China content with total deadlock"
  ],
- "note": "A deadly clash combined with a confrontational mood and negligible mediator pressure collapsed the summit into mutual recrimination with no de-escalation track surviving, though territorial and water red lines held because nobody signed anything, and China was content with the total deadlock."
+ "note": "A deadly clash combined with a confrontational mood and negligible mediator pressure collapsed the summit into mutual recrimination with no de-escalation track surviving, though territorial and water red lines held because nobody signed anything, and China was content with the total deadlock.",
+ "instrument": "none",
+ "blocs": [
+  {
+   "label": "Talks collapse into mutual recrimination after the clash",
+   "type": "situational",
+   "cohesion": "fractured"
+  },
+  {
+   "label": "China content with total deadlock",
+   "type": "situational",
+   "cohesion": "loose"
+  }
+ ]
 }

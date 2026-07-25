@@ -6,68 +6,90 @@
    "name": "China",
    "satisfaction": 0.56,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "USA",
    "name": "United States",
    "satisfaction": 0.41,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "PHL",
    "name": "Philippines",
    "satisfaction": 0.36,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": false
   },
   {
    "code": "VNM",
    "name": "Vietnam",
    "satisfaction": 0.4,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": false
   },
   {
    "code": "MYS",
    "name": "Malaysia",
    "satisfaction": 0.47,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "BRN",
    "name": "Brunei",
    "satisfaction": 0.44,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "IDN",
    "name": "Indonesia",
    "satisfaction": 0.43,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "IND",
    "name": "India",
    "satisfaction": 0.4,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "JPN",
    "name": "Japan",
    "satisfaction": 0.41,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
  "coalitions": [
   "China plus soft-hedging ASEAN states (MYS, BRN, IDN) leaning bilateral",
   "US-Philippines-Japan security alignment"
  ],
- "note": "The open ASEAN split over the Code of Conduct exposed the wedge China exploits, and Malaysia used its broker momentum to salvage only a limited bilateral-track fisheries and CBM arrangement, well short of the binding code Manila and Hanoi demanded."
+ "note": "The open ASEAN split over the Code of Conduct exposed the wedge China exploits, and Malaysia used its broker momentum to salvage only a limited bilateral-track fisheries and CBM arrangement, well short of the binding code Manila and Hanoi demanded.",
+ "instrument": "memorandum",
+ "blocs": [
+  {
+   "label": "China plus soft-hedging ASEAN states (MYS, BRN, IDN) leaning bilateral",
+   "type": "situational",
+   "cohesion": "loose"
+  },
+  {
+   "label": "US-Philippines-Japan security alignment",
+   "type": "standing",
+   "cohesion": "tight"
+  }
+ ]
 }

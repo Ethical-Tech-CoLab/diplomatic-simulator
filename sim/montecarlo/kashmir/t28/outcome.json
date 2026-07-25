@@ -6,54 +6,74 @@
    "name": "Republic of India",
    "satisfaction": 0.46,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "PAK",
    "name": "Islamic Republic of Pakistan",
    "satisfaction": 0.32,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": false
   },
   {
    "code": "JK",
    "name": "Jammu and Kashmir Delegation",
    "satisfaction": 0.44,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "CHN",
    "name": "People's Republic of China",
    "satisfaction": 0.44,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "RUS",
    "name": "Russian Federation",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "GBR",
    "name": "United Kingdom",
    "satisfaction": 0.44,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "USA",
    "name": "United States of America",
    "satisfaction": 0.46,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
  "coalitions": [
   "IND-JK constitutional-accommodation track",
   "CHN-RUS status-quo bloc"
  ],
- "note": "The assembly resolution reframed talks around Article 370; India signaled conditional restoration if the Kashmiris work within its constitution, producing a governance partial Pakistan rejected."
+ "note": "The assembly resolution reframed talks around Article 370; India signaled conditional restoration if the Kashmiris work within its constitution, producing a governance partial Pakistan rejected.",
+ "instrument": "communique",
+ "blocs": [
+  {
+   "label": "IND-JK constitutional-accommodation track",
+   "type": "situational",
+   "cohesion": "loose"
+  },
+  {
+   "label": "CHN-RUS status-quo bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  }
+ ]
 }

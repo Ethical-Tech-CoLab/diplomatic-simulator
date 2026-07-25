@@ -6,54 +6,74 @@
    "name": "Canada",
    "satisfaction": 0.62,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "CHN",
    "name": "China",
    "satisfaction": 0.4,
    "primaryGoal": "partial",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": false
   },
   {
    "code": "DNK",
    "name": "Denmark",
    "satisfaction": 0.65,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "FIN",
    "name": "Finland",
    "satisfaction": 0.6,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "NOR",
    "name": "Norway",
    "satisfaction": 0.68,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "RUS",
    "name": "Russia",
    "satisfaction": 0.6,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "USA",
    "name": "United States",
    "satisfaction": 0.52,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
  "coalitions": [
   "Western coastal joint-development bloc (NOR-CAN-DNK-USA)",
   "Russia-China resource axis"
  ],
- "note": "The discovery under high pressure and a cooperative mood let Norway anchor a narrow joint-development and moratorium framework among coastal states, while China's claim to high-seas exploitation rights was the deal's chief casualty."
+ "note": "The discovery under high pressure and a cooperative mood let Norway anchor a narrow joint-development and moratorium framework among coastal states, while China's claim to high-seas exploitation rights was the deal's chief casualty.",
+ "instrument": "framework",
+ "blocs": [
+  {
+   "label": "Western coastal joint-development bloc (NOR-CAN-DNK-USA)",
+   "type": "situational",
+   "cohesion": "tight"
+  },
+  {
+   "label": "Russia-China resource axis",
+   "type": "standing",
+   "cohesion": "loose"
+  }
+ ]
 }

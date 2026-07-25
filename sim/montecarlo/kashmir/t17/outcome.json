@@ -6,54 +6,74 @@
    "name": "Republic of India",
    "satisfaction": 0.52,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "PAK",
    "name": "Islamic Republic of Pakistan",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "JK",
    "name": "Jammu and Kashmir Delegation",
    "satisfaction": 0.46,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "CHN",
    "name": "People's Republic of China",
    "satisfaction": 0.52,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "RUS",
    "name": "Russian Federation",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "GBR",
    "name": "United Kingdom",
    "satisfaction": 0.52,
    "primaryGoal": "partial",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": true
   },
   {
    "code": "USA",
    "name": "United States of America",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": false
+   "redLineHeld": false,
+   "ratifiable": true
   }
  ],
  "coalitions": [
   "Humanitarian coalition (all seven)",
   "GBR-USA-JK autonomy coalition"
  ],
- "note": "A working pilot made the annex easy and everything else unnecessary; both administrations banked the goodwill and declined to open territory or governance."
+ "note": "A working pilot made the annex easy and everything else unnecessary; both administrations banked the goodwill and declined to open territory or governance.",
+ "instrument": "memorandum",
+ "blocs": [
+  {
+   "label": "Humanitarian coalition (all seven)",
+   "type": "situational",
+   "cohesion": "tight"
+  },
+  {
+   "label": "GBR-USA-JK autonomy coalition",
+   "type": "situational",
+   "cohesion": "loose"
+  }
+ ]
 }

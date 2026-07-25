@@ -6,47 +6,66 @@
    "name": "Republic of Cyprus",
    "satisfaction": 0.62,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "TRNC",
    "name": "Turkish Republic of Northern Cyprus",
    "satisfaction": 0.38,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": false
   },
   {
    "code": "GR",
    "name": "Greece",
    "satisfaction": 0.55,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "TR",
    "name": "Turkey",
    "satisfaction": 0.4,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": false
   },
   {
    "code": "UK",
    "name": "United Kingdom",
    "satisfaction": 0.47,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "US",
    "name": "United States",
    "satisfaction": 0.45,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
  "coalitions": [
   "CY-GR-UK-US single-sovereignty bloc",
   "TRNC-TR political-equality bloc"
  ],
- "note": "The UNFICYP renewal crisis let CY's momentum lock in a narrow deal extending peacekeeping continuity, but the north gained nothing on political equality and the partial outcome stopped well short of reunification."
+ "note": "The UNFICYP renewal crisis let CY's momentum lock in a narrow deal extending peacekeeping continuity, but the north gained nothing on political equality and the partial outcome stopped well short of reunification.",
+ "instrument": "communique",
+ "blocs": [
+  {
+   "label": "CY-GR-UK-US single-sovereignty bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "TRNC-TR political-equality bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  }
+ ]
 }

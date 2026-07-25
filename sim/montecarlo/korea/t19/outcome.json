@@ -6,47 +6,66 @@
    "name": "People's Republic of China",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "PRK",
    "name": "Democratic People's Republic of Korea",
    "satisfaction": 0.46,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "KOR",
    "name": "Republic of Korea",
    "satisfaction": 0.36,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "USA",
    "name": "United States of America",
    "satisfaction": 0.34,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "JPN",
    "name": "Japan",
    "satisfaction": 0.32,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   },
   {
    "code": "RUS",
    "name": "Russian Federation",
    "satisfaction": 0.48,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": null
   }
  ],
  "coalitions": [
   "CHN-RUS-PRK step-by-step bloc",
   "USA-KOR-JPN bloc (fractured)"
  ],
- "note": "The trilateral position split on a matter unrelated to Korea; Pyongyang widened the gap deliberately and conceded nothing to either capital."
+ "note": "The trilateral position split on a matter unrelated to Korea; Pyongyang widened the gap deliberately and conceded nothing to either capital.",
+ "instrument": "none",
+ "blocs": [
+  {
+   "label": "CHN-RUS-PRK step-by-step bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "USA-KOR-JPN bloc (fractured)",
+   "type": "standing",
+   "cohesion": "fractured"
+  }
+ ]
 }

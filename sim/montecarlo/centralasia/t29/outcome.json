@@ -6,54 +6,74 @@
    "name": "Kazakhstan",
    "satisfaction": 0.8,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "UZB",
    "name": "Uzbekistan",
    "satisfaction": 0.72,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "KGZ",
    "name": "Kyrgyzstan",
    "satisfaction": 0.66,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "TJK",
    "name": "Tajikistan",
    "satisfaction": 0.6,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "RUS",
    "name": "Russia",
    "satisfaction": 0.44,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "CHN",
    "name": "China",
    "satisfaction": 0.6,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "IND",
    "name": "India",
    "satisfaction": 0.52,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
  "coalitions": [
   "KAZ-led drought-response water framework",
   "Central Asian Four unified front"
  ],
- "note": "The drought-driven harvest collapse, met with high pressure and a cooperative mood, let Kazakhstan lead the unified Central Asian four into a robust water-coordination framework that protected every state's resource sovereignty while great powers again gained no binding foothold."
+ "note": "The drought-driven harvest collapse, met with high pressure and a cooperative mood, let Kazakhstan lead the unified Central Asian four into a robust water-coordination framework that protected every state's resource sovereignty while great powers again gained no binding foothold.",
+ "instrument": "framework",
+ "blocs": [
+  {
+   "label": "KAZ-led drought-response water framework",
+   "type": "situational",
+   "cohesion": "tight"
+  },
+  {
+   "label": "Central Asian Four unified front",
+   "type": "standing",
+   "cohesion": "tight"
+  }
+ ]
 }

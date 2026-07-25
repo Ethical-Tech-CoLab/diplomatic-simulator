@@ -6,47 +6,66 @@
    "name": "People's Republic of China",
    "satisfaction": 0.66,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "PRK",
    "name": "Democratic People's Republic of Korea",
    "satisfaction": 0.54,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "KOR",
    "name": "Republic of Korea",
    "satisfaction": 0.48,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "USA",
    "name": "United States of America",
    "satisfaction": 0.43,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "JPN",
    "name": "Japan",
    "satisfaction": 0.38,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": false
   },
   {
    "code": "RUS",
    "name": "Russian Federation",
    "satisfaction": 0.6,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
  "coalitions": [
   "CHN-RUS-PRK step-by-step bloc",
   "KEDO energy financing coalition"
  ],
- "note": "Beijing's energy financing offer produced a partial understanding on grid rehabilitation and a KEDO study, but with THAAD conditions unmet and no NPT return the disarmament core was left untouched."
+ "note": "Beijing's energy financing offer produced a partial understanding on grid rehabilitation and a KEDO study, but with THAAD conditions unmet and no NPT return the disarmament core was left untouched.",
+ "instrument": "memorandum",
+ "blocs": [
+  {
+   "label": "CHN-RUS-PRK step-by-step bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "KEDO energy financing coalition",
+   "type": "situational",
+   "cohesion": "loose"
+  }
+ ]
 }

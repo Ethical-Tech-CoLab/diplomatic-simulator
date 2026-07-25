@@ -6,49 +6,56 @@
    "name": "Kazakhstan",
    "satisfaction": 0.58,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "UZB",
    "name": "Uzbekistan",
    "satisfaction": 0.6,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "KGZ",
    "name": "Kyrgyzstan",
    "satisfaction": 0.45,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "TJK",
    "name": "Tajikistan",
    "satisfaction": 0.4,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": false
   },
   {
    "code": "RUS",
    "name": "Russia",
    "satisfaction": 0.5,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "CHN",
    "name": "China",
    "satisfaction": 0.66,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "IND",
    "name": "India",
    "satisfaction": 0.38,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": false
   }
  ],
  "coalitions": [
@@ -56,5 +63,23 @@
   "KGZ-TJK border tensions unresolved",
   "China benefiting from frozen border dispute"
  ],
- "note": "High pressure and Kyrgyz momentum salvaged a narrow KGZ-anchored de-escalation track after the deadly clash, but the Kyrgyz-Tajik border dispute stayed unresolved with Tajikistan aggrieved, and China again benefited from the frozen frontier."
+ "note": "High pressure and Kyrgyz momentum salvaged a narrow KGZ-anchored de-escalation track after the deadly clash, but the Kyrgyz-Tajik border dispute stayed unresolved with Tajikistan aggrieved, and China again benefited from the frozen frontier.",
+ "instrument": "communique",
+ "blocs": [
+  {
+   "label": "Narrow KGZ-anchored de-escalation track",
+   "type": "situational",
+   "cohesion": "loose"
+  },
+  {
+   "label": "KGZ-TJK border tensions unresolved",
+   "type": "situational",
+   "cohesion": "fractured"
+  },
+  {
+   "label": "China as frozen-border beneficiary",
+   "type": "situational",
+   "cohesion": "loose"
+  }
+ ]
 }

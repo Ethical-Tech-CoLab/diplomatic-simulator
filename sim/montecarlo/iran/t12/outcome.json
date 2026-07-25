@@ -1,9 +1,33 @@
 {
  "dealType": "stalemate",
  "parties": [
-  {"code":"IRN","name":"Iran","satisfaction":0.55,"primaryGoal":"partial","redLineHeld":true},
-  {"code":"US","name":"US","satisfaction":0.3,"primaryGoal":"failed","redLineHeld":true}
+  {
+   "code": "IRN",
+   "name": "Iran",
+   "satisfaction": 0.55,
+   "primaryGoal": "partial",
+   "redLineHeld": true,
+   "ratifiable": null
+  },
+  {
+   "code": "US",
+   "name": "US",
+   "satisfaction": 0.3,
+   "primaryGoal": "failed",
+   "redLineHeld": true,
+   "ratifiable": null
+  }
  ],
- "coalitions": ["Iran-China-Russia sanctions-evasion axis"],
- "note": "The China/Russia lifeline handed Iran a stronger BATNA just as it held negotiating momentum, so under a confrontational mood Tehran refused nuclear rollback and Washington refused to trade away snapback leverage, leaving Hormuz transit unresolved and talks deadlocked rather than broken off outright."
+ "coalitions": [
+  "Iran-China-Russia sanctions-evasion axis"
+ ],
+ "note": "The China/Russia lifeline handed Iran a stronger BATNA just as it held negotiating momentum, so under a confrontational mood Tehran refused nuclear rollback and Washington refused to trade away snapback leverage, leaving Hormuz transit unresolved and talks deadlocked rather than broken off outright.",
+ "instrument": "none",
+ "blocs": [
+  {
+   "label": "Iran-China-Russia sanctions-evasion axis",
+   "type": "standing",
+   "cohesion": "fractured"
+  }
+ ]
 }

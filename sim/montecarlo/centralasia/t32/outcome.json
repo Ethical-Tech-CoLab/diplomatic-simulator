@@ -6,54 +6,74 @@
    "name": "Kazakhstan",
    "satisfaction": 0.7,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "UZB",
    "name": "Uzbekistan",
    "satisfaction": 0.68,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "KGZ",
    "name": "Kyrgyzstan",
    "satisfaction": 0.58,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "TJK",
    "name": "Tajikistan",
    "satisfaction": 0.78,
    "primaryGoal": "achieved",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "RUS",
    "name": "Russia",
    "satisfaction": 0.45,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "CHN",
    "name": "China",
    "satisfaction": 0.62,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "IND",
    "name": "India",
    "satisfaction": 0.52,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
  "coalitions": [
   "TJK-favorable hydropower/dam-safety framework",
   "Downstream UZB-KAZ water-security caucus"
  ],
- "note": "The dam-safety emergency, worked under high pressure, folded Roghun and winter-power concerns into a natural-resources framework on Tajik-favorable terms, giving Dushanbe momentum while downstream Uzbekistan and Kazakhstan secured monitoring language protecting their water security."
+ "note": "The dam-safety emergency, worked under high pressure, folded Roghun and winter-power concerns into a natural-resources framework on Tajik-favorable terms, giving Dushanbe momentum while downstream Uzbekistan and Kazakhstan secured monitoring language protecting their water security.",
+ "instrument": "framework",
+ "blocs": [
+  {
+   "label": "TJK-favorable hydropower/dam-safety bloc",
+   "type": "situational",
+   "cohesion": "loose"
+  },
+  {
+   "label": "Downstream UZB-KAZ water-security caucus",
+   "type": "situational",
+   "cohesion": "tight"
+  }
+ ]
 }

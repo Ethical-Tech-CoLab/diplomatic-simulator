@@ -6,54 +6,74 @@
    "name": "Republic of India",
    "satisfaction": 0.42,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "PAK",
    "name": "Islamic Republic of Pakistan",
    "satisfaction": 0.46,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "JK",
    "name": "Jammu and Kashmir Delegation",
    "satisfaction": 0.34,
    "primaryGoal": "failed",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": false
   },
   {
    "code": "CHN",
    "name": "People's Republic of China",
    "satisfaction": 0.56,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "RUS",
    "name": "Russian Federation",
    "satisfaction": 0.48,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "GBR",
    "name": "United Kingdom",
    "satisfaction": 0.4,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   },
   {
    "code": "USA",
    "name": "United States of America",
    "satisfaction": 0.4,
    "primaryGoal": "partial",
-   "redLineHeld": true
+   "redLineHeld": true,
+   "ratifiable": true
   }
  ],
  "coalitions": [
   "CHN-PAK reconstruction bloc",
   "IND-RUS bloc"
  ],
- "note": "Beijing's cross-LoC reconstruction offer produced a relief-and-rebuilding partial that entrenched the status quo while advancing Chinese regional standing."
+ "note": "Beijing's cross-LoC reconstruction offer produced a relief-and-rebuilding partial that entrenched the status quo while advancing Chinese regional standing.",
+ "instrument": "memorandum",
+ "blocs": [
+  {
+   "label": "CHN-PAK reconstruction bloc",
+   "type": "standing",
+   "cohesion": "tight"
+  },
+  {
+   "label": "IND-RUS bloc",
+   "type": "standing",
+   "cohesion": "loose"
+  }
+ ]
 }

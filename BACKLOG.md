@@ -260,3 +260,20 @@ not been reviewed. In rough priority order:
   different method than the baseline used. If a numeric comparison is wanted,
   re-run the mixed arm through the same analyst pipeline rather than
   reconstructing figures by hand.
+
+## Credibility review — 2026-07-27
+
+A hostile-but-fair peer-review sweep of the report copy (canonical in
+`DiplomaticSimulator-Paper.md`, mirrored on the site in
+`website/src/content/publications/diplomatic-simulator.ts`). Fix in both.
+
+- **Stale round-count phrasing (§04).** Now that the simulator covers six
+  scenarios, "The other three scenarios run three rounds" (written when only
+  four existed) contradicts the six-scenario framing, even though the aggregate
+  133-statement figure still closes. Change "other three" to "other five."
+- **Unverified anchoring detail (§05, lower confidence).** The passage
+  attributes to Tversky & Kahneman (Science, 1974) that the anchoring effect
+  held "even when they were paid to be accurate." The wheel-of-fortune
+  demonstration is in that paper, but the paid-incentive detail is not a clearly
+  documented feature of the 1974 study. Drop the clause or move it to a source
+  that demonstrably tested accuracy incentives.

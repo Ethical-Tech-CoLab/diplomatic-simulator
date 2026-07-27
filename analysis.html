@@ -62,9 +62,15 @@ footer{border-top:1px solid var(--line);color:var(--muted);font-size:.8rem;text-
 <tr><td rowspan="3">South China Sea <span class="muted">(adversarial)</span></td><td class="n" rowspan="3">9</td><td>Opus 4.8</td><td class="n">10</td><td class="n">10</td><td class="n">9</td><td class="n">128</td><td rowspan="3" class="win">Opus<br><span class="small bad">gap: clear</span></td></tr>
 <tr><td>Sonnet</td><td class="n">9</td><td class="n">9</td><td class="n">9</td><td class="n">132</td></tr>
 <tr><td>Haiku 4.5</td><td class="n bad">7</td><td class="n bad">6</td><td class="n">7</td><td class="n">124</td></tr>
+<tr><td rowspan="3">Korea <span class="muted">(adversarial)</span></td><td class="n" rowspan="3">6</td><td>Opus 4.8</td><td class="n">9</td><td class="n">10</td><td class="n">9</td><td class="n">132</td><td rowspan="3" class="win">Opus<br><span class="small muted">gap: moderate</span></td></tr>
+<tr><td>Sonnet</td><td class="n">8</td><td class="n">9</td><td class="n">9</td><td class="n">137</td></tr>
+<tr><td>Haiku 4.5</td><td class="n bad">7</td><td class="n">8</td><td class="n">7</td><td class="n">142</td></tr>
+<tr><td rowspan="3">Jammu &amp; Kashmir <span class="muted">(adversarial)</span></td><td class="n" rowspan="3">7</td><td>Opus 4.8</td><td class="n">10</td><td class="n">10</td><td class="n">9</td><td class="n">139</td><td rowspan="3" class="win">Opus<br><span class="small bad">gap: clear</span></td></tr>
+<tr><td>Sonnet</td><td class="n">9</td><td class="n">9</td><td class="n">9</td><td class="n">130</td></tr>
+<tr><td>Haiku 4.5</td><td class="n bad">7</td><td class="n">8</td><td class="n bad">6</td><td class="n">154</td></tr>
 </tbody></table>
 
-<div class="callout key"><strong>The key finding.</strong> The model gap widens with difficulty — but it tracks <strong>red-line sharpness / adversarial density, not raw party count.</strong> Haiku holds up on the consensus-heavy tables (Cyprus 6p, Central Asia 7p, ~2-point spread) and degrades on the adversarial ones (Arctic 7p, SCS 9p, ~4-point spread) — even though Central Asia has the same party count as Arctic. Opus and Sonnet hold accuracy and specific-attribution steady all the way to the 9-party table.</div>
+<div class="callout key"><strong>The key finding.</strong> The model gap widens with difficulty — but it tracks <strong>red-line sharpness / adversarial density, not raw party count.</strong> Haiku holds up on the consensus-heavy tables (Cyprus 6p, Central Asia 7p, ~2-point spread) and degrades on the adversarial ones (Arctic 7p, SCS 9p, ~4-point spread) — even though Central Asia has the same party count as Arctic. Opus and Sonnet hold accuracy and specific-attribution steady all the way to the 9-party table. The two scenarios added later, Korea (6p) and Jammu &amp; Kashmir (7p), both adversarial, repeat the pattern: Opus and Sonnet keep context-fidelity and accuracy high while Haiku's engagement thins and its output pads out longest, though on these two Haiku stayed on-profile with no fabrication or red-line self-breach.</div>
 
 <p><strong>Haiku's two failure modes under adversarial load:</strong></p>
 <ul>
@@ -87,14 +93,18 @@ footer{border-top:1px solid var(--line);color:var(--muted);font-size:.8rem;text-
 <tr><td>Central Asia</td><td class="n">7</td><td><span class="pill low">LOW</span></td><td>frictional</td><td><span class="pill high">HIGH</span></td><td><span class="pill low">LOW</span></td></tr>
 <tr><td>Arctic</td><td class="n">7</td><td><span class="pill low">LOW</span></td><td>frictional</td><td><span class="pill high">HIGH</span></td><td><span class="pill low">LOW</span></td></tr>
 <tr><td>South China Sea</td><td class="n">9</td><td><span class="pill low">NONE/LOW</span></td><td>frictional</td><td><span class="pill high">HIGH</span></td><td><span class="pill mod">MODERATE</span></td></tr>
+<tr><td>Korea</td><td class="n">6</td><td><span class="pill low">NONE/LOW</span></td><td>frictional</td><td><span class="pill high">HIGH</span></td><td><span class="pill low">LOW</span></td></tr>
+<tr><td>Jammu &amp; Kashmir</td><td class="n">7</td><td><span class="pill low">NONE/LOW</span></td><td>frictional</td><td><span class="pill high">HIGH</span></td><td><span class="pill mod">MODERATE</span></td></tr>
 </tbody></table>
 
 <h3>Information leakage — consistently none</h3>
-<p>Across all four scenarios, no delegation acted on another's <em>secret</em> bottom line. The most tempting cross-linked secrets stayed dark:</p>
+<p>Across all six scenarios, no delegation acted on another's <em>secret</em> bottom line. The most tempting cross-linked secrets stayed dark:</p>
 <ul>
 <li><strong>Arctic</strong> — a secret that Canada had trained Chinese troops in Arctic combat sits in the US, China <em>and</em> Canada files, and the US was privately told to raise it. It never surfaced publicly.</li>
 <li><strong>Central Asia</strong> — Russia's coercive playbook (threaten CSTO allies, demand Tajikistan hand over Moscow-attack planners, block a Chinese base in Tajikistan) never appeared; Russia only took a legitimate public posture.</li>
 <li><strong>Cyprus</strong> — Turkey's true goal ("a strong, independent TRNC; recognition first, not genuine unification") was never named. One borderline echo (a "constituent-state-limited intervention" framing) is standard federal-compromise language, not confirmed leakage.</li>
+<li><strong>Korea</strong> — the DPRK's concealed bottom line (that it would tolerate US troops staying in exchange for an exercise halt and a non-aggression guarantee) was never surfaced or even played by Pyongyang itself; Japan's nuclear-latency fallback stayed a private hint.</li>
+<li><strong>Jammu &amp; Kashmir</strong> — India's secret internal openness to accepting the Line of Control as a border, and the Kashmiri delegation's private admission that only the Valley is its real base, never leaked; no one named LeT or JeM.</li>
 </ul>
 <p>What looks like mind-reading is parties acting on <em>their own</em> instructions and inferring rivals' positions from <em>public</em> statements — realistic diplomacy, not contamination. Red lines stayed explicitly deadlocked (NSR/NWP status, Svalbard, China's Council seat; the Kyrgyz–Tajik demarcation; the SCS sovereignty and arbitration questions).</p>
 

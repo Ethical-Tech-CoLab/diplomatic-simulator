@@ -72,7 +72,7 @@ must key on `(sessionId, teamTwinName)`, not the twin name alone.
 - `cyprus/` — 6 parties (CY, TRNC, GR, TR, UK, US), 3 rounds / 18 moves. Reunification talks.
 - `scs/` — 9 parties (CHN, USA, PHL, VNM, MYS, BRN, IDN, IND, JPN), 3 rounds / 27 moves. South China Sea.
 - `korea/` — 6 parties (CHN, PRK, KOR, USA, JPN, RUS), 3 rounds / 18 moves. Resumed Six-Party Talks in Beijing.
-- `kashmir/` — 7 parties (IND, PAK, JK, CHN, RUS, GBR, USA), 3 rounds / 21 moves. UNSCR 2900 conference in Geneva.
+- `kashmir/` — 7 parties (IND, PAK, JK, CHN, RUS, GBR, USA), 3 rounds / 21 moves. UNSCR 2900 conference in Geneva, 9 February 2026. The source pack also names Vienna and a 2024 target date; we follow the Geneva dateline and shift the year so the conference sits eight months after the May 2025 strikes. See the note in `kashmir/public_brief.md`.
 
 Each scenario appears as a session in `diplomacy-demo/` (deep-link
 `diplomacy-demo/index.html?session=<sessionId>`), and on the landing page's

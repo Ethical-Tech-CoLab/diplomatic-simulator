@@ -18,6 +18,8 @@ Raised at the table but outside the chapters: state support for militant organiz
 
 Sessions convene in plenary under a UN Special Representative appointed by the Secretary-General, who facilitates but does not arbitrate. Opening and closing statements are on the record. Ad hoc bilateral and multilateral sessions are arranged through the control group and occur only if every invited party agrees to attend — several delegations arrive with standing instructions restricting which counterparts they may meet, and in which formats. Each delegation must protect its privileged instructions and may not disclose another party's confidential positions. Conduct in common or public areas is subject to intelligence collection.
 
+**Venue and date (editorial note).** The source pack is internally inconsistent on where and when the conference meets: the UNSCR 2900 entry sets a target date of 9 February 2024 in Vienna, while the 17 October news entry datelines the arriving delegations in Geneva. The simulation uses Geneva, and sets the session on 9 February 2026 so that the conference falls eight months after the May 2025 strikes the pack describes. None of the seven privileged-instruction packs names a venue, so the choice rests on the news dateline alone.
+
 ## Roster (twin ids)
 
 Republic of India=diplomacy-team-india · Islamic Republic of Pakistan=diplomacy-team-pakistan · Jammu and Kashmir Delegation=diplomacy-team-kashmir · People's Republic of China=diplomacy-team-china · Russian Federation=diplomacy-team-russia · United Kingdom=diplomacy-team-uk · United States of America=diplomacy-team-us

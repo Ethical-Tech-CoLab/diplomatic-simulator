@@ -38,7 +38,12 @@
 
 ## Analysis nuance — what a score actually means (added 2026-07-24)
 
-- **Satisfaction is not the same as a successful negotiation.** The scoreboard
+- **Satisfaction is not the same as a successful negotiation.** *Partly done
+  (2026-10-12): every `analysis.json` scoreboard row now carries a
+  `batnaBeatsDeal` flag plus a `batnaNote`, authored from the profile's own
+  BATNA text, and `sim/analysis/settleability.md` tabulates them per scenario.
+  Still open: renaming the headline metric and rendering the flag on the
+  scenario reports.* The scoreboard
   rates each delegation against its own stated goals, so a low satisfaction reads
   as a bad outcome — but for some parties the absence of a deal *is* the goal. A
   status-quo or spoiler power can be most satisfied when talks fail, because no
@@ -128,7 +133,12 @@ not been reviewed. In rough priority order:
   remain: isolation is enforced by instruction rather than by sandbox (an agent
   *could* read another profile; each was told not to), and the analysis cell
   reads everything by design, as the pipeline intends.
-- **Now worth doing: compare the two versions.** We have the same scenario
+- ~~**Now worth doing: compare the two versions.**~~ Done (2026-10-12):
+  `sim/analysis/authored-vs-isolated.md`, sourced to the `ac390a5` transcripts
+  and the current ones. Headline: coarse outcomes match; the authored method
+  spent the DPRK's concealed troop-retention card in R2 and produced one
+  instance of cross-party knowledge in Kashmir; red-line calls differ by reader.
+  Original note follows. We have the same scenario
   generated both ways, which is the cheap test the peer review asks for. The
   authored Korea run had the U.S. pressing chemical/cyber against the chair's
   ruling; in the isolated run that issue was raised once and dropped, and
@@ -149,7 +159,10 @@ not been reviewed. In rough priority order:
   containing no autonomy provision (US and UK), and reconstruction vested in the
   administering authority (J&K delegation). Same caveat applies to the
   satisfaction scores and `agreementsWon` counts.
-- **Kashmir venue/date reconciliation.** The source pack is internally
+- ~~**Kashmir venue/date reconciliation.**~~ Done (2026-10-12): Geneva, 9
+  February 2026 confirmed and noted in `kashmir/public_brief.md`, `sim/README.md`
+  and the scenario report. None of the privileged-instruction packs names a
+  venue. Original note follows. The source pack is internally
   inconsistent: UNSCR 2900 sets a conference "target date of 9 February 2024, in
   Vienna Austria", while the 17 October entry datelines Geneva. We used Geneva,
   9 February 2026. Confirm that is the reading we want, and note it if so.
@@ -159,7 +172,10 @@ not been reviewed. In rough priority order:
   they are not strictly invalidated — but the baseline they were tuned against
   no longer exists, and at minimum the party satisfaction ranges should be
   re-checked against the isolated runs.
-- **Monte Carlo outcomes are authored, not sampled.** Both new scenarios now
+- ~~**Monte Carlo outcomes are authored, not sampled.**~~ Page fixed
+  (2026-10-12): `montecarlo.html` now opens with "these outcomes are authored,
+  not sampled from negotiations" and links the settleability check. The
+  re-run as actual negotiations stays open. Original note follows. Both new scenarios now
   have 20 trials, matching the corpus — but as with every other scenario the
   outcomes were written under varied conditions rather than produced by re-running
   the negotiation. Neither reached a comprehensive settlement, which is
@@ -167,9 +183,13 @@ not been reviewed. In rough priority order:
   the paper's headline claim. The honest fix is the same as the isolation fix
   above: re-run the trials as actual negotiations. Until then the Monte Carlo
   page should say plainly what these numbers are.
-- **Stale counts across the site.** `methodology.html`, the paper, and any
-  "four scenarios" phrasing need updating to six.
-- **Re-run the cross-party bleeding audit.** `analysis.html` and
+- ~~**Stale counts across the site.**~~ Done (2026-10-12). The paper's "other
+  three" is now "other five"; `methodology.html` and the README already said
+  six. `PEER-REVIEW.md` still says four because it is the dated review of the
+  four-scenario draft, and is left as a record.
+- ~~**Re-run the cross-party bleeding audit.**~~ Done before this pass:
+  `sim/analysis/audits/korea.md` and `kashmir.md` exist and `analysis.html`
+  carries both rows. Original note: `analysis.html` and
   `sim/analysis/audits` predate these two scenarios. Korea and Jammu-Kashmir
   were deliberately written with more distinct delegation voices and
   differentiated outcomes than Cyprus's all-zeros scoreboard, so they are a
@@ -186,9 +206,10 @@ not been reviewed. In rough priority order:
   session / All scenarios) and honours `?loop=one|all` and `?autoplay=1`;
   "All scenarios" cycles the curated `PREF` list, so every scenario is covered
   by the one page. Every scenario report now links to it.
-- **Kiosk polish, if the loop gets real use:** a full-screen mode that hides the
-  controls and the header, and a visible countdown on the outcome card instead
-  of the current "shortly…" text.
+- ~~**Kiosk polish, if the loop gets real use.**~~ Done (2026-10-12). `live.html`
+  has a Full screen button and `?kiosk=1` (hides header, controls, note and
+  footer; Esc leaves), and the outcome card counts down the seconds to the
+  next replay or scenario.
 
 ## Experiments
 
@@ -227,10 +248,12 @@ not been reviewed. In rough priority order:
   discriminate anything** on that scenario. Score a disposition arm on process
   instead — agreements won, which round a concession lands in, whether an
   offered channel is taken up, red-line breaks.
-- **Cheap check available now.** The register dimension predicts which
-  delegations should sound unlike each other. Re-running the cross-party
-  bleeding audit with those labels turns "the voices feel similar" into a
-  testable claim, using transcripts that already exist.
+- ~~**Cheap check available now.**~~ Done (2026-10-12), as a lexical check
+  rather than a re-run of the model audit: `sim/register_check.py` (no API
+  calls) scores every delegation pair on content-word cosine and shared
+  4-grams, split by register label. Result in `audits/register-check.md`,
+  reading in `sim/analysis/register-check-findings.md`: register does not
+  predict similarity (pooled 0.445 vs 0.445); coalition pairs do.
 - **Model assignment may be a confound in the existing scenarios.** The four
   original negotiations ran on Opus while their Monte Carlo trials ran on
   Sonnet (see `methodology.html`). The audit is now done and does not settle
@@ -242,9 +265,9 @@ not been reviewed. In rough priority order:
   elsewhere.** The audit found the DPRK's maximum authorised concession and the
   trilateral bloc's minimum authorised demand are logically disjoint, so no
   role-faithful agent can produce a comprehensive settlement on that scenario.
-  The same check has not been run on the other five. Run it: read each
-  scenario's `redLines` and `concessionsWilling` against each other and record
-  which tables are settleable at all. Any scenario that is not should stop
+  ~~The same check has not been run on the other five.~~ Done (2026-10-12):
+  `sim/analysis/settleability.md`. None of the six tables is settleable;
+  Cyprus is the narrowest gap. The paper (8.6) and README now say so. Any scenario that is not should stop
   having its zero-settlement result reported as a finding. Building one
   scenario whose authorised concession sets *do* overlap would make settlement
   rate a variable rather than a constant, and is the single change that would
@@ -267,11 +290,14 @@ A hostile-but-fair peer-review sweep of the report copy (canonical in
 `DiplomaticSimulator-Paper.md`, mirrored on the site in
 `website/src/content/publications/diplomatic-simulator.ts`). Fix in both.
 
-- **Stale round-count phrasing (§04).** Now that the simulator covers six
+- ~~**Stale round-count phrasing (§04).**~~ Done in the paper (2026-10-12);
+  the website mirror in the website repo still needs the same edit. Now that the simulator covers six
   scenarios, "The other three scenarios run three rounds" (written when only
   four existed) contradicts the six-scenario framing, even though the aggregate
   133-statement figure still closes. Change "other three" to "other five."
-- **Unverified anchoring detail (§05, lower confidence).** The passage
+- ~~**Unverified anchoring detail (§05, lower confidence).**~~ Done in the
+  paper (2026-10-12): the clause is dropped. The website mirror still needs the
+  same edit. The passage
   attributes to Tversky & Kahneman (Science, 1974) that the anchoring effect
   held "even when they were paid to be accurate." The wheel-of-fortune
   demonstration is in that paper, but the paid-incentive detail is not a clearly

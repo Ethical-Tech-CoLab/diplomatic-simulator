@@ -1,14 +1,14 @@
 {
   "scoreboard": [
-    {"teamTwinName": "diplomacy-team-china", "satisfaction": 0.42, "agreementsWon": 1, "redLinesCrossed": 0},
-    {"teamTwinName": "diplomacy-team-us", "satisfaction": 0.62, "agreementsWon": 2, "redLinesCrossed": 0},
-    {"teamTwinName": "diplomacy-team-philippines", "satisfaction": 0.63, "agreementsWon": 3, "redLinesCrossed": 0},
-    {"teamTwinName": "diplomacy-team-vietnam", "satisfaction": 0.55, "agreementsWon": 2, "redLinesCrossed": 0},
-    {"teamTwinName": "diplomacy-team-malaysia", "satisfaction": 0.60, "agreementsWon": 3, "redLinesCrossed": 0},
-    {"teamTwinName": "diplomacy-team-brunei", "satisfaction": 0.52, "agreementsWon": 2, "redLinesCrossed": 0},
-    {"teamTwinName": "diplomacy-team-indonesia", "satisfaction": 0.54, "agreementsWon": 2, "redLinesCrossed": 0},
-    {"teamTwinName": "diplomacy-team-india", "satisfaction": 0.50, "agreementsWon": 1, "redLinesCrossed": 0},
-    {"teamTwinName": "diplomacy-team-japan", "satisfaction": 0.56, "agreementsWon": 2, "redLinesCrossed": 0}
+    {"teamTwinName": "diplomacy-team-china", "satisfaction": 0.42, "agreementsWon": 1, "redLinesCrossed": 0, "batnaBeatsDeal": true, "batnaNote": "BATNA is to shelve the dispute indefinitely and keep de facto control and reclamation."},
+    {"teamTwinName": "diplomacy-team-us", "satisfaction": 0.62, "agreementsWon": 2, "redLinesCrossed": 0, "batnaBeatsDeal": true, "batnaNote": "BATNA maintains forward presence and FONOPS and pursues resolution incrementally elsewhere."},
+    {"teamTwinName": "diplomacy-team-philippines", "satisfaction": 0.63, "agreementsWon": 3, "redLinesCrossed": 0, "batnaBeatsDeal": false, "batnaNote": "The profile frames these talks as 'possibly the last chance' to contain Chinese ambitions peacefully."},
+    {"teamTwinName": "diplomacy-team-vietnam", "satisfaction": 0.55, "agreementsWon": 2, "redLinesCrossed": 0, "batnaBeatsDeal": false, "batnaNote": "BATNA is arbitration and diversification; an UNCLOS-based settlement is the goal."},
+    {"teamTwinName": "diplomacy-team-malaysia", "satisfaction": 0.60, "agreementsWon": 3, "redLinesCrossed": 0, "batnaBeatsDeal": false, "batnaNote": "BATNA is interim confidence-building and compartmentalised ties with Beijing."},
+    {"teamTwinName": "diplomacy-team-brunei", "satisfaction": 0.52, "agreementsWon": 2, "redLinesCrossed": 0, "batnaBeatsDeal": false, "batnaNote": "BATNA is short-term confidence-building; a settlement conforming to UNCLOS is the goal."},
+    {"teamTwinName": "diplomacy-team-indonesia", "satisfaction": 0.54, "agreementsWon": 2, "redLinesCrossed": 0, "batnaBeatsDeal": false, "batnaNote": "BATNA preserves ASEAN unity with incremental measures; the comprehensive settlement is the goal."},
+    {"teamTwinName": "diplomacy-team-india", "satisfaction": 0.50, "agreementsWon": 1, "redLinesCrossed": 0, "batnaBeatsDeal": false, "batnaNote": "BATNA is to insist on a multilateral solution later; no gain from breakdown."},
+    {"teamTwinName": "diplomacy-team-japan", "satisfaction": 0.56, "agreementsWon": 2, "redLinesCrossed": 0, "batnaBeatsDeal": false, "batnaNote": "BATNA is bilateral reassurance of partners and incremental measures."}
   ],
   "debriefs": [
     {

@@ -1,11 +1,11 @@
 {
   "scoreboard": [
-    {"teamTwinName": "diplomacy-team-us", "satisfaction": 0.62, "agreementsWon": 5, "redLinesCrossed": 0},
-    {"teamTwinName": "diplomacy-team-uk", "satisfaction": 0.60, "agreementsWon": 5, "redLinesCrossed": 0},
-    {"teamTwinName": "diplomacy-team-turkey", "satisfaction": 0.55, "agreementsWon": 4, "redLinesCrossed": 0},
-    {"teamTwinName": "diplomacy-team-trnc", "satisfaction": 0.50, "agreementsWon": 4, "redLinesCrossed": 0},
-    {"teamTwinName": "diplomacy-team-greece", "satisfaction": 0.47, "agreementsWon": 2, "redLinesCrossed": 0},
-    {"teamTwinName": "diplomacy-team-cyprus", "satisfaction": 0.44, "agreementsWon": 2, "redLinesCrossed": 0}
+    {"teamTwinName": "diplomacy-team-us", "satisfaction": 0.62, "agreementsWon": 5, "redLinesCrossed": 0, "batnaBeatsDeal": false, "batnaNote": "Red line states the status quo is unacceptable; BATNA is discrete confidence-building wins."},
+    {"teamTwinName": "diplomacy-team-uk", "satisfaction": 0.60, "agreementsWon": 5, "redLinesCrossed": 0, "batnaBeatsDeal": false, "batnaNote": "BATNA is incremental confidence-building; a single sovereign Cyprus needs a settlement."},
+    {"teamTwinName": "diplomacy-team-turkey", "satisfaction": 0.55, "agreementsWon": 4, "redLinesCrossed": 0, "batnaBeatsDeal": true, "batnaNote": "BATNA is the two-state fallback: a recognised TRNC under Turkish protection, which is an alternate end state, not a loss."},
+    {"teamTwinName": "diplomacy-team-trnc", "satisfaction": 0.50, "agreementsWon": 4, "redLinesCrossed": 0, "batnaBeatsDeal": true, "batnaNote": "BATNA is to seek recognition of the TRNC with Guarantor security in place."},
+    {"teamTwinName": "diplomacy-team-greece", "satisfaction": 0.47, "agreementsWon": 2, "redLinesCrossed": 0, "batnaBeatsDeal": false, "batnaNote": "BATNA is continued UN-mediated talks; restoring legality needs a settlement."},
+    {"teamTwinName": "diplomacy-team-cyprus", "satisfaction": 0.44, "agreementsWon": 2, "redLinesCrossed": 0, "batnaBeatsDeal": false, "batnaNote": "BATNA keeps the recognised Republic and its EU leverage, but reunification on acceptable terms is the stated end state, so breakdown is survivable rather than a win."}
   ],
   "debriefs": [
     {

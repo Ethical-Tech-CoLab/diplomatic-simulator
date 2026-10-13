@@ -1,12 +1,12 @@
 {
   "scoreboard": [
-    {"teamTwinName": "diplomacy-team-kazakhstan", "satisfaction": 0.85, "agreementsWon": 4, "redLinesCrossed": 0},
-    {"teamTwinName": "diplomacy-team-uzbekistan", "satisfaction": 0.80, "agreementsWon": 4, "redLinesCrossed": 0},
-    {"teamTwinName": "diplomacy-team-kyrgyzstan", "satisfaction": 0.72, "agreementsWon": 4, "redLinesCrossed": 0},
-    {"teamTwinName": "diplomacy-team-tajikistan", "satisfaction": 0.55, "agreementsWon": 3, "redLinesCrossed": 0},
-    {"teamTwinName": "diplomacy-team-russia", "satisfaction": 0.34, "agreementsWon": 1, "redLinesCrossed": 2},
-    {"teamTwinName": "diplomacy-team-china", "satisfaction": 0.88, "agreementsWon": 4, "redLinesCrossed": 0},
-    {"teamTwinName": "diplomacy-team-india", "satisfaction": 0.48, "agreementsWon": 3, "redLinesCrossed": 2}
+    {"teamTwinName": "diplomacy-team-kazakhstan", "satisfaction": 0.85, "agreementsWon": 4, "redLinesCrossed": 0, "batnaBeatsDeal": true, "batnaNote": "Red line forbids binding security, border or water agreements at this summit; BATNA defers to later talks."},
+    {"teamTwinName": "diplomacy-team-uzbekistan", "satisfaction": 0.80, "agreementsWon": 4, "redLinesCrossed": 0, "batnaBeatsDeal": true, "batnaNote": "Red line forbids binding agreements at the summit; BATNA holds the status quo."},
+    {"teamTwinName": "diplomacy-team-kyrgyzstan", "satisfaction": 0.72, "agreementsWon": 4, "redLinesCrossed": 0, "batnaBeatsDeal": true, "batnaNote": "Red line forbids final or binding agreements at the summit; BATNA holds the status quo."},
+    {"teamTwinName": "diplomacy-team-tajikistan", "satisfaction": 0.55, "agreementsWon": 3, "redLinesCrossed": 0, "batnaBeatsDeal": true, "batnaNote": "BATNA is to sign nothing binding and hold the status-quo border and water position."},
+    {"teamTwinName": "diplomacy-team-russia", "satisfaction": 0.34, "agreementsWon": 1, "redLinesCrossed": 2, "batnaBeatsDeal": true, "batnaNote": "Delegation lacks authority to sign; BATNA is to block adverse structures and defer gains."},
+    {"teamTwinName": "diplomacy-team-china", "satisfaction": 0.88, "agreementsWon": 4, "redLinesCrossed": 0, "batnaBeatsDeal": true, "batnaNote": "BATNA is to 'prevent any binding agreement, keep disputes frozen'; a comprehensive settlement is itself a Chinese red line."},
+    {"teamTwinName": "diplomacy-team-india", "satisfaction": 0.48, "agreementsWon": 3, "redLinesCrossed": 2, "batnaBeatsDeal": false, "batnaNote": "Influence in the region needs engagement; BATNA is off-summit bilateral work."}
   ],
   "debriefs": [
     {

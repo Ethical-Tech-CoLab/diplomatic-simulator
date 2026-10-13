@@ -4,37 +4,49 @@
    "teamTwinName": "diplomacy-team-rok",
    "satisfaction": 0.58,
    "agreementsWon": 4,
-   "redLinesCrossed": 0
+   "redLinesCrossed": 0,
+   "batnaBeatsDeal": false,
+   "batnaNote": "BATNA is a 'survivable' status quo; dismantlement needs a deal."
   },
   {
    "teamTwinName": "diplomacy-team-us",
    "satisfaction": 0.55,
    "agreementsWon": 4,
-   "redLinesCrossed": 0
+   "redLinesCrossed": 0,
+   "batnaBeatsDeal": true,
+   "batnaNote": "BATNA is to 'maintain the pressure architecture indefinitely' and let the talks lapse rather than reward a freeze."
   },
   {
    "teamTwinName": "diplomacy-team-china",
    "satisfaction": 0.48,
    "agreementsWon": 4,
-   "redLinesCrossed": 1
+   "redLinesCrossed": 1,
+   "batnaBeatsDeal": false,
+   "batnaNote": "Collapse of the talks is a Chinese red line and process continuity is its fallback goal; breakdown is a loss for the chair."
   },
   {
    "teamTwinName": "diplomacy-team-japan",
    "satisfaction": 0.45,
    "agreementsWon": 3,
-   "redLinesCrossed": 1
+   "redLinesCrossed": 1,
+   "batnaBeatsDeal": false,
+   "batnaNote": "BATNA is to begin Japan's own nuclear and missile capabilities, a cost, not a win."
   },
   {
    "teamTwinName": "diplomacy-team-russia",
    "satisfaction": 0.44,
    "agreementsWon": 3,
-   "redLinesCrossed": 0
+   "redLinesCrossed": 0,
+   "batnaBeatsDeal": true,
+   "batnaNote": "BATNA deepens the Pyongyang relationship 'whether or not these talks produce anything'."
   },
   {
    "teamTwinName": "diplomacy-team-dprk",
    "satisfaction": 0.42,
    "agreementsWon": 4,
-   "redLinesCrossed": 2
+   "redLinesCrossed": 2,
+   "batnaBeatsDeal": true,
+   "batnaNote": "BATNA is to walk out under pyongjin and keep advancing the deterrent, which is its primary end state."
   }
  ],
  "debriefs": [

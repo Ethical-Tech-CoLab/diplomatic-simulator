@@ -14,6 +14,11 @@ instructions*).
    across plenary rounds (opening → positioning → bargaining → closing).
 4. Analyze (`analysis.json`): scoreboard (satisfaction, red-lines crossed),
    per-party debriefs, and an SRSG convener report.
+   Each scoreboard row also carries `batnaBeatsDeal` (true when the
+   delegation's own BATNA text describes no deal as securing its primary
+   objective, so a breakdown is a win or no loss for it) and a one-line
+   `batnaNote` quoting the reason. Authored from the profile, not detector
+   output. See `analysis/settleability.md`.
 5. `build_transcript.py <manifest.json>` — roll the `moves/` files up into
    `transcript.json` + `transcript.md` for the scenario directory.
 6. `build_session.py <manifest.json> <out.json>` — assemble a `data.js`

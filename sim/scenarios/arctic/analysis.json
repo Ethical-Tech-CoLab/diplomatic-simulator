@@ -1,12 +1,12 @@
 {
   "scoreboard": [
-    {"teamTwinName": "diplomacy-team-denmark", "satisfaction": 0.75, "agreementsWon": 5, "redLinesCrossed": 0},
-    {"teamTwinName": "diplomacy-team-finland", "satisfaction": 0.72, "agreementsWon": 5, "redLinesCrossed": 1},
-    {"teamTwinName": "diplomacy-team-norway", "satisfaction": 0.68, "agreementsWon": 5, "redLinesCrossed": 1},
-    {"teamTwinName": "diplomacy-team-canada", "satisfaction": 0.66, "agreementsWon": 6, "redLinesCrossed": 1},
-    {"teamTwinName": "diplomacy-team-us", "satisfaction": 0.60, "agreementsWon": 4, "redLinesCrossed": 1},
-    {"teamTwinName": "diplomacy-team-china", "satisfaction": 0.44, "agreementsWon": 2, "redLinesCrossed": 1},
-    {"teamTwinName": "diplomacy-team-russia", "satisfaction": 0.38, "agreementsWon": 3, "redLinesCrossed": 3}
+    {"teamTwinName": "diplomacy-team-denmark", "satisfaction": 0.75, "agreementsWon": 5, "redLinesCrossed": 0, "batnaBeatsDeal": true, "batnaNote": "BATNA preserves the status quo (Pituffik, unadjudicated ridge claims) rather than conceding."},
+    {"teamTwinName": "diplomacy-team-finland", "satisfaction": 0.72, "agreementsWon": 5, "redLinesCrossed": 1, "batnaBeatsDeal": false, "batnaNote": "Inclusion in Arctic Five decisions needs a deal; the BATNA is EU/NATO guarantees, not the goal."},
+    {"teamTwinName": "diplomacy-team-norway", "satisfaction": 0.68, "agreementsWon": 5, "redLinesCrossed": 1, "batnaBeatsDeal": true, "batnaNote": "BATNA keeps the TFPZ in place unilaterally under the Svalbard Treaty and UNCLOS."},
+    {"teamTwinName": "diplomacy-team-canada", "satisfaction": 0.66, "agreementsWon": 6, "redLinesCrossed": 1, "batnaBeatsDeal": true, "batnaNote": "BATNA keeps the NWP regulated as internal waters and leans on NATO/NORAD; every red line is defensive, so no deal costs Canada nothing."},
+    {"teamTwinName": "diplomacy-team-us", "satisfaction": 0.60, "agreementsWon": 4, "redLinesCrossed": 1, "batnaBeatsDeal": true, "batnaNote": "BATNA is unilateral presence and freedom-of-navigation operations rather than any concession."},
+    {"teamTwinName": "diplomacy-team-china", "satisfaction": 0.44, "agreementsWon": 2, "redLinesCrossed": 1, "batnaBeatsDeal": false, "batnaNote": "BATNA is to 'play the long game to erode resistance'; membership and access need a deal."},
+    {"teamTwinName": "diplomacy-team-russia", "satisfaction": 0.38, "agreementsWon": 3, "redLinesCrossed": 3, "batnaBeatsDeal": true, "batnaNote": "BATNA is to proceed unilaterally with extraction, NSR regulation and posture."}
   ],
   "debriefs": [
     {

@@ -4,43 +4,57 @@
    "teamTwinName": "diplomacy-team-china",
    "satisfaction": 0.82,
    "agreementsWon": 2,
-   "redLinesCrossed": 0
+   "redLinesCrossed": 0,
+   "batnaBeatsDeal": true,
+   "batnaNote": "BATNA text: 'Do nothing and win: the status quo already secures our claims, our corridor and our position.'"
   },
   {
    "teamTwinName": "diplomacy-team-india",
    "satisfaction": 0.74,
    "agreementsWon": 3,
-   "redLinesCrossed": 0
+   "redLinesCrossed": 0,
+   "batnaBeatsDeal": true,
+   "batnaNote": "BATNA text: 'Walk away and hold'; every Indian red line is satisfied by no agreement."
   },
   {
    "teamTwinName": "diplomacy-team-russia",
    "satisfaction": 0.7,
    "agreementsWon": 2,
-   "redLinesCrossed": 0
+   "redLinesCrossed": 0,
+   "batnaBeatsDeal": true,
+   "batnaNote": "BATNA text: 'Lose nothing'; the status quo already forecloses the precedent Moscow fears."
   },
   {
    "teamTwinName": "diplomacy-team-us",
    "satisfaction": 0.46,
    "agreementsWon": 2,
-   "redLinesCrossed": 1
+   "redLinesCrossed": 1,
+   "batnaBeatsDeal": false,
+   "batnaNote": "De-escalation, autonomy in a text and an investigation need agreement; BATNA is bilateral management."
   },
   {
    "teamTwinName": "diplomacy-team-uk",
    "satisfaction": 0.44,
    "agreementsWon": 2,
-   "redLinesCrossed": 0
+   "redLinesCrossed": 0,
+   "batnaBeatsDeal": false,
+   "batnaNote": "Autonomy on a ballot and an international investigation need an agreed text; BATNA keeps the file at the Council."
   },
   {
    "teamTwinName": "diplomacy-team-pakistan",
    "satisfaction": 0.38,
    "agreementsWon": 2,
-   "redLinesCrossed": 0
+   "redLinesCrossed": 0,
+   "batnaBeatsDeal": true,
+   "batnaNote": "BATNA is to keep the dispute internationalised and unresolved while costs 'accumulate against New Delhi'; the plebiscite goal is unmet either way."
   },
   {
    "teamTwinName": "diplomacy-team-kashmir",
    "satisfaction": 0.34,
    "agreementsWon": 1,
-   "redLinesCrossed": 1
+   "redLinesCrossed": 1,
+   "batnaBeatsDeal": false,
+   "batnaNote": "Autonomy, investigation and repatriation all need a text; BATNA is a boycott and an open file."
   }
  ],
  "debriefs": [
